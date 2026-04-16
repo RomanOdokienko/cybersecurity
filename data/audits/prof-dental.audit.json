@@ -501,17 +501,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/contacts",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"contacts\"",
@@ -521,17 +510,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/contacts",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/about",
@@ -545,17 +523,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/about",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/bosulaev-aleksej-vladimirovich",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"bosulaev-aleksej-vladimirovich\"",
@@ -565,17 +532,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/bosulaev-aleksej-vladimirovich",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/brushing",
@@ -589,17 +545,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/brushing",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/byugelnyie-protezyi",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"byugelnyie-protezyi\"",
@@ -609,17 +554,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/byugelnyie-protezyi",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/caries",
@@ -633,17 +567,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/caries",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/children",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"children\"",
@@ -655,17 +578,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/children",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/comprehensive-oral-hygiene",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"comprehensive-oral-hygiene\"",
@@ -675,17 +587,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/comprehensive-oral-hygiene",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/comprehensive-oral-hygiene",
@@ -710,17 +611,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/consultation",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/dioksid-czirkoniya",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"dioksid-czirkoniya\"",
@@ -730,17 +620,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/dioksid-czirkoniya",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/educational-project",
@@ -754,17 +633,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/educational-project",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/endodontics",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"endodontics\"",
@@ -776,17 +644,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/endodontics",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/extraction",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"extraction\"",
@@ -796,17 +653,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/extraction",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/extraction",
@@ -831,17 +677,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/faq",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/ftorlak",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"ftorlak\"",
@@ -851,17 +686,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/ftorlak",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/gingivit",
@@ -875,17 +699,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/gingivit",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/implantacziya-po-texnologii-all-on-4",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"implantacziya-po-texnologii-all-on-4\"",
@@ -895,17 +708,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/implantacziya-po-texnologii-all-on-4",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/implantacziya-po-texnologii-all-on-4",
@@ -928,17 +730,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/implantacziya-po-texnologii-all-on-6",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/implantacziya-po-texnologii-all-on-6",
@@ -961,17 +752,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/implantacziya-sistemoj-astra-tech",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/implantacziya-sistemoj-astra-tech",
@@ -996,17 +776,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/implantacziya-zubov-pod-klyuch",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/implantation",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"implantation\"",
@@ -1016,17 +785,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/implantation",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/implantyi-ankylos",
@@ -1040,17 +798,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/implantyi-ankylos",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/implantyi-astra-tech",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"implantyi-astra-tech\"",
@@ -1060,17 +807,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/implantyi-astra-tech",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/implantyi-dentium",
@@ -1084,17 +820,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/implantyi-dentium",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/implantyi-implantium",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"implantyi-implantium\"",
@@ -1104,17 +829,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/implantyi-implantium",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/kapa",
@@ -1128,17 +842,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/kapa",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/keramicheskie-breketyi-damon",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"keramicheskie-breketyi-damon\"",
@@ -1148,17 +851,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/keramicheskie-breketyi-damon",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/keramicheskie-vkladki-yaponiya",
@@ -1172,17 +864,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/keramicheskie-vkladki-yaponiya",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/kombinirovannyie-zubnyie-protezyi",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"kombinirovannyie-zubnyie-protezyi\"",
@@ -1192,17 +873,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/kombinirovannyie-zubnyie-protezyi",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/lechenie-chuvstvitelnosti-zubov",
@@ -1216,17 +886,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/lechenie-chuvstvitelnosti-zubov",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/lechenie-kariesa-zubov",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"lechenie-kariesa-zubov\"",
@@ -1236,17 +895,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/lechenie-kariesa-zubov",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/lechenie-kistyi-zuba",
@@ -1260,17 +908,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/lechenie-kistyi-zuba",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/lechenie-na-elajnerax",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"lechenie-na-elajnerax\"",
@@ -1280,17 +917,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/lechenie-na-elajnerax",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/lyuminiryi",
@@ -1304,17 +930,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/lyuminiryi",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/metallicheskie-breketyi-damon",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"metallicheskie-breketyi-damon\"",
@@ -1324,17 +939,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/metallicheskie-breketyi-damon",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/metallokeramicheskie-koronki",
@@ -1348,17 +952,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/metallokeramicheskie-koronki",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/nejlonovyie-protezyi",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"nejlonovyie-protezyi\"",
@@ -1368,17 +961,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/nejlonovyie-protezyi",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/nesemnyie-protezyi",
@@ -1392,17 +974,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/nesemnyie-protezyi",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/obuchenie-chistke-zubov",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"obuchenie-chistke-zubov\"",
@@ -1412,17 +983,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/obuchenie-chistke-zubov",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/ochistka-zubov-metodom-air-flow",
@@ -1436,17 +996,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/ochistka-zubov-metodom-air-flow",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/offers",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"offers\"",
@@ -1456,17 +1005,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/offers",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/orthodontics",
@@ -1480,17 +1018,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/orthodontics",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/osteoplastika",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"osteoplastika\"",
@@ -1500,17 +1027,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/osteoplastika",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/otbelivanie-zubov-amazing-white",
@@ -1524,17 +1040,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/otbelivanie-zubov-amazing-white",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/otbelivanie-zubov-metodom-zoom",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"otbelivanie-zubov-metodom-zoom\"",
@@ -1544,17 +1049,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/otbelivanie-zubov-metodom-zoom",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/parodontit",
@@ -1568,17 +1062,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/parodontit",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/parodontit-apparat-vektor",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"parodontit-apparat-vektor\"",
@@ -1588,17 +1071,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/parodontit-apparat-vektor",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/parodontoz",
@@ -1612,17 +1084,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/parodontoz",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/periodontit",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"periodontit\"",
@@ -1632,17 +1093,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/periodontit",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/periodontology",
@@ -1656,17 +1106,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/periodontology",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/personal",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"personal\"",
@@ -1676,17 +1115,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/personal",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/pervichnyij-priem",
@@ -1700,17 +1128,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/pervichnyij-priem",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/plan-lecheniya",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"plan-lecheniya\"",
@@ -1720,17 +1137,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/plan-lecheniya",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/plastika-desnyi",
@@ -1744,17 +1150,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/plastika-desnyi",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/plastinochnyie-zubnyie-protezyi",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"plastinochnyie-zubnyie-protezyi\"",
@@ -1764,17 +1159,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/plastinochnyie-zubnyie-protezyi",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/plombirovanie-kanalov",
@@ -1788,17 +1172,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/plombirovanie-kanalov",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/plombirovanie-zubov",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"plombirovanie-zubov\"",
@@ -1808,17 +1181,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/plombirovanie-zubov",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/polnoe-protezirovanie-zubov",
@@ -1832,17 +1194,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/polnoe-protezirovanie-zubov",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/portfolio",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"portfolio\"",
@@ -1852,17 +1203,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/portfolio",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/price",
@@ -1876,17 +1216,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/price",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/privacy-policy",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"privacy-policy\"",
@@ -1895,18 +1224,7 @@
       "checked": false,
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
-      "policy_poc": "<form action=\"privacy-policy\" method=\"post\" class=\"ajax_form form_appointment_holder\"> <input type=\"hidden\" name=\"csrf_token\" value=\"MTc3NjM0NDc4NC0tZjk3NDMwNTY3MmY2Yzc3NmJlMTNjZ"
-    },
-    {
-      "page": "https://prof-dental.ru/privacy-policy",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
+      "policy_poc": "<form action=\"privacy-policy\" method=\"post\" class=\"ajax_form form_appointment_holder\"> <input type=\"hidden\" name=\"csrf_token\" value=\"MTc3NjM0OTY5OS0tMjViYWQ3MzlhNDZlNDIzZWVlOGFkY"
     },
     {
       "page": "https://prof-dental.ru/prosthetics",
@@ -1920,17 +1238,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/prosthetics",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/protezirovanie-koronkami",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"protezirovanie-koronkami\"",
@@ -1940,17 +1247,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/protezirovanie-koronkami",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/protezirovanie-koronkami",
@@ -1975,17 +1271,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/pulpit",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/reliable-suppliers",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"reliable-suppliers\"",
@@ -1995,17 +1280,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/reliable-suppliers",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/semnyie-protezyi",
@@ -2019,17 +1293,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/semnyie-protezyi",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/service",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"service\"",
@@ -2041,17 +1304,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/service",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/speczialnoe-predlozhenie-lechenie-kariesa",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"speczialnoe-predlozhenie-lechenie-kariesa\"",
@@ -2061,17 +1313,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/speczialnoe-predlozhenie-lechenie-kariesa",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/speczialnoe-predlozhenie-lechenie-kariesa",
@@ -2096,17 +1337,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/surxaev-nazir-axmedovich",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/tadtaeva-diana-vadimovna",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"tadtaeva-diana-vadimovna\"",
@@ -2116,17 +1346,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/tadtaeva-diana-vadimovna",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/tarsaev-dagun-sultanovich",
@@ -2140,17 +1359,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/tarsaev-dagun-sultanovich",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/udalenie-zuba-mudrosti",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"udalenie-zuba-mudrosti\"",
@@ -2160,17 +1368,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/udalenie-zuba-mudrosti",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/udalenie-zuba-prostoe",
@@ -2184,17 +1381,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/udalenie-zuba-prostoe",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/udalenie-zuba-slozhnoe",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"udalenie-zuba-slozhnoe\"",
@@ -2204,17 +1390,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/udalenie-zuba-slozhnoe",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/ultrazvuk",
@@ -2228,17 +1403,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/ultrazvuk",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/uslovno-semnyie-protezyi-na-implantax",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"uslovno-semnyie-protezyi-na-implantax\"",
@@ -2248,17 +1412,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/uslovno-semnyie-protezyi-na-implantax",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/ustanovit-breketyi-rebenku",
@@ -2272,17 +1425,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/ustanovit-breketyi-rebenku",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/viniryi",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"viniryi\"",
@@ -2292,17 +1434,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/viniryi",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     },
     {
       "page": "https://prof-dental.ru/whitening",
@@ -2316,17 +1447,6 @@
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
     },
     {
-      "page": "https://prof-dental.ru/whitening",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
       "page": "https://prof-dental.ru/xanaev-david-borisovich",
       "form_id": "ajax_form form_appointment_holder",
       "action_display": "action=\"xanaev-david-borisovich\"",
@@ -2336,17 +1456,6 @@
       "has_policy_text": true,
       "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkDefault\" required />",
       "policy_poc": "\"form-check-label\" for=\"checkDefault\"> <small> Нажимая кнопку, я принимаю <a href=\"privacy-policy\">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных. </small> </label> </div> </div> </div> <input type=\"hi"
-    },
-    {
-      "page": "https://prof-dental.ru/xanaev-david-borisovich",
-      "form_id": "simplesearch-search-form",
-      "action_display": "action=\"search\"",
-      "open_tag": "<form class=\"simplesearch-search-form\" action=\"search\" method=\"get\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
     }
   ],
   "emails": [

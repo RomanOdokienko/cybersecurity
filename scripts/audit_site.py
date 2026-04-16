@@ -409,6 +409,10 @@ def run_audit(base_url: str):
             emails.add(em)
 
         for i, form_html in enumerate(extract_forms(html), 1):
+            # Ignore technical/search forms; checkbox requirement applies to lead forms.
+            if not has_lead_form_fields(form_html):
+                continue
+
             opentag = form_open_tag(form_html)
             aval, aq = get_attr(opentag, 'action')
             if aval is None:

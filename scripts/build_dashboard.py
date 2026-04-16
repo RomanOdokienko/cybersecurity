@@ -1,6 +1,10 @@
 ﻿import json
 import html
+import re
+from functools import lru_cache
 from pathlib import Path
+from urllib.parse import urlencode, urlparse
+from urllib.request import Request, urlopen
 
 ROOT = Path(r"D:\разработка\Кибербеза 2.0")
 MANIFEST = ROOT / "data" / "sites_manifest.json"
@@ -8,6 +12,13 @@ MANIFEST = ROOT / "data" / "sites_manifest.json"
 EXTERNAL_EMAIL_DOMAINS = {
     "gmail.com", "yandex.ru", "mail.ru", "bk.ru", "inbox.ru", "list.ru", "ya.ru"
 }
+
+
+def site_host(value: str) -> str:
+    host = urlparse(site_url(value)).netloc.lower().split(":", 1)[0]
+    if host.startswith("www."):
+        host = host[4:]
+    return host
 
 
 def read_json(path: Path):
@@ -33,10 +44,21 @@ def badge_class(label: str) -> str:
         "проверить": "warn",
         "н/п": "na",
         "-": "na",
+        "текстом": "bad",
+        "checked": "bad",
+        "не найдено": "bad",
+        "unchecked": "ok",
         "слать": "ok",
         "не слать": "bad",
     }
-    return mapping.get(label, "na")
+    if label in mapping:
+        return mapping[label]
+    low = str(label).lower()
+    if "unchecked" in low:
+        return "ok"
+    if any(x in low for x in ["checked", "не найдено", "текстом"]):
+        return "bad"
+    return "na"
 
 
 def source_label(source: str) -> str:
@@ -68,6 +90,224 @@ def select_found_pages_for_availability(pages, source_map):
     non_fallback = [p for p in pages if source_map.get(p.get("requested"), "") != "fallback"]
     core = [p for p in non_fallback if is_core_discovery_source(source_map.get(p.get("requested"), ""))]
     return core if core else non_fallback
+
+
+def classify_form_consent(form):
+    if form.get("has_checkbox"):
+        return "checked" if form.get("checked") is True else "unchecked"
+    if form.get("has_policy_text"):
+        return "текстом"
+    return "не найдено"
+
+
+def parse_email_domain(email: str):
+    e = str(email or "").strip().lower()
+    if "@" not in e:
+        return None
+    local, domain = e.rsplit("@", 1)
+    domain = domain.strip().strip(".")
+    if not local or not domain or "." not in domain:
+        return None
+    labels = domain.split(".")
+    if len(labels) < 2:
+        return None
+    if not re.fullmatch(r"[a-z]{2,63}", labels[-1]):
+        return None
+    for label in labels:
+        if not re.fullmatch(r"[a-z0-9-]{1,63}", label):
+            return None
+        if label.startswith("-") or label.endswith("-"):
+            return None
+    # Reject obviously technical artifacts like 4.2.2.js (no alphabetic host label).
+    if not any(re.search(r"[a-z]", lbl) for lbl in labels[:-1]):
+        return None
+    return domain
+
+
+def collect_email_candidates(item, audit):
+    host = site_host(item.get("site", ""))
+    seen = set()
+    out = []
+
+    raw = []
+    m = str(item.get("contact_email", "") or "").strip()
+    if m:
+        raw.append(("manifest", m))
+    for x in audit.get("emails", []) or []:
+        e = str(x or "").strip()
+        if e:
+            raw.append(("audit", e))
+
+    for source, email in raw:
+        em = email.lower()
+        if em in seen:
+            continue
+        seen.add(em)
+        domain = parse_email_domain(em)
+        if not domain:
+            continue
+        out.append({
+            "source": source,
+            "email": em,
+            "domain": domain,
+            "is_external": domain in EXTERNAL_EMAIL_DOMAINS,
+            "is_site_related": (
+                domain == host
+                or host.endswith("." + domain)
+                or domain.endswith("." + host)
+            ),
+        })
+    return out
+
+
+def pick_email_candidate(item, audit):
+    cands = collect_email_candidates(item, audit)
+    if not cands:
+        return None
+    manifest_cands = [c for c in cands if c["source"] == "manifest"]
+    if manifest_cands:
+        return sorted(
+            manifest_cands,
+            key=lambda c: (
+                1 if c["is_external"] else 0,
+                0 if c["is_site_related"] else 1,
+                len(c["domain"]),
+            ),
+        )[0]
+    return sorted(
+        cands,
+        key=lambda c: (
+            1 if c["is_external"] else 0,
+            0 if c["is_site_related"] else 1,
+            len(c["domain"]),
+        ),
+    )[0]
+
+
+def normalize_dns_txt(data: str):
+    s = str(data or "").strip()
+    parts = re.findall(r'"([^"]*)"', s)
+    if parts:
+        return "".join(parts).strip()
+    return s.strip('"').strip()
+
+
+@lru_cache(maxsize=1024)
+def dns_txt_records(name: str):
+    query = urlencode({"name": name, "type": "TXT"})
+    urls = [
+        f"https://dns.google/resolve?{query}",
+        f"https://cloudflare-dns.com/dns-query?{query}",
+    ]
+    last_err = None
+
+    for url in urls:
+        try:
+            req = Request(url, headers={"accept": "application/dns-json", "user-agent": "Mozilla/5.0"})
+            with urlopen(req, timeout=8) as resp:
+                data = json.loads(resp.read().decode("utf-8", errors="ignore"))
+            status = int(data.get("Status", 0))
+            answers = data.get("Answer") or []
+            txt = [normalize_dns_txt(a.get("data", "")) for a in answers if int(a.get("type", 0)) == 16]
+            return {"ok": True, "rcode": status, "txt": txt}
+        except Exception as exc:
+            last_err = str(exc)
+
+    return {"ok": False, "rcode": None, "txt": [], "error": last_err or "lookup failed"}
+
+
+def find_tag_value(record: str, tag: str):
+    m = re.search(rf"(?i)(?:^|;)\s*{re.escape(tag)}\s*=\s*([^;\s]+)", record or "")
+    return m.group(1).strip() if m else None
+
+
+def short_record(value: str, limit: int = 120):
+    s = str(value or "").strip()
+    return s if len(s) <= limit else s[: limit - 1] + "…"
+
+
+def evaluate_spf_dmarc(item, audit):
+    cand = pick_email_candidate(item, audit)
+    if not cand:
+        return "проверить", [
+            "Email для проверки не найден (ни в манифесте, ни на страницах сайта)."
+        ], ""
+
+    email = cand["email"]
+    domain = cand["domain"]
+    source_label_txt = "манифест" if cand["source"] == "manifest" else "найден на сайте"
+
+    if cand["is_external"]:
+        return "н/п", [
+            f"Email: {email} ({source_label_txt})",
+            f"Домен {domain} — сторонний почтовый сервис, не почтовый домен клиники.",
+            "Для этой проверки SPF/DMARC не оценивается.",
+            "Что проверить дальше: найти корпоративный email домена клиники и проверить SPF/DMARC уже для него.",
+        ], email
+
+    spf_lookup = dns_txt_records(domain)
+    dmarc_lookup = dns_txt_records(f"_dmarc.{domain}")
+
+    issues = []
+    warns = []
+    lines = [
+        f"Email: {email} ({source_label_txt})",
+        f"Домен проверки: {domain}",
+    ]
+
+    spf_info = "не найден"
+    if not spf_lookup.get("ok"):
+        warns.append(f"SPF DNS lookup error: {spf_lookup.get('error')}")
+        spf_info = "ошибка DNS lookup"
+    else:
+        spf_records = [r for r in spf_lookup.get("txt", []) if r.lower().startswith("v=spf1")]
+        if not spf_records:
+            issues.append("SPF не найден")
+        elif len(spf_records) > 1:
+            issues.append(f"Найдено несколько SPF записей ({len(spf_records)})")
+            spf_info = short_record(spf_records[0])
+        else:
+            spf_info = short_record(spf_records[0])
+            if re.search(r"(?i)(^|\s)\+all(\s|$)", spf_records[0]):
+                warns.append("SPF содержит +all (слишком широкая политика)")
+
+    dmarc_info = "не найден"
+    if not dmarc_lookup.get("ok"):
+        warns.append(f"DMARC DNS lookup error: {dmarc_lookup.get('error')}")
+        dmarc_info = "ошибка DNS lookup"
+    else:
+        dmarc_records = [r for r in dmarc_lookup.get("txt", []) if r.lower().startswith("v=dmarc1")]
+        if not dmarc_records:
+            issues.append("DMARC не найден")
+        elif len(dmarc_records) > 1:
+            issues.append(f"Найдено несколько DMARC записей ({len(dmarc_records)})")
+            dmarc_info = short_record(dmarc_records[0])
+        else:
+            dmarc_info = short_record(dmarc_records[0])
+            p = (find_tag_value(dmarc_records[0], "p") or "").lower()
+            if not p:
+                warns.append("DMARC без p= политики")
+            elif p == "none":
+                warns.append("DMARC p=none (мониторинг без enforcement)")
+            elif p not in {"quarantine", "reject"}:
+                warns.append(f"DMARC p={p} (нестандартная политика)")
+
+    lines.append(f"SPF: {spf_info}")
+    lines.append(f"DMARC: {dmarc_info}")
+
+    if issues:
+        lines.append("Проблемы: " + "; ".join(issues))
+    if warns:
+        lines.append("Замечания: " + "; ".join(warns))
+
+    if issues:
+        status = "проблема"
+    elif warns:
+        status = "проверить"
+    else:
+        status = "ок"
+
+    return status, lines, email
 
 
 def compute_summary(item, audit):
@@ -102,20 +342,22 @@ def compute_summary(item, audit):
     bad_https_forms = [f for f in forms if "http://" in str(f.get("action_display", "")).lower()]
     form_https_status = "ок" if not bad_https_forms else "проблема"
 
-    forms_without_checkbox = [f for f in forms if not f.get("has_checkbox")]
-    form_checkbox_status = "ок" if not forms_without_checkbox else "проблема"
+    consent_buckets = {"текстом": [], "checked": [], "не найдено": [], "unchecked": []}
+    for f in forms:
+        consent_buckets[classify_form_consent(f)].append(f)
+    consent_counts = {k: len(v) for k, v in consent_buckets.items()}
 
-    email = item.get("contact_email", "")
-    domain = email.split("@")[-1].lower() if "@" in email else ""
-    if domain in EXTERNAL_EMAIL_DOMAINS:
-        spf_dmarc_status = "н/п"
-        spf_dmarc_poc = f"Email: {email} (сторонний сервис)"
-    elif email:
-        spf_dmarc_status = "проверить"
-        spf_dmarc_poc = f"Email: {email} (домен требует SPF/DMARC-проверки DNS)"
+    if not forms:
+        consent_status = "не найдено"
     else:
-        spf_dmarc_status = "проверить"
-        spf_dmarc_poc = "Контактный email не задан в манифесте"
+        negative_labels = []
+        for label in ["checked", "не найдено", "текстом"]:
+            if consent_buckets[label]:
+                negative_labels.append(label)
+        consent_status = " + ".join(negative_labels) if negative_labels else "unchecked"
+
+    spf_dmarc_status, spf_dmarc_lines, email = evaluate_spf_dmarc(item, audit)
+    spf_dmarc_poc = " | ".join(spf_dmarc_lines)
 
     meta_status = "ок" if not forbidden else "проблема"
     policy_status = "ок" if privacy else "проблема"
@@ -127,14 +369,16 @@ def compute_summary(item, audit):
             "availability_poc": availability_poc,
             "cert_status": "-",
             "form_https_status": "-",
-            "form_checkbox_status": "-",
+            "consent_status": "-",
             "spf_dmarc_status": "-",
             "meta_status": "-",
             "policy_status": "-",
             "result": "-",
             "bad_https_forms": [],
-            "forms_without_checkbox": [],
+            "consent_buckets": {"текстом": [], "checked": [], "не найдено": [], "unchecked": []},
+            "consent_counts": {"текстом": 0, "checked": 0, "не найдено": 0, "unchecked": 0},
             "spf_dmarc_poc": "Не проверено: сайт недоступен.",
+            "spf_dmarc_lines": ["Не проверено: сайт недоступен."],
             "email": email,
         }
 
@@ -144,14 +388,16 @@ def compute_summary(item, audit):
         "availability_poc": availability_poc,
         "cert_status": cert_status,
         "form_https_status": form_https_status,
-        "form_checkbox_status": form_checkbox_status,
+        "consent_status": consent_status,
         "spf_dmarc_status": spf_dmarc_status,
         "meta_status": meta_status,
         "policy_status": policy_status,
         "result": item.get("result", "проверить"),
         "bad_https_forms": bad_https_forms,
-        "forms_without_checkbox": forms_without_checkbox,
+        "consent_buckets": consent_buckets,
+        "consent_counts": consent_counts,
         "spf_dmarc_poc": spf_dmarc_poc,
+        "spf_dmarc_lines": spf_dmarc_lines,
         "email": email,
     }
 
@@ -166,7 +412,7 @@ def row_html(row_num, site_id, clinic, site, s):
       <td class=\"availability-col\"><span class=\"badge availability-badge {badge_class(s['availability_status'])}\">{esc(s['availability_status'])}</span></td>
       <td><span class=\"badge {badge_class(s['cert_status'])}\">{esc(s['cert_status'])}</span></td>
       <td><span class=\"badge {badge_class(s['form_https_status'])}\">{esc(s['form_https_status'])}</span></td>
-      <td><span class=\"badge {badge_class(s['form_checkbox_status'])}\">{esc(s['form_checkbox_status'])}</span></td>
+      <td><span class=\"badge consent-badge {badge_class(s['consent_status'])}\">{esc(s['consent_status'])}</span></td>
       <td><span class=\"badge {badge_class(s['spf_dmarc_status'])}\">{esc(s['spf_dmarc_status'])}</span></td>
       <td><span class=\"badge {badge_class(s['meta_status'])}\">{esc(s['meta_status'])}</span></td>
       <td><span class=\"badge {badge_class(s['policy_status'])}\">{esc(s['policy_status'])}</span></td>
@@ -243,16 +489,20 @@ def build_detail_page(item, audit, s):
             form_https_lines.append(f"Пример action: {x}")
 
     if s.get("site_unavailable"):
-        form_checkbox_lines = ["Не проверено: сайт недоступен."]
+        consent_lines = ["Не проверено: сайт недоступен."]
     else:
-        form_checkbox_lines = [
+        consent_lines = [
             f"Всего форм: {len(audit.get('forms', []))}",
-            f"Без checkbox: {len(s['forms_without_checkbox'])}",
+            f"unchecked: {s['consent_counts']['unchecked']}",
+            f"checked: {s['consent_counts']['checked']}",
+            f"текстом: {s['consent_counts']['текстом']}",
+            f"не найдено: {s['consent_counts']['не найдено']}",
         ]
-        for f in s["forms_without_checkbox"][:40]:
-            form_checkbox_lines.append(f"{f.get('page')} | {f.get('form_id')} | {f.get('action_display')}")
+        for label in ["не найдено", "checked", "текстом"]:
+            for f in s["consent_buckets"][label][:20]:
+                consent_lines.append(f"{label} | {f.get('page')} | {f.get('form_id')} | {f.get('action_display')}")
 
-    spf_lines = [s["spf_dmarc_poc"]]
+    spf_lines = s.get("spf_dmarc_lines") or [s["spf_dmarc_poc"]]
 
     meta_lines = []
     if s.get("site_unavailable"):
@@ -283,7 +533,7 @@ def build_detail_page(item, audit, s):
         details_section("Fallback-пробы URL", "проверить" if fallback_pages else "ок", fallback_pages or ["Не применялся."]),
         details_section("Сертификат", s["cert_status"], cert_lines),
         details_section("Форма: HTTPS", s["form_https_status"], form_https_lines),
-        details_section("Форма: галочка", s["form_checkbox_status"], form_checkbox_lines),
+        details_section("Согласие", s["consent_status"], consent_lines),
         details_section("SPF/DMARC", s["spf_dmarc_status"], spf_lines),
         details_section("Meta / Instagram", s["meta_status"], meta_lines),
         details_section("Политика", s["policy_status"], policy_lines),
@@ -400,6 +650,7 @@ def main():
     .site-link:hover {{ color:#24324f; text-decoration:none; border-bottom-color:#24324f; }}
     .clinic {{ font-weight:700; font-size:11px; overflow-wrap:anywhere; }}
     .badge {{ display:inline-block; padding:3px 8px; border-radius:999px; border:1px solid transparent; font-size:11px; font-weight:700; line-height:1.2; white-space:nowrap; }}
+    .consent-badge {{ font-size:10px; padding:3px 7px; white-space:normal; line-height:1.15; max-width:100%; }}
     .ok {{ background:var(--ok-bg); color:var(--ok-fg); border-color:#c8efd9; }}
     .warn {{ background:var(--warn-bg); color:var(--warn-fg); border-color:#f0d889; }}
     .bad {{ background:var(--bad-bg); color:var(--bad-fg); border-color:#f7c4c8; }}
@@ -411,10 +662,10 @@ def main():
     thead th:nth-child(3), tbody td:nth-child(3) {{ width:10%; }}
     thead th:nth-child(4), tbody td:nth-child(4) {{ width:14%; }}
     thead th:nth-child(5), tbody td:nth-child(5) {{ width:9%; }}
-    thead th:nth-child(6), tbody td:nth-child(6) {{ width:9%; }}
-    thead th:nth-child(7), tbody td:nth-child(7) {{ width:9%; }}
-    thead th:nth-child(8), tbody td:nth-child(8) {{ width:9%; }}
-    thead th:nth-child(9), tbody td:nth-child(9) {{ width:10%; }}
+    thead th:nth-child(6), tbody td:nth-child(6) {{ width:8%; }}
+    thead th:nth-child(7), tbody td:nth-child(7) {{ width:12%; }}
+    thead th:nth-child(8), tbody td:nth-child(8) {{ width:8%; }}
+    thead th:nth-child(9), tbody td:nth-child(9) {{ width:9%; }}
     thead th:nth-child(10), tbody td:nth-child(10) {{ width:6%; }}
     thead th:nth-child(11), tbody td:nth-child(11) {{ width:6%; }}
   </style>
@@ -437,7 +688,7 @@ def main():
       <table>
         <thead>
           <tr>
-            <th>ID</th><th>Клиника</th><th>Сайт</th><th class=\"availability-col\">Доступность сайта</th><th>Сертификат</th><th>Форма: HTTPS</th><th>Форма: галочка</th><th>SPF / DMARC</th><th>Meta / Instagram</th><th>Политика</th><th>Итог</th>
+            <th>ID</th><th>Клиника</th><th>Сайт</th><th class=\"availability-col\">Доступность сайта</th><th>Сертификат</th><th>Форма: HTTPS</th><th>Согласие</th><th>SPF / DMARC</th><th>Meta / Instagram</th><th>Политика</th><th>Итог</th>
           </tr>
         </thead>
         <tbody>
