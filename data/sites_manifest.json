@@ -261,7 +261,7 @@
     "site": "interdent.obiz.ru",
     "audit_file": "data/audits/interdent-obiz-ru.audit.json",
     "contact_email": "",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "kalamkarov-clinic-ru",
@@ -269,7 +269,7 @@
     "site": "kalamkarov-clinic.ru",
     "audit_file": "data/audits/kalamkarov-clinic-ru.audit.json",
     "contact_email": "stomprofkalamkarov@mail.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "artoksclinic-ru",
@@ -277,7 +277,7 @@
     "site": "artoksclinic.ru",
     "audit_file": "data/audits/artoksclinic-ru.audit.json",
     "contact_email": "artoksclinic@gmail.com",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "happydents-ru",
@@ -285,7 +285,7 @@
     "site": "happydents.ru",
     "audit_file": "data/audits/happydents-ru.audit.json",
     "contact_email": "clinica@happydents.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "recstom-ru",
@@ -293,7 +293,7 @@
     "site": "recstom.ru",
     "audit_file": "data/audits/recstom-ru.audit.json",
     "contact_email": "info@recstom.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "ruttamed-ru",
@@ -301,7 +301,7 @@
     "site": "ruttamed.ru",
     "audit_file": "data/audits/ruttamed-ru.audit.json",
     "contact_email": "",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "drkogina-ru",
@@ -309,15 +309,15 @@
     "site": "drkogina.ru",
     "audit_file": "data/audits/drkogina-ru.audit.json",
     "contact_email": "",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "leninskiy-prezi-dent-ru",
-    "clinic": "????????? ?????????",
+    "clinic": "ПрезиДЕНТ Ленинский",
     "site": "leninskiy.prezi-dent.ru",
     "audit_file": "data/audits/leninskiy-prezi-dent-ru.audit.json",
     "contact_email": "",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "weident-ru",
@@ -325,7 +325,7 @@
     "site": "weident.ru",
     "audit_file": "data/audits/weident-ru.audit.json",
     "contact_email": "mail@weident.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "babyvitadent-ru",
@@ -333,7 +333,7 @@
     "site": "babyvitadent.ru",
     "audit_file": "data/audits/babyvitadent-ru.audit.json",
     "contact_email": "baby@bvdent.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "feelclinic-ru",
@@ -341,7 +341,7 @@
     "site": "feelclinic.ru",
     "audit_file": "data/audits/feelclinic-ru.audit.json",
     "contact_email": "feelclinic@yandex.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "gic-dent-ru",
@@ -349,7 +349,7 @@
     "site": "gic-dent.ru",
     "audit_file": "data/audits/gic-dent-ru.audit.json",
     "contact_email": "info@gicdent.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "armclinic-ru",
@@ -357,7 +357,7 @@
     "site": "armclinic.ru",
     "audit_file": "data/audits/armclinic-ru.audit.json",
     "contact_email": "info@armclinic.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "la-peregrina-ru",
@@ -365,15 +365,15 @@
     "site": "la-peregrina.ru",
     "audit_file": "data/audits/la-peregrina-ru.audit.json",
     "contact_email": "marketing@la-peregrina.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "vse-svoi-ru-msk-online",
-    "clinic": "??? ???? (MSK Online)",
+    "clinic": "Все Свои (MSK Online)",
     "site": "vse-svoi.ru/msk/online",
     "audit_file": "data/audits/vse-svoi-ru-msk-online.audit.json",
     "contact_email": "",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "amitydental-ru",
@@ -381,7 +381,7 @@
     "site": "amitydental.ru",
     "audit_file": "data/audits/amitydental-ru.audit.json",
     "contact_email": "amitydent2@yandex.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "led-clinic-ru",
@@ -389,7 +389,7 @@
     "site": "led-clinic.ru",
     "audit_file": "data/audits/led-clinic-ru.audit.json",
     "contact_email": "info@led.clinic",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "bostoninst-clinic-ru",
@@ -397,7 +397,7 @@
     "site": "www.bostoninst-clinic.ru",
     "audit_file": "data/audits/bostoninst-clinic-ru.audit.json",
     "contact_email": "info@bostoninst.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "fantasy-smile-ru",
@@ -405,7 +405,7 @@
     "site": "fantasy-smile.ru",
     "audit_file": "data/audits/fantasy-smile-ru.audit.json",
     "contact_email": "",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "zetadent-ru",
@@ -413,7 +413,7 @@
     "site": "zetadent.ru",
     "audit_file": "data/audits/zetadent-ru.audit.json",
     "contact_email": "zetadent@mail.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "michurindental-ru",
@@ -421,7 +421,7 @@
     "site": "www.michurindental.ru",
     "audit_file": "data/audits/michurindental-ru.audit.json",
     "contact_email": "n@michurindental.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "stom-reaviz-ru",
@@ -429,7 +429,7 @@
     "site": "stom-reaviz.ru",
     "audit_file": "data/audits/stom-reaviz-ru.audit.json",
     "contact_email": "",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "inwhite-medical-ru",
@@ -437,7 +437,7 @@
     "site": "inwhite-medical.ru",
     "audit_file": "data/audits/inwhite-medical-ru.audit.json",
     "contact_email": "info@inwhite-medical.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "dantistoff-ru",
@@ -445,15 +445,15 @@
     "site": "dantistoff.ru",
     "audit_file": "data/audits/dantistoff-ru.audit.json",
     "contact_email": "info@dantistoff.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "michurinskiy-prezi-dent-ru",
-    "clinic": "????????? ???????????",
+    "clinic": "ПрезиДЕНТ Мичуринский",
     "site": "michurinskiy.prezi-dent.ru",
     "audit_file": "data/audits/michurinskiy-prezi-dent-ru.audit.json",
     "contact_email": "michurinsky@prezident.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "diamantdent-ru",
@@ -461,15 +461,15 @@
     "site": "www.diamantdent.ru",
     "audit_file": "data/audits/diamantdent-ru.audit.json",
     "contact_email": "diamant-dent@mail.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "evodent-ru-ramenki",
-    "clinic": "Evodent ???????",
+    "clinic": "Evodent Раменки",
     "site": "evodent.ru/ramenki",
     "audit_file": "data/audits/evodent-ru-ramenki.audit.json",
     "contact_email": "ramenki@evodent.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "mela-clinic-ru",
@@ -477,7 +477,7 @@
     "site": "mela-clinic.ru",
     "audit_file": "data/audits/mela-clinic-ru.audit.json",
     "contact_email": "melastom@yandex.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "dentalpearl-ru",
@@ -485,7 +485,7 @@
     "site": "www.dentalpearl.ru",
     "audit_file": "data/audits/dentalpearl-ru.audit.json",
     "contact_email": "info@dentalpearl.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "impl-ru",
@@ -493,7 +493,7 @@
     "site": "impl.ru",
     "audit_file": "data/audits/impl-ru.audit.json",
     "contact_email": "impl@mail.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "doctorlevin-ru",
@@ -501,23 +501,23 @@
     "site": "doctorlevin.ru",
     "audit_file": "data/audits/doctorlevin-ru.audit.json",
     "contact_email": "mail@doctorlevin.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "pogosova-rf",
-    "clinic": "????????",
-    "site": "????????.??",
+    "clinic": "Погосова",
+    "site": "погосова.рф",
     "audit_file": "data/audits/pogosova-rf.audit.json",
     "contact_email": "",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "aomeduslugi-ru",
-    "clinic": "?? ?????????",
+    "clinic": "АО Медуслуги",
     "site": "aomeduslugi.ru",
     "audit_file": "data/audits/aomeduslugi-ru.audit.json",
     "contact_email": "info@aomeduslugi.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "stom1-su",
@@ -525,7 +525,7 @@
     "site": "stom1.su",
     "audit_file": "data/audits/stom1-su.audit.json",
     "contact_email": "info@capital-dent.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "vivadent-moscow",
@@ -533,7 +533,7 @@
     "site": "vivadent.moscow",
     "audit_file": "data/audits/vivadent-moscow.audit.json",
     "contact_email": "vivadent.moscow1@yandex.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "lizadent-ru-prices",
@@ -541,7 +541,7 @@
     "site": "lizadent.ru/prices",
     "audit_file": "data/audits/lizadent-ru-prices.audit.json",
     "contact_email": "lizadent@bk.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "aspect-clinic-ru",
@@ -549,7 +549,7 @@
     "site": "aspect-clinic.ru",
     "audit_file": "data/audits/aspect-clinic-ru.audit.json",
     "contact_email": "mail@aspect-clinic.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "stepman-ru",
@@ -557,7 +557,7 @@
     "site": "stepman.ru",
     "audit_file": "data/audits/stepman-ru.audit.json",
     "contact_email": "stepman.ru@yandex.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "iorthocenter-ru",
@@ -565,7 +565,7 @@
     "site": "iorthocenter.ru",
     "audit_file": "data/audits/iorthocenter-ru.audit.json",
     "contact_email": "info@iorthocenter.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "keri-ru",
@@ -573,7 +573,7 @@
     "site": "keri.ru",
     "audit_file": "data/audits/keri-ru.audit.json",
     "contact_email": "med@keri.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "i-profi-ru",
@@ -581,7 +581,7 @@
     "site": "www.i-profi.ru",
     "audit_file": "data/audits/i-profi-ru.audit.json",
     "contact_email": "info@i-profi.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "kavitron-clinic-ru",
@@ -589,7 +589,7 @@
     "site": "kavitron-clinic.ru",
     "audit_file": "data/audits/kavitron-clinic-ru.audit.json",
     "contact_email": "vavilova@kavitron-clinic.com",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "happydentpro-ru",
@@ -597,7 +597,7 @@
     "site": "happydentpro.ru",
     "audit_file": "data/audits/happydentpro-ru.audit.json",
     "contact_email": "4995042525@mail.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "ibic-clinic",
@@ -605,23 +605,23 @@
     "site": "ibic.clinic",
     "audit_file": "data/audits/ibic-clinic.audit.json",
     "contact_email": "ibragimov.clinic@yandex.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "dentalfantasy-ru-clinics-cheremushki",
-    "clinic": "Dental Fantasy ?????????",
+    "clinic": "Dental Fantasy Черемушки",
     "site": "www.dentalfantasy.ru/clinics/cheremushki/",
     "audit_file": "data/audits/dentalfantasy-ru-clinics-cheremushki.audit.json",
     "contact_email": "brya@dentalfantasy.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "akademiya-stomatologii-rf",
-    "clinic": "???????? ????????????",
-    "site": "????????-????????????.??",
+    "clinic": "Академия Стоматологии",
+    "site": "академия-стоматологии.рф",
     "audit_file": "data/audits/akademiya-stomatologii-rf.audit.json",
     "contact_email": "",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "art-dentale-com",
@@ -629,7 +629,7 @@
     "site": "art-dentale.com",
     "audit_file": "data/audits/art-dentale-com.audit.json",
     "contact_email": "art-dentale@yandex.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "dentaklad-ru",
@@ -637,7 +637,7 @@
     "site": "dentaklad.ru",
     "audit_file": "data/audits/dentaklad-ru.audit.json",
     "contact_email": "info@dentaklad.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "mosdent-com",
@@ -645,7 +645,7 @@
     "site": "mosdent.com",
     "audit_file": "data/audits/mosdent-com.audit.json",
     "contact_email": "",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "klamer-dent24-clients-site",
@@ -653,15 +653,15 @@
     "site": "klamer-dent24.clients.site",
     "audit_file": "data/audits/klamer-dent24-clients-site.audit.json",
     "contact_email": "",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "alfaklinik-ru-skidki-htm",
-    "clinic": "???????????",
+    "clinic": "АльфаКлиник",
     "site": "alfaklinik.ru/skidki.htm",
     "audit_file": "data/audits/alfaklinik-ru-skidki-htm.audit.json",
     "contact_email": "info@alfaklinik.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "taplink-cc-stomus",
@@ -669,7 +669,7 @@
     "site": "taplink.cc/stomus",
     "audit_file": "data/audits/taplink-cc-stomus.audit.json",
     "contact_email": "",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "martinka-ru",
@@ -677,7 +677,7 @@
     "site": "martinka.ru",
     "audit_file": "data/audits/martinka-ru.audit.json",
     "contact_email": "martinka@dr-martin.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "delficlinic-ru",
@@ -685,7 +685,7 @@
     "site": "delficlinic.ru",
     "audit_file": "data/audits/delficlinic-ru.audit.json",
     "contact_email": "delficlinic@mail.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "garibaldi21-ru",
@@ -693,7 +693,7 @@
     "site": "garibaldi21.ru",
     "audit_file": "data/audits/garibaldi21-ru.audit.json",
     "contact_email": "",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "vimontale-ru",
@@ -701,7 +701,7 @@
     "site": "vimontale.ru",
     "audit_file": "data/audits/vimontale-ru.audit.json",
     "contact_email": "stom@ipm03.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "32dent-ru",
@@ -709,7 +709,7 @@
     "site": "www.32dent.ru",
     "audit_file": "data/audits/32dent-ru.audit.json",
     "contact_email": "info@32dent.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "elisan-expert-ru",
@@ -717,7 +717,7 @@
     "site": "elisan-expert.ru",
     "audit_file": "data/audits/elisan-expert-ru.audit.json",
     "contact_email": "mail@eli-san.ru",
-    "result": "?????????"
+    "result": "проверить"
   },
   {
     "id": "krutov-clinic-ru",
@@ -725,6 +725,6 @@
     "site": "krutov-clinic.ru",
     "audit_file": "data/audits/krutov-clinic-ru.audit.json",
     "contact_email": "info@krutov-clinic.ru",
-    "result": "?????????"
+    "result": "проверить"
   }
 ]
