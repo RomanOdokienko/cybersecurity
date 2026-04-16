@@ -42,16 +42,18 @@
     .bad { background:var(--bad-bg); color:var(--bad-fg); border-color:#f7c4c8; }
     .na { background:var(--na-bg); color:var(--na-fg); border-color:#dde2ea; }
     .notes { margin-top:10px; background:#fff; border:1px solid var(--line); border-radius:10px; padding:10px 12px; font-size:12px; color:#4e5565; line-height:1.35; }
-    thead th:nth-child(1), tbody td:nth-child(1) { width:16%; }
-    thead th:nth-child(2), tbody td:nth-child(2) { width:11%; }
-    thead th:nth-child(3), tbody td:nth-child(3) { width:15%; }
-    thead th:nth-child(4), tbody td:nth-child(4) { width:9%; }
+    .row-id { color:#6a7385; font-weight:700; }
+    thead th:nth-child(1), tbody td:nth-child(1) { width:4%; }
+    thead th:nth-child(2), tbody td:nth-child(2) { width:14%; }
+    thead th:nth-child(3), tbody td:nth-child(3) { width:10%; }
+    thead th:nth-child(4), tbody td:nth-child(4) { width:14%; }
     thead th:nth-child(5), tbody td:nth-child(5) { width:9%; }
     thead th:nth-child(6), tbody td:nth-child(6) { width:9%; }
     thead th:nth-child(7), tbody td:nth-child(7) { width:9%; }
-    thead th:nth-child(8), tbody td:nth-child(8) { width:10%; }
-    thead th:nth-child(9), tbody td:nth-child(9) { width:6%; }
+    thead th:nth-child(8), tbody td:nth-child(8) { width:9%; }
+    thead th:nth-child(9), tbody td:nth-child(9) { width:10%; }
     thead th:nth-child(10), tbody td:nth-child(10) { width:6%; }
+    thead th:nth-child(11), tbody td:nth-child(11) { width:6%; }
   </style>
 </head>
 <body>
@@ -72,12 +74,13 @@
       <table>
         <thead>
           <tr>
-            <th>Клиника</th><th>Сайт</th><th class="availability-col">Доступность сайта</th><th>Сертификат</th><th>Форма: HTTPS</th><th>Форма: галочка</th><th>SPF / DMARC</th><th>Meta / Instagram</th><th>Политика</th><th>Итог</th>
+            <th>ID</th><th>Клиника</th><th>Сайт</th><th class="availability-col">Доступность сайта</th><th>Сертификат</th><th>Форма: HTTPS</th><th>Форма: галочка</th><th>SPF / DMARC</th><th>Meta / Instagram</th><th>Политика</th><th>Итог</th>
           </tr>
         </thead>
         <tbody>
           
-    <tr class="clickable" data-href="sites/dr-knyazkin-ru.html" tabindex="0">
+    <tr id="row-dr-knyazkin-ru" class="clickable" data-href="sites/dr-knyazkin-ru.html" tabindex="0">
+      <td class="row-id">1</td>
       <td><div class="clinic">Стоматология Князькина</div></td>
       <td class="site"><a class="site-link" href="https://dr-knyazkin.ru" target="_blank" rel="noopener noreferrer">dr-knyazkin.ru</a></td>
       <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
@@ -90,7 +93,8 @@
       <td><span class="badge warn">проверить</span></td>
     </tr>
     
-    <tr class="clickable" data-href="sites/arideo-su.html" tabindex="0">
+    <tr id="row-arideo-su" class="clickable" data-href="sites/arideo-su.html" tabindex="0">
+      <td class="row-id">2</td>
       <td><div class="clinic">Аридео</div></td>
       <td class="site"><a class="site-link" href="https://arideo.su" target="_blank" rel="noopener noreferrer">arideo.su</a></td>
       <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
@@ -103,7 +107,8 @@
       <td><span class="badge ok">слать</span></td>
     </tr>
     
-    <tr class="clickable" data-href="sites/mx-medical-ru.html" tabindex="0">
+    <tr id="row-mx-medical-ru" class="clickable" data-href="sites/mx-medical-ru.html" tabindex="0">
+      <td class="row-id">3</td>
       <td><div class="clinic">MX Медикал</div></td>
       <td class="site"><a class="site-link" href="https://mx-medical.ru" target="_blank" rel="noopener noreferrer">mx-medical.ru</a></td>
       <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
@@ -116,7 +121,8 @@
       <td><span class="badge warn">проверить</span></td>
     </tr>
     
-    <tr class="clickable" data-href="sites/senseclinic-ru.html" tabindex="0">
+    <tr id="row-senseclinic-ru" class="clickable" data-href="sites/senseclinic-ru.html" tabindex="0">
+      <td class="row-id">4</td>
       <td><div class="clinic">Sense Clinic</div></td>
       <td class="site"><a class="site-link" href="https://senseclinic.ru" target="_blank" rel="noopener noreferrer">senseclinic.ru</a></td>
       <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
@@ -129,7 +135,8 @@
       <td><span class="badge warn">проверить</span></td>
     </tr>
     
-    <tr class="clickable" data-href="sites/ortodont-center-ru.html" tabindex="0">
+    <tr id="row-ortodont-center-ru" class="clickable" data-href="sites/ortodont-center-ru.html" tabindex="0">
+      <td class="row-id">5</td>
       <td><div class="clinic">Ortodont Center</div></td>
       <td class="site"><a class="site-link" href="https://www.ortodont-center.ru" target="_blank" rel="noopener noreferrer">www.ortodont-center.ru</a></td>
       <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
@@ -142,7 +149,8 @@
       <td><span class="badge warn">проверить</span></td>
     </tr>
     
-    <tr class="clickable" data-href="sites/medsi-ru.html" tabindex="0">
+    <tr id="row-medsi-ru" class="clickable" data-href="sites/medsi-ru.html" tabindex="0">
+      <td class="row-id">6</td>
       <td><div class="clinic">МЕДСИ</div></td>
       <td class="site"><a class="site-link" href="https://medsi.ru" target="_blank" rel="noopener noreferrer">medsi.ru</a></td>
       <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
@@ -155,7 +163,8 @@
       <td><span class="badge warn">проверить</span></td>
     </tr>
     
-    <tr class="clickable" data-href="sites/imclinic-dental.html" tabindex="0">
+    <tr id="row-imclinic-dental" class="clickable" data-href="sites/imclinic-dental.html" tabindex="0">
+      <td class="row-id">7</td>
       <td><div class="clinic">IM Clinic Dental</div></td>
       <td class="site"><a class="site-link" href="https://imclinic.dental" target="_blank" rel="noopener noreferrer">imclinic.dental</a></td>
       <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
@@ -168,7 +177,8 @@
       <td><span class="badge warn">проверить</span></td>
     </tr>
     
-    <tr class="clickable" data-href="sites/drblumkin-ru.html" tabindex="0">
+    <tr id="row-drblumkin-ru" class="clickable" data-href="sites/drblumkin-ru.html" tabindex="0">
+      <td class="row-id">8</td>
       <td><div class="clinic">Dr. Blumkin</div></td>
       <td class="site"><a class="site-link" href="https://drblumkin.ru" target="_blank" rel="noopener noreferrer">drblumkin.ru</a></td>
       <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
@@ -181,7 +191,8 @@
       <td><span class="badge warn">проверить</span></td>
     </tr>
     
-    <tr class="clickable" data-href="sites/kmdental-ru.html" tabindex="0">
+    <tr id="row-kmdental-ru" class="clickable" data-href="sites/kmdental-ru.html" tabindex="0">
+      <td class="row-id">9</td>
       <td><div class="clinic">KM Dental</div></td>
       <td class="site"><a class="site-link" href="https://kmdental.ru" target="_blank" rel="noopener noreferrer">kmdental.ru</a></td>
       <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
@@ -194,7 +205,8 @@
       <td><span class="badge warn">проверить</span></td>
     </tr>
     
-    <tr class="clickable" data-href="sites/stom-azbuka-ru.html" tabindex="0">
+    <tr id="row-stom-azbuka-ru" class="clickable" data-href="sites/stom-azbuka-ru.html" tabindex="0">
+      <td class="row-id">10</td>
       <td><div class="clinic">Стом-Азбука</div></td>
       <td class="site"><a class="site-link" href="https://stom-azbuka.ru" target="_blank" rel="noopener noreferrer">stom-azbuka.ru</a></td>
       <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
@@ -207,7 +219,8 @@
       <td><span class="badge warn">проверить</span></td>
     </tr>
     
-    <tr class="clickable" data-href="sites/olimpdent-ru.html" tabindex="0">
+    <tr id="row-olimpdent-ru" class="clickable" data-href="sites/olimpdent-ru.html" tabindex="0">
+      <td class="row-id">11</td>
       <td><div class="clinic">Олимпдент</div></td>
       <td class="site"><a class="site-link" href="https://olimpdent.ru" target="_blank" rel="noopener noreferrer">olimpdent.ru</a></td>
       <td class="availability-col"><span class="badge availability-badge bad">проблема</span></td>
@@ -220,7 +233,8 @@
       <td><span class="badge na">-</span></td>
     </tr>
     
-    <tr class="clickable" data-href="sites/pravstom-ru.html" tabindex="0">
+    <tr id="row-pravstom-ru" class="clickable" data-href="sites/pravstom-ru.html" tabindex="0">
+      <td class="row-id">12</td>
       <td><div class="clinic">ПравСтом</div></td>
       <td class="site"><a class="site-link" href="https://pravstom.ru" target="_blank" rel="noopener noreferrer">pravstom.ru</a></td>
       <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
@@ -233,7 +247,8 @@
       <td><span class="badge warn">проверить</span></td>
     </tr>
     
-    <tr class="clickable" data-href="sites/stozubov-vsena4-ru.html" tabindex="0">
+    <tr id="row-stozubov-vsena4-ru" class="clickable" data-href="sites/stozubov-vsena4-ru.html" tabindex="0">
+      <td class="row-id">13</td>
       <td><div class="clinic">Сто Зубов</div></td>
       <td class="site"><a class="site-link" href="https://stozubov-vsena4.ru" target="_blank" rel="noopener noreferrer">stozubov-vsena4.ru</a></td>
       <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
@@ -246,7 +261,8 @@
       <td><span class="badge warn">проверить</span></td>
     </tr>
     
-    <tr class="clickable" data-href="sites/dentartmsk-com.html" tabindex="0">
+    <tr id="row-dentartmsk-com" class="clickable" data-href="sites/dentartmsk-com.html" tabindex="0">
+      <td class="row-id">14</td>
       <td><div class="clinic">DentArt MSK</div></td>
       <td class="site"><a class="site-link" href="https://dentartmsk.com" target="_blank" rel="noopener noreferrer">dentartmsk.com</a></td>
       <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
@@ -259,7 +275,8 @@
       <td><span class="badge warn">проверить</span></td>
     </tr>
     
-    <tr class="clickable" data-href="sites/stone-dent-ru.html" tabindex="0">
+    <tr id="row-stone-dent-ru" class="clickable" data-href="sites/stone-dent-ru.html" tabindex="0">
+      <td class="row-id">15</td>
       <td><div class="clinic">Stone Dent</div></td>
       <td class="site"><a class="site-link" href="https://stone-dent.ru" target="_blank" rel="noopener noreferrer">stone-dent.ru</a></td>
       <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
@@ -272,7 +289,8 @@
       <td><span class="badge warn">проверить</span></td>
     </tr>
     
-    <tr class="clickable" data-href="sites/satellit-31-ru.html" tabindex="0">
+    <tr id="row-satellit-31-ru" class="clickable" data-href="sites/satellit-31-ru.html" tabindex="0">
+      <td class="row-id">16</td>
       <td><div class="clinic">Сателлит-31</div></td>
       <td class="site"><a class="site-link" href="https://www.satellit-31.ru" target="_blank" rel="noopener noreferrer">www.satellit-31.ru</a></td>
       <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
@@ -285,7 +303,8 @@
       <td><span class="badge warn">проверить</span></td>
     </tr>
     
-    <tr class="clickable" data-href="sites/amk-dental-clients-site.html" tabindex="0">
+    <tr id="row-amk-dental-clients-site" class="clickable" data-href="sites/amk-dental-clients-site.html" tabindex="0">
+      <td class="row-id">17</td>
       <td><div class="clinic">AMK Dental</div></td>
       <td class="site"><a class="site-link" href="https://amk-dental.clients.site" target="_blank" rel="noopener noreferrer">amk-dental.clients.site</a></td>
       <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
@@ -298,7 +317,8 @@
       <td><span class="badge warn">проверить</span></td>
     </tr>
     
-    <tr class="clickable" data-href="sites/dsclinic-msk-ru.html" tabindex="0">
+    <tr id="row-dsclinic-msk-ru" class="clickable" data-href="sites/dsclinic-msk-ru.html" tabindex="0">
+      <td class="row-id">18</td>
       <td><div class="clinic">DS Clinic</div></td>
       <td class="site"><a class="site-link" href="https://dsclinic-msk.ru" target="_blank" rel="noopener noreferrer">dsclinic-msk.ru</a></td>
       <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
@@ -311,7 +331,8 @@
       <td><span class="badge warn">проверить</span></td>
     </tr>
     
-    <tr class="clickable" data-href="sites/dentastayl-ru.html" tabindex="0">
+    <tr id="row-dentastayl-ru" class="clickable" data-href="sites/dentastayl-ru.html" tabindex="0">
+      <td class="row-id">19</td>
       <td><div class="clinic">Дентастайл</div></td>
       <td class="site"><a class="site-link" href="https://dentastayl.ru" target="_blank" rel="noopener noreferrer">dentastayl.ru</a></td>
       <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
@@ -324,7 +345,8 @@
       <td><span class="badge warn">проверить</span></td>
     </tr>
     
-    <tr class="clickable" data-href="sites/prof-dental-ru.html" tabindex="0">
+    <tr id="row-prof-dental-ru" class="clickable" data-href="sites/prof-dental-ru.html" tabindex="0">
+      <td class="row-id">20</td>
       <td><div class="clinic">Проф-Дентал</div></td>
       <td class="site"><a class="site-link" href="https://prof-dental.ru" target="_blank" rel="noopener noreferrer">prof-dental.ru</a></td>
       <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
@@ -337,7 +359,8 @@
       <td><span class="badge warn">проверить</span></td>
     </tr>
     
-    <tr class="clickable" data-href="sites/stomatologiyamoyaulybka-msk-ru.html" tabindex="0">
+    <tr id="row-stomatologiyamoyaulybka-msk-ru" class="clickable" data-href="sites/stomatologiyamoyaulybka-msk-ru.html" tabindex="0">
+      <td class="row-id">21</td>
       <td><div class="clinic">Моя Улыбка</div></td>
       <td class="site"><a class="site-link" href="https://stomatologiyamoyaulybka.msk.ru" target="_blank" rel="noopener noreferrer">stomatologiyamoyaulybka.msk.ru</a></td>
       <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
@@ -350,7 +373,8 @@
       <td><span class="badge warn">проверить</span></td>
     </tr>
     
-    <tr class="clickable" data-href="sites/mosgorzdrav-ru-sp2.html" tabindex="0">
+    <tr id="row-mosgorzdrav-ru-sp2" class="clickable" data-href="sites/mosgorzdrav-ru-sp2.html" tabindex="0">
+      <td class="row-id">22</td>
       <td><div class="clinic">Мосгорздрав СП2</div></td>
       <td class="site"><a class="site-link" href="https://mosgorzdrav.ru/sp2" target="_blank" rel="noopener noreferrer">mosgorzdrav.ru/sp2</a></td>
       <td class="availability-col"><span class="badge availability-badge bad">проблема</span></td>
@@ -363,7 +387,8 @@
       <td><span class="badge na">-</span></td>
     </tr>
     
-    <tr class="clickable" data-href="sites/apple-stom-ru.html" tabindex="0">
+    <tr id="row-apple-stom-ru" class="clickable" data-href="sites/apple-stom-ru.html" tabindex="0">
+      <td class="row-id">23</td>
       <td><div class="clinic">Apple Stom</div></td>
       <td class="site"><a class="site-link" href="https://www.apple-stom.ru" target="_blank" rel="noopener noreferrer">www.apple-stom.ru</a></td>
       <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
@@ -376,7 +401,8 @@
       <td><span class="badge warn">проверить</span></td>
     </tr>
     
-    <tr class="clickable" data-href="sites/belayatochka-ru.html" tabindex="0">
+    <tr id="row-belayatochka-ru" class="clickable" data-href="sites/belayatochka-ru.html" tabindex="0">
+      <td class="row-id">24</td>
       <td><div class="clinic">Белая Точка</div></td>
       <td class="site"><a class="site-link" href="https://belayatochka.ru" target="_blank" rel="noopener noreferrer">belayatochka.ru</a></td>
       <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
@@ -389,7 +415,8 @@
       <td><span class="badge warn">проверить</span></td>
     </tr>
     
-    <tr class="clickable" data-href="sites/zubnoy24-ru.html" tabindex="0">
+    <tr id="row-zubnoy24-ru" class="clickable" data-href="sites/zubnoy24-ru.html" tabindex="0">
+      <td class="row-id">25</td>
       <td><div class="clinic">Зубной 24</div></td>
       <td class="site"><a class="site-link" href="https://zubnoy24.ru" target="_blank" rel="noopener noreferrer">zubnoy24.ru</a></td>
       <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
@@ -402,7 +429,8 @@
       <td><span class="badge warn">проверить</span></td>
     </tr>
     
-    <tr class="clickable" data-href="sites/esenliclinic-ru.html" tabindex="0">
+    <tr id="row-esenliclinic-ru" class="clickable" data-href="sites/esenliclinic-ru.html" tabindex="0">
+      <td class="row-id">26</td>
       <td><div class="clinic">Esenli Clinic</div></td>
       <td class="site"><a class="site-link" href="https://esenliclinic.ru" target="_blank" rel="noopener noreferrer">esenliclinic.ru</a></td>
       <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
@@ -415,7 +443,8 @@
       <td><span class="badge warn">проверить</span></td>
     </tr>
     
-    <tr class="clickable" data-href="sites/albertclinic-ru.html" tabindex="0">
+    <tr id="row-albertclinic-ru" class="clickable" data-href="sites/albertclinic-ru.html" tabindex="0">
+      <td class="row-id">27</td>
       <td><div class="clinic">Albert Clinic</div></td>
       <td class="site"><a class="site-link" href="https://www.albertclinic.ru" target="_blank" rel="noopener noreferrer">www.albertclinic.ru</a></td>
       <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
@@ -428,7 +457,8 @@
       <td><span class="badge warn">проверить</span></td>
     </tr>
     
-    <tr class="clickable" data-href="sites/ecstom-ru.html" tabindex="0">
+    <tr id="row-ecstom-ru" class="clickable" data-href="sites/ecstom-ru.html" tabindex="0">
+      <td class="row-id">28</td>
       <td><div class="clinic">EC Stom</div></td>
       <td class="site"><a class="site-link" href="https://ecstom.ru" target="_blank" rel="noopener noreferrer">ecstom.ru</a></td>
       <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
@@ -441,7 +471,8 @@
       <td><span class="badge warn">проверить</span></td>
     </tr>
     
-    <tr class="clickable" data-href="sites/tiptopdent-ru.html" tabindex="0">
+    <tr id="row-tiptopdent-ru" class="clickable" data-href="sites/tiptopdent-ru.html" tabindex="0">
+      <td class="row-id">29</td>
       <td><div class="clinic">TipTopDent</div></td>
       <td class="site"><a class="site-link" href="https://www.tiptopdent.ru" target="_blank" rel="noopener noreferrer">www.tiptopdent.ru</a></td>
       <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
@@ -454,7 +485,8 @@
       <td><span class="badge warn">проверить</span></td>
     </tr>
     
-    <tr class="clickable" data-href="sites/bersclinic-ru.html" tabindex="0">
+    <tr id="row-bersclinic-ru" class="clickable" data-href="sites/bersclinic-ru.html" tabindex="0">
+      <td class="row-id">30</td>
       <td><div class="clinic">Bers Clinic</div></td>
       <td class="site"><a class="site-link" href="https://www.bersclinic.ru" target="_blank" rel="noopener noreferrer">www.bersclinic.ru</a></td>
       <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
@@ -467,7 +499,8 @@
       <td><span class="badge warn">проверить</span></td>
     </tr>
     
-    <tr class="clickable" data-href="sites/stomatikmsk-ru.html" tabindex="0">
+    <tr id="row-stomatikmsk-ru" class="clickable" data-href="sites/stomatikmsk-ru.html" tabindex="0">
+      <td class="row-id">31</td>
       <td><div class="clinic">Stomatik MSK</div></td>
       <td class="site"><a class="site-link" href="https://stomatikmsk.ru" target="_blank" rel="noopener noreferrer">stomatikmsk.ru</a></td>
       <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
@@ -480,7 +513,8 @@
       <td><span class="badge warn">проверить</span></td>
     </tr>
     
-    <tr class="clickable" data-href="sites/tandem-clinic-ru.html" tabindex="0">
+    <tr id="row-tandem-clinic-ru" class="clickable" data-href="sites/tandem-clinic-ru.html" tabindex="0">
+      <td class="row-id">32</td>
       <td><div class="clinic">Тандем Клиник</div></td>
       <td class="site"><a class="site-link" href="https://tandem-clinic.ru" target="_blank" rel="noopener noreferrer">tandem-clinic.ru</a></td>
       <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>

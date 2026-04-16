@@ -156,10 +156,11 @@ def compute_summary(item, audit):
     }
 
 
-def row_html(site_id, clinic, site, s):
+def row_html(row_num, site_id, clinic, site, s):
     external = site_url(site)
     return f"""
-    <tr class=\"clickable\" data-href=\"sites/{esc(site_id)}.html\" tabindex=\"0\">
+    <tr id=\"row-{esc(site_id)}\" class=\"clickable\" data-href=\"sites/{esc(site_id)}.html\" tabindex=\"0\">
+      <td class=\"row-id\">{esc(row_num)}</td>
       <td><div class=\"clinic\">{esc(clinic)}</div></td>
       <td class=\"site\"><a class=\"site-link\" href=\"{esc(external)}\" target=\"_blank\" rel=\"noopener noreferrer\">{esc(site)}</a></td>
       <td class=\"availability-col\"><span class=\"badge availability-badge {badge_class(s['availability_status'])}\">{esc(s['availability_status'])}</span></td>
@@ -350,14 +351,14 @@ def main():
     counts = {"слать": 0, "проверить": 0, "не слать": 0}
     unavailable = 0
 
-    for item in manifest:
+    for idx, item in enumerate(manifest, 1):
         audit_path = ROOT / item["audit_file"]
         audit = read_json(audit_path)
         summary = compute_summary(item, audit)
         counts[summary["result"]] = counts.get(summary["result"], 0) + 1
         if summary["availability_status"] == "проблема":
             unavailable += 1
-        rows.append(row_html(item["id"], item["clinic"], item["site"], summary))
+        rows.append(row_html(idx, item["id"], item["clinic"], item["site"], summary))
         details.append((item["id"], build_detail_page(item, audit, summary)))
 
     dashboard = f"""<!doctype html>
@@ -404,16 +405,18 @@ def main():
     .bad {{ background:var(--bad-bg); color:var(--bad-fg); border-color:#f7c4c8; }}
     .na {{ background:var(--na-bg); color:var(--na-fg); border-color:#dde2ea; }}
     .notes {{ margin-top:10px; background:#fff; border:1px solid var(--line); border-radius:10px; padding:10px 12px; font-size:12px; color:#4e5565; line-height:1.35; }}
-    thead th:nth-child(1), tbody td:nth-child(1) {{ width:16%; }}
-    thead th:nth-child(2), tbody td:nth-child(2) {{ width:11%; }}
-    thead th:nth-child(3), tbody td:nth-child(3) {{ width:15%; }}
-    thead th:nth-child(4), tbody td:nth-child(4) {{ width:9%; }}
+    .row-id {{ color:#6a7385; font-weight:700; }}
+    thead th:nth-child(1), tbody td:nth-child(1) {{ width:4%; }}
+    thead th:nth-child(2), tbody td:nth-child(2) {{ width:14%; }}
+    thead th:nth-child(3), tbody td:nth-child(3) {{ width:10%; }}
+    thead th:nth-child(4), tbody td:nth-child(4) {{ width:14%; }}
     thead th:nth-child(5), tbody td:nth-child(5) {{ width:9%; }}
     thead th:nth-child(6), tbody td:nth-child(6) {{ width:9%; }}
     thead th:nth-child(7), tbody td:nth-child(7) {{ width:9%; }}
-    thead th:nth-child(8), tbody td:nth-child(8) {{ width:10%; }}
-    thead th:nth-child(9), tbody td:nth-child(9) {{ width:6%; }}
+    thead th:nth-child(8), tbody td:nth-child(8) {{ width:9%; }}
+    thead th:nth-child(9), tbody td:nth-child(9) {{ width:10%; }}
     thead th:nth-child(10), tbody td:nth-child(10) {{ width:6%; }}
+    thead th:nth-child(11), tbody td:nth-child(11) {{ width:6%; }}
   </style>
 </head>
 <body>
@@ -434,7 +437,7 @@ def main():
       <table>
         <thead>
           <tr>
-            <th>Клиника</th><th>Сайт</th><th class=\"availability-col\">Доступность сайта</th><th>Сертификат</th><th>Форма: HTTPS</th><th>Форма: галочка</th><th>SPF / DMARC</th><th>Meta / Instagram</th><th>Политика</th><th>Итог</th>
+            <th>ID</th><th>Клиника</th><th>Сайт</th><th class=\"availability-col\">Доступность сайта</th><th>Сертификат</th><th>Форма: HTTPS</th><th>Форма: галочка</th><th>SPF / DMARC</th><th>Meta / Instagram</th><th>Политика</th><th>Итог</th>
           </tr>
         </thead>
         <tbody>
