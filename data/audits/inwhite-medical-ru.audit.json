@@ -1,0 +1,598 @@
+{
+  "domain": "inwhite-medical.ru",
+  "pages": [
+    {
+      "requested": "https://inwhite-medical.ru/",
+      "status": 200,
+      "final_url": "https://inwhite-medical.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://inwhite-medical.ru/contacts/",
+      "status": 200,
+      "final_url": "https://inwhite-medical.ru/contacts/",
+      "error": null
+    },
+    {
+      "requested": "https://inwhite-medical.ru/agreement/",
+      "status": 200,
+      "final_url": "https://inwhite-medical.ru/agreement/",
+      "error": null
+    },
+    {
+      "requested": "https://inwhite-medical.ru/doctors/",
+      "status": 200,
+      "final_url": "https://inwhite-medical.ru/doctors/",
+      "error": null
+    },
+    {
+      "requested": "https://inwhite-medical.ru/doctors/alekseev-mikhail-gennadievich/",
+      "status": 200,
+      "final_url": "https://inwhite-medical.ru/doctors/alekseev-mikhail-gennadievich/",
+      "error": null
+    },
+    {
+      "requested": "https://inwhite-medical.ru/doctors/bashurov-artem-viktorovich/",
+      "status": 200,
+      "final_url": "https://inwhite-medical.ru/doctors/bashurov-artem-viktorovich/",
+      "error": null
+    },
+    {
+      "requested": "https://inwhite-medical.ru/doctors/dontsova-albina-salavatovna/",
+      "status": 200,
+      "final_url": "https://inwhite-medical.ru/doctors/dontsova-albina-salavatovna/",
+      "error": null
+    },
+    {
+      "requested": "https://inwhite-medical.ru/doctors/li-viktoriya-borisovna/",
+      "status": 200,
+      "final_url": "https://inwhite-medical.ru/doctors/li-viktoriya-borisovna/",
+      "error": null
+    },
+    {
+      "requested": "https://inwhite-medical.ru/doctors/ovchinnikov-serafim-vitalevich/",
+      "status": 200,
+      "final_url": "https://inwhite-medical.ru/doctors/ovchinnikov-serafim-vitalevich/",
+      "error": null
+    },
+    {
+      "requested": "https://inwhite-medical.ru/doctors/ponomareva-vera-pavlovna/",
+      "status": 200,
+      "final_url": "https://inwhite-medical.ru/doctors/ponomareva-vera-pavlovna/",
+      "error": null
+    },
+    {
+      "requested": "https://inwhite-medical.ru/doctors/smbatyan-bagrat-sergeevich/",
+      "status": 200,
+      "final_url": "https://inwhite-medical.ru/doctors/smbatyan-bagrat-sergeevich/",
+      "error": null
+    },
+    {
+      "requested": "https://inwhite-medical.ru/downloads/",
+      "status": 200,
+      "final_url": "https://inwhite-medical.ru/downloads/",
+      "error": null
+    },
+    {
+      "requested": "https://inwhite-medical.ru/privacy/",
+      "status": 200,
+      "final_url": "https://inwhite-medical.ru/privacy/",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://inwhite-medical.ru/",
+      "form_id": "form_1",
+      "action_display": "action=\"/ajax/callForm/\"",
+      "open_tag": "<form data-inwhite-form=\"questions\" method=\"post\" onsubmit=\"ym(46348899, 'reachGoal', 'form_sent_appointment'); return true;\" action=\"/ajax/callForm/\" data-send=\"ajax\" >",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"custom-control__input\" type=\"checkbox\" id=\"b2721a9db10dad5f8b4da44cf167d1a4_form_check\"",
+      "policy_poc": "0dad5f8b4da44cf167d1a4_form_check\" name=\"agreementPrivacy\" data-required=\"\" required />"
+    },
+    {
+      "page": "https://inwhite-medical.ru/",
+      "form_id": "mb-70 md:mb-110",
+      "action_display": "action=\"/ajax/callForm/\"",
+      "open_tag": "<form data-inwhite-form=\"header\" method=\"post\" onsubmit=\"ym(46348899, 'reachGoal', 'form_sent_appointment'); return true;\" action=\"/ajax/callForm/\" data-send=\"ajax\" class=\"mb-70 md:mb-110\" >",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"custom-control__input\" type=\"checkbox\" id=\"5972fdfaf242cf6efc33fb7d523545d4_form_check\" name=\"agreementPrivacy\" data-required=\"\"",
+      "policy_poc": "id=\"5972fdfaf242cf6efc33fb7d523545d4_form_check\" name=\"agreementPrivacy\" data-required=\"\" required /> <label class=\"custom-control__label\" for=\"5972fdfaf242cf6"
+    },
+    {
+      "page": "https://inwhite-medical.ru/contacts/",
+      "form_id": "grid gap-30",
+      "action_display": "action=\"/ajax/callForm/\"",
+      "open_tag": "<form data-inwhite-form=\"appointment\" method=\"post\" onsubmit=\"ym(46348899, 'reachGoal', 'form_sent_appointment'); return true;\" action=\"/ajax/callForm/\" data-send=\"ajax\" class=\"grid gap-30\" >",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"custom-control__input\" type=\"checkbox\" id=\"18cd4a7f9067285b662b601c4ab475ef_form_check\" name=\"agreementPrivacy\"",
+      "policy_poc": "=\"18cd4a7f9067285b662b601c4ab475ef_form_check\" name=\"agreementPrivacy\" data-required=\"\" required /> <label class=\"custom-cont"
+    },
+    {
+      "page": "https://inwhite-medical.ru/contacts/",
+      "form_id": "mb-70 md:mb-110",
+      "action_display": "action=\"/ajax/callForm/\"",
+      "open_tag": "<form data-inwhite-form=\"header\" method=\"post\" onsubmit=\"ym(46348899, 'reachGoal', 'form_sent_appointment'); return true;\" action=\"/ajax/callForm/\" data-send=\"ajax\" class=\"mb-70 md:mb-110\" >",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"custom-control__input\" type=\"checkbox\" id=\"60f32bcdbc590cbb5338a0fff7167b6e_form_check\" name=\"agreementPrivacy\" data-required=\"\"",
+      "policy_poc": "id=\"60f32bcdbc590cbb5338a0fff7167b6e_form_check\" name=\"agreementPrivacy\" data-required=\"\" required /> <label class=\"custom-control__label\" for=\"60f32bcdbc590cb"
+    },
+    {
+      "page": "https://inwhite-medical.ru/agreement/",
+      "form_id": "mb-70 md:mb-110",
+      "action_display": "action=\"/ajax/callForm/\"",
+      "open_tag": "<form data-inwhite-form=\"header\" method=\"post\" onsubmit=\"ym(46348899, 'reachGoal', 'form_sent_appointment'); return true;\" action=\"/ajax/callForm/\" data-send=\"ajax\" class=\"mb-70 md:mb-110\" >",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"custom-control__input\" type=\"checkbox\" id=\"9bf4ff9f519e6365143bb41983ae3910_form_check\" name=\"agreementPrivacy\" data-required=\"\"",
+      "policy_poc": "id=\"9bf4ff9f519e6365143bb41983ae3910_form_check\" name=\"agreementPrivacy\" data-required=\"\" required /> <label class=\"custom-control__label\" for=\"9bf4ff9f519e636"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/",
+      "form_id": "form_1",
+      "action_display": "action=\"/ajax/callForm/\"",
+      "open_tag": "<form data-inwhite-form=\"questions\" method=\"post\" onsubmit=\"ym(46348899, 'reachGoal', 'form_sent_appointment'); return true;\" action=\"/ajax/callForm/\" data-send=\"ajax\" >",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"custom-control__input\" type=\"checkbox\" id=\"879455ee751f6b6da733db351cf69159_form_check\"",
+      "policy_poc": "1f6b6da733db351cf69159_form_check\" name=\"agreementPrivacy\" data-required=\"\" required />"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/",
+      "form_id": "mb-70 md:mb-110",
+      "action_display": "action=\"/ajax/callForm/\"",
+      "open_tag": "<form data-inwhite-form=\"header\" method=\"post\" onsubmit=\"ym(46348899, 'reachGoal', 'form_sent_appointment'); return true;\" action=\"/ajax/callForm/\" data-send=\"ajax\" class=\"mb-70 md:mb-110\" >",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"custom-control__input\" type=\"checkbox\" id=\"f98201e17647398f4bb9c9765df2c1ea_form_check\" name=\"agreementPrivacy\" data-required=\"\"",
+      "policy_poc": "id=\"f98201e17647398f4bb9c9765df2c1ea_form_check\" name=\"agreementPrivacy\" data-required=\"\" required /> <label class=\"custom-control__label\" for=\"f98201e17647398"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/alekseev-mikhail-gennadievich/",
+      "form_id": "grid gap-30",
+      "action_display": "action=\"/ajax/callForm/\"",
+      "open_tag": "<form data-inwhite-form=\"appointment\" method=\"post\" onsubmit=\"ym(46348899, 'reachGoal', 'form_sent_appointment'); return true;\" action=\"/ajax/callForm/\" data-send=\"ajax\" class=\"grid gap-30\" >",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"custom-control__input\" type=\"checkbox\" id=\"d1115f8af45029ca148fe6415fdeb5bb_form_check\" name=\"agreementPrivacy\"",
+      "policy_poc": "=\"d1115f8af45029ca148fe6415fdeb5bb_form_check\" name=\"agreementPrivacy\" data-required=\"\" required /> <label class=\"custom-cont"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/alekseev-mikhail-gennadievich/",
+      "form_id": "mb-70 md:mb-110",
+      "action_display": "action=\"/ajax/callForm/\"",
+      "open_tag": "<form data-inwhite-form=\"header\" method=\"post\" onsubmit=\"ym(46348899, 'reachGoal', 'form_sent_appointment'); return true;\" action=\"/ajax/callForm/\" data-send=\"ajax\" class=\"mb-70 md:mb-110\" >",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"custom-control__input\" type=\"checkbox\" id=\"3a96d8e7bea219cdebaca8b4744d0f89_form_check\" name=\"agreementPrivacy\" data-required=\"\"",
+      "policy_poc": "id=\"3a96d8e7bea219cdebaca8b4744d0f89_form_check\" name=\"agreementPrivacy\" data-required=\"\" required /> <label class=\"custom-control__label\" for=\"3a96d8e7bea219c"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/bashurov-artem-viktorovich/",
+      "form_id": "grid gap-30",
+      "action_display": "action=\"/ajax/callForm/\"",
+      "open_tag": "<form data-inwhite-form=\"appointment\" method=\"post\" onsubmit=\"ym(46348899, 'reachGoal', 'form_sent_appointment'); return true;\" action=\"/ajax/callForm/\" data-send=\"ajax\" class=\"grid gap-30\" >",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"custom-control__input\" type=\"checkbox\" id=\"16ea695e6427d6111bb9507d6cce464e_form_check\" name=\"agreementPrivacy\"",
+      "policy_poc": "=\"16ea695e6427d6111bb9507d6cce464e_form_check\" name=\"agreementPrivacy\" data-required=\"\" required /> <label class=\"custom-cont"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/bashurov-artem-viktorovich/",
+      "form_id": "mb-70 md:mb-110",
+      "action_display": "action=\"/ajax/callForm/\"",
+      "open_tag": "<form data-inwhite-form=\"header\" method=\"post\" onsubmit=\"ym(46348899, 'reachGoal', 'form_sent_appointment'); return true;\" action=\"/ajax/callForm/\" data-send=\"ajax\" class=\"mb-70 md:mb-110\" >",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"custom-control__input\" type=\"checkbox\" id=\"bb99ec0f4db8b78e07a131d780f97eb4_form_check\" name=\"agreementPrivacy\" data-required=\"\"",
+      "policy_poc": "id=\"bb99ec0f4db8b78e07a131d780f97eb4_form_check\" name=\"agreementPrivacy\" data-required=\"\" required /> <label class=\"custom-control__label\" for=\"bb99ec0f4db8b78"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/dontsova-albina-salavatovna/",
+      "form_id": "grid gap-30",
+      "action_display": "action=\"/ajax/callForm/\"",
+      "open_tag": "<form data-inwhite-form=\"appointment\" method=\"post\" onsubmit=\"ym(46348899, 'reachGoal', 'form_sent_appointment'); return true;\" action=\"/ajax/callForm/\" data-send=\"ajax\" class=\"grid gap-30\" >",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"custom-control__input\" type=\"checkbox\" id=\"43d069b53ccdffc8f651d3bc886cad27_form_check\" name=\"agreementPrivacy\"",
+      "policy_poc": "=\"43d069b53ccdffc8f651d3bc886cad27_form_check\" name=\"agreementPrivacy\" data-required=\"\" required /> <label class=\"custom-cont"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/dontsova-albina-salavatovna/",
+      "form_id": "mb-70 md:mb-110",
+      "action_display": "action=\"/ajax/callForm/\"",
+      "open_tag": "<form data-inwhite-form=\"header\" method=\"post\" onsubmit=\"ym(46348899, 'reachGoal', 'form_sent_appointment'); return true;\" action=\"/ajax/callForm/\" data-send=\"ajax\" class=\"mb-70 md:mb-110\" >",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"custom-control__input\" type=\"checkbox\" id=\"8262eca02aef838d26d4ddeee2346338_form_check\" name=\"agreementPrivacy\" data-required=\"\"",
+      "policy_poc": "id=\"8262eca02aef838d26d4ddeee2346338_form_check\" name=\"agreementPrivacy\" data-required=\"\" required /> <label class=\"custom-control__label\" for=\"8262eca02aef838"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/li-viktoriya-borisovna/",
+      "form_id": "grid gap-30",
+      "action_display": "action=\"/ajax/callForm/\"",
+      "open_tag": "<form data-inwhite-form=\"appointment\" method=\"post\" onsubmit=\"ym(46348899, 'reachGoal', 'form_sent_appointment'); return true;\" action=\"/ajax/callForm/\" data-send=\"ajax\" class=\"grid gap-30\" >",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"custom-control__input\" type=\"checkbox\" id=\"673cf2ddd1afc38f07b320ae6585b369_form_check\" name=\"agreementPrivacy\"",
+      "policy_poc": "=\"673cf2ddd1afc38f07b320ae6585b369_form_check\" name=\"agreementPrivacy\" data-required=\"\" required /> <label class=\"custom-cont"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/li-viktoriya-borisovna/",
+      "form_id": "mb-70 md:mb-110",
+      "action_display": "action=\"/ajax/callForm/\"",
+      "open_tag": "<form data-inwhite-form=\"header\" method=\"post\" onsubmit=\"ym(46348899, 'reachGoal', 'form_sent_appointment'); return true;\" action=\"/ajax/callForm/\" data-send=\"ajax\" class=\"mb-70 md:mb-110\" >",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"custom-control__input\" type=\"checkbox\" id=\"482dbcb4b003ef0084624f50208ce440_form_check\" name=\"agreementPrivacy\" data-required=\"\"",
+      "policy_poc": "id=\"482dbcb4b003ef0084624f50208ce440_form_check\" name=\"agreementPrivacy\" data-required=\"\" required /> <label class=\"custom-control__label\" for=\"482dbcb4b003ef0"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/ovchinnikov-serafim-vitalevich/",
+      "form_id": "grid gap-30",
+      "action_display": "action=\"/ajax/callForm/\"",
+      "open_tag": "<form data-inwhite-form=\"appointment\" method=\"post\" onsubmit=\"ym(46348899, 'reachGoal', 'form_sent_appointment'); return true;\" action=\"/ajax/callForm/\" data-send=\"ajax\" class=\"grid gap-30\" >",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"custom-control__input\" type=\"checkbox\" id=\"423e50ef32c2f572d1fb6367a81ae20e_form_check\" name=\"agreementPrivacy\"",
+      "policy_poc": "=\"423e50ef32c2f572d1fb6367a81ae20e_form_check\" name=\"agreementPrivacy\" data-required=\"\" required /> <label class=\"custom-cont"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/ovchinnikov-serafim-vitalevich/",
+      "form_id": "mb-70 md:mb-110",
+      "action_display": "action=\"/ajax/callForm/\"",
+      "open_tag": "<form data-inwhite-form=\"header\" method=\"post\" onsubmit=\"ym(46348899, 'reachGoal', 'form_sent_appointment'); return true;\" action=\"/ajax/callForm/\" data-send=\"ajax\" class=\"mb-70 md:mb-110\" >",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"custom-control__input\" type=\"checkbox\" id=\"94c8136e9b1e1337a9ee78bf81ad5048_form_check\" name=\"agreementPrivacy\" data-required=\"\"",
+      "policy_poc": "id=\"94c8136e9b1e1337a9ee78bf81ad5048_form_check\" name=\"agreementPrivacy\" data-required=\"\" required /> <label class=\"custom-control__label\" for=\"94c8136e9b1e133"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/ponomareva-vera-pavlovna/",
+      "form_id": "grid gap-30",
+      "action_display": "action=\"/ajax/callForm/\"",
+      "open_tag": "<form data-inwhite-form=\"appointment\" method=\"post\" onsubmit=\"ym(46348899, 'reachGoal', 'form_sent_appointment'); return true;\" action=\"/ajax/callForm/\" data-send=\"ajax\" class=\"grid gap-30\" >",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"custom-control__input\" type=\"checkbox\" id=\"6b1015b32607c036b39dafe8d8611aa1_form_check\" name=\"agreementPrivacy\"",
+      "policy_poc": "=\"6b1015b32607c036b39dafe8d8611aa1_form_check\" name=\"agreementPrivacy\" data-required=\"\" required /> <label class=\"custom-cont"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/ponomareva-vera-pavlovna/",
+      "form_id": "mb-70 md:mb-110",
+      "action_display": "action=\"/ajax/callForm/\"",
+      "open_tag": "<form data-inwhite-form=\"header\" method=\"post\" onsubmit=\"ym(46348899, 'reachGoal', 'form_sent_appointment'); return true;\" action=\"/ajax/callForm/\" data-send=\"ajax\" class=\"mb-70 md:mb-110\" >",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"custom-control__input\" type=\"checkbox\" id=\"ba19f1b2be528a867aed1ba15ad5b7b3_form_check\" name=\"agreementPrivacy\" data-required=\"\"",
+      "policy_poc": "id=\"ba19f1b2be528a867aed1ba15ad5b7b3_form_check\" name=\"agreementPrivacy\" data-required=\"\" required /> <label class=\"custom-control__label\" for=\"ba19f1b2be528a8"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/smbatyan-bagrat-sergeevich/",
+      "form_id": "grid gap-30",
+      "action_display": "action=\"/ajax/callForm/\"",
+      "open_tag": "<form data-inwhite-form=\"appointment\" method=\"post\" onsubmit=\"ym(46348899, 'reachGoal', 'form_sent_appointment'); return true;\" action=\"/ajax/callForm/\" data-send=\"ajax\" class=\"grid gap-30\" >",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"custom-control__input\" type=\"checkbox\" id=\"0756deb712a3e111ae0cc770a994742c_form_check\" name=\"agreementPrivacy\"",
+      "policy_poc": "=\"0756deb712a3e111ae0cc770a994742c_form_check\" name=\"agreementPrivacy\" data-required=\"\" required /> <label class=\"custom-cont"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/smbatyan-bagrat-sergeevich/",
+      "form_id": "mb-70 md:mb-110",
+      "action_display": "action=\"/ajax/callForm/\"",
+      "open_tag": "<form data-inwhite-form=\"header\" method=\"post\" onsubmit=\"ym(46348899, 'reachGoal', 'form_sent_appointment'); return true;\" action=\"/ajax/callForm/\" data-send=\"ajax\" class=\"mb-70 md:mb-110\" >",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"custom-control__input\" type=\"checkbox\" id=\"dc1ac93c49a9cd35cc338b0a96c30128_form_check\" name=\"agreementPrivacy\" data-required=\"\"",
+      "policy_poc": "id=\"dc1ac93c49a9cd35cc338b0a96c30128_form_check\" name=\"agreementPrivacy\" data-required=\"\" required /> <label class=\"custom-control__label\" for=\"dc1ac93c49a9cd3"
+    },
+    {
+      "page": "https://inwhite-medical.ru/downloads/",
+      "form_id": "form_1",
+      "action_display": "action=\"/ajax/callForm/\"",
+      "open_tag": "<form data-inwhite-form=\"questions\" method=\"post\" onsubmit=\"ym(46348899, 'reachGoal', 'form_sent_appointment'); return true;\" action=\"/ajax/callForm/\" data-send=\"ajax\" >",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"custom-control__input\" type=\"checkbox\" id=\"5a7243b3805ebb310deaf0367732602d_form_check\"",
+      "policy_poc": "5ebb310deaf0367732602d_form_check\" name=\"agreementPrivacy\" data-required=\"\" required />"
+    },
+    {
+      "page": "https://inwhite-medical.ru/downloads/",
+      "form_id": "mb-70 md:mb-110",
+      "action_display": "action=\"/ajax/callForm/\"",
+      "open_tag": "<form data-inwhite-form=\"header\" method=\"post\" onsubmit=\"ym(46348899, 'reachGoal', 'form_sent_appointment'); return true;\" action=\"/ajax/callForm/\" data-send=\"ajax\" class=\"mb-70 md:mb-110\" >",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"custom-control__input\" type=\"checkbox\" id=\"f6f3d6f8cd7554b71f6f4631275a9c3e_form_check\" name=\"agreementPrivacy\" data-required=\"\"",
+      "policy_poc": "id=\"f6f3d6f8cd7554b71f6f4631275a9c3e_form_check\" name=\"agreementPrivacy\" data-required=\"\" required /> <label class=\"custom-control__label\" for=\"f6f3d6f8cd7554b"
+    },
+    {
+      "page": "https://inwhite-medical.ru/privacy/",
+      "form_id": "mb-70 md:mb-110",
+      "action_display": "action=\"/ajax/callForm/\"",
+      "open_tag": "<form data-inwhite-form=\"header\" method=\"post\" onsubmit=\"ym(46348899, 'reachGoal', 'form_sent_appointment'); return true;\" action=\"/ajax/callForm/\" data-send=\"ajax\" class=\"mb-70 md:mb-110\" >",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"custom-control__input\" type=\"checkbox\" id=\"12610ff639d0963e29b963509e92833f_form_check\" name=\"agreementPrivacy\" data-required=\"\"",
+      "policy_poc": "id=\"12610ff639d0963e29b963509e92833f_form_check\" name=\"agreementPrivacy\" data-required=\"\" required /> <label class=\"custom-control__label\" for=\"12610ff639d0963"
+    }
+  ],
+  "emails": [
+    "info@inwhite-medical.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://inwhite-medical.ru/",
+      "href": "/privacy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://inwhite-medical.ru/",
+      "href": "/soglasie_na_obrabotky_personalnyh_dannyh/",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://inwhite-medical.ru/",
+      "href": "/privacy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://inwhite-medical.ru/contacts/",
+      "href": "/privacy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://inwhite-medical.ru/contacts/",
+      "href": "/soglasie_na_obrabotky_personalnyh_dannyh/",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://inwhite-medical.ru/contacts/",
+      "href": "/privacy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://inwhite-medical.ru/agreement/",
+      "href": "/privacy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://inwhite-medical.ru/agreement/",
+      "href": "/privacy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://inwhite-medical.ru/agreement/",
+      "href": "/soglasie_na_obrabotky_personalnyh_dannyh/",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/",
+      "href": "/privacy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/",
+      "href": "/soglasie_na_obrabotky_personalnyh_dannyh/",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/",
+      "href": "/privacy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/alekseev-mikhail-gennadievich/",
+      "href": "/privacy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/alekseev-mikhail-gennadievich/",
+      "href": "/soglasie_na_obrabotky_personalnyh_dannyh/",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/alekseev-mikhail-gennadievich/",
+      "href": "/privacy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/bashurov-artem-viktorovich/",
+      "href": "/privacy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/bashurov-artem-viktorovich/",
+      "href": "/soglasie_na_obrabotky_personalnyh_dannyh/",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/bashurov-artem-viktorovich/",
+      "href": "/privacy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/dontsova-albina-salavatovna/",
+      "href": "/privacy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/dontsova-albina-salavatovna/",
+      "href": "/soglasie_na_obrabotky_personalnyh_dannyh/",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/dontsova-albina-salavatovna/",
+      "href": "/privacy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/li-viktoriya-borisovna/",
+      "href": "/privacy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/li-viktoriya-borisovna/",
+      "href": "/soglasie_na_obrabotky_personalnyh_dannyh/",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/li-viktoriya-borisovna/",
+      "href": "/privacy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/ovchinnikov-serafim-vitalevich/",
+      "href": "/privacy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/ovchinnikov-serafim-vitalevich/",
+      "href": "/soglasie_na_obrabotky_personalnyh_dannyh/",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/ovchinnikov-serafim-vitalevich/",
+      "href": "/privacy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/ponomareva-vera-pavlovna/",
+      "href": "/privacy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/ponomareva-vera-pavlovna/",
+      "href": "/soglasie_na_obrabotky_personalnyh_dannyh/",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/ponomareva-vera-pavlovna/",
+      "href": "/privacy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/smbatyan-bagrat-sergeevich/",
+      "href": "/privacy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/smbatyan-bagrat-sergeevich/",
+      "href": "/soglasie_na_obrabotky_personalnyh_dannyh/",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://inwhite-medical.ru/doctors/smbatyan-bagrat-sergeevich/",
+      "href": "/privacy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://inwhite-medical.ru/downloads/",
+      "href": "/privacy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://inwhite-medical.ru/downloads/",
+      "href": "/soglasie_na_obrabotky_personalnyh_dannyh/",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://inwhite-medical.ru/downloads/",
+      "href": "/privacy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://inwhite-medical.ru/privacy/",
+      "href": "https://inwhite-medical.ru/privacy/",
+      "text": "policy path"
+    },
+    {
+      "page": "https://inwhite-medical.ru/privacy/",
+      "href": "/privacy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://inwhite-medical.ru/privacy/",
+      "href": "/privacy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://inwhite-medical.ru/privacy/",
+      "href": "/soglasie_na_obrabotky_personalnyh_dannyh/",
+      "text": "обработку персональных данных"
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://inwhite-medical.ru/contacts/"
+    ],
+    "booking_urls": [
+      "https://inwhite-medical.ru/"
+    ],
+    "legal_urls": [
+      "https://inwhite-medical.ru/agreement/",
+      "https://inwhite-medical.ru/doctors/",
+      "https://inwhite-medical.ru/doctors/alekseev-mikhail-gennadievich/",
+      "https://inwhite-medical.ru/doctors/bashurov-artem-viktorovich/",
+      "https://inwhite-medical.ru/doctors/dontsova-albina-salavatovna/",
+      "https://inwhite-medical.ru/doctors/li-viktoriya-borisovna/",
+      "https://inwhite-medical.ru/doctors/ovchinnikov-serafim-vitalevich/",
+      "https://inwhite-medical.ru/doctors/ponomareva-vera-pavlovna/",
+      "https://inwhite-medical.ru/doctors/smbatyan-bagrat-sergeevich/",
+      "https://inwhite-medical.ru/downloads/",
+      "https://inwhite-medical.ru/privacy/"
+    ],
+    "sources": {
+      "https://inwhite-medical.ru/": "home-booking-candidate",
+      "https://inwhite-medical.ru/agreement/": "policy-hint",
+      "https://inwhite-medical.ru/contacts/": "navigation",
+      "https://inwhite-medical.ru/doctors/": "navigation-legal",
+      "https://inwhite-medical.ru/doctors/alekseev-mikhail-gennadievich/": "navigation-legal",
+      "https://inwhite-medical.ru/doctors/bashurov-artem-viktorovich/": "navigation-legal",
+      "https://inwhite-medical.ru/doctors/dontsova-albina-salavatovna/": "navigation-legal",
+      "https://inwhite-medical.ru/doctors/li-viktoriya-borisovna/": "navigation-legal",
+      "https://inwhite-medical.ru/doctors/ovchinnikov-serafim-vitalevich/": "navigation-legal",
+      "https://inwhite-medical.ru/doctors/ponomareva-vera-pavlovna/": "navigation-legal",
+      "https://inwhite-medical.ru/doctors/smbatyan-bagrat-sergeevich/": "navigation-legal",
+      "https://inwhite-medical.ru/downloads/": "navigation-legal",
+      "https://inwhite-medical.ru/privacy/": "navigation-legal"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": false
+    },
+    "sitemap_total_urls": 4,
+    "sitemap_used_urls": 4
+  }
+}

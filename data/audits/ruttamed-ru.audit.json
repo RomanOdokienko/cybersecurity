@@ -1,0 +1,135 @@
+{
+  "domain": "ruttamed.ru",
+  "pages": [
+    {
+      "requested": "https://ruttamed.ru/",
+      "status": 200,
+      "final_url": "https://ruttamed.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://ruttamed.ru/contact",
+      "status": 404,
+      "final_url": "https://ruttamed.ru/contact",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://ruttamed.ru/contacts",
+      "status": 404,
+      "final_url": "https://ruttamed.ru/contacts",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://ruttamed.ru/kontakty",
+      "status": 404,
+      "final_url": "https://ruttamed.ru/kontakty",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://ruttamed.ru/appointment",
+      "status": 404,
+      "final_url": "https://ruttamed.ru/appointment",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://ruttamed.ru/booking",
+      "status": 404,
+      "final_url": "https://ruttamed.ru/booking",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://ruttamed.ru/zapis",
+      "status": 404,
+      "final_url": "https://ruttamed.ru/zapis",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://ruttamed.ru/agreement",
+      "status": 404,
+      "final_url": "https://ruttamed.ru/agreement",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://ruttamed.ru/personal-data",
+      "status": 404,
+      "final_url": "https://ruttamed.ru/personal-data",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://ruttamed.ru/policy",
+      "status": 404,
+      "final_url": "https://ruttamed.ru/policy",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://ruttamed.ru/politika",
+      "status": 404,
+      "final_url": "https://ruttamed.ru/politika",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://ruttamed.ru/politika-konfidencialnosti",
+      "status": 404,
+      "final_url": "https://ruttamed.ru/politika-konfidencialnosti",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://ruttamed.ru/privacy",
+      "status": 404,
+      "final_url": "https://ruttamed.ru/privacy",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://ruttamed.ru/privacy-policy",
+      "status": 404,
+      "final_url": "https://ruttamed.ru/privacy-policy",
+      "error": "HTTPError 404"
+    }
+  ],
+  "forms": [],
+  "emails": [],
+  "privacy_links": [],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://ruttamed.ru/contact",
+      "https://ruttamed.ru/contacts",
+      "https://ruttamed.ru/kontakty"
+    ],
+    "booking_urls": [
+      "https://ruttamed.ru/appointment",
+      "https://ruttamed.ru/booking",
+      "https://ruttamed.ru/zapis"
+    ],
+    "legal_urls": [
+      "https://ruttamed.ru/agreement",
+      "https://ruttamed.ru/personal-data",
+      "https://ruttamed.ru/policy",
+      "https://ruttamed.ru/politika",
+      "https://ruttamed.ru/politika-konfidencialnosti",
+      "https://ruttamed.ru/privacy",
+      "https://ruttamed.ru/privacy-policy"
+    ],
+    "sources": {
+      "https://ruttamed.ru/": "",
+      "https://ruttamed.ru/agreement": "policy-fallback",
+      "https://ruttamed.ru/appointment": "fallback",
+      "https://ruttamed.ru/booking": "fallback",
+      "https://ruttamed.ru/contact": "fallback",
+      "https://ruttamed.ru/contacts": "fallback",
+      "https://ruttamed.ru/kontakty": "fallback",
+      "https://ruttamed.ru/personal-data": "policy-fallback",
+      "https://ruttamed.ru/policy": "policy-fallback",
+      "https://ruttamed.ru/politika": "policy-fallback",
+      "https://ruttamed.ru/politika-konfidencialnosti": "policy-fallback",
+      "https://ruttamed.ru/privacy": "policy-fallback",
+      "https://ruttamed.ru/privacy-policy": "policy-fallback",
+      "https://ruttamed.ru/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": true,
+      "booking": true
+    }
+  }
+}

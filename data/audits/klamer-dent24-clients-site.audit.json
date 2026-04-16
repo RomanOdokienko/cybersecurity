@@ -1,0 +1,121 @@
+{
+  "domain": "klamer-dent24.clients.site",
+  "pages": [
+    {
+      "requested": "https://klamer-dent24.clients.site/",
+      "status": 200,
+      "final_url": "https://klamer-dent24.clients.site/",
+      "error": null
+    },
+    {
+      "requested": "https://klamer-dent24.clients.site#contacts",
+      "status": 200,
+      "final_url": "https://klamer-dent24.clients.site#contacts",
+      "error": null
+    },
+    {
+      "requested": "https://klamer-dent24.clients.site/appointment",
+      "status": 404,
+      "final_url": "https://klamer-dent24.clients.site/appointment",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://klamer-dent24.clients.site/booking",
+      "status": 404,
+      "final_url": "https://klamer-dent24.clients.site/booking",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://klamer-dent24.clients.site/zapis",
+      "status": 404,
+      "final_url": "https://klamer-dent24.clients.site/zapis",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://klamer-dent24.clients.site/agreement",
+      "status": 404,
+      "final_url": "https://klamer-dent24.clients.site/agreement",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://klamer-dent24.clients.site/personal-data",
+      "status": 404,
+      "final_url": "https://klamer-dent24.clients.site/personal-data",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://klamer-dent24.clients.site/policy",
+      "status": 404,
+      "final_url": "https://klamer-dent24.clients.site/policy",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://klamer-dent24.clients.site/politika",
+      "status": 404,
+      "final_url": "https://klamer-dent24.clients.site/politika",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://klamer-dent24.clients.site/politika-konfidencialnosti",
+      "status": 404,
+      "final_url": "https://klamer-dent24.clients.site/politika-konfidencialnosti",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://klamer-dent24.clients.site/privacy",
+      "status": 404,
+      "final_url": "https://klamer-dent24.clients.site/privacy",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://klamer-dent24.clients.site/privacy-policy",
+      "status": 404,
+      "final_url": "https://klamer-dent24.clients.site/privacy-policy",
+      "error": "HTTPError 404"
+    }
+  ],
+  "forms": [],
+  "emails": [],
+  "privacy_links": [],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://klamer-dent24.clients.site#contacts"
+    ],
+    "booking_urls": [
+      "https://klamer-dent24.clients.site/appointment",
+      "https://klamer-dent24.clients.site/booking",
+      "https://klamer-dent24.clients.site/zapis"
+    ],
+    "legal_urls": [
+      "https://klamer-dent24.clients.site/agreement",
+      "https://klamer-dent24.clients.site/personal-data",
+      "https://klamer-dent24.clients.site/policy",
+      "https://klamer-dent24.clients.site/politika",
+      "https://klamer-dent24.clients.site/politika-konfidencialnosti",
+      "https://klamer-dent24.clients.site/privacy",
+      "https://klamer-dent24.clients.site/privacy-policy"
+    ],
+    "sources": {
+      "https://klamer-dent24.clients.site#contacts": "navigation",
+      "https://klamer-dent24.clients.site/": "",
+      "https://klamer-dent24.clients.site/agreement": "policy-fallback",
+      "https://klamer-dent24.clients.site/appointment": "fallback",
+      "https://klamer-dent24.clients.site/booking": "fallback",
+      "https://klamer-dent24.clients.site/personal-data": "policy-fallback",
+      "https://klamer-dent24.clients.site/policy": "policy-fallback",
+      "https://klamer-dent24.clients.site/politika": "policy-fallback",
+      "https://klamer-dent24.clients.site/politika-konfidencialnosti": "policy-fallback",
+      "https://klamer-dent24.clients.site/privacy": "policy-fallback",
+      "https://klamer-dent24.clients.site/privacy-policy": "policy-fallback",
+      "https://klamer-dent24.clients.site/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": true
+    },
+    "sitemap_total_urls": 1,
+    "sitemap_used_urls": 1
+  }
+}

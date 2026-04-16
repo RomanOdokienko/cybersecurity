@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Delfi Clinic — детали проверки</title>
+<style>
+body{margin:0;font-family:Segoe UI,Arial,sans-serif;background:#f4f6fb;color:#1f2430}
+.wrap{max-width:1100px;margin:24px auto;padding:0 16px 24px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.card{background:#fff;border:1px solid #e5e8ef;border-radius:12px;padding:12px 14px}
+.block{background:#fff;border:1px solid #e5e8ef;border-radius:12px;padding:14px 16px;margin-top:12px}
+h1{margin:0;font-size:30px}
+h2{margin:0 0 10px 0;font-size:18px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+a{color:#2b4dd7;text-decoration:none}
+a:hover{text-decoration:underline}
+ul{margin:0;padding-left:18px;line-height:1.45}
+li{margin:4px 0}
+.badge{display:inline-block;padding:3px 9px;border-radius:999px;font-size:12px;font-weight:700;border:1px solid transparent}
+.ok{background:#e8f8ef;color:#1d9e58;border-color:#c8efd9}
+.warn{background:#fff6dd;color:#b67a00;border-color:#f0d889}
+.bad{background:#ffe9ea;color:#c5333a;border-color:#f7c4c8}
+.na{background:#f0f2f6;color:#6c7280;border-color:#dde2ea}
+.alert{margin-top:12px;border-radius:10px;padding:10px 12px;border:1px solid transparent;font-size:14px;font-weight:600}
+.alert.ok{background:#e8f8ef;color:#1d9e58;border-color:#c8efd9}
+.alert.warn{background:#fff6dd;color:#b67a00;border-color:#f0d889}
+.alert.bad{background:#ffe9ea;color:#c5333a;border-color:#f7c4c8}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <a href="../dashboard.html">← Назад к дашборду</a>
+        <h1>Delfi Clinic</h1>
+        <div>delficlinic.ru</div>
+      </div>
+      <div class="card">Итог: <span class="badge na">?????????</span></div>
+    </div>
+    <div class="alert ok">Доступность: ок. Найденные страницы доступны: 2 из 2.</div>
+
+    
+    <section class="block">
+      <h2>Доступность сайта <span class="badge ok">ок</span></h2>
+      <ul><li>Найденные страницы доступны: 2 из 2.</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Страницы проверки (основные найденные) <span class="badge ok">ок</span></h2>
+      <ul><li>https://delficlinic.ru/ — 200 (основной URL)</li><li>https://delficlinic.ru/#contacts — 200 (навигация)</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Доп. страницы из sitemap (формы) <span class="badge ok">ок</span></h2>
+      <ul><li>https://delficlinic.ru/agreement — 200 (найдено по policy-hint в коде)</li><li>https://delficlinic.ru/legal — 200 (sitemap: правовая/документная страница)</li><li>https://delficlinic.ru/policy — 200 (sitemap: правовая/документная страница)</li><li>https://delficlinic.ru/implantat — 200 (sitemap: страница с формой)</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Fallback-пробы URL <span class="badge warn">проверить</span></h2>
+      <ul><li>https://delficlinic.ru/appointment — 404 (fallback-путь) | HTTPError 404</li><li>https://delficlinic.ru/booking — 404 (fallback-путь) | HTTPError 404</li><li>https://delficlinic.ru/zapis — 404 (fallback-путь) | HTTPError 404</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Сертификат <span class="badge ok">ок</span></h2>
+      <ul><li>HTTPS-страницы открылись без TLS-ошибок.</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Форма: HTTPS <span class="badge ok">ок</span></h2>
+      <ul><li>Пример action: action=&#x27;&#x27;</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Согласие <span class="badge bad">не найдено</span></h2>
+      <ul><li>Всего форм: 1</li><li>unchecked: 0</li><li>checked: 0</li><li>текстом: 0</li><li>не найдено: 1</li><li>не найдено | https://delficlinic.ru/implantat | form927268916 | action=&#x27;&#x27;</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>SPF/DMARC <span class="badge na">н/п</span></h2>
+      <ul><li>Email: delficlinic@mail.ru (манифест)</li><li>Домен mail.ru — сторонний почтовый сервис, не почтовый домен клиники.</li><li>Для этой проверки SPF/DMARC не оценивается.</li><li>Что проверить дальше: найти корпоративный email домена клиники и проверить SPF/DMARC уже для него.</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Meta / Instagram <span class="badge bad">проблема</span></h2>
+      <ul><li>instagram | https://delficlinic.ru/ | видно пользователю | Instagram*</li><li>instagram | https://delficlinic.ru/ | только в коде | href=&quot;https://instagram.com/delfi_clinic?igshid=YmMyMTA2M2Y=&quot;</li><li>instagram.com | https://delficlinic.ru/ | только в коде | href=&quot;https://instagram.com/delfi_clinic?igshid=YmMyMTA2M2Y=&quot;</li><li>instagram | https://delficlinic.ru/ | только в коде | href=&quot;https://instagram.com/delfi_clinic&quot;</li><li>instagram.com | https://delficlinic.ru/ | только в коде | href=&quot;https://instagram.com/delfi_clinic&quot;</li><li>instagram | https://delficlinic.ru/#contacts | видно пользователю | Instagram*</li><li>instagram | https://delficlinic.ru/#contacts | только в коде | href=&quot;https://instagram.com/delfi_clinic?igshid=YmMyMTA2M2Y=&quot;</li><li>instagram.com | https://delficlinic.ru/#contacts | только в коде | href=&quot;https://instagram.com/delfi_clinic?igshid=YmMyMTA2M2Y=&quot;</li><li>instagram | https://delficlinic.ru/#contacts | только в коде | href=&quot;https://instagram.com/delfi_clinic&quot;</li><li>instagram.com | https://delficlinic.ru/#contacts | только в коде | href=&quot;https://instagram.com/delfi_clinic&quot;</li><li>instagram | https://delficlinic.ru/legal | видно пользователю | Instagram*</li><li>instagram | https://delficlinic.ru/legal | только в коде | href=&quot;https://instagram.com/delfi_clinic&quot;</li><li>instagram.com | https://delficlinic.ru/legal | только в коде | href=&quot;https://instagram.com/delfi_clinic&quot;</li><li>instagram | https://delficlinic.ru/implantat | видно пользователю | Instagram*</li><li>instagram | https://delficlinic.ru/implantat | только в коде | href=&quot;https://instagram.com/delfi_clinic?igshid=YmMyMTA2M2Y=&quot;</li><li>instagram.com | https://delficlinic.ru/implantat | только в коде | href=&quot;https://instagram.com/delfi_clinic?igshid=YmMyMTA2M2Y=&quot;</li><li>instagram | https://delficlinic.ru/implantat | только в коде | href=&quot;https://instagram.com/delfi_clinic&quot;</li><li>instagram.com | https://delficlinic.ru/implantat | только в коде | href=&quot;https://instagram.com/delfi_clinic&quot;</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Политика <span class="badge ok">ок</span></h2>
+      <ul><li>https://delficlinic.ru/ -&gt; /policy (текст: \u041f\u043e\u043b\u043e\u0436\u0435\u043d\u0438\u0435\u043c \u043e\u0431 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0435 \u0438 \u0437\u0430\u0449\u0438\u0442\u0435 \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043)</li><li>https://delficlinic.ru/ -&gt; /policy (текст: Политикой обработки персональных данных)</li><li>https://delficlinic.ru/ -&gt; https://delficlinic.ru/policy (текст: Политика обработки персональный данных)</li><li>https://delficlinic.ru/#contacts -&gt; /policy (текст: \u041f\u043e\u043b\u043e\u0436\u0435\u043d\u0438\u0435\u043c \u043e\u0431 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0435 \u0438 \u0437\u0430\u0449\u0438\u0442\u0435 \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043)</li><li>https://delficlinic.ru/#contacts -&gt; /policy (текст: Политикой обработки персональных данных)</li><li>https://delficlinic.ru/#contacts -&gt; https://delficlinic.ru/policy (текст: Политика обработки персональный данных)</li><li>https://delficlinic.ru/legal -&gt; https://delficlinic.ru/policy (текст: Политика обработки персональный данных)</li><li>https://delficlinic.ru/legal -&gt; /policy (текст: Политикой обработки персональных данных)</li><li>https://delficlinic.ru/legal -&gt; /policy (текст: \u041f\u043e\u043b\u043e\u0436\u0435\u043d\u0438\u0435\u043c \u043e\u0431 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0435 \u0438 \u0437\u0430\u0449\u0438\u0442\u0435 \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043)</li><li>https://delficlinic.ru/policy -&gt; https://delficlinic.ru/policy (текст: policy path)</li><li>https://delficlinic.ru/implantat -&gt; /policy (текст: \u041f\u043e\u043b\u043e\u0436\u0435\u043d\u0438\u0435\u043c \u043e\u0431 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0435 \u0438 \u0437\u0430\u0449\u0438\u0442\u0435 \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043)</li><li>https://delficlinic.ru/implantat -&gt; /policy (текст: Политикой обработки персональных данных)</li><li>https://delficlinic.ru/implantat -&gt; https://delficlinic.ru/policy (текст: Политика обработки персональный данных)</li></ul>
+    </section>
+    
+
+    <section class="block">
+      <h2>Сырые данные</h2>
+      <ul>
+        <li>Audit JSON: <a href="../data/audits/delficlinic-ru.audit.json">data/audits/delficlinic-ru.audit.json</a></li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>

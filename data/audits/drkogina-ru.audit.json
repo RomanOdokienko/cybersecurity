@@ -1,0 +1,2927 @@
+{
+  "domain": "drkogina.ru",
+  "pages": [
+    {
+      "requested": "https://drkogina.ru/",
+      "status": 200,
+      "final_url": "https://drkogina.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/contacts",
+      "status": 200,
+      "final_url": "https://drkogina.ru/contacts",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/about",
+      "status": 200,
+      "final_url": "https://drkogina.ru/about",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/akcii",
+      "status": 200,
+      "final_url": "https://drkogina.ru/akcii",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/blog",
+      "status": 200,
+      "final_url": "https://drkogina.ru/blog",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/cases/implantaciya-all-on-6_case_10",
+      "status": 200,
+      "final_url": "https://drkogina.ru/cases/implantaciya-all-on-6_case_10",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/cases/ispravlenie_prikusa_case_2",
+      "status": 200,
+      "final_url": "https://drkogina.ru/cases/ispravlenie_prikusa_case_2",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/cases/korrekciya_formy_zubov_case_9",
+      "status": 200,
+      "final_url": "https://drkogina.ru/cases/korrekciya_formy_zubov_case_9",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/cases/mikrodentiya_i_stiraemost_zubov_case_7",
+      "status": 200,
+      "final_url": "https://drkogina.ru/cases/mikrodentiya_i_stiraemost_zubov_case_7",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/cases/polnaya_reabilitaciya_zubov_case_6",
+      "status": 200,
+      "final_url": "https://drkogina.ru/cases/polnaya_reabilitaciya_zubov_case_6",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/cases/polnaya_transformaciya_case_11",
+      "status": 200,
+      "final_url": "https://drkogina.ru/cases/polnaya_transformaciya_case_11",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/cases/prikus_i_estetika_case_8",
+      "status": 200,
+      "final_url": "https://drkogina.ru/cases/prikus_i_estetika_case_8",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/cases/prisheechnyj_karies_case_5",
+      "status": 200,
+      "final_url": "https://drkogina.ru/cases/prisheechnyj_karies_case_5",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/cases/vosstanovlenie_funkcij_case_4",
+      "status": 200,
+      "final_url": "https://drkogina.ru/cases/vosstanovlenie_funkcij_case_4",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/cases/vosstanovlenie_zubnogo_ryada_case_3",
+      "status": 200,
+      "final_url": "https://drkogina.ru/cases/vosstanovlenie_zubnogo_ryada_case_3",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/cases/vosstanovlenie_zubov_case_1",
+      "status": 200,
+      "final_url": "https://drkogina.ru/cases/vosstanovlenie_zubov_case_1",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/detskaya-stomatologiya",
+      "status": 200,
+      "final_url": "https://drkogina.ru/detskaya-stomatologiya",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/doctors",
+      "status": 200,
+      "final_url": "https://drkogina.ru/doctors",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/doctors/amirova-mariya-aleksandrovna",
+      "status": 200,
+      "final_url": "https://drkogina.ru/doctors/amirova-mariya-aleksandrovna",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/doctors/antonyan-yanis-eduardivich",
+      "status": 200,
+      "final_url": "https://drkogina.ru/doctors/antonyan-yanis-eduardivich",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/doctors/astafiev-alexander-andreevich",
+      "status": 200,
+      "final_url": "https://drkogina.ru/doctors/astafiev-alexander-andreevich",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/doctors/cherdyntseva-ekaterina-dmitrievna",
+      "status": 200,
+      "final_url": "https://drkogina.ru/doctors/cherdyntseva-ekaterina-dmitrievna",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/doctors/dulenova_ekaterina_valerievna",
+      "status": 200,
+      "final_url": "https://drkogina.ru/doctors/dulenova_ekaterina_valerievna",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/doctors/kogina-elvira-nailevna",
+      "status": 200,
+      "final_url": "https://drkogina.ru/doctors/kogina-elvira-nailevna",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/doctors/rudinets_kristina_andreevna",
+      "status": 200,
+      "final_url": "https://drkogina.ru/doctors/rudinets_kristina_andreevna",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/doctors/vardanyan-alla-vaagnovna",
+      "status": 200,
+      "final_url": "https://drkogina.ru/doctors/vardanyan-alla-vaagnovna",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/doctors/vasina-anastasiya-sergeevna",
+      "status": 200,
+      "final_url": "https://drkogina.ru/doctors/vasina-anastasiya-sergeevna",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/doctors/zarandiya-zurab-yurevich",
+      "status": 200,
+      "final_url": "https://drkogina.ru/doctors/zarandiya-zurab-yurevich",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/doctors/zelenczova-kristina-nikolaevna",
+      "status": 200,
+      "final_url": "https://drkogina.ru/doctors/zelenczova-kristina-nikolaevna",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/documents",
+      "status": 200,
+      "final_url": "https://drkogina.ru/documents",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/implantation",
+      "status": 200,
+      "final_url": "https://drkogina.ru/implantation",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/oferta",
+      "status": 200,
+      "final_url": "https://drkogina.ru/oferta",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/page33757778.html",
+      "status": 200,
+      "final_url": "https://drkogina.ru/page33757778.html",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/page70001375.html",
+      "status": 200,
+      "final_url": "https://drkogina.ru/page70001375.html",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/price",
+      "status": 200,
+      "final_url": "https://drkogina.ru/price",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/reviews",
+      "status": 200,
+      "final_url": "https://drkogina.ru/reviews",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/brekety-damon",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/brekety-damon",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/check-up",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/check-up",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/cirkonievye-koronki",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/cirkonievye-koronki",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/domashnee-otbelivanie-zubov",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/domashnee-otbelivanie-zubov",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/esteticheskaya-restavraciya-zuba",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/esteticheskaya-restavraciya-zuba",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/germetizaciya-fissur",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/germetizaciya-fissur",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/gigiena-zubov-airflow",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/gigiena-zubov-airflow",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/implantaciya-all-on-4",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/implantaciya-all-on-4",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/implantaciya-all-on-6",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/implantaciya-all-on-6",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/implantatsiya-zubov",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/implantatsiya-zubov",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/implantaty-mis",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/implantaty-mis",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/jelajnery",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/jelajnery",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/keramicheskie-brekety",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/keramicheskie-brekety",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/keramicheskie-koronki-e-max",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/keramicheskie-koronki-e-max",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/keramicheskie-viniry",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/keramicheskie-viniry",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/kompozitnye-viniry",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/kompozitnye-viniry",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/koronki-na-molochnye-zuby",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/koronki-na-molochnye-zuby",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/lechenie-desen",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/lechenie-desen",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/lechenie-desen-apparatom-vektor",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/lechenie-desen-apparatom-vektor",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/lechenie-gingivita",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/lechenie-gingivita",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/lechenie-kanalov-zuba",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/lechenie-kanalov-zuba",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/lechenie-kariesa",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/lechenie-kariesa",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/lechenie-kariesa-molochnyh-zubov",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/lechenie-kariesa-molochnyh-zubov",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/lechenie-kisty-zuba",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/lechenie-kisty-zuba",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/lechenie-molochnyh-zubov",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/lechenie-molochnyh-zubov",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/lechenie-parodontita",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/lechenie-parodontita",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/lechenie-parodontoza",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/lechenie-parodontoza",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/lechenie-pulpita",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/lechenie-pulpita",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/lechenie-pulpita-molochnyh-zubov",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/lechenie-pulpita-molochnyh-zubov",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/lechenie-zubov-pod-mikroskopom",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/lechenie-zubov-pod-mikroskopom",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/ligaturnye-brekety",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/ligaturnye-brekety",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/metallicheskie-brekety",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/metallicheskie-brekety",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/mostovidnyj-protez",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/mostovidnyj-protez",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/odnomomentnaya-implantaciya",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/odnomomentnaya-implantaciya",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/otbelivanie-zubov-zoom4",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/otbelivanie-zubov-zoom4",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/perelechivaniye-zuba",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/perelechivaniye-zuba",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/plastic-bridles",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/plastic-bridles",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/priem-gnatologa",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/priem-gnatologa",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/priem-ortodonta",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/priem-ortodonta",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/priem-stomatologa-ortopeda",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/priem-stomatologa-ortopeda",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/professionalnaya-chistka-molochnyh-zubov",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/professionalnaya-chistka-molochnyh-zubov",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/prostoe-udalenie-zubov",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/prostoe-udalenie-zubov",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/restavraciya-molochnyh-zubov",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/restavraciya-molochnyh-zubov",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/samoligirujushhie-brekety",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/samoligirujushhie-brekety",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/slozhnoe-udalenie-zuba",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/slozhnoe-udalenie-zuba",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/snimok-zubov",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/snimok-zubov",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/udalenie-molochnyh-zubov",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/udalenie-molochnyh-zubov",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/udalenie-zuba-mudrosti",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/udalenie-zuba-mudrosti",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/ultrazvukvaya-chistka-zubov",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/ultrazvukvaya-chistka-zubov",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/ustanovka-breketov",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/ustanovka-breketov",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/viniry-e-max",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/viniry-e-max",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/vkladki-koronki-mosty",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/vkladki-koronki-mosty",
+      "error": null
+    },
+    {
+      "requested": "https://drkogina.ru/uslugi/zubnye-protezy",
+      "status": 200,
+      "final_url": "https://drkogina.ru/uslugi/zubnye-protezy",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://drkogina.ru/",
+      "form_id": "form1969483631",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1969483631\" name='form1969483631' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-checkbox__indicator\" style=\"border-color:#00408c\"></div> <span>Я соглашаюсь с обработкой персональных данных согласно <a href=\"/oferta\" style=\"color: rgb(79, 112, 157);\">условиям политики конфиденциальности</a>.</span></label> <style>#rec1969483631 .t-checkbo"
+    },
+    {
+      "page": "https://drkogina.ru/",
+      "form_id": "form1961407721",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1961407721\" name='form1961407721' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-checkbox__indicator\" style=\"border-color:#00408c\"></div> <span>Я соглашаюсь с обработкой персональных данных согласно <a href=\"/oferta\" style=\"color: rgb(79, 112, 157);\">условиям политики конфиденциальности</a>.</span></label> <style>#rec1961407721 .t-checkbo"
+    },
+    {
+      "page": "https://drkogina.ru/",
+      "form_id": "form1961407731",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1961407731\" name='form1961407731' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-checkbox__indicator\" style=\"border-color:#00408c\"></div> <span>Я соглашаюсь с обработкой персональных данных согласно <a href=\"/oferta\" style=\"color: rgb(79, 112, 157);\">условиям политики конфиденциальности</a>.</span></label> <style>#rec1961407731 .t-checkbo"
+    },
+    {
+      "page": "https://drkogina.ru/",
+      "form_id": "form1961407741",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1961407741\" name='form1961407741' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-checkbox__indicator\" style=\"border-color:#00408c\"></div> <span>Я соглашаюсь с обработкой персональных данных согласно <a href=\"/oferta\" style=\"color: rgb(79, 112, 157);\">условиям политики конфиденциальности</a>.</span></label> <style>#rec1961407741 .t-checkbo"
+    },
+    {
+      "page": "https://drkogina.ru/",
+      "form_id": "form1961407751",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1961407751\" name='form1961407751' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-checkbox__indicator\" style=\"border-color:#00408c\"></div> <span>Я соглашаюсь с обработкой персональных данных согласно <a href=\"/oferta\" style=\"color: rgb(79, 112, 157);\">условиям политики конфиденциальности</a>.</span></label> <style>#rec1961407751 .t-checkbo"
+    },
+    {
+      "page": "https://drkogina.ru/",
+      "form_id": "form1961407761",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1961407761\" name='form1961407761' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-checkbox__indicator\" style=\"border-color:#00408c\"></div> <span>Я соглашаюсь с обработкой персональных данных согласно <a href=\"/oferta\" style=\"color: rgb(79, 112, 157);\">условиям политики конфиденциальности</a>.</span></label> <style>#rec1961407761 .t-checkbo"
+    },
+    {
+      "page": "https://drkogina.ru/",
+      "form_id": "form1970168901",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1970168901\" name='form1970168901' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-checkbox__indicator\" style=\"border-color:#00408c\"></div> <span>Я соглашаюсь с обработкой персональных данных согласно <a href=\"/oferta\" style=\"color: rgb(79, 112, 157);\">условиям политики конфиденциальности</a>.</span></label> <style>#rec1970168901 .t-checkbo"
+    },
+    {
+      "page": "https://drkogina.ru/",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/contacts",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/about",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/akcii",
+      "form_id": "form1977140641",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1977140641\" name='form1977140641' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-checkbox__indicator\" style=\"border-color:#00408c\"></div> <span>Я соглашаюсь с обработкой персональных данных согласно <a href=\"/oferta\" style=\"color: rgb(79, 112, 157);\">условиям политики конфиденциальности</a>.</span></label> <style>#rec1977140641 .t-checkbo"
+    },
+    {
+      "page": "https://drkogina.ru/akcii",
+      "form_id": "form1859563601",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1859563601\" name='form1859563601' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-checkbox__indicator\" style=\"border-color:#00408c\"></div> <span>Я соглашаюсь с обработкой персональных данных согласно <a href=\"/oferta\" style=\"color: rgb(79, 112, 157);\">условиям политики конфиденциальности</a>.</span></label> <style>#rec1859563601 .t-checkbo"
+    },
+    {
+      "page": "https://drkogina.ru/akcii",
+      "form_id": "form1859563611",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1859563611\" name='form1859563611' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-checkbox__indicator\" style=\"border-color:#00408c\"></div> <span>Я соглашаюсь с обработкой персональных данных согласно <a href=\"/oferta\" style=\"color: rgb(79, 112, 157);\">условиям политики конфиденциальности</a>.</span></label> <style>#rec1859563611 .t-checkbo"
+    },
+    {
+      "page": "https://drkogina.ru/akcii",
+      "form_id": "form1859563621",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1859563621\" name='form1859563621' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-checkbox__indicator\" style=\"border-color:#00408c\"></div> <span>Я соглашаюсь с обработкой персональных данных согласно <a href=\"/oferta\" style=\"color: rgb(79, 112, 157);\">условиям политики конфиденциальности</a>.</span></label> <style>#rec1859563621 .t-checkbo"
+    },
+    {
+      "page": "https://drkogina.ru/akcii",
+      "form_id": "form1859563631",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1859563631\" name='form1859563631' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-checkbox__indicator\" style=\"border-color:#00408c\"></div> <span>Я соглашаюсь с обработкой персональных данных согласно <a href=\"/oferta\" style=\"color: rgb(79, 112, 157);\">условиям политики конфиденциальности</a>.</span></label> <style>#rec1859563631 .t-checkbo"
+    },
+    {
+      "page": "https://drkogina.ru/akcii",
+      "form_id": "form1859563641",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1859563641\" name='form1859563641' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-checkbox__indicator\" style=\"border-color:#00408c\"></div> <span>Я соглашаюсь с обработкой персональных данных согласно <a href=\"/oferta\" style=\"color: rgb(79, 112, 157);\">условиям политики конфиденциальности</a>.</span></label> <style>#rec1859563641 .t-checkbo"
+    },
+    {
+      "page": "https://drkogina.ru/akcii",
+      "form_id": "form1977157981",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1977157981\" name='form1977157981' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-checkbox__indicator\" style=\"border-color:#00408c\"></div> <span>Я соглашаюсь с обработкой персональных данных согласно <a href=\"/oferta\" style=\"color: rgb(79, 112, 157);\">условиям политики конфиденциальности</a>.</span></label> <style>#rec1977157981 .t-checkbo"
+    },
+    {
+      "page": "https://drkogina.ru/akcii",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/blog",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/cases/implantaciya-all-on-6_case_10",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/cases/ispravlenie_prikusa_case_2",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/cases/korrekciya_formy_zubov_case_9",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/cases/mikrodentiya_i_stiraemost_zubov_case_7",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/cases/polnaya_reabilitaciya_zubov_case_6",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/cases/polnaya_transformaciya_case_11",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/cases/prikus_i_estetika_case_8",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/cases/prisheechnyj_karies_case_5",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/cases/vosstanovlenie_funkcij_case_4",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/cases/vosstanovlenie_zubnogo_ryada_case_3",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/cases/vosstanovlenie_zubov_case_1",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/detskaya-stomatologiya",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/doctors",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/doctors/amirova-mariya-aleksandrovna",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/doctors/antonyan-yanis-eduardivich",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/doctors/astafiev-alexander-andreevich",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/doctors/cherdyntseva-ekaterina-dmitrievna",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/doctors/dulenova_ekaterina_valerievna",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/doctors/kogina-elvira-nailevna",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/doctors/rudinets_kristina_andreevna",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/doctors/vardanyan-alla-vaagnovna",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/doctors/vasina-anastasiya-sergeevna",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/doctors/zarandiya-zurab-yurevich",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/doctors/zelenczova-kristina-nikolaevna",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/documents",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/implantation",
+      "form_id": "form2047849931",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form2047849931\" name='form2047849931' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-checkbox__indicator\" style=\"border-color:#00408c\"></div> <span>Я соглашаюсь с обработкой персональных данных согласно <a href=\"/oferta\" style=\"color: rgb(79, 112, 157);\">условиям политики конфиденциальности</a>.</span></label> <style>#rec2047849931 .t-checkbo"
+    },
+    {
+      "page": "https://drkogina.ru/implantation",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/oferta",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/page33757778.html",
+      "form_id": "form1977141351",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1977141351\" name='form1977141351' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-checkbox__indicator\" style=\"border-color:#00408c\"></div> <span>Я соглашаюсь с обработкой персональных данных согласно <a href=\"/oferta\" style=\"color: rgb(79, 112, 157);\">условиям политики конфиденциальности</a>.</span></label> <style>#rec1977141351 .t-checkbo"
+    },
+    {
+      "page": "https://drkogina.ru/page33757778.html",
+      "form_id": "form1859757751",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1859757751\" name='form1859757751' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-checkbox__indicator\" style=\"border-color:#00408c\"></div> <span>Я соглашаюсь с обработкой персональных данных согласно <a href=\"/oferta\" style=\"color: rgb(79, 112, 157);\">условиям политики конфиденциальности</a>.</span></label> <style>#rec1859757751 .t-checkbo"
+    },
+    {
+      "page": "https://drkogina.ru/page33757778.html",
+      "form_id": "form1859757761",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1859757761\" name='form1859757761' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-checkbox__indicator\" style=\"border-color:#00408c\"></div> <span>Я соглашаюсь с обработкой персональных данных согласно <a href=\"/oferta\" style=\"color: rgb(79, 112, 157);\">условиям политики конфиденциальности</a>.</span></label> <style>#rec1859757761 .t-checkbo"
+    },
+    {
+      "page": "https://drkogina.ru/page33757778.html",
+      "form_id": "form1859757771",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1859757771\" name='form1859757771' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-checkbox__indicator\" style=\"border-color:#00408c\"></div> <span>Я соглашаюсь с обработкой персональных данных согласно <a href=\"/oferta\" style=\"color: rgb(79, 112, 157);\">условиям политики конфиденциальности</a>.</span></label> <style>#rec1859757771 .t-checkbo"
+    },
+    {
+      "page": "https://drkogina.ru/page33757778.html",
+      "form_id": "form1859757781",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1859757781\" name='form1859757781' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-checkbox__indicator\" style=\"border-color:#00408c\"></div> <span>Я соглашаюсь с обработкой персональных данных согласно <a href=\"/oferta\" style=\"color: rgb(79, 112, 157);\">условиям политики конфиденциальности</a>.</span></label> <style>#rec1859757781 .t-checkbo"
+    },
+    {
+      "page": "https://drkogina.ru/page33757778.html",
+      "form_id": "form1859757791",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1859757791\" name='form1859757791' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-checkbox__indicator\" style=\"border-color:#00408c\"></div> <span>Я соглашаюсь с обработкой персональных данных согласно <a href=\"/oferta\" style=\"color: rgb(79, 112, 157);\">условиям политики конфиденциальности</a>.</span></label> <style>#rec1859757791 .t-checkbo"
+    },
+    {
+      "page": "https://drkogina.ru/page33757778.html",
+      "form_id": "form1977162971",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1977162971\" name='form1977162971' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-checkbox__indicator\" style=\"border-color:#00408c\"></div> <span>Я соглашаюсь с обработкой персональных данных согласно <a href=\"/oferta\" style=\"color: rgb(79, 112, 157);\">условиям политики конфиденциальности</a>.</span></label> <style>#rec1977162971 .t-checkbo"
+    },
+    {
+      "page": "https://drkogina.ru/page33757778.html",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/page70001375.html",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/price",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/reviews",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/brekety-damon",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/check-up",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/cirkonievye-koronki",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/domashnee-otbelivanie-zubov",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/esteticheskaya-restavraciya-zuba",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/germetizaciya-fissur",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/gigiena-zubov-airflow",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/implantaciya-all-on-4",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/implantaciya-all-on-6",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/implantatsiya-zubov",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/implantaty-mis",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/jelajnery",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/keramicheskie-brekety",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/keramicheskie-koronki-e-max",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/keramicheskie-viniry",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/kompozitnye-viniry",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/koronki-na-molochnye-zuby",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-desen",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-desen-apparatom-vektor",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-gingivita",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-kanalov-zuba",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-kariesa",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-kariesa-molochnyh-zubov",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-kisty-zuba",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-molochnyh-zubov",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-parodontita",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-parodontoza",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-pulpita",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-pulpita-molochnyh-zubov",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-zubov-pod-mikroskopom",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/ligaturnye-brekety",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/metallicheskie-brekety",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/mostovidnyj-protez",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/odnomomentnaya-implantaciya",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/otbelivanie-zubov-zoom4",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/perelechivaniye-zuba",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/plastic-bridles",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/priem-gnatologa",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/priem-ortodonta",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/priem-stomatologa-ortopeda",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/professionalnaya-chistka-molochnyh-zubov",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/prostoe-udalenie-zubov",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/restavraciya-molochnyh-zubov",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/samoligirujushhie-brekety",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/slozhnoe-udalenie-zuba",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/snimok-zubov",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/udalenie-molochnyh-zubov",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/udalenie-zuba-mudrosti",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/ultrazvukvaya-chistka-zubov",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/ustanovka-breketov",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/viniry-e-max",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/vkladki-koronki-mosty",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/zubnye-protezy",
+      "form_id": "form1750969961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1750969961\" name='form1750969961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_18 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Согласие с политикой:\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "_descr__3174040300119\" data-redactor-nohref='yes'> Оставьте свои контакты, чтобы получить персональные рекомендации по лечению и узнать на какую скидку или рассрочку Вы можете рассчитывать! </div> </div> </div> <div class=\"t-quiz__contact-form__main\"> <div cla"
+    }
+  ],
+  "emails": [],
+  "privacy_links": [
+    {
+      "page": "https://drkogina.ru/",
+      "href": "/oferta",
+      "text": "условиям политики конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/contacts",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/contacts",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/about",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/about",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/akcii",
+      "href": "/oferta",
+      "text": "условиям политики конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/akcii",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/akcii",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/blog",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/blog",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/cases/implantaciya-all-on-6_case_10",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/cases/implantaciya-all-on-6_case_10",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/cases/ispravlenie_prikusa_case_2",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/cases/ispravlenie_prikusa_case_2",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/cases/korrekciya_formy_zubov_case_9",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/cases/korrekciya_formy_zubov_case_9",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/cases/mikrodentiya_i_stiraemost_zubov_case_7",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/cases/mikrodentiya_i_stiraemost_zubov_case_7",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/cases/polnaya_reabilitaciya_zubov_case_6",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/cases/polnaya_reabilitaciya_zubov_case_6",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/cases/polnaya_transformaciya_case_11",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/cases/polnaya_transformaciya_case_11",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/cases/prikus_i_estetika_case_8",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/cases/prikus_i_estetika_case_8",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/cases/prisheechnyj_karies_case_5",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/cases/prisheechnyj_karies_case_5",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/cases/vosstanovlenie_funkcij_case_4",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/cases/vosstanovlenie_funkcij_case_4",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/cases/vosstanovlenie_zubnogo_ryada_case_3",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/cases/vosstanovlenie_zubnogo_ryada_case_3",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/cases/vosstanovlenie_zubov_case_1",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/cases/vosstanovlenie_zubov_case_1",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/detskaya-stomatologiya",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/detskaya-stomatologiya",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/doctors",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/doctors",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/doctors/amirova-mariya-aleksandrovna",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/doctors/amirova-mariya-aleksandrovna",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/doctors/antonyan-yanis-eduardivich",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/doctors/antonyan-yanis-eduardivich",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/doctors/astafiev-alexander-andreevich",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/doctors/astafiev-alexander-andreevich",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/doctors/cherdyntseva-ekaterina-dmitrievna",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/doctors/cherdyntseva-ekaterina-dmitrievna",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/doctors/dulenova_ekaterina_valerievna",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/doctors/dulenova_ekaterina_valerievna",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/doctors/kogina-elvira-nailevna",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/doctors/kogina-elvira-nailevna",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/doctors/rudinets_kristina_andreevna",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/doctors/rudinets_kristina_andreevna",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/doctors/vardanyan-alla-vaagnovna",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/doctors/vardanyan-alla-vaagnovna",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/doctors/vasina-anastasiya-sergeevna",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/doctors/vasina-anastasiya-sergeevna",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/doctors/zarandiya-zurab-yurevich",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/doctors/zarandiya-zurab-yurevich",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/doctors/zelenczova-kristina-nikolaevna",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/doctors/zelenczova-kristina-nikolaevna",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/documents",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/documents",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/implantation",
+      "href": "/oferta",
+      "text": "условиям политики конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/implantation",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/implantation",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/oferta",
+      "href": "http://www.consultant.ru/document/cons_doc_LAW_61801/eeeebe22bf738fd65bb66b95cc278911ae2525ee/",
+      "text": "п.п. 2 п. 1 ст. 18.1 Федерального закона № 152-ФЗ от 27.07.2006 г. «О персональных данных»"
+    },
+    {
+      "page": "https://drkogina.ru/oferta",
+      "href": "http://www.consultant.ru/document/cons_doc_LAW_61801/",
+      "text": "Федеральный закон №152-ФЗ от 27.07.2006 г. «О персональных данных»"
+    },
+    {
+      "page": "https://drkogina.ru/oferta",
+      "href": "http://www.consultant.ru/document/cons_doc_LAW_61801/",
+      "text": "Федерального закона № 152-ФЗ от 27.07.2006 г. «О персональных данных»"
+    },
+    {
+      "page": "https://drkogina.ru/oferta",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/oferta",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/page33757778.html",
+      "href": "/oferta",
+      "text": "условиям политики конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/page33757778.html",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/page33757778.html",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/page70001375.html",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/page70001375.html",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/price",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/price",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/reviews",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/reviews",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/brekety-damon",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/brekety-damon",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/check-up",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/check-up",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/cirkonievye-koronki",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/cirkonievye-koronki",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/domashnee-otbelivanie-zubov",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/domashnee-otbelivanie-zubov",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/esteticheskaya-restavraciya-zuba",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/esteticheskaya-restavraciya-zuba",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/germetizaciya-fissur",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/germetizaciya-fissur",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/gigiena-zubov-airflow",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/gigiena-zubov-airflow",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/implantaciya-all-on-4",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/implantaciya-all-on-4",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/implantaciya-all-on-6",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/implantaciya-all-on-6",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/implantatsiya-zubov",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/implantatsiya-zubov",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/implantaty-mis",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/implantaty-mis",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/jelajnery",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/jelajnery",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/keramicheskie-brekety",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/keramicheskie-brekety",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/keramicheskie-koronki-e-max",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/keramicheskie-koronki-e-max",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/keramicheskie-viniry",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/keramicheskie-viniry",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/kompozitnye-viniry",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/kompozitnye-viniry",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/koronki-na-molochnye-zuby",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/koronki-na-molochnye-zuby",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-desen",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-desen",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-desen-apparatom-vektor",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-desen-apparatom-vektor",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-gingivita",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-gingivita",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-kanalov-zuba",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-kanalov-zuba",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-kariesa",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-kariesa",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-kariesa-molochnyh-zubov",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-kariesa-molochnyh-zubov",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-kisty-zuba",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-kisty-zuba",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-molochnyh-zubov",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-molochnyh-zubov",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-parodontita",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-parodontita",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-parodontoza",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-parodontoza",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-pulpita",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-pulpita",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-pulpita-molochnyh-zubov",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-pulpita-molochnyh-zubov",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-zubov-pod-mikroskopom",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/lechenie-zubov-pod-mikroskopom",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/ligaturnye-brekety",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/ligaturnye-brekety",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/metallicheskie-brekety",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/metallicheskie-brekety",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/mostovidnyj-protez",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/mostovidnyj-protez",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/odnomomentnaya-implantaciya",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/odnomomentnaya-implantaciya",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/otbelivanie-zubov-zoom4",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/otbelivanie-zubov-zoom4",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/perelechivaniye-zuba",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/perelechivaniye-zuba",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/plastic-bridles",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/plastic-bridles",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/priem-gnatologa",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/priem-gnatologa",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/priem-ortodonta",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/priem-ortodonta",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/priem-stomatologa-ortopeda",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/priem-stomatologa-ortopeda",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/professionalnaya-chistka-molochnyh-zubov",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/professionalnaya-chistka-molochnyh-zubov",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/prostoe-udalenie-zubov",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/prostoe-udalenie-zubov",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/restavraciya-molochnyh-zubov",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/restavraciya-molochnyh-zubov",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/samoligirujushhie-brekety",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/samoligirujushhie-brekety",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/slozhnoe-udalenie-zuba",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/slozhnoe-udalenie-zuba",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/snimok-zubov",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/snimok-zubov",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/udalenie-molochnyh-zubov",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/udalenie-molochnyh-zubov",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/udalenie-zuba-mudrosti",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/udalenie-zuba-mudrosti",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/ultrazvukvaya-chistka-zubov",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/ultrazvukvaya-chistka-zubov",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/ustanovka-breketov",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/ustanovka-breketov",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/viniry-e-max",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/viniry-e-max",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/vkladki-koronki-mosty",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/vkladki-koronki-mosty",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/zubnye-protezy",
+      "href": "https://drkogina.ru/oferta",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://drkogina.ru/uslugi/zubnye-protezy",
+      "href": "/oferta",
+      "text": "Политика конфидициальности"
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://drkogina.ru/contacts"
+    ],
+    "booking_urls": [
+      "https://drkogina.ru/",
+      "https://drkogina.ru/about",
+      "https://drkogina.ru/akcii",
+      "https://drkogina.ru/blog",
+      "https://drkogina.ru/cases/implantaciya-all-on-6_case_10",
+      "https://drkogina.ru/cases/ispravlenie_prikusa_case_2",
+      "https://drkogina.ru/cases/korrekciya_formy_zubov_case_9",
+      "https://drkogina.ru/cases/mikrodentiya_i_stiraemost_zubov_case_7",
+      "https://drkogina.ru/cases/polnaya_reabilitaciya_zubov_case_6",
+      "https://drkogina.ru/cases/polnaya_transformaciya_case_11",
+      "https://drkogina.ru/cases/prikus_i_estetika_case_8",
+      "https://drkogina.ru/cases/prisheechnyj_karies_case_5",
+      "https://drkogina.ru/cases/vosstanovlenie_funkcij_case_4",
+      "https://drkogina.ru/cases/vosstanovlenie_zubnogo_ryada_case_3",
+      "https://drkogina.ru/cases/vosstanovlenie_zubov_case_1",
+      "https://drkogina.ru/contacts",
+      "https://drkogina.ru/detskaya-stomatologiya",
+      "https://drkogina.ru/doctors",
+      "https://drkogina.ru/doctors/amirova-mariya-aleksandrovna",
+      "https://drkogina.ru/doctors/antonyan-yanis-eduardivich",
+      "https://drkogina.ru/doctors/astafiev-alexander-andreevich",
+      "https://drkogina.ru/doctors/cherdyntseva-ekaterina-dmitrievna",
+      "https://drkogina.ru/doctors/dulenova_ekaterina_valerievna",
+      "https://drkogina.ru/doctors/kogina-elvira-nailevna",
+      "https://drkogina.ru/doctors/rudinets_kristina_andreevna",
+      "https://drkogina.ru/doctors/vardanyan-alla-vaagnovna",
+      "https://drkogina.ru/doctors/vasina-anastasiya-sergeevna",
+      "https://drkogina.ru/doctors/zarandiya-zurab-yurevich",
+      "https://drkogina.ru/doctors/zelenczova-kristina-nikolaevna",
+      "https://drkogina.ru/documents",
+      "https://drkogina.ru/implantation",
+      "https://drkogina.ru/oferta",
+      "https://drkogina.ru/page33757778.html",
+      "https://drkogina.ru/page70001375.html",
+      "https://drkogina.ru/price",
+      "https://drkogina.ru/reviews",
+      "https://drkogina.ru/uslugi",
+      "https://drkogina.ru/uslugi/brekety-damon",
+      "https://drkogina.ru/uslugi/check-up",
+      "https://drkogina.ru/uslugi/cirkonievye-koronki",
+      "https://drkogina.ru/uslugi/domashnee-otbelivanie-zubov",
+      "https://drkogina.ru/uslugi/esteticheskaya-restavraciya-zuba",
+      "https://drkogina.ru/uslugi/germetizaciya-fissur",
+      "https://drkogina.ru/uslugi/gigiena-zubov-airflow",
+      "https://drkogina.ru/uslugi/implantaciya-all-on-4",
+      "https://drkogina.ru/uslugi/implantaciya-all-on-6",
+      "https://drkogina.ru/uslugi/implantatsiya-zubov",
+      "https://drkogina.ru/uslugi/implantaty-mis",
+      "https://drkogina.ru/uslugi/jelajnery",
+      "https://drkogina.ru/uslugi/keramicheskie-brekety",
+      "https://drkogina.ru/uslugi/keramicheskie-koronki-e-max",
+      "https://drkogina.ru/uslugi/keramicheskie-viniry",
+      "https://drkogina.ru/uslugi/kompozitnye-viniry",
+      "https://drkogina.ru/uslugi/koronki-na-molochnye-zuby",
+      "https://drkogina.ru/uslugi/lechenie-desen",
+      "https://drkogina.ru/uslugi/lechenie-desen-apparatom-vektor",
+      "https://drkogina.ru/uslugi/lechenie-gingivita",
+      "https://drkogina.ru/uslugi/lechenie-kanalov-zuba",
+      "https://drkogina.ru/uslugi/lechenie-kariesa",
+      "https://drkogina.ru/uslugi/lechenie-kariesa-molochnyh-zubov",
+      "https://drkogina.ru/uslugi/lechenie-kisty-zuba",
+      "https://drkogina.ru/uslugi/lechenie-molochnyh-zubov",
+      "https://drkogina.ru/uslugi/lechenie-parodontita",
+      "https://drkogina.ru/uslugi/lechenie-parodontoza",
+      "https://drkogina.ru/uslugi/lechenie-pulpita",
+      "https://drkogina.ru/uslugi/lechenie-pulpita-molochnyh-zubov",
+      "https://drkogina.ru/uslugi/lechenie-zubov-pod-mikroskopom",
+      "https://drkogina.ru/uslugi/ligaturnye-brekety",
+      "https://drkogina.ru/uslugi/metallicheskie-brekety",
+      "https://drkogina.ru/uslugi/mostovidnyj-protez",
+      "https://drkogina.ru/uslugi/odnomomentnaya-implantaciya",
+      "https://drkogina.ru/uslugi/otbelivanie-zubov-zoom4",
+      "https://drkogina.ru/uslugi/perelechivaniye-zuba",
+      "https://drkogina.ru/uslugi/plastic-bridles",
+      "https://drkogina.ru/uslugi/priem-gnatologa",
+      "https://drkogina.ru/uslugi/priem-ortodonta",
+      "https://drkogina.ru/uslugi/priem-stomatologa-ortopeda",
+      "https://drkogina.ru/uslugi/professionalnaya-chistka-molochnyh-zubov",
+      "https://drkogina.ru/uslugi/prostoe-udalenie-zubov",
+      "https://drkogina.ru/uslugi/restavraciya-molochnyh-zubov",
+      "https://drkogina.ru/uslugi/samoligirujushhie-brekety",
+      "https://drkogina.ru/uslugi/slozhnoe-udalenie-zuba",
+      "https://drkogina.ru/uslugi/snimok-zubov",
+      "https://drkogina.ru/uslugi/udalenie-molochnyh-zubov",
+      "https://drkogina.ru/uslugi/udalenie-zuba-mudrosti",
+      "https://drkogina.ru/uslugi/ultrazvukvaya-chistka-zubov",
+      "https://drkogina.ru/uslugi/ustanovka-breketov",
+      "https://drkogina.ru/uslugi/viniry-e-max",
+      "https://drkogina.ru/uslugi/vkladki-koronki-mosty",
+      "https://drkogina.ru/uslugi/zubnye-protezy"
+    ],
+    "legal_urls": [
+      "https://drkogina.ru/doctors",
+      "https://drkogina.ru/doctors/amirova-mariya-aleksandrovna",
+      "https://drkogina.ru/doctors/antonyan-yanis-eduardivich",
+      "https://drkogina.ru/doctors/astafiev-alexander-andreevich",
+      "https://drkogina.ru/doctors/cherdyntseva-ekaterina-dmitrievna",
+      "https://drkogina.ru/doctors/dulenova_ekaterina_valerievna",
+      "https://drkogina.ru/doctors/kogina-elvira-nailevna",
+      "https://drkogina.ru/doctors/rudinets_kristina_andreevna",
+      "https://drkogina.ru/doctors/vardanyan-alla-vaagnovna",
+      "https://drkogina.ru/doctors/vasina-anastasiya-sergeevna",
+      "https://drkogina.ru/doctors/zarandiya-zurab-yurevich",
+      "https://drkogina.ru/doctors/zelenczova-kristina-nikolaevna",
+      "https://drkogina.ru/documents"
+    ],
+    "sources": {
+      "https://drkogina.ru/": "home-booking-candidate",
+      "https://drkogina.ru/about": "sitemap-form",
+      "https://drkogina.ru/akcii": "sitemap-form",
+      "https://drkogina.ru/blog": "sitemap-form",
+      "https://drkogina.ru/cases/implantaciya-all-on-6_case_10": "sitemap-form",
+      "https://drkogina.ru/cases/ispravlenie_prikusa_case_2": "sitemap-form",
+      "https://drkogina.ru/cases/korrekciya_formy_zubov_case_9": "sitemap-form",
+      "https://drkogina.ru/cases/mikrodentiya_i_stiraemost_zubov_case_7": "sitemap-form",
+      "https://drkogina.ru/cases/polnaya_reabilitaciya_zubov_case_6": "sitemap-form",
+      "https://drkogina.ru/cases/polnaya_transformaciya_case_11": "sitemap-form",
+      "https://drkogina.ru/cases/prikus_i_estetika_case_8": "sitemap-form",
+      "https://drkogina.ru/cases/prisheechnyj_karies_case_5": "sitemap-form",
+      "https://drkogina.ru/cases/vosstanovlenie_funkcij_case_4": "sitemap-form",
+      "https://drkogina.ru/cases/vosstanovlenie_zubnogo_ryada_case_3": "sitemap-form",
+      "https://drkogina.ru/cases/vosstanovlenie_zubov_case_1": "sitemap-form",
+      "https://drkogina.ru/contacts": "sitemap",
+      "https://drkogina.ru/detskaya-stomatologiya": "sitemap-form",
+      "https://drkogina.ru/doctors": "sitemap-legal",
+      "https://drkogina.ru/doctors/amirova-mariya-aleksandrovna": "sitemap-legal",
+      "https://drkogina.ru/doctors/antonyan-yanis-eduardivich": "sitemap-legal",
+      "https://drkogina.ru/doctors/astafiev-alexander-andreevich": "sitemap-legal",
+      "https://drkogina.ru/doctors/cherdyntseva-ekaterina-dmitrievna": "sitemap-legal",
+      "https://drkogina.ru/doctors/dulenova_ekaterina_valerievna": "sitemap-legal",
+      "https://drkogina.ru/doctors/kogina-elvira-nailevna": "sitemap-legal",
+      "https://drkogina.ru/doctors/rudinets_kristina_andreevna": "sitemap-legal",
+      "https://drkogina.ru/doctors/vardanyan-alla-vaagnovna": "sitemap-legal",
+      "https://drkogina.ru/doctors/vasina-anastasiya-sergeevna": "sitemap-legal",
+      "https://drkogina.ru/doctors/zarandiya-zurab-yurevich": "sitemap-legal",
+      "https://drkogina.ru/doctors/zelenczova-kristina-nikolaevna": "sitemap-legal",
+      "https://drkogina.ru/documents": "sitemap-legal",
+      "https://drkogina.ru/implantation": "sitemap-form",
+      "https://drkogina.ru/oferta": "sitemap-form",
+      "https://drkogina.ru/page33757778.html": "sitemap-form",
+      "https://drkogina.ru/page70001375.html": "sitemap-form",
+      "https://drkogina.ru/price": "sitemap-form",
+      "https://drkogina.ru/reviews": "sitemap-form",
+      "https://drkogina.ru/uslugi": "sitemap-form",
+      "https://drkogina.ru/uslugi/brekety-damon": "sitemap-form",
+      "https://drkogina.ru/uslugi/check-up": "sitemap-form",
+      "https://drkogina.ru/uslugi/cirkonievye-koronki": "sitemap-form",
+      "https://drkogina.ru/uslugi/domashnee-otbelivanie-zubov": "sitemap-form",
+      "https://drkogina.ru/uslugi/esteticheskaya-restavraciya-zuba": "sitemap-form",
+      "https://drkogina.ru/uslugi/germetizaciya-fissur": "sitemap-form",
+      "https://drkogina.ru/uslugi/gigiena-zubov-airflow": "sitemap-form",
+      "https://drkogina.ru/uslugi/implantaciya-all-on-4": "sitemap-form",
+      "https://drkogina.ru/uslugi/implantaciya-all-on-6": "sitemap-form",
+      "https://drkogina.ru/uslugi/implantatsiya-zubov": "sitemap-form",
+      "https://drkogina.ru/uslugi/implantaty-mis": "sitemap-form",
+      "https://drkogina.ru/uslugi/jelajnery": "sitemap-form",
+      "https://drkogina.ru/uslugi/keramicheskie-brekety": "sitemap-form",
+      "https://drkogina.ru/uslugi/keramicheskie-koronki-e-max": "sitemap-form",
+      "https://drkogina.ru/uslugi/keramicheskie-viniry": "sitemap-form",
+      "https://drkogina.ru/uslugi/kompozitnye-viniry": "sitemap-form",
+      "https://drkogina.ru/uslugi/koronki-na-molochnye-zuby": "sitemap-form",
+      "https://drkogina.ru/uslugi/lechenie-desen": "sitemap-form",
+      "https://drkogina.ru/uslugi/lechenie-desen-apparatom-vektor": "sitemap-form",
+      "https://drkogina.ru/uslugi/lechenie-gingivita": "sitemap-form",
+      "https://drkogina.ru/uslugi/lechenie-kanalov-zuba": "sitemap-form",
+      "https://drkogina.ru/uslugi/lechenie-kariesa": "sitemap-form",
+      "https://drkogina.ru/uslugi/lechenie-kariesa-molochnyh-zubov": "sitemap-form",
+      "https://drkogina.ru/uslugi/lechenie-kisty-zuba": "sitemap-form",
+      "https://drkogina.ru/uslugi/lechenie-molochnyh-zubov": "sitemap-form",
+      "https://drkogina.ru/uslugi/lechenie-parodontita": "sitemap-form",
+      "https://drkogina.ru/uslugi/lechenie-parodontoza": "sitemap-form",
+      "https://drkogina.ru/uslugi/lechenie-pulpita": "sitemap-form",
+      "https://drkogina.ru/uslugi/lechenie-pulpita-molochnyh-zubov": "sitemap-form",
+      "https://drkogina.ru/uslugi/lechenie-zubov-pod-mikroskopom": "sitemap-form",
+      "https://drkogina.ru/uslugi/ligaturnye-brekety": "sitemap-form",
+      "https://drkogina.ru/uslugi/metallicheskie-brekety": "sitemap-form",
+      "https://drkogina.ru/uslugi/mostovidnyj-protez": "sitemap-form",
+      "https://drkogina.ru/uslugi/odnomomentnaya-implantaciya": "sitemap-form",
+      "https://drkogina.ru/uslugi/otbelivanie-zubov-zoom4": "sitemap-form",
+      "https://drkogina.ru/uslugi/perelechivaniye-zuba": "sitemap-form",
+      "https://drkogina.ru/uslugi/plastic-bridles": "sitemap-form",
+      "https://drkogina.ru/uslugi/priem-gnatologa": "sitemap-form",
+      "https://drkogina.ru/uslugi/priem-ortodonta": "sitemap-form",
+      "https://drkogina.ru/uslugi/priem-stomatologa-ortopeda": "sitemap-form",
+      "https://drkogina.ru/uslugi/professionalnaya-chistka-molochnyh-zubov": "sitemap-form",
+      "https://drkogina.ru/uslugi/prostoe-udalenie-zubov": "sitemap-form",
+      "https://drkogina.ru/uslugi/restavraciya-molochnyh-zubov": "sitemap-form",
+      "https://drkogina.ru/uslugi/samoligirujushhie-brekety": "sitemap-form",
+      "https://drkogina.ru/uslugi/slozhnoe-udalenie-zuba": "sitemap-form",
+      "https://drkogina.ru/uslugi/snimok-zubov": "sitemap-form",
+      "https://drkogina.ru/uslugi/udalenie-molochnyh-zubov": "sitemap-form",
+      "https://drkogina.ru/uslugi/udalenie-zuba-mudrosti": "sitemap-form",
+      "https://drkogina.ru/uslugi/ultrazvukvaya-chistka-zubov": "sitemap-form",
+      "https://drkogina.ru/uslugi/ustanovka-breketov": "sitemap-form",
+      "https://drkogina.ru/uslugi/viniry-e-max": "sitemap-form",
+      "https://drkogina.ru/uslugi/vkladki-koronki-mosty": "sitemap-form",
+      "https://drkogina.ru/uslugi/zubnye-protezy": "sitemap-form"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": false
+    }
+  }
+}

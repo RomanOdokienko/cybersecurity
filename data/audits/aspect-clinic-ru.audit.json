@@ -1,0 +1,101 @@
+{
+  "domain": "aspect-clinic.ru",
+  "pages": [
+    {
+      "requested": "https://aspect-clinic.ru/",
+      "status": 200,
+      "final_url": "https://aspect-clinic.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://aspect-clinic.ru/contacts/",
+      "status": 200,
+      "final_url": "https://aspect-clinic.ru/contacts/",
+      "error": null
+    },
+    {
+      "requested": "https://aspect-clinic.ru/appointment",
+      "status": 404,
+      "final_url": "https://aspect-clinic.ru/appointment",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://aspect-clinic.ru/booking",
+      "status": 404,
+      "final_url": "https://aspect-clinic.ru/booking",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://aspect-clinic.ru/zapis",
+      "status": 404,
+      "final_url": "https://aspect-clinic.ru/zapis",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://aspect-clinic.ru/company/docs/",
+      "status": 200,
+      "final_url": "https://aspect-clinic.ru/company/docs/",
+      "error": null
+    }
+  ],
+  "forms": [],
+  "emails": [
+    "mail@aspect-clinic.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://aspect-clinic.ru/",
+      "href": "/include/licenses_detail.php",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://aspect-clinic.ru/contacts/",
+      "href": "/include/licenses_detail.php",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://aspect-clinic.ru/company/docs/",
+      "href": "/include/licenses_detail.php",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://aspect-clinic.ru/company/docs/",
+      "href": "/upload/iblock/35b/vsgl8bgo4dft4fbbcz7l6a0des54jo27.pdf",
+      "text": "Закон о персональных данных"
+    },
+    {
+      "page": "https://aspect-clinic.ru/company/docs/",
+      "href": "/upload/iblock/e6a/2zwedjzjwnu6spr4ss3wzidyrmwod5bz.pdf",
+      "text": "Сведения об операторе персональных данных"
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://aspect-clinic.ru/contacts/"
+    ],
+    "booking_urls": [
+      "https://aspect-clinic.ru/appointment",
+      "https://aspect-clinic.ru/booking",
+      "https://aspect-clinic.ru/zapis"
+    ],
+    "legal_urls": [
+      "https://aspect-clinic.ru/company/docs/"
+    ],
+    "sources": {
+      "https://aspect-clinic.ru/": "",
+      "https://aspect-clinic.ru/appointment": "fallback",
+      "https://aspect-clinic.ru/booking": "fallback",
+      "https://aspect-clinic.ru/company/docs/": "navigation-legal",
+      "https://aspect-clinic.ru/contacts/": "navigation",
+      "https://aspect-clinic.ru/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": true
+    },
+    "sitemap_total_urls": 0,
+    "sitemap_used_urls": 0
+  }
+}

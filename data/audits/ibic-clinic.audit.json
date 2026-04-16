@@ -1,0 +1,335 @@
+{
+  "domain": "ibic.clinic",
+  "pages": [
+    {
+      "requested": "https://ibic.clinic/",
+      "status": 200,
+      "final_url": "https://ibic.clinic/",
+      "error": null
+    },
+    {
+      "requested": "https://ibic.clinic/contacts/",
+      "status": 200,
+      "final_url": "https://ibic.clinic/contacts/",
+      "error": null
+    },
+    {
+      "requested": "https://ibic.clinic/doctors/",
+      "status": 200,
+      "final_url": "https://ibic.clinic/doctors/",
+      "error": null
+    },
+    {
+      "requested": "https://ibic.clinic/doctors/ibragimov-ibragim-guseynovich/",
+      "status": 200,
+      "final_url": "https://ibic.clinic/doctors/ibragimov-ibragim-guseynovich/",
+      "error": null
+    },
+    {
+      "requested": "https://ibic.clinic/doctors/magomedova-sapiget-askhabovna/",
+      "status": 200,
+      "final_url": "https://ibic.clinic/doctors/magomedova-sapiget-askhabovna/",
+      "error": null
+    },
+    {
+      "requested": "https://ibic.clinic/policy/",
+      "status": 200,
+      "final_url": "https://ibic.clinic/policy/",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://ibic.clinic/",
+      "form_id": "cta__grid-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"cta__grid-form\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"body-agree\" id=\"body-agree\" class=\"popup__body-form-checkbox cta__grid-form-checkbox medberry__checkbox\" required>",
+      "policy_poc": "edberry__checkbox\" required> <label class=\"h7_r\" for=\"body-agree\">Даю согласие на <a href=\"/policy/\"><b>обработку персональных данных</b></a></label> </div> <img src=\"/local/templates/main/assets/img/ctar"
+    },
+    {
+      "page": "https://ibic.clinic/",
+      "form_id": "popup__body-form",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form action=\"#\" class=\"popup__body-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"agree\" id=\"agree\" checked class=\"popup__body-form-checkbox medberry__checkbox\" required>",
+      "policy_poc": "box medberry__checkbox\" required> <label class=\"h7_r\" for=\"agree\">Даю согласие на <a href=\"/policy/\"><b>обработку персональных данных</b></a></label> </div> </form>"
+    },
+    {
+      "page": "https://ibic.clinic/",
+      "form_id": "popup__body-form",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form action=\"#\" class=\"popup__body-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"agree-reviews\" id=\"agree-reviews\" class=\"popup__body-form-checkbox medberry__checkbox\"checked required>",
+      "policy_poc": "eckbox\"checked required> <label class=\"h7_r\" for=\"agree-reviews\">Даю согласие на <a href=\"/policy/\"><b>обработку персональных данных</b></a></label> </div> </form>"
+    },
+    {
+      "page": "https://ibic.clinic/contacts/",
+      "form_id": "cta__grid-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"cta__grid-form\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"body-agree\" id=\"body-agree\" class=\"popup__body-form-checkbox cta__grid-form-checkbox medberry__checkbox\" required>",
+      "policy_poc": "edberry__checkbox\" required> <label class=\"h7_r\" for=\"body-agree\">Даю согласие на <a href=\"/policy/\"><b>обработку персональных данных</b></a></label> </div> <img src=\"/local/templates/main/assets/img/ctar"
+    },
+    {
+      "page": "https://ibic.clinic/contacts/",
+      "form_id": "popup__body-form",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form action=\"#\" class=\"popup__body-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"agree\" id=\"agree\" checked class=\"popup__body-form-checkbox medberry__checkbox\" required>",
+      "policy_poc": "box medberry__checkbox\" required> <label class=\"h7_r\" for=\"agree\">Даю согласие на <a href=\"/policy/\"><b>обработку персональных данных</b></a></label> </div> </form>"
+    },
+    {
+      "page": "https://ibic.clinic/contacts/",
+      "form_id": "popup__body-form",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form action=\"#\" class=\"popup__body-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"agree-reviews\" id=\"agree-reviews\" class=\"popup__body-form-checkbox medberry__checkbox\"checked required>",
+      "policy_poc": "eckbox\"checked required> <label class=\"h7_r\" for=\"agree-reviews\">Даю согласие на <a href=\"/policy/\"><b>обработку персональных данных</b></a></label> </div> </form>"
+    },
+    {
+      "page": "https://ibic.clinic/doctors/",
+      "form_id": "cta__grid-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"cta__grid-form\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"body-agree\" id=\"body-agree\" class=\"popup__body-form-checkbox cta__grid-form-checkbox medberry__checkbox\" required>",
+      "policy_poc": "edberry__checkbox\" required> <label class=\"h7_r\" for=\"body-agree\">Даю согласие на <a href=\"/policy/\"><b>обработку персональных данных</b></a></label> </div> <img src=\"/local/templates/main/assets/img/ctar"
+    },
+    {
+      "page": "https://ibic.clinic/doctors/",
+      "form_id": "popup__body-form",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form action=\"#\" class=\"popup__body-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"agree\" id=\"agree\" checked class=\"popup__body-form-checkbox medberry__checkbox\" required>",
+      "policy_poc": "box medberry__checkbox\" required> <label class=\"h7_r\" for=\"agree\">Даю согласие на <a href=\"/policy/\"><b>обработку персональных данных</b></a></label> </div> </form>"
+    },
+    {
+      "page": "https://ibic.clinic/doctors/",
+      "form_id": "popup__body-form",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form action=\"#\" class=\"popup__body-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"agree-reviews\" id=\"agree-reviews\" class=\"popup__body-form-checkbox medberry__checkbox\"checked required>",
+      "policy_poc": "eckbox\"checked required> <label class=\"h7_r\" for=\"agree-reviews\">Даю согласие на <a href=\"/policy/\"><b>обработку персональных данных</b></a></label> </div> </form>"
+    },
+    {
+      "page": "https://ibic.clinic/doctors/ibragimov-ibragim-guseynovich/",
+      "form_id": "cta__grid-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"cta__grid-form\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"body-agree\" id=\"body-agree\" class=\"popup__body-form-checkbox cta__grid-form-checkbox medberry__checkbox\" required>",
+      "policy_poc": "edberry__checkbox\" required> <label class=\"h7_r\" for=\"body-agree\">Даю согласие на <a href=\"/policy/\"><b>обработку персональных данных</b></a></label> </div> <img src=\"/local/templates/main/assets/img/ctar"
+    },
+    {
+      "page": "https://ibic.clinic/doctors/ibragimov-ibragim-guseynovich/",
+      "form_id": "popup__body-form",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form action=\"#\" class=\"popup__body-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"agree\" id=\"agree\" checked class=\"popup__body-form-checkbox medberry__checkbox\" required>",
+      "policy_poc": "box medberry__checkbox\" required> <label class=\"h7_r\" for=\"agree\">Даю согласие на <a href=\"/policy/\"><b>обработку персональных данных</b></a></label> </div> </form>"
+    },
+    {
+      "page": "https://ibic.clinic/doctors/ibragimov-ibragim-guseynovich/",
+      "form_id": "popup__body-form",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form action=\"#\" class=\"popup__body-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"agree-reviews\" id=\"agree-reviews\" class=\"popup__body-form-checkbox medberry__checkbox\"checked required>",
+      "policy_poc": "eckbox\"checked required> <label class=\"h7_r\" for=\"agree-reviews\">Даю согласие на <a href=\"/policy/\"><b>обработку персональных данных</b></a></label> </div> </form>"
+    },
+    {
+      "page": "https://ibic.clinic/doctors/magomedova-sapiget-askhabovna/",
+      "form_id": "cta__grid-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"cta__grid-form\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"body-agree\" id=\"body-agree\" class=\"popup__body-form-checkbox cta__grid-form-checkbox medberry__checkbox\" required>",
+      "policy_poc": "edberry__checkbox\" required> <label class=\"h7_r\" for=\"body-agree\">Даю согласие на <a href=\"/policy/\"><b>обработку персональных данных</b></a></label> </div> <img src=\"/local/templates/main/assets/img/ctar"
+    },
+    {
+      "page": "https://ibic.clinic/doctors/magomedova-sapiget-askhabovna/",
+      "form_id": "popup__body-form",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form action=\"#\" class=\"popup__body-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"agree\" id=\"agree\" checked class=\"popup__body-form-checkbox medberry__checkbox\" required>",
+      "policy_poc": "box medberry__checkbox\" required> <label class=\"h7_r\" for=\"agree\">Даю согласие на <a href=\"/policy/\"><b>обработку персональных данных</b></a></label> </div> </form>"
+    },
+    {
+      "page": "https://ibic.clinic/doctors/magomedova-sapiget-askhabovna/",
+      "form_id": "popup__body-form",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form action=\"#\" class=\"popup__body-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"agree-reviews\" id=\"agree-reviews\" class=\"popup__body-form-checkbox medberry__checkbox\"checked required>",
+      "policy_poc": "eckbox\"checked required> <label class=\"h7_r\" for=\"agree-reviews\">Даю согласие на <a href=\"/policy/\"><b>обработку персональных данных</b></a></label> </div> </form>"
+    },
+    {
+      "page": "https://ibic.clinic/policy/",
+      "form_id": "popup__body-form",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form action=\"#\" class=\"popup__body-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"agree\" id=\"agree\" checked class=\"popup__body-form-checkbox medberry__checkbox\" required>",
+      "policy_poc": "box medberry__checkbox\" required> <label class=\"h7_r\" for=\"agree\">Даю согласие на <a href=\"/policy/\"><b>обработку персональных данных</b></a></label> </div> </form>"
+    },
+    {
+      "page": "https://ibic.clinic/policy/",
+      "form_id": "popup__body-form",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form action=\"#\" class=\"popup__body-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"agree-reviews\" id=\"agree-reviews\" class=\"popup__body-form-checkbox medberry__checkbox\"checked required>",
+      "policy_poc": "eckbox\"checked required> <label class=\"h7_r\" for=\"agree-reviews\">Даю согласие на <a href=\"/policy/\"><b>обработку персональных данных</b></a></label> </div> </form>"
+    }
+  ],
+  "emails": [
+    "ibragimov.clinic@yandex.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://ibic.clinic/",
+      "href": "/policy/",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://ibic.clinic/",
+      "href": "/policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://ibic.clinic/contacts/",
+      "href": "/policy/",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://ibic.clinic/contacts/",
+      "href": "/policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://ibic.clinic/doctors/",
+      "href": "/policy/",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://ibic.clinic/doctors/",
+      "href": "/policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://ibic.clinic/doctors/ibragimov-ibragim-guseynovich/",
+      "href": "/policy/",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://ibic.clinic/doctors/ibragimov-ibragim-guseynovich/",
+      "href": "/policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://ibic.clinic/doctors/magomedova-sapiget-askhabovna/",
+      "href": "/policy/",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://ibic.clinic/doctors/magomedova-sapiget-askhabovna/",
+      "href": "/policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://ibic.clinic/policy/",
+      "href": "https://ibic.clinic/policy/",
+      "text": "policy path"
+    },
+    {
+      "page": "https://ibic.clinic/policy/",
+      "href": "#document13",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://ibic.clinic/policy/",
+      "href": "/policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://ibic.clinic/policy/",
+      "href": "/policy/",
+      "text": "обработку персональных данных"
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://ibic.clinic/contacts/"
+    ],
+    "booking_urls": [
+      "https://ibic.clinic/"
+    ],
+    "legal_urls": [
+      "https://ibic.clinic/doctors/",
+      "https://ibic.clinic/doctors/ibragimov-ibragim-guseynovich/",
+      "https://ibic.clinic/doctors/magomedova-sapiget-askhabovna/",
+      "https://ibic.clinic/policy/"
+    ],
+    "sources": {
+      "https://ibic.clinic/": "home-booking-candidate",
+      "https://ibic.clinic/contacts/": "navigation",
+      "https://ibic.clinic/doctors/": "navigation-legal",
+      "https://ibic.clinic/doctors/ibragimov-ibragim-guseynovich/": "navigation-legal",
+      "https://ibic.clinic/doctors/magomedova-sapiget-askhabovna/": "navigation-legal",
+      "https://ibic.clinic/policy/": "navigation-legal"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": false
+    },
+    "sitemap_total_urls": 0,
+    "sitemap_used_urls": 0
+  }
+}

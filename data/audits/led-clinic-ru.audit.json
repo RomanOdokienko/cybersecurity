@@ -1,0 +1,247 @@
+{
+  "domain": "led-clinic.ru",
+  "pages": [
+    {
+      "requested": "https://led-clinic.ru/",
+      "status": 200,
+      "final_url": "https://led-clinic.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://led-clinic.ru/contact",
+      "status": 404,
+      "final_url": "https://led-clinic.ru/contact",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://led-clinic.ru/contacts",
+      "status": 404,
+      "final_url": "https://led-clinic.ru/contacts",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://led-clinic.ru/kontakty",
+      "status": 404,
+      "final_url": "https://led-clinic.ru/kontakty",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://led-clinic.ru/appointment",
+      "status": 404,
+      "final_url": "https://led-clinic.ru/appointment",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://led-clinic.ru/booking",
+      "status": 404,
+      "final_url": "https://led-clinic.ru/booking",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://led-clinic.ru/zapis",
+      "status": 404,
+      "final_url": "https://led-clinic.ru/zapis",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://led-clinic.ru/policy",
+      "status": 200,
+      "final_url": "https://led-clinic.ru/policy",
+      "error": null
+    },
+    {
+      "requested": "https://led-clinic.ru/privacy",
+      "status": 404,
+      "final_url": "https://led-clinic.ru/privacy",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://led-clinic.ru/privacy-policy",
+      "status": 404,
+      "final_url": "https://led-clinic.ru/privacy-policy",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://led-clinic.ru/privacy-policy-agreement",
+      "status": 200,
+      "final_url": "https://led-clinic.ru/privacy-policy-agreement",
+      "error": null
+    },
+    {
+      "requested": "https://led-clinic.ru/consultation",
+      "status": 200,
+      "final_url": "https://led-clinic.ru/consultation",
+      "error": null
+    },
+    {
+      "requested": "https://led-clinic.ru/orthopedics",
+      "status": 200,
+      "final_url": "https://led-clinic.ru/orthopedics",
+      "error": null
+    },
+    {
+      "requested": "https://led-clinic.ru/surgery",
+      "status": 200,
+      "final_url": "https://led-clinic.ru/surgery",
+      "error": null
+    },
+    {
+      "requested": "https://led-clinic.ru/therapy",
+      "status": 200,
+      "final_url": "https://led-clinic.ru/therapy",
+      "error": null
+    }
+  ],
+  "forms": [],
+  "emails": [
+    "info@led.clinic"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://led-clinic.ru/",
+      "href": "https://led-clinic.ru/policy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://led-clinic.ru/",
+      "href": "https://led-clinic.ru/privacy-policy-agreement",
+      "text": "согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://led-clinic.ru/",
+      "href": "/policy",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://led-clinic.ru/policy",
+      "href": "https://led-clinic.ru/policy",
+      "text": "policy path"
+    },
+    {
+      "page": "https://led-clinic.ru/policy",
+      "href": "/policy",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://led-clinic.ru/privacy-policy-agreement",
+      "href": "https://led-clinic.ru/privacy-policy-agreement",
+      "text": "policy path"
+    },
+    {
+      "page": "https://led-clinic.ru/privacy-policy-agreement",
+      "href": "https://led-clinic.ru/policy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://led-clinic.ru/privacy-policy-agreement",
+      "href": "https://led-clinic.ru/privacy-policy-agreement",
+      "text": "согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://led-clinic.ru/privacy-policy-agreement",
+      "href": "/policy",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://led-clinic.ru/consultation",
+      "href": "https://led-clinic.ru/policy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://led-clinic.ru/consultation",
+      "href": "https://led-clinic.ru/privacy-policy-agreement",
+      "text": "согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://led-clinic.ru/consultation",
+      "href": "/policy",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://led-clinic.ru/orthopedics",
+      "href": "https://led-clinic.ru/policy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://led-clinic.ru/orthopedics",
+      "href": "https://led-clinic.ru/privacy-policy-agreement",
+      "text": "согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://led-clinic.ru/orthopedics",
+      "href": "/policy",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://led-clinic.ru/surgery",
+      "href": "https://led-clinic.ru/policy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://led-clinic.ru/surgery",
+      "href": "https://led-clinic.ru/privacy-policy-agreement",
+      "text": "согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://led-clinic.ru/surgery",
+      "href": "/policy",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://led-clinic.ru/therapy",
+      "href": "https://led-clinic.ru/policy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://led-clinic.ru/therapy",
+      "href": "https://led-clinic.ru/privacy-policy-agreement",
+      "text": "согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://led-clinic.ru/therapy",
+      "href": "/policy",
+      "text": "Политика конфиденциальности"
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://led-clinic.ru/contact",
+      "https://led-clinic.ru/contacts",
+      "https://led-clinic.ru/kontakty"
+    ],
+    "booking_urls": [
+      "https://led-clinic.ru/appointment",
+      "https://led-clinic.ru/booking",
+      "https://led-clinic.ru/zapis"
+    ],
+    "legal_urls": [
+      "https://led-clinic.ru/policy",
+      "https://led-clinic.ru/privacy",
+      "https://led-clinic.ru/privacy-policy",
+      "https://led-clinic.ru/privacy-policy-agreement"
+    ],
+    "sources": {
+      "https://led-clinic.ru/": "sitemap-form",
+      "https://led-clinic.ru/appointment": "fallback",
+      "https://led-clinic.ru/booking": "fallback",
+      "https://led-clinic.ru/consultation": "sitemap-form",
+      "https://led-clinic.ru/contact": "fallback",
+      "https://led-clinic.ru/contacts": "fallback",
+      "https://led-clinic.ru/kontakty": "fallback",
+      "https://led-clinic.ru/orthopedics": "sitemap-form",
+      "https://led-clinic.ru/policy": "sitemap-legal",
+      "https://led-clinic.ru/privacy": "policy-hint",
+      "https://led-clinic.ru/privacy-policy": "policy-hint",
+      "https://led-clinic.ru/privacy-policy-agreement": "sitemap-legal",
+      "https://led-clinic.ru/surgery": "sitemap-form",
+      "https://led-clinic.ru/therapy": "sitemap-form",
+      "https://led-clinic.ru/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": true,
+      "booking": true
+    }
+  }
+}

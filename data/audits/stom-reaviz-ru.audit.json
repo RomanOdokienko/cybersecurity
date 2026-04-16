@@ -1,0 +1,137 @@
+{
+  "domain": "stom-reaviz.ru",
+  "pages": [
+    {
+      "requested": "https://stom-reaviz.ru/",
+      "status": 403,
+      "final_url": "https://stom-reaviz.ru/",
+      "error": "HTTPError 403"
+    },
+    {
+      "requested": "https://stom-reaviz.ru/contact",
+      "status": 403,
+      "final_url": "https://stom-reaviz.ru/contact",
+      "error": "HTTPError 403"
+    },
+    {
+      "requested": "https://stom-reaviz.ru/contacts",
+      "status": 403,
+      "final_url": "https://stom-reaviz.ru/contacts",
+      "error": "HTTPError 403"
+    },
+    {
+      "requested": "https://stom-reaviz.ru/kontakty",
+      "status": 403,
+      "final_url": "https://stom-reaviz.ru/kontakty",
+      "error": "HTTPError 403"
+    },
+    {
+      "requested": "https://stom-reaviz.ru/appointment",
+      "status": 403,
+      "final_url": "https://stom-reaviz.ru/appointment",
+      "error": "HTTPError 403"
+    },
+    {
+      "requested": "https://stom-reaviz.ru/booking",
+      "status": 403,
+      "final_url": "https://stom-reaviz.ru/booking",
+      "error": "HTTPError 403"
+    },
+    {
+      "requested": "https://stom-reaviz.ru/zapis",
+      "status": 403,
+      "final_url": "https://stom-reaviz.ru/zapis",
+      "error": "HTTPError 403"
+    },
+    {
+      "requested": "https://stom-reaviz.ru/agreement",
+      "status": 403,
+      "final_url": "https://stom-reaviz.ru/agreement",
+      "error": "HTTPError 403"
+    },
+    {
+      "requested": "https://stom-reaviz.ru/personal-data",
+      "status": 403,
+      "final_url": "https://stom-reaviz.ru/personal-data",
+      "error": "HTTPError 403"
+    },
+    {
+      "requested": "https://stom-reaviz.ru/policy",
+      "status": 403,
+      "final_url": "https://stom-reaviz.ru/policy",
+      "error": "HTTPError 403"
+    },
+    {
+      "requested": "https://stom-reaviz.ru/politika",
+      "status": 403,
+      "final_url": "https://stom-reaviz.ru/politika",
+      "error": "HTTPError 403"
+    },
+    {
+      "requested": "https://stom-reaviz.ru/politika-konfidencialnosti",
+      "status": 403,
+      "final_url": "https://stom-reaviz.ru/politika-konfidencialnosti",
+      "error": "HTTPError 403"
+    },
+    {
+      "requested": "https://stom-reaviz.ru/privacy",
+      "status": 403,
+      "final_url": "https://stom-reaviz.ru/privacy",
+      "error": "HTTPError 403"
+    },
+    {
+      "requested": "https://stom-reaviz.ru/privacy-policy",
+      "status": 403,
+      "final_url": "https://stom-reaviz.ru/privacy-policy",
+      "error": "HTTPError 403"
+    }
+  ],
+  "forms": [],
+  "emails": [],
+  "privacy_links": [],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://stom-reaviz.ru/contact",
+      "https://stom-reaviz.ru/contacts",
+      "https://stom-reaviz.ru/kontakty"
+    ],
+    "booking_urls": [
+      "https://stom-reaviz.ru/appointment",
+      "https://stom-reaviz.ru/booking",
+      "https://stom-reaviz.ru/zapis"
+    ],
+    "legal_urls": [
+      "https://stom-reaviz.ru/agreement",
+      "https://stom-reaviz.ru/personal-data",
+      "https://stom-reaviz.ru/policy",
+      "https://stom-reaviz.ru/politika",
+      "https://stom-reaviz.ru/politika-konfidencialnosti",
+      "https://stom-reaviz.ru/privacy",
+      "https://stom-reaviz.ru/privacy-policy"
+    ],
+    "sources": {
+      "https://stom-reaviz.ru/": "",
+      "https://stom-reaviz.ru/agreement": "policy-fallback",
+      "https://stom-reaviz.ru/appointment": "fallback",
+      "https://stom-reaviz.ru/booking": "fallback",
+      "https://stom-reaviz.ru/contact": "fallback",
+      "https://stom-reaviz.ru/contacts": "fallback",
+      "https://stom-reaviz.ru/kontakty": "fallback",
+      "https://stom-reaviz.ru/personal-data": "policy-fallback",
+      "https://stom-reaviz.ru/policy": "policy-fallback",
+      "https://stom-reaviz.ru/politika": "policy-fallback",
+      "https://stom-reaviz.ru/politika-konfidencialnosti": "policy-fallback",
+      "https://stom-reaviz.ru/privacy": "policy-fallback",
+      "https://stom-reaviz.ru/privacy-policy": "policy-fallback",
+      "https://stom-reaviz.ru/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": true,
+      "booking": true
+    },
+    "sitemap_total_urls": 0,
+    "sitemap_used_urls": 0
+  }
+}

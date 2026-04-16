@@ -1,0 +1,1037 @@
+{
+  "domain": "happydents.ru",
+  "pages": [
+    {
+      "requested": "https://happydents.ru/",
+      "status": 200,
+      "final_url": "https://happydents.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://happydents.ru/contacts/",
+      "status": 200,
+      "final_url": "https://happydents.ru/contacts/",
+      "error": null
+    },
+    {
+      "requested": "https://happydents.ru/contacts/#contancts_typ",
+      "status": 200,
+      "final_url": "https://happydents.ru/contacts/#contancts_typ",
+      "error": null
+    },
+    {
+      "requested": "https://happydents.ru/contacts/#len",
+      "status": 200,
+      "final_url": "https://happydents.ru/contacts/#len",
+      "error": null
+    },
+    {
+      "requested": "https://happydents.ru/online-consult/",
+      "status": 200,
+      "final_url": "https://happydents.ru/online-consult/",
+      "error": null
+    },
+    {
+      "requested": "https://happydents.ru/doctors/",
+      "status": 200,
+      "final_url": "https://happydents.ru/doctors/",
+      "error": null
+    },
+    {
+      "requested": "https://happydents.ru/doctors/antonets-elena-vladimirovna/",
+      "status": 200,
+      "final_url": "https://happydents.ru/doctors/antonets-elena-vladimirovna/",
+      "error": null
+    },
+    {
+      "requested": "https://happydents.ru/doctors/arina/",
+      "status": 200,
+      "final_url": "https://happydents.ru/doctors/arina/",
+      "error": null
+    },
+    {
+      "requested": "https://happydents.ru/doctors/bagiryan-avanes-nelsonovich/",
+      "status": 200,
+      "final_url": "https://happydents.ru/doctors/bagiryan-avanes-nelsonovich/",
+      "error": null
+    },
+    {
+      "requested": "https://happydents.ru/doctors/davoyan-artashes-eduardovich/",
+      "status": 200,
+      "final_url": "https://happydents.ru/doctors/davoyan-artashes-eduardovich/",
+      "error": null
+    },
+    {
+      "requested": "https://happydents.ru/doctors/helena/",
+      "status": 200,
+      "final_url": "https://happydents.ru/doctors/helena/",
+      "error": null
+    },
+    {
+      "requested": "https://happydents.ru/doctors/kasparova-liliya/",
+      "status": 200,
+      "final_url": "https://happydents.ru/doctors/kasparova-liliya/",
+      "error": null
+    },
+    {
+      "requested": "https://happydents.ru/doctors/kazarova-marina-grigorevna/",
+      "status": 200,
+      "final_url": "https://happydents.ru/doctors/kazarova-marina-grigorevna/",
+      "error": null
+    },
+    {
+      "requested": "https://happydents.ru/doctors/maryan-anna/",
+      "status": 200,
+      "final_url": "https://happydents.ru/doctors/maryan-anna/",
+      "error": null
+    },
+    {
+      "requested": "https://happydents.ru/doctors/panosyan-naira-samvelovna/",
+      "status": 200,
+      "final_url": "https://happydents.ru/doctors/panosyan-naira-samvelovna/",
+      "error": null
+    },
+    {
+      "requested": "https://happydents.ru/doctors/svetlana/",
+      "status": 200,
+      "final_url": "https://happydents.ru/doctors/svetlana/",
+      "error": null
+    },
+    {
+      "requested": "https://happydents.ru/doctors/yuliya/",
+      "status": 200,
+      "final_url": "https://happydents.ru/doctors/yuliya/",
+      "error": null
+    },
+    {
+      "requested": "https://happydents.ru/doctors/yuliya2/",
+      "status": null,
+      "final_url": "https://happydents.ru/doctors/yuliya2/",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "requested": "https://happydents.ru/politika",
+      "status": 404,
+      "final_url": "https://happydents.ru/politika",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://happydents.ru/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf",
+      "status": null,
+      "final_url": "https://happydents.ru/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf",
+      "error": "'ascii' codec can't encode characters in position 37-44: ordinal not in range(128)"
+    },
+    {
+      "requested": "https://happydents.ru/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/",
+      "status": 200,
+      "final_url": "https://happydents.ru/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://happydents.ru/",
+      "form_id": "SIMPLE_FORM_2",
+      "action_display": "action=\"/\"",
+      "open_tag": "<form name=\"SIMPLE_FORM_2\" action=\"/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "p class=\"form-p-text\"> Нажимая на кнопку <i>«Записаться на консультацию» вы даете согласие на <a href=\"/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf\" title=\"Политика обработки персональных данных\" target=\"_blank\""
+    },
+    {
+      "page": "https://happydents.ru/contacts/",
+      "form_id": "SIMPLE_FORM_2",
+      "action_display": "action=\"/contacts/\"",
+      "open_tag": "<form name=\"SIMPLE_FORM_2\" action=\"/contacts/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "p class=\"form-p-text\"> Нажимая на кнопку <i>«Записаться на консультацию» вы даете согласие на <a href=\"/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf\" title=\"Политика обработки персональных данных\" target=\"_blank\""
+    },
+    {
+      "page": "https://happydents.ru/contacts/#contancts_typ",
+      "form_id": "SIMPLE_FORM_2",
+      "action_display": "action=\"/contacts/\"",
+      "open_tag": "<form name=\"SIMPLE_FORM_2\" action=\"/contacts/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "p class=\"form-p-text\"> Нажимая на кнопку <i>«Записаться на консультацию» вы даете согласие на <a href=\"/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf\" title=\"Политика обработки персональных данных\" target=\"_blank\""
+    },
+    {
+      "page": "https://happydents.ru/contacts/#len",
+      "form_id": "SIMPLE_FORM_2",
+      "action_display": "action=\"/contacts/\"",
+      "open_tag": "<form name=\"SIMPLE_FORM_2\" action=\"/contacts/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "p class=\"form-p-text\"> Нажимая на кнопку <i>«Записаться на консультацию» вы даете согласие на <a href=\"/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf\" title=\"Политика обработки персональных данных\" target=\"_blank\""
+    },
+    {
+      "page": "https://happydents.ru/online-consult/",
+      "form_id": "SIMPLE_FORM_2",
+      "action_display": "action=\"/online-consult/\"",
+      "open_tag": "<form name=\"SIMPLE_FORM_2\" action=\"/online-consult/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "p class=\"form-p-text\"> Нажимая на кнопку <i>«Записаться на консультацию» вы даете согласие на <a href=\"/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf\" title=\"Политика обработки персональных данных\" target=\"_blank\""
+    },
+    {
+      "page": "https://happydents.ru/doctors/",
+      "form_id": "SIMPLE_FORM_2",
+      "action_display": "action=\"/doctors/\"",
+      "open_tag": "<form name=\"SIMPLE_FORM_2\" action=\"/doctors/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "p class=\"form-p-text\"> Нажимая на кнопку <i>«Записаться на консультацию» вы даете согласие на <a href=\"/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf\" title=\"Политика обработки персональных данных\" target=\"_blank\""
+    },
+    {
+      "page": "https://happydents.ru/doctors/antonets-elena-vladimirovna/",
+      "form_id": "SIMPLE_FORM_2",
+      "action_display": "action=\"/doctors/antonets-elena-vladimirovna/?CODE=antonets-elena-vladimirovna\"",
+      "open_tag": "<form name=\"SIMPLE_FORM_2\" action=\"/doctors/antonets-elena-vladimirovna/?CODE=antonets-elena-vladimirovna\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "p class=\"form-p-text\"> Нажимая на кнопку <i>«Записаться на консультацию» вы даете согласие на <a href=\"/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf\" title=\"Политика обработки персональных данных\" target=\"_blank\""
+    },
+    {
+      "page": "https://happydents.ru/doctors/arina/",
+      "form_id": "SIMPLE_FORM_2",
+      "action_display": "action=\"/doctors/arina/?CODE=arina\"",
+      "open_tag": "<form name=\"SIMPLE_FORM_2\" action=\"/doctors/arina/?CODE=arina\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "p class=\"form-p-text\"> Нажимая на кнопку <i>«Записаться на консультацию» вы даете согласие на <a href=\"/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf\" title=\"Политика обработки персональных данных\" target=\"_blank\""
+    },
+    {
+      "page": "https://happydents.ru/doctors/bagiryan-avanes-nelsonovich/",
+      "form_id": "SIMPLE_FORM_2",
+      "action_display": "action=\"/doctors/bagiryan-avanes-nelsonovich/?CODE=bagiryan-avanes-nelsonovich\"",
+      "open_tag": "<form name=\"SIMPLE_FORM_2\" action=\"/doctors/bagiryan-avanes-nelsonovich/?CODE=bagiryan-avanes-nelsonovich\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "p class=\"form-p-text\"> Нажимая на кнопку <i>«Записаться на консультацию» вы даете согласие на <a href=\"/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf\" title=\"Политика обработки персональных данных\" target=\"_blank\""
+    },
+    {
+      "page": "https://happydents.ru/doctors/davoyan-artashes-eduardovich/",
+      "form_id": "SIMPLE_FORM_2",
+      "action_display": "action=\"/doctors/davoyan-artashes-eduardovich/?CODE=davoyan-artashes-eduardovich\"",
+      "open_tag": "<form name=\"SIMPLE_FORM_2\" action=\"/doctors/davoyan-artashes-eduardovich/?CODE=davoyan-artashes-eduardovich\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "p class=\"form-p-text\"> Нажимая на кнопку <i>«Записаться на консультацию» вы даете согласие на <a href=\"/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf\" title=\"Политика обработки персональных данных\" target=\"_blank\""
+    },
+    {
+      "page": "https://happydents.ru/doctors/helena/",
+      "form_id": "SIMPLE_FORM_2",
+      "action_display": "action=\"/doctors/helena/?CODE=helena\"",
+      "open_tag": "<form name=\"SIMPLE_FORM_2\" action=\"/doctors/helena/?CODE=helena\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "p class=\"form-p-text\"> Нажимая на кнопку <i>«Записаться на консультацию» вы даете согласие на <a href=\"/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf\" title=\"Политика обработки персональных данных\" target=\"_blank\""
+    },
+    {
+      "page": "https://happydents.ru/doctors/kasparova-liliya/",
+      "form_id": "SIMPLE_FORM_2",
+      "action_display": "action=\"/doctors/kasparova-liliya/?CODE=kasparova-liliya\"",
+      "open_tag": "<form name=\"SIMPLE_FORM_2\" action=\"/doctors/kasparova-liliya/?CODE=kasparova-liliya\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "p class=\"form-p-text\"> Нажимая на кнопку <i>«Записаться на консультацию» вы даете согласие на <a href=\"/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf\" title=\"Политика обработки персональных данных\" target=\"_blank\""
+    },
+    {
+      "page": "https://happydents.ru/doctors/kazarova-marina-grigorevna/",
+      "form_id": "SIMPLE_FORM_2",
+      "action_display": "action=\"/doctors/kazarova-marina-grigorevna/?CODE=kazarova-marina-grigorevna\"",
+      "open_tag": "<form name=\"SIMPLE_FORM_2\" action=\"/doctors/kazarova-marina-grigorevna/?CODE=kazarova-marina-grigorevna\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "p class=\"form-p-text\"> Нажимая на кнопку <i>«Записаться на консультацию» вы даете согласие на <a href=\"/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf\" title=\"Политика обработки персональных данных\" target=\"_blank\""
+    },
+    {
+      "page": "https://happydents.ru/doctors/maryan-anna/",
+      "form_id": "SIMPLE_FORM_2",
+      "action_display": "action=\"/doctors/maryan-anna/?CODE=maryan-anna\"",
+      "open_tag": "<form name=\"SIMPLE_FORM_2\" action=\"/doctors/maryan-anna/?CODE=maryan-anna\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "p class=\"form-p-text\"> Нажимая на кнопку <i>«Записаться на консультацию» вы даете согласие на <a href=\"/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf\" title=\"Политика обработки персональных данных\" target=\"_blank\""
+    },
+    {
+      "page": "https://happydents.ru/doctors/panosyan-naira-samvelovna/",
+      "form_id": "SIMPLE_FORM_2",
+      "action_display": "action=\"/doctors/panosyan-naira-samvelovna/?CODE=panosyan-naira-samvelovna\"",
+      "open_tag": "<form name=\"SIMPLE_FORM_2\" action=\"/doctors/panosyan-naira-samvelovna/?CODE=panosyan-naira-samvelovna\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "p class=\"form-p-text\"> Нажимая на кнопку <i>«Записаться на консультацию» вы даете согласие на <a href=\"/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf\" title=\"Политика обработки персональных данных\" target=\"_blank\""
+    },
+    {
+      "page": "https://happydents.ru/doctors/svetlana/",
+      "form_id": "SIMPLE_FORM_2",
+      "action_display": "action=\"/doctors/svetlana/?CODE=svetlana\"",
+      "open_tag": "<form name=\"SIMPLE_FORM_2\" action=\"/doctors/svetlana/?CODE=svetlana\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "p class=\"form-p-text\"> Нажимая на кнопку <i>«Записаться на консультацию» вы даете согласие на <a href=\"/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf\" title=\"Политика обработки персональных данных\" target=\"_blank\""
+    },
+    {
+      "page": "https://happydents.ru/doctors/yuliya/",
+      "form_id": "SIMPLE_FORM_2",
+      "action_display": "action=\"/doctors/yuliya/?CODE=yuliya\"",
+      "open_tag": "<form name=\"SIMPLE_FORM_2\" action=\"/doctors/yuliya/?CODE=yuliya\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "p class=\"form-p-text\"> Нажимая на кнопку <i>«Записаться на консультацию» вы даете согласие на <a href=\"/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf\" title=\"Политика обработки персональных данных\" target=\"_blank\""
+    },
+    {
+      "page": "https://happydents.ru/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/",
+      "form_id": "SIMPLE_FORM_2",
+      "action_display": "action=\"/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/\"",
+      "open_tag": "<form name=\"SIMPLE_FORM_2\" action=\"/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "p class=\"form-p-text\"> Нажимая на кнопку <i>«Записаться на консультацию» вы даете согласие на <a href=\"/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf\" title=\"Политика обработки персональных данных\" target=\"_blank\""
+    }
+  ],
+  "emails": [
+    "clinica@happydents.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://happydents.ru/",
+      "href": "/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://happydents.ru/",
+      "href": "/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://happydents.ru/contacts/",
+      "href": "/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://happydents.ru/contacts/",
+      "href": "/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://happydents.ru/contacts/#contancts_typ",
+      "href": "/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://happydents.ru/contacts/#contancts_typ",
+      "href": "/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://happydents.ru/contacts/#len",
+      "href": "/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://happydents.ru/contacts/#len",
+      "href": "/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://happydents.ru/online-consult/",
+      "href": "/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://happydents.ru/online-consult/",
+      "href": "/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://happydents.ru/doctors/",
+      "href": "/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://happydents.ru/doctors/",
+      "href": "/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://happydents.ru/doctors/antonets-elena-vladimirovna/",
+      "href": "/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://happydents.ru/doctors/antonets-elena-vladimirovna/",
+      "href": "/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://happydents.ru/doctors/arina/",
+      "href": "/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://happydents.ru/doctors/arina/",
+      "href": "/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://happydents.ru/doctors/bagiryan-avanes-nelsonovich/",
+      "href": "/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://happydents.ru/doctors/bagiryan-avanes-nelsonovich/",
+      "href": "/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://happydents.ru/doctors/davoyan-artashes-eduardovich/",
+      "href": "/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://happydents.ru/doctors/davoyan-artashes-eduardovich/",
+      "href": "/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://happydents.ru/doctors/helena/",
+      "href": "/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://happydents.ru/doctors/helena/",
+      "href": "/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://happydents.ru/doctors/kasparova-liliya/",
+      "href": "/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://happydents.ru/doctors/kasparova-liliya/",
+      "href": "/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://happydents.ru/doctors/kazarova-marina-grigorevna/",
+      "href": "/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://happydents.ru/doctors/kazarova-marina-grigorevna/",
+      "href": "/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://happydents.ru/doctors/maryan-anna/",
+      "href": "/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://happydents.ru/doctors/maryan-anna/",
+      "href": "/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://happydents.ru/doctors/panosyan-naira-samvelovna/",
+      "href": "/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://happydents.ru/doctors/panosyan-naira-samvelovna/",
+      "href": "/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://happydents.ru/doctors/svetlana/",
+      "href": "/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://happydents.ru/doctors/svetlana/",
+      "href": "/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://happydents.ru/doctors/yuliya/",
+      "href": "/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://happydents.ru/doctors/yuliya/",
+      "href": "/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://happydents.ru/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/",
+      "href": "https://happydents.ru/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/",
+      "text": "policy path"
+    },
+    {
+      "page": "https://happydents.ru/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/",
+      "href": "/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/Политика конфиденциальности.pdf",
+      "text": "Политика конфиденциальности в ООО «ХЭППИ ДЕНТС»"
+    },
+    {
+      "page": "https://happydents.ru/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/",
+      "href": "/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://happydents.ru/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/",
+      "href": "/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    }
+  ],
+  "forbidden_hits": [
+    {
+      "token": "instagram",
+      "page": "https://happydents.ru/",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://happydents.ru/",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://happydents.ru/",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "https://happydents.ru/",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://happydents.ru/",
+      "context": "src=\"images/instagram.svg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://happydents.ru/",
+      "context": "src=\"images/facebook.svg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://happydents.ru/contacts/",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "https://happydents.ru/contacts/",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://happydents.ru/contacts/",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://happydents.ru/contacts/",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://happydents.ru/contacts/#contancts_typ",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "https://happydents.ru/contacts/#contancts_typ",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://happydents.ru/contacts/#contancts_typ",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://happydents.ru/contacts/#contancts_typ",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://happydents.ru/contacts/#len",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "https://happydents.ru/contacts/#len",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://happydents.ru/contacts/#len",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://happydents.ru/contacts/#len",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://happydents.ru/online-consult/",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "https://happydents.ru/online-consult/",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://happydents.ru/online-consult/",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://happydents.ru/online-consult/",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://happydents.ru/doctors/",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "https://happydents.ru/doctors/",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://happydents.ru/doctors/",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://happydents.ru/doctors/",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://happydents.ru/doctors/antonets-elena-vladimirovna/",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "https://happydents.ru/doctors/antonets-elena-vladimirovna/",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://happydents.ru/doctors/antonets-elena-vladimirovna/",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://happydents.ru/doctors/antonets-elena-vladimirovna/",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://happydents.ru/doctors/arina/",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "https://happydents.ru/doctors/arina/",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://happydents.ru/doctors/arina/",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://happydents.ru/doctors/arina/",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://happydents.ru/doctors/bagiryan-avanes-nelsonovich/",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "https://happydents.ru/doctors/bagiryan-avanes-nelsonovich/",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://happydents.ru/doctors/bagiryan-avanes-nelsonovich/",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://happydents.ru/doctors/bagiryan-avanes-nelsonovich/",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://happydents.ru/doctors/davoyan-artashes-eduardovich/",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "https://happydents.ru/doctors/davoyan-artashes-eduardovich/",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://happydents.ru/doctors/davoyan-artashes-eduardovich/",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://happydents.ru/doctors/davoyan-artashes-eduardovich/",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://happydents.ru/doctors/helena/",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "https://happydents.ru/doctors/helena/",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://happydents.ru/doctors/helena/",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://happydents.ru/doctors/helena/",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://happydents.ru/doctors/kasparova-liliya/",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "https://happydents.ru/doctors/kasparova-liliya/",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://happydents.ru/doctors/kasparova-liliya/",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://happydents.ru/doctors/kasparova-liliya/",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://happydents.ru/doctors/kazarova-marina-grigorevna/",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "https://happydents.ru/doctors/kazarova-marina-grigorevna/",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://happydents.ru/doctors/kazarova-marina-grigorevna/",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://happydents.ru/doctors/kazarova-marina-grigorevna/",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://happydents.ru/doctors/maryan-anna/",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "https://happydents.ru/doctors/maryan-anna/",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://happydents.ru/doctors/maryan-anna/",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://happydents.ru/doctors/maryan-anna/",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://happydents.ru/doctors/panosyan-naira-samvelovna/",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "https://happydents.ru/doctors/panosyan-naira-samvelovna/",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://happydents.ru/doctors/panosyan-naira-samvelovna/",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://happydents.ru/doctors/panosyan-naira-samvelovna/",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://happydents.ru/doctors/svetlana/",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "https://happydents.ru/doctors/svetlana/",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://happydents.ru/doctors/svetlana/",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://happydents.ru/doctors/svetlana/",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://happydents.ru/doctors/yuliya/",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "https://happydents.ru/doctors/yuliya/",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://happydents.ru/doctors/yuliya/",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://happydents.ru/doctors/yuliya/",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://happydents.ru/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "https://happydents.ru/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/",
+      "context": "href=\"https://www.facebook.com/happydents.ru/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://happydents.ru/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://happydents.ru/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/",
+      "context": "href=\"https://www.instagram.com/happy_dents/\"",
+      "visibility": "только в коде"
+    }
+  ],
+  "cert_errors": [
+    {
+      "url": "https://happydents.ru/doctors/yuliya2/",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "url": "https://happydents.ru/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf",
+      "error": "'ascii' codec can't encode characters in position 37-44: ordinal not in range(128)"
+    }
+  ],
+  "discovery": {
+    "contact_urls": [
+      "https://happydents.ru/contacts/",
+      "https://happydents.ru/contacts/#contancts_typ",
+      "https://happydents.ru/contacts/#len"
+    ],
+    "booking_urls": [
+      "https://happydents.ru/online-consult/"
+    ],
+    "legal_urls": [
+      "https://happydents.ru/doctors/",
+      "https://happydents.ru/doctors/antonets-elena-vladimirovna/",
+      "https://happydents.ru/doctors/arina/",
+      "https://happydents.ru/doctors/bagiryan-avanes-nelsonovich/",
+      "https://happydents.ru/doctors/davoyan-artashes-eduardovich/",
+      "https://happydents.ru/doctors/helena/",
+      "https://happydents.ru/doctors/kasparova-liliya/",
+      "https://happydents.ru/doctors/kazarova-marina-grigorevna/",
+      "https://happydents.ru/doctors/maryan-anna/",
+      "https://happydents.ru/doctors/panosyan-naira-samvelovna/",
+      "https://happydents.ru/doctors/svetlana/",
+      "https://happydents.ru/doctors/yuliya/",
+      "https://happydents.ru/doctors/yuliya2/",
+      "https://happydents.ru/politika",
+      "https://happydents.ru/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf",
+      "https://happydents.ru/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/"
+    ],
+    "sources": {
+      "https://happydents.ru/": "home-booking-candidate",
+      "https://happydents.ru/contacts/": "navigation",
+      "https://happydents.ru/contacts/#contancts_typ": "navigation",
+      "https://happydents.ru/contacts/#len": "navigation",
+      "https://happydents.ru/doctors/": "navigation-legal",
+      "https://happydents.ru/doctors/antonets-elena-vladimirovna/": "navigation-legal",
+      "https://happydents.ru/doctors/arina/": "navigation-legal",
+      "https://happydents.ru/doctors/bagiryan-avanes-nelsonovich/": "navigation-legal",
+      "https://happydents.ru/doctors/davoyan-artashes-eduardovich/": "navigation-legal",
+      "https://happydents.ru/doctors/helena/": "navigation-legal",
+      "https://happydents.ru/doctors/kasparova-liliya/": "navigation-legal",
+      "https://happydents.ru/doctors/kazarova-marina-grigorevna/": "navigation-legal",
+      "https://happydents.ru/doctors/maryan-anna/": "navigation-legal",
+      "https://happydents.ru/doctors/panosyan-naira-samvelovna/": "navigation-legal",
+      "https://happydents.ru/doctors/svetlana/": "navigation-legal",
+      "https://happydents.ru/doctors/yuliya/": "navigation-legal",
+      "https://happydents.ru/doctors/yuliya2/": "navigation-legal",
+      "https://happydents.ru/online-consult/": "navigation",
+      "https://happydents.ru/politika": "policy-hint",
+      "https://happydents.ru/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf": "navigation-legal",
+      "https://happydents.ru/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/": "navigation-legal"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": false
+    }
+  }
+}

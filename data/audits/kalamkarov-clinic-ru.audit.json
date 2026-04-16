@@ -1,0 +1,211 @@
+{
+  "domain": "kalamkarov-clinic.ru",
+  "pages": [
+    {
+      "requested": "https://kalamkarov-clinic.ru/",
+      "status": 200,
+      "final_url": "https://kalamkarov-clinic.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://kalamkarov-clinic.ru/contact.html",
+      "status": 200,
+      "final_url": "https://kalamkarov-clinic.ru/contact.html",
+      "error": null
+    },
+    {
+      "requested": "https://kalamkarov-clinic.ru/appointment",
+      "status": 404,
+      "final_url": "https://kalamkarov-clinic.ru/appointment",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://kalamkarov-clinic.ru/booking",
+      "status": 404,
+      "final_url": "https://kalamkarov-clinic.ru/booking",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://kalamkarov-clinic.ru/zapis",
+      "status": 404,
+      "final_url": "https://kalamkarov-clinic.ru/zapis",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://kalamkarov-clinic.ru/agreement",
+      "status": 404,
+      "final_url": "https://kalamkarov-clinic.ru/agreement",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://kalamkarov-clinic.ru/personal-data",
+      "status": 404,
+      "final_url": "https://kalamkarov-clinic.ru/personal-data",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://kalamkarov-clinic.ru/policy",
+      "status": 404,
+      "final_url": "https://kalamkarov-clinic.ru/policy",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://kalamkarov-clinic.ru/politika",
+      "status": 404,
+      "final_url": "https://kalamkarov-clinic.ru/politika",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://kalamkarov-clinic.ru/politika-konfidencialnosti",
+      "status": 404,
+      "final_url": "https://kalamkarov-clinic.ru/politika-konfidencialnosti",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://kalamkarov-clinic.ru/privacy",
+      "status": 404,
+      "final_url": "https://kalamkarov-clinic.ru/privacy",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://kalamkarov-clinic.ru/privacy-policy",
+      "status": 404,
+      "final_url": "https://kalamkarov-clinic.ru/privacy-policy",
+      "error": "HTTPError 404"
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://kalamkarov-clinic.ru/",
+      "form_id": "form_1",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form action=\"#\" method=\"post\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://kalamkarov-clinic.ru/",
+      "form_id": "form_2",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form action=\"#\" method=\"post\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": false,
+      "checkbox_poc": "<input type=\"checkbox\" id=\"brand\" value=\"\">",
+      "policy_poc": null
+    },
+    {
+      "page": "https://kalamkarov-clinic.ru/",
+      "form_id": "form_3",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form action=\"#\" method=\"post\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://kalamkarov-clinic.ru/contact.html",
+      "form_id": "form_1",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form action=\"#\" method=\"post\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://kalamkarov-clinic.ru/contact.html",
+      "form_id": "form_2",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form action=\"#\" method=\"post\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://kalamkarov-clinic.ru/contact.html",
+      "form_id": "form_3",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form action=\"#\" method=\"post\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": false,
+      "checkbox_poc": "<input type=\"checkbox\" id=\"brand\" value=\"\">",
+      "policy_poc": null
+    },
+    {
+      "page": "https://kalamkarov-clinic.ru/contact.html",
+      "form_id": "form_4",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form action=\"#\" method=\"post\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    }
+  ],
+  "emails": [
+    "StomprofKalamkarov@mail.ru",
+    "stomprofkalamkarov@mail.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://kalamkarov-clinic.ru/",
+      "href": "#",
+      "text": "Privacy Policy"
+    },
+    {
+      "page": "https://kalamkarov-clinic.ru/contact.html",
+      "href": "#",
+      "text": "Privacy Policy"
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://kalamkarov-clinic.ru/contact.html"
+    ],
+    "booking_urls": [
+      "https://kalamkarov-clinic.ru/appointment",
+      "https://kalamkarov-clinic.ru/booking",
+      "https://kalamkarov-clinic.ru/zapis"
+    ],
+    "legal_urls": [
+      "https://kalamkarov-clinic.ru/agreement",
+      "https://kalamkarov-clinic.ru/personal-data",
+      "https://kalamkarov-clinic.ru/policy",
+      "https://kalamkarov-clinic.ru/politika",
+      "https://kalamkarov-clinic.ru/politika-konfidencialnosti",
+      "https://kalamkarov-clinic.ru/privacy",
+      "https://kalamkarov-clinic.ru/privacy-policy"
+    ],
+    "sources": {
+      "https://kalamkarov-clinic.ru/": "",
+      "https://kalamkarov-clinic.ru/agreement": "policy-fallback",
+      "https://kalamkarov-clinic.ru/appointment": "fallback",
+      "https://kalamkarov-clinic.ru/booking": "fallback",
+      "https://kalamkarov-clinic.ru/contact.html": "navigation",
+      "https://kalamkarov-clinic.ru/personal-data": "policy-fallback",
+      "https://kalamkarov-clinic.ru/policy": "policy-fallback",
+      "https://kalamkarov-clinic.ru/politika": "policy-fallback",
+      "https://kalamkarov-clinic.ru/politika-konfidencialnosti": "policy-fallback",
+      "https://kalamkarov-clinic.ru/privacy": "policy-fallback",
+      "https://kalamkarov-clinic.ru/privacy-policy": "policy-fallback",
+      "https://kalamkarov-clinic.ru/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": true
+    }
+  }
+}

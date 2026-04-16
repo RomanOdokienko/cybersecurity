@@ -1,0 +1,126 @@
+{
+  "domain": "alfaklinik.ru",
+  "pages": [
+    {
+      "requested": "https://alfaklinik.ru/",
+      "status": 200,
+      "final_url": "https://alfaklinik.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://alfaklinik.ru/contacts.htm",
+      "status": 200,
+      "final_url": "https://alfaklinik.ru/contacts.htm",
+      "error": null
+    },
+    {
+      "requested": "https://alfaklinik.ru/appointment",
+      "status": 404,
+      "final_url": "https://alfaklinik.ru/appointment",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://alfaklinik.ru/booking",
+      "status": 404,
+      "final_url": "https://alfaklinik.ru/booking",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://alfaklinik.ru/zapis",
+      "status": 404,
+      "final_url": "https://alfaklinik.ru/zapis",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://alfaklinik.ru/agreement",
+      "status": 404,
+      "final_url": "https://alfaklinik.ru/agreement",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://alfaklinik.ru/personal-data",
+      "status": 404,
+      "final_url": "https://alfaklinik.ru/personal-data",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://alfaklinik.ru/policy",
+      "status": 404,
+      "final_url": "https://alfaklinik.ru/policy",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://alfaklinik.ru/politika",
+      "status": 404,
+      "final_url": "https://alfaklinik.ru/politika",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://alfaklinik.ru/politika-konfidencialnosti",
+      "status": 404,
+      "final_url": "https://alfaklinik.ru/politika-konfidencialnosti",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://alfaklinik.ru/privacy",
+      "status": 404,
+      "final_url": "https://alfaklinik.ru/privacy",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://alfaklinik.ru/privacy-policy",
+      "status": 404,
+      "final_url": "https://alfaklinik.ru/privacy-policy",
+      "error": "HTTPError 404"
+    }
+  ],
+  "forms": [],
+  "emails": [
+    "Rating@Mail.ru",
+    "info@alfaclinic.ru",
+    "info@alfacnic.ru",
+    "info@alfaklinik.ru"
+  ],
+  "privacy_links": [],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://alfaklinik.ru/contacts.htm"
+    ],
+    "booking_urls": [
+      "https://alfaklinik.ru/appointment",
+      "https://alfaklinik.ru/booking",
+      "https://alfaklinik.ru/zapis"
+    ],
+    "legal_urls": [
+      "https://alfaklinik.ru/agreement",
+      "https://alfaklinik.ru/personal-data",
+      "https://alfaklinik.ru/policy",
+      "https://alfaklinik.ru/politika",
+      "https://alfaklinik.ru/politika-konfidencialnosti",
+      "https://alfaklinik.ru/privacy",
+      "https://alfaklinik.ru/privacy-policy"
+    ],
+    "sources": {
+      "https://alfaklinik.ru/": "",
+      "https://alfaklinik.ru/agreement": "policy-fallback",
+      "https://alfaklinik.ru/appointment": "fallback",
+      "https://alfaklinik.ru/booking": "fallback",
+      "https://alfaklinik.ru/contacts.htm": "navigation",
+      "https://alfaklinik.ru/personal-data": "policy-fallback",
+      "https://alfaklinik.ru/policy": "policy-fallback",
+      "https://alfaklinik.ru/politika": "policy-fallback",
+      "https://alfaklinik.ru/politika-konfidencialnosti": "policy-fallback",
+      "https://alfaklinik.ru/privacy": "policy-fallback",
+      "https://alfaklinik.ru/privacy-policy": "policy-fallback",
+      "https://alfaklinik.ru/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": true
+    },
+    "sitemap_total_urls": 0,
+    "sitemap_used_urls": 0
+  }
+}

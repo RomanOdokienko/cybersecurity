@@ -1,0 +1,981 @@
+{
+  "domain": "feelclinic.ru",
+  "pages": [
+    {
+      "requested": "https://feelclinic.ru/",
+      "status": 200,
+      "final_url": "https://feelclinic.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://feelclinic.ru/contact",
+      "status": 404,
+      "final_url": "https://feelclinic.ru/contact",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://feelclinic.ru/contacts",
+      "status": 404,
+      "final_url": "https://feelclinic.ru/contacts",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://feelclinic.ru/kontakty",
+      "status": 404,
+      "final_url": "https://feelclinic.ru/kontakty",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://feelclinic.ru/about",
+      "status": 200,
+      "final_url": "https://feelclinic.ru/about",
+      "error": null
+    },
+    {
+      "requested": "https://feelclinic.ru/chirugiya",
+      "status": 200,
+      "final_url": "https://feelclinic.ru/chirugiya",
+      "error": null
+    },
+    {
+      "requested": "https://feelclinic.ru/correction",
+      "status": 200,
+      "final_url": "https://feelclinic.ru/correction",
+      "error": null
+    },
+    {
+      "requested": "https://feelclinic.ru/detskiy-priem",
+      "status": 200,
+      "final_url": "https://feelclinic.ru/detskiy-priem",
+      "error": null
+    },
+    {
+      "requested": "https://feelclinic.ru/doctors",
+      "status": 200,
+      "final_url": "https://feelclinic.ru/doctors",
+      "error": null
+    },
+    {
+      "requested": "https://feelclinic.ru/gigiena-polosti-rta",
+      "status": 200,
+      "final_url": "https://feelclinic.ru/gigiena-polosti-rta",
+      "error": null
+    },
+    {
+      "requested": "https://feelclinic.ru/lechenie-kanalov",
+      "status": 200,
+      "final_url": "https://feelclinic.ru/lechenie-kanalov",
+      "error": null
+    },
+    {
+      "requested": "https://feelclinic.ru/lechenie-kariesa",
+      "status": 200,
+      "final_url": "https://feelclinic.ru/lechenie-kariesa",
+      "error": null
+    },
+    {
+      "requested": "https://feelclinic.ru/non",
+      "status": 200,
+      "final_url": "https://feelclinic.ru/non",
+      "error": null
+    },
+    {
+      "requested": "https://feelclinic.ru/otbelivanie",
+      "status": 200,
+      "final_url": "https://feelclinic.ru/otbelivanie",
+      "error": null
+    },
+    {
+      "requested": "https://feelclinic.ru/page42422581.html",
+      "status": 200,
+      "final_url": "https://feelclinic.ru/page42422581.html",
+      "error": null
+    },
+    {
+      "requested": "https://feelclinic.ru/page42515642.html",
+      "status": 200,
+      "final_url": "https://feelclinic.ru/page42515642.html",
+      "error": null
+    },
+    {
+      "requested": "https://feelclinic.ru/page42515660.html",
+      "status": 200,
+      "final_url": "https://feelclinic.ru/page42515660.html",
+      "error": null
+    },
+    {
+      "requested": "https://feelclinic.ru/page42515670.html",
+      "status": 200,
+      "final_url": "https://feelclinic.ru/page42515670.html",
+      "error": null
+    },
+    {
+      "requested": "https://feelclinic.ru/page42685778.html",
+      "status": 200,
+      "final_url": "https://feelclinic.ru/page42685778.html",
+      "error": null
+    },
+    {
+      "requested": "https://feelclinic.ru/page42688176.html",
+      "status": 200,
+      "final_url": "https://feelclinic.ru/page42688176.html",
+      "error": null
+    },
+    {
+      "requested": "https://feelclinic.ru/page43819785.html",
+      "status": 200,
+      "final_url": "https://feelclinic.ru/page43819785.html",
+      "error": null
+    },
+    {
+      "requested": "https://feelclinic.ru/priceliste",
+      "status": 200,
+      "final_url": "https://feelclinic.ru/priceliste",
+      "error": null
+    },
+    {
+      "requested": "https://feelclinic.ru/protesirovanie",
+      "status": 200,
+      "final_url": "https://feelclinic.ru/protesirovanie",
+      "error": null
+    },
+    {
+      "requested": "https://feelclinic.ru/privacy",
+      "status": 200,
+      "final_url": "https://feelclinic.ru/privacy",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://feelclinic.ru/",
+      "form_id": "form840914298",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form840914298\" name='form840914298' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/",
+      "form_id": "form842992529",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form842992529\" name='form842992529' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/about",
+      "form_id": "form843057572",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form843057572\" name='form843057572' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/about",
+      "form_id": "form842998750",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form842998750\" name='form842998750' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/chirugiya",
+      "form_id": "form843166490",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form843166490\" name='form843166490' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/chirugiya",
+      "form_id": "form841454007",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form841454007\" name='form841454007' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/correction",
+      "form_id": "form843169207",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form843169207\" name='form843169207' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/correction",
+      "form_id": "form841528514",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form841528514\" name='form841528514' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/detskiy-priem",
+      "form_id": "form843177593",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form843177593\" name='form843177593' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/detskiy-priem",
+      "form_id": "form843178000",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form843178000\" name='form843178000' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/detskiy-priem",
+      "form_id": "form842537098",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form842537098\" name='form842537098' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/doctors",
+      "form_id": "form1853033431",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1853033431\" name='form1853033431' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/doctors",
+      "form_id": "form843024999",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form843024999\" name='form843024999' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/gigiena-polosti-rta",
+      "form_id": "form843180238",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form843180238\" name='form843180238' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/gigiena-polosti-rta",
+      "form_id": "form842560273",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form842560273\" name='form842560273' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/lechenie-kanalov",
+      "form_id": "form843143209",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form843143209\" name='form843143209' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/lechenie-kanalov",
+      "form_id": "form843151424",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form843151424\" name='form843151424' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/lechenie-kariesa",
+      "form_id": "form844191326",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form844191326\" name='form844191326' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/lechenie-kariesa",
+      "form_id": "form842675849",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form842675849\" name='form842675849' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/non",
+      "form_id": "form706890914",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form706890914\" name='form706890914' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t720_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/non",
+      "form_id": "form706890916",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form706890916\" name='form706890916' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t720_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/otbelivanie",
+      "form_id": "form843171342",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form843171342\" name='form843171342' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/otbelivanie",
+      "form_id": "form841583192",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form841583192\" name='form841583192' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/page42422581.html",
+      "form_id": "form685891783",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form685891783\" name='form685891783' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t720_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/page42422581.html",
+      "form_id": "form687511437",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form687511437\" name='form687511437' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t720_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/page42515642.html",
+      "form_id": "form687530681",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form687530681\" name='form687530681' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t720_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/page42515660.html",
+      "form_id": "form687530854",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form687530854\" name='form687530854' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t720_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/page42515670.html",
+      "form_id": "form687531065",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form687531065\" name='form687531065' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t720_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/page42685778.html",
+      "form_id": "form690187400",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form690187400\" name='form690187400' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t720_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/page42685778.html",
+      "form_id": "form690187402",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form690187402\" name='form690187402' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t720_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/page42688176.html",
+      "form_id": "form690228564",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form690228564\" name='form690228564' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t720_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/page42688176.html",
+      "form_id": "form690228566",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form690228566\" name='form690228566' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t720_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/page43819785.html",
+      "form_id": "form706879741",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form706879741\" name='form706879741' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t720_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/page43819785.html",
+      "form_id": "form706879743",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form706879743\" name='form706879743' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t720_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/priceliste",
+      "form_id": "form844191123",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form844191123\" name='form844191123' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/priceliste",
+      "form_id": "form843028342",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form843028342\" name='form843028342' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/priceliste",
+      "form_id": "form842480601",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form842480601\" name='form842480601' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/protesirovanie",
+      "form_id": "form843151956",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form843151956\" name='form843151956' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://feelclinic.ru/protesirovanie",
+      "form_id": "form841445572",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form841445572\" name='form841445572' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    }
+  ],
+  "emails": [
+    "feelclinic@yandex.ru",
+    "mail@example.com"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://feelclinic.ru/",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "политикой обработки данных сайта"
+    },
+    {
+      "page": "https://feelclinic.ru/",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "\\u043f\\u043e\\u043b\\u0438\\u0442\\u0438\\u043a\\u043e\\u0439 \\u043e\\u0431\\u0440\\u0430\\u0431\\u043e\\u0442\\u043a\\u0438 \\u0434\\u0430\\u043d\\u043d\\u044b\\u0445 \\u0441\\u0430\\u0439\\u0442\\u0430 \",\"li_nm\":\"Checkbox\"}] Акция “домашнее отб"
+    },
+    {
+      "page": "https://feelclinic.ru/",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://feelclinic.ru/",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "согласие на обработку файлов cookie"
+    },
+    {
+      "page": "https://feelclinic.ru/about",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "политикой обработки данных сайта"
+    },
+    {
+      "page": "https://feelclinic.ru/about",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://feelclinic.ru/about",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "согласие на обработку файлов cookie"
+    },
+    {
+      "page": "https://feelclinic.ru/chirugiya",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "политикой обработки данных сайта"
+    },
+    {
+      "page": "https://feelclinic.ru/chirugiya",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://feelclinic.ru/chirugiya",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "согласие на обработку файлов cookie"
+    },
+    {
+      "page": "https://feelclinic.ru/correction",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "политикой обработки данных сайта"
+    },
+    {
+      "page": "https://feelclinic.ru/correction",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://feelclinic.ru/correction",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "согласие на обработку файлов cookie"
+    },
+    {
+      "page": "https://feelclinic.ru/detskiy-priem",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "политикой обработки данных сайта"
+    },
+    {
+      "page": "https://feelclinic.ru/detskiy-priem",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://feelclinic.ru/detskiy-priem",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "согласие на обработку файлов cookie"
+    },
+    {
+      "page": "https://feelclinic.ru/doctors",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "политикой обработки данных сайта"
+    },
+    {
+      "page": "https://feelclinic.ru/doctors",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://feelclinic.ru/doctors",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "согласие на обработку файлов cookie"
+    },
+    {
+      "page": "https://feelclinic.ru/gigiena-polosti-rta",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "политикой обработки данных сайта"
+    },
+    {
+      "page": "https://feelclinic.ru/gigiena-polosti-rta",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://feelclinic.ru/gigiena-polosti-rta",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "согласие на обработку файлов cookie"
+    },
+    {
+      "page": "https://feelclinic.ru/lechenie-kanalov",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "политикой обработки данных сайта"
+    },
+    {
+      "page": "https://feelclinic.ru/lechenie-kanalov",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://feelclinic.ru/lechenie-kanalov",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "согласие на обработку файлов cookie"
+    },
+    {
+      "page": "https://feelclinic.ru/lechenie-kariesa",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "политикой обработки данных сайта"
+    },
+    {
+      "page": "https://feelclinic.ru/lechenie-kariesa",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://feelclinic.ru/lechenie-kariesa",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "согласие на обработку файлов cookie"
+    },
+    {
+      "page": "https://feelclinic.ru/non",
+      "href": "/policy",
+      "text": "политики конфиденциальности"
+    },
+    {
+      "page": "https://feelclinic.ru/non",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://feelclinic.ru/non",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "согласие на обработку файлов cookie"
+    },
+    {
+      "page": "https://feelclinic.ru/otbelivanie",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "политикой обработки данных сайта"
+    },
+    {
+      "page": "https://feelclinic.ru/otbelivanie",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://feelclinic.ru/otbelivanie",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "согласие на обработку файлов cookie"
+    },
+    {
+      "page": "https://feelclinic.ru/page42422581.html",
+      "href": "/policy",
+      "text": "политики конфиденциальности"
+    },
+    {
+      "page": "https://feelclinic.ru/page42422581.html",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://feelclinic.ru/page42422581.html",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "согласие на обработку файлов cookie"
+    },
+    {
+      "page": "https://feelclinic.ru/page42515642.html",
+      "href": "/policy",
+      "text": "политики конфиденциальности"
+    },
+    {
+      "page": "https://feelclinic.ru/page42515642.html",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://feelclinic.ru/page42515642.html",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "согласие на обработку файлов cookie"
+    },
+    {
+      "page": "https://feelclinic.ru/page42515660.html",
+      "href": "https://dr-pokrovskaya-ortodont.ru/politika",
+      "text": "политики конфиденциальности"
+    },
+    {
+      "page": "https://feelclinic.ru/page42515660.html",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://feelclinic.ru/page42515660.html",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "согласие на обработку файлов cookie"
+    },
+    {
+      "page": "https://feelclinic.ru/page42515670.html",
+      "href": "/policy",
+      "text": "политики конфиденциальности"
+    },
+    {
+      "page": "https://feelclinic.ru/page42515670.html",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://feelclinic.ru/page42515670.html",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "согласие на обработку файлов cookie"
+    },
+    {
+      "page": "https://feelclinic.ru/page42685778.html",
+      "href": "/policy",
+      "text": "политики конфиденциальности"
+    },
+    {
+      "page": "https://feelclinic.ru/page42685778.html",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://feelclinic.ru/page42685778.html",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "согласие на обработку файлов cookie"
+    },
+    {
+      "page": "https://feelclinic.ru/page42688176.html",
+      "href": "/policy",
+      "text": "политики конфиденциальности"
+    },
+    {
+      "page": "https://feelclinic.ru/page42688176.html",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://feelclinic.ru/page42688176.html",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "согласие на обработку файлов cookie"
+    },
+    {
+      "page": "https://feelclinic.ru/page43819785.html",
+      "href": "/policy",
+      "text": "политики конфиденциальности"
+    },
+    {
+      "page": "https://feelclinic.ru/page43819785.html",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://feelclinic.ru/page43819785.html",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "согласие на обработку файлов cookie"
+    },
+    {
+      "page": "https://feelclinic.ru/priceliste",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "политикой обработки данных сайта"
+    },
+    {
+      "page": "https://feelclinic.ru/priceliste",
+      "href": "https://feelclinic.ru/privacy",
+      "text": ""
+    },
+    {
+      "page": "https://feelclinic.ru/priceliste",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "&nbsp;политикой обработки данных"
+    },
+    {
+      "page": "https://feelclinic.ru/priceliste",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://feelclinic.ru/priceliste",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "согласие на обработку файлов cookie"
+    },
+    {
+      "page": "https://feelclinic.ru/protesirovanie",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "политикой обработки данных сайта"
+    },
+    {
+      "page": "https://feelclinic.ru/protesirovanie",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://feelclinic.ru/protesirovanie",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "согласие на обработку файлов cookie"
+    },
+    {
+      "page": "https://feelclinic.ru/privacy",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "policy path"
+    },
+    {
+      "page": "https://feelclinic.ru/privacy",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://feelclinic.ru/privacy",
+      "href": "https://feelclinic.ru/privacy",
+      "text": "согласие на обработку файлов cookie"
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://feelclinic.ru/contact",
+      "https://feelclinic.ru/contacts",
+      "https://feelclinic.ru/kontakty"
+    ],
+    "booking_urls": [
+      "https://feelclinic.ru/",
+      "https://feelclinic.ru/about",
+      "https://feelclinic.ru/chirugiya",
+      "https://feelclinic.ru/correction",
+      "https://feelclinic.ru/detskiy-priem",
+      "https://feelclinic.ru/doctors",
+      "https://feelclinic.ru/gigiena-polosti-rta",
+      "https://feelclinic.ru/lechenie-kanalov",
+      "https://feelclinic.ru/lechenie-kariesa",
+      "https://feelclinic.ru/non",
+      "https://feelclinic.ru/otbelivanie",
+      "https://feelclinic.ru/page42422581.html",
+      "https://feelclinic.ru/page42515642.html",
+      "https://feelclinic.ru/page42515660.html",
+      "https://feelclinic.ru/page42515670.html",
+      "https://feelclinic.ru/page42685778.html",
+      "https://feelclinic.ru/page42688176.html",
+      "https://feelclinic.ru/page43819785.html",
+      "https://feelclinic.ru/priceliste",
+      "https://feelclinic.ru/protesirovanie"
+    ],
+    "legal_urls": [
+      "https://feelclinic.ru/doctors",
+      "https://feelclinic.ru/privacy"
+    ],
+    "sources": {
+      "https://feelclinic.ru/": "home-booking-candidate",
+      "https://feelclinic.ru/about": "sitemap-form",
+      "https://feelclinic.ru/chirugiya": "sitemap-form",
+      "https://feelclinic.ru/contact": "fallback",
+      "https://feelclinic.ru/contacts": "fallback",
+      "https://feelclinic.ru/correction": "sitemap-form",
+      "https://feelclinic.ru/detskiy-priem": "sitemap-form",
+      "https://feelclinic.ru/doctors": "sitemap-legal",
+      "https://feelclinic.ru/gigiena-polosti-rta": "sitemap-form",
+      "https://feelclinic.ru/kontakty": "fallback",
+      "https://feelclinic.ru/lechenie-kanalov": "sitemap-form",
+      "https://feelclinic.ru/lechenie-kariesa": "sitemap-form",
+      "https://feelclinic.ru/non": "sitemap-form",
+      "https://feelclinic.ru/otbelivanie": "sitemap-form",
+      "https://feelclinic.ru/page42422581.html": "sitemap-form",
+      "https://feelclinic.ru/page42515642.html": "sitemap-form",
+      "https://feelclinic.ru/page42515660.html": "sitemap-form",
+      "https://feelclinic.ru/page42515670.html": "sitemap-form",
+      "https://feelclinic.ru/page42685778.html": "sitemap-form",
+      "https://feelclinic.ru/page42688176.html": "sitemap-form",
+      "https://feelclinic.ru/page43819785.html": "sitemap-form",
+      "https://feelclinic.ru/priceliste": "sitemap-form",
+      "https://feelclinic.ru/privacy": "navigation-legal",
+      "https://feelclinic.ru/protesirovanie": "sitemap-form"
+    },
+    "fallback_used": {
+      "contact": true,
+      "booking": false
+    }
+  }
+}

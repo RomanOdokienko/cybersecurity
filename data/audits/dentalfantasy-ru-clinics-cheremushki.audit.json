@@ -1,0 +1,242 @@
+{
+  "domain": "www.dentalfantasy.ru",
+  "pages": [
+    {
+      "requested": "https://www.dentalfantasy.ru/",
+      "status": 200,
+      "final_url": "https://www.dentalfantasy.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://www.dentalfantasy.ru/contact",
+      "status": 404,
+      "final_url": "https://www.dentalfantasy.ru/contact",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://www.dentalfantasy.ru/contacts",
+      "status": 404,
+      "final_url": "https://www.dentalfantasy.ru/contacts",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://www.dentalfantasy.ru/kontakty",
+      "status": 404,
+      "final_url": "https://www.dentalfantasy.ru/kontakty",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://www.dentalfantasy.ru/online-consultation/",
+      "status": 200,
+      "final_url": "https://www.dentalfantasy.ru/online-consultation/",
+      "error": null
+    },
+    {
+      "requested": "https://www.dentalfantasy.ru/services/online/",
+      "status": 200,
+      "final_url": "https://www.dentalfantasy.ru/services/online/",
+      "error": null
+    },
+    {
+      "requested": "https://www.dentalfantasy.ru/documents/",
+      "status": 200,
+      "final_url": "https://www.dentalfantasy.ru/documents/",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://www.dentalfantasy.ru/online-consultation/",
+      "form_id": "online-consultation",
+      "action_display": "action=\"/online-consultation/\"",
+      "open_tag": "<form class=\"needs-validation\" enctype=\"multipart/form-data\" novalidate data-cid=\"ea6c9bb635f4474abb6e1a7c864c89c5\" name=\"online-consultation\" data-validate method=\"POST\" action=\"/online-consultation/\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"form-check-input\" required data-value-missing=\"Не указано\" data-crg type=\"checkbox\" required data-msg='Обязательне поле &quot;Согласие на обработку ПД&quot; не заполнено.' data-summary-title",
+      "policy_poc": "казано\" data-crg type=\"checkbox\" required data-msg='Обязательне поле &quot;Согласие на обработку ПД&quot; не заполнено.' data-summary-title=\"Согласие на обработку ПД\" checked=\"checked\" name=\"PROP"
+    },
+    {
+      "page": "https://www.dentalfantasy.ru/documents/",
+      "form_id": "documents",
+      "action_display": "action=\"/documents/\"",
+      "open_tag": "<form method=\"POST\" action=\"/documents/\" name=\"documents\" data-validate data-draft data-cid=\"5b710c4d015a6d50068b11013a988bef\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"form-check-input\" type=\"checkbox\" data-disabler='{\"target\":\"[data-passport-series]\"}' data-hiddener='{\"eventlist\":\"click focus manual-change\",\"target\":\".passport-series\"}' data-hiddener='{\"target\":\"[data-",
+      "policy_poc": "orm-check-label mt-d5\" for=\"CLINIC-180\">м. Проспект Мира (Пр. Мира, д. 36, стр. 1 (здание Согласие Hall, 2 этаж))</label> </div> </li> <li class=\"dropdown-item px-2 text-wrap\">"
+    }
+  ],
+  "emails": [
+    "brya@dentalfantasy.ru",
+    "fru@dentalfantasy.ru",
+    "gar@dentalfantasy.ru",
+    "info@fantasyclinic.ru",
+    "len@dentalfantasy.ru",
+    "mira@dentalfantasy.ru",
+    "mol@dentalfantasy.ru",
+    "pr@fantasyclinic.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://www.dentalfantasy.ru/",
+      "href": "/oferta/",
+      "text": "Условия обработки персональных данных"
+    },
+    {
+      "page": "https://www.dentalfantasy.ru/online-consultation/",
+      "href": "/oferta/",
+      "text": "условиями обработки персональных данных"
+    },
+    {
+      "page": "https://www.dentalfantasy.ru/online-consultation/",
+      "href": "/oferta/",
+      "text": "Условия обработки персональных данных"
+    },
+    {
+      "page": "https://www.dentalfantasy.ru/services/online/",
+      "href": "/oferta/",
+      "text": "Условия обработки персональных данных"
+    },
+    {
+      "page": "https://www.dentalfantasy.ru/documents/",
+      "href": "/oferta/",
+      "text": "условиями обработки персональных данных"
+    },
+    {
+      "page": "https://www.dentalfantasy.ru/documents/",
+      "href": "/oferta/",
+      "text": "Условия обработки персональных данных"
+    }
+  ],
+  "forbidden_hits": [
+    {
+      "token": "meta",
+      "page": "https://www.dentalfantasy.ru/",
+      "context": "Социальная сеть Instagram принадлежит компании Meta Platforms Inc., которая запрещена на&nbsp;территории&nbsp;РФ",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "instagram",
+      "page": "https://www.dentalfantasy.ru/",
+      "context": "Социальная сеть Instagram принадлежит компании Meta Platforms Inc., которая запрещена на&nbsp;территории&nbsp;РФ",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "instagram",
+      "page": "https://www.dentalfantasy.ru/",
+      "context": "href=\"https://www.instagram.com/dental.fantasy/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://www.dentalfantasy.ru/",
+      "context": "href=\"https://www.instagram.com/dental.fantasy/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "meta",
+      "page": "https://www.dentalfantasy.ru/online-consultation/",
+      "context": "Социальная сеть Instagram принадлежит компании Meta Platforms Inc., которая запрещена на&nbsp;территории&nbsp;РФ",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "instagram",
+      "page": "https://www.dentalfantasy.ru/online-consultation/",
+      "context": "Социальная сеть Instagram принадлежит компании Meta Platforms Inc., которая запрещена на&nbsp;территории&nbsp;РФ",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "instagram",
+      "page": "https://www.dentalfantasy.ru/online-consultation/",
+      "context": "href=\"https://www.instagram.com/dental.fantasy/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://www.dentalfantasy.ru/online-consultation/",
+      "context": "href=\"https://www.instagram.com/dental.fantasy/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "meta",
+      "page": "https://www.dentalfantasy.ru/services/online/",
+      "context": "Социальная сеть Instagram принадлежит компании Meta Platforms Inc., которая запрещена на&nbsp;территории&nbsp;РФ",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "instagram",
+      "page": "https://www.dentalfantasy.ru/services/online/",
+      "context": "Социальная сеть Instagram принадлежит компании Meta Platforms Inc., которая запрещена на&nbsp;территории&nbsp;РФ",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "instagram",
+      "page": "https://www.dentalfantasy.ru/services/online/",
+      "context": "href=\"https://www.instagram.com/dental.fantasy/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://www.dentalfantasy.ru/services/online/",
+      "context": "href=\"https://www.instagram.com/dental.fantasy/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "meta",
+      "page": "https://www.dentalfantasy.ru/documents/",
+      "context": "Социальная сеть Instagram принадлежит компании Meta Platforms Inc., которая запрещена на&nbsp;территории&nbsp;РФ",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "instagram",
+      "page": "https://www.dentalfantasy.ru/documents/",
+      "context": "Социальная сеть Instagram принадлежит компании Meta Platforms Inc., которая запрещена на&nbsp;территории&nbsp;РФ",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "instagram",
+      "page": "https://www.dentalfantasy.ru/documents/",
+      "context": "href=\"https://www.instagram.com/dental.fantasy/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://www.dentalfantasy.ru/documents/",
+      "context": "href=\"https://www.instagram.com/dental.fantasy/\"",
+      "visibility": "только в коде"
+    }
+  ],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://www.dentalfantasy.ru/contact",
+      "https://www.dentalfantasy.ru/contacts",
+      "https://www.dentalfantasy.ru/kontakty"
+    ],
+    "booking_urls": [
+      "https://www.dentalfantasy.ru/online-consultation/",
+      "https://www.dentalfantasy.ru/services/online/"
+    ],
+    "legal_urls": [
+      "https://www.dentalfantasy.ru/documents/",
+      "https://www.dentalfantasy.ru/services/online/"
+    ],
+    "sources": {
+      "https://www.dentalfantasy.ru/": "",
+      "https://www.dentalfantasy.ru/contact": "fallback",
+      "https://www.dentalfantasy.ru/contacts": "fallback",
+      "https://www.dentalfantasy.ru/documents/": "navigation-legal",
+      "https://www.dentalfantasy.ru/kontakty": "fallback",
+      "https://www.dentalfantasy.ru/online-consultation/": "navigation",
+      "https://www.dentalfantasy.ru/services/online/": "navigation"
+    },
+    "fallback_used": {
+      "contact": true,
+      "booking": false
+    },
+    "sitemap_total_urls": 8,
+    "sitemap_used_urls": 8
+  }
+}

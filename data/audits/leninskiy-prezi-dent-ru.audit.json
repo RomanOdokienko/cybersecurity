@@ -1,0 +1,129 @@
+{
+  "domain": "leninskiy.prezi-dent.ru",
+  "pages": [
+    {
+      "requested": "https://leninskiy.prezi-dent.ru/",
+      "status": 200,
+      "final_url": "https://leninskiy.prezi-dent.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://leninskiy.prezi-dent.ru/contact",
+      "status": 404,
+      "final_url": "https://leninskiy.prezi-dent.ru/contact",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://leninskiy.prezi-dent.ru/contacts",
+      "status": 404,
+      "final_url": "https://leninskiy.prezi-dent.ru/contacts",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://leninskiy.prezi-dent.ru/kontakty",
+      "status": 404,
+      "final_url": "https://leninskiy.prezi-dent.ru/kontakty",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://leninskiy.prezi-dent.ru/zayavka",
+      "status": 200,
+      "final_url": "https://leninskiy.prezi-dent.ru/zayavka",
+      "error": null
+    },
+    {
+      "requested": "https://leninskiy.prezi-dent.ru/politika",
+      "status": 404,
+      "final_url": "https://leninskiy.prezi-dent.ru/politika",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://leninskiy.prezi-dent.ru/forma-obratnoy-svyazi",
+      "status": 200,
+      "final_url": "https://leninskiy.prezi-dent.ru/forma-obratnoy-svyazi",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://leninskiy.prezi-dent.ru/zayavka",
+      "form_id": "form789406590",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form789406590\" name='form789406590' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"/uspech_zayavka\" class=\"t-form js-form-proccess t-form_inputs-total_6 \" data-success-callback=\"t678_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"soglasie_dannye\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "er-color:#39504b\"></div> <span>В соответствии с требованиями ФЗ № 152 от 27.07.2006 г. «О персональных данных» я даю добровольное согласие на обработку персональных данных и соглашаюсь с&nbsp;<a href=\"https://media.prezi-dent.ru/files/leninskiy/leninskiy-polit"
+    },
+    {
+      "page": "https://leninskiy.prezi-dent.ru/forma-obratnoy-svyazi",
+      "form_id": "form904730008",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form904730008\" name='form904730008' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_5 \" data-success-callback=\"t678_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "er-color:#39504b\"></div> <span>В соответствии с требованиями ФЗ № 152 от 27.07.2006 г. «О персональных данных» я даю добровольное согласие на обработку персональных данных и соглашаюсь с&nbsp;<a href=\"https://media.prezi-dent.ru/files/leninskiy/leninskiy-polit"
+    }
+  ],
+  "emails": [
+    "example@site.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://leninskiy.prezi-dent.ru/",
+      "href": "https://www.prezi-dent.ru/politika-konfidencialnosti",
+      "text": "согласие"
+    },
+    {
+      "page": "https://leninskiy.prezi-dent.ru/zayavka",
+      "href": "https://media.prezi-dent.ru/files/leninskiy/leninskiy-politika-konfidentsialnosti.pdf",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://leninskiy.prezi-dent.ru/zayavka",
+      "href": "https://www.prezi-dent.ru/politika-konfidencialnosti",
+      "text": "согласие"
+    },
+    {
+      "page": "https://leninskiy.prezi-dent.ru/forma-obratnoy-svyazi",
+      "href": "https://media.prezi-dent.ru/files/leninskiy/leninskiy-politika-konfidentsialnosti.pdf",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://leninskiy.prezi-dent.ru/forma-obratnoy-svyazi",
+      "href": "https://www.prezi-dent.ru/politika-konfidencialnosti",
+      "text": "согласие"
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://leninskiy.prezi-dent.ru/contact",
+      "https://leninskiy.prezi-dent.ru/contacts",
+      "https://leninskiy.prezi-dent.ru/kontakty"
+    ],
+    "booking_urls": [
+      "https://leninskiy.prezi-dent.ru/zayavka"
+    ],
+    "legal_urls": [
+      "https://leninskiy.prezi-dent.ru/politika"
+    ],
+    "sources": {
+      "https://leninskiy.prezi-dent.ru/": "",
+      "https://leninskiy.prezi-dent.ru/contact": "fallback",
+      "https://leninskiy.prezi-dent.ru/contacts": "fallback",
+      "https://leninskiy.prezi-dent.ru/forma-obratnoy-svyazi": "sitemap-form",
+      "https://leninskiy.prezi-dent.ru/kontakty": "fallback",
+      "https://leninskiy.prezi-dent.ru/politika": "policy-hint",
+      "https://leninskiy.prezi-dent.ru/zayavka": "navigation"
+    },
+    "fallback_used": {
+      "contact": true,
+      "booking": false
+    }
+  }
+}

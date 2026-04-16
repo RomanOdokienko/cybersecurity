@@ -1,0 +1,3327 @@
+{
+  "domain": "armclinic.ru",
+  "pages": [
+    {
+      "requested": "https://armclinic.ru/",
+      "status": 200,
+      "final_url": "https://armclinic.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://armclinic.ru/kontaktyi",
+      "status": 200,
+      "final_url": "https://armclinic.ru/kontaktyi",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/",
+      "status": 200,
+      "final_url": "http://armclinic.ru/",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/altueva-zhanna-xasimovna",
+      "status": 200,
+      "final_url": "http://armclinic.ru/altueva-zhanna-xasimovna",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/atabiev-rasul",
+      "status": 200,
+      "final_url": "http://armclinic.ru/atabiev-rasul",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/detskaya-stomatologiya",
+      "status": 200,
+      "final_url": "http://armclinic.ru/detskaya-stomatologiya",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/esteticheskaya-stomatologiya",
+      "status": 200,
+      "final_url": "http://armclinic.ru/esteticheskaya-stomatologiya",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/esteticheskaya-stomatologiya/restavratsya-zubov",
+      "status": 200,
+      "final_url": "http://armclinic.ru/esteticheskaya-stomatologiya/restavratsya-zubov",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/evloeva-fatima-tagirovna",
+      "status": 200,
+      "final_url": "http://armclinic.ru/evloeva-fatima-tagirovna",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/faq",
+      "status": 200,
+      "final_url": "http://armclinic.ru/faq",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/fyodorov-dmitrij",
+      "status": 200,
+      "final_url": "http://armclinic.ru/fyodorov-dmitrij",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/gigiena-i-profilaktika",
+      "status": 200,
+      "final_url": "http://armclinic.ru/gigiena-i-profilaktika",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/hirurgiya",
+      "status": 200,
+      "final_url": "http://armclinic.ru/hirurgiya",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/hirurgiya/resektsiya-verhushki-zuba",
+      "status": 200,
+      "final_url": "http://armclinic.ru/hirurgiya/resektsiya-verhushki-zuba",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/hirurgiya/udalenie-zubov",
+      "status": 200,
+      "final_url": "http://armclinic.ru/hirurgiya/udalenie-zubov",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/hirurgiya/udalenie-zubov/kista",
+      "status": 200,
+      "final_url": "http://armclinic.ru/hirurgiya/udalenie-zubov/kista",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/hirurgiya/udalenie-zubov/zub-mudrosti",
+      "status": 200,
+      "final_url": "http://armclinic.ru/hirurgiya/udalenie-zubov/zub-mudrosti",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/implantacziya",
+      "status": 200,
+      "final_url": "http://armclinic.ru/implantacziya",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/implantacziya/all-on-4",
+      "status": 200,
+      "final_url": "http://armclinic.ru/implantacziya/all-on-4",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/implantacziya/all-on-6",
+      "status": 200,
+      "final_url": "http://armclinic.ru/implantacziya/all-on-6",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/implantacziya/dentalnaya",
+      "status": 200,
+      "final_url": "http://armclinic.ru/implantacziya/dentalnaya",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/implantacziya/osstem",
+      "status": 200,
+      "final_url": "http://armclinic.ru/implantacziya/osstem",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/implantacziya/perednih-verhnih-zubov",
+      "status": 200,
+      "final_url": "http://armclinic.ru/implantacziya/perednih-verhnih-zubov",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/implantacziya/perednih-zubov",
+      "status": 200,
+      "final_url": "http://armclinic.ru/implantacziya/perednih-zubov",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/implantacziya/polnaya",
+      "status": 200,
+      "final_url": "http://armclinic.ru/implantacziya/polnaya",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/implantacziya/s-nemedlennoj-nagruzkoj",
+      "status": 200,
+      "final_url": "http://armclinic.ru/implantacziya/s-nemedlennoj-nagruzkoj",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/implantacziya/straumann",
+      "status": 200,
+      "final_url": "http://armclinic.ru/implantacziya/straumann",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/implantacziya/verhnih-zubov",
+      "status": 200,
+      "final_url": "http://armclinic.ru/implantacziya/verhnih-zubov",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/implantacziya/za-1-den",
+      "status": 200,
+      "final_url": "http://armclinic.ru/implantacziya/za-1-den",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/implantacziya/zhevatelnyh-zubov",
+      "status": 200,
+      "final_url": "http://armclinic.ru/implantacziya/zhevatelnyh-zubov",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/isaeva-asiyat-rashidovna",
+      "status": 200,
+      "final_url": "http://armclinic.ru/isaeva-asiyat-rashidovna",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/kontaktyi",
+      "status": 200,
+      "final_url": "http://armclinic.ru/kontaktyi",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/lechenie",
+      "status": 200,
+      "final_url": "http://armclinic.ru/lechenie",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/lechenie/karies",
+      "status": 200,
+      "final_url": "http://armclinic.ru/lechenie/karies",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/lechenie/lechenie-zubnyh-kanalov-pod-mikroskopom",
+      "status": 200,
+      "final_url": "http://armclinic.ru/lechenie/lechenie-zubnyh-kanalov-pod-mikroskopom",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/lechenie/reczessiya-desnyi",
+      "status": 200,
+      "final_url": "http://armclinic.ru/lechenie/reczessiya-desnyi",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/lechenie/ustanovka-plomb",
+      "status": 200,
+      "final_url": "http://armclinic.ru/lechenie/ustanovka-plomb",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/lechenie/zubnye-kanaly",
+      "status": 200,
+      "final_url": "http://armclinic.ru/lechenie/zubnye-kanaly",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/litvin-anna",
+      "status": 200,
+      "final_url": "http://armclinic.ru/litvin-anna",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/magomedov-islam-magomedgadzhievich",
+      "status": 200,
+      "final_url": "http://armclinic.ru/magomedov-islam-magomedgadzhievich",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/nash-kollektiv",
+      "status": 200,
+      "final_url": "http://armclinic.ru/nash-kollektiv",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/o-klinike",
+      "status": 200,
+      "final_url": "http://armclinic.ru/o-klinike",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/ortodontiya",
+      "status": 200,
+      "final_url": "http://armclinic.ru/ortodontiya",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/ortodontiya/brekety",
+      "status": 200,
+      "final_url": "http://armclinic.ru/ortodontiya/brekety",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/ortodontiya/elainery",
+      "status": 200,
+      "final_url": "http://armclinic.ru/ortodontiya/elainery",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/ortodontiya/ispravlenie-prikisa",
+      "status": 200,
+      "final_url": "http://armclinic.ru/ortodontiya/ispravlenie-prikisa",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/ortopediya",
+      "status": 200,
+      "final_url": "http://armclinic.ru/ortopediya",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/ortopediya/viniry",
+      "status": 200,
+      "final_url": "http://armclinic.ru/ortopediya/viniry",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/otbelivanie-zubov",
+      "status": 200,
+      "final_url": "http://armclinic.ru/otbelivanie-zubov",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/otbelivanie-zubov/zoom",
+      "status": 200,
+      "final_url": "http://armclinic.ru/otbelivanie-zubov/zoom",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/otzyvy",
+      "status": 200,
+      "final_url": "http://armclinic.ru/otzyvy",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/politika-konfidenczialnosti",
+      "status": 200,
+      "final_url": "http://armclinic.ru/politika-konfidenczialnosti",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/klinovidnyij-defekt",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/klinovidnyij-defekt",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/kompleksnoe-lechenie-zubov",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/kompleksnoe-lechenie-zubov",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/kontaktnyij-karies",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/kontaktnyij-karies",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/kontaktnyij-karies-2",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/kontaktnyij-karies-2",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/kontaktnyij-karies-3",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/kontaktnyij-karies-3",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/lechenie-kanalov-zuba",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/lechenie-kanalov-zuba",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/lechenie-kariesa",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/lechenie-kariesa",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/lechenie-kariesa-2",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/lechenie-kariesa-2",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/lechenie-kariesa-3",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/lechenie-kariesa-3",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/lechenie-kariesa-4",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/lechenie-kariesa-4",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/lechenie-kariesa-6",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/lechenie-kariesa-6",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/lechenie-kariesa-7",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/lechenie-kariesa-7",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/lechenie-kariesa-i-mikroprotezirovanie",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/lechenie-kariesa-i-mikroprotezirovanie",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/lechenie-kariesa-i-vosstanovlenie-zubov-s-pomoshhyu-restavraczii-2",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/lechenie-kariesa-i-vosstanovlenie-zubov-s-pomoshhyu-restavraczii-2",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/lechenie-kariesa-pod-mikroskopom",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/lechenie-kariesa-pod-mikroskopom",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/lechenie-kariesa-pod-mikroskopom-2",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/lechenie-kariesa-pod-mikroskopom-2",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/lechenie-kariesa-vosstanovlenie-zhevatelnoj-funkczii-zubov",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/lechenie-kariesa-vosstanovlenie-zhevatelnoj-funkczii-zubov",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breket-sisteme-damon-clear-q",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breket-sisteme-damon-clear-q",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breket-sisteme-damon-q",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breket-sisteme-damon-q",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breket-sisteme-damon-q-2",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breket-sisteme-damon-q-2",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breket-sisteme-damon-q-3",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breket-sisteme-damon-q-3",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breket-sisteme-domon-q",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breket-sisteme-domon-q",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breketax-damon-clear-i-damon-q",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breketax-damon-clear-i-damon-q",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breketax-damon-q",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breketax-damon-q",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-elajnerax-invisalign",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-elajnerax-invisalign",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-paczienta-na-breket-sisteme-damon-q",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-paczienta-na-breket-sisteme-damon-q",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-paczienta-na-breket-sisteme-damon-q-2",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-paczienta-na-breket-sisteme-damon-q-2",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/paczient-10-let",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/paczient-10-let",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/paczient-30-let-muzhchina",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/paczient-30-let-muzhchina",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/paczient-45-let-muzhchina",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/paczient-45-let-muzhchina",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/paczient-48-let-zhenshhina",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/paczient-48-let-zhenshhina",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/paczient-49-let-zhenshhina",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/paczient-49-let-zhenshhina",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/paczient-50-let-zhenshhina",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/paczient-50-let-zhenshhina",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/paczient-53-goda-zhenshhina",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/paczient-53-goda-zhenshhina",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/paczient-55-let-muzhchina",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/paczient-55-let-muzhchina",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/paczient-62-goda-muzhchina",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/paczient-62-goda-muzhchina",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/paczient-7-let",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/paczient-7-let",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/paczientka-12-let",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/paczientka-12-let",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/paczientka-6-let",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/paczientka-6-let",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/professionalnaya-gigiena-polosti-rta",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/professionalnaya-gigiena-polosti-rta",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/skryityij-karies",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/skryityij-karies",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/zamena-plomb-2",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/zamena-plomb-2",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/primery-rabot/zamena-staryix-plomb-posle-breketov",
+      "status": 200,
+      "final_url": "http://armclinic.ru/primery-rabot/zamena-staryix-plomb-posle-breketov",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/protezirovanie",
+      "status": 200,
+      "final_url": "http://armclinic.ru/protezirovanie",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/protezirovanie/adaptatsionnoe",
+      "status": 200,
+      "final_url": "http://armclinic.ru/protezirovanie/adaptatsionnoe",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/protezirovanie/byugelnye-protezy",
+      "status": 200,
+      "final_url": "http://armclinic.ru/protezirovanie/byugelnye-protezy",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/protezirovanie/koronki",
+      "status": 200,
+      "final_url": "http://armclinic.ru/protezirovanie/koronki",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/protezirovanie/pri-polnom-otsutstvii-zubov",
+      "status": 200,
+      "final_url": "http://armclinic.ru/protezirovanie/pri-polnom-otsutstvii-zubov",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/sistema-cerec",
+      "status": 200,
+      "final_url": "http://armclinic.ru/sistema-cerec",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/splint-terapiya",
+      "status": 200,
+      "final_url": "http://armclinic.ru/splint-terapiya",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/stoimost",
+      "status": 200,
+      "final_url": "http://armclinic.ru/stoimost",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/stoimost/anesteziya",
+      "status": 200,
+      "final_url": "http://armclinic.ru/stoimost/anesteziya",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/stoimost/detstvo",
+      "status": 200,
+      "final_url": "http://armclinic.ru/stoimost/detstvo",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/stoimost/implantologiya",
+      "status": 200,
+      "final_url": "http://armclinic.ru/stoimost/implantologiya",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/stoimost/klinika-rasxodnyie-materialyi",
+      "status": 200,
+      "final_url": "http://armclinic.ru/stoimost/klinika-rasxodnyie-materialyi",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/stoimost/konsultaczii",
+      "status": 200,
+      "final_url": "http://armclinic.ru/stoimost/konsultaczii",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/stoimost/ortodontiya",
+      "status": 200,
+      "final_url": "http://armclinic.ru/stoimost/ortodontiya",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/stoimost/ortopediya",
+      "status": 200,
+      "final_url": "http://armclinic.ru/stoimost/ortopediya",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/stoimost/osmotryi",
+      "status": 200,
+      "final_url": "http://armclinic.ru/stoimost/osmotryi",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/stoimost/parodontologiya",
+      "status": 200,
+      "final_url": "http://armclinic.ru/stoimost/parodontologiya",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/stoimost/professionalnoe-otbelivanie",
+      "status": 200,
+      "final_url": "http://armclinic.ru/stoimost/professionalnoe-otbelivanie",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/stoimost/profilakticheskaya-stomatologiya",
+      "status": 200,
+      "final_url": "http://armclinic.ru/stoimost/profilakticheskaya-stomatologiya",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/stoimost/rentgenografiya",
+      "status": 200,
+      "final_url": "http://armclinic.ru/stoimost/rentgenografiya",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/stoimost/terapevticheskaya-stomatologiya",
+      "status": 200,
+      "final_url": "http://armclinic.ru/stoimost/terapevticheskaya-stomatologiya",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/stoimost/xirurgiya",
+      "status": 200,
+      "final_url": "http://armclinic.ru/stoimost/xirurgiya",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/uslugi",
+      "status": 200,
+      "final_url": "http://armclinic.ru/uslugi",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/voprosy-detskaya-stomatologiya",
+      "status": 200,
+      "final_url": "http://armclinic.ru/voprosy-detskaya-stomatologiya",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/voprosy-esteticheskaya-stomatologiya",
+      "status": 200,
+      "final_url": "http://armclinic.ru/voprosy-esteticheskaya-stomatologiya",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/voprosy-gigiena-i-profilaktika",
+      "status": 200,
+      "final_url": "http://armclinic.ru/voprosy-gigiena-i-profilaktika",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/voprosy-gnatologiya",
+      "status": 200,
+      "final_url": "http://armclinic.ru/voprosy-gnatologiya",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/voprosy-hirurgiya",
+      "status": 200,
+      "final_url": "http://armclinic.ru/voprosy-hirurgiya",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/voprosy-implantacziya",
+      "status": 200,
+      "final_url": "http://armclinic.ru/voprosy-implantacziya",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/voprosy-ortodontiya",
+      "status": 200,
+      "final_url": "http://armclinic.ru/voprosy-ortodontiya",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/voprosy-ortopediya",
+      "status": 200,
+      "final_url": "http://armclinic.ru/voprosy-ortopediya",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/voprosy-otbelivanie-zubov",
+      "status": 200,
+      "final_url": "http://armclinic.ru/voprosy-otbelivanie-zubov",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/voprosy-protezirovanie",
+      "status": 200,
+      "final_url": "http://armclinic.ru/voprosy-protezirovanie",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/voprosy-terapiya",
+      "status": 200,
+      "final_url": "http://armclinic.ru/voprosy-terapiya",
+      "error": null
+    },
+    {
+      "requested": "http://armclinic.ru/yana-olegovna-skyaeva",
+      "status": 200,
+      "final_url": "http://armclinic.ru/yana-olegovna-skyaeva",
+      "error": null
+    },
+    {
+      "requested": "https://armclinic.ru/o-klinike#documenti",
+      "status": 200,
+      "final_url": "https://armclinic.ru/o-klinike#documenti",
+      "error": null
+    },
+    {
+      "requested": "https://armclinic.ru/politika",
+      "status": 404,
+      "final_url": "https://armclinic.ru/politika",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://armclinic.ru/politika-konfidenczialnosti",
+      "status": 200,
+      "final_url": "https://armclinic.ru/politika-konfidenczialnosti",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://armclinic.ru/",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://armclinic.ru/",
+      "form_id": "form1682073971",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1682073971\" name='form1682073971' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://armclinic.ru/",
+      "form_id": "form1682076751",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1682076751\" name='form1682076751' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://armclinic.ru/",
+      "form_id": "form1682077091",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1682077091\" name='form1682077091' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://armclinic.ru/",
+      "form_id": "form1682077171",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1682077171\" name='form1682077171' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://armclinic.ru/kontaktyi",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/",
+      "form_id": "form1682073971",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1682073971\" name='form1682073971' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/",
+      "form_id": "form1682076751",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1682076751\" name='form1682076751' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/",
+      "form_id": "form1682077091",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1682077091\" name='form1682077091' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/",
+      "form_id": "form1682077171",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1682077171\" name='form1682077171' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/altueva-zhanna-xasimovna",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/atabiev-rasul",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/detskaya-stomatologiya",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/esteticheskaya-stomatologiya",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/esteticheskaya-stomatologiya/restavratsya-zubov",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/evloeva-fatima-tagirovna",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/faq",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/fyodorov-dmitrij",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/gigiena-i-profilaktika",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/hirurgiya",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/hirurgiya/resektsiya-verhushki-zuba",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/hirurgiya/udalenie-zubov",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/hirurgiya/udalenie-zubov/kista",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/hirurgiya/udalenie-zubov/zub-mudrosti",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/implantacziya",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/implantacziya/all-on-4",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/implantacziya/all-on-6",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/implantacziya/dentalnaya",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/implantacziya/osstem",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/implantacziya/perednih-verhnih-zubov",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/implantacziya/perednih-zubov",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/implantacziya/polnaya",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/implantacziya/s-nemedlennoj-nagruzkoj",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/implantacziya/straumann",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/implantacziya/verhnih-zubov",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/implantacziya/za-1-den",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/implantacziya/zhevatelnyh-zubov",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/isaeva-asiyat-rashidovna",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/kontaktyi",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/lechenie",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/lechenie/karies",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/lechenie/lechenie-zubnyh-kanalov-pod-mikroskopom",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/lechenie/reczessiya-desnyi",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/lechenie/ustanovka-plomb",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/lechenie/zubnye-kanaly",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/litvin-anna",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/magomedov-islam-magomedgadzhievich",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/nash-kollektiv",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/o-klinike",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/ortodontiya",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/ortodontiya/brekety",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/ortodontiya/elainery",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/ortodontiya/ispravlenie-prikisa",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/ortopediya",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/ortopediya/viniry",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/otbelivanie-zubov",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/otbelivanie-zubov/zoom",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/otzyvy",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/politika-konfidenczialnosti",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/klinovidnyij-defekt",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/kompleksnoe-lechenie-zubov",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/kontaktnyij-karies",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/kontaktnyij-karies-2",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/kontaktnyij-karies-3",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/lechenie-kanalov-zuba",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/lechenie-kariesa",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/lechenie-kariesa-2",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/lechenie-kariesa-3",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/lechenie-kariesa-4",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/lechenie-kariesa-6",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/lechenie-kariesa-7",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/lechenie-kariesa-i-mikroprotezirovanie",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/lechenie-kariesa-i-vosstanovlenie-zubov-s-pomoshhyu-restavraczii-2",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/lechenie-kariesa-pod-mikroskopom",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/lechenie-kariesa-pod-mikroskopom-2",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/lechenie-kariesa-vosstanovlenie-zhevatelnoj-funkczii-zubov",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breket-sisteme-damon-clear-q",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breket-sisteme-damon-q",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breket-sisteme-damon-q-2",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breket-sisteme-damon-q-3",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breket-sisteme-domon-q",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breketax-damon-clear-i-damon-q",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breketax-damon-q",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-elajnerax-invisalign",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-paczienta-na-breket-sisteme-damon-q",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-paczienta-na-breket-sisteme-damon-q-2",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/paczient-10-let",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/paczient-30-let-muzhchina",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/paczient-45-let-muzhchina",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/paczient-48-let-zhenshhina",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/paczient-49-let-zhenshhina",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/paczient-50-let-zhenshhina",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/paczient-53-goda-zhenshhina",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/paczient-55-let-muzhchina",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/paczient-62-goda-muzhchina",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/paczient-7-let",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/paczientka-12-let",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/paczientka-6-let",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/professionalnaya-gigiena-polosti-rta",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/skryityij-karies",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/zamena-plomb-2",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/zamena-staryix-plomb-posle-breketov",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/protezirovanie",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/protezirovanie/adaptatsionnoe",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/protezirovanie/byugelnye-protezy",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/protezirovanie/koronki",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/protezirovanie/pri-polnom-otsutstvii-zubov",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/sistema-cerec",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/splint-terapiya",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/stoimost",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/stoimost/anesteziya",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/stoimost/detstvo",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/stoimost/implantologiya",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/stoimost/klinika-rasxodnyie-materialyi",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/stoimost/konsultaczii",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/stoimost/ortodontiya",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/stoimost/ortopediya",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/stoimost/osmotryi",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/stoimost/parodontologiya",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/stoimost/professionalnoe-otbelivanie",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/stoimost/profilakticheskaya-stomatologiya",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/stoimost/rentgenografiya",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/stoimost/terapevticheskaya-stomatologiya",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/stoimost/xirurgiya",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/uslugi",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/voprosy-detskaya-stomatologiya",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/voprosy-esteticheskaya-stomatologiya",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/voprosy-gigiena-i-profilaktika",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/voprosy-gnatologiya",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/voprosy-hirurgiya",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/voprosy-implantacziya",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/voprosy-ortodontiya",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/voprosy-ortopediya",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/voprosy-otbelivanie-zubov",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/voprosy-protezirovanie",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/voprosy-terapiya",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://armclinic.ru/yana-olegovna-skyaeva",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://armclinic.ru/o-klinike#documenti",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://armclinic.ru/politika-konfidenczialnosti",
+      "form_id": "form1383920661",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1383920661\" name='form1383920661' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    }
+  ],
+  "emails": [
+    "info@armclinic.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://armclinic.ru/",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "https://armclinic.ru/kontaktyi",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/altueva-zhanna-xasimovna",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/atabiev-rasul",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/detskaya-stomatologiya",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/esteticheskaya-stomatologiya",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/esteticheskaya-stomatologiya/restavratsya-zubov",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/evloeva-fatima-tagirovna",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/faq",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/fyodorov-dmitrij",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/gigiena-i-profilaktika",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/hirurgiya",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/hirurgiya/resektsiya-verhushki-zuba",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/hirurgiya/udalenie-zubov",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/hirurgiya/udalenie-zubov/kista",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/hirurgiya/udalenie-zubov/zub-mudrosti",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/implantacziya",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/implantacziya/all-on-4",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/implantacziya/all-on-6",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/implantacziya/dentalnaya",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/implantacziya/osstem",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/implantacziya/perednih-verhnih-zubov",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/implantacziya/perednih-zubov",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/implantacziya/polnaya",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/implantacziya/s-nemedlennoj-nagruzkoj",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/implantacziya/straumann",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/implantacziya/verhnih-zubov",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/implantacziya/za-1-den",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/implantacziya/zhevatelnyh-zubov",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/isaeva-asiyat-rashidovna",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/kontaktyi",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/lechenie",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/lechenie/karies",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/lechenie/lechenie-zubnyh-kanalov-pod-mikroskopom",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/lechenie/reczessiya-desnyi",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/lechenie/ustanovka-plomb",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/lechenie/zubnye-kanaly",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/litvin-anna",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/magomedov-islam-magomedgadzhievich",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/nash-kollektiv",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/o-klinike",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/ortodontiya",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/ortodontiya/brekety",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/ortodontiya/elainery",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/ortodontiya/ispravlenie-prikisa",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/ortopediya",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/ortopediya/viniry",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/otbelivanie-zubov",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/otbelivanie-zubov/zoom",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/otzyvy",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/politika-konfidenczialnosti",
+      "href": "http://armclinic.ru/politika-konfidenczialnosti",
+      "text": "policy path"
+    },
+    {
+      "page": "http://armclinic.ru/politika-konfidenczialnosti",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/klinovidnyij-defekt",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/kompleksnoe-lechenie-zubov",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/kontaktnyij-karies",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/kontaktnyij-karies-2",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/kontaktnyij-karies-3",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/lechenie-kanalov-zuba",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/lechenie-kariesa",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/lechenie-kariesa-2",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/lechenie-kariesa-3",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/lechenie-kariesa-4",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/lechenie-kariesa-6",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/lechenie-kariesa-7",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/lechenie-kariesa-i-mikroprotezirovanie",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/lechenie-kariesa-i-vosstanovlenie-zubov-s-pomoshhyu-restavraczii-2",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/lechenie-kariesa-pod-mikroskopom",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/lechenie-kariesa-pod-mikroskopom-2",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/lechenie-kariesa-vosstanovlenie-zhevatelnoj-funkczii-zubov",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breket-sisteme-damon-clear-q",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breket-sisteme-damon-q",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breket-sisteme-damon-q-2",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breket-sisteme-damon-q-3",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breket-sisteme-domon-q",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breketax-damon-clear-i-damon-q",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breketax-damon-q",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-elajnerax-invisalign",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-paczienta-na-breket-sisteme-damon-q",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-paczienta-na-breket-sisteme-damon-q-2",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/paczient-10-let",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/paczient-30-let-muzhchina",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/paczient-45-let-muzhchina",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/paczient-48-let-zhenshhina",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/paczient-49-let-zhenshhina",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/paczient-50-let-zhenshhina",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/paczient-53-goda-zhenshhina",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/paczient-55-let-muzhchina",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/paczient-62-goda-muzhchina",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/paczient-7-let",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/paczientka-12-let",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/paczientka-6-let",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/professionalnaya-gigiena-polosti-rta",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/skryityij-karies",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/zamena-plomb-2",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/primery-rabot/zamena-staryix-plomb-posle-breketov",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/protezirovanie",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/protezirovanie/adaptatsionnoe",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/protezirovanie/byugelnye-protezy",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/protezirovanie/koronki",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/protezirovanie/pri-polnom-otsutstvii-zubov",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/sistema-cerec",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/splint-terapiya",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/stoimost",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/stoimost/anesteziya",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/stoimost/detstvo",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/stoimost/implantologiya",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/stoimost/klinika-rasxodnyie-materialyi",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/stoimost/konsultaczii",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/stoimost/ortodontiya",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/stoimost/ortopediya",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/stoimost/osmotryi",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/stoimost/parodontologiya",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/stoimost/professionalnoe-otbelivanie",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/stoimost/profilakticheskaya-stomatologiya",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/stoimost/rentgenografiya",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/stoimost/terapevticheskaya-stomatologiya",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/stoimost/xirurgiya",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/uslugi",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/voprosy-detskaya-stomatologiya",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/voprosy-esteticheskaya-stomatologiya",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/voprosy-gigiena-i-profilaktika",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/voprosy-gnatologiya",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/voprosy-hirurgiya",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/voprosy-implantacziya",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/voprosy-ortodontiya",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/voprosy-ortopediya",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/voprosy-otbelivanie-zubov",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/voprosy-protezirovanie",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/voprosy-terapiya",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "http://armclinic.ru/yana-olegovna-skyaeva",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "https://armclinic.ru/o-klinike#documenti",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "https://armclinic.ru/politika-konfidenczialnosti",
+      "href": "https://armclinic.ru/politika-konfidenczialnosti",
+      "text": "policy path"
+    },
+    {
+      "page": "https://armclinic.ru/politika-konfidenczialnosti",
+      "href": "/politika-konfidenczialnosti",
+      "text": "Политика обработки персональных данных"
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://armclinic.ru/kontaktyi"
+    ],
+    "booking_urls": [
+      "http://armclinic.ru/",
+      "http://armclinic.ru/altueva-zhanna-xasimovna",
+      "http://armclinic.ru/atabiev-rasul",
+      "http://armclinic.ru/detskaya-stomatologiya",
+      "http://armclinic.ru/esteticheskaya-stomatologiya",
+      "http://armclinic.ru/esteticheskaya-stomatologiya/restavratsya-zubov",
+      "http://armclinic.ru/evloeva-fatima-tagirovna",
+      "http://armclinic.ru/faq",
+      "http://armclinic.ru/fyodorov-dmitrij",
+      "http://armclinic.ru/gigiena-i-profilaktika",
+      "http://armclinic.ru/hirurgiya",
+      "http://armclinic.ru/hirurgiya/resektsiya-verhushki-zuba",
+      "http://armclinic.ru/hirurgiya/udalenie-zubov",
+      "http://armclinic.ru/hirurgiya/udalenie-zubov/kista",
+      "http://armclinic.ru/hirurgiya/udalenie-zubov/zub-mudrosti",
+      "http://armclinic.ru/implantacziya",
+      "http://armclinic.ru/implantacziya/all-on-4",
+      "http://armclinic.ru/implantacziya/all-on-6",
+      "http://armclinic.ru/implantacziya/dentalnaya",
+      "http://armclinic.ru/implantacziya/osstem",
+      "http://armclinic.ru/implantacziya/perednih-verhnih-zubov",
+      "http://armclinic.ru/implantacziya/perednih-zubov",
+      "http://armclinic.ru/implantacziya/polnaya",
+      "http://armclinic.ru/implantacziya/s-nemedlennoj-nagruzkoj",
+      "http://armclinic.ru/implantacziya/straumann",
+      "http://armclinic.ru/implantacziya/verhnih-zubov",
+      "http://armclinic.ru/implantacziya/za-1-den",
+      "http://armclinic.ru/implantacziya/zhevatelnyh-zubov",
+      "http://armclinic.ru/isaeva-asiyat-rashidovna",
+      "http://armclinic.ru/kontaktyi",
+      "http://armclinic.ru/lechenie",
+      "http://armclinic.ru/lechenie/karies",
+      "http://armclinic.ru/lechenie/lechenie-zubnyh-kanalov-pod-mikroskopom",
+      "http://armclinic.ru/lechenie/reczessiya-desnyi",
+      "http://armclinic.ru/lechenie/ustanovka-plomb",
+      "http://armclinic.ru/lechenie/zubnye-kanaly",
+      "http://armclinic.ru/litvin-anna",
+      "http://armclinic.ru/magomedov-islam-magomedgadzhievich",
+      "http://armclinic.ru/nash-kollektiv",
+      "http://armclinic.ru/o-klinike",
+      "http://armclinic.ru/ortodontiya",
+      "http://armclinic.ru/ortodontiya/brekety",
+      "http://armclinic.ru/ortodontiya/elainery",
+      "http://armclinic.ru/ortodontiya/ispravlenie-prikisa",
+      "http://armclinic.ru/ortopediya",
+      "http://armclinic.ru/ortopediya/viniry",
+      "http://armclinic.ru/otbelivanie-zubov",
+      "http://armclinic.ru/otbelivanie-zubov/zoom",
+      "http://armclinic.ru/otzyvy",
+      "http://armclinic.ru/politika-konfidenczialnosti",
+      "http://armclinic.ru/primery-rabot",
+      "http://armclinic.ru/primery-rabot/klinovidnyij-defekt",
+      "http://armclinic.ru/primery-rabot/kompleksnoe-lechenie-zubov",
+      "http://armclinic.ru/primery-rabot/kontaktnyij-karies",
+      "http://armclinic.ru/primery-rabot/kontaktnyij-karies-2",
+      "http://armclinic.ru/primery-rabot/kontaktnyij-karies-3",
+      "http://armclinic.ru/primery-rabot/lechenie-kanalov-zuba",
+      "http://armclinic.ru/primery-rabot/lechenie-kariesa",
+      "http://armclinic.ru/primery-rabot/lechenie-kariesa-2",
+      "http://armclinic.ru/primery-rabot/lechenie-kariesa-3",
+      "http://armclinic.ru/primery-rabot/lechenie-kariesa-4",
+      "http://armclinic.ru/primery-rabot/lechenie-kariesa-6",
+      "http://armclinic.ru/primery-rabot/lechenie-kariesa-7",
+      "http://armclinic.ru/primery-rabot/lechenie-kariesa-i-mikroprotezirovanie",
+      "http://armclinic.ru/primery-rabot/lechenie-kariesa-i-vosstanovlenie-zubov-s-pomoshhyu-restavraczii-2",
+      "http://armclinic.ru/primery-rabot/lechenie-kariesa-pod-mikroskopom",
+      "http://armclinic.ru/primery-rabot/lechenie-kariesa-pod-mikroskopom-2",
+      "http://armclinic.ru/primery-rabot/lechenie-kariesa-vosstanovlenie-zhevatelnoj-funkczii-zubov",
+      "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breket-sisteme-damon-clear-q",
+      "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breket-sisteme-damon-q",
+      "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breket-sisteme-damon-q-2",
+      "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breket-sisteme-damon-q-3",
+      "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breket-sisteme-domon-q",
+      "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breketax-damon-clear-i-damon-q",
+      "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breketax-damon-q",
+      "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-elajnerax-invisalign",
+      "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-paczienta-na-breket-sisteme-damon-q",
+      "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-paczienta-na-breket-sisteme-damon-q-2",
+      "http://armclinic.ru/primery-rabot/paczient-10-let",
+      "http://armclinic.ru/primery-rabot/paczient-30-let-muzhchina",
+      "http://armclinic.ru/primery-rabot/paczient-45-let-muzhchina",
+      "http://armclinic.ru/primery-rabot/paczient-48-let-zhenshhina",
+      "http://armclinic.ru/primery-rabot/paczient-49-let-zhenshhina",
+      "http://armclinic.ru/primery-rabot/paczient-50-let-zhenshhina",
+      "http://armclinic.ru/primery-rabot/paczient-53-goda-zhenshhina",
+      "http://armclinic.ru/primery-rabot/paczient-55-let-muzhchina",
+      "http://armclinic.ru/primery-rabot/paczient-62-goda-muzhchina",
+      "http://armclinic.ru/primery-rabot/paczient-7-let",
+      "http://armclinic.ru/primery-rabot/paczientka-12-let",
+      "http://armclinic.ru/primery-rabot/paczientka-6-let",
+      "http://armclinic.ru/primery-rabot/professionalnaya-gigiena-polosti-rta",
+      "http://armclinic.ru/primery-rabot/skryityij-karies",
+      "http://armclinic.ru/primery-rabot/zamena-plomb-2",
+      "http://armclinic.ru/primery-rabot/zamena-staryix-plomb-posle-breketov",
+      "http://armclinic.ru/protezirovanie",
+      "http://armclinic.ru/protezirovanie/adaptatsionnoe",
+      "http://armclinic.ru/protezirovanie/byugelnye-protezy",
+      "http://armclinic.ru/protezirovanie/koronki",
+      "http://armclinic.ru/protezirovanie/pri-polnom-otsutstvii-zubov",
+      "http://armclinic.ru/sistema-cerec",
+      "http://armclinic.ru/splint-terapiya",
+      "http://armclinic.ru/stoimost",
+      "http://armclinic.ru/stoimost/anesteziya",
+      "http://armclinic.ru/stoimost/detstvo",
+      "http://armclinic.ru/stoimost/implantologiya",
+      "http://armclinic.ru/stoimost/klinika-rasxodnyie-materialyi",
+      "http://armclinic.ru/stoimost/konsultaczii",
+      "http://armclinic.ru/stoimost/ortodontiya",
+      "http://armclinic.ru/stoimost/ortopediya",
+      "http://armclinic.ru/stoimost/osmotryi",
+      "http://armclinic.ru/stoimost/parodontologiya",
+      "http://armclinic.ru/stoimost/professionalnoe-otbelivanie",
+      "http://armclinic.ru/stoimost/profilakticheskaya-stomatologiya",
+      "http://armclinic.ru/stoimost/rentgenografiya",
+      "http://armclinic.ru/stoimost/terapevticheskaya-stomatologiya",
+      "http://armclinic.ru/stoimost/xirurgiya",
+      "http://armclinic.ru/uslugi",
+      "http://armclinic.ru/voprosy-detskaya-stomatologiya",
+      "http://armclinic.ru/voprosy-esteticheskaya-stomatologiya",
+      "http://armclinic.ru/voprosy-gigiena-i-profilaktika",
+      "http://armclinic.ru/voprosy-gnatologiya",
+      "http://armclinic.ru/voprosy-hirurgiya",
+      "http://armclinic.ru/voprosy-implantacziya",
+      "http://armclinic.ru/voprosy-ortodontiya",
+      "http://armclinic.ru/voprosy-ortopediya",
+      "http://armclinic.ru/voprosy-otbelivanie-zubov",
+      "http://armclinic.ru/voprosy-protezirovanie",
+      "http://armclinic.ru/voprosy-terapiya",
+      "http://armclinic.ru/yana-olegovna-skyaeva",
+      "https://armclinic.ru/"
+    ],
+    "legal_urls": [
+      "http://armclinic.ru/politika-konfidenczialnosti",
+      "https://armclinic.ru/o-klinike#documenti",
+      "https://armclinic.ru/politika",
+      "https://armclinic.ru/politika-konfidenczialnosti"
+    ],
+    "sources": {
+      "http://armclinic.ru/": "sitemap-form",
+      "http://armclinic.ru/altueva-zhanna-xasimovna": "sitemap-form",
+      "http://armclinic.ru/atabiev-rasul": "sitemap-form",
+      "http://armclinic.ru/detskaya-stomatologiya": "sitemap-form",
+      "http://armclinic.ru/esteticheskaya-stomatologiya": "sitemap-form",
+      "http://armclinic.ru/esteticheskaya-stomatologiya/restavratsya-zubov": "sitemap-form",
+      "http://armclinic.ru/evloeva-fatima-tagirovna": "sitemap-form",
+      "http://armclinic.ru/faq": "sitemap-form",
+      "http://armclinic.ru/fyodorov-dmitrij": "sitemap-form",
+      "http://armclinic.ru/gigiena-i-profilaktika": "sitemap-form",
+      "http://armclinic.ru/hirurgiya": "sitemap-form",
+      "http://armclinic.ru/hirurgiya/resektsiya-verhushki-zuba": "sitemap-form",
+      "http://armclinic.ru/hirurgiya/udalenie-zubov": "sitemap-form",
+      "http://armclinic.ru/hirurgiya/udalenie-zubov/kista": "sitemap-form",
+      "http://armclinic.ru/hirurgiya/udalenie-zubov/zub-mudrosti": "sitemap-form",
+      "http://armclinic.ru/implantacziya": "sitemap-form",
+      "http://armclinic.ru/implantacziya/all-on-4": "sitemap-form",
+      "http://armclinic.ru/implantacziya/all-on-6": "sitemap-form",
+      "http://armclinic.ru/implantacziya/dentalnaya": "sitemap-form",
+      "http://armclinic.ru/implantacziya/osstem": "sitemap-form",
+      "http://armclinic.ru/implantacziya/perednih-verhnih-zubov": "sitemap-form",
+      "http://armclinic.ru/implantacziya/perednih-zubov": "sitemap-form",
+      "http://armclinic.ru/implantacziya/polnaya": "sitemap-form",
+      "http://armclinic.ru/implantacziya/s-nemedlennoj-nagruzkoj": "sitemap-form",
+      "http://armclinic.ru/implantacziya/straumann": "sitemap-form",
+      "http://armclinic.ru/implantacziya/verhnih-zubov": "sitemap-form",
+      "http://armclinic.ru/implantacziya/za-1-den": "sitemap-form",
+      "http://armclinic.ru/implantacziya/zhevatelnyh-zubov": "sitemap-form",
+      "http://armclinic.ru/isaeva-asiyat-rashidovna": "sitemap-form",
+      "http://armclinic.ru/kontaktyi": "sitemap-form",
+      "http://armclinic.ru/lechenie": "sitemap-form",
+      "http://armclinic.ru/lechenie/karies": "sitemap-form",
+      "http://armclinic.ru/lechenie/lechenie-zubnyh-kanalov-pod-mikroskopom": "sitemap-form",
+      "http://armclinic.ru/lechenie/reczessiya-desnyi": "sitemap-form",
+      "http://armclinic.ru/lechenie/ustanovka-plomb": "sitemap-form",
+      "http://armclinic.ru/lechenie/zubnye-kanaly": "sitemap-form",
+      "http://armclinic.ru/litvin-anna": "sitemap-form",
+      "http://armclinic.ru/magomedov-islam-magomedgadzhievich": "sitemap-form",
+      "http://armclinic.ru/nash-kollektiv": "sitemap-form",
+      "http://armclinic.ru/o-klinike": "sitemap-form",
+      "http://armclinic.ru/ortodontiya": "sitemap-form",
+      "http://armclinic.ru/ortodontiya/brekety": "sitemap-form",
+      "http://armclinic.ru/ortodontiya/elainery": "sitemap-form",
+      "http://armclinic.ru/ortodontiya/ispravlenie-prikisa": "sitemap-form",
+      "http://armclinic.ru/ortopediya": "sitemap-form",
+      "http://armclinic.ru/ortopediya/viniry": "sitemap-form",
+      "http://armclinic.ru/otbelivanie-zubov": "sitemap-form",
+      "http://armclinic.ru/otbelivanie-zubov/zoom": "sitemap-form",
+      "http://armclinic.ru/otzyvy": "sitemap-form",
+      "http://armclinic.ru/politika-konfidenczialnosti": "sitemap-legal",
+      "http://armclinic.ru/primery-rabot": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/klinovidnyij-defekt": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/kompleksnoe-lechenie-zubov": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/kontaktnyij-karies": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/kontaktnyij-karies-2": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/kontaktnyij-karies-3": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/lechenie-kanalov-zuba": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/lechenie-kariesa": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/lechenie-kariesa-2": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/lechenie-kariesa-3": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/lechenie-kariesa-4": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/lechenie-kariesa-6": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/lechenie-kariesa-7": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/lechenie-kariesa-i-mikroprotezirovanie": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/lechenie-kariesa-i-vosstanovlenie-zubov-s-pomoshhyu-restavraczii-2": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/lechenie-kariesa-pod-mikroskopom": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/lechenie-kariesa-pod-mikroskopom-2": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/lechenie-kariesa-vosstanovlenie-zhevatelnoj-funkczii-zubov": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breket-sisteme-damon-clear-q": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breket-sisteme-damon-q": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breket-sisteme-damon-q-2": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breket-sisteme-damon-q-3": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breket-sisteme-domon-q": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breketax-damon-clear-i-damon-q": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-breketax-damon-q": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-na-elajnerax-invisalign": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-paczienta-na-breket-sisteme-damon-q": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/ortodonticheskoe-lechenie-paczienta-na-breket-sisteme-damon-q-2": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/paczient-10-let": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/paczient-30-let-muzhchina": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/paczient-45-let-muzhchina": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/paczient-48-let-zhenshhina": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/paczient-49-let-zhenshhina": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/paczient-50-let-zhenshhina": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/paczient-53-goda-zhenshhina": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/paczient-55-let-muzhchina": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/paczient-62-goda-muzhchina": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/paczient-7-let": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/paczientka-12-let": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/paczientka-6-let": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/professionalnaya-gigiena-polosti-rta": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/skryityij-karies": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/zamena-plomb-2": "sitemap-form",
+      "http://armclinic.ru/primery-rabot/zamena-staryix-plomb-posle-breketov": "sitemap-form",
+      "http://armclinic.ru/protezirovanie": "sitemap-form",
+      "http://armclinic.ru/protezirovanie/adaptatsionnoe": "sitemap-form",
+      "http://armclinic.ru/protezirovanie/byugelnye-protezy": "sitemap-form",
+      "http://armclinic.ru/protezirovanie/koronki": "sitemap-form",
+      "http://armclinic.ru/protezirovanie/pri-polnom-otsutstvii-zubov": "sitemap-form",
+      "http://armclinic.ru/sistema-cerec": "sitemap-form",
+      "http://armclinic.ru/splint-terapiya": "sitemap-form",
+      "http://armclinic.ru/stoimost": "sitemap-form",
+      "http://armclinic.ru/stoimost/anesteziya": "sitemap-form",
+      "http://armclinic.ru/stoimost/detstvo": "sitemap-form",
+      "http://armclinic.ru/stoimost/implantologiya": "sitemap-form",
+      "http://armclinic.ru/stoimost/klinika-rasxodnyie-materialyi": "sitemap-form",
+      "http://armclinic.ru/stoimost/konsultaczii": "sitemap-form",
+      "http://armclinic.ru/stoimost/ortodontiya": "sitemap-form",
+      "http://armclinic.ru/stoimost/ortopediya": "sitemap-form",
+      "http://armclinic.ru/stoimost/osmotryi": "sitemap-form",
+      "http://armclinic.ru/stoimost/parodontologiya": "sitemap-form",
+      "http://armclinic.ru/stoimost/professionalnoe-otbelivanie": "sitemap-form",
+      "http://armclinic.ru/stoimost/profilakticheskaya-stomatologiya": "sitemap-form",
+      "http://armclinic.ru/stoimost/rentgenografiya": "sitemap-form",
+      "http://armclinic.ru/stoimost/terapevticheskaya-stomatologiya": "sitemap-form",
+      "http://armclinic.ru/stoimost/xirurgiya": "sitemap-form",
+      "http://armclinic.ru/uslugi": "sitemap-form",
+      "http://armclinic.ru/voprosy-detskaya-stomatologiya": "sitemap-form",
+      "http://armclinic.ru/voprosy-esteticheskaya-stomatologiya": "sitemap-form",
+      "http://armclinic.ru/voprosy-gigiena-i-profilaktika": "sitemap-form",
+      "http://armclinic.ru/voprosy-gnatologiya": "sitemap-form",
+      "http://armclinic.ru/voprosy-hirurgiya": "sitemap-form",
+      "http://armclinic.ru/voprosy-implantacziya": "sitemap-form",
+      "http://armclinic.ru/voprosy-ortodontiya": "sitemap-form",
+      "http://armclinic.ru/voprosy-ortopediya": "sitemap-form",
+      "http://armclinic.ru/voprosy-otbelivanie-zubov": "sitemap-form",
+      "http://armclinic.ru/voprosy-protezirovanie": "sitemap-form",
+      "http://armclinic.ru/voprosy-terapiya": "sitemap-form",
+      "http://armclinic.ru/yana-olegovna-skyaeva": "sitemap-form",
+      "https://armclinic.ru/": "home-booking-candidate",
+      "https://armclinic.ru/kontaktyi": "navigation",
+      "https://armclinic.ru/o-klinike#documenti": "navigation-legal",
+      "https://armclinic.ru/politika": "policy-hint",
+      "https://armclinic.ru/politika-konfidenczialnosti": "navigation-legal"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": false
+    }
+  }
+}

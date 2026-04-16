@@ -1,0 +1,230 @@
+{
+  "domain": "elisan-expert.ru",
+  "pages": [
+    {
+      "requested": "https://elisan-expert.ru/",
+      "status": 200,
+      "final_url": "https://elisan-expert.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://elisan-expert.ru/contact",
+      "status": 404,
+      "final_url": "https://elisan-expert.ru/contact",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://elisan-expert.ru/contacts",
+      "status": 404,
+      "final_url": "https://elisan-expert.ru/contacts",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://elisan-expert.ru/kontakty",
+      "status": 404,
+      "final_url": "https://elisan-expert.ru/kontakty",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://elisan-expert.ru/appointment",
+      "status": 404,
+      "final_url": "https://elisan-expert.ru/appointment",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://elisan-expert.ru/booking",
+      "status": 404,
+      "final_url": "https://elisan-expert.ru/booking",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://elisan-expert.ru/zapis",
+      "status": 404,
+      "final_url": "https://elisan-expert.ru/zapis",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://elisan-expert.ru/document",
+      "status": 200,
+      "final_url": "https://elisan-expert.ru/document",
+      "error": null
+    },
+    {
+      "requested": "https://elisan-expert.ru/policy",
+      "status": 200,
+      "final_url": "https://elisan-expert.ru/policy",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://elisan-expert.ru/",
+      "form_id": "form1682653081",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1682653081\" name='form1682653081' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "href=\"/policy\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(12, 12, 12);\">политикой </a><a href=\"/policy\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(12, 12, 12);\">к</a>онфиденциальности</u></p></div> </div> <div class=\"t-inp"
+    },
+    {
+      "page": "https://elisan-expert.ru/",
+      "form_id": "form1682665261",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1682665261\" name='form1682665261' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "href=\"/policy\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(12, 12, 12);\">политикой </a><a href=\"/policy\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(12, 12, 12);\">к</a>онфиденциальности</u></p></div> </div> <div class=\"t-inp"
+    },
+    {
+      "page": "https://elisan-expert.ru/",
+      "form_id": "form1682666471",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1682666471\" name='form1682666471' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "href=\"/policy\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(12, 12, 12);\">политикой </a><a href=\"/policy\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(12, 12, 12);\">к</a>онфиденциальности</u></p></div> </div> <div class=\"t-inp"
+    },
+    {
+      "page": "https://elisan-expert.ru/",
+      "form_id": "form1682669751",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1682669751\" name='form1682669751' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "href=\"/policy\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(12, 12, 12);\">политикой </a><a href=\"/policy\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(12, 12, 12);\">к</a>онфиденциальности</u></p></div> </div> <div class=\"t-inp"
+    },
+    {
+      "page": "https://elisan-expert.ru/",
+      "form_id": "form1682670931",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1682670931\" name='form1682670931' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "href=\"/policy\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(12, 12, 12);\">политикой </a><a href=\"/policy\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(12, 12, 12);\">к</a>онфиденциальности</u></p></div> </div> <div class=\"t-inp"
+    },
+    {
+      "page": "https://elisan-expert.ru/",
+      "form_id": "form1682671871",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1682671871\" name='form1682671871' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "href=\"/policy\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(12, 12, 12);\">политикой </a><a href=\"/policy\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(12, 12, 12);\">к</a>онфиденциальности</u></p></div> </div> <div class=\"t-inp"
+    },
+    {
+      "page": "https://elisan-expert.ru/",
+      "form_id": "form1682672961",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1682672961\" name='form1682672961' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "href=\"/policy\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(12, 12, 12);\">политикой </a><a href=\"/policy\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(12, 12, 12);\">к</a>онфиденциальности</u></p></div> </div> <div class=\"t-inp"
+    },
+    {
+      "page": "https://elisan-expert.ru/",
+      "form_id": "form1682675141",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1682675141\" name='form1682675141' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "href=\"/policy\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(12, 12, 12);\">политикой </a><a href=\"/policy\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(12, 12, 12);\">к</a>онфиденциальности</u></p></div> </div> <div class=\"t-inp"
+    },
+    {
+      "page": "https://elisan-expert.ru/",
+      "form_id": "form1682676601",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1682676601\" name='form1682676601' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "href=\"/policy\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(12, 12, 12);\">политикой </a><a href=\"/policy\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(12, 12, 12);\">к</a>онфиденциальности</u></p></div> </div> <div class=\"t-inp"
+    }
+  ],
+  "emails": [
+    "mail@eli-san.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://elisan-expert.ru/",
+      "href": "/policy",
+      "text": "\\u043f\\u043e\\u043b\\u0438\\u0442\\u0438\\u043a\\u043e\\u0439 \\u043a \\u043e\\u043d\\u0444\\u0438\\u0434\\u0435\\u043d\\u0446\\u0438\\u0430\\u043b\\u044c\\u043d\\u043e\\u0441\\u0442\\u0438 \"}] Телефон: +7 (495) 120-15-99"
+    },
+    {
+      "page": "https://elisan-expert.ru/",
+      "href": "/policy",
+      "text": "Подробнее"
+    },
+    {
+      "page": "https://elisan-expert.ru/",
+      "href": "/policy",
+      "text": "политикой"
+    },
+    {
+      "page": "https://elisan-expert.ru/",
+      "href": "/policy",
+      "text": "к"
+    },
+    {
+      "page": "https://elisan-expert.ru/document",
+      "href": "/policy",
+      "text": "Открыть документ"
+    },
+    {
+      "page": "https://elisan-expert.ru/policy",
+      "href": "https://elisan-expert.ru/policy",
+      "text": "policy path"
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://elisan-expert.ru/contact",
+      "https://elisan-expert.ru/contacts",
+      "https://elisan-expert.ru/kontakty"
+    ],
+    "booking_urls": [
+      "https://elisan-expert.ru/appointment",
+      "https://elisan-expert.ru/booking",
+      "https://elisan-expert.ru/zapis"
+    ],
+    "legal_urls": [
+      "https://elisan-expert.ru/document",
+      "https://elisan-expert.ru/policy"
+    ],
+    "sources": {
+      "https://elisan-expert.ru/": "sitemap-form",
+      "https://elisan-expert.ru/appointment": "fallback",
+      "https://elisan-expert.ru/booking": "fallback",
+      "https://elisan-expert.ru/contact": "fallback",
+      "https://elisan-expert.ru/contacts": "fallback",
+      "https://elisan-expert.ru/document": "sitemap-legal",
+      "https://elisan-expert.ru/kontakty": "fallback",
+      "https://elisan-expert.ru/policy": "sitemap-legal",
+      "https://elisan-expert.ru/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": true,
+      "booking": true
+    },
+    "sitemap_total_urls": 24,
+    "sitemap_used_urls": 24
+  }
+}

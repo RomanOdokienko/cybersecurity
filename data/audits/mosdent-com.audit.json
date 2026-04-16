@@ -1,0 +1,129 @@
+{
+  "domain": "mosdent.com",
+  "pages": [
+    {
+      "requested": "https://mosdent.com/",
+      "status": 200,
+      "final_url": "https://mosdent.com/",
+      "error": null
+    },
+    {
+      "requested": "https://mosdent.com/contacts",
+      "status": 200,
+      "final_url": "https://mosdent.com/contacts",
+      "error": null
+    },
+    {
+      "requested": "https://mosdent.com/contacts/domodedovskaya",
+      "status": 200,
+      "final_url": "https://mosdent.com/contacts/domodedovskaya",
+      "error": null
+    },
+    {
+      "requested": "https://mosdent.com/contacts/kaluzhskaya",
+      "status": 200,
+      "final_url": "https://mosdent.com/contacts/kaluzhskaya",
+      "error": null
+    },
+    {
+      "requested": "https://mosdent.com/contacts/lyublino",
+      "status": 200,
+      "final_url": "https://mosdent.com/contacts/lyublino",
+      "error": null
+    },
+    {
+      "requested": "https://mosdent.com/uslugi/konsultaciya",
+      "status": 200,
+      "final_url": "https://mosdent.com/uslugi/konsultaciya",
+      "error": null
+    },
+    {
+      "requested": "https://mosdent.com/agreement",
+      "status": 404,
+      "final_url": "https://mosdent.com/agreement",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://mosdent.com/personal-data",
+      "status": 404,
+      "final_url": "https://mosdent.com/personal-data",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://mosdent.com/policy",
+      "status": 404,
+      "final_url": "https://mosdent.com/policy",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://mosdent.com/politika",
+      "status": 404,
+      "final_url": "https://mosdent.com/politika",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://mosdent.com/politika-konfidencialnosti",
+      "status": 404,
+      "final_url": "https://mosdent.com/politika-konfidencialnosti",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://mosdent.com/privacy",
+      "status": 404,
+      "final_url": "https://mosdent.com/privacy",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://mosdent.com/privacy-policy",
+      "status": 404,
+      "final_url": "https://mosdent.com/privacy-policy",
+      "error": "HTTPError 404"
+    }
+  ],
+  "forms": [],
+  "emails": [],
+  "privacy_links": [],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://mosdent.com/contacts",
+      "https://mosdent.com/contacts/domodedovskaya",
+      "https://mosdent.com/contacts/kaluzhskaya",
+      "https://mosdent.com/contacts/lyublino"
+    ],
+    "booking_urls": [
+      "https://mosdent.com/uslugi/konsultaciya"
+    ],
+    "legal_urls": [
+      "https://mosdent.com/agreement",
+      "https://mosdent.com/personal-data",
+      "https://mosdent.com/policy",
+      "https://mosdent.com/politika",
+      "https://mosdent.com/politika-konfidencialnosti",
+      "https://mosdent.com/privacy",
+      "https://mosdent.com/privacy-policy"
+    ],
+    "sources": {
+      "https://mosdent.com/": "",
+      "https://mosdent.com/agreement": "policy-fallback",
+      "https://mosdent.com/contacts": "navigation",
+      "https://mosdent.com/contacts/domodedovskaya": "navigation",
+      "https://mosdent.com/contacts/kaluzhskaya": "navigation",
+      "https://mosdent.com/contacts/lyublino": "navigation",
+      "https://mosdent.com/personal-data": "policy-fallback",
+      "https://mosdent.com/policy": "policy-fallback",
+      "https://mosdent.com/politika": "policy-fallback",
+      "https://mosdent.com/politika-konfidencialnosti": "policy-fallback",
+      "https://mosdent.com/privacy": "policy-fallback",
+      "https://mosdent.com/privacy-policy": "policy-fallback",
+      "https://mosdent.com/uslugi/konsultaciya": "navigation"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": false
+    },
+    "sitemap_total_urls": 0,
+    "sitemap_used_urls": 0
+  }
+}

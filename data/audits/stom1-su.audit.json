@@ -1,0 +1,125 @@
+{
+  "domain": "stom1.su",
+  "pages": [
+    {
+      "requested": "https://stom1.su/",
+      "status": 200,
+      "final_url": "https://capital-dent.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://stom1.su/contact",
+      "status": 200,
+      "final_url": "https://stom1.su/contact/",
+      "error": null
+    },
+    {
+      "requested": "https://stom1.su/contacts",
+      "status": 404,
+      "final_url": "https://stom1.su/contacts",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://stom1.su/kontakty",
+      "status": 404,
+      "final_url": "https://stom1.su/kontakty",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://stom1.su/appointment",
+      "status": 404,
+      "final_url": "https://stom1.su/appointment",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://stom1.su/booking",
+      "status": 404,
+      "final_url": "https://stom1.su/booking",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://stom1.su/zapis",
+      "status": 404,
+      "final_url": "https://stom1.su/zapis",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://stom1.su/policy",
+      "status": 404,
+      "final_url": "https://stom1.su/policy",
+      "error": "HTTPError 404"
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://stom1.su/",
+      "form_id": "feedback-form styled-form",
+      "action_display": "action=\"https://capital-dent.ru/wp-admin/admin-post.php\"",
+      "open_tag": "<form class=\"feedback-form styled-form\" method=\"POST\" action=\"https://capital-dent.ru/wp-admin/admin-post.php\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stom1.su/",
+      "form_id": "reviewForm",
+      "action_display": "action=\"https://capital-dent.ru/wp-admin/admin-post.php\"",
+      "open_tag": "<form id=\"reviewForm\" class=\"review-form\" method=\"POST\" action=\"https://capital-dent.ru/wp-admin/admin-post.php\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    }
+  ],
+  "emails": [
+    "info@capital-dent.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://stom1.su/",
+      "href": "/?page_id=88",
+      "text": "Политика в отношении обработки персональных данных"
+    },
+    {
+      "page": "https://stom1.su/contact",
+      "href": "/?page_id=88",
+      "text": "Политика в отношении обработки персональных данных"
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://stom1.su/contact",
+      "https://stom1.su/contacts",
+      "https://stom1.su/kontakty"
+    ],
+    "booking_urls": [
+      "https://stom1.su/appointment",
+      "https://stom1.su/booking",
+      "https://stom1.su/zapis"
+    ],
+    "legal_urls": [
+      "https://stom1.su/policy"
+    ],
+    "sources": {
+      "https://stom1.su/": "",
+      "https://stom1.su/appointment": "fallback",
+      "https://stom1.su/booking": "fallback",
+      "https://stom1.su/contact": "fallback",
+      "https://stom1.su/contacts": "fallback",
+      "https://stom1.su/kontakty": "fallback",
+      "https://stom1.su/policy": "policy-hint",
+      "https://stom1.su/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": true,
+      "booking": true
+    },
+    "sitemap_total_urls": 5,
+    "sitemap_used_urls": 5
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "domain": "погосова.рф",
+  "pages": [
+    {
+      "requested": "https://погосова.рф/",
+      "status": null,
+      "final_url": "https://погосова.рф/",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "requested": "https://погосова.рф/contact",
+      "status": null,
+      "final_url": "https://погосова.рф/contact",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "requested": "https://погосова.рф/contacts",
+      "status": null,
+      "final_url": "https://погосова.рф/contacts",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "requested": "https://погосова.рф/kontakty",
+      "status": null,
+      "final_url": "https://погосова.рф/kontakty",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "requested": "https://погосова.рф/appointment",
+      "status": null,
+      "final_url": "https://погосова.рф/appointment",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "requested": "https://погосова.рф/booking",
+      "status": null,
+      "final_url": "https://погосова.рф/booking",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "requested": "https://погосова.рф/zapis",
+      "status": null,
+      "final_url": "https://погосова.рф/zapis",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "requested": "https://погосова.рф/agreement",
+      "status": null,
+      "final_url": "https://погосова.рф/agreement",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "requested": "https://погосова.рф/personal-data",
+      "status": null,
+      "final_url": "https://погосова.рф/personal-data",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "requested": "https://погосова.рф/policy",
+      "status": null,
+      "final_url": "https://погосова.рф/policy",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "requested": "https://погосова.рф/politika",
+      "status": null,
+      "final_url": "https://погосова.рф/politika",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "requested": "https://погосова.рф/politika-konfidencialnosti",
+      "status": null,
+      "final_url": "https://погосова.рф/politika-konfidencialnosti",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "requested": "https://погосова.рф/privacy",
+      "status": null,
+      "final_url": "https://погосова.рф/privacy",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "requested": "https://погосова.рф/privacy-policy",
+      "status": null,
+      "final_url": "https://погосова.рф/privacy-policy",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    }
+  ],
+  "forms": [],
+  "emails": [],
+  "privacy_links": [],
+  "forbidden_hits": [],
+  "cert_errors": [
+    {
+      "url": "https://погосова.рф/",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "url": "https://погосова.рф/contact",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "url": "https://погосова.рф/contacts",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "url": "https://погосова.рф/kontakty",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "url": "https://погосова.рф/appointment",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "url": "https://погосова.рф/booking",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "url": "https://погосова.рф/zapis",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "url": "https://погосова.рф/agreement",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "url": "https://погосова.рф/personal-data",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "url": "https://погосова.рф/policy",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "url": "https://погосова.рф/politika",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "url": "https://погосова.рф/politika-konfidencialnosti",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "url": "https://погосова.рф/privacy",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "url": "https://погосова.рф/privacy-policy",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    }
+  ],
+  "discovery": {
+    "contact_urls": [
+      "https://погосова.рф/contact",
+      "https://погосова.рф/contacts",
+      "https://погосова.рф/kontakty"
+    ],
+    "booking_urls": [
+      "https://погосова.рф/appointment",
+      "https://погосова.рф/booking",
+      "https://погосова.рф/zapis"
+    ],
+    "legal_urls": [
+      "https://погосова.рф/agreement",
+      "https://погосова.рф/personal-data",
+      "https://погосова.рф/policy",
+      "https://погосова.рф/politika",
+      "https://погосова.рф/politika-konfidencialnosti",
+      "https://погосова.рф/privacy",
+      "https://погосова.рф/privacy-policy"
+    ],
+    "sources": {
+      "https://погосова.рф/": "",
+      "https://погосова.рф/agreement": "policy-fallback",
+      "https://погосова.рф/appointment": "fallback",
+      "https://погосова.рф/booking": "fallback",
+      "https://погосова.рф/contact": "fallback",
+      "https://погосова.рф/contacts": "fallback",
+      "https://погосова.рф/kontakty": "fallback",
+      "https://погосова.рф/personal-data": "policy-fallback",
+      "https://погосова.рф/policy": "policy-fallback",
+      "https://погосова.рф/politika": "policy-fallback",
+      "https://погосова.рф/politika-konfidencialnosti": "policy-fallback",
+      "https://погосова.рф/privacy": "policy-fallback",
+      "https://погосова.рф/privacy-policy": "policy-fallback",
+      "https://погосова.рф/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": true,
+      "booking": true
+    },
+    "sitemap_total_urls": 0,
+    "sitemap_used_urls": 0
+  }
+}

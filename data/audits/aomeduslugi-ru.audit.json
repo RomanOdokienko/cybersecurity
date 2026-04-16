@@ -1,0 +1,838 @@
+{
+  "domain": "aomeduslugi.ru",
+  "pages": [
+    {
+      "requested": "https://aomeduslugi.ru/",
+      "status": 200,
+      "final_url": "https://aomeduslugi.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://aomeduslugi.ru/contacts/",
+      "status": 200,
+      "final_url": "https://aomeduslugi.ru/contacts/",
+      "error": null
+    },
+    {
+      "requested": "https://aomeduslugi.ru/contacts/detskiy-tsentr-diagnostiki-i-lecheniya-im-n-a-semashko-m-frunzenskaya/",
+      "status": 200,
+      "final_url": "https://aomeduslugi.ru/contacts/detskiy-tsentr-diagnostiki-i-lecheniya-im-n-a-semashko-m-frunzenskaya/",
+      "error": null
+    },
+    {
+      "requested": "https://aomeduslugi.ru/contacts/moskovskiy-gomeopaticheskiy-tsentr-m-baumanskaya/",
+      "status": 200,
+      "final_url": "https://aomeduslugi.ru/contacts/moskovskiy-gomeopaticheskiy-tsentr-m-baumanskaya/",
+      "error": null
+    },
+    {
+      "requested": "https://aomeduslugi.ru/contacts/poliklinika-6-im-g-e-porkhachevoy-m-sviblovo/",
+      "status": 200,
+      "final_url": "https://aomeduslugi.ru/contacts/poliklinika-6-im-g-e-porkhachevoy-m-sviblovo/",
+      "error": null
+    },
+    {
+      "requested": "https://aomeduslugi.ru/contacts/poliklinika-na-ul-stroiteley-m-universitet/",
+      "status": 200,
+      "final_url": "https://aomeduslugi.ru/contacts/poliklinika-na-ul-stroiteley-m-universitet/",
+      "error": null
+    },
+    {
+      "requested": "https://aomeduslugi.ru/contacts/tsentr-diagnostiki-i-lecheniya-im-n-a-semashko-m-baumanskaya/",
+      "status": 200,
+      "final_url": "https://aomeduslugi.ru/contacts/tsentr-diagnostiki-i-lecheniya-im-n-a-semashko-m-baumanskaya/",
+      "error": null
+    },
+    {
+      "requested": "https://aomeduslugi.ru/appointment",
+      "status": 404,
+      "final_url": "https://aomeduslugi.ru/appointment",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://aomeduslugi.ru/booking",
+      "status": 404,
+      "final_url": "https://aomeduslugi.ru/booking",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://aomeduslugi.ru/zapis",
+      "status": 404,
+      "final_url": "https://aomeduslugi.ru/zapis",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://aomeduslugi.ru/company/privacy-policy/",
+      "status": 200,
+      "final_url": "https://aomeduslugi.ru/company/privacy-policy/",
+      "error": null
+    },
+    {
+      "requested": "https://aomeduslugi.ru/privacy",
+      "status": 404,
+      "final_url": "https://aomeduslugi.ru/privacy",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://aomeduslugi.ru/privacy-policy/",
+      "status": 200,
+      "final_url": "https://aomeduslugi.ru/company/privacy-policy/",
+      "error": null
+    },
+    {
+      "requested": "https://aomeduslugi.ru/privacy-policy/\\",
+      "status": 404,
+      "final_url": "https://aomeduslugi.ru/privacy-policy/\\",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=1260",
+      "status": 200,
+      "final_url": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=1260",
+      "error": null
+    },
+    {
+      "requested": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=16704",
+      "status": 200,
+      "final_url": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=16704",
+      "error": null
+    },
+    {
+      "requested": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=16972",
+      "status": 200,
+      "final_url": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=16972",
+      "error": null
+    },
+    {
+      "requested": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=17471",
+      "status": 200,
+      "final_url": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=17471",
+      "error": null
+    },
+    {
+      "requested": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=20481",
+      "status": 200,
+      "final_url": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=20481",
+      "error": null
+    },
+    {
+      "requested": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=20559",
+      "status": 200,
+      "final_url": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=20559",
+      "error": null
+    },
+    {
+      "requested": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=20908",
+      "status": 200,
+      "final_url": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=20908",
+      "error": null
+    },
+    {
+      "requested": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=2488",
+      "status": 200,
+      "final_url": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=2488",
+      "error": null
+    },
+    {
+      "requested": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=557",
+      "status": 200,
+      "final_url": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=557",
+      "error": null
+    },
+    {
+      "requested": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=583",
+      "status": 200,
+      "final_url": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=583",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://aomeduslugi.ru/",
+      "form_id": "iblock_add",
+      "action_display": "action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\"",
+      "open_tag": "<form class=\"ajax-form new_design_form\" name=\"iblock_add\" action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\" method=\"POST\" enctype=\"multipart/form-data\" >",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "а кнопку \"отправить\", Вы принимаете условия <a href=\"/company/privacy-policy/\" target=\"_blank\">Пользовательского соглашения</a> </div> <div class=\"m"
+    },
+    {
+      "page": "https://aomeduslugi.ru/contacts/",
+      "form_id": "iblock_add",
+      "action_display": "action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\"",
+      "open_tag": "<form class=\"ajax-form new_design_form\" name=\"iblock_add\" action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\" method=\"POST\" enctype=\"multipart/form-data\" >",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "а кнопку \"отправить\", Вы принимаете условия <a href=\"/company/privacy-policy/\" target=\"_blank\">Пользовательского соглашения</a> </div> <div class=\"m"
+    },
+    {
+      "page": "https://aomeduslugi.ru/contacts/detskiy-tsentr-diagnostiki-i-lecheniya-im-n-a-semashko-m-frunzenskaya/",
+      "form_id": "iblock_add",
+      "action_display": "action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\"",
+      "open_tag": "<form class=\"ajax-form new_design_form\" name=\"iblock_add\" action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\" method=\"POST\" enctype=\"multipart/form-data\" >",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "а кнопку \"отправить\", Вы принимаете условия <a href=\"/company/privacy-policy/\" target=\"_blank\">Пользовательского соглашения</a> </div> <div class=\"m"
+    },
+    {
+      "page": "https://aomeduslugi.ru/contacts/moskovskiy-gomeopaticheskiy-tsentr-m-baumanskaya/",
+      "form_id": "iblock_add",
+      "action_display": "action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\"",
+      "open_tag": "<form class=\"ajax-form new_design_form\" name=\"iblock_add\" action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\" method=\"POST\" enctype=\"multipart/form-data\" >",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "а кнопку \"отправить\", Вы принимаете условия <a href=\"/company/privacy-policy/\" target=\"_blank\">Пользовательского соглашения</a> </div> <div class=\"m"
+    },
+    {
+      "page": "https://aomeduslugi.ru/contacts/poliklinika-6-im-g-e-porkhachevoy-m-sviblovo/",
+      "form_id": "iblock_add",
+      "action_display": "action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\"",
+      "open_tag": "<form class=\"ajax-form new_design_form\" name=\"iblock_add\" action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\" method=\"POST\" enctype=\"multipart/form-data\" >",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "а кнопку \"отправить\", Вы принимаете условия <a href=\"/company/privacy-policy/\" target=\"_blank\">Пользовательского соглашения</a> </div> <div class=\"m"
+    },
+    {
+      "page": "https://aomeduslugi.ru/contacts/poliklinika-na-ul-stroiteley-m-universitet/",
+      "form_id": "iblock_add",
+      "action_display": "action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\"",
+      "open_tag": "<form class=\"ajax-form new_design_form\" name=\"iblock_add\" action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\" method=\"POST\" enctype=\"multipart/form-data\" >",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "а кнопку \"отправить\", Вы принимаете условия <a href=\"/company/privacy-policy/\" target=\"_blank\">Пользовательского соглашения</a> </div> <div class=\"m"
+    },
+    {
+      "page": "https://aomeduslugi.ru/contacts/tsentr-diagnostiki-i-lecheniya-im-n-a-semashko-m-baumanskaya/",
+      "form_id": "iblock_add",
+      "action_display": "action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\"",
+      "open_tag": "<form class=\"ajax-form new_design_form\" name=\"iblock_add\" action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\" method=\"POST\" enctype=\"multipart/form-data\" >",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "а кнопку \"отправить\", Вы принимаете условия <a href=\"/company/privacy-policy/\" target=\"_blank\">Пользовательского соглашения</a> </div> <div class=\"m"
+    },
+    {
+      "page": "https://aomeduslugi.ru/company/privacy-policy/",
+      "form_id": "iblock_add",
+      "action_display": "action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\"",
+      "open_tag": "<form class=\"ajax-form new_design_form\" name=\"iblock_add\" action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\" method=\"POST\" enctype=\"multipart/form-data\" >",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "а кнопку \"отправить\", Вы принимаете условия <a href=\"/company/privacy-policy/\" target=\"_blank\">Пользовательского соглашения</a> </div> <div class=\"m"
+    },
+    {
+      "page": "https://aomeduslugi.ru/privacy-policy/",
+      "form_id": "iblock_add",
+      "action_display": "action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\"",
+      "open_tag": "<form class=\"ajax-form new_design_form\" name=\"iblock_add\" action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\" method=\"POST\" enctype=\"multipart/form-data\" >",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "а кнопку \"отправить\", Вы принимаете условия <a href=\"/company/privacy-policy/\" target=\"_blank\">Пользовательского соглашения</a> </div> <div class=\"m"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=1260",
+      "form_id": "iblock_add",
+      "action_display": "action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\"",
+      "open_tag": "<form class=\"ajax-form new_design_form\" name=\"iblock_add\" action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\" method=\"POST\" enctype=\"multipart/form-data\" >",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "а кнопку \"отправить\", Вы принимаете условия <a href=\"/company/privacy-policy/\" target=\"_blank\">Пользовательского соглашения</a> </div> <div class=\"m"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=1260",
+      "form_id": "iblock_add",
+      "action_display": "action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\"",
+      "open_tag": "<form class=\"ajax-form new_design_form\" name=\"iblock_add\" action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\" method=\"POST\" enctype=\"multipart/form-data\" >",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "а кнопку \"отправить\", Вы принимаете условия <a href=\"/company/privacy-policy/\" target=\"_blank\">Пользовательского соглашения</a> </div> <div class=\"m"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=16704",
+      "form_id": "iblock_add",
+      "action_display": "action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\"",
+      "open_tag": "<form class=\"ajax-form new_design_form\" name=\"iblock_add\" action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\" method=\"POST\" enctype=\"multipart/form-data\" >",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "а кнопку \"отправить\", Вы принимаете условия <a href=\"/company/privacy-policy/\" target=\"_blank\">Пользовательского соглашения</a> </div> <div class=\"m"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=16704",
+      "form_id": "iblock_add",
+      "action_display": "action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\"",
+      "open_tag": "<form class=\"ajax-form new_design_form\" name=\"iblock_add\" action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\" method=\"POST\" enctype=\"multipart/form-data\" >",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "а кнопку \"отправить\", Вы принимаете условия <a href=\"/company/privacy-policy/\" target=\"_blank\">Пользовательского соглашения</a> </div> <div class=\"m"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=16972",
+      "form_id": "iblock_add",
+      "action_display": "action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\"",
+      "open_tag": "<form class=\"ajax-form new_design_form\" name=\"iblock_add\" action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\" method=\"POST\" enctype=\"multipart/form-data\" >",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "а кнопку \"отправить\", Вы принимаете условия <a href=\"/company/privacy-policy/\" target=\"_blank\">Пользовательского соглашения</a> </div> <div class=\"m"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=16972",
+      "form_id": "iblock_add",
+      "action_display": "action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\"",
+      "open_tag": "<form class=\"ajax-form new_design_form\" name=\"iblock_add\" action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\" method=\"POST\" enctype=\"multipart/form-data\" >",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "а кнопку \"отправить\", Вы принимаете условия <a href=\"/company/privacy-policy/\" target=\"_blank\">Пользовательского соглашения</a> </div> <div class=\"m"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=17471",
+      "form_id": "iblock_add",
+      "action_display": "action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\"",
+      "open_tag": "<form class=\"ajax-form new_design_form\" name=\"iblock_add\" action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\" method=\"POST\" enctype=\"multipart/form-data\" >",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "а кнопку \"отправить\", Вы принимаете условия <a href=\"/company/privacy-policy/\" target=\"_blank\">Пользовательского соглашения</a> </div> <div class=\"m"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=17471",
+      "form_id": "iblock_add",
+      "action_display": "action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\"",
+      "open_tag": "<form class=\"ajax-form new_design_form\" name=\"iblock_add\" action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\" method=\"POST\" enctype=\"multipart/form-data\" >",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "а кнопку \"отправить\", Вы принимаете условия <a href=\"/company/privacy-policy/\" target=\"_blank\">Пользовательского соглашения</a> </div> <div class=\"m"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=20481",
+      "form_id": "iblock_add",
+      "action_display": "action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\"",
+      "open_tag": "<form class=\"ajax-form new_design_form\" name=\"iblock_add\" action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\" method=\"POST\" enctype=\"multipart/form-data\" >",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "а кнопку \"отправить\", Вы принимаете условия <a href=\"/company/privacy-policy/\" target=\"_blank\">Пользовательского соглашения</a> </div> <div class=\"m"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=20481",
+      "form_id": "iblock_add",
+      "action_display": "action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\"",
+      "open_tag": "<form class=\"ajax-form new_design_form\" name=\"iblock_add\" action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\" method=\"POST\" enctype=\"multipart/form-data\" >",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "а кнопку \"отправить\", Вы принимаете условия <a href=\"/company/privacy-policy/\" target=\"_blank\">Пользовательского соглашения</a> </div> <div class=\"m"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=20559",
+      "form_id": "iblock_add",
+      "action_display": "action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\"",
+      "open_tag": "<form class=\"ajax-form new_design_form\" name=\"iblock_add\" action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\" method=\"POST\" enctype=\"multipart/form-data\" >",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "а кнопку \"отправить\", Вы принимаете условия <a href=\"/company/privacy-policy/\" target=\"_blank\">Пользовательского соглашения</a> </div> <div class=\"m"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=20559",
+      "form_id": "iblock_add",
+      "action_display": "action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\"",
+      "open_tag": "<form class=\"ajax-form new_design_form\" name=\"iblock_add\" action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\" method=\"POST\" enctype=\"multipart/form-data\" >",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "а кнопку \"отправить\", Вы принимаете условия <a href=\"/company/privacy-policy/\" target=\"_blank\">Пользовательского соглашения</a> </div> <div class=\"m"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=20908",
+      "form_id": "iblock_add",
+      "action_display": "action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\"",
+      "open_tag": "<form class=\"ajax-form new_design_form\" name=\"iblock_add\" action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\" method=\"POST\" enctype=\"multipart/form-data\" >",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "а кнопку \"отправить\", Вы принимаете условия <a href=\"/company/privacy-policy/\" target=\"_blank\">Пользовательского соглашения</a> </div> <div class=\"m"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=20908",
+      "form_id": "iblock_add",
+      "action_display": "action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\"",
+      "open_tag": "<form class=\"ajax-form new_design_form\" name=\"iblock_add\" action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\" method=\"POST\" enctype=\"multipart/form-data\" >",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "а кнопку \"отправить\", Вы принимаете условия <a href=\"/company/privacy-policy/\" target=\"_blank\">Пользовательского соглашения</a> </div> <div class=\"m"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=2488",
+      "form_id": "iblock_add",
+      "action_display": "action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\"",
+      "open_tag": "<form class=\"ajax-form new_design_form\" name=\"iblock_add\" action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\" method=\"POST\" enctype=\"multipart/form-data\" >",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "а кнопку \"отправить\", Вы принимаете условия <a href=\"/company/privacy-policy/\" target=\"_blank\">Пользовательского соглашения</a> </div> <div class=\"m"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=2488",
+      "form_id": "iblock_add",
+      "action_display": "action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\"",
+      "open_tag": "<form class=\"ajax-form new_design_form\" name=\"iblock_add\" action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\" method=\"POST\" enctype=\"multipart/form-data\" >",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "а кнопку \"отправить\", Вы принимаете условия <a href=\"/company/privacy-policy/\" target=\"_blank\">Пользовательского соглашения</a> </div> <div class=\"m"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=557",
+      "form_id": "iblock_add",
+      "action_display": "action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\"",
+      "open_tag": "<form class=\"ajax-form new_design_form\" name=\"iblock_add\" action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\" method=\"POST\" enctype=\"multipart/form-data\" >",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "а кнопку \"отправить\", Вы принимаете условия <a href=\"/company/privacy-policy/\" target=\"_blank\">Пользовательского соглашения</a> </div> <div class=\"m"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=557",
+      "form_id": "iblock_add",
+      "action_display": "action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\"",
+      "open_tag": "<form class=\"ajax-form new_design_form\" name=\"iblock_add\" action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\" method=\"POST\" enctype=\"multipart/form-data\" >",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "а кнопку \"отправить\", Вы принимаете условия <a href=\"/company/privacy-policy/\" target=\"_blank\">Пользовательского соглашения</a> </div> <div class=\"m"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=583",
+      "form_id": "iblock_add",
+      "action_display": "action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\"",
+      "open_tag": "<form class=\"ajax-form new_design_form\" name=\"iblock_add\" action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\" method=\"POST\" enctype=\"multipart/form-data\" >",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "а кнопку \"отправить\", Вы принимаете условия <a href=\"/company/privacy-policy/\" target=\"_blank\">Пользовательского соглашения</a> </div> <div class=\"m"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=583",
+      "form_id": "iblock_add",
+      "action_display": "action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\"",
+      "open_tag": "<form class=\"ajax-form new_design_form\" name=\"iblock_add\" action=\"/local/templates/zs_2022/components/bitrix/iblock.element.add.form/reviews2/ajax.php\" method=\"POST\" enctype=\"multipart/form-data\" >",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "а кнопку \"отправить\", Вы принимаете условия <a href=\"/company/privacy-policy/\" target=\"_blank\">Пользовательского соглашения</a> </div> <div class=\"m"
+    }
+  ],
+  "emails": [
+    "hr@medusl.ru",
+    "info@aomeduslugi.ru",
+    "service@medusl.ru",
+    "test@test.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://aomeduslugi.ru/",
+      "href": "/programs/personal-checkups/",
+      "text": "Персональные чек-апы"
+    },
+    {
+      "page": "https://aomeduslugi.ru/",
+      "href": "/company/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://aomeduslugi.ru/",
+      "href": "/company/privacy-policy/",
+      "text": "Пользовательского соглашения"
+    },
+    {
+      "page": "https://aomeduslugi.ru/contacts/",
+      "href": "/programs/personal-checkups/",
+      "text": "Персональные чек-апы"
+    },
+    {
+      "page": "https://aomeduslugi.ru/contacts/",
+      "href": "/company/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://aomeduslugi.ru/contacts/",
+      "href": "/company/privacy-policy/",
+      "text": "Пользовательского соглашения"
+    },
+    {
+      "page": "https://aomeduslugi.ru/contacts/detskiy-tsentr-diagnostiki-i-lecheniya-im-n-a-semashko-m-frunzenskaya/",
+      "href": "/programs/personal-checkups/",
+      "text": "Персональные чек-апы"
+    },
+    {
+      "page": "https://aomeduslugi.ru/contacts/detskiy-tsentr-diagnostiki-i-lecheniya-im-n-a-semashko-m-frunzenskaya/",
+      "href": "/company/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://aomeduslugi.ru/contacts/detskiy-tsentr-diagnostiki-i-lecheniya-im-n-a-semashko-m-frunzenskaya/",
+      "href": "/company/privacy-policy/",
+      "text": "Пользовательского соглашения"
+    },
+    {
+      "page": "https://aomeduslugi.ru/contacts/moskovskiy-gomeopaticheskiy-tsentr-m-baumanskaya/",
+      "href": "/programs/personal-checkups/",
+      "text": "Персональные чек-апы"
+    },
+    {
+      "page": "https://aomeduslugi.ru/contacts/moskovskiy-gomeopaticheskiy-tsentr-m-baumanskaya/",
+      "href": "/company/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://aomeduslugi.ru/contacts/moskovskiy-gomeopaticheskiy-tsentr-m-baumanskaya/",
+      "href": "/company/privacy-policy/",
+      "text": "Пользовательского соглашения"
+    },
+    {
+      "page": "https://aomeduslugi.ru/contacts/poliklinika-6-im-g-e-porkhachevoy-m-sviblovo/",
+      "href": "/programs/personal-checkups/",
+      "text": "Персональные чек-апы"
+    },
+    {
+      "page": "https://aomeduslugi.ru/contacts/poliklinika-6-im-g-e-porkhachevoy-m-sviblovo/",
+      "href": "/company/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://aomeduslugi.ru/contacts/poliklinika-6-im-g-e-porkhachevoy-m-sviblovo/",
+      "href": "/company/privacy-policy/",
+      "text": "Пользовательского соглашения"
+    },
+    {
+      "page": "https://aomeduslugi.ru/contacts/poliklinika-na-ul-stroiteley-m-universitet/",
+      "href": "/programs/personal-checkups/",
+      "text": "Персональные чек-апы"
+    },
+    {
+      "page": "https://aomeduslugi.ru/contacts/poliklinika-na-ul-stroiteley-m-universitet/",
+      "href": "/company/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://aomeduslugi.ru/contacts/poliklinika-na-ul-stroiteley-m-universitet/",
+      "href": "/company/privacy-policy/",
+      "text": "Пользовательского соглашения"
+    },
+    {
+      "page": "https://aomeduslugi.ru/contacts/tsentr-diagnostiki-i-lecheniya-im-n-a-semashko-m-baumanskaya/",
+      "href": "/programs/personal-checkups/",
+      "text": "Персональные чек-апы"
+    },
+    {
+      "page": "https://aomeduslugi.ru/contacts/tsentr-diagnostiki-i-lecheniya-im-n-a-semashko-m-baumanskaya/",
+      "href": "/company/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://aomeduslugi.ru/contacts/tsentr-diagnostiki-i-lecheniya-im-n-a-semashko-m-baumanskaya/",
+      "href": "/company/privacy-policy/",
+      "text": "Пользовательского соглашения"
+    },
+    {
+      "page": "https://aomeduslugi.ru/company/privacy-policy/",
+      "href": "https://aomeduslugi.ru/company/privacy-policy/",
+      "text": "policy path"
+    },
+    {
+      "page": "https://aomeduslugi.ru/company/privacy-policy/",
+      "href": "/programs/personal-checkups/",
+      "text": "Персональные чек-апы"
+    },
+    {
+      "page": "https://aomeduslugi.ru/company/privacy-policy/",
+      "href": "/company/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://aomeduslugi.ru/company/privacy-policy/",
+      "href": "/company/privacy-policy/",
+      "text": "Пользовательского соглашения"
+    },
+    {
+      "page": "https://aomeduslugi.ru/privacy-policy/",
+      "href": "https://aomeduslugi.ru/privacy-policy/",
+      "text": "policy path"
+    },
+    {
+      "page": "https://aomeduslugi.ru/privacy-policy/",
+      "href": "/programs/personal-checkups/",
+      "text": "Персональные чек-апы"
+    },
+    {
+      "page": "https://aomeduslugi.ru/privacy-policy/",
+      "href": "/company/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://aomeduslugi.ru/privacy-policy/",
+      "href": "/company/privacy-policy/",
+      "text": "Пользовательского соглашения"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=1260",
+      "href": "/programs/personal-checkups/",
+      "text": "Персональные чек-апы"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=1260",
+      "href": "/company/privacy-policy/",
+      "text": "Пользовательского соглашения"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=1260",
+      "href": "/company/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=16704",
+      "href": "/programs/personal-checkups/",
+      "text": "Персональные чек-апы"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=16704",
+      "href": "/company/privacy-policy/",
+      "text": "Пользовательского соглашения"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=16704",
+      "href": "/company/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=16972",
+      "href": "/programs/personal-checkups/",
+      "text": "Персональные чек-апы"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=16972",
+      "href": "/company/privacy-policy/",
+      "text": "Пользовательского соглашения"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=16972",
+      "href": "/company/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=17471",
+      "href": "/programs/personal-checkups/",
+      "text": "Персональные чек-апы"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=17471",
+      "href": "/company/privacy-policy/",
+      "text": "Пользовательского соглашения"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=17471",
+      "href": "/company/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=20481",
+      "href": "/programs/personal-checkups/",
+      "text": "Персональные чек-апы"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=20481",
+      "href": "/company/privacy-policy/",
+      "text": "Пользовательского соглашения"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=20481",
+      "href": "/company/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=20559",
+      "href": "/programs/personal-checkups/",
+      "text": "Персональные чек-апы"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=20559",
+      "href": "/company/privacy-policy/",
+      "text": "Пользовательского соглашения"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=20559",
+      "href": "/company/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=20908",
+      "href": "/programs/personal-checkups/",
+      "text": "Персональные чек-апы"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=20908",
+      "href": "/company/privacy-policy/",
+      "text": "Пользовательского соглашения"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=20908",
+      "href": "/company/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=2488",
+      "href": "/programs/personal-checkups/",
+      "text": "Персональные чек-апы"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=2488",
+      "href": "/company/privacy-policy/",
+      "text": "Пользовательского соглашения"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=2488",
+      "href": "/company/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=557",
+      "href": "/programs/personal-checkups/",
+      "text": "Персональные чек-апы"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=557",
+      "href": "/company/privacy-policy/",
+      "text": "Пользовательского соглашения"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=557",
+      "href": "/company/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=583",
+      "href": "/programs/personal-checkups/",
+      "text": "Персональные чек-апы"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=583",
+      "href": "/company/privacy-policy/",
+      "text": "Пользовательского соглашения"
+    },
+    {
+      "page": "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=583",
+      "href": "/company/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://aomeduslugi.ru/contacts/",
+      "https://aomeduslugi.ru/contacts/detskiy-tsentr-diagnostiki-i-lecheniya-im-n-a-semashko-m-frunzenskaya/",
+      "https://aomeduslugi.ru/contacts/moskovskiy-gomeopaticheskiy-tsentr-m-baumanskaya/",
+      "https://aomeduslugi.ru/contacts/poliklinika-6-im-g-e-porkhachevoy-m-sviblovo/",
+      "https://aomeduslugi.ru/contacts/poliklinika-na-ul-stroiteley-m-universitet/",
+      "https://aomeduslugi.ru/contacts/tsentr-diagnostiki-i-lecheniya-im-n-a-semashko-m-baumanskaya/"
+    ],
+    "booking_urls": [
+      "https://aomeduslugi.ru/appointment",
+      "https://aomeduslugi.ru/booking",
+      "https://aomeduslugi.ru/zapis"
+    ],
+    "legal_urls": [
+      "https://aomeduslugi.ru/company/privacy-policy/",
+      "https://aomeduslugi.ru/privacy",
+      "https://aomeduslugi.ru/privacy-policy/",
+      "https://aomeduslugi.ru/privacy-policy/\\",
+      "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=1260",
+      "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=16704",
+      "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=16972",
+      "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=17471",
+      "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=20481",
+      "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=20559",
+      "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=20908",
+      "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=2488",
+      "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=557",
+      "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=583"
+    ],
+    "sources": {
+      "https://aomeduslugi.ru/": "",
+      "https://aomeduslugi.ru/appointment": "fallback",
+      "https://aomeduslugi.ru/booking": "fallback",
+      "https://aomeduslugi.ru/company/privacy-policy/": "navigation-legal",
+      "https://aomeduslugi.ru/contacts/": "navigation",
+      "https://aomeduslugi.ru/contacts/detskiy-tsentr-diagnostiki-i-lecheniya-im-n-a-semashko-m-frunzenskaya/": "navigation",
+      "https://aomeduslugi.ru/contacts/moskovskiy-gomeopaticheskiy-tsentr-m-baumanskaya/": "navigation",
+      "https://aomeduslugi.ru/contacts/poliklinika-6-im-g-e-porkhachevoy-m-sviblovo/": "navigation",
+      "https://aomeduslugi.ru/contacts/poliklinika-na-ul-stroiteley-m-universitet/": "navigation",
+      "https://aomeduslugi.ru/contacts/tsentr-diagnostiki-i-lecheniya-im-n-a-semashko-m-baumanskaya/": "navigation",
+      "https://aomeduslugi.ru/privacy": "policy-hint",
+      "https://aomeduslugi.ru/privacy-policy/": "policy-hint",
+      "https://aomeduslugi.ru/privacy-policy/\\": "policy-hint",
+      "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=1260": "navigation-legal",
+      "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=16704": "navigation-legal",
+      "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=16972": "navigation-legal",
+      "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=17471": "navigation-legal",
+      "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=20481": "navigation-legal",
+      "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=20559": "navigation-legal",
+      "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=20908": "navigation-legal",
+      "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=2488": "navigation-legal",
+      "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=557": "navigation-legal",
+      "https://aomeduslugi.ru/reviews/?clinic=0&services=0&doctor=583": "navigation-legal",
+      "https://aomeduslugi.ru/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": true
+    },
+    "sitemap_total_urls": 8,
+    "sitemap_used_urls": 8
+  }
+}

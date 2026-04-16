@@ -1,0 +1,91 @@
+{
+  "domain": "happydentpro.ru",
+  "pages": [
+    {
+      "requested": "https://happydentpro.ru/",
+      "status": 200,
+      "final_url": "https://happydentpro.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://happydentpro.ru/contact",
+      "status": 404,
+      "final_url": "https://happydentpro.ru/contact",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://happydentpro.ru/contacts",
+      "status": 404,
+      "final_url": "https://happydentpro.ru/contacts",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://happydentpro.ru/kontakty",
+      "status": 404,
+      "final_url": "https://happydentpro.ru/kontakty",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://happydentpro.ru/appointment",
+      "status": 404,
+      "final_url": "https://happydentpro.ru/appointment",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://happydentpro.ru/booking",
+      "status": 404,
+      "final_url": "https://happydentpro.ru/booking",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://happydentpro.ru/zapis",
+      "status": 404,
+      "final_url": "https://happydentpro.ru/zapis",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://happydentpro.ru/privacy",
+      "status": 404,
+      "final_url": "https://happydentpro.ru/privacy",
+      "error": "HTTPError 404"
+    }
+  ],
+  "forms": [],
+  "emails": [
+    "4995042525@mail.ru"
+  ],
+  "privacy_links": [],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://happydentpro.ru/contact",
+      "https://happydentpro.ru/contacts",
+      "https://happydentpro.ru/kontakty"
+    ],
+    "booking_urls": [
+      "https://happydentpro.ru/appointment",
+      "https://happydentpro.ru/booking",
+      "https://happydentpro.ru/zapis"
+    ],
+    "legal_urls": [
+      "https://happydentpro.ru/privacy"
+    ],
+    "sources": {
+      "https://happydentpro.ru/": "",
+      "https://happydentpro.ru/appointment": "fallback",
+      "https://happydentpro.ru/booking": "fallback",
+      "https://happydentpro.ru/contact": "fallback",
+      "https://happydentpro.ru/contacts": "fallback",
+      "https://happydentpro.ru/kontakty": "fallback",
+      "https://happydentpro.ru/privacy": "policy-hint",
+      "https://happydentpro.ru/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": true,
+      "booking": true
+    },
+    "sitemap_total_urls": 0,
+    "sitemap_used_urls": 0
+  }
+}

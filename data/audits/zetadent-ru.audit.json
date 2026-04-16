@@ -1,0 +1,228 @@
+{
+  "domain": "zetadent.ru",
+  "pages": [
+    {
+      "requested": "https://zetadent.ru/",
+      "status": 200,
+      "final_url": "https://zetadent.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://zetadent.ru/kontakty/",
+      "status": 200,
+      "final_url": "https://zetadent.ru/kontakty/",
+      "error": null
+    },
+    {
+      "requested": "https://zetadent.ru/appointment",
+      "status": 404,
+      "final_url": "https://zetadent.ru/appointment",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://zetadent.ru/booking",
+      "status": 404,
+      "final_url": "https://zetadent.ru/booking",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://zetadent.ru/zapis",
+      "status": 404,
+      "final_url": "https://zetadent.ru/zapis",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://zetadent.ru/politika",
+      "status": 404,
+      "final_url": "https://zetadent.ru/politika",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://zetadent.ru/politika-konfidentsialnosti/",
+      "status": 200,
+      "final_url": "https://zetadent.ru/politika-konfidentsialnosti/",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://zetadent.ru/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/#wpcf7-f8-p1126-o2\"",
+      "open_tag": "<form action=\"/#wpcf7-f8-p1126-o2\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance-1\" value=\"1\" class=\"acceptance-checkbox\" aria-invalid=\"false\" />",
+      "policy_poc": "class=\"acceptance-checkbox\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Я согласен(а) с <a href=\"/soglasie-na-obrabotku-personalnyh-dannyh/\" target=\"_blank\">политикой обработки персональных данных</a></span></label></span></span></span> </p"
+    },
+    {
+      "page": "https://zetadent.ru/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/#wpcf7-f8-p1126-o3\"",
+      "open_tag": "<form action=\"/#wpcf7-f8-p1126-o3\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance-1\" value=\"1\" class=\"acceptance-checkbox\" aria-invalid=\"false\" />",
+      "policy_poc": "class=\"acceptance-checkbox\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Я согласен(а) с <a href=\"/soglasie-na-obrabotku-personalnyh-dannyh/\" target=\"_blank\">политикой обработки персональных данных</a></span></label></span></span></span> </p"
+    },
+    {
+      "page": "https://zetadent.ru/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/#wpcf7-f8-p1126-o4\"",
+      "open_tag": "<form action=\"/#wpcf7-f8-p1126-o4\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance-1\" value=\"1\" class=\"acceptance-checkbox\" aria-invalid=\"false\" />",
+      "policy_poc": "class=\"acceptance-checkbox\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Я согласен(а) с <a href=\"/soglasie-na-obrabotku-personalnyh-dannyh/\" target=\"_blank\">политикой обработки персональных данных</a></span></label></span></span></span> </p"
+    },
+    {
+      "page": "https://zetadent.ru/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/#wpcf7-f8-o1\"",
+      "open_tag": "<form action=\"/#wpcf7-f8-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance-1\" value=\"1\" class=\"acceptance-checkbox\" aria-invalid=\"false\" />",
+      "policy_poc": "class=\"acceptance-checkbox\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Я согласен(а) с <a href=\"/soglasie-na-obrabotku-personalnyh-dannyh/\" target=\"_blank\">политикой обработки персональных данных</a></span></label></span></span></span> </p"
+    },
+    {
+      "page": "https://zetadent.ru/kontakty/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/kontakty/#wpcf7-f8-p183-o2\"",
+      "open_tag": "<form action=\"/kontakty/#wpcf7-f8-p183-o2\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance-1\" value=\"1\" class=\"acceptance-checkbox\" aria-invalid=\"false\" />",
+      "policy_poc": "class=\"acceptance-checkbox\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Я согласен(а) с <a href=\"/soglasie-na-obrabotku-personalnyh-dannyh/\" target=\"_blank\">политикой обработки персональных данных</a></span></label></span></span></span> </p"
+    },
+    {
+      "page": "https://zetadent.ru/kontakty/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/kontakty/#wpcf7-f8-o1\"",
+      "open_tag": "<form action=\"/kontakty/#wpcf7-f8-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance-1\" value=\"1\" class=\"acceptance-checkbox\" aria-invalid=\"false\" />",
+      "policy_poc": "class=\"acceptance-checkbox\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Я согласен(а) с <a href=\"/soglasie-na-obrabotku-personalnyh-dannyh/\" target=\"_blank\">политикой обработки персональных данных</a></span></label></span></span></span> </p"
+    },
+    {
+      "page": "https://zetadent.ru/politika-konfidentsialnosti/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/politika-konfidentsialnosti/#wpcf7-f8-o1\"",
+      "open_tag": "<form action=\"/politika-konfidentsialnosti/#wpcf7-f8-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance-1\" value=\"1\" class=\"acceptance-checkbox\" aria-invalid=\"false\" />",
+      "policy_poc": "class=\"acceptance-checkbox\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Я согласен(а) с <a href=\"/soglasie-na-obrabotku-personalnyh-dannyh/\" target=\"_blank\">политикой обработки персональных данных</a></span></label></span></span></span> </p"
+    }
+  ],
+  "emails": [
+    "medliga2013@yandex.ru",
+    "zetadent@mail.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://zetadent.ru/",
+      "href": "/soglasie-na-obrabotku-personalnyh-dannyh/",
+      "text": "политикой обработки персональных данных"
+    },
+    {
+      "page": "https://zetadent.ru/",
+      "href": "https://zetadent.ru/oglasie-na-obrabotku-personalnyh-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://zetadent.ru/",
+      "href": "https://zetadent.ru/politika-konfidentsialnosti/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://zetadent.ru/",
+      "href": "/politika-konfidentsialnosti/",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://zetadent.ru/kontakty/",
+      "href": "/soglasie-na-obrabotku-personalnyh-dannyh/",
+      "text": "политикой обработки персональных данных"
+    },
+    {
+      "page": "https://zetadent.ru/kontakty/",
+      "href": "https://zetadent.ru/oglasie-na-obrabotku-personalnyh-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://zetadent.ru/kontakty/",
+      "href": "https://zetadent.ru/politika-konfidentsialnosti/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://zetadent.ru/kontakty/",
+      "href": "/politika-konfidentsialnosti/",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://zetadent.ru/politika-konfidentsialnosti/",
+      "href": "https://zetadent.ru/politika-konfidentsialnosti/",
+      "text": "policy path"
+    },
+    {
+      "page": "https://zetadent.ru/politika-konfidentsialnosti/",
+      "href": "https://zetadent.ru/oglasie-na-obrabotku-personalnyh-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://zetadent.ru/politika-konfidentsialnosti/",
+      "href": "https://zetadent.ru/politika-konfidentsialnosti/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://zetadent.ru/politika-konfidentsialnosti/",
+      "href": "/soglasie-na-obrabotku-personalnyh-dannyh/",
+      "text": "политикой обработки персональных данных"
+    },
+    {
+      "page": "https://zetadent.ru/politika-konfidentsialnosti/",
+      "href": "/politika-konfidentsialnosti/",
+      "text": "политикой конфиденциальности"
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://zetadent.ru/kontakty/"
+    ],
+    "booking_urls": [
+      "https://zetadent.ru/appointment",
+      "https://zetadent.ru/booking",
+      "https://zetadent.ru/zapis"
+    ],
+    "legal_urls": [
+      "https://zetadent.ru/politika",
+      "https://zetadent.ru/politika-konfidentsialnosti/"
+    ],
+    "sources": {
+      "https://zetadent.ru/": "",
+      "https://zetadent.ru/appointment": "fallback",
+      "https://zetadent.ru/booking": "fallback",
+      "https://zetadent.ru/kontakty/": "navigation",
+      "https://zetadent.ru/politika": "policy-hint",
+      "https://zetadent.ru/politika-konfidentsialnosti/": "navigation-legal",
+      "https://zetadent.ru/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": true
+    },
+    "sitemap_total_urls": 3,
+    "sitemap_used_urls": 3
+  }
+}

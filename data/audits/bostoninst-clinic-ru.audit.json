@@ -1,0 +1,233 @@
+{
+  "domain": "www.bostoninst-clinic.ru",
+  "pages": [
+    {
+      "requested": "https://www.bostoninst-clinic.ru/",
+      "status": 200,
+      "final_url": "https://bostoninst-clinic.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://www.bostoninst-clinic.ru/contact",
+      "status": 404,
+      "final_url": "https://www.bostoninst-clinic.ru/contact",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://www.bostoninst-clinic.ru/contacts",
+      "status": 404,
+      "final_url": "https://www.bostoninst-clinic.ru/contacts",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://www.bostoninst-clinic.ru/kontakty",
+      "status": 200,
+      "final_url": "https://bostoninst-clinic.ru/kontakty/",
+      "error": null
+    },
+    {
+      "requested": "https://www.bostoninst-clinic.ru/onlajn-konsultacziya/",
+      "status": 200,
+      "final_url": "https://bostoninst-clinic.ru/uslugi/onlajn-konsultacziya-u-vracha-stomatologa-iz-ssha/",
+      "error": null
+    },
+    {
+      "requested": "https://www.bostoninst-clinic.ru/pravovaya-informacziya-biem/",
+      "status": 200,
+      "final_url": "https://bostoninst-clinic.ru/pravovaya-informacziya-biem/",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://www.bostoninst-clinic.ru/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/#wpcf7-f434-o1\"",
+      "open_tag": "<form action=\"/#wpcf7-f434-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Contact form\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"your-acceptance\" value=\"1\" class=\"uk-text-small\" aria-invalid=\"false\" />",
+      "policy_poc": "lass=\"uk-text-small\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">&nbsp; Я согласен на обработку моих персональных данных (в соответствии с Федеральным законом №152-ФЗ «<a href=\"/pravovaya-informacziya-biem/\" target=\"_self\">О персональных да"
+    },
+    {
+      "page": "https://www.bostoninst-clinic.ru/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/#wpcf7-f11136-o2\"",
+      "open_tag": "<form action=\"/#wpcf7-f11136-o2\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Contact form\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"your-acceptance\" value=\"1\" class=\"uk-text-small\" aria-invalid=\"false\" />",
+      "policy_poc": "lass=\"uk-text-small\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">&nbsp; Я согласен на обработку моих персональных данных (в соответствии с Федеральным законом №152-ФЗ «<a href=\"/pravovaya-informacziya-biem/\" target=\"_self\">О персональных да"
+    },
+    {
+      "page": "https://www.bostoninst-clinic.ru/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/#wpcf7-f434-o3\"",
+      "open_tag": "<form action=\"/#wpcf7-f434-o3\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Contact form\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"your-acceptance\" value=\"1\" class=\"uk-text-small\" aria-invalid=\"false\" />",
+      "policy_poc": "lass=\"uk-text-small\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">&nbsp; Я согласен на обработку моих персональных данных (в соответствии с Федеральным законом №152-ФЗ «<a href=\"/pravovaya-informacziya-biem/\" target=\"_self\">О персональных да"
+    },
+    {
+      "page": "https://www.bostoninst-clinic.ru/kontakty",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/kontakty/#wpcf7-f434-o1\"",
+      "open_tag": "<form action=\"/kontakty/#wpcf7-f434-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Contact form\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"your-acceptance\" value=\"1\" class=\"uk-text-small\" aria-invalid=\"false\" />",
+      "policy_poc": "lass=\"uk-text-small\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">&nbsp; Я согласен на обработку моих персональных данных (в соответствии с Федеральным законом №152-ФЗ «<a href=\"/pravovaya-informacziya-biem/\" target=\"_self\">О персональных да"
+    },
+    {
+      "page": "https://www.bostoninst-clinic.ru/kontakty",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/kontakty/#wpcf7-f11136-o2\"",
+      "open_tag": "<form action=\"/kontakty/#wpcf7-f11136-o2\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Contact form\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"your-acceptance\" value=\"1\" class=\"uk-text-small\" aria-invalid=\"false\" />",
+      "policy_poc": "lass=\"uk-text-small\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">&nbsp; Я согласен на обработку моих персональных данных (в соответствии с Федеральным законом №152-ФЗ «<a href=\"/pravovaya-informacziya-biem/\" target=\"_self\">О персональных да"
+    },
+    {
+      "page": "https://www.bostoninst-clinic.ru/kontakty",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/kontakty/#wpcf7-f434-o3\"",
+      "open_tag": "<form action=\"/kontakty/#wpcf7-f434-o3\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Contact form\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"your-acceptance\" value=\"1\" class=\"uk-text-small\" aria-invalid=\"false\" />",
+      "policy_poc": "lass=\"uk-text-small\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">&nbsp; Я согласен на обработку моих персональных данных (в соответствии с Федеральным законом №152-ФЗ «<a href=\"/pravovaya-informacziya-biem/\" target=\"_self\">О персональных да"
+    },
+    {
+      "page": "https://www.bostoninst-clinic.ru/onlajn-konsultacziya/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/uslugi/onlajn-konsultacziya-u-vracha-stomatologa-iz-ssha/#wpcf7-f11136-o1\"",
+      "open_tag": "<form action=\"/uslugi/onlajn-konsultacziya-u-vracha-stomatologa-iz-ssha/#wpcf7-f11136-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Contact form\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"your-acceptance\" value=\"1\" class=\"uk-text-small\" aria-invalid=\"false\" />",
+      "policy_poc": "lass=\"uk-text-small\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">&nbsp; Я согласен на обработку моих персональных данных (в соответствии с Федеральным законом №152-ФЗ «<a href=\"/pravovaya-informacziya-biem/\" target=\"_self\">О персональных да"
+    },
+    {
+      "page": "https://www.bostoninst-clinic.ru/onlajn-konsultacziya/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/uslugi/onlajn-konsultacziya-u-vracha-stomatologa-iz-ssha/#wpcf7-f434-o2\"",
+      "open_tag": "<form action=\"/uslugi/onlajn-konsultacziya-u-vracha-stomatologa-iz-ssha/#wpcf7-f434-o2\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Contact form\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"your-acceptance\" value=\"1\" class=\"uk-text-small\" aria-invalid=\"false\" />",
+      "policy_poc": "lass=\"uk-text-small\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">&nbsp; Я согласен на обработку моих персональных данных (в соответствии с Федеральным законом №152-ФЗ «<a href=\"/pravovaya-informacziya-biem/\" target=\"_self\">О персональных да"
+    },
+    {
+      "page": "https://www.bostoninst-clinic.ru/pravovaya-informacziya-biem/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/pravovaya-informacziya-biem/#wpcf7-f434-o1\"",
+      "open_tag": "<form action=\"/pravovaya-informacziya-biem/#wpcf7-f434-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Contact form\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"your-acceptance\" value=\"1\" class=\"uk-text-small\" aria-invalid=\"false\" />",
+      "policy_poc": "lass=\"uk-text-small\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">&nbsp; Я согласен на обработку моих персональных данных (в соответствии с Федеральным законом №152-ФЗ «<a href=\"/pravovaya-informacziya-biem/\" target=\"_self\">О персональных да"
+    },
+    {
+      "page": "https://www.bostoninst-clinic.ru/pravovaya-informacziya-biem/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/pravovaya-informacziya-biem/#wpcf7-f11136-o2\"",
+      "open_tag": "<form action=\"/pravovaya-informacziya-biem/#wpcf7-f11136-o2\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Contact form\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"your-acceptance\" value=\"1\" class=\"uk-text-small\" aria-invalid=\"false\" />",
+      "policy_poc": "lass=\"uk-text-small\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">&nbsp; Я согласен на обработку моих персональных данных (в соответствии с Федеральным законом №152-ФЗ «<a href=\"/pravovaya-informacziya-biem/\" target=\"_self\">О персональных да"
+    },
+    {
+      "page": "https://www.bostoninst-clinic.ru/pravovaya-informacziya-biem/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/pravovaya-informacziya-biem/#wpcf7-f434-o3\"",
+      "open_tag": "<form action=\"/pravovaya-informacziya-biem/#wpcf7-f434-o3\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Contact form\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"your-acceptance\" value=\"1\" class=\"uk-text-small\" aria-invalid=\"false\" />",
+      "policy_poc": "lass=\"uk-text-small\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">&nbsp; Я согласен на обработку моих персональных данных (в соответствии с Федеральным законом №152-ФЗ «<a href=\"/pravovaya-informacziya-biem/\" target=\"_self\">О персональных да"
+    }
+  ],
+  "emails": [
+    "info@bostoninst.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://www.bostoninst-clinic.ru/",
+      "href": "/pravovaya-informacziya-biem/",
+      "text": "О персональных данных"
+    },
+    {
+      "page": "https://www.bostoninst-clinic.ru/kontakty",
+      "href": "/pravovaya-informacziya-biem/",
+      "text": "О персональных данных"
+    },
+    {
+      "page": "https://www.bostoninst-clinic.ru/onlajn-konsultacziya/",
+      "href": "/pravovaya-informacziya-biem/",
+      "text": "О персональных данных"
+    },
+    {
+      "page": "https://www.bostoninst-clinic.ru/pravovaya-informacziya-biem/",
+      "href": "/wp-content/uploads/2025/07/politika-pdn-biem.docx.pdf",
+      "text": "Загрузить документ (пдф) «Политика ООО Бостонский Институт Эстетической Медицины в отношении обработки персональных данных.»"
+    },
+    {
+      "page": "https://www.bostoninst-clinic.ru/pravovaya-informacziya-biem/",
+      "href": "/wp-content/uploads/2025/07/soglasie-na-obrabotku-personalnyh-dannyh-.pdf",
+      "text": "Загрузить документ (пдф) «Согласие на обработку персональных данных.»"
+    },
+    {
+      "page": "https://www.bostoninst-clinic.ru/pravovaya-informacziya-biem/",
+      "href": "/pravovaya-informacziya-biem/#politika-obrabotki-personalnyh-dannyh",
+      "text": "https://bostoninst-clinic.ru/pravovaya-informacziya-biem/#politika-obrabotki-personalnyh-dannyh"
+    },
+    {
+      "page": "https://www.bostoninst-clinic.ru/pravovaya-informacziya-biem/",
+      "href": "/pravovaya-informacziya-biem/",
+      "text": "О персональных данных"
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://www.bostoninst-clinic.ru/contact",
+      "https://www.bostoninst-clinic.ru/contacts",
+      "https://www.bostoninst-clinic.ru/kontakty"
+    ],
+    "booking_urls": [
+      "https://www.bostoninst-clinic.ru/onlajn-konsultacziya/"
+    ],
+    "legal_urls": [
+      "https://www.bostoninst-clinic.ru/pravovaya-informacziya-biem/"
+    ],
+    "sources": {
+      "https://www.bostoninst-clinic.ru/": "",
+      "https://www.bostoninst-clinic.ru/contact": "fallback",
+      "https://www.bostoninst-clinic.ru/contacts": "fallback",
+      "https://www.bostoninst-clinic.ru/kontakty": "fallback",
+      "https://www.bostoninst-clinic.ru/onlajn-konsultacziya/": "navigation",
+      "https://www.bostoninst-clinic.ru/pravovaya-informacziya-biem/": "navigation-legal"
+    },
+    "fallback_used": {
+      "contact": true,
+      "booking": false
+    },
+    "sitemap_total_urls": 2,
+    "sitemap_used_urls": 2
+  }
+}

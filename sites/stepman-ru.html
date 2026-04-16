@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Stepman — детали проверки</title>
+<style>
+body{margin:0;font-family:Segoe UI,Arial,sans-serif;background:#f4f6fb;color:#1f2430}
+.wrap{max-width:1100px;margin:24px auto;padding:0 16px 24px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.card{background:#fff;border:1px solid #e5e8ef;border-radius:12px;padding:12px 14px}
+.block{background:#fff;border:1px solid #e5e8ef;border-radius:12px;padding:14px 16px;margin-top:12px}
+h1{margin:0;font-size:30px}
+h2{margin:0 0 10px 0;font-size:18px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+a{color:#2b4dd7;text-decoration:none}
+a:hover{text-decoration:underline}
+ul{margin:0;padding-left:18px;line-height:1.45}
+li{margin:4px 0}
+.badge{display:inline-block;padding:3px 9px;border-radius:999px;font-size:12px;font-weight:700;border:1px solid transparent}
+.ok{background:#e8f8ef;color:#1d9e58;border-color:#c8efd9}
+.warn{background:#fff6dd;color:#b67a00;border-color:#f0d889}
+.bad{background:#ffe9ea;color:#c5333a;border-color:#f7c4c8}
+.na{background:#f0f2f6;color:#6c7280;border-color:#dde2ea}
+.alert{margin-top:12px;border-radius:10px;padding:10px 12px;border:1px solid transparent;font-size:14px;font-weight:600}
+.alert.ok{background:#e8f8ef;color:#1d9e58;border-color:#c8efd9}
+.alert.warn{background:#fff6dd;color:#b67a00;border-color:#f0d889}
+.alert.bad{background:#ffe9ea;color:#c5333a;border-color:#f7c4c8}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <a href="../dashboard.html">← Назад к дашборду</a>
+        <h1>Stepman</h1>
+        <div>stepman.ru</div>
+      </div>
+      <div class="card">Итог: <span class="badge na">?????????</span></div>
+    </div>
+    <div class="alert ok">Доступность: ок. Найденные страницы доступны: 1 из 1.</div>
+
+    
+    <section class="block">
+      <h2>Доступность сайта <span class="badge ok">ок</span></h2>
+      <ul><li>Найденные страницы доступны: 1 из 1.</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Страницы проверки (основные найденные) <span class="badge ok">ок</span></h2>
+      <ul><li>https://stepman.ru/contacts — 200 (sitemap)</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Доп. страницы из sitemap (формы) <span class="badge ok">ок</span></h2>
+      <ul><li>https://stepman.ru/ — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/ustanovka-formi — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/doctors — 200 (sitemap: правовая/документная страница)</li><li>https://stepman.ru/privacy — 200 (sitemap: правовая/документная страница)</li><li>https://stepman.ru/privacy-policy — 200 (sitemap: правовая/документная страница)</li><li>https://stepman.ru/3d-skanir — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/about — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/akrilovy — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/anes — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/bio-gide-perio — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/byugelny — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/byugelnyy-prot — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/detskaya-stomatologiya — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/diagn — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/dopolniteln — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/fotootbelivazoom-ap — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/germetiza — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/gigiena-zubov — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/glubokoe-ftor — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/hirurgiya — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/implamis — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/implanobel-biocare — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/implantaciya-zubov — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/implasimpl-swiss — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/implaxive — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/implstraumann — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/ispolzovanie-ortodo — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/ispravlen — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/ispravlenie-pr — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/izgotovlenie-napravd-planirovanie — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/keramiches — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/keramichesk — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/keramichesk-0 — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/keramicheskdamon-clear — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/keramicheskie-brekety-clarity-i-clarity-advanced — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/kompyuternaya-tom — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/konsultaci — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/koronka-keramicheskaya-na-oks — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/koronka-metallokeraminobel-replace — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/koronki-iz-diok — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/kostnaya — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/kostnaya-regenerac — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/kulteva — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/kultevaya-vklad — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/lechenie — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/lechenie-alv — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/lechenie-dyosen-ging — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/lechenie-icon — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/lechenie-k — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/lechenie-kari — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/lechenie-pe — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/lechenie-pulpita — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/lechenie-semnoy-plast — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/lechenie-sinvisalign — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/lechenie-zub — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/lecheniya-zubov-pr — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/metallicheskdamon-q-idamon-3mx — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/metallicheskvictory — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/metallokeramichesk — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/metallokeramicheskie — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/mostovidnye-z — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/naddesnevye-i-podd — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/narashchivanie-k — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/neylonov — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/obuchenie-detey-pravilam-gigieny-i-podbor-sredstv-po-uhodu-za-zubami — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/ortodontiya — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/ortopant — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/ortopediya — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/oslozhneniya-pr — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/osobennosti-dets — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/otkrytyy-si — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/plastika-desny-g — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/pokryvny — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/price — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/priem-spe — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/professionalairflow — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/professionalnaya — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/protezirovanie — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/ren — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/reviews — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/sapfirovyinspire-ice — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/semnyy-plasti — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/service — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/steklovolok — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/stepman-tv — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/svetootverzhd — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/terapiya — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/titanov — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/udalen — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/udaleni — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/udalenie-mol — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/udalenie-retini — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/udalenie-zu — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/uhod-za-breketami-v-period-o — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/ultrazvukovaya — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/vin — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/vremenna — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/zakrytyy-si — 200 (sitemap: страница с формой)</li><li>https://stepman.ru/zubna — 200 (sitemap: страница с формой)</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Fallback-пробы URL <span class="badge ok">ок</span></h2>
+      <ul><li>Не применялся.</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Сертификат <span class="badge ok">ок</span></h2>
+      <ul><li>HTTPS-страницы открылись без TLS-ошибок.</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Форма: HTTPS <span class="badge ok">ок</span></h2>
+      <ul><li>Пример action: action=&#x27;&#x27;</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Согласие <span class="badge bad">не найдено</span></h2>
+      <ul><li>Всего форм: 101</li><li>unchecked: 0</li><li>checked: 0</li><li>текстом: 0</li><li>не найдено: 101</li><li>не найдено | https://stepman.ru/ | form699730323 | action=&#x27;&#x27;</li><li>не найдено | https://stepman.ru/ | form708467782 | action=&#x27;&#x27;</li><li>не найдено | https://stepman.ru/contacts | form708467782 | action=&#x27;&#x27;</li><li>не найдено | https://stepman.ru/ustanovka-formi | form708467782 | action=&#x27;&#x27;</li><li>не найдено | https://stepman.ru/doctors | form708467782 | action=&#x27;&#x27;</li><li>не найдено | https://stepman.ru/privacy | form708467782 | action=&#x27;&#x27;</li><li>не найдено | https://stepman.ru/privacy-policy | form708467782 | action=&#x27;&#x27;</li><li>не найдено | https://stepman.ru/3d-skanir | form708467782 | action=&#x27;&#x27;</li><li>не найдено | https://stepman.ru/about | form708467782 | action=&#x27;&#x27;</li><li>не найдено | https://stepman.ru/akrilovy | form708467782 | action=&#x27;&#x27;</li><li>не найдено | https://stepman.ru/anes | form708467782 | action=&#x27;&#x27;</li><li>не найдено | https://stepman.ru/bio-gide-perio | form708467782 | action=&#x27;&#x27;</li><li>не найдено | https://stepman.ru/byugelny | form708467782 | action=&#x27;&#x27;</li><li>не найдено | https://stepman.ru/byugelnyy-prot | form708467782 | action=&#x27;&#x27;</li><li>не найдено | https://stepman.ru/detskaya-stomatologiya | form708467782 | action=&#x27;&#x27;</li><li>не найдено | https://stepman.ru/diagn | form708467782 | action=&#x27;&#x27;</li><li>не найдено | https://stepman.ru/dopolniteln | form708467782 | action=&#x27;&#x27;</li><li>не найдено | https://stepman.ru/fotootbelivazoom-ap | form708467782 | action=&#x27;&#x27;</li><li>не найдено | https://stepman.ru/germetiza | form708467782 | action=&#x27;&#x27;</li><li>не найдено | https://stepman.ru/gigiena-zubov | form708467782 | action=&#x27;&#x27;</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>SPF/DMARC <span class="badge na">н/п</span></h2>
+      <ul><li>Email: stepman.ru@yandex.ru (манифест)</li><li>Домен yandex.ru — сторонний почтовый сервис, не почтовый домен клиники.</li><li>Для этой проверки SPF/DMARC не оценивается.</li><li>Что проверить дальше: найти корпоративный email домена клиники и проверить SPF/DMARC уже для него.</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Meta / Instagram <span class="badge ok">ок</span></h2>
+      <ul><li>Совпадений по списку meta/instagram/facebook/threads не найдено.</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Политика <span class="badge ok">ок</span></h2>
+      <ul><li>https://stepman.ru/ -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/contacts -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/ustanovka-formi -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/doctors -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/privacy -&gt; https://stepman.ru/privacy (текст: policy path)</li><li>https://stepman.ru/privacy -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/privacy-policy -&gt; https://stepman.ru/privacy-policy (текст: policy path)</li><li>https://stepman.ru/privacy-policy -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/3d-skanir -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/about -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/akrilovy -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/anes -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/bio-gide-perio -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/byugelny -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/byugelnyy-prot -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/detskaya-stomatologiya -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/diagn -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/dopolniteln -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/fotootbelivazoom-ap -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/germetiza -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/gigiena-zubov -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/glubokoe-ftor -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/hirurgiya -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/implamis -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/implanobel-biocare -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/implantaciya-zubov -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/implasimpl-swiss -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/implaxive -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/implstraumann -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/ispolzovanie-ortodo -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/ispravlen -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/ispravlenie-pr -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/izgotovlenie-napravd-planirovanie -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/keramiches -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/keramichesk -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/keramichesk-0 -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/keramicheskdamon-clear -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/keramicheskie-brekety-clarity-i-clarity-advanced -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/kompyuternaya-tom -&gt; /privacy (текст: политикой конфиденциальности)</li><li>https://stepman.ru/konsultaci -&gt; /privacy (текст: политикой конфиденциальности)</li></ul>
+    </section>
+    
+
+    <section class="block">
+      <h2>Сырые данные</h2>
+      <ul>
+        <li>Audit JSON: <a href="../data/audits/stepman-ru.audit.json">data/audits/stepman-ru.audit.json</a></li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>

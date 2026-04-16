@@ -1,0 +1,536 @@
+{
+  "domain": "keri.ru",
+  "pages": [
+    {
+      "requested": "https://keri.ru/",
+      "status": 200,
+      "final_url": "https://keri.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://keri.ru/kontakti",
+      "status": 200,
+      "final_url": "https://keri.ru/kontakti",
+      "error": null
+    },
+    {
+      "requested": "https://keri.ru/appointment",
+      "status": 200,
+      "final_url": "https://keri.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://keri.ru/booking",
+      "status": 200,
+      "final_url": "https://keri.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://keri.ru/zapis",
+      "status": 200,
+      "final_url": "https://keri.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://keri.ru/agreement",
+      "status": 200,
+      "final_url": "https://keri.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://keri.ru/personal-data",
+      "status": 200,
+      "final_url": "https://keri.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://keri.ru/policy",
+      "status": 200,
+      "final_url": "https://keri.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://keri.ru/politika",
+      "status": 200,
+      "final_url": "https://keri.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://keri.ru/politika-konfidencialnosti",
+      "status": 200,
+      "final_url": "https://keri.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://keri.ru/privacy",
+      "status": 200,
+      "final_url": "https://keri.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://keri.ru/privacy-policy",
+      "status": 200,
+      "final_url": "https://keri.ru/",
+      "error": null
+    },
+    {
+      "requested": "http://www.mosmiso.ru/akcii",
+      "status": 200,
+      "final_url": "https://www.mosmiso.ru/akcii",
+      "error": null
+    },
+    {
+      "requested": "http://www.mosmiso.ru/kontakti",
+      "status": 200,
+      "final_url": "https://www.mosmiso.ru/kontakti",
+      "error": null
+    },
+    {
+      "requested": "http://www.mosmiso.ru/ob_instityte/1",
+      "status": 200,
+      "final_url": "https://www.mosmiso.ru/ob_instityte/1",
+      "error": null
+    },
+    {
+      "requested": "http://www.mosmiso.ru/raspisanie",
+      "status": 200,
+      "final_url": "https://www.mosmiso.ru/raspisanie",
+      "error": null
+    },
+    {
+      "requested": "http://www.mosmiso.ru/yslygi",
+      "status": 200,
+      "final_url": "https://www.mosmiso.ru/yslygi",
+      "error": null
+    }
+  ],
+  "forms": [],
+  "emails": [
+    "doc@mosmiso.ru",
+    "info@mosmiso.ru",
+    "med@keri.ru",
+    "ooo-keri@yandex.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://keri.ru/policy",
+      "href": "https://keri.ru/policy",
+      "text": "policy path"
+    },
+    {
+      "page": "https://keri.ru/politika",
+      "href": "https://keri.ru/politika",
+      "text": "policy path"
+    },
+    {
+      "page": "https://keri.ru/politika-konfidencialnosti",
+      "href": "https://keri.ru/politika-konfidencialnosti",
+      "text": "policy path"
+    },
+    {
+      "page": "https://keri.ru/privacy",
+      "href": "https://keri.ru/privacy",
+      "text": "policy path"
+    },
+    {
+      "page": "https://keri.ru/privacy-policy",
+      "href": "https://keri.ru/privacy-policy",
+      "text": "policy path"
+    }
+  ],
+  "forbidden_hits": [
+    {
+      "token": "instagram",
+      "page": "https://keri.ru/",
+      "context": "href=\"https://www.instagram.com/keri_med_/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://keri.ru/",
+      "context": "href=\"https://www.instagram.com/keri_med_/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://keri.ru/",
+      "context": "href=\"https://www.facebook.com/%D0%9A%D0%BB%D0%B8%D0%BD%D0%B8%D0%BA%D0%B0-%D0%9A%D0%AD%D0%A0%D0%98-156620391567240/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "https://keri.ru/",
+      "context": "href=\"https://www.facebook.com/%D0%9A%D0%BB%D0%B8%D0%BD%D0%B8%D0%BA%D0%B0-%D0%9A%D0%AD%D0%A0%D0%98-156620391567240/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://keri.ru/kontakti",
+      "context": "href=\"https://www.instagram.com/keri_med_/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://keri.ru/kontakti",
+      "context": "href=\"https://www.instagram.com/keri_med_/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://keri.ru/kontakti",
+      "context": "href=\"https://www.facebook.com/%D0%9A%D0%BB%D0%B8%D0%BD%D0%B8%D0%BA%D0%B0-%D0%9A%D0%AD%D0%A0%D0%98-156620391567240/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "https://keri.ru/kontakti",
+      "context": "href=\"https://www.facebook.com/%D0%9A%D0%BB%D0%B8%D0%BD%D0%B8%D0%BA%D0%B0-%D0%9A%D0%AD%D0%A0%D0%98-156620391567240/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://keri.ru/appointment",
+      "context": "href=\"https://www.instagram.com/keri_med_/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://keri.ru/appointment",
+      "context": "href=\"https://www.instagram.com/keri_med_/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://keri.ru/appointment",
+      "context": "href=\"https://www.facebook.com/%D0%9A%D0%BB%D0%B8%D0%BD%D0%B8%D0%BA%D0%B0-%D0%9A%D0%AD%D0%A0%D0%98-156620391567240/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "https://keri.ru/appointment",
+      "context": "href=\"https://www.facebook.com/%D0%9A%D0%BB%D0%B8%D0%BD%D0%B8%D0%BA%D0%B0-%D0%9A%D0%AD%D0%A0%D0%98-156620391567240/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://keri.ru/booking",
+      "context": "href=\"https://www.instagram.com/keri_med_/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://keri.ru/booking",
+      "context": "href=\"https://www.instagram.com/keri_med_/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://keri.ru/booking",
+      "context": "href=\"https://www.facebook.com/%D0%9A%D0%BB%D0%B8%D0%BD%D0%B8%D0%BA%D0%B0-%D0%9A%D0%AD%D0%A0%D0%98-156620391567240/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "https://keri.ru/booking",
+      "context": "href=\"https://www.facebook.com/%D0%9A%D0%BB%D0%B8%D0%BD%D0%B8%D0%BA%D0%B0-%D0%9A%D0%AD%D0%A0%D0%98-156620391567240/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://keri.ru/zapis",
+      "context": "href=\"https://www.instagram.com/keri_med_/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://keri.ru/zapis",
+      "context": "href=\"https://www.instagram.com/keri_med_/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://keri.ru/zapis",
+      "context": "href=\"https://www.facebook.com/%D0%9A%D0%BB%D0%B8%D0%BD%D0%B8%D0%BA%D0%B0-%D0%9A%D0%AD%D0%A0%D0%98-156620391567240/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "https://keri.ru/zapis",
+      "context": "href=\"https://www.facebook.com/%D0%9A%D0%BB%D0%B8%D0%BD%D0%B8%D0%BA%D0%B0-%D0%9A%D0%AD%D0%A0%D0%98-156620391567240/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://keri.ru/agreement",
+      "context": "href=\"https://www.instagram.com/keri_med_/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://keri.ru/agreement",
+      "context": "href=\"https://www.instagram.com/keri_med_/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://keri.ru/agreement",
+      "context": "href=\"https://www.facebook.com/%D0%9A%D0%BB%D0%B8%D0%BD%D0%B8%D0%BA%D0%B0-%D0%9A%D0%AD%D0%A0%D0%98-156620391567240/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "https://keri.ru/agreement",
+      "context": "href=\"https://www.facebook.com/%D0%9A%D0%BB%D0%B8%D0%BD%D0%B8%D0%BA%D0%B0-%D0%9A%D0%AD%D0%A0%D0%98-156620391567240/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://keri.ru/personal-data",
+      "context": "href=\"https://www.instagram.com/keri_med_/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://keri.ru/personal-data",
+      "context": "href=\"https://www.instagram.com/keri_med_/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://keri.ru/personal-data",
+      "context": "href=\"https://www.facebook.com/%D0%9A%D0%BB%D0%B8%D0%BD%D0%B8%D0%BA%D0%B0-%D0%9A%D0%AD%D0%A0%D0%98-156620391567240/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "https://keri.ru/personal-data",
+      "context": "href=\"https://www.facebook.com/%D0%9A%D0%BB%D0%B8%D0%BD%D0%B8%D0%BA%D0%B0-%D0%9A%D0%AD%D0%A0%D0%98-156620391567240/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://keri.ru/policy",
+      "context": "href=\"https://www.instagram.com/keri_med_/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://keri.ru/policy",
+      "context": "href=\"https://www.instagram.com/keri_med_/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://keri.ru/policy",
+      "context": "href=\"https://www.facebook.com/%D0%9A%D0%BB%D0%B8%D0%BD%D0%B8%D0%BA%D0%B0-%D0%9A%D0%AD%D0%A0%D0%98-156620391567240/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "https://keri.ru/policy",
+      "context": "href=\"https://www.facebook.com/%D0%9A%D0%BB%D0%B8%D0%BD%D0%B8%D0%BA%D0%B0-%D0%9A%D0%AD%D0%A0%D0%98-156620391567240/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://keri.ru/politika",
+      "context": "href=\"https://www.instagram.com/keri_med_/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://keri.ru/politika",
+      "context": "href=\"https://www.instagram.com/keri_med_/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://keri.ru/politika",
+      "context": "href=\"https://www.facebook.com/%D0%9A%D0%BB%D0%B8%D0%BD%D0%B8%D0%BA%D0%B0-%D0%9A%D0%AD%D0%A0%D0%98-156620391567240/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "https://keri.ru/politika",
+      "context": "href=\"https://www.facebook.com/%D0%9A%D0%BB%D0%B8%D0%BD%D0%B8%D0%BA%D0%B0-%D0%9A%D0%AD%D0%A0%D0%98-156620391567240/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://keri.ru/politika-konfidencialnosti",
+      "context": "href=\"https://www.instagram.com/keri_med_/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://keri.ru/politika-konfidencialnosti",
+      "context": "href=\"https://www.instagram.com/keri_med_/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://keri.ru/politika-konfidencialnosti",
+      "context": "href=\"https://www.facebook.com/%D0%9A%D0%BB%D0%B8%D0%BD%D0%B8%D0%BA%D0%B0-%D0%9A%D0%AD%D0%A0%D0%98-156620391567240/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "https://keri.ru/politika-konfidencialnosti",
+      "context": "href=\"https://www.facebook.com/%D0%9A%D0%BB%D0%B8%D0%BD%D0%B8%D0%BA%D0%B0-%D0%9A%D0%AD%D0%A0%D0%98-156620391567240/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://keri.ru/privacy",
+      "context": "href=\"https://www.instagram.com/keri_med_/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://keri.ru/privacy",
+      "context": "href=\"https://www.instagram.com/keri_med_/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://keri.ru/privacy",
+      "context": "href=\"https://www.facebook.com/%D0%9A%D0%BB%D0%B8%D0%BD%D0%B8%D0%BA%D0%B0-%D0%9A%D0%AD%D0%A0%D0%98-156620391567240/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "https://keri.ru/privacy",
+      "context": "href=\"https://www.facebook.com/%D0%9A%D0%BB%D0%B8%D0%BD%D0%B8%D0%BA%D0%B0-%D0%9A%D0%AD%D0%A0%D0%98-156620391567240/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://keri.ru/privacy-policy",
+      "context": "href=\"https://www.instagram.com/keri_med_/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://keri.ru/privacy-policy",
+      "context": "href=\"https://www.instagram.com/keri_med_/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://keri.ru/privacy-policy",
+      "context": "href=\"https://www.facebook.com/%D0%9A%D0%BB%D0%B8%D0%BD%D0%B8%D0%BA%D0%B0-%D0%9A%D0%AD%D0%A0%D0%98-156620391567240/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "https://keri.ru/privacy-policy",
+      "context": "href=\"https://www.facebook.com/%D0%9A%D0%BB%D0%B8%D0%BD%D0%B8%D0%BA%D0%B0-%D0%9A%D0%AD%D0%A0%D0%98-156620391567240/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "http://www.mosmiso.ru/akcii",
+      "context": "src=\"https://www.facebook.com/tr?id=1400407583455977&ev=PageView&noscript=1\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "http://www.mosmiso.ru/akcii",
+      "context": "src=\"https://www.facebook.com/tr?id=1400407583455977&ev=PageView&noscript=1\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "http://www.mosmiso.ru/kontakti",
+      "context": "src=\"https://www.facebook.com/tr?id=1400407583455977&ev=PageView&noscript=1\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "http://www.mosmiso.ru/kontakti",
+      "context": "src=\"https://www.facebook.com/tr?id=1400407583455977&ev=PageView&noscript=1\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "http://www.mosmiso.ru/ob_instityte/1",
+      "context": "src=\"https://www.facebook.com/tr?id=1400407583455977&ev=PageView&noscript=1\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "http://www.mosmiso.ru/ob_instityte/1",
+      "context": "src=\"https://www.facebook.com/tr?id=1400407583455977&ev=PageView&noscript=1\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "http://www.mosmiso.ru/raspisanie",
+      "context": "src=\"https://www.facebook.com/tr?id=1400407583455977&ev=PageView&noscript=1\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "http://www.mosmiso.ru/raspisanie",
+      "context": "src=\"https://www.facebook.com/tr?id=1400407583455977&ev=PageView&noscript=1\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "http://www.mosmiso.ru/yslygi",
+      "context": "src=\"https://www.facebook.com/tr?id=1400407583455977&ev=PageView&noscript=1\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "http://www.mosmiso.ru/yslygi",
+      "context": "src=\"https://www.facebook.com/tr?id=1400407583455977&ev=PageView&noscript=1\"",
+      "visibility": "только в коде"
+    }
+  ],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://keri.ru/kontakti"
+    ],
+    "booking_urls": [
+      "https://keri.ru/appointment",
+      "https://keri.ru/booking",
+      "https://keri.ru/zapis"
+    ],
+    "legal_urls": [
+      "https://keri.ru/agreement",
+      "https://keri.ru/personal-data",
+      "https://keri.ru/policy",
+      "https://keri.ru/politika",
+      "https://keri.ru/politika-konfidencialnosti",
+      "https://keri.ru/privacy",
+      "https://keri.ru/privacy-policy"
+    ],
+    "sources": {
+      "http://www.mosmiso.ru/akcii": "sitemap-form",
+      "http://www.mosmiso.ru/kontakti": "sitemap-form",
+      "http://www.mosmiso.ru/ob_instityte/1": "sitemap-form",
+      "http://www.mosmiso.ru/raspisanie": "sitemap-form",
+      "http://www.mosmiso.ru/yslygi": "sitemap-form",
+      "https://keri.ru/": "",
+      "https://keri.ru/agreement": "policy-fallback",
+      "https://keri.ru/appointment": "fallback",
+      "https://keri.ru/booking": "fallback",
+      "https://keri.ru/kontakti": "navigation",
+      "https://keri.ru/personal-data": "policy-fallback",
+      "https://keri.ru/policy": "policy-fallback",
+      "https://keri.ru/politika": "policy-fallback",
+      "https://keri.ru/politika-konfidencialnosti": "policy-fallback",
+      "https://keri.ru/privacy": "policy-fallback",
+      "https://keri.ru/privacy-policy": "policy-fallback",
+      "https://keri.ru/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": true
+    },
+    "sitemap_total_urls": 161,
+    "sitemap_used_urls": 120
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "domain": "delficlinic.ru",
+  "pages": [
+    {
+      "requested": "https://delficlinic.ru/",
+      "status": 200,
+      "final_url": "https://delficlinic.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://delficlinic.ru/#contacts",
+      "status": 200,
+      "final_url": "https://delficlinic.ru/#contacts",
+      "error": null
+    },
+    {
+      "requested": "https://delficlinic.ru/appointment",
+      "status": 404,
+      "final_url": "https://delficlinic.ru/appointment",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://delficlinic.ru/booking",
+      "status": 404,
+      "final_url": "https://delficlinic.ru/booking",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://delficlinic.ru/zapis",
+      "status": 404,
+      "final_url": "https://delficlinic.ru/zapis",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://delficlinic.ru/agreement",
+      "status": 200,
+      "final_url": "https://delficlinic.ru/agreement",
+      "error": null
+    },
+    {
+      "requested": "https://delficlinic.ru/legal",
+      "status": 200,
+      "final_url": "https://delficlinic.ru/legal",
+      "error": null
+    },
+    {
+      "requested": "https://delficlinic.ru/policy",
+      "status": 200,
+      "final_url": "https://delficlinic.ru/policy",
+      "error": null
+    },
+    {
+      "requested": "https://delficlinic.ru/implantat",
+      "status": 200,
+      "final_url": "https://delficlinic.ru/implantat",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://delficlinic.ru/implantat",
+      "form_id": "form927268916",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form927268916\" name='form927268916' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t678_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    }
+  ],
+  "emails": [
+    "delficlinic@mail.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://delficlinic.ru/",
+      "href": "/policy",
+      "text": "\\u041f\\u043e\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0435\\u043c \\u043e\\u0431 \\u043e\\u0431\\u0440\\u0430\\u0431\\u043e\\u0442\\u043a\\u0435 \\u0438 \\u0437\\u0430\\u0449\\u0438\\u0442\\u0435 \\u043f\\u0435\\u0440\\u0441\\u043e\\u043d\\u0430\\u043"
+    },
+    {
+      "page": "https://delficlinic.ru/",
+      "href": "/policy",
+      "text": "Политикой обработки персональных данных"
+    },
+    {
+      "page": "https://delficlinic.ru/",
+      "href": "https://delficlinic.ru/policy",
+      "text": "Политика обработки персональный данных"
+    },
+    {
+      "page": "https://delficlinic.ru/#contacts",
+      "href": "/policy",
+      "text": "\\u041f\\u043e\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0435\\u043c \\u043e\\u0431 \\u043e\\u0431\\u0440\\u0430\\u0431\\u043e\\u0442\\u043a\\u0435 \\u0438 \\u0437\\u0430\\u0449\\u0438\\u0442\\u0435 \\u043f\\u0435\\u0440\\u0441\\u043e\\u043d\\u0430\\u043"
+    },
+    {
+      "page": "https://delficlinic.ru/#contacts",
+      "href": "/policy",
+      "text": "Политикой обработки персональных данных"
+    },
+    {
+      "page": "https://delficlinic.ru/#contacts",
+      "href": "https://delficlinic.ru/policy",
+      "text": "Политика обработки персональный данных"
+    },
+    {
+      "page": "https://delficlinic.ru/legal",
+      "href": "https://delficlinic.ru/policy",
+      "text": "Политика обработки персональный данных"
+    },
+    {
+      "page": "https://delficlinic.ru/legal",
+      "href": "/policy",
+      "text": "Политикой обработки персональных данных"
+    },
+    {
+      "page": "https://delficlinic.ru/legal",
+      "href": "/policy",
+      "text": "\\u041f\\u043e\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0435\\u043c \\u043e\\u0431 \\u043e\\u0431\\u0440\\u0430\\u0431\\u043e\\u0442\\u043a\\u0435 \\u0438 \\u0437\\u0430\\u0449\\u0438\\u0442\\u0435 \\u043f\\u0435\\u0440\\u0441\\u043e\\u043d\\u0430\\u043"
+    },
+    {
+      "page": "https://delficlinic.ru/policy",
+      "href": "https://delficlinic.ru/policy",
+      "text": "policy path"
+    },
+    {
+      "page": "https://delficlinic.ru/implantat",
+      "href": "/policy",
+      "text": "\\u041f\\u043e\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0435\\u043c \\u043e\\u0431 \\u043e\\u0431\\u0440\\u0430\\u0431\\u043e\\u0442\\u043a\\u0435 \\u0438 \\u0437\\u0430\\u0449\\u0438\\u0442\\u0435 \\u043f\\u0435\\u0440\\u0441\\u043e\\u043d\\u0430\\u043"
+    },
+    {
+      "page": "https://delficlinic.ru/implantat",
+      "href": "/policy",
+      "text": "Политикой обработки персональных данных"
+    },
+    {
+      "page": "https://delficlinic.ru/implantat",
+      "href": "https://delficlinic.ru/policy",
+      "text": "Политика обработки персональный данных"
+    }
+  ],
+  "forbidden_hits": [
+    {
+      "token": "instagram",
+      "page": "https://delficlinic.ru/",
+      "context": "Instagram*",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "instagram",
+      "page": "https://delficlinic.ru/",
+      "context": "href=\"https://instagram.com/delfi_clinic?igshid=YmMyMTA2M2Y=\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://delficlinic.ru/",
+      "context": "href=\"https://instagram.com/delfi_clinic?igshid=YmMyMTA2M2Y=\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://delficlinic.ru/",
+      "context": "href=\"https://instagram.com/delfi_clinic\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://delficlinic.ru/",
+      "context": "href=\"https://instagram.com/delfi_clinic\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://delficlinic.ru/#contacts",
+      "context": "Instagram*",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "instagram",
+      "page": "https://delficlinic.ru/#contacts",
+      "context": "href=\"https://instagram.com/delfi_clinic?igshid=YmMyMTA2M2Y=\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://delficlinic.ru/#contacts",
+      "context": "href=\"https://instagram.com/delfi_clinic?igshid=YmMyMTA2M2Y=\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://delficlinic.ru/#contacts",
+      "context": "href=\"https://instagram.com/delfi_clinic\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://delficlinic.ru/#contacts",
+      "context": "href=\"https://instagram.com/delfi_clinic\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://delficlinic.ru/legal",
+      "context": "Instagram*",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "instagram",
+      "page": "https://delficlinic.ru/legal",
+      "context": "href=\"https://instagram.com/delfi_clinic\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://delficlinic.ru/legal",
+      "context": "href=\"https://instagram.com/delfi_clinic\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://delficlinic.ru/implantat",
+      "context": "Instagram*",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "instagram",
+      "page": "https://delficlinic.ru/implantat",
+      "context": "href=\"https://instagram.com/delfi_clinic?igshid=YmMyMTA2M2Y=\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://delficlinic.ru/implantat",
+      "context": "href=\"https://instagram.com/delfi_clinic?igshid=YmMyMTA2M2Y=\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://delficlinic.ru/implantat",
+      "context": "href=\"https://instagram.com/delfi_clinic\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://delficlinic.ru/implantat",
+      "context": "href=\"https://instagram.com/delfi_clinic\"",
+      "visibility": "только в коде"
+    }
+  ],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://delficlinic.ru/#contacts"
+    ],
+    "booking_urls": [
+      "https://delficlinic.ru/appointment",
+      "https://delficlinic.ru/booking",
+      "https://delficlinic.ru/zapis"
+    ],
+    "legal_urls": [
+      "https://delficlinic.ru/agreement",
+      "https://delficlinic.ru/legal",
+      "https://delficlinic.ru/policy"
+    ],
+    "sources": {
+      "https://delficlinic.ru/": "",
+      "https://delficlinic.ru/#contacts": "navigation",
+      "https://delficlinic.ru/agreement": "policy-hint",
+      "https://delficlinic.ru/appointment": "fallback",
+      "https://delficlinic.ru/booking": "fallback",
+      "https://delficlinic.ru/implantat": "sitemap-form",
+      "https://delficlinic.ru/legal": "sitemap-legal",
+      "https://delficlinic.ru/policy": "sitemap-legal",
+      "https://delficlinic.ru/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": true
+    },
+    "sitemap_total_urls": 33,
+    "sitemap_used_urls": 33
+  }
+}

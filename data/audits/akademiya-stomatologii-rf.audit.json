@@ -1,0 +1,194 @@
+{
+  "domain": "академия-стоматологии.рф",
+  "pages": [
+    {
+      "requested": "https://академия-стоматологии.рф/",
+      "status": null,
+      "final_url": "https://академия-стоматологии.рф/",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "requested": "https://академия-стоматологии.рф/contact",
+      "status": null,
+      "final_url": "https://академия-стоматологии.рф/contact",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "requested": "https://академия-стоматологии.рф/contacts",
+      "status": null,
+      "final_url": "https://академия-стоматологии.рф/contacts",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "requested": "https://академия-стоматологии.рф/kontakty",
+      "status": null,
+      "final_url": "https://академия-стоматологии.рф/kontakty",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "requested": "https://академия-стоматологии.рф/appointment",
+      "status": null,
+      "final_url": "https://академия-стоматологии.рф/appointment",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "requested": "https://академия-стоматологии.рф/booking",
+      "status": null,
+      "final_url": "https://академия-стоматологии.рф/booking",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "requested": "https://академия-стоматологии.рф/zapis",
+      "status": null,
+      "final_url": "https://академия-стоматологии.рф/zapis",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "requested": "https://академия-стоматологии.рф/agreement",
+      "status": null,
+      "final_url": "https://академия-стоматологии.рф/agreement",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "requested": "https://академия-стоматологии.рф/personal-data",
+      "status": null,
+      "final_url": "https://академия-стоматологии.рф/personal-data",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "requested": "https://академия-стоматологии.рф/policy",
+      "status": null,
+      "final_url": "https://академия-стоматологии.рф/policy",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "requested": "https://академия-стоматологии.рф/politika",
+      "status": null,
+      "final_url": "https://академия-стоматологии.рф/politika",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "requested": "https://академия-стоматологии.рф/politika-konfidencialnosti",
+      "status": null,
+      "final_url": "https://академия-стоматологии.рф/politika-konfidencialnosti",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "requested": "https://академия-стоматологии.рф/privacy",
+      "status": null,
+      "final_url": "https://академия-стоматологии.рф/privacy",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "requested": "https://академия-стоматологии.рф/privacy-policy",
+      "status": null,
+      "final_url": "https://академия-стоматологии.рф/privacy-policy",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    }
+  ],
+  "forms": [],
+  "emails": [],
+  "privacy_links": [],
+  "forbidden_hits": [],
+  "cert_errors": [
+    {
+      "url": "https://академия-стоматологии.рф/",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "url": "https://академия-стоматологии.рф/contact",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "url": "https://академия-стоматологии.рф/contacts",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "url": "https://академия-стоматологии.рф/kontakty",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "url": "https://академия-стоматологии.рф/appointment",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "url": "https://академия-стоматологии.рф/booking",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "url": "https://академия-стоматологии.рф/zapis",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "url": "https://академия-стоматологии.рф/agreement",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "url": "https://академия-стоматологии.рф/personal-data",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "url": "https://академия-стоматологии.рф/policy",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "url": "https://академия-стоматологии.рф/politika",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "url": "https://академия-стоматологии.рф/politika-konfidencialnosti",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "url": "https://академия-стоматологии.рф/privacy",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    },
+    {
+      "url": "https://академия-стоматологии.рф/privacy-policy",
+      "error": "'latin-1' codec can't encode characters in position 0-7: ordinal not in range(256)"
+    }
+  ],
+  "discovery": {
+    "contact_urls": [
+      "https://академия-стоматологии.рф/contact",
+      "https://академия-стоматологии.рф/contacts",
+      "https://академия-стоматологии.рф/kontakty"
+    ],
+    "booking_urls": [
+      "https://академия-стоматологии.рф/appointment",
+      "https://академия-стоматологии.рф/booking",
+      "https://академия-стоматологии.рф/zapis"
+    ],
+    "legal_urls": [
+      "https://академия-стоматологии.рф/agreement",
+      "https://академия-стоматологии.рф/personal-data",
+      "https://академия-стоматологии.рф/policy",
+      "https://академия-стоматологии.рф/politika",
+      "https://академия-стоматологии.рф/politika-konfidencialnosti",
+      "https://академия-стоматологии.рф/privacy",
+      "https://академия-стоматологии.рф/privacy-policy"
+    ],
+    "sources": {
+      "https://академия-стоматологии.рф/": "",
+      "https://академия-стоматологии.рф/agreement": "policy-fallback",
+      "https://академия-стоматологии.рф/appointment": "fallback",
+      "https://академия-стоматологии.рф/booking": "fallback",
+      "https://академия-стоматологии.рф/contact": "fallback",
+      "https://академия-стоматологии.рф/contacts": "fallback",
+      "https://академия-стоматологии.рф/kontakty": "fallback",
+      "https://академия-стоматологии.рф/personal-data": "policy-fallback",
+      "https://академия-стоматологии.рф/policy": "policy-fallback",
+      "https://академия-стоматологии.рф/politika": "policy-fallback",
+      "https://академия-стоматологии.рф/politika-konfidencialnosti": "policy-fallback",
+      "https://академия-стоматологии.рф/privacy": "policy-fallback",
+      "https://академия-стоматологии.рф/privacy-policy": "policy-fallback",
+      "https://академия-стоматологии.рф/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": true,
+      "booking": true
+    },
+    "sitemap_total_urls": 0,
+    "sitemap_used_urls": 0
+  }
+}

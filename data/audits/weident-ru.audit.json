@@ -1,0 +1,805 @@
+{
+  "domain": "weident.ru",
+  "pages": [
+    {
+      "requested": "https://weident.ru/",
+      "status": 200,
+      "final_url": "https://weident.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://weident.ru/contacts/",
+      "status": 200,
+      "final_url": "https://weident.ru/contacts/",
+      "error": null
+    },
+    {
+      "requested": "https://weident.ru/doctors/",
+      "status": 200,
+      "final_url": "https://weident.ru/doctors/",
+      "error": null
+    },
+    {
+      "requested": "https://weident.ru/doctors/%d0%b7%d0%b0%d1%80%d0%b8%d0%bd%d0%b0-%d0%bd%d0%b0%d1%81%d0%b8%d1%80%d0%be%d0%b2%d0%bd%d0%b0-%d0%bc%d0%b0%d0%b3%d0%b0%d0%bc%d0%bc%d0%b0%d1%82%d0%be%d0%b2%d0%b0/",
+      "status": 200,
+      "final_url": "https://weident.ru/doctors/%d0%b7%d0%b0%d1%80%d0%b8%d0%bd%d0%b0-%d0%bd%d0%b0%d1%81%d0%b8%d1%80%d0%be%d0%b2%d0%bd%d0%b0-%d0%bc%d0%b0%d0%b3%d0%b0%d0%bc%d0%bc%d0%b0%d1%82%d0%be%d0%b2%d0%b0/",
+      "error": null
+    },
+    {
+      "requested": "https://weident.ru/doctors/%d1%80%d0%b0%d0%bc%d0%b0%d0%b7%d0%b0%d0%bd-%d0%b8%d0%b1%d1%80%d0%b0%d0%b3%d0%b8%d0%bc%d0%be%d0%b2%d0%b8%d1%87-%d0%b0%d0%ba%d0%b0%d0%b5%d0%b2/",
+      "status": 200,
+      "final_url": "https://weident.ru/doctors/%d1%80%d0%b0%d0%bc%d0%b0%d0%b7%d0%b0%d0%bd-%d0%b8%d0%b1%d1%80%d0%b0%d0%b3%d0%b8%d0%bc%d0%be%d0%b2%d0%b8%d1%87-%d0%b0%d0%ba%d0%b0%d0%b5%d0%b2/",
+      "error": null
+    },
+    {
+      "requested": "https://weident.ru/doctors/akmal-marufdzhonovich-rabiev/",
+      "status": 200,
+      "final_url": "https://weident.ru/doctors/akmal-marufdzhonovich-rabiev/",
+      "error": null
+    },
+    {
+      "requested": "https://weident.ru/doctors/amina-ardavova/",
+      "status": 200,
+      "final_url": "https://weident.ru/doctors/amina-ardavova/",
+      "error": null
+    },
+    {
+      "requested": "https://weident.ru/doctors/bidzhiyeva-fatima-akhmatovna/",
+      "status": 200,
+      "final_url": "https://weident.ru/doctors/bidzhiyeva-fatima-akhmatovna/",
+      "error": null
+    },
+    {
+      "requested": "https://weident.ru/doctors/karina-ruslanovna-gubzheyeva/",
+      "status": 200,
+      "final_url": "https://weident.ru/doctors/karina-ruslanovna-gubzheyeva/",
+      "error": null
+    },
+    {
+      "requested": "https://weident.ru/doctors/madina-umarovna-gorbakova/",
+      "status": 200,
+      "final_url": "https://weident.ru/doctors/madina-umarovna-gorbakova/",
+      "error": null
+    },
+    {
+      "requested": "https://weident.ru/doctors/nurmagomedov-ruslan-alilovich/",
+      "status": 200,
+      "final_url": "https://weident.ru/doctors/nurmagomedov-ruslan-alilovich/",
+      "error": null
+    },
+    {
+      "requested": "https://weident.ru/doctors/vaskov-sergey/",
+      "status": 200,
+      "final_url": "https://weident.ru/doctors/vaskov-sergey/",
+      "error": null
+    },
+    {
+      "requested": "https://weident.ru/doctors/zalina-amirkhanovna-galaeva/",
+      "status": 200,
+      "final_url": "https://weident.ru/doctors/zalina-amirkhanovna-galaeva/",
+      "error": null
+    },
+    {
+      "requested": "https://weident.ru/doctors/zurab-takhirovich-seynaroyev/",
+      "status": 200,
+      "final_url": "https://weident.ru/doctors/zurab-takhirovich-seynaroyev/",
+      "error": null
+    },
+    {
+      "requested": "https://weident.ru/doctors/зарина-насировна-магамматова/",
+      "status": null,
+      "final_url": "https://weident.ru/doctors/зарина-насировна-магамматова/",
+      "error": "'ascii' codec can't encode characters in position 13-18: ordinal not in range(128)"
+    },
+    {
+      "requested": "https://weident.ru/doctors/рамазан-ибрагимович-акаев/",
+      "status": null,
+      "final_url": "https://weident.ru/doctors/рамазан-ибрагимович-акаев/",
+      "error": "'ascii' codec can't encode characters in position 13-19: ordinal not in range(128)"
+    },
+    {
+      "requested": "https://weident.ru/privacy",
+      "status": 200,
+      "final_url": "https://weident.ru/privacy-policy/",
+      "error": null
+    },
+    {
+      "requested": "https://weident.ru/privacy-policy/",
+      "status": 200,
+      "final_url": "https://weident.ru/privacy-policy/",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://weident.ru/",
+      "form_id": "Форма Заявки",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"elementor-form\" method=\"post\" name=\"Форма Заявки\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"form_fields[field_8ab2396]\" id=\"form-field-field_8ab2396\" class=\"elementor-field elementor-size-sm elementor-acceptance-field\" required=\"required\" aria-required=\"true\">",
+      "policy_poc": "uired=\"true\"> <label for=\"form-field-field_8ab2396\">Нажимая кнопку, вы предоставляете согласие на обработку персональных данных.</label> </span> </div> </div> <div class=\"elementor-field-group elementor-column elementor-field-type-sub"
+    },
+    {
+      "page": "https://weident.ru/",
+      "form_id": "Форма Заявки",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"elementor-form\" method=\"post\" name=\"Форма Заявки\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"form_fields[field_26f0115]\" id=\"form-field-field_26f0115\" class=\"elementor-field elementor-size-sm elementor-acceptance-field\" required=\"required\" aria-required=\"true\">",
+      "policy_poc": "uired=\"true\"> <label for=\"form-field-field_26f0115\">Нажимая кнопку, вы предоставляете согласие на обработку персональных данных.</label> </span> </div> </div> <div class=\"elementor-field-group elementor-column elementor-field-type-sub"
+    },
+    {
+      "page": "https://weident.ru/contacts/",
+      "form_id": "New Form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"elementor-form\" method=\"post\" name=\"New Form\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"form_fields[field_30e4676]\" id=\"form-field-field_30e4676\" class=\"elementor-field elementor-size-sm elementor-acceptance-field\" required=\"required\" aria-required=\"true\">",
+      "policy_poc": "uired=\"true\"> <label for=\"form-field-field_30e4676\">Нажимая кнопку, вы предоставляете согласие на обработку персональных данных.</label> </span> </div> </div> <div class=\"elementor-field-group elementor-column elementor-field-type-sub"
+    },
+    {
+      "page": "https://weident.ru/contacts/",
+      "form_id": "Форма Заявки",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"elementor-form\" method=\"post\" name=\"Форма Заявки\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"form_fields[field_8ab2396]\" id=\"form-field-field_8ab2396\" class=\"elementor-field elementor-size-sm elementor-acceptance-field\" required=\"required\" aria-required=\"true\">",
+      "policy_poc": "uired=\"true\"> <label for=\"form-field-field_8ab2396\">Нажимая кнопку, вы предоставляете согласие на обработку персональных данных.</label> </span> </div> </div> <div class=\"elementor-field-group elementor-column elementor-field-type-sub"
+    },
+    {
+      "page": "https://weident.ru/contacts/",
+      "form_id": "Форма Заявки",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"elementor-form\" method=\"post\" name=\"Форма Заявки\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"form_fields[field_26f0115]\" id=\"form-field-field_26f0115\" class=\"elementor-field elementor-size-sm elementor-acceptance-field\" required=\"required\" aria-required=\"true\">",
+      "policy_poc": "uired=\"true\"> <label for=\"form-field-field_26f0115\">Нажимая кнопку, вы предоставляете согласие на обработку персональных данных.</label> </span> </div> </div> <div class=\"elementor-field-group elementor-column elementor-field-type-sub"
+    },
+    {
+      "page": "https://weident.ru/doctors/",
+      "form_id": "Форма Заявки",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"elementor-form\" method=\"post\" name=\"Форма Заявки\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"form_fields[field_8ab2396]\" id=\"form-field-field_8ab2396\" class=\"elementor-field elementor-size-sm elementor-acceptance-field\" required=\"required\" aria-required=\"true\">",
+      "policy_poc": "uired=\"true\"> <label for=\"form-field-field_8ab2396\">Нажимая кнопку, вы предоставляете согласие на обработку персональных данных.</label> </span> </div> </div> <div class=\"elementor-field-group elementor-column elementor-field-type-sub"
+    },
+    {
+      "page": "https://weident.ru/doctors/",
+      "form_id": "Форма Заявки",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"elementor-form\" method=\"post\" name=\"Форма Заявки\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"form_fields[field_26f0115]\" id=\"form-field-field_26f0115\" class=\"elementor-field elementor-size-sm elementor-acceptance-field\" required=\"required\" aria-required=\"true\">",
+      "policy_poc": "uired=\"true\"> <label for=\"form-field-field_26f0115\">Нажимая кнопку, вы предоставляете согласие на обработку персональных данных.</label> </span> </div> </div> <div class=\"elementor-field-group elementor-column elementor-field-type-sub"
+    },
+    {
+      "page": "https://weident.ru/doctors/%d0%b7%d0%b0%d1%80%d0%b8%d0%bd%d0%b0-%d0%bd%d0%b0%d1%81%d0%b8%d1%80%d0%be%d0%b2%d0%bd%d0%b0-%d0%bc%d0%b0%d0%b3%d0%b0%d0%bc%d0%bc%d0%b0%d1%82%d0%be%d0%b2%d0%b0/",
+      "form_id": "Форма Заявки",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"elementor-form\" method=\"post\" name=\"Форма Заявки\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"form_fields[field_8ab2396]\" id=\"form-field-field_8ab2396\" class=\"elementor-field elementor-size-sm elementor-acceptance-field\" required=\"required\" aria-required=\"true\">",
+      "policy_poc": "uired=\"true\"> <label for=\"form-field-field_8ab2396\">Нажимая кнопку, вы предоставляете согласие на обработку персональных данных.</label> </span> </div> </div> <div class=\"elementor-field-group elementor-column elementor-field-type-sub"
+    },
+    {
+      "page": "https://weident.ru/doctors/%d0%b7%d0%b0%d1%80%d0%b8%d0%bd%d0%b0-%d0%bd%d0%b0%d1%81%d0%b8%d1%80%d0%be%d0%b2%d0%bd%d0%b0-%d0%bc%d0%b0%d0%b3%d0%b0%d0%bc%d0%bc%d0%b0%d1%82%d0%be%d0%b2%d0%b0/",
+      "form_id": "Форма Заявки",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"elementor-form\" method=\"post\" name=\"Форма Заявки\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"form_fields[field_26f0115]\" id=\"form-field-field_26f0115\" class=\"elementor-field elementor-size-sm elementor-acceptance-field\" required=\"required\" aria-required=\"true\">",
+      "policy_poc": "uired=\"true\"> <label for=\"form-field-field_26f0115\">Нажимая кнопку, вы предоставляете согласие на обработку персональных данных.</label> </span> </div> </div> <div class=\"elementor-field-group elementor-column elementor-field-type-sub"
+    },
+    {
+      "page": "https://weident.ru/doctors/%d1%80%d0%b0%d0%bc%d0%b0%d0%b7%d0%b0%d0%bd-%d0%b8%d0%b1%d1%80%d0%b0%d0%b3%d0%b8%d0%bc%d0%be%d0%b2%d0%b8%d1%87-%d0%b0%d0%ba%d0%b0%d0%b5%d0%b2/",
+      "form_id": "Форма Заявки",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"elementor-form\" method=\"post\" name=\"Форма Заявки\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"form_fields[field_8ab2396]\" id=\"form-field-field_8ab2396\" class=\"elementor-field elementor-size-sm elementor-acceptance-field\" required=\"required\" aria-required=\"true\">",
+      "policy_poc": "uired=\"true\"> <label for=\"form-field-field_8ab2396\">Нажимая кнопку, вы предоставляете согласие на обработку персональных данных.</label> </span> </div> </div> <div class=\"elementor-field-group elementor-column elementor-field-type-sub"
+    },
+    {
+      "page": "https://weident.ru/doctors/%d1%80%d0%b0%d0%bc%d0%b0%d0%b7%d0%b0%d0%bd-%d0%b8%d0%b1%d1%80%d0%b0%d0%b3%d0%b8%d0%bc%d0%be%d0%b2%d0%b8%d1%87-%d0%b0%d0%ba%d0%b0%d0%b5%d0%b2/",
+      "form_id": "Форма Заявки",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"elementor-form\" method=\"post\" name=\"Форма Заявки\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"form_fields[field_26f0115]\" id=\"form-field-field_26f0115\" class=\"elementor-field elementor-size-sm elementor-acceptance-field\" required=\"required\" aria-required=\"true\">",
+      "policy_poc": "uired=\"true\"> <label for=\"form-field-field_26f0115\">Нажимая кнопку, вы предоставляете согласие на обработку персональных данных.</label> </span> </div> </div> <div class=\"elementor-field-group elementor-column elementor-field-type-sub"
+    },
+    {
+      "page": "https://weident.ru/doctors/akmal-marufdzhonovich-rabiev/",
+      "form_id": "Форма Заявки",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"elementor-form\" method=\"post\" name=\"Форма Заявки\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"form_fields[field_8ab2396]\" id=\"form-field-field_8ab2396\" class=\"elementor-field elementor-size-sm elementor-acceptance-field\" required=\"required\" aria-required=\"true\">",
+      "policy_poc": "uired=\"true\"> <label for=\"form-field-field_8ab2396\">Нажимая кнопку, вы предоставляете согласие на обработку персональных данных.</label> </span> </div> </div> <div class=\"elementor-field-group elementor-column elementor-field-type-sub"
+    },
+    {
+      "page": "https://weident.ru/doctors/akmal-marufdzhonovich-rabiev/",
+      "form_id": "Форма Заявки",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"elementor-form\" method=\"post\" name=\"Форма Заявки\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"form_fields[field_26f0115]\" id=\"form-field-field_26f0115\" class=\"elementor-field elementor-size-sm elementor-acceptance-field\" required=\"required\" aria-required=\"true\">",
+      "policy_poc": "uired=\"true\"> <label for=\"form-field-field_26f0115\">Нажимая кнопку, вы предоставляете согласие на обработку персональных данных.</label> </span> </div> </div> <div class=\"elementor-field-group elementor-column elementor-field-type-sub"
+    },
+    {
+      "page": "https://weident.ru/doctors/amina-ardavova/",
+      "form_id": "Форма Заявки",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"elementor-form\" method=\"post\" name=\"Форма Заявки\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"form_fields[field_8ab2396]\" id=\"form-field-field_8ab2396\" class=\"elementor-field elementor-size-sm elementor-acceptance-field\" required=\"required\" aria-required=\"true\">",
+      "policy_poc": "uired=\"true\"> <label for=\"form-field-field_8ab2396\">Нажимая кнопку, вы предоставляете согласие на обработку персональных данных.</label> </span> </div> </div> <div class=\"elementor-field-group elementor-column elementor-field-type-sub"
+    },
+    {
+      "page": "https://weident.ru/doctors/amina-ardavova/",
+      "form_id": "Форма Заявки",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"elementor-form\" method=\"post\" name=\"Форма Заявки\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"form_fields[field_26f0115]\" id=\"form-field-field_26f0115\" class=\"elementor-field elementor-size-sm elementor-acceptance-field\" required=\"required\" aria-required=\"true\">",
+      "policy_poc": "uired=\"true\"> <label for=\"form-field-field_26f0115\">Нажимая кнопку, вы предоставляете согласие на обработку персональных данных.</label> </span> </div> </div> <div class=\"elementor-field-group elementor-column elementor-field-type-sub"
+    },
+    {
+      "page": "https://weident.ru/doctors/bidzhiyeva-fatima-akhmatovna/",
+      "form_id": "Форма Заявки",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"elementor-form\" method=\"post\" name=\"Форма Заявки\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"form_fields[field_8ab2396]\" id=\"form-field-field_8ab2396\" class=\"elementor-field elementor-size-sm elementor-acceptance-field\" required=\"required\" aria-required=\"true\">",
+      "policy_poc": "uired=\"true\"> <label for=\"form-field-field_8ab2396\">Нажимая кнопку, вы предоставляете согласие на обработку персональных данных.</label> </span> </div> </div> <div class=\"elementor-field-group elementor-column elementor-field-type-sub"
+    },
+    {
+      "page": "https://weident.ru/doctors/bidzhiyeva-fatima-akhmatovna/",
+      "form_id": "Форма Заявки",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"elementor-form\" method=\"post\" name=\"Форма Заявки\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"form_fields[field_26f0115]\" id=\"form-field-field_26f0115\" class=\"elementor-field elementor-size-sm elementor-acceptance-field\" required=\"required\" aria-required=\"true\">",
+      "policy_poc": "uired=\"true\"> <label for=\"form-field-field_26f0115\">Нажимая кнопку, вы предоставляете согласие на обработку персональных данных.</label> </span> </div> </div> <div class=\"elementor-field-group elementor-column elementor-field-type-sub"
+    },
+    {
+      "page": "https://weident.ru/doctors/karina-ruslanovna-gubzheyeva/",
+      "form_id": "Форма Заявки",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"elementor-form\" method=\"post\" name=\"Форма Заявки\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"form_fields[field_8ab2396]\" id=\"form-field-field_8ab2396\" class=\"elementor-field elementor-size-sm elementor-acceptance-field\" required=\"required\" aria-required=\"true\">",
+      "policy_poc": "uired=\"true\"> <label for=\"form-field-field_8ab2396\">Нажимая кнопку, вы предоставляете согласие на обработку персональных данных.</label> </span> </div> </div> <div class=\"elementor-field-group elementor-column elementor-field-type-sub"
+    },
+    {
+      "page": "https://weident.ru/doctors/karina-ruslanovna-gubzheyeva/",
+      "form_id": "Форма Заявки",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"elementor-form\" method=\"post\" name=\"Форма Заявки\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"form_fields[field_26f0115]\" id=\"form-field-field_26f0115\" class=\"elementor-field elementor-size-sm elementor-acceptance-field\" required=\"required\" aria-required=\"true\">",
+      "policy_poc": "uired=\"true\"> <label for=\"form-field-field_26f0115\">Нажимая кнопку, вы предоставляете согласие на обработку персональных данных.</label> </span> </div> </div> <div class=\"elementor-field-group elementor-column elementor-field-type-sub"
+    },
+    {
+      "page": "https://weident.ru/doctors/madina-umarovna-gorbakova/",
+      "form_id": "Форма Заявки",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"elementor-form\" method=\"post\" name=\"Форма Заявки\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"form_fields[field_8ab2396]\" id=\"form-field-field_8ab2396\" class=\"elementor-field elementor-size-sm elementor-acceptance-field\" required=\"required\" aria-required=\"true\">",
+      "policy_poc": "uired=\"true\"> <label for=\"form-field-field_8ab2396\">Нажимая кнопку, вы предоставляете согласие на обработку персональных данных.</label> </span> </div> </div> <div class=\"elementor-field-group elementor-column elementor-field-type-sub"
+    },
+    {
+      "page": "https://weident.ru/doctors/madina-umarovna-gorbakova/",
+      "form_id": "Форма Заявки",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"elementor-form\" method=\"post\" name=\"Форма Заявки\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"form_fields[field_26f0115]\" id=\"form-field-field_26f0115\" class=\"elementor-field elementor-size-sm elementor-acceptance-field\" required=\"required\" aria-required=\"true\">",
+      "policy_poc": "uired=\"true\"> <label for=\"form-field-field_26f0115\">Нажимая кнопку, вы предоставляете согласие на обработку персональных данных.</label> </span> </div> </div> <div class=\"elementor-field-group elementor-column elementor-field-type-sub"
+    },
+    {
+      "page": "https://weident.ru/doctors/nurmagomedov-ruslan-alilovich/",
+      "form_id": "Форма Заявки",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"elementor-form\" method=\"post\" name=\"Форма Заявки\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"form_fields[field_8ab2396]\" id=\"form-field-field_8ab2396\" class=\"elementor-field elementor-size-sm elementor-acceptance-field\" required=\"required\" aria-required=\"true\">",
+      "policy_poc": "uired=\"true\"> <label for=\"form-field-field_8ab2396\">Нажимая кнопку, вы предоставляете согласие на обработку персональных данных.</label> </span> </div> </div> <div class=\"elementor-field-group elementor-column elementor-field-type-sub"
+    },
+    {
+      "page": "https://weident.ru/doctors/nurmagomedov-ruslan-alilovich/",
+      "form_id": "Форма Заявки",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"elementor-form\" method=\"post\" name=\"Форма Заявки\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"form_fields[field_26f0115]\" id=\"form-field-field_26f0115\" class=\"elementor-field elementor-size-sm elementor-acceptance-field\" required=\"required\" aria-required=\"true\">",
+      "policy_poc": "uired=\"true\"> <label for=\"form-field-field_26f0115\">Нажимая кнопку, вы предоставляете согласие на обработку персональных данных.</label> </span> </div> </div> <div class=\"elementor-field-group elementor-column elementor-field-type-sub"
+    },
+    {
+      "page": "https://weident.ru/doctors/vaskov-sergey/",
+      "form_id": "Форма Заявки",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"elementor-form\" method=\"post\" name=\"Форма Заявки\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"form_fields[field_8ab2396]\" id=\"form-field-field_8ab2396\" class=\"elementor-field elementor-size-sm elementor-acceptance-field\" required=\"required\" aria-required=\"true\">",
+      "policy_poc": "uired=\"true\"> <label for=\"form-field-field_8ab2396\">Нажимая кнопку, вы предоставляете согласие на обработку персональных данных.</label> </span> </div> </div> <div class=\"elementor-field-group elementor-column elementor-field-type-sub"
+    },
+    {
+      "page": "https://weident.ru/doctors/vaskov-sergey/",
+      "form_id": "Форма Заявки",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"elementor-form\" method=\"post\" name=\"Форма Заявки\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"form_fields[field_26f0115]\" id=\"form-field-field_26f0115\" class=\"elementor-field elementor-size-sm elementor-acceptance-field\" required=\"required\" aria-required=\"true\">",
+      "policy_poc": "uired=\"true\"> <label for=\"form-field-field_26f0115\">Нажимая кнопку, вы предоставляете согласие на обработку персональных данных.</label> </span> </div> </div> <div class=\"elementor-field-group elementor-column elementor-field-type-sub"
+    },
+    {
+      "page": "https://weident.ru/doctors/zalina-amirkhanovna-galaeva/",
+      "form_id": "Форма Заявки",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"elementor-form\" method=\"post\" name=\"Форма Заявки\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"form_fields[field_8ab2396]\" id=\"form-field-field_8ab2396\" class=\"elementor-field elementor-size-sm elementor-acceptance-field\" required=\"required\" aria-required=\"true\">",
+      "policy_poc": "uired=\"true\"> <label for=\"form-field-field_8ab2396\">Нажимая кнопку, вы предоставляете согласие на обработку персональных данных.</label> </span> </div> </div> <div class=\"elementor-field-group elementor-column elementor-field-type-sub"
+    },
+    {
+      "page": "https://weident.ru/doctors/zalina-amirkhanovna-galaeva/",
+      "form_id": "Форма Заявки",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"elementor-form\" method=\"post\" name=\"Форма Заявки\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"form_fields[field_26f0115]\" id=\"form-field-field_26f0115\" class=\"elementor-field elementor-size-sm elementor-acceptance-field\" required=\"required\" aria-required=\"true\">",
+      "policy_poc": "uired=\"true\"> <label for=\"form-field-field_26f0115\">Нажимая кнопку, вы предоставляете согласие на обработку персональных данных.</label> </span> </div> </div> <div class=\"elementor-field-group elementor-column elementor-field-type-sub"
+    },
+    {
+      "page": "https://weident.ru/doctors/zurab-takhirovich-seynaroyev/",
+      "form_id": "Форма Заявки",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"elementor-form\" method=\"post\" name=\"Форма Заявки\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"form_fields[field_8ab2396]\" id=\"form-field-field_8ab2396\" class=\"elementor-field elementor-size-sm elementor-acceptance-field\" required=\"required\" aria-required=\"true\">",
+      "policy_poc": "uired=\"true\"> <label for=\"form-field-field_8ab2396\">Нажимая кнопку, вы предоставляете согласие на обработку персональных данных.</label> </span> </div> </div> <div class=\"elementor-field-group elementor-column elementor-field-type-sub"
+    },
+    {
+      "page": "https://weident.ru/doctors/zurab-takhirovich-seynaroyev/",
+      "form_id": "Форма Заявки",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"elementor-form\" method=\"post\" name=\"Форма Заявки\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"form_fields[field_26f0115]\" id=\"form-field-field_26f0115\" class=\"elementor-field elementor-size-sm elementor-acceptance-field\" required=\"required\" aria-required=\"true\">",
+      "policy_poc": "uired=\"true\"> <label for=\"form-field-field_26f0115\">Нажимая кнопку, вы предоставляете согласие на обработку персональных данных.</label> </span> </div> </div> <div class=\"elementor-field-group elementor-column elementor-field-type-sub"
+    },
+    {
+      "page": "https://weident.ru/privacy",
+      "form_id": "Форма Заявки",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"elementor-form\" method=\"post\" name=\"Форма Заявки\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"form_fields[field_8ab2396]\" id=\"form-field-field_8ab2396\" class=\"elementor-field elementor-size-sm elementor-acceptance-field\" required=\"required\" aria-required=\"true\">",
+      "policy_poc": "uired=\"true\"> <label for=\"form-field-field_8ab2396\">Нажимая кнопку, вы предоставляете согласие на обработку персональных данных.</label> </span> </div> </div> <div class=\"elementor-field-group elementor-column elementor-field-type-sub"
+    },
+    {
+      "page": "https://weident.ru/privacy",
+      "form_id": "Форма Заявки",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"elementor-form\" method=\"post\" name=\"Форма Заявки\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"form_fields[field_26f0115]\" id=\"form-field-field_26f0115\" class=\"elementor-field elementor-size-sm elementor-acceptance-field\" required=\"required\" aria-required=\"true\">",
+      "policy_poc": "uired=\"true\"> <label for=\"form-field-field_26f0115\">Нажимая кнопку, вы предоставляете согласие на обработку персональных данных.</label> </span> </div> </div> <div class=\"elementor-field-group elementor-column elementor-field-type-sub"
+    },
+    {
+      "page": "https://weident.ru/privacy-policy/",
+      "form_id": "Форма Заявки",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"elementor-form\" method=\"post\" name=\"Форма Заявки\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"form_fields[field_8ab2396]\" id=\"form-field-field_8ab2396\" class=\"elementor-field elementor-size-sm elementor-acceptance-field\" required=\"required\" aria-required=\"true\">",
+      "policy_poc": "uired=\"true\"> <label for=\"form-field-field_8ab2396\">Нажимая кнопку, вы предоставляете согласие на обработку персональных данных.</label> </span> </div> </div> <div class=\"elementor-field-group elementor-column elementor-field-type-sub"
+    },
+    {
+      "page": "https://weident.ru/privacy-policy/",
+      "form_id": "Форма Заявки",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"elementor-form\" method=\"post\" name=\"Форма Заявки\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"form_fields[field_26f0115]\" id=\"form-field-field_26f0115\" class=\"elementor-field elementor-size-sm elementor-acceptance-field\" required=\"required\" aria-required=\"true\">",
+      "policy_poc": "uired=\"true\"> <label for=\"form-field-field_26f0115\">Нажимая кнопку, вы предоставляете согласие на обработку персональных данных.</label> </span> </div> </div> <div class=\"elementor-field-group elementor-column elementor-field-type-sub"
+    }
+  ],
+  "emails": [
+    "mail@weident.ru",
+    "weident@yandex.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://weident.ru/",
+      "href": "https://weident.ru/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://weident.ru/",
+      "href": "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjY1NDAiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://weident.ru/",
+      "href": "https://weident.ru/privacy-policy/",
+      "text": "Политика конфиденциальности персональных данных"
+    },
+    {
+      "page": "https://weident.ru/contacts/",
+      "href": "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjY1NDAiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://weident.ru/contacts/",
+      "href": "https://weident.ru/privacy-policy/",
+      "text": "Политика конфиденциальности персональных данных"
+    },
+    {
+      "page": "https://weident.ru/contacts/",
+      "href": "https://weident.ru/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://weident.ru/doctors/",
+      "href": "https://weident.ru/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://weident.ru/doctors/",
+      "href": "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjY1NDAiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://weident.ru/doctors/",
+      "href": "https://weident.ru/privacy-policy/",
+      "text": "Политика конфиденциальности персональных данных"
+    },
+    {
+      "page": "https://weident.ru/doctors/%d0%b7%d0%b0%d1%80%d0%b8%d0%bd%d0%b0-%d0%bd%d0%b0%d1%81%d0%b8%d1%80%d0%be%d0%b2%d0%bd%d0%b0-%d0%bc%d0%b0%d0%b3%d0%b0%d0%bc%d0%bc%d0%b0%d1%82%d0%be%d0%b2%d0%b0/",
+      "href": "https://weident.ru/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://weident.ru/doctors/%d0%b7%d0%b0%d1%80%d0%b8%d0%bd%d0%b0-%d0%bd%d0%b0%d1%81%d0%b8%d1%80%d0%be%d0%b2%d0%bd%d0%b0-%d0%bc%d0%b0%d0%b3%d0%b0%d0%bc%d0%bc%d0%b0%d1%82%d0%be%d0%b2%d0%b0/",
+      "href": "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjY1NDAiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://weident.ru/doctors/%d0%b7%d0%b0%d1%80%d0%b8%d0%bd%d0%b0-%d0%bd%d0%b0%d1%81%d0%b8%d1%80%d0%be%d0%b2%d0%bd%d0%b0-%d0%bc%d0%b0%d0%b3%d0%b0%d0%bc%d0%bc%d0%b0%d1%82%d0%be%d0%b2%d0%b0/",
+      "href": "https://weident.ru/privacy-policy/",
+      "text": "Политика конфиденциальности персональных данных"
+    },
+    {
+      "page": "https://weident.ru/doctors/%d1%80%d0%b0%d0%bc%d0%b0%d0%b7%d0%b0%d0%bd-%d0%b8%d0%b1%d1%80%d0%b0%d0%b3%d0%b8%d0%bc%d0%be%d0%b2%d0%b8%d1%87-%d0%b0%d0%ba%d0%b0%d0%b5%d0%b2/",
+      "href": "https://weident.ru/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://weident.ru/doctors/%d1%80%d0%b0%d0%bc%d0%b0%d0%b7%d0%b0%d0%bd-%d0%b8%d0%b1%d1%80%d0%b0%d0%b3%d0%b8%d0%bc%d0%be%d0%b2%d0%b8%d1%87-%d0%b0%d0%ba%d0%b0%d0%b5%d0%b2/",
+      "href": "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjY1NDAiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://weident.ru/doctors/%d1%80%d0%b0%d0%bc%d0%b0%d0%b7%d0%b0%d0%bd-%d0%b8%d0%b1%d1%80%d0%b0%d0%b3%d0%b8%d0%bc%d0%be%d0%b2%d0%b8%d1%87-%d0%b0%d0%ba%d0%b0%d0%b5%d0%b2/",
+      "href": "https://weident.ru/privacy-policy/",
+      "text": "Политика конфиденциальности персональных данных"
+    },
+    {
+      "page": "https://weident.ru/doctors/akmal-marufdzhonovich-rabiev/",
+      "href": "https://weident.ru/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://weident.ru/doctors/akmal-marufdzhonovich-rabiev/",
+      "href": "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjY1NDAiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://weident.ru/doctors/akmal-marufdzhonovich-rabiev/",
+      "href": "https://weident.ru/privacy-policy/",
+      "text": "Политика конфиденциальности персональных данных"
+    },
+    {
+      "page": "https://weident.ru/doctors/amina-ardavova/",
+      "href": "https://weident.ru/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://weident.ru/doctors/amina-ardavova/",
+      "href": "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjY1NDAiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://weident.ru/doctors/amina-ardavova/",
+      "href": "https://weident.ru/privacy-policy/",
+      "text": "Политика конфиденциальности персональных данных"
+    },
+    {
+      "page": "https://weident.ru/doctors/bidzhiyeva-fatima-akhmatovna/",
+      "href": "https://weident.ru/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://weident.ru/doctors/bidzhiyeva-fatima-akhmatovna/",
+      "href": "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjY1NDAiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://weident.ru/doctors/bidzhiyeva-fatima-akhmatovna/",
+      "href": "https://weident.ru/privacy-policy/",
+      "text": "Политика конфиденциальности персональных данных"
+    },
+    {
+      "page": "https://weident.ru/doctors/karina-ruslanovna-gubzheyeva/",
+      "href": "https://weident.ru/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://weident.ru/doctors/karina-ruslanovna-gubzheyeva/",
+      "href": "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjY1NDAiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://weident.ru/doctors/karina-ruslanovna-gubzheyeva/",
+      "href": "https://weident.ru/privacy-policy/",
+      "text": "Политика конфиденциальности персональных данных"
+    },
+    {
+      "page": "https://weident.ru/doctors/madina-umarovna-gorbakova/",
+      "href": "https://weident.ru/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://weident.ru/doctors/madina-umarovna-gorbakova/",
+      "href": "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjY1NDAiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://weident.ru/doctors/madina-umarovna-gorbakova/",
+      "href": "https://weident.ru/privacy-policy/",
+      "text": "Политика конфиденциальности персональных данных"
+    },
+    {
+      "page": "https://weident.ru/doctors/nurmagomedov-ruslan-alilovich/",
+      "href": "https://weident.ru/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://weident.ru/doctors/nurmagomedov-ruslan-alilovich/",
+      "href": "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjY1NDAiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://weident.ru/doctors/nurmagomedov-ruslan-alilovich/",
+      "href": "https://weident.ru/privacy-policy/",
+      "text": "Политика конфиденциальности персональных данных"
+    },
+    {
+      "page": "https://weident.ru/doctors/vaskov-sergey/",
+      "href": "https://weident.ru/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://weident.ru/doctors/vaskov-sergey/",
+      "href": "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjY1NDAiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://weident.ru/doctors/vaskov-sergey/",
+      "href": "https://weident.ru/privacy-policy/",
+      "text": "Политика конфиденциальности персональных данных"
+    },
+    {
+      "page": "https://weident.ru/doctors/zalina-amirkhanovna-galaeva/",
+      "href": "https://weident.ru/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://weident.ru/doctors/zalina-amirkhanovna-galaeva/",
+      "href": "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjY1NDAiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://weident.ru/doctors/zalina-amirkhanovna-galaeva/",
+      "href": "https://weident.ru/privacy-policy/",
+      "text": "Политика конфиденциальности персональных данных"
+    },
+    {
+      "page": "https://weident.ru/doctors/zurab-takhirovich-seynaroyev/",
+      "href": "https://weident.ru/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://weident.ru/doctors/zurab-takhirovich-seynaroyev/",
+      "href": "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjY1NDAiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://weident.ru/doctors/zurab-takhirovich-seynaroyev/",
+      "href": "https://weident.ru/privacy-policy/",
+      "text": "Политика конфиденциальности персональных данных"
+    },
+    {
+      "page": "https://weident.ru/privacy",
+      "href": "https://weident.ru/privacy",
+      "text": "policy path"
+    },
+    {
+      "page": "https://weident.ru/privacy",
+      "href": "https://weident.ru/privacy-policy/",
+      "text": "https://weident.ru/privacy-policy/"
+    },
+    {
+      "page": "https://weident.ru/privacy",
+      "href": "https://weident.ru/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://weident.ru/privacy",
+      "href": "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjY1NDAiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://weident.ru/privacy",
+      "href": "https://weident.ru/privacy-policy/",
+      "text": "Политика конфиденциальности персональных данных"
+    },
+    {
+      "page": "https://weident.ru/privacy-policy/",
+      "href": "https://weident.ru/privacy-policy/",
+      "text": "policy path"
+    },
+    {
+      "page": "https://weident.ru/privacy-policy/",
+      "href": "https://weident.ru/privacy-policy/",
+      "text": "https://weident.ru/privacy-policy/"
+    },
+    {
+      "page": "https://weident.ru/privacy-policy/",
+      "href": "https://weident.ru/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://weident.ru/privacy-policy/",
+      "href": "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjY1NDAiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://weident.ru/privacy-policy/",
+      "href": "https://weident.ru/privacy-policy/",
+      "text": "Политика конфиденциальности персональных данных"
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [
+    {
+      "url": "https://weident.ru/doctors/зарина-насировна-магамматова/",
+      "error": "'ascii' codec can't encode characters in position 13-18: ordinal not in range(128)"
+    },
+    {
+      "url": "https://weident.ru/doctors/рамазан-ибрагимович-акаев/",
+      "error": "'ascii' codec can't encode characters in position 13-19: ordinal not in range(128)"
+    }
+  ],
+  "discovery": {
+    "contact_urls": [
+      "https://weident.ru/contacts/"
+    ],
+    "booking_urls": [
+      "https://weident.ru/"
+    ],
+    "legal_urls": [
+      "https://weident.ru/doctors/",
+      "https://weident.ru/doctors/%d0%b7%d0%b0%d1%80%d0%b8%d0%bd%d0%b0-%d0%bd%d0%b0%d1%81%d0%b8%d1%80%d0%be%d0%b2%d0%bd%d0%b0-%d0%bc%d0%b0%d0%b3%d0%b0%d0%bc%d0%bc%d0%b0%d1%82%d0%be%d0%b2%d0%b0/",
+      "https://weident.ru/doctors/%d1%80%d0%b0%d0%bc%d0%b0%d0%b7%d0%b0%d0%bd-%d0%b8%d0%b1%d1%80%d0%b0%d0%b3%d0%b8%d0%bc%d0%be%d0%b2%d0%b8%d1%87-%d0%b0%d0%ba%d0%b0%d0%b5%d0%b2/",
+      "https://weident.ru/doctors/akmal-marufdzhonovich-rabiev/",
+      "https://weident.ru/doctors/amina-ardavova/",
+      "https://weident.ru/doctors/bidzhiyeva-fatima-akhmatovna/",
+      "https://weident.ru/doctors/karina-ruslanovna-gubzheyeva/",
+      "https://weident.ru/doctors/madina-umarovna-gorbakova/",
+      "https://weident.ru/doctors/nurmagomedov-ruslan-alilovich/",
+      "https://weident.ru/doctors/vaskov-sergey/",
+      "https://weident.ru/doctors/zalina-amirkhanovna-galaeva/",
+      "https://weident.ru/doctors/zurab-takhirovich-seynaroyev/",
+      "https://weident.ru/doctors/зарина-насировна-магамматова/",
+      "https://weident.ru/doctors/рамазан-ибрагимович-акаев/",
+      "https://weident.ru/privacy",
+      "https://weident.ru/privacy-policy/"
+    ],
+    "sources": {
+      "https://weident.ru/": "home-booking-candidate",
+      "https://weident.ru/contacts/": "navigation",
+      "https://weident.ru/doctors/": "navigation-legal",
+      "https://weident.ru/doctors/%d0%b7%d0%b0%d1%80%d0%b8%d0%bd%d0%b0-%d0%bd%d0%b0%d1%81%d0%b8%d1%80%d0%be%d0%b2%d0%bd%d0%b0-%d0%bc%d0%b0%d0%b3%d0%b0%d0%bc%d0%bc%d0%b0%d1%82%d0%be%d0%b2%d0%b0/": "navigation-legal",
+      "https://weident.ru/doctors/%d1%80%d0%b0%d0%bc%d0%b0%d0%b7%d0%b0%d0%bd-%d0%b8%d0%b1%d1%80%d0%b0%d0%b3%d0%b8%d0%bc%d0%be%d0%b2%d0%b8%d1%87-%d0%b0%d0%ba%d0%b0%d0%b5%d0%b2/": "navigation-legal",
+      "https://weident.ru/doctors/akmal-marufdzhonovich-rabiev/": "navigation-legal",
+      "https://weident.ru/doctors/amina-ardavova/": "navigation-legal",
+      "https://weident.ru/doctors/bidzhiyeva-fatima-akhmatovna/": "navigation-legal",
+      "https://weident.ru/doctors/karina-ruslanovna-gubzheyeva/": "navigation-legal",
+      "https://weident.ru/doctors/madina-umarovna-gorbakova/": "navigation-legal",
+      "https://weident.ru/doctors/nurmagomedov-ruslan-alilovich/": "navigation-legal",
+      "https://weident.ru/doctors/vaskov-sergey/": "navigation-legal",
+      "https://weident.ru/doctors/zalina-amirkhanovna-galaeva/": "navigation-legal",
+      "https://weident.ru/doctors/zurab-takhirovich-seynaroyev/": "navigation-legal",
+      "https://weident.ru/doctors/зарина-насировна-магамматова/": "navigation-legal",
+      "https://weident.ru/doctors/рамазан-ибрагимович-акаев/": "navigation-legal",
+      "https://weident.ru/privacy": "policy-hint",
+      "https://weident.ru/privacy-policy/": "navigation-legal"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": false
+    }
+  }
+}

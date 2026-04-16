@@ -1,0 +1,153 @@
+{
+  "domain": "garibaldi21.ru",
+  "pages": [
+    {
+      "requested": "https://garibaldi21.ru/",
+      "status": 200,
+      "final_url": "https://garibaldi21.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://garibaldi21.ru/contacts",
+      "status": 200,
+      "final_url": "https://garibaldi21.ru/contacts",
+      "error": null
+    },
+    {
+      "requested": "https://garibaldi21.ru/appointment",
+      "status": 404,
+      "final_url": "https://garibaldi21.ru/appointment",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://garibaldi21.ru/booking",
+      "status": 404,
+      "final_url": "https://garibaldi21.ru/booking",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://garibaldi21.ru/zapis",
+      "status": 404,
+      "final_url": "https://garibaldi21.ru/zapis",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://garibaldi21.ru/doctors",
+      "status": 200,
+      "final_url": "https://garibaldi21.ru/doctors",
+      "error": null
+    },
+    {
+      "requested": "https://garibaldi21.ru/doctors/abramyan-arsen-karenovich/",
+      "status": 200,
+      "final_url": "https://garibaldi21.ru/doctors/abramyan-arsen-karenovich/",
+      "error": null
+    },
+    {
+      "requested": "https://garibaldi21.ru/doctors/abramyan-artur-karenovich/",
+      "status": 200,
+      "final_url": "https://garibaldi21.ru/doctors/abramyan-artur-karenovich/",
+      "error": null
+    },
+    {
+      "requested": "https://garibaldi21.ru/doctors/arkaeva-viktoriya-valerevna/",
+      "status": 200,
+      "final_url": "https://garibaldi21.ru/doctors/arkaeva-viktoriya-valerevna/",
+      "error": null
+    },
+    {
+      "requested": "https://garibaldi21.ru/doctors/filchakov-andrej-andreevich",
+      "status": 200,
+      "final_url": "https://garibaldi21.ru/doctors/filchakov-andrej-andreevich",
+      "error": null
+    },
+    {
+      "requested": "https://garibaldi21.ru/doctors/kasumov-khazar-sudzhayat-ogly",
+      "status": 200,
+      "final_url": "https://garibaldi21.ru/doctors/kasumov-khazar-sudzhayat-ogly",
+      "error": null
+    },
+    {
+      "requested": "https://garibaldi21.ru/doctors/liamzin_sergei_sergeevich/",
+      "status": 200,
+      "final_url": "https://garibaldi21.ru/doctors/liamzin_sergei_sergeevich/",
+      "error": null
+    },
+    {
+      "requested": "https://garibaldi21.ru/doctors/lukin-arseniy-mikhaylovich",
+      "status": 200,
+      "final_url": "https://garibaldi21.ru/doctors/lukin-arseniy-mikhaylovich",
+      "error": null
+    },
+    {
+      "requested": "https://garibaldi21.ru/doctors/rodina-margarita-vladimirovna",
+      "status": 200,
+      "final_url": "https://garibaldi21.ru/doctors/rodina-margarita-vladimirovna",
+      "error": null
+    },
+    {
+      "requested": "https://garibaldi21.ru/doctors/rusak-zhaklin-ilinichna",
+      "status": 200,
+      "final_url": "https://garibaldi21.ru/doctors/rusak-zhaklin-ilinichna",
+      "error": null
+    },
+    {
+      "requested": "https://garibaldi21.ru/doctors/sysoyev-pavel-gennadyevich",
+      "status": 200,
+      "final_url": "https://garibaldi21.ru/doctors/sysoyev-pavel-gennadyevich",
+      "error": null
+    }
+  ],
+  "forms": [],
+  "emails": [],
+  "privacy_links": [],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://garibaldi21.ru/contacts"
+    ],
+    "booking_urls": [
+      "https://garibaldi21.ru/appointment",
+      "https://garibaldi21.ru/booking",
+      "https://garibaldi21.ru/zapis"
+    ],
+    "legal_urls": [
+      "https://garibaldi21.ru/doctors",
+      "https://garibaldi21.ru/doctors/abramyan-arsen-karenovich/",
+      "https://garibaldi21.ru/doctors/abramyan-artur-karenovich/",
+      "https://garibaldi21.ru/doctors/arkaeva-viktoriya-valerevna/",
+      "https://garibaldi21.ru/doctors/filchakov-andrej-andreevich",
+      "https://garibaldi21.ru/doctors/kasumov-khazar-sudzhayat-ogly",
+      "https://garibaldi21.ru/doctors/liamzin_sergei_sergeevich/",
+      "https://garibaldi21.ru/doctors/lukin-arseniy-mikhaylovich",
+      "https://garibaldi21.ru/doctors/rodina-margarita-vladimirovna",
+      "https://garibaldi21.ru/doctors/rusak-zhaklin-ilinichna",
+      "https://garibaldi21.ru/doctors/sysoyev-pavel-gennadyevich"
+    ],
+    "sources": {
+      "https://garibaldi21.ru/": "",
+      "https://garibaldi21.ru/appointment": "fallback",
+      "https://garibaldi21.ru/booking": "fallback",
+      "https://garibaldi21.ru/contacts": "sitemap",
+      "https://garibaldi21.ru/doctors": "sitemap-legal",
+      "https://garibaldi21.ru/doctors/abramyan-arsen-karenovich/": "sitemap-legal",
+      "https://garibaldi21.ru/doctors/abramyan-artur-karenovich/": "sitemap-legal",
+      "https://garibaldi21.ru/doctors/arkaeva-viktoriya-valerevna/": "sitemap-legal",
+      "https://garibaldi21.ru/doctors/filchakov-andrej-andreevich": "sitemap-legal",
+      "https://garibaldi21.ru/doctors/kasumov-khazar-sudzhayat-ogly": "sitemap-legal",
+      "https://garibaldi21.ru/doctors/liamzin_sergei_sergeevich/": "sitemap-legal",
+      "https://garibaldi21.ru/doctors/lukin-arseniy-mikhaylovich": "sitemap-legal",
+      "https://garibaldi21.ru/doctors/rodina-margarita-vladimirovna": "sitemap-legal",
+      "https://garibaldi21.ru/doctors/rusak-zhaklin-ilinichna": "sitemap-legal",
+      "https://garibaldi21.ru/doctors/sysoyev-pavel-gennadyevich": "sitemap-legal",
+      "https://garibaldi21.ru/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": true
+    },
+    "sitemap_total_urls": 63,
+    "sitemap_used_urls": 63
+  }
+}

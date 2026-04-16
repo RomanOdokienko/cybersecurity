@@ -1,0 +1,713 @@
+{
+  "domain": "mela-clinic.ru",
+  "pages": [
+    {
+      "requested": "https://mela-clinic.ru/",
+      "status": 200,
+      "final_url": "https://mela-clinic.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://mela-clinic.ru/contact",
+      "status": 404,
+      "final_url": "https://mela-clinic.ru/contact",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://mela-clinic.ru/contacts",
+      "status": 404,
+      "final_url": "https://mela-clinic.ru/contacts",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://mela-clinic.ru/kontakty",
+      "status": 404,
+      "final_url": "https://mela-clinic.ru/kontakty",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://mela-clinic.ru/1",
+      "status": 200,
+      "final_url": "https://mela-clinic.ru/1",
+      "error": null
+    },
+    {
+      "requested": "https://mela-clinic.ru/3d",
+      "status": 200,
+      "final_url": "https://mela-clinic.ru/3d",
+      "error": null
+    },
+    {
+      "requested": "https://mela-clinic.ru/bagiyan",
+      "status": 200,
+      "final_url": "https://mela-clinic.ru/bagiyan",
+      "error": null
+    },
+    {
+      "requested": "https://mela-clinic.ru/basin",
+      "status": 200,
+      "final_url": "https://mela-clinic.ru/basin",
+      "error": null
+    },
+    {
+      "requested": "https://mela-clinic.ru/brands_of_implants",
+      "status": 200,
+      "final_url": "https://mela-clinic.ru/brands_of_implants",
+      "error": null
+    },
+    {
+      "requested": "https://mela-clinic.ru/cookie",
+      "status": 200,
+      "final_url": "https://mela-clinic.ru/cookie",
+      "error": null
+    },
+    {
+      "requested": "https://mela-clinic.ru/danelyan",
+      "status": 200,
+      "final_url": "https://mela-clinic.ru/danelyan",
+      "error": null
+    },
+    {
+      "requested": "https://mela-clinic.ru/darbinyan",
+      "status": 200,
+      "final_url": "https://mela-clinic.ru/darbinyan",
+      "error": null
+    },
+    {
+      "requested": "https://mela-clinic.ru/darbinyan-edgar",
+      "status": 200,
+      "final_url": "https://mela-clinic.ru/darbinyan-edgar",
+      "error": null
+    },
+    {
+      "requested": "https://mela-clinic.ru/darbinyan-milena",
+      "status": 200,
+      "final_url": "https://mela-clinic.ru/darbinyan-milena",
+      "error": null
+    },
+    {
+      "requested": "https://mela-clinic.ru/davydova",
+      "status": 200,
+      "final_url": "https://mela-clinic.ru/davydova",
+      "error": null
+    },
+    {
+      "requested": "https://mela-clinic.ru/implant",
+      "status": 200,
+      "final_url": "https://mela-clinic.ru/implant",
+      "error": null
+    },
+    {
+      "requested": "https://mela-clinic.ru/implantaciya-zubov",
+      "status": 200,
+      "final_url": "https://mela-clinic.ru/implantaciya-zubov",
+      "error": null
+    },
+    {
+      "requested": "https://mela-clinic.ru/kokaeva",
+      "status": 200,
+      "final_url": "https://mela-clinic.ru/kokaeva",
+      "error": null
+    },
+    {
+      "requested": "https://mela-clinic.ru/main",
+      "status": 200,
+      "final_url": "https://mela-clinic.ru/main",
+      "error": null
+    },
+    {
+      "requested": "https://mela-clinic.ru/matevosyan",
+      "status": 200,
+      "final_url": "https://mela-clinic.ru/matevosyan",
+      "error": null
+    },
+    {
+      "requested": "https://mela-clinic.ru/page61722643.html",
+      "status": 200,
+      "final_url": "https://mela-clinic.ru/page61722643.html",
+      "error": null
+    },
+    {
+      "requested": "https://mela-clinic.ru/price",
+      "status": 200,
+      "final_url": "https://mela-clinic.ru/price",
+      "error": null
+    },
+    {
+      "requested": "https://mela-clinic.ru/price-list",
+      "status": 200,
+      "final_url": "https://mela-clinic.ru/price-list",
+      "error": null
+    },
+    {
+      "requested": "https://mela-clinic.ru/privacy",
+      "status": 200,
+      "final_url": "https://mela-clinic.ru/privacy",
+      "error": null
+    },
+    {
+      "requested": "https://mela-clinic.ru/rahmonova",
+      "status": 200,
+      "final_url": "https://mela-clinic.ru/rahmonova",
+      "error": null
+    },
+    {
+      "requested": "https://mela-clinic.ru/rejuvenation_by_dental_implantation",
+      "status": 200,
+      "final_url": "https://mela-clinic.ru/rejuvenation_by_dental_implantation",
+      "error": null
+    },
+    {
+      "requested": "https://mela-clinic.ru/shirinyan",
+      "status": 200,
+      "final_url": "https://mela-clinic.ru/shirinyan",
+      "error": null
+    },
+    {
+      "requested": "https://mela-clinic.ru/typesofdentalprosthetics",
+      "status": 200,
+      "final_url": "https://mela-clinic.ru/typesofdentalprosthetics",
+      "error": null
+    },
+    {
+      "requested": "https://mela-clinic.ru/policy",
+      "status": 404,
+      "final_url": "https://mela-clinic.ru/policy",
+      "error": "HTTPError 404"
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://mela-clinic.ru/",
+      "form_id": "form758031652",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form758031652\" name='form758031652' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://mela-clinic.ru/",
+      "form_id": "form758020601",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form758020601\" name='form758020601' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://mela-clinic.ru/1",
+      "form_id": "form758031652",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form758031652\" name='form758031652' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://mela-clinic.ru/1",
+      "form_id": "form858309956",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form858309956\" name='form858309956' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://mela-clinic.ru/3d",
+      "form_id": "form758031652",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form758031652\" name='form758031652' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://mela-clinic.ru/bagiyan",
+      "form_id": "form758031652",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form758031652\" name='form758031652' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://mela-clinic.ru/basin",
+      "form_id": "form758031652",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form758031652\" name='form758031652' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://mela-clinic.ru/brands_of_implants",
+      "form_id": "form758031652",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form758031652\" name='form758031652' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://mela-clinic.ru/cookie",
+      "form_id": "form758031652",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form758031652\" name='form758031652' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://mela-clinic.ru/danelyan",
+      "form_id": "form758031652",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form758031652\" name='form758031652' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://mela-clinic.ru/darbinyan",
+      "form_id": "form758031652",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form758031652\" name='form758031652' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://mela-clinic.ru/darbinyan-edgar",
+      "form_id": "form758031652",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form758031652\" name='form758031652' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://mela-clinic.ru/darbinyan-milena",
+      "form_id": "form758031652",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form758031652\" name='form758031652' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://mela-clinic.ru/davydova",
+      "form_id": "form758031652",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form758031652\" name='form758031652' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://mela-clinic.ru/implant",
+      "form_id": "form758031652",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form758031652\" name='form758031652' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://mela-clinic.ru/implantaciya-zubov",
+      "form_id": "form758031652",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form758031652\" name='form758031652' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://mela-clinic.ru/implantaciya-zubov",
+      "form_id": "form872359289",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form872359289\" name='form872359289' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t678_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://mela-clinic.ru/kokaeva",
+      "form_id": "form758031652",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form758031652\" name='form758031652' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://mela-clinic.ru/main",
+      "form_id": "form758031652",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form758031652\" name='form758031652' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://mela-clinic.ru/main",
+      "form_id": "form758031768",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form758031768\" name='form758031768' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://mela-clinic.ru/matevosyan",
+      "form_id": "form758031652",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form758031652\" name='form758031652' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://mela-clinic.ru/page61722643.html",
+      "form_id": "form758031652",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form758031652\" name='form758031652' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://mela-clinic.ru/price",
+      "form_id": "form758031652",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form758031652\" name='form758031652' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://mela-clinic.ru/price-list",
+      "form_id": "form758031652",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form758031652\" name='form758031652' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://mela-clinic.ru/privacy",
+      "form_id": "form758031652",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form758031652\" name='form758031652' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://mela-clinic.ru/rahmonova",
+      "form_id": "form758031652",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form758031652\" name='form758031652' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://mela-clinic.ru/rejuvenation_by_dental_implantation",
+      "form_id": "form758031652",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form758031652\" name='form758031652' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://mela-clinic.ru/shirinyan",
+      "form_id": "form758031652",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form758031652\" name='form758031652' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://mela-clinic.ru/typesofdentalprosthetics",
+      "form_id": "form758031652",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form758031652\" name='form758031652' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    }
+  ],
+  "emails": [
+    "mail@example.com",
+    "melastom@yandex.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://mela-clinic.ru/",
+      "href": "https://clinicmela.ru/policy",
+      "text": "условиями обработки персональных данных"
+    },
+    {
+      "page": "https://mela-clinic.ru/1",
+      "href": "https://clinicmela.ru/policy",
+      "text": "условиями обработки персональных данных"
+    },
+    {
+      "page": "https://mela-clinic.ru/3d",
+      "href": "https://clinicmela.ru/policy",
+      "text": "условиями обработки персональных данных"
+    },
+    {
+      "page": "https://mela-clinic.ru/bagiyan",
+      "href": "https://clinicmela.ru/policy",
+      "text": "условиями обработки персональных данных"
+    },
+    {
+      "page": "https://mela-clinic.ru/basin",
+      "href": "https://clinicmela.ru/policy",
+      "text": "условиями обработки персональных данных"
+    },
+    {
+      "page": "https://mela-clinic.ru/brands_of_implants",
+      "href": "https://clinicmela.ru/policy",
+      "text": "условиями обработки персональных данных"
+    },
+    {
+      "page": "https://mela-clinic.ru/cookie",
+      "href": "https://clinicmela.ru/policy",
+      "text": "условиями обработки персональных данных"
+    },
+    {
+      "page": "https://mela-clinic.ru/danelyan",
+      "href": "https://clinicmela.ru/policy",
+      "text": "условиями обработки персональных данных"
+    },
+    {
+      "page": "https://mela-clinic.ru/darbinyan",
+      "href": "https://clinicmela.ru/policy",
+      "text": "условиями обработки персональных данных"
+    },
+    {
+      "page": "https://mela-clinic.ru/darbinyan-edgar",
+      "href": "https://clinicmela.ru/policy",
+      "text": "условиями обработки персональных данных"
+    },
+    {
+      "page": "https://mela-clinic.ru/darbinyan-milena",
+      "href": "https://clinicmela.ru/policy",
+      "text": "условиями обработки персональных данных"
+    },
+    {
+      "page": "https://mela-clinic.ru/davydova",
+      "href": "https://clinicmela.ru/policy",
+      "text": "условиями обработки персональных данных"
+    },
+    {
+      "page": "https://mela-clinic.ru/implant",
+      "href": "https://clinicmela.ru/policy",
+      "text": "условиями обработки персональных данных"
+    },
+    {
+      "page": "https://mela-clinic.ru/implantaciya-zubov",
+      "href": "https://clinicmela.ru/policy",
+      "text": "условиями обработки персональных данных"
+    },
+    {
+      "page": "https://mela-clinic.ru/kokaeva",
+      "href": "https://clinicmela.ru/policy",
+      "text": "условиями обработки персональных данных"
+    },
+    {
+      "page": "https://mela-clinic.ru/main",
+      "href": "https://clinicmela.ru/policy",
+      "text": "условиями обработки персональных данных"
+    },
+    {
+      "page": "https://mela-clinic.ru/matevosyan",
+      "href": "https://clinicmela.ru/policy",
+      "text": "условиями обработки персональных данных"
+    },
+    {
+      "page": "https://mela-clinic.ru/page61722643.html",
+      "href": "https://clinicmela.ru/policy",
+      "text": "условиями обработки персональных данных"
+    },
+    {
+      "page": "https://mela-clinic.ru/price",
+      "href": "https://clinicmela.ru/policy",
+      "text": "условиями обработки персональных данных"
+    },
+    {
+      "page": "https://mela-clinic.ru/price-list",
+      "href": "https://clinicmela.ru/policy",
+      "text": "условиями обработки персональных данных"
+    },
+    {
+      "page": "https://mela-clinic.ru/privacy",
+      "href": "https://mela-clinic.ru/privacy",
+      "text": "policy path"
+    },
+    {
+      "page": "https://mela-clinic.ru/privacy",
+      "href": "https://clinicmela.ru/policy",
+      "text": "условиями обработки персональных данных"
+    },
+    {
+      "page": "https://mela-clinic.ru/rahmonova",
+      "href": "https://clinicmela.ru/policy",
+      "text": "условиями обработки персональных данных"
+    },
+    {
+      "page": "https://mela-clinic.ru/rejuvenation_by_dental_implantation",
+      "href": "https://clinicmela.ru/policy",
+      "text": "условиями обработки персональных данных"
+    },
+    {
+      "page": "https://mela-clinic.ru/shirinyan",
+      "href": "https://clinicmela.ru/policy",
+      "text": "условиями обработки персональных данных"
+    },
+    {
+      "page": "https://mela-clinic.ru/typesofdentalprosthetics",
+      "href": "https://clinicmela.ru/policy",
+      "text": "условиями обработки персональных данных"
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://mela-clinic.ru/contact",
+      "https://mela-clinic.ru/contacts",
+      "https://mela-clinic.ru/kontakty"
+    ],
+    "booking_urls": [
+      "https://mela-clinic.ru/",
+      "https://mela-clinic.ru/1",
+      "https://mela-clinic.ru/3d",
+      "https://mela-clinic.ru/bagiyan",
+      "https://mela-clinic.ru/basin",
+      "https://mela-clinic.ru/brands_of_implants",
+      "https://mela-clinic.ru/cookie",
+      "https://mela-clinic.ru/danelyan",
+      "https://mela-clinic.ru/darbinyan",
+      "https://mela-clinic.ru/darbinyan-edgar",
+      "https://mela-clinic.ru/darbinyan-milena",
+      "https://mela-clinic.ru/davydova",
+      "https://mela-clinic.ru/implant",
+      "https://mela-clinic.ru/implantaciya-zubov",
+      "https://mela-clinic.ru/kokaeva",
+      "https://mela-clinic.ru/main",
+      "https://mela-clinic.ru/matevosyan",
+      "https://mela-clinic.ru/page61722643.html",
+      "https://mela-clinic.ru/price",
+      "https://mela-clinic.ru/price-list",
+      "https://mela-clinic.ru/privacy",
+      "https://mela-clinic.ru/rahmonova",
+      "https://mela-clinic.ru/rejuvenation_by_dental_implantation",
+      "https://mela-clinic.ru/shirinyan",
+      "https://mela-clinic.ru/typesofdentalprosthetics"
+    ],
+    "legal_urls": [
+      "https://mela-clinic.ru/policy",
+      "https://mela-clinic.ru/privacy"
+    ],
+    "sources": {
+      "https://mela-clinic.ru/": "home-booking-candidate",
+      "https://mela-clinic.ru/1": "sitemap-form",
+      "https://mela-clinic.ru/3d": "sitemap-form",
+      "https://mela-clinic.ru/bagiyan": "sitemap-form",
+      "https://mela-clinic.ru/basin": "sitemap-form",
+      "https://mela-clinic.ru/brands_of_implants": "sitemap-form",
+      "https://mela-clinic.ru/contact": "fallback",
+      "https://mela-clinic.ru/contacts": "fallback",
+      "https://mela-clinic.ru/cookie": "sitemap-form",
+      "https://mela-clinic.ru/danelyan": "sitemap-form",
+      "https://mela-clinic.ru/darbinyan": "sitemap-form",
+      "https://mela-clinic.ru/darbinyan-edgar": "sitemap-form",
+      "https://mela-clinic.ru/darbinyan-milena": "sitemap-form",
+      "https://mela-clinic.ru/davydova": "sitemap-form",
+      "https://mela-clinic.ru/implant": "sitemap-form",
+      "https://mela-clinic.ru/implantaciya-zubov": "sitemap-form",
+      "https://mela-clinic.ru/kokaeva": "sitemap-form",
+      "https://mela-clinic.ru/kontakty": "fallback",
+      "https://mela-clinic.ru/main": "sitemap-form",
+      "https://mela-clinic.ru/matevosyan": "sitemap-form",
+      "https://mela-clinic.ru/page61722643.html": "sitemap-form",
+      "https://mela-clinic.ru/policy": "policy-hint",
+      "https://mela-clinic.ru/price": "sitemap-form",
+      "https://mela-clinic.ru/price-list": "sitemap-form",
+      "https://mela-clinic.ru/privacy": "sitemap-legal",
+      "https://mela-clinic.ru/rahmonova": "sitemap-form",
+      "https://mela-clinic.ru/rejuvenation_by_dental_implantation": "sitemap-form",
+      "https://mela-clinic.ru/shirinyan": "sitemap-form",
+      "https://mela-clinic.ru/typesofdentalprosthetics": "sitemap-form"
+    },
+    "fallback_used": {
+      "contact": true,
+      "booking": false
+    },
+    "sitemap_total_urls": 26,
+    "sitemap_used_urls": 26
+  }
+}

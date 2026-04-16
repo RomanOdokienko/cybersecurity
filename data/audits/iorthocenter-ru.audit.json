@@ -1,0 +1,3243 @@
+{
+  "domain": "iorthocenter.ru",
+  "pages": [
+    {
+      "requested": "https://iorthocenter.ru/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://iorthocenter.ru/contact",
+      "status": 404,
+      "final_url": "https://iorthocenter.ru/contact",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://iorthocenter.ru/contacts",
+      "status": 404,
+      "final_url": "https://iorthocenter.ru/contacts",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://iorthocenter.ru/kontakty",
+      "status": 404,
+      "final_url": "https://iorthocenter.ru/kontakty",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://iorthocenter.ru/doctors/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/doctors/",
+      "error": null
+    },
+    {
+      "requested": "https://iorthocenter.ru/doctors/agapova-julia-vyacheslavovna/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/doctors/agapova-julia-vyacheslavovna/",
+      "error": null
+    },
+    {
+      "requested": "https://iorthocenter.ru/doctors/alypkasheva-ruzanna-soyunovna/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/doctors/alypkasheva-ruzanna-soyunovna/",
+      "error": null
+    },
+    {
+      "requested": "https://iorthocenter.ru/doctors/boraeva-aleksandra-aleksandrovna/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/doctors/boraeva-aleksandra-aleksandrovna/",
+      "error": null
+    },
+    {
+      "requested": "https://iorthocenter.ru/doctors/brilina-kseniya-aleksandrovna/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/doctors/brilina-kseniya-aleksandrovna/",
+      "error": null
+    },
+    {
+      "requested": "https://iorthocenter.ru/doctors/chechenova-zalina-safarbievna/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/doctors/chechenova-zalina-safarbievna/",
+      "error": null
+    },
+    {
+      "requested": "https://iorthocenter.ru/doctors/denisov-dmitriy-sergeevich/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/doctors/denisov-dmitriy-sergeevich/",
+      "error": null
+    },
+    {
+      "requested": "https://iorthocenter.ru/doctors/elizarova-yulia-vitalievna/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/doctors/elizarova-yulia-vitalievna/",
+      "error": null
+    },
+    {
+      "requested": "https://iorthocenter.ru/doctors/fedorova-ksenia-vladimirovna/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/doctors/fedorova-ksenia-vladimirovna/",
+      "error": null
+    },
+    {
+      "requested": "https://iorthocenter.ru/doctors/ibragimova-valeriya-evgenevna/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/doctors/ibragimova-valeriya-evgenevna/",
+      "error": null
+    },
+    {
+      "requested": "https://iorthocenter.ru/doctors/ilin-aleksandr-andreevich/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/doctors/ilin-aleksandr-andreevich/",
+      "error": null
+    },
+    {
+      "requested": "https://iorthocenter.ru/doctors/kashchenko-sofya-sergeevna/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/doctors/kashchenko-sofya-sergeevna/",
+      "error": null
+    },
+    {
+      "requested": "https://iorthocenter.ru/doctors/kazaryan-armen-fedorovich/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/doctors/kazaryan-armen-fedorovich/",
+      "error": null
+    },
+    {
+      "requested": "https://iorthocenter.ru/doctors/khazhmetov-andzor-valerevich/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/doctors/khazhmetov-andzor-valerevich/",
+      "error": null
+    },
+    {
+      "requested": "https://iorthocenter.ru/doctors/lanskikh-alla-aleksandrovna/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/doctors/lanskikh-alla-aleksandrovna/",
+      "error": null
+    },
+    {
+      "requested": "https://iorthocenter.ru/doctors/leonid-yevgenyevich-eremin/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/doctors/leonid-yevgenyevich-eremin/",
+      "error": null
+    },
+    {
+      "requested": "https://iorthocenter.ru/doctors/maysarov-ruslan-nusretovich/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/doctors/maysarov-ruslan-nusretovich/",
+      "error": null
+    },
+    {
+      "requested": "https://iorthocenter.ru/doctors/meltonyan-gulnaz-mazhitovna/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/doctors/meltonyan-gulnaz-mazhitovna/",
+      "error": null
+    },
+    {
+      "requested": "https://iorthocenter.ru/doctors/muraveva-mariya-vladimirovna/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/doctors/muraveva-mariya-vladimirovna/",
+      "error": null
+    },
+    {
+      "requested": "https://iorthocenter.ru/doctors/oganesyan-diana-feliksovna/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/doctors/oganesyan-diana-feliksovna/",
+      "error": null
+    },
+    {
+      "requested": "https://iorthocenter.ru/doctors/ositnyanko-alina-olegovna/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/doctors/ositnyanko-alina-olegovna/",
+      "error": null
+    },
+    {
+      "requested": "https://iorthocenter.ru/doctors/pasov-maksim-dmitrievich/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/doctors/pasov-maksim-dmitrievich/",
+      "error": null
+    },
+    {
+      "requested": "https://iorthocenter.ru/doctors/pavlovskaya-ekaterina-olegovna/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/doctors/pavlovskaya-ekaterina-olegovna/",
+      "error": null
+    },
+    {
+      "requested": "https://iorthocenter.ru/doctors/ramenskaya-aleksandra-vladimirovna/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/doctors/ramenskaya-aleksandra-vladimirovna/",
+      "error": null
+    },
+    {
+      "requested": "https://iorthocenter.ru/doctors/ritov-stanislav-romanovich/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/doctors/ritov-stanislav-romanovich/",
+      "error": null
+    },
+    {
+      "requested": "https://iorthocenter.ru/doctors/said-uzhakhov-magomed-suleymanovich/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/doctors/said-uzhakhov-magomed-suleymanovich/",
+      "error": null
+    },
+    {
+      "requested": "https://iorthocenter.ru/doctors/satyrova-leyla-rasulovna/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/doctors/satyrova-leyla-rasulovna/",
+      "error": null
+    },
+    {
+      "requested": "https://iorthocenter.ru/doctors/soblirova-adelina-namigovna/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/doctors/soblirova-adelina-namigovna/",
+      "error": null
+    },
+    {
+      "requested": "https://iorthocenter.ru/doctors/tikhonova-yuliya-gennadevna/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/doctors/tikhonova-yuliya-gennadevna/",
+      "error": null
+    },
+    {
+      "requested": "https://iorthocenter.ru/doctors/voronkova-tatiana-andreevna/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/doctors/voronkova-tatiana-andreevna/",
+      "error": null
+    },
+    {
+      "requested": "https://iorthocenter.ru/doctors/vsevolod-vladimirovich-dzhatdaev/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/doctors/vsevolod-vladimirovich-dzhatdaev/",
+      "error": null
+    },
+    {
+      "requested": "https://iorthocenter.ru/doctors/yakushenkov/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/doctors/yakushenkov/",
+      "error": null
+    },
+    {
+      "requested": "https://iorthocenter.ru/doctors/yarkaeva-leysan-rasimovna/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/doctors/yarkaeva-leysan-rasimovna/",
+      "error": null
+    },
+    {
+      "requested": "https://iorthocenter.ru/doctors/zhirukhina-kira-sergeevna/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/doctors/zhirukhina-kira-sergeevna/",
+      "error": null
+    },
+    {
+      "requested": "https://iorthocenter.ru/policy/",
+      "status": 404,
+      "final_url": "https://iorthocenter.ru/policy/",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://iorthocenter.ru/privacy",
+      "status": 404,
+      "final_url": "https://iorthocenter.ru/privacy",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://iorthocenter.ru/privacy-policy/",
+      "status": 200,
+      "final_url": "https://iorthocenter.ru/privacy-policy/",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://iorthocenter.ru/",
+      "form_id": "action-form",
+      "action_display": "action=\"/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<div class=\"form-field cookies_yess\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yess\" type=\"hidden\" name=\"form_hidden_59\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/",
+      "form_id": "action-form",
+      "action_display": "action=\"/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<div class=\"form-field cookies_yes\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yes\" type=\"hidden\" name=\"form_hidden_56\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/",
+      "form_id": "action-form",
+      "action_display": "action=\"/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "idden_64\" value=\" \" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/",
+      "form_id": "action-form",
+      "action_display": "action=\"/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "hidden_65\" value=\"\" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/doctors/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<div class=\"form-field cookies_yess\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yess\" type=\"hidden\" name=\"form_hidden_59\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/doctors/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<div class=\"form-field cookies_yes\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yes\" type=\"hidden\" name=\"form_hidden_56\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/doctors/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "idden_64\" value=\" \" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/doctors/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "hidden_65\" value=\"\" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/agapova-julia-vyacheslavovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/agapova-julia-vyacheslavovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/doctors/agapova-julia-vyacheslavovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<div class=\"form-field cookies_yess\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yess\" type=\"hidden\" name=\"form_hidden_59\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/agapova-julia-vyacheslavovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/agapova-julia-vyacheslavovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/doctors/agapova-julia-vyacheslavovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<div class=\"form-field cookies_yes\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yes\" type=\"hidden\" name=\"form_hidden_56\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/agapova-julia-vyacheslavovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/agapova-julia-vyacheslavovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/doctors/agapova-julia-vyacheslavovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "idden_64\" value=\" \" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/agapova-julia-vyacheslavovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/agapova-julia-vyacheslavovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/doctors/agapova-julia-vyacheslavovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "hidden_65\" value=\"\" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/agapova-julia-vyacheslavovna/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/alypkasheva-ruzanna-soyunovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/alypkasheva-ruzanna-soyunovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/doctors/alypkasheva-ruzanna-soyunovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<div class=\"form-field cookies_yess\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yess\" type=\"hidden\" name=\"form_hidden_59\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/alypkasheva-ruzanna-soyunovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/alypkasheva-ruzanna-soyunovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/doctors/alypkasheva-ruzanna-soyunovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<div class=\"form-field cookies_yes\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yes\" type=\"hidden\" name=\"form_hidden_56\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/alypkasheva-ruzanna-soyunovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/alypkasheva-ruzanna-soyunovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/doctors/alypkasheva-ruzanna-soyunovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "idden_64\" value=\" \" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/alypkasheva-ruzanna-soyunovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/alypkasheva-ruzanna-soyunovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/doctors/alypkasheva-ruzanna-soyunovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "hidden_65\" value=\"\" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/alypkasheva-ruzanna-soyunovna/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/boraeva-aleksandra-aleksandrovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/boraeva-aleksandra-aleksandrovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/doctors/boraeva-aleksandra-aleksandrovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<div class=\"form-field cookies_yess\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yess\" type=\"hidden\" name=\"form_hidden_59\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/boraeva-aleksandra-aleksandrovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/boraeva-aleksandra-aleksandrovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/doctors/boraeva-aleksandra-aleksandrovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<div class=\"form-field cookies_yes\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yes\" type=\"hidden\" name=\"form_hidden_56\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/boraeva-aleksandra-aleksandrovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/boraeva-aleksandra-aleksandrovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/doctors/boraeva-aleksandra-aleksandrovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "idden_64\" value=\" \" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/boraeva-aleksandra-aleksandrovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/boraeva-aleksandra-aleksandrovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/doctors/boraeva-aleksandra-aleksandrovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "hidden_65\" value=\"\" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/boraeva-aleksandra-aleksandrovna/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/brilina-kseniya-aleksandrovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/brilina-kseniya-aleksandrovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/doctors/brilina-kseniya-aleksandrovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<div class=\"form-field cookies_yess\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yess\" type=\"hidden\" name=\"form_hidden_59\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/brilina-kseniya-aleksandrovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/brilina-kseniya-aleksandrovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/doctors/brilina-kseniya-aleksandrovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<div class=\"form-field cookies_yes\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yes\" type=\"hidden\" name=\"form_hidden_56\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/brilina-kseniya-aleksandrovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/brilina-kseniya-aleksandrovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/doctors/brilina-kseniya-aleksandrovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "idden_64\" value=\" \" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/brilina-kseniya-aleksandrovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/brilina-kseniya-aleksandrovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/doctors/brilina-kseniya-aleksandrovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "hidden_65\" value=\"\" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/brilina-kseniya-aleksandrovna/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/chechenova-zalina-safarbievna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/chechenova-zalina-safarbievna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/doctors/chechenova-zalina-safarbievna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<div class=\"form-field cookies_yess\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yess\" type=\"hidden\" name=\"form_hidden_59\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/chechenova-zalina-safarbievna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/chechenova-zalina-safarbievna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/doctors/chechenova-zalina-safarbievna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<div class=\"form-field cookies_yes\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yes\" type=\"hidden\" name=\"form_hidden_56\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/chechenova-zalina-safarbievna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/chechenova-zalina-safarbievna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/doctors/chechenova-zalina-safarbievna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "idden_64\" value=\" \" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/chechenova-zalina-safarbievna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/chechenova-zalina-safarbievna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/doctors/chechenova-zalina-safarbievna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "hidden_65\" value=\"\" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/chechenova-zalina-safarbievna/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/denisov-dmitriy-sergeevich/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/denisov-dmitriy-sergeevich/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/doctors/denisov-dmitriy-sergeevich/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<div class=\"form-field cookies_yess\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yess\" type=\"hidden\" name=\"form_hidden_59\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/denisov-dmitriy-sergeevich/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/denisov-dmitriy-sergeevich/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/doctors/denisov-dmitriy-sergeevich/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<div class=\"form-field cookies_yes\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yes\" type=\"hidden\" name=\"form_hidden_56\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/denisov-dmitriy-sergeevich/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/denisov-dmitriy-sergeevich/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/doctors/denisov-dmitriy-sergeevich/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "idden_64\" value=\" \" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/denisov-dmitriy-sergeevich/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/denisov-dmitriy-sergeevich/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/doctors/denisov-dmitriy-sergeevich/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "hidden_65\" value=\"\" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/denisov-dmitriy-sergeevich/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/elizarova-yulia-vitalievna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/elizarova-yulia-vitalievna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/doctors/elizarova-yulia-vitalievna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<div class=\"form-field cookies_yess\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yess\" type=\"hidden\" name=\"form_hidden_59\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/elizarova-yulia-vitalievna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/elizarova-yulia-vitalievna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/doctors/elizarova-yulia-vitalievna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<div class=\"form-field cookies_yes\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yes\" type=\"hidden\" name=\"form_hidden_56\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/elizarova-yulia-vitalievna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/elizarova-yulia-vitalievna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/doctors/elizarova-yulia-vitalievna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "idden_64\" value=\" \" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/elizarova-yulia-vitalievna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/elizarova-yulia-vitalievna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/doctors/elizarova-yulia-vitalievna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "hidden_65\" value=\"\" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/elizarova-yulia-vitalievna/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/fedorova-ksenia-vladimirovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/fedorova-ksenia-vladimirovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/doctors/fedorova-ksenia-vladimirovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<div class=\"form-field cookies_yess\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yess\" type=\"hidden\" name=\"form_hidden_59\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/fedorova-ksenia-vladimirovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/fedorova-ksenia-vladimirovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/doctors/fedorova-ksenia-vladimirovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<div class=\"form-field cookies_yes\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yes\" type=\"hidden\" name=\"form_hidden_56\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/fedorova-ksenia-vladimirovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/fedorova-ksenia-vladimirovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/doctors/fedorova-ksenia-vladimirovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "idden_64\" value=\" \" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/fedorova-ksenia-vladimirovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/fedorova-ksenia-vladimirovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/doctors/fedorova-ksenia-vladimirovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "hidden_65\" value=\"\" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/fedorova-ksenia-vladimirovna/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ibragimova-valeriya-evgenevna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/ibragimova-valeriya-evgenevna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/doctors/ibragimova-valeriya-evgenevna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<div class=\"form-field cookies_yess\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yess\" type=\"hidden\" name=\"form_hidden_59\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ibragimova-valeriya-evgenevna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/ibragimova-valeriya-evgenevna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/doctors/ibragimova-valeriya-evgenevna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<div class=\"form-field cookies_yes\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yes\" type=\"hidden\" name=\"form_hidden_56\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ibragimova-valeriya-evgenevna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/ibragimova-valeriya-evgenevna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/doctors/ibragimova-valeriya-evgenevna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "idden_64\" value=\" \" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ibragimova-valeriya-evgenevna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/ibragimova-valeriya-evgenevna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/doctors/ibragimova-valeriya-evgenevna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "hidden_65\" value=\"\" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ibragimova-valeriya-evgenevna/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ilin-aleksandr-andreevich/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/ilin-aleksandr-andreevich/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/doctors/ilin-aleksandr-andreevich/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<div class=\"form-field cookies_yess\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yess\" type=\"hidden\" name=\"form_hidden_59\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ilin-aleksandr-andreevich/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/ilin-aleksandr-andreevich/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/doctors/ilin-aleksandr-andreevich/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<div class=\"form-field cookies_yes\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yes\" type=\"hidden\" name=\"form_hidden_56\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ilin-aleksandr-andreevich/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/ilin-aleksandr-andreevich/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/doctors/ilin-aleksandr-andreevich/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "idden_64\" value=\" \" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ilin-aleksandr-andreevich/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/ilin-aleksandr-andreevich/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/doctors/ilin-aleksandr-andreevich/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "hidden_65\" value=\"\" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ilin-aleksandr-andreevich/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/kashchenko-sofya-sergeevna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/kashchenko-sofya-sergeevna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/doctors/kashchenko-sofya-sergeevna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<div class=\"form-field cookies_yess\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yess\" type=\"hidden\" name=\"form_hidden_59\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/kashchenko-sofya-sergeevna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/kashchenko-sofya-sergeevna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/doctors/kashchenko-sofya-sergeevna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<div class=\"form-field cookies_yes\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yes\" type=\"hidden\" name=\"form_hidden_56\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/kashchenko-sofya-sergeevna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/kashchenko-sofya-sergeevna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/doctors/kashchenko-sofya-sergeevna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "idden_64\" value=\" \" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/kashchenko-sofya-sergeevna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/kashchenko-sofya-sergeevna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/doctors/kashchenko-sofya-sergeevna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "hidden_65\" value=\"\" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/kashchenko-sofya-sergeevna/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/kazaryan-armen-fedorovich/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/kazaryan-armen-fedorovich/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/doctors/kazaryan-armen-fedorovich/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<div class=\"form-field cookies_yess\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yess\" type=\"hidden\" name=\"form_hidden_59\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/kazaryan-armen-fedorovich/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/kazaryan-armen-fedorovich/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/doctors/kazaryan-armen-fedorovich/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<div class=\"form-field cookies_yes\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yes\" type=\"hidden\" name=\"form_hidden_56\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/kazaryan-armen-fedorovich/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/kazaryan-armen-fedorovich/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/doctors/kazaryan-armen-fedorovich/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "idden_64\" value=\" \" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/kazaryan-armen-fedorovich/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/kazaryan-armen-fedorovich/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/doctors/kazaryan-armen-fedorovich/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "hidden_65\" value=\"\" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/kazaryan-armen-fedorovich/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/khazhmetov-andzor-valerevich/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/khazhmetov-andzor-valerevich/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/doctors/khazhmetov-andzor-valerevich/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<div class=\"form-field cookies_yess\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yess\" type=\"hidden\" name=\"form_hidden_59\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/khazhmetov-andzor-valerevich/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/khazhmetov-andzor-valerevich/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/doctors/khazhmetov-andzor-valerevich/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<div class=\"form-field cookies_yes\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yes\" type=\"hidden\" name=\"form_hidden_56\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/khazhmetov-andzor-valerevich/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/khazhmetov-andzor-valerevich/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/doctors/khazhmetov-andzor-valerevich/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "idden_64\" value=\" \" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/khazhmetov-andzor-valerevich/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/khazhmetov-andzor-valerevich/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/doctors/khazhmetov-andzor-valerevich/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "hidden_65\" value=\"\" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/khazhmetov-andzor-valerevich/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/lanskikh-alla-aleksandrovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/lanskikh-alla-aleksandrovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/doctors/lanskikh-alla-aleksandrovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<div class=\"form-field cookies_yess\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yess\" type=\"hidden\" name=\"form_hidden_59\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/lanskikh-alla-aleksandrovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/lanskikh-alla-aleksandrovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/doctors/lanskikh-alla-aleksandrovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<div class=\"form-field cookies_yes\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yes\" type=\"hidden\" name=\"form_hidden_56\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/lanskikh-alla-aleksandrovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/lanskikh-alla-aleksandrovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/doctors/lanskikh-alla-aleksandrovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "idden_64\" value=\" \" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/lanskikh-alla-aleksandrovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/lanskikh-alla-aleksandrovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/doctors/lanskikh-alla-aleksandrovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "hidden_65\" value=\"\" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/lanskikh-alla-aleksandrovna/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/leonid-yevgenyevich-eremin/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/leonid-yevgenyevich-eremin/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/doctors/leonid-yevgenyevich-eremin/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<div class=\"form-field cookies_yess\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yess\" type=\"hidden\" name=\"form_hidden_59\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/leonid-yevgenyevich-eremin/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/leonid-yevgenyevich-eremin/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/doctors/leonid-yevgenyevich-eremin/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<div class=\"form-field cookies_yes\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yes\" type=\"hidden\" name=\"form_hidden_56\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/leonid-yevgenyevich-eremin/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/leonid-yevgenyevich-eremin/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/doctors/leonid-yevgenyevich-eremin/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "idden_64\" value=\" \" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/leonid-yevgenyevich-eremin/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/leonid-yevgenyevich-eremin/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/doctors/leonid-yevgenyevich-eremin/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "hidden_65\" value=\"\" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/leonid-yevgenyevich-eremin/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/maysarov-ruslan-nusretovich/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/maysarov-ruslan-nusretovich/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/doctors/maysarov-ruslan-nusretovich/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<div class=\"form-field cookies_yess\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yess\" type=\"hidden\" name=\"form_hidden_59\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/maysarov-ruslan-nusretovich/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/maysarov-ruslan-nusretovich/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/doctors/maysarov-ruslan-nusretovich/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<div class=\"form-field cookies_yes\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yes\" type=\"hidden\" name=\"form_hidden_56\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/maysarov-ruslan-nusretovich/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/maysarov-ruslan-nusretovich/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/doctors/maysarov-ruslan-nusretovich/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "idden_64\" value=\" \" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/maysarov-ruslan-nusretovich/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/maysarov-ruslan-nusretovich/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/doctors/maysarov-ruslan-nusretovich/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "hidden_65\" value=\"\" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/maysarov-ruslan-nusretovich/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/meltonyan-gulnaz-mazhitovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/meltonyan-gulnaz-mazhitovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/doctors/meltonyan-gulnaz-mazhitovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<div class=\"form-field cookies_yess\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yess\" type=\"hidden\" name=\"form_hidden_59\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/meltonyan-gulnaz-mazhitovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/meltonyan-gulnaz-mazhitovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/doctors/meltonyan-gulnaz-mazhitovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<div class=\"form-field cookies_yes\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yes\" type=\"hidden\" name=\"form_hidden_56\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/meltonyan-gulnaz-mazhitovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/meltonyan-gulnaz-mazhitovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/doctors/meltonyan-gulnaz-mazhitovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "idden_64\" value=\" \" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/meltonyan-gulnaz-mazhitovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/meltonyan-gulnaz-mazhitovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/doctors/meltonyan-gulnaz-mazhitovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "hidden_65\" value=\"\" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/meltonyan-gulnaz-mazhitovna/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/muraveva-mariya-vladimirovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/muraveva-mariya-vladimirovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/doctors/muraveva-mariya-vladimirovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<div class=\"form-field cookies_yess\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yess\" type=\"hidden\" name=\"form_hidden_59\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/muraveva-mariya-vladimirovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/muraveva-mariya-vladimirovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/doctors/muraveva-mariya-vladimirovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<div class=\"form-field cookies_yes\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yes\" type=\"hidden\" name=\"form_hidden_56\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/muraveva-mariya-vladimirovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/muraveva-mariya-vladimirovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/doctors/muraveva-mariya-vladimirovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "idden_64\" value=\" \" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/muraveva-mariya-vladimirovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/muraveva-mariya-vladimirovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/doctors/muraveva-mariya-vladimirovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "hidden_65\" value=\"\" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/muraveva-mariya-vladimirovna/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/oganesyan-diana-feliksovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/oganesyan-diana-feliksovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/doctors/oganesyan-diana-feliksovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<div class=\"form-field cookies_yess\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yess\" type=\"hidden\" name=\"form_hidden_59\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/oganesyan-diana-feliksovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/oganesyan-diana-feliksovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/doctors/oganesyan-diana-feliksovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<div class=\"form-field cookies_yes\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yes\" type=\"hidden\" name=\"form_hidden_56\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/oganesyan-diana-feliksovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/oganesyan-diana-feliksovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/doctors/oganesyan-diana-feliksovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "idden_64\" value=\" \" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/oganesyan-diana-feliksovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/oganesyan-diana-feliksovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/doctors/oganesyan-diana-feliksovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "hidden_65\" value=\"\" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/oganesyan-diana-feliksovna/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ositnyanko-alina-olegovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/ositnyanko-alina-olegovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/doctors/ositnyanko-alina-olegovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<div class=\"form-field cookies_yess\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yess\" type=\"hidden\" name=\"form_hidden_59\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ositnyanko-alina-olegovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/ositnyanko-alina-olegovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/doctors/ositnyanko-alina-olegovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<div class=\"form-field cookies_yes\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yes\" type=\"hidden\" name=\"form_hidden_56\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ositnyanko-alina-olegovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/ositnyanko-alina-olegovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/doctors/ositnyanko-alina-olegovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "idden_64\" value=\" \" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ositnyanko-alina-olegovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/ositnyanko-alina-olegovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/doctors/ositnyanko-alina-olegovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "hidden_65\" value=\"\" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ositnyanko-alina-olegovna/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/pasov-maksim-dmitrievich/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/pasov-maksim-dmitrievich/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/doctors/pasov-maksim-dmitrievich/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<div class=\"form-field cookies_yess\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yess\" type=\"hidden\" name=\"form_hidden_59\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/pasov-maksim-dmitrievich/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/pasov-maksim-dmitrievich/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/doctors/pasov-maksim-dmitrievich/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<div class=\"form-field cookies_yes\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yes\" type=\"hidden\" name=\"form_hidden_56\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/pasov-maksim-dmitrievich/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/pasov-maksim-dmitrievich/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/doctors/pasov-maksim-dmitrievich/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "idden_64\" value=\" \" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/pasov-maksim-dmitrievich/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/pasov-maksim-dmitrievich/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/doctors/pasov-maksim-dmitrievich/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "hidden_65\" value=\"\" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/pasov-maksim-dmitrievich/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/pavlovskaya-ekaterina-olegovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/pavlovskaya-ekaterina-olegovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/doctors/pavlovskaya-ekaterina-olegovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<div class=\"form-field cookies_yess\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yess\" type=\"hidden\" name=\"form_hidden_59\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/pavlovskaya-ekaterina-olegovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/pavlovskaya-ekaterina-olegovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/doctors/pavlovskaya-ekaterina-olegovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<div class=\"form-field cookies_yes\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yes\" type=\"hidden\" name=\"form_hidden_56\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/pavlovskaya-ekaterina-olegovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/pavlovskaya-ekaterina-olegovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/doctors/pavlovskaya-ekaterina-olegovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "idden_64\" value=\" \" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/pavlovskaya-ekaterina-olegovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/pavlovskaya-ekaterina-olegovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/doctors/pavlovskaya-ekaterina-olegovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "hidden_65\" value=\"\" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/pavlovskaya-ekaterina-olegovna/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ramenskaya-aleksandra-vladimirovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/ramenskaya-aleksandra-vladimirovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/doctors/ramenskaya-aleksandra-vladimirovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<div class=\"form-field cookies_yess\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yess\" type=\"hidden\" name=\"form_hidden_59\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ramenskaya-aleksandra-vladimirovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/ramenskaya-aleksandra-vladimirovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/doctors/ramenskaya-aleksandra-vladimirovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<div class=\"form-field cookies_yes\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yes\" type=\"hidden\" name=\"form_hidden_56\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ramenskaya-aleksandra-vladimirovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/ramenskaya-aleksandra-vladimirovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/doctors/ramenskaya-aleksandra-vladimirovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "idden_64\" value=\" \" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ramenskaya-aleksandra-vladimirovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/ramenskaya-aleksandra-vladimirovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/doctors/ramenskaya-aleksandra-vladimirovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "hidden_65\" value=\"\" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ramenskaya-aleksandra-vladimirovna/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ritov-stanislav-romanovich/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/ritov-stanislav-romanovich/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/doctors/ritov-stanislav-romanovich/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<div class=\"form-field cookies_yess\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yess\" type=\"hidden\" name=\"form_hidden_59\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ritov-stanislav-romanovich/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/ritov-stanislav-romanovich/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/doctors/ritov-stanislav-romanovich/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<div class=\"form-field cookies_yes\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yes\" type=\"hidden\" name=\"form_hidden_56\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ritov-stanislav-romanovich/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/ritov-stanislav-romanovich/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/doctors/ritov-stanislav-romanovich/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "idden_64\" value=\" \" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ritov-stanislav-romanovich/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/ritov-stanislav-romanovich/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/doctors/ritov-stanislav-romanovich/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "hidden_65\" value=\"\" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ritov-stanislav-romanovich/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/said-uzhakhov-magomed-suleymanovich/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/said-uzhakhov-magomed-suleymanovich/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/doctors/said-uzhakhov-magomed-suleymanovich/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<div class=\"form-field cookies_yess\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yess\" type=\"hidden\" name=\"form_hidden_59\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/said-uzhakhov-magomed-suleymanovich/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/said-uzhakhov-magomed-suleymanovich/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/doctors/said-uzhakhov-magomed-suleymanovich/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<div class=\"form-field cookies_yes\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yes\" type=\"hidden\" name=\"form_hidden_56\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/said-uzhakhov-magomed-suleymanovich/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/said-uzhakhov-magomed-suleymanovich/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/doctors/said-uzhakhov-magomed-suleymanovich/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "idden_64\" value=\" \" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/said-uzhakhov-magomed-suleymanovich/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/said-uzhakhov-magomed-suleymanovich/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/doctors/said-uzhakhov-magomed-suleymanovich/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "hidden_65\" value=\"\" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/said-uzhakhov-magomed-suleymanovich/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/satyrova-leyla-rasulovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/satyrova-leyla-rasulovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/doctors/satyrova-leyla-rasulovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<div class=\"form-field cookies_yess\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yess\" type=\"hidden\" name=\"form_hidden_59\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/satyrova-leyla-rasulovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/satyrova-leyla-rasulovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/doctors/satyrova-leyla-rasulovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<div class=\"form-field cookies_yes\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yes\" type=\"hidden\" name=\"form_hidden_56\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/satyrova-leyla-rasulovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/satyrova-leyla-rasulovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/doctors/satyrova-leyla-rasulovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "idden_64\" value=\" \" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/satyrova-leyla-rasulovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/satyrova-leyla-rasulovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/doctors/satyrova-leyla-rasulovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "hidden_65\" value=\"\" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/satyrova-leyla-rasulovna/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/soblirova-adelina-namigovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/soblirova-adelina-namigovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/doctors/soblirova-adelina-namigovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<div class=\"form-field cookies_yess\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yess\" type=\"hidden\" name=\"form_hidden_59\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/soblirova-adelina-namigovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/soblirova-adelina-namigovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/doctors/soblirova-adelina-namigovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<div class=\"form-field cookies_yes\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yes\" type=\"hidden\" name=\"form_hidden_56\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/soblirova-adelina-namigovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/soblirova-adelina-namigovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/doctors/soblirova-adelina-namigovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "idden_64\" value=\" \" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/soblirova-adelina-namigovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/soblirova-adelina-namigovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/doctors/soblirova-adelina-namigovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "hidden_65\" value=\"\" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/soblirova-adelina-namigovna/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/tikhonova-yuliya-gennadevna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/tikhonova-yuliya-gennadevna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/doctors/tikhonova-yuliya-gennadevna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<div class=\"form-field cookies_yess\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yess\" type=\"hidden\" name=\"form_hidden_59\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/tikhonova-yuliya-gennadevna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/tikhonova-yuliya-gennadevna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/doctors/tikhonova-yuliya-gennadevna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<div class=\"form-field cookies_yes\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yes\" type=\"hidden\" name=\"form_hidden_56\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/tikhonova-yuliya-gennadevna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/tikhonova-yuliya-gennadevna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/doctors/tikhonova-yuliya-gennadevna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "idden_64\" value=\" \" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/tikhonova-yuliya-gennadevna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/tikhonova-yuliya-gennadevna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/doctors/tikhonova-yuliya-gennadevna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "hidden_65\" value=\"\" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/tikhonova-yuliya-gennadevna/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/voronkova-tatiana-andreevna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/voronkova-tatiana-andreevna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/doctors/voronkova-tatiana-andreevna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<div class=\"form-field cookies_yess\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yess\" type=\"hidden\" name=\"form_hidden_59\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/voronkova-tatiana-andreevna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/voronkova-tatiana-andreevna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/doctors/voronkova-tatiana-andreevna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<div class=\"form-field cookies_yes\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yes\" type=\"hidden\" name=\"form_hidden_56\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/voronkova-tatiana-andreevna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/voronkova-tatiana-andreevna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/doctors/voronkova-tatiana-andreevna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "idden_64\" value=\" \" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/voronkova-tatiana-andreevna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/voronkova-tatiana-andreevna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/doctors/voronkova-tatiana-andreevna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "hidden_65\" value=\"\" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/voronkova-tatiana-andreevna/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/vsevolod-vladimirovich-dzhatdaev/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/vsevolod-vladimirovich-dzhatdaev/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/doctors/vsevolod-vladimirovich-dzhatdaev/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<div class=\"form-field cookies_yess\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yess\" type=\"hidden\" name=\"form_hidden_59\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/vsevolod-vladimirovich-dzhatdaev/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/vsevolod-vladimirovich-dzhatdaev/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/doctors/vsevolod-vladimirovich-dzhatdaev/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<div class=\"form-field cookies_yes\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yes\" type=\"hidden\" name=\"form_hidden_56\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/vsevolod-vladimirovich-dzhatdaev/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/vsevolod-vladimirovich-dzhatdaev/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/doctors/vsevolod-vladimirovich-dzhatdaev/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "idden_64\" value=\" \" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/vsevolod-vladimirovich-dzhatdaev/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/vsevolod-vladimirovich-dzhatdaev/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/doctors/vsevolod-vladimirovich-dzhatdaev/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "hidden_65\" value=\"\" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/vsevolod-vladimirovich-dzhatdaev/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/yakushenkov/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/yakushenkov/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/doctors/yakushenkov/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<div class=\"form-field cookies_yess\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yess\" type=\"hidden\" name=\"form_hidden_59\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/yakushenkov/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/yakushenkov/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/doctors/yakushenkov/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<div class=\"form-field cookies_yes\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yes\" type=\"hidden\" name=\"form_hidden_56\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/yakushenkov/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/yakushenkov/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/doctors/yakushenkov/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "idden_64\" value=\" \" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/yakushenkov/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/yakushenkov/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/doctors/yakushenkov/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "hidden_65\" value=\"\" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/yakushenkov/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/yarkaeva-leysan-rasimovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/yarkaeva-leysan-rasimovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/doctors/yarkaeva-leysan-rasimovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<div class=\"form-field cookies_yess\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yess\" type=\"hidden\" name=\"form_hidden_59\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/yarkaeva-leysan-rasimovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/yarkaeva-leysan-rasimovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/doctors/yarkaeva-leysan-rasimovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<div class=\"form-field cookies_yes\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yes\" type=\"hidden\" name=\"form_hidden_56\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/yarkaeva-leysan-rasimovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/yarkaeva-leysan-rasimovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/doctors/yarkaeva-leysan-rasimovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "idden_64\" value=\" \" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/yarkaeva-leysan-rasimovna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/yarkaeva-leysan-rasimovna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/doctors/yarkaeva-leysan-rasimovna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "hidden_65\" value=\"\" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/yarkaeva-leysan-rasimovna/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/zhirukhina-kira-sergeevna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/zhirukhina-kira-sergeevna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/doctors/zhirukhina-kira-sergeevna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<div class=\"form-field cookies_yess\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yess\" type=\"hidden\" name=\"form_hidden_59\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/zhirukhina-kira-sergeevna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/zhirukhina-kira-sergeevna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/doctors/zhirukhina-kira-sergeevna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<div class=\"form-field cookies_yes\"> <input placeholder=\"Согласие с маркетинговыми коммуникациями\" class=\"form-input cookies_yes\" type=\"hidden\" name=\"form_hidden_56\" value=\"\" /> </div>"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/zhirukhina-kira-sergeevna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/zhirukhina-kira-sergeevna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/doctors/zhirukhina-kira-sergeevna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "idden_64\" value=\" \" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/zhirukhina-kira-sergeevna/",
+      "form_id": "action-form",
+      "action_display": "action=\"/doctors/zhirukhina-kira-sergeevna/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/doctors/zhirukhina-kira-sergeevna/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "hidden_65\" value=\"\" /> </div> </div> <!-- Добавление галочки согласия --> <label for=\"label__pers1\" class=\"label__pers label_1_clicker\" style=\"margin-bottom: 5px;\"> <input id=\"label__pers1\" type=\"checkbox\" /> <span cl"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/zhirukhina-kira-sergeevna/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    },
+    {
+      "page": "https://iorthocenter.ru/privacy-policy/",
+      "form_id": "action-form",
+      "action_display": "action=\"/privacy-policy/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/privacy-policy/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" hidden=\"\" />",
+      "policy_poc": "<form id='action-form' name=\"SIMPLE_FORM_3\" action=\"/privacy-policy/\" method=\"POST\" enctype=\"multipart/form-data\"><input type=\"hidden\" name=\"bxajaxid\" id=\"bxajaxid_ca67091066317360b63cbde7e1570ee4_8BACKi\" value=\"ca670910"
+    },
+    {
+      "page": "https://iorthocenter.ru/privacy-policy/",
+      "form_id": "action-form",
+      "action_display": "action=\"/privacy-policy/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/privacy-policy/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<form id='action-form' name=\"SIMPLE_FORM_1\" action=\"/privacy-policy/\" method=\"POST\" enctype=\"multipart/form-data\"><input type=\"hidden\" name=\"bxajaxid\" id=\"bxajaxid_7852aa47664c0a40e6facae1d3fcb986_Ar8Szp\" value=\"7852aa47"
+    },
+    {
+      "page": "https://iorthocenter.ru/privacy-policy/",
+      "form_id": "action-form",
+      "action_display": "action=\"/privacy-policy/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/privacy-policy/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<form id='action-form' name=\"SIMPLE_FORM_4\" action=\"/privacy-policy/\" method=\"POST\" enctype=\"multipart/form-data\"><input type=\"hidden\" name=\"bxajaxid\" id=\"bxajaxid_fda12c0cd3574a56efd0fbae924907eb_XrQFCj\" value=\"fda12c0c"
+    },
+    {
+      "page": "https://iorthocenter.ru/privacy-policy/",
+      "form_id": "action-form",
+      "action_display": "action=\"/privacy-policy/\"",
+      "open_tag": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/privacy-policy/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"label__pers1\" type=\"checkbox\" />",
+      "policy_poc": "<form id='action-form' name=\"SIMPLE_FORM_5\" action=\"/privacy-policy/\" method=\"POST\" enctype=\"multipart/form-data\"><input type=\"hidden\" name=\"bxajaxid\" id=\"bxajaxid_41f756e74fe52f8727aa84bdba5e1690_dCjmSk\" value=\"41f756e7"
+    },
+    {
+      "page": "https://iorthocenter.ru/privacy-policy/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Врач-ортодонт\">",
+      "policy_poc": "dden=\"\" checked=\"\" tabindex=\"-1\"> <span class=\"label__pers-text\"> Даю согласие на обработку <a target=\"_blank\" href=\"/policy/\">персональных данных</a> </span> </label> <button type=\"submit\" class=\"form__b"
+    }
+  ],
+  "emails": [
+    "info@iOrthocenter.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://iorthocenter.ru/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/agapova-julia-vyacheslavovna/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/agapova-julia-vyacheslavovna/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/agapova-julia-vyacheslavovna/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/agapova-julia-vyacheslavovna/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/agapova-julia-vyacheslavovna/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/alypkasheva-ruzanna-soyunovna/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/alypkasheva-ruzanna-soyunovna/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/alypkasheva-ruzanna-soyunovna/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/alypkasheva-ruzanna-soyunovna/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/alypkasheva-ruzanna-soyunovna/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/boraeva-aleksandra-aleksandrovna/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/boraeva-aleksandra-aleksandrovna/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/boraeva-aleksandra-aleksandrovna/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/boraeva-aleksandra-aleksandrovna/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/boraeva-aleksandra-aleksandrovna/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/brilina-kseniya-aleksandrovna/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/brilina-kseniya-aleksandrovna/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/brilina-kseniya-aleksandrovna/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/brilina-kseniya-aleksandrovna/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/brilina-kseniya-aleksandrovna/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/chechenova-zalina-safarbievna/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/chechenova-zalina-safarbievna/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/chechenova-zalina-safarbievna/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/chechenova-zalina-safarbievna/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/chechenova-zalina-safarbievna/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/denisov-dmitriy-sergeevich/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/denisov-dmitriy-sergeevich/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/denisov-dmitriy-sergeevich/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/denisov-dmitriy-sergeevich/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/denisov-dmitriy-sergeevich/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/elizarova-yulia-vitalievna/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/elizarova-yulia-vitalievna/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/elizarova-yulia-vitalievna/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/elizarova-yulia-vitalievna/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/elizarova-yulia-vitalievna/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/fedorova-ksenia-vladimirovna/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/fedorova-ksenia-vladimirovna/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/fedorova-ksenia-vladimirovna/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/fedorova-ksenia-vladimirovna/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/fedorova-ksenia-vladimirovna/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ibragimova-valeriya-evgenevna/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ibragimova-valeriya-evgenevna/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ibragimova-valeriya-evgenevna/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ibragimova-valeriya-evgenevna/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ibragimova-valeriya-evgenevna/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ilin-aleksandr-andreevich/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ilin-aleksandr-andreevich/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ilin-aleksandr-andreevich/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ilin-aleksandr-andreevich/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ilin-aleksandr-andreevich/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/kashchenko-sofya-sergeevna/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/kashchenko-sofya-sergeevna/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/kashchenko-sofya-sergeevna/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/kashchenko-sofya-sergeevna/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/kashchenko-sofya-sergeevna/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/kazaryan-armen-fedorovich/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/kazaryan-armen-fedorovich/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/kazaryan-armen-fedorovich/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/kazaryan-armen-fedorovich/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/kazaryan-armen-fedorovich/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/khazhmetov-andzor-valerevich/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/khazhmetov-andzor-valerevich/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/khazhmetov-andzor-valerevich/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/khazhmetov-andzor-valerevich/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/khazhmetov-andzor-valerevich/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/lanskikh-alla-aleksandrovna/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/lanskikh-alla-aleksandrovna/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/lanskikh-alla-aleksandrovna/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/lanskikh-alla-aleksandrovna/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/lanskikh-alla-aleksandrovna/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/leonid-yevgenyevich-eremin/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/leonid-yevgenyevich-eremin/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/leonid-yevgenyevich-eremin/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/leonid-yevgenyevich-eremin/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/leonid-yevgenyevich-eremin/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/maysarov-ruslan-nusretovich/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/maysarov-ruslan-nusretovich/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/maysarov-ruslan-nusretovich/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/maysarov-ruslan-nusretovich/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/maysarov-ruslan-nusretovich/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/meltonyan-gulnaz-mazhitovna/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/meltonyan-gulnaz-mazhitovna/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/meltonyan-gulnaz-mazhitovna/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/meltonyan-gulnaz-mazhitovna/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/meltonyan-gulnaz-mazhitovna/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/muraveva-mariya-vladimirovna/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/muraveva-mariya-vladimirovna/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/muraveva-mariya-vladimirovna/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/muraveva-mariya-vladimirovna/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/muraveva-mariya-vladimirovna/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/oganesyan-diana-feliksovna/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/oganesyan-diana-feliksovna/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/oganesyan-diana-feliksovna/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/oganesyan-diana-feliksovna/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/oganesyan-diana-feliksovna/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ositnyanko-alina-olegovna/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ositnyanko-alina-olegovna/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ositnyanko-alina-olegovna/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ositnyanko-alina-olegovna/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ositnyanko-alina-olegovna/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/pasov-maksim-dmitrievich/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/pasov-maksim-dmitrievich/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/pasov-maksim-dmitrievich/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/pasov-maksim-dmitrievich/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/pasov-maksim-dmitrievich/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/pavlovskaya-ekaterina-olegovna/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/pavlovskaya-ekaterina-olegovna/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/pavlovskaya-ekaterina-olegovna/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/pavlovskaya-ekaterina-olegovna/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/pavlovskaya-ekaterina-olegovna/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ramenskaya-aleksandra-vladimirovna/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ramenskaya-aleksandra-vladimirovna/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ramenskaya-aleksandra-vladimirovna/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ramenskaya-aleksandra-vladimirovna/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ramenskaya-aleksandra-vladimirovna/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ritov-stanislav-romanovich/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ritov-stanislav-romanovich/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ritov-stanislav-romanovich/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ritov-stanislav-romanovich/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/ritov-stanislav-romanovich/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/said-uzhakhov-magomed-suleymanovich/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/said-uzhakhov-magomed-suleymanovich/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/said-uzhakhov-magomed-suleymanovich/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/said-uzhakhov-magomed-suleymanovich/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/said-uzhakhov-magomed-suleymanovich/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/satyrova-leyla-rasulovna/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/satyrova-leyla-rasulovna/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/satyrova-leyla-rasulovna/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/satyrova-leyla-rasulovna/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/satyrova-leyla-rasulovna/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/soblirova-adelina-namigovna/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/soblirova-adelina-namigovna/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/soblirova-adelina-namigovna/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/soblirova-adelina-namigovna/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/soblirova-adelina-namigovna/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/tikhonova-yuliya-gennadevna/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/tikhonova-yuliya-gennadevna/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/tikhonova-yuliya-gennadevna/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/tikhonova-yuliya-gennadevna/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/tikhonova-yuliya-gennadevna/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/voronkova-tatiana-andreevna/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/voronkova-tatiana-andreevna/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/voronkova-tatiana-andreevna/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/voronkova-tatiana-andreevna/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/voronkova-tatiana-andreevna/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/vsevolod-vladimirovich-dzhatdaev/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/vsevolod-vladimirovich-dzhatdaev/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/vsevolod-vladimirovich-dzhatdaev/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/vsevolod-vladimirovich-dzhatdaev/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/vsevolod-vladimirovich-dzhatdaev/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/yakushenkov/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/yakushenkov/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/yakushenkov/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/yakushenkov/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/yakushenkov/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/yarkaeva-leysan-rasimovna/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/yarkaeva-leysan-rasimovna/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/yarkaeva-leysan-rasimovna/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/yarkaeva-leysan-rasimovna/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/yarkaeva-leysan-rasimovna/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/zhirukhina-kira-sergeevna/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/zhirukhina-kira-sergeevna/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/zhirukhina-kira-sergeevna/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/zhirukhina-kira-sergeevna/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/doctors/zhirukhina-kira-sergeevna/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/privacy-policy/",
+      "href": "https://iorthocenter.ru/privacy-policy/",
+      "text": "policy path"
+    },
+    {
+      "page": "https://iorthocenter.ru/privacy-policy/",
+      "href": "/privacy-policy/",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/privacy-policy/",
+      "href": "/privacy-policy/",
+      "text": "Политике конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/privacy-policy/",
+      "href": "/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://iorthocenter.ru/privacy-policy/",
+      "href": "/obrabotka-dannyh/",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://iorthocenter.ru/privacy-policy/",
+      "href": "/policy/",
+      "text": "персональных данных"
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://iorthocenter.ru/contact",
+      "https://iorthocenter.ru/contacts",
+      "https://iorthocenter.ru/kontakty"
+    ],
+    "booking_urls": [
+      "https://iorthocenter.ru/"
+    ],
+    "legal_urls": [
+      "https://iorthocenter.ru/doctors/",
+      "https://iorthocenter.ru/doctors/agapova-julia-vyacheslavovna/",
+      "https://iorthocenter.ru/doctors/alypkasheva-ruzanna-soyunovna/",
+      "https://iorthocenter.ru/doctors/boraeva-aleksandra-aleksandrovna/",
+      "https://iorthocenter.ru/doctors/brilina-kseniya-aleksandrovna/",
+      "https://iorthocenter.ru/doctors/chechenova-zalina-safarbievna/",
+      "https://iorthocenter.ru/doctors/denisov-dmitriy-sergeevich/",
+      "https://iorthocenter.ru/doctors/elizarova-yulia-vitalievna/",
+      "https://iorthocenter.ru/doctors/fedorova-ksenia-vladimirovna/",
+      "https://iorthocenter.ru/doctors/ibragimova-valeriya-evgenevna/",
+      "https://iorthocenter.ru/doctors/ilin-aleksandr-andreevich/",
+      "https://iorthocenter.ru/doctors/kashchenko-sofya-sergeevna/",
+      "https://iorthocenter.ru/doctors/kazaryan-armen-fedorovich/",
+      "https://iorthocenter.ru/doctors/khazhmetov-andzor-valerevich/",
+      "https://iorthocenter.ru/doctors/lanskikh-alla-aleksandrovna/",
+      "https://iorthocenter.ru/doctors/leonid-yevgenyevich-eremin/",
+      "https://iorthocenter.ru/doctors/maysarov-ruslan-nusretovich/",
+      "https://iorthocenter.ru/doctors/meltonyan-gulnaz-mazhitovna/",
+      "https://iorthocenter.ru/doctors/muraveva-mariya-vladimirovna/",
+      "https://iorthocenter.ru/doctors/oganesyan-diana-feliksovna/",
+      "https://iorthocenter.ru/doctors/ositnyanko-alina-olegovna/",
+      "https://iorthocenter.ru/doctors/pasov-maksim-dmitrievich/",
+      "https://iorthocenter.ru/doctors/pavlovskaya-ekaterina-olegovna/",
+      "https://iorthocenter.ru/doctors/ramenskaya-aleksandra-vladimirovna/",
+      "https://iorthocenter.ru/doctors/ritov-stanislav-romanovich/",
+      "https://iorthocenter.ru/doctors/said-uzhakhov-magomed-suleymanovich/",
+      "https://iorthocenter.ru/doctors/satyrova-leyla-rasulovna/",
+      "https://iorthocenter.ru/doctors/soblirova-adelina-namigovna/",
+      "https://iorthocenter.ru/doctors/tikhonova-yuliya-gennadevna/",
+      "https://iorthocenter.ru/doctors/voronkova-tatiana-andreevna/",
+      "https://iorthocenter.ru/doctors/vsevolod-vladimirovich-dzhatdaev/",
+      "https://iorthocenter.ru/doctors/yakushenkov/",
+      "https://iorthocenter.ru/doctors/yarkaeva-leysan-rasimovna/",
+      "https://iorthocenter.ru/doctors/zhirukhina-kira-sergeevna/",
+      "https://iorthocenter.ru/policy/",
+      "https://iorthocenter.ru/privacy",
+      "https://iorthocenter.ru/privacy-policy/"
+    ],
+    "sources": {
+      "https://iorthocenter.ru/": "home-booking-candidate",
+      "https://iorthocenter.ru/contact": "fallback",
+      "https://iorthocenter.ru/contacts": "fallback",
+      "https://iorthocenter.ru/doctors/": "navigation-legal",
+      "https://iorthocenter.ru/doctors/agapova-julia-vyacheslavovna/": "navigation-legal",
+      "https://iorthocenter.ru/doctors/alypkasheva-ruzanna-soyunovna/": "navigation-legal",
+      "https://iorthocenter.ru/doctors/boraeva-aleksandra-aleksandrovna/": "navigation-legal",
+      "https://iorthocenter.ru/doctors/brilina-kseniya-aleksandrovna/": "navigation-legal",
+      "https://iorthocenter.ru/doctors/chechenova-zalina-safarbievna/": "navigation-legal",
+      "https://iorthocenter.ru/doctors/denisov-dmitriy-sergeevich/": "navigation-legal",
+      "https://iorthocenter.ru/doctors/elizarova-yulia-vitalievna/": "navigation-legal",
+      "https://iorthocenter.ru/doctors/fedorova-ksenia-vladimirovna/": "navigation-legal",
+      "https://iorthocenter.ru/doctors/ibragimova-valeriya-evgenevna/": "navigation-legal",
+      "https://iorthocenter.ru/doctors/ilin-aleksandr-andreevich/": "navigation-legal",
+      "https://iorthocenter.ru/doctors/kashchenko-sofya-sergeevna/": "navigation-legal",
+      "https://iorthocenter.ru/doctors/kazaryan-armen-fedorovich/": "navigation-legal",
+      "https://iorthocenter.ru/doctors/khazhmetov-andzor-valerevich/": "navigation-legal",
+      "https://iorthocenter.ru/doctors/lanskikh-alla-aleksandrovna/": "navigation-legal",
+      "https://iorthocenter.ru/doctors/leonid-yevgenyevich-eremin/": "navigation-legal",
+      "https://iorthocenter.ru/doctors/maysarov-ruslan-nusretovich/": "navigation-legal",
+      "https://iorthocenter.ru/doctors/meltonyan-gulnaz-mazhitovna/": "navigation-legal",
+      "https://iorthocenter.ru/doctors/muraveva-mariya-vladimirovna/": "navigation-legal",
+      "https://iorthocenter.ru/doctors/oganesyan-diana-feliksovna/": "navigation-legal",
+      "https://iorthocenter.ru/doctors/ositnyanko-alina-olegovna/": "navigation-legal",
+      "https://iorthocenter.ru/doctors/pasov-maksim-dmitrievich/": "navigation-legal",
+      "https://iorthocenter.ru/doctors/pavlovskaya-ekaterina-olegovna/": "navigation-legal",
+      "https://iorthocenter.ru/doctors/ramenskaya-aleksandra-vladimirovna/": "navigation-legal",
+      "https://iorthocenter.ru/doctors/ritov-stanislav-romanovich/": "navigation-legal",
+      "https://iorthocenter.ru/doctors/said-uzhakhov-magomed-suleymanovich/": "navigation-legal",
+      "https://iorthocenter.ru/doctors/satyrova-leyla-rasulovna/": "navigation-legal",
+      "https://iorthocenter.ru/doctors/soblirova-adelina-namigovna/": "navigation-legal",
+      "https://iorthocenter.ru/doctors/tikhonova-yuliya-gennadevna/": "navigation-legal",
+      "https://iorthocenter.ru/doctors/voronkova-tatiana-andreevna/": "navigation-legal",
+      "https://iorthocenter.ru/doctors/vsevolod-vladimirovich-dzhatdaev/": "navigation-legal",
+      "https://iorthocenter.ru/doctors/yakushenkov/": "navigation-legal",
+      "https://iorthocenter.ru/doctors/yarkaeva-leysan-rasimovna/": "navigation-legal",
+      "https://iorthocenter.ru/doctors/zhirukhina-kira-sergeevna/": "navigation-legal",
+      "https://iorthocenter.ru/kontakty": "fallback",
+      "https://iorthocenter.ru/policy/": "navigation-legal",
+      "https://iorthocenter.ru/privacy": "policy-hint",
+      "https://iorthocenter.ru/privacy-policy/": "navigation-legal"
+    },
+    "fallback_used": {
+      "contact": true,
+      "booking": false
+    },
+    "sitemap_total_urls": 3,
+    "sitemap_used_urls": 3
+  }
+}

@@ -1,0 +1,447 @@
+{
+  "domain": "dentaklad.ru",
+  "pages": [
+    {
+      "requested": "https://dentaklad.ru/",
+      "status": 200,
+      "final_url": "https://dentaklad.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://dentaklad.ru/kontakty/",
+      "status": 200,
+      "final_url": "https://dentaklad.ru/kontakty/",
+      "error": null
+    },
+    {
+      "requested": "https://dentaklad.ru/glavnaya/privacy-policy/",
+      "status": 200,
+      "final_url": "https://dentaklad.ru/glavnaya/privacy-policy/",
+      "error": null
+    },
+    {
+      "requested": "https://dentaklad.ru/privacy",
+      "status": 200,
+      "final_url": "https://dentaklad.ru/glavnaya/privacy-policy/",
+      "error": null
+    },
+    {
+      "requested": "https://dentaklad.ru/privacy-policy/",
+      "status": 200,
+      "final_url": "https://dentaklad.ru/glavnaya/privacy-policy/",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://dentaklad.ru/",
+      "form_id": "form_1",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" checked disabled>",
+      "policy_poc": "06803H6.88471Z\" fill=\"white\"/> </svg> </div> <p>Даю согласие <br> на обработку своих <a href=\"https://dentaklad.ru/glavnaya/privacy-policy/\">персональных данных</a></p> </label> <but"
+    },
+    {
+      "page": "https://dentaklad.ru/",
+      "form_id": "form_2",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" checked disabled>",
+      "policy_poc": "06803H6.88471Z\" fill=\"white\"/> </svg> </div> <p>Даю согласие <br> на обработку своих <a href=\"https://dentaklad.ru/glavnaya/privacy-policy/\">персональных данных</a></p> </label> <but"
+    },
+    {
+      "page": "https://dentaklad.ru/",
+      "form_id": "form_3",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" checked disabled>",
+      "policy_poc": "06803H6.88471Z\" fill=\"white\"/> </svg> </div> <p>Даю согласие <br> на обработку своих <a href=\"https://dentaklad.ru/glavnaya/privacy-policy/\">персональных данных</a></p> </label> <but"
+    },
+    {
+      "page": "https://dentaklad.ru/",
+      "form_id": "form_4",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" checked disabled>",
+      "policy_poc": "06803H6.88471Z\" fill=\"white\"/> </svg> </div> <p>Даю согласие <br> на обработку своих <a href=\"https://dentaklad.ru/glavnaya/privacy-policy/\">персональных данных</a></p> </label> <but"
+    },
+    {
+      "page": "https://dentaklad.ru/",
+      "form_id": "form_5",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" checked disabled>",
+      "policy_poc": "6.88471Z\" fill=\"white\"/> </svg> </div> <p>Даю согласие <br> на обработку своих <a href=\"https://dentaklad.ru/glavnaya/privacy-policy/\">персональных данных</a></p> </label>"
+    },
+    {
+      "page": "https://dentaklad.ru/kontakty/",
+      "form_id": "form_1",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" checked disabled>",
+      "policy_poc": "06803H6.88471Z\" fill=\"white\"/> </svg> </div> <p>Даю согласие <br> на обработку своих <a href=\"https://dentaklad.ru/glavnaya/privacy-policy/\">персональных данных</a></p> </label> <but"
+    },
+    {
+      "page": "https://dentaklad.ru/kontakty/",
+      "form_id": "form_2",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" checked disabled>",
+      "policy_poc": "06803H6.88471Z\" fill=\"white\"/> </svg> </div> <p>Даю согласие <br> на обработку своих <a href=\"https://dentaklad.ru/glavnaya/privacy-policy/\">персональных данных</a></p> </label> <but"
+    },
+    {
+      "page": "https://dentaklad.ru/kontakty/",
+      "form_id": "form_3",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" checked disabled>",
+      "policy_poc": "06803H6.88471Z\" fill=\"white\"/> </svg> </div> <p>Даю согласие <br> на обработку своих <a href=\"https://dentaklad.ru/glavnaya/privacy-policy/\">персональных данных</a></p> </label> <but"
+    },
+    {
+      "page": "https://dentaklad.ru/kontakty/",
+      "form_id": "form_4",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" checked disabled>",
+      "policy_poc": "06803H6.88471Z\" fill=\"white\"/> </svg> </div> <p>Даю согласие <br> на обработку своих <a href=\"https://dentaklad.ru/glavnaya/privacy-policy/\">персональных данных</a></p> </label> <but"
+    },
+    {
+      "page": "https://dentaklad.ru/kontakty/",
+      "form_id": "form_5",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" checked disabled>",
+      "policy_poc": "6.88471Z\" fill=\"white\"/> </svg> </div> <p>Даю согласие <br> на обработку своих <a href=\"https://dentaklad.ru/glavnaya/privacy-policy/\">персональных данных</a></p> </label>"
+    },
+    {
+      "page": "https://dentaklad.ru/kontakty/",
+      "form_id": "form_6",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://dentaklad.ru/glavnaya/privacy-policy/",
+      "form_id": "form_1",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" checked disabled>",
+      "policy_poc": "06803H6.88471Z\" fill=\"white\"/> </svg> </div> <p>Даю согласие <br> на обработку своих <a href=\"https://dentaklad.ru/glavnaya/privacy-policy/\">персональных данных</a></p> </label> <but"
+    },
+    {
+      "page": "https://dentaklad.ru/glavnaya/privacy-policy/",
+      "form_id": "form_2",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" checked disabled>",
+      "policy_poc": "06803H6.88471Z\" fill=\"white\"/> </svg> </div> <p>Даю согласие <br> на обработку своих <a href=\"https://dentaklad.ru/glavnaya/privacy-policy/\">персональных данных</a></p> </label> <but"
+    },
+    {
+      "page": "https://dentaklad.ru/glavnaya/privacy-policy/",
+      "form_id": "form_3",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" checked disabled>",
+      "policy_poc": "06803H6.88471Z\" fill=\"white\"/> </svg> </div> <p>Даю согласие <br> на обработку своих <a href=\"https://dentaklad.ru/glavnaya/privacy-policy/\">персональных данных</a></p> </label> <but"
+    },
+    {
+      "page": "https://dentaklad.ru/glavnaya/privacy-policy/",
+      "form_id": "form_4",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" checked disabled>",
+      "policy_poc": "06803H6.88471Z\" fill=\"white\"/> </svg> </div> <p>Даю согласие <br> на обработку своих <a href=\"https://dentaklad.ru/glavnaya/privacy-policy/\">персональных данных</a></p> </label> <but"
+    },
+    {
+      "page": "https://dentaklad.ru/glavnaya/privacy-policy/",
+      "form_id": "form_5",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" checked disabled>",
+      "policy_poc": "6.88471Z\" fill=\"white\"/> </svg> </div> <p>Даю согласие <br> на обработку своих <a href=\"https://dentaklad.ru/glavnaya/privacy-policy/\">персональных данных</a></p> </label>"
+    },
+    {
+      "page": "https://dentaklad.ru/privacy",
+      "form_id": "form_1",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" checked disabled>",
+      "policy_poc": "06803H6.88471Z\" fill=\"white\"/> </svg> </div> <p>Даю согласие <br> на обработку своих <a href=\"https://dentaklad.ru/glavnaya/privacy-policy/\">персональных данных</a></p> </label> <but"
+    },
+    {
+      "page": "https://dentaklad.ru/privacy",
+      "form_id": "form_2",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" checked disabled>",
+      "policy_poc": "06803H6.88471Z\" fill=\"white\"/> </svg> </div> <p>Даю согласие <br> на обработку своих <a href=\"https://dentaklad.ru/glavnaya/privacy-policy/\">персональных данных</a></p> </label> <but"
+    },
+    {
+      "page": "https://dentaklad.ru/privacy",
+      "form_id": "form_3",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" checked disabled>",
+      "policy_poc": "06803H6.88471Z\" fill=\"white\"/> </svg> </div> <p>Даю согласие <br> на обработку своих <a href=\"https://dentaklad.ru/glavnaya/privacy-policy/\">персональных данных</a></p> </label> <but"
+    },
+    {
+      "page": "https://dentaklad.ru/privacy",
+      "form_id": "form_4",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" checked disabled>",
+      "policy_poc": "06803H6.88471Z\" fill=\"white\"/> </svg> </div> <p>Даю согласие <br> на обработку своих <a href=\"https://dentaklad.ru/glavnaya/privacy-policy/\">персональных данных</a></p> </label> <but"
+    },
+    {
+      "page": "https://dentaklad.ru/privacy",
+      "form_id": "form_5",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" checked disabled>",
+      "policy_poc": "6.88471Z\" fill=\"white\"/> </svg> </div> <p>Даю согласие <br> на обработку своих <a href=\"https://dentaklad.ru/glavnaya/privacy-policy/\">персональных данных</a></p> </label>"
+    },
+    {
+      "page": "https://dentaklad.ru/privacy-policy/",
+      "form_id": "form_1",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" checked disabled>",
+      "policy_poc": "06803H6.88471Z\" fill=\"white\"/> </svg> </div> <p>Даю согласие <br> на обработку своих <a href=\"https://dentaklad.ru/glavnaya/privacy-policy/\">персональных данных</a></p> </label> <but"
+    },
+    {
+      "page": "https://dentaklad.ru/privacy-policy/",
+      "form_id": "form_2",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" checked disabled>",
+      "policy_poc": "06803H6.88471Z\" fill=\"white\"/> </svg> </div> <p>Даю согласие <br> на обработку своих <a href=\"https://dentaklad.ru/glavnaya/privacy-policy/\">персональных данных</a></p> </label> <but"
+    },
+    {
+      "page": "https://dentaklad.ru/privacy-policy/",
+      "form_id": "form_3",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" checked disabled>",
+      "policy_poc": "06803H6.88471Z\" fill=\"white\"/> </svg> </div> <p>Даю согласие <br> на обработку своих <a href=\"https://dentaklad.ru/glavnaya/privacy-policy/\">персональных данных</a></p> </label> <but"
+    },
+    {
+      "page": "https://dentaklad.ru/privacy-policy/",
+      "form_id": "form_4",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" checked disabled>",
+      "policy_poc": "06803H6.88471Z\" fill=\"white\"/> </svg> </div> <p>Даю согласие <br> на обработку своих <a href=\"https://dentaklad.ru/glavnaya/privacy-policy/\">персональных данных</a></p> </label> <but"
+    },
+    {
+      "page": "https://dentaklad.ru/privacy-policy/",
+      "form_id": "form_5",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" checked disabled>",
+      "policy_poc": "6.88471Z\" fill=\"white\"/> </svg> </div> <p>Даю согласие <br> на обработку своих <a href=\"https://dentaklad.ru/glavnaya/privacy-policy/\">персональных данных</a></p> </label>"
+    }
+  ],
+  "emails": [
+    "dental_belozub@mail.ru",
+    "info@dentaklad.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://dentaklad.ru/",
+      "href": "https://dentaklad.ru/glavnaya/privacy-policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://dentaklad.ru/",
+      "href": "https://dentaklad.ru/glavnaya/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://dentaklad.ru/",
+      "href": "https://dentaklad.ru/glavnaya/privacy-policy/",
+      "text": "Подробнее"
+    },
+    {
+      "page": "https://dentaklad.ru/kontakty/",
+      "href": "https://dentaklad.ru/glavnaya/privacy-policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://dentaklad.ru/kontakty/",
+      "href": "https://dentaklad.ru/glavnaya/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://dentaklad.ru/kontakty/",
+      "href": "https://dentaklad.ru/glavnaya/privacy-policy/",
+      "text": "Подробнее"
+    },
+    {
+      "page": "https://dentaklad.ru/glavnaya/privacy-policy/",
+      "href": "https://dentaklad.ru/glavnaya/privacy-policy/",
+      "text": "policy path"
+    },
+    {
+      "page": "https://dentaklad.ru/glavnaya/privacy-policy/",
+      "href": "https://dentaklad.ru/glavnaya/privacy-policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://dentaklad.ru/glavnaya/privacy-policy/",
+      "href": "https://dentaklad.ru/glavnaya/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://dentaklad.ru/glavnaya/privacy-policy/",
+      "href": "https://dentaklad.ru/glavnaya/privacy-policy/",
+      "text": "Подробнее"
+    },
+    {
+      "page": "https://dentaklad.ru/privacy",
+      "href": "https://dentaklad.ru/privacy",
+      "text": "policy path"
+    },
+    {
+      "page": "https://dentaklad.ru/privacy",
+      "href": "https://dentaklad.ru/glavnaya/privacy-policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://dentaklad.ru/privacy",
+      "href": "https://dentaklad.ru/glavnaya/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://dentaklad.ru/privacy",
+      "href": "https://dentaklad.ru/glavnaya/privacy-policy/",
+      "text": "Подробнее"
+    },
+    {
+      "page": "https://dentaklad.ru/privacy-policy/",
+      "href": "https://dentaklad.ru/privacy-policy/",
+      "text": "policy path"
+    },
+    {
+      "page": "https://dentaklad.ru/privacy-policy/",
+      "href": "https://dentaklad.ru/glavnaya/privacy-policy/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://dentaklad.ru/privacy-policy/",
+      "href": "https://dentaklad.ru/glavnaya/privacy-policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://dentaklad.ru/privacy-policy/",
+      "href": "https://dentaklad.ru/glavnaya/privacy-policy/",
+      "text": "Подробнее"
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://dentaklad.ru/kontakty/"
+    ],
+    "booking_urls": [
+      "https://dentaklad.ru/"
+    ],
+    "legal_urls": [
+      "https://dentaklad.ru/glavnaya/privacy-policy/",
+      "https://dentaklad.ru/privacy",
+      "https://dentaklad.ru/privacy-policy/"
+    ],
+    "sources": {
+      "https://dentaklad.ru/": "home-booking-candidate",
+      "https://dentaklad.ru/glavnaya/privacy-policy/": "navigation-legal",
+      "https://dentaklad.ru/kontakty/": "navigation",
+      "https://dentaklad.ru/privacy": "policy-hint",
+      "https://dentaklad.ru/privacy-policy/": "policy-hint"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": false
+    },
+    "sitemap_total_urls": 4,
+    "sitemap_used_urls": 4
+  }
+}

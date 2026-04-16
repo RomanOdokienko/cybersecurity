@@ -1,0 +1,480 @@
+{
+  "domain": "recstom.ru",
+  "pages": [
+    {
+      "requested": "https://recstom.ru/",
+      "status": 200,
+      "final_url": "https://recstom.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://recstom.ru/contacts/",
+      "status": 200,
+      "final_url": "https://recstom.ru/contacts/",
+      "error": null
+    },
+    {
+      "requested": "https://recstom.ru/appointment",
+      "status": 404,
+      "final_url": "https://recstom.ru/appointment",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://recstom.ru/booking",
+      "status": 404,
+      "final_url": "https://recstom.ru/booking",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://recstom.ru/zapis",
+      "status": 404,
+      "final_url": "https://recstom.ru/zapis",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://recstom.ru/doctors-sitemap.xml",
+      "status": 200,
+      "final_url": "https://recstom.ru/doctors-sitemap.xml",
+      "error": null
+    },
+    {
+      "requested": "https://recstom.ru/doctors/",
+      "status": 200,
+      "final_url": "https://recstom.ru/doctors/",
+      "error": null
+    },
+    {
+      "requested": "https://recstom.ru/doctors/aksentiy-elizaveta-andriyanovna/",
+      "status": 200,
+      "final_url": "https://recstom.ru/doctors/aksentiy-elizaveta-andriyanovna/",
+      "error": null
+    },
+    {
+      "requested": "https://recstom.ru/doctors/alibekov-murad-magomedrasulovich/",
+      "status": 200,
+      "final_url": "https://recstom.ru/doctors/alibekov-murad-magomedrasulovich/",
+      "error": null
+    },
+    {
+      "requested": "https://recstom.ru/doctors/chaladze-madonna-sosoevna/",
+      "status": 200,
+      "final_url": "https://recstom.ru/doctors/chaladze-madonna-sosoevna/",
+      "error": null
+    },
+    {
+      "requested": "https://recstom.ru/doctors/ivanov-anton-vadimovich/",
+      "status": 200,
+      "final_url": "https://recstom.ru/doctors/ivanov-anton-vadimovich/",
+      "error": null
+    },
+    {
+      "requested": "https://recstom.ru/doctors/li-igor-olegovich/",
+      "status": 200,
+      "final_url": "https://recstom.ru/doctors/li-igor-olegovich/",
+      "error": null
+    },
+    {
+      "requested": "https://recstom.ru/doctors/maksutov-alibi-aynadinovich/",
+      "status": 200,
+      "final_url": "https://recstom.ru/doctors/maksutov-alibi-aynadinovich/",
+      "error": null
+    },
+    {
+      "requested": "https://recstom.ru/doctors/marusova-anna-sergeevna/",
+      "status": 200,
+      "final_url": "https://recstom.ru/doctors/marusova-anna-sergeevna/",
+      "error": null
+    },
+    {
+      "requested": "https://recstom.ru/doctors/rotay-tatyana-alekseevna/",
+      "status": 200,
+      "final_url": "https://recstom.ru/doctors/rotay-tatyana-alekseevna/",
+      "error": null
+    },
+    {
+      "requested": "https://recstom.ru/doctors/shor-evgeniy-ilich/",
+      "status": 200,
+      "final_url": "https://recstom.ru/doctors/shor-evgeniy-ilich/",
+      "error": null
+    },
+    {
+      "requested": "https://recstom.ru/dokumenty/",
+      "status": 200,
+      "final_url": "https://recstom.ru/dokumenty/",
+      "error": null
+    },
+    {
+      "requested": "https://recstom.ru/privacy/",
+      "status": 200,
+      "final_url": "https://recstom.ru/privacy/",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://recstom.ru/",
+      "form_id": "fallback",
+      "action_display": "action отсутствует",
+      "open_tag": "<form id=\"fallback\" class=\"modal__form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input required checked type=\"checkbox\" name=\"confirm\">",
+      "policy_poc": "ox\" name=\"confirm\"> <span class=\"checkbox__content\"> Нажимая на кнопку «Отправить», я даю согласие наобработку персональных данных. <a href=\"https://recstom.ru/privacy/\">Подробнее</a> </span> </label></div></form>"
+    },
+    {
+      "page": "https://recstom.ru/contacts/",
+      "form_id": "fallback",
+      "action_display": "action отсутствует",
+      "open_tag": "<form id=\"fallback\" class=\"modal__form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input required checked type=\"checkbox\" name=\"confirm\">",
+      "policy_poc": "ox\" name=\"confirm\"> <span class=\"checkbox__content\"> Нажимая на кнопку «Отправить», я даю согласие наобработку персональных данных. <a href=\"https://recstom.ru/privacy/\">Подробнее</a> </span> </label></div></form>"
+    },
+    {
+      "page": "https://recstom.ru/doctors/",
+      "form_id": "fallback",
+      "action_display": "action отсутствует",
+      "open_tag": "<form id=\"fallback\" class=\"modal__form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input required checked type=\"checkbox\" name=\"confirm\">",
+      "policy_poc": "ox\" name=\"confirm\"> <span class=\"checkbox__content\"> Нажимая на кнопку «Отправить», я даю согласие наобработку персональных данных. <a href=\"https://recstom.ru/privacy/\">Подробнее</a> </span> </label></div></form>"
+    },
+    {
+      "page": "https://recstom.ru/doctors/aksentiy-elizaveta-andriyanovna/",
+      "form_id": "fallback",
+      "action_display": "action отсутствует",
+      "open_tag": "<form id=\"fallback\" class=\"modal__form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input required checked type=\"checkbox\" name=\"confirm\">",
+      "policy_poc": "ox\" name=\"confirm\"> <span class=\"checkbox__content\"> Нажимая на кнопку «Отправить», я даю согласие наобработку персональных данных. <a href=\"https://recstom.ru/privacy/\">Подробнее</a> </span> </label></div></form>"
+    },
+    {
+      "page": "https://recstom.ru/doctors/alibekov-murad-magomedrasulovich/",
+      "form_id": "fallback",
+      "action_display": "action отсутствует",
+      "open_tag": "<form id=\"fallback\" class=\"modal__form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input required checked type=\"checkbox\" name=\"confirm\">",
+      "policy_poc": "ox\" name=\"confirm\"> <span class=\"checkbox__content\"> Нажимая на кнопку «Отправить», я даю согласие наобработку персональных данных. <a href=\"https://recstom.ru/privacy/\">Подробнее</a> </span> </label></div></form>"
+    },
+    {
+      "page": "https://recstom.ru/doctors/chaladze-madonna-sosoevna/",
+      "form_id": "fallback",
+      "action_display": "action отсутствует",
+      "open_tag": "<form id=\"fallback\" class=\"modal__form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input required checked type=\"checkbox\" name=\"confirm\">",
+      "policy_poc": "ox\" name=\"confirm\"> <span class=\"checkbox__content\"> Нажимая на кнопку «Отправить», я даю согласие наобработку персональных данных. <a href=\"https://recstom.ru/privacy/\">Подробнее</a> </span> </label></div></form>"
+    },
+    {
+      "page": "https://recstom.ru/doctors/ivanov-anton-vadimovich/",
+      "form_id": "fallback",
+      "action_display": "action отсутствует",
+      "open_tag": "<form id=\"fallback\" class=\"modal__form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input required checked type=\"checkbox\" name=\"confirm\">",
+      "policy_poc": "ox\" name=\"confirm\"> <span class=\"checkbox__content\"> Нажимая на кнопку «Отправить», я даю согласие наобработку персональных данных. <a href=\"https://recstom.ru/privacy/\">Подробнее</a> </span> </label></div></form>"
+    },
+    {
+      "page": "https://recstom.ru/doctors/li-igor-olegovich/",
+      "form_id": "fallback",
+      "action_display": "action отсутствует",
+      "open_tag": "<form id=\"fallback\" class=\"modal__form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input required checked type=\"checkbox\" name=\"confirm\">",
+      "policy_poc": "ox\" name=\"confirm\"> <span class=\"checkbox__content\"> Нажимая на кнопку «Отправить», я даю согласие наобработку персональных данных. <a href=\"https://recstom.ru/privacy/\">Подробнее</a> </span> </label></div></form>"
+    },
+    {
+      "page": "https://recstom.ru/doctors/maksutov-alibi-aynadinovich/",
+      "form_id": "fallback",
+      "action_display": "action отсутствует",
+      "open_tag": "<form id=\"fallback\" class=\"modal__form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input required checked type=\"checkbox\" name=\"confirm\">",
+      "policy_poc": "ox\" name=\"confirm\"> <span class=\"checkbox__content\"> Нажимая на кнопку «Отправить», я даю согласие наобработку персональных данных. <a href=\"https://recstom.ru/privacy/\">Подробнее</a> </span> </label></div></form>"
+    },
+    {
+      "page": "https://recstom.ru/doctors/marusova-anna-sergeevna/",
+      "form_id": "fallback",
+      "action_display": "action отсутствует",
+      "open_tag": "<form id=\"fallback\" class=\"modal__form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input required checked type=\"checkbox\" name=\"confirm\">",
+      "policy_poc": "ox\" name=\"confirm\"> <span class=\"checkbox__content\"> Нажимая на кнопку «Отправить», я даю согласие наобработку персональных данных. <a href=\"https://recstom.ru/privacy/\">Подробнее</a> </span> </label></div></form>"
+    },
+    {
+      "page": "https://recstom.ru/doctors/rotay-tatyana-alekseevna/",
+      "form_id": "fallback",
+      "action_display": "action отсутствует",
+      "open_tag": "<form id=\"fallback\" class=\"modal__form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input required checked type=\"checkbox\" name=\"confirm\">",
+      "policy_poc": "ox\" name=\"confirm\"> <span class=\"checkbox__content\"> Нажимая на кнопку «Отправить», я даю согласие наобработку персональных данных. <a href=\"https://recstom.ru/privacy/\">Подробнее</a> </span> </label></div></form>"
+    },
+    {
+      "page": "https://recstom.ru/doctors/shor-evgeniy-ilich/",
+      "form_id": "fallback",
+      "action_display": "action отсутствует",
+      "open_tag": "<form id=\"fallback\" class=\"modal__form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input required checked type=\"checkbox\" name=\"confirm\">",
+      "policy_poc": "ox\" name=\"confirm\"> <span class=\"checkbox__content\"> Нажимая на кнопку «Отправить», я даю согласие наобработку персональных данных. <a href=\"https://recstom.ru/privacy/\">Подробнее</a> </span> </label></div></form>"
+    },
+    {
+      "page": "https://recstom.ru/dokumenty/",
+      "form_id": "fallback",
+      "action_display": "action отсутствует",
+      "open_tag": "<form id=\"fallback\" class=\"modal__form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input required checked type=\"checkbox\" name=\"confirm\">",
+      "policy_poc": "ox\" name=\"confirm\"> <span class=\"checkbox__content\"> Нажимая на кнопку «Отправить», я даю согласие наобработку персональных данных. <a href=\"https://recstom.ru/privacy/\">Подробнее</a> </span> </label></div></form>"
+    },
+    {
+      "page": "https://recstom.ru/privacy/",
+      "form_id": "fallback",
+      "action_display": "action отсутствует",
+      "open_tag": "<form id=\"fallback\" class=\"modal__form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input required checked type=\"checkbox\" name=\"confirm\">",
+      "policy_poc": "ox\" name=\"confirm\"> <span class=\"checkbox__content\"> Нажимая на кнопку «Отправить», я даю согласие наобработку персональных данных. <a href=\"https://recstom.ru/privacy/\">Подробнее</a> </span> </label></div></form>"
+    }
+  ],
+  "emails": [
+    "good-ya-mini@2x.png",
+    "good-ya@2x.png",
+    "info@recstom.ru",
+    "recstom@mail.ru",
+    "star-mini@2x.png",
+    "star@x2.png"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://recstom.ru/",
+      "href": "https://recstom.ru/privacy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://recstom.ru/",
+      "href": "https://recstom.ru/privacy/",
+      "text": "Подробнее"
+    },
+    {
+      "page": "https://recstom.ru/contacts/",
+      "href": "https://recstom.ru/privacy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://recstom.ru/contacts/",
+      "href": "https://recstom.ru/privacy/",
+      "text": "Подробнее"
+    },
+    {
+      "page": "https://recstom.ru/doctors/",
+      "href": "https://recstom.ru/privacy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://recstom.ru/doctors/",
+      "href": "https://recstom.ru/privacy/",
+      "text": "Подробнее"
+    },
+    {
+      "page": "https://recstom.ru/doctors/aksentiy-elizaveta-andriyanovna/",
+      "href": "https://recstom.ru/privacy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://recstom.ru/doctors/aksentiy-elizaveta-andriyanovna/",
+      "href": "https://recstom.ru/privacy/",
+      "text": "Подробнее"
+    },
+    {
+      "page": "https://recstom.ru/doctors/alibekov-murad-magomedrasulovich/",
+      "href": "https://recstom.ru/privacy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://recstom.ru/doctors/alibekov-murad-magomedrasulovich/",
+      "href": "https://recstom.ru/privacy/",
+      "text": "Подробнее"
+    },
+    {
+      "page": "https://recstom.ru/doctors/chaladze-madonna-sosoevna/",
+      "href": "https://recstom.ru/privacy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://recstom.ru/doctors/chaladze-madonna-sosoevna/",
+      "href": "https://recstom.ru/privacy/",
+      "text": "Подробнее"
+    },
+    {
+      "page": "https://recstom.ru/doctors/ivanov-anton-vadimovich/",
+      "href": "https://recstom.ru/privacy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://recstom.ru/doctors/ivanov-anton-vadimovich/",
+      "href": "https://recstom.ru/privacy/",
+      "text": "Подробнее"
+    },
+    {
+      "page": "https://recstom.ru/doctors/li-igor-olegovich/",
+      "href": "https://recstom.ru/privacy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://recstom.ru/doctors/li-igor-olegovich/",
+      "href": "https://recstom.ru/privacy/",
+      "text": "Подробнее"
+    },
+    {
+      "page": "https://recstom.ru/doctors/maksutov-alibi-aynadinovich/",
+      "href": "https://recstom.ru/privacy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://recstom.ru/doctors/maksutov-alibi-aynadinovich/",
+      "href": "https://recstom.ru/privacy/",
+      "text": "Подробнее"
+    },
+    {
+      "page": "https://recstom.ru/doctors/marusova-anna-sergeevna/",
+      "href": "https://recstom.ru/privacy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://recstom.ru/doctors/marusova-anna-sergeevna/",
+      "href": "https://recstom.ru/privacy/",
+      "text": "Подробнее"
+    },
+    {
+      "page": "https://recstom.ru/doctors/rotay-tatyana-alekseevna/",
+      "href": "https://recstom.ru/privacy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://recstom.ru/doctors/rotay-tatyana-alekseevna/",
+      "href": "https://recstom.ru/privacy/",
+      "text": "Подробнее"
+    },
+    {
+      "page": "https://recstom.ru/doctors/shor-evgeniy-ilich/",
+      "href": "https://recstom.ru/privacy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://recstom.ru/doctors/shor-evgeniy-ilich/",
+      "href": "https://recstom.ru/privacy/",
+      "text": "Подробнее"
+    },
+    {
+      "page": "https://recstom.ru/dokumenty/",
+      "href": "https://recstom.ru/privacy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://recstom.ru/dokumenty/",
+      "href": "https://recstom.ru/privacy/",
+      "text": "Подробнее"
+    },
+    {
+      "page": "https://recstom.ru/privacy/",
+      "href": "https://recstom.ru/privacy/",
+      "text": "policy path"
+    },
+    {
+      "page": "https://recstom.ru/privacy/",
+      "href": "https://recstom.ru/privacy/",
+      "text": "«Политика конфиденциальности»"
+    },
+    {
+      "page": "https://recstom.ru/privacy/",
+      "href": "https://recstom.ru/privacy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://recstom.ru/privacy/",
+      "href": "https://recstom.ru/privacy/",
+      "text": "Подробнее"
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://recstom.ru/contacts/"
+    ],
+    "booking_urls": [
+      "https://recstom.ru/appointment",
+      "https://recstom.ru/booking",
+      "https://recstom.ru/zapis"
+    ],
+    "legal_urls": [
+      "https://recstom.ru/doctors-sitemap.xml",
+      "https://recstom.ru/doctors/",
+      "https://recstom.ru/doctors/aksentiy-elizaveta-andriyanovna/",
+      "https://recstom.ru/doctors/alibekov-murad-magomedrasulovich/",
+      "https://recstom.ru/doctors/chaladze-madonna-sosoevna/",
+      "https://recstom.ru/doctors/ivanov-anton-vadimovich/",
+      "https://recstom.ru/doctors/li-igor-olegovich/",
+      "https://recstom.ru/doctors/maksutov-alibi-aynadinovich/",
+      "https://recstom.ru/doctors/marusova-anna-sergeevna/",
+      "https://recstom.ru/doctors/rotay-tatyana-alekseevna/",
+      "https://recstom.ru/doctors/shor-evgeniy-ilich/",
+      "https://recstom.ru/dokumenty/",
+      "https://recstom.ru/privacy/"
+    ],
+    "sources": {
+      "https://recstom.ru/": "",
+      "https://recstom.ru/appointment": "fallback",
+      "https://recstom.ru/booking": "fallback",
+      "https://recstom.ru/contacts/": "navigation",
+      "https://recstom.ru/doctors-sitemap.xml": "sitemap-legal",
+      "https://recstom.ru/doctors/": "navigation-legal",
+      "https://recstom.ru/doctors/aksentiy-elizaveta-andriyanovna/": "navigation-legal",
+      "https://recstom.ru/doctors/alibekov-murad-magomedrasulovich/": "navigation-legal",
+      "https://recstom.ru/doctors/chaladze-madonna-sosoevna/": "navigation-legal",
+      "https://recstom.ru/doctors/ivanov-anton-vadimovich/": "navigation-legal",
+      "https://recstom.ru/doctors/li-igor-olegovich/": "navigation-legal",
+      "https://recstom.ru/doctors/maksutov-alibi-aynadinovich/": "navigation-legal",
+      "https://recstom.ru/doctors/marusova-anna-sergeevna/": "navigation-legal",
+      "https://recstom.ru/doctors/rotay-tatyana-alekseevna/": "navigation-legal",
+      "https://recstom.ru/doctors/shor-evgeniy-ilich/": "navigation-legal",
+      "https://recstom.ru/dokumenty/": "navigation-legal",
+      "https://recstom.ru/privacy/": "navigation-legal",
+      "https://recstom.ru/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": true
+    }
+  }
+}

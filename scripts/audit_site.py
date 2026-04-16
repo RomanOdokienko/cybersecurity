@@ -27,6 +27,7 @@ POLICY_FALLBACK_PATHS = [
     '/personal-data',
     '/politika-konfidencialnosti',
 ]
+MAX_SITEMAP_URLS = 120
 
 CHECKBOX_RE = re.compile(r'(?is)<input\b[^>]*\btype\s*=\s*["\']?checkbox["\']?[^>]*>')
 FORM_RE = re.compile(r'(?is)<form\b[^>]*>.*?</form>')
@@ -130,6 +131,39 @@ def parse_sitemap(xml_text: str):
         for m in re.finditer(r'(?is)<loc>(.*?)</loc>', xml_text):
             urls.append(m.group(1).strip())
     return urls
+
+
+def dedupe_keep_order(items):
+    out = []
+    seen = set()
+    for x in items:
+        if x in seen:
+            continue
+        seen.add(x)
+        out.append(x)
+    return out
+
+
+def trim_sitemap_urls(urls, max_urls: int):
+    urls = dedupe_keep_order(urls)
+    if len(urls) <= max_urls:
+        return urls
+
+    high = []
+    other = []
+    for u in urls:
+        low = u.lower()
+        if is_contact_hint(low) or is_booking_hint(low) or is_legal_hint(low):
+            high.append(u)
+        else:
+            other.append(u)
+
+    out = []
+    for u in high + other:
+        if len(out) >= max_urls:
+            break
+        out.append(u)
+    return out
 
 
 def get_attr(tag: str, name: str):
@@ -325,6 +359,8 @@ def run_audit(base_url: str):
         'crawl_transport': 'https',
         'https_home': None,
         'http_home': None,
+        'sitemap_total_urls': 0,
+        'sitemap_used_urls': 0,
     }
 
     # 1) always start from home (prefer HTTPS; fallback to HTTP only for content crawl)
@@ -365,7 +401,10 @@ def run_audit(base_url: str):
 
     # 2) discover from sitemap
     sitemap = fetch_cached(crawl_base + '/sitemap.xml')
-    sitemap_urls = parse_sitemap(sitemap.get('html', '')) if sitemap.get('status') == 200 else []
+    sitemap_urls_all = parse_sitemap(sitemap.get('html', '')) if sitemap.get('status') == 200 else []
+    sitemap_urls = trim_sitemap_urls(sitemap_urls_all, MAX_SITEMAP_URLS)
+    discovery['sitemap_total_urls'] = len(sitemap_urls_all)
+    discovery['sitemap_used_urls'] = len(sitemap_urls)
 
     contact_urls = set()
     booking_urls = set()
@@ -623,6 +662,8 @@ def run_audit(base_url: str):
             'legal_urls': sorted(legal_urls),
             'sources': {k: source_map.get(k, '') for k in sorted(set(urls))},
             'fallback_used': discovery['fallback_used'],
+            'sitemap_total_urls': discovery['sitemap_total_urls'],
+            'sitemap_used_urls': discovery['sitemap_used_urls'],
         },
     }
     return out

@@ -1,0 +1,1424 @@
+{
+  "domain": "www.i-profi.ru",
+  "pages": [
+    {
+      "requested": "http://www.i-profi.ru/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/contacts/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/contacts/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/contacts/#map",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/contacts/#map",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/appointment",
+      "status": 404,
+      "final_url": "http://www.i-profi.ru/appointment",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "http://www.i-profi.ru/booking",
+      "status": 404,
+      "final_url": "http://www.i-profi.ru/booking",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "http://www.i-profi.ru/zapis",
+      "status": 404,
+      "final_url": "http://www.i-profi.ru/zapis",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/doctors/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/doctors/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/doctors/latisheva-lu/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/doctors/latisheva-lu/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/doctors/valeeva-in/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/doctors/valeeva-in/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/doctors/zabavskaya-eg/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/doctors/zabavskaya-eg/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/doctors/zabavskij-vv/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/doctors/zabavskij-vv/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/files/privacy-policy.docx",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/files/privacy-policy.docx",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/privacy",
+      "status": 404,
+      "final_url": "http://www.i-profi.ru/privacy",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "http://www.i-profi.ru/privacy-policy",
+      "status": 404,
+      "final_url": "http://www.i-profi.ru/privacy-policy",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/3d-tour/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/3d-tour/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/bonuses/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/bonuses/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/bonuses/discount/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/bonuses/discount/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/equipment/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/equipment/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/interior/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/interior/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/interior/data/interior/rowselect-0-9/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/interior/data/interior/rowselect-0-9/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/interior/data/interior/rowselect-9-9/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/interior/data/interior/rowselect-9-9/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/licenses/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/licenses/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/licenses/data/licenses/rowselect-0-9/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/licenses/data/licenses/rowselect-0-9/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/licenses/data/licenses/rowselect-18-9/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/licenses/data/licenses/rowselect-18-9/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/licenses/data/licenses/rowselect-27-9/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/licenses/data/licenses/rowselect-27-9/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/licenses/data/licenses/rowselect-36-9/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/licenses/data/licenses/rowselect-36-9/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/licenses/data/licenses/rowselect-9-9/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/licenses/data/licenses/rowselect-9-9/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/news/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/news/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/news/data/ic_news/1/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/news/data/ic_news/1/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/news/data/ic_news/11/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/news/data/ic_news/11/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/news/data/ic_news/12/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/news/data/ic_news/12/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/news/data/ic_news/13/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/news/data/ic_news/13/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/news/data/ic_news/14/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/news/data/ic_news/14/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/news/data/ic_news/15/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/news/data/ic_news/15/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/news/data/ic_news/16/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/news/data/ic_news/16/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/news/data/ic_news/17/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/news/data/ic_news/17/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/news/data/ic_news/18/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/news/data/ic_news/18/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/news/data/ic_news/19/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/news/data/ic_news/19/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/news/data/ic_news/2/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/news/data/ic_news/2/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/news/data/ic_news/20/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/news/data/ic_news/20/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/news/data/ic_news/21/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/news/data/ic_news/21/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/news/data/ic_news/22/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/news/data/ic_news/22/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/news/data/ic_news/3/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/news/data/ic_news/3/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/news/data/news/rowselect-0-10/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/news/data/news/rowselect-0-10/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/news/data/news/rowselect-10-10/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/news/data/news/rowselect-10-10/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/about/partners/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/about/partners/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/faq/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/faq/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/faq/data/faq/rowselect-0-10/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/faq/data/faq/rowselect-0-10/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/faq/data/faq/rowselect-10-10/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/faq/data/faq/rowselect-10-10/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/faq/data/faq/rowselect-20-10/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/faq/data/faq/rowselect-20-10/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/faq/data/faq/rowselect-30-10/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/faq/data/faq/rowselect-30-10/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/faq/data/faq/rowselect-40-10/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/faq/data/faq/rowselect-40-10/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/faq/data/faq/rowselect-50-10/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/faq/data/faq/rowselect-50-10/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/faq/data/faq/rowselect-60-10/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/faq/data/faq/rowselect-60-10/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/faq/data/faq/rowselect-70-10/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/faq/data/faq/rowselect-70-10/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/prices/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/prices/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/reception/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/reception/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/services/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/services/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/services/dental-dictionary/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/services/dental-dictionary/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/services/dental-treatment/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/services/dental-treatment/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/services/implantology/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/services/implantology/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/services/malocclusion/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/services/malocclusion/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/services/periodontics/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/services/periodontics/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/services/prosthesis/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/services/prosthesis/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/services/surgery/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/services/surgery/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/services/tooth-whitening/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/services/tooth-whitening/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/sitemap/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/sitemap/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/useful-info/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/useful-info/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/useful-info/Implantation-or-prosthetics/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/useful-info/Implantation-or-prosthetics/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/useful-info/digital-mould/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/useful-info/digital-mould/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/useful-info/fresh-breath/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/useful-info/fresh-breath/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/useful-info/prophetic-tooth/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/useful-info/prophetic-tooth/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/useful-info/use-of-new-technologies/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/useful-info/use-of-new-technologies/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/works/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/works/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/works/add-review/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/works/add-review/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/works/implantology/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/works/implantology/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/works/prosthesis/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/works/prosthesis/",
+      "error": null
+    },
+    {
+      "requested": "http://www.i-profi.ru/works/restoration-of-teeth/",
+      "status": 200,
+      "final_url": "http://www.i-profi.ru/works/restoration-of-teeth/",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "http://www.i-profi.ru/contacts/",
+      "form_id": "form_1",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" onsubmit=\"return init_validate(this);\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://www.i-profi.ru/contacts/#map",
+      "form_id": "form_1",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" onsubmit=\"return init_validate(this);\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://www.i-profi.ru/faq/",
+      "form_id": "form_1",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" onsubmit=\"return init_validate(this)\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://www.i-profi.ru/faq/data/faq/rowselect-0-10/",
+      "form_id": "form_1",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" onsubmit=\"return init_validate(this)\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://www.i-profi.ru/faq/data/faq/rowselect-10-10/",
+      "form_id": "form_1",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" onsubmit=\"return init_validate(this)\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://www.i-profi.ru/faq/data/faq/rowselect-20-10/",
+      "form_id": "form_1",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" onsubmit=\"return init_validate(this)\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://www.i-profi.ru/faq/data/faq/rowselect-30-10/",
+      "form_id": "form_1",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" onsubmit=\"return init_validate(this)\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://www.i-profi.ru/faq/data/faq/rowselect-40-10/",
+      "form_id": "form_1",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" onsubmit=\"return init_validate(this)\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://www.i-profi.ru/faq/data/faq/rowselect-50-10/",
+      "form_id": "form_1",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" onsubmit=\"return init_validate(this)\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://www.i-profi.ru/faq/data/faq/rowselect-60-10/",
+      "form_id": "form_1",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" onsubmit=\"return init_validate(this)\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://www.i-profi.ru/faq/data/faq/rowselect-70-10/",
+      "form_id": "form_1",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" onsubmit=\"return init_validate(this)\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://www.i-profi.ru/reception/",
+      "form_id": "form_1",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" onsubmit=\"return init_validate(this);\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://www.i-profi.ru/works/add-review/",
+      "form_id": "form_1",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" onsubmit=\"return init_validate(this);\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    }
+  ],
+  "emails": [
+    "info@i-profi.ru",
+    "info@rosminzdrav.ru",
+    "uzao@rospotrebnadzor.site"
+  ],
+  "privacy_links": [
+    {
+      "page": "http://www.i-profi.ru/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/contacts/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/contacts/#map",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/doctors/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/doctors/latisheva-lu/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/doctors/valeeva-in/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/doctors/zabavskaya-eg/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/doctors/zabavskij-vv/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/files/privacy-policy.docx",
+      "href": "http://www.i-profi.ru/files/privacy-policy.docx",
+      "text": "policy path"
+    },
+    {
+      "page": "http://www.i-profi.ru/about/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/3d-tour/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/bonuses/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/bonuses/discount/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/equipment/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/interior/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/interior/data/interior/rowselect-0-9/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/interior/data/interior/rowselect-9-9/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/licenses/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/licenses/data/licenses/rowselect-0-9/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/licenses/data/licenses/rowselect-18-9/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/licenses/data/licenses/rowselect-27-9/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/licenses/data/licenses/rowselect-36-9/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/licenses/data/licenses/rowselect-9-9/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/news/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/news/data/ic_news/1/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/news/data/ic_news/11/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/news/data/ic_news/12/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/news/data/ic_news/13/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/news/data/ic_news/14/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/news/data/ic_news/15/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/news/data/ic_news/16/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/news/data/ic_news/17/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/news/data/ic_news/18/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/news/data/ic_news/19/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/news/data/ic_news/2/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/news/data/ic_news/20/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/news/data/ic_news/21/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/news/data/ic_news/22/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/news/data/ic_news/3/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/news/data/news/rowselect-0-10/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/news/data/news/rowselect-10-10/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/about/partners/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/faq/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/faq/data/faq/rowselect-0-10/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/faq/data/faq/rowselect-10-10/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/faq/data/faq/rowselect-20-10/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/faq/data/faq/rowselect-30-10/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/faq/data/faq/rowselect-40-10/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/faq/data/faq/rowselect-50-10/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/faq/data/faq/rowselect-60-10/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/faq/data/faq/rowselect-70-10/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/prices/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/reception/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/services/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/services/dental-dictionary/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/services/dental-treatment/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/services/implantology/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/services/malocclusion/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/services/periodontics/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/services/prosthesis/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/services/surgery/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/services/tooth-whitening/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/sitemap/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/useful-info/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/useful-info/Implantation-or-prosthetics/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/useful-info/digital-mould/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/useful-info/fresh-breath/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/useful-info/prophetic-tooth/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/useful-info/use-of-new-technologies/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/works/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/works/add-review/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/works/implantology/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/works/prosthesis/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    },
+    {
+      "page": "http://www.i-profi.ru/works/restoration-of-teeth/",
+      "href": "/files/privacy-policy.docx",
+      "text": ""
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [
+    {
+      "url": "https://www.i-profi.ru/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/contacts/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/appointment",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/booking",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/zapis",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/doctors/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/doctors/latisheva-lu/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/doctors/valeeva-in/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/doctors/zabavskaya-eg/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/doctors/zabavskij-vv/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/files/privacy-policy.docx",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/privacy",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/privacy-policy",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/3d-tour/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/bonuses/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/bonuses/discount/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/equipment/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/interior/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/interior/data/interior/rowselect-0-9/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/interior/data/interior/rowselect-9-9/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/licenses/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/licenses/data/licenses/rowselect-0-9/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/licenses/data/licenses/rowselect-18-9/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/licenses/data/licenses/rowselect-27-9/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/licenses/data/licenses/rowselect-36-9/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/licenses/data/licenses/rowselect-9-9/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/news/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/news/data/ic_news/1/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/news/data/ic_news/11/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/news/data/ic_news/12/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/news/data/ic_news/13/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/news/data/ic_news/14/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/news/data/ic_news/15/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/news/data/ic_news/16/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/news/data/ic_news/17/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/news/data/ic_news/18/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/news/data/ic_news/19/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/news/data/ic_news/2/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/news/data/ic_news/20/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/news/data/ic_news/21/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/news/data/ic_news/22/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/news/data/ic_news/3/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/news/data/news/rowselect-0-10/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/news/data/news/rowselect-10-10/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/about/partners/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/faq/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/faq/data/faq/rowselect-0-10/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/faq/data/faq/rowselect-10-10/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/faq/data/faq/rowselect-20-10/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/faq/data/faq/rowselect-30-10/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/faq/data/faq/rowselect-40-10/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/faq/data/faq/rowselect-50-10/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/faq/data/faq/rowselect-60-10/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/faq/data/faq/rowselect-70-10/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/prices/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/reception/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/services/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/services/dental-dictionary/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/services/dental-treatment/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/services/implantology/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/services/malocclusion/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/services/periodontics/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/services/prosthesis/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/services/surgery/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/services/tooth-whitening/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/sitemap/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/useful-info/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/useful-info/Implantation-or-prosthetics/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/useful-info/digital-mould/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/useful-info/fresh-breath/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/useful-info/prophetic-tooth/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/useful-info/use-of-new-technologies/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/works/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/works/add-review/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/works/implantology/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/works/prosthesis/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://www.i-profi.ru/works/restoration-of-teeth/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    }
+  ],
+  "discovery": {
+    "contact_urls": [
+      "http://www.i-profi.ru/contacts/",
+      "http://www.i-profi.ru/contacts/#map"
+    ],
+    "booking_urls": [
+      "http://www.i-profi.ru/appointment",
+      "http://www.i-profi.ru/booking",
+      "http://www.i-profi.ru/zapis"
+    ],
+    "legal_urls": [
+      "http://www.i-profi.ru/about/doctors/",
+      "http://www.i-profi.ru/about/doctors/latisheva-lu/",
+      "http://www.i-profi.ru/about/doctors/valeeva-in/",
+      "http://www.i-profi.ru/about/doctors/zabavskaya-eg/",
+      "http://www.i-profi.ru/about/doctors/zabavskij-vv/",
+      "http://www.i-profi.ru/files/privacy-policy.docx",
+      "http://www.i-profi.ru/privacy",
+      "http://www.i-profi.ru/privacy-policy"
+    ],
+    "sources": {
+      "http://www.i-profi.ru/": "sitemap-form",
+      "http://www.i-profi.ru/about/": "sitemap-form",
+      "http://www.i-profi.ru/about/3d-tour/": "sitemap-form",
+      "http://www.i-profi.ru/about/bonuses/": "sitemap-form",
+      "http://www.i-profi.ru/about/bonuses/discount/": "sitemap-form",
+      "http://www.i-profi.ru/about/doctors/": "sitemap-legal",
+      "http://www.i-profi.ru/about/doctors/latisheva-lu/": "sitemap-legal",
+      "http://www.i-profi.ru/about/doctors/valeeva-in/": "sitemap-legal",
+      "http://www.i-profi.ru/about/doctors/zabavskaya-eg/": "sitemap-legal",
+      "http://www.i-profi.ru/about/doctors/zabavskij-vv/": "sitemap-legal",
+      "http://www.i-profi.ru/about/equipment/": "sitemap-form",
+      "http://www.i-profi.ru/about/interior/": "sitemap-form",
+      "http://www.i-profi.ru/about/interior/data/interior/rowselect-0-9/": "sitemap-form",
+      "http://www.i-profi.ru/about/interior/data/interior/rowselect-9-9/": "sitemap-form",
+      "http://www.i-profi.ru/about/licenses/": "sitemap-form",
+      "http://www.i-profi.ru/about/licenses/data/licenses/rowselect-0-9/": "sitemap-form",
+      "http://www.i-profi.ru/about/licenses/data/licenses/rowselect-18-9/": "sitemap-form",
+      "http://www.i-profi.ru/about/licenses/data/licenses/rowselect-27-9/": "sitemap-form",
+      "http://www.i-profi.ru/about/licenses/data/licenses/rowselect-36-9/": "sitemap-form",
+      "http://www.i-profi.ru/about/licenses/data/licenses/rowselect-9-9/": "sitemap-form",
+      "http://www.i-profi.ru/about/news/": "sitemap-form",
+      "http://www.i-profi.ru/about/news/data/ic_news/1/": "sitemap-form",
+      "http://www.i-profi.ru/about/news/data/ic_news/11/": "sitemap-form",
+      "http://www.i-profi.ru/about/news/data/ic_news/12/": "sitemap-form",
+      "http://www.i-profi.ru/about/news/data/ic_news/13/": "sitemap-form",
+      "http://www.i-profi.ru/about/news/data/ic_news/14/": "sitemap-form",
+      "http://www.i-profi.ru/about/news/data/ic_news/15/": "sitemap-form",
+      "http://www.i-profi.ru/about/news/data/ic_news/16/": "sitemap-form",
+      "http://www.i-profi.ru/about/news/data/ic_news/17/": "sitemap-form",
+      "http://www.i-profi.ru/about/news/data/ic_news/18/": "sitemap-form",
+      "http://www.i-profi.ru/about/news/data/ic_news/19/": "sitemap-form",
+      "http://www.i-profi.ru/about/news/data/ic_news/2/": "sitemap-form",
+      "http://www.i-profi.ru/about/news/data/ic_news/20/": "sitemap-form",
+      "http://www.i-profi.ru/about/news/data/ic_news/21/": "sitemap-form",
+      "http://www.i-profi.ru/about/news/data/ic_news/22/": "sitemap-form",
+      "http://www.i-profi.ru/about/news/data/ic_news/3/": "sitemap-form",
+      "http://www.i-profi.ru/about/news/data/news/rowselect-0-10/": "sitemap-form",
+      "http://www.i-profi.ru/about/news/data/news/rowselect-10-10/": "sitemap-form",
+      "http://www.i-profi.ru/about/partners/": "sitemap-form",
+      "http://www.i-profi.ru/appointment": "fallback",
+      "http://www.i-profi.ru/booking": "fallback",
+      "http://www.i-profi.ru/contacts/": "sitemap",
+      "http://www.i-profi.ru/contacts/#map": "navigation",
+      "http://www.i-profi.ru/faq/": "sitemap-form",
+      "http://www.i-profi.ru/faq/data/faq/rowselect-0-10/": "sitemap-form",
+      "http://www.i-profi.ru/faq/data/faq/rowselect-10-10/": "sitemap-form",
+      "http://www.i-profi.ru/faq/data/faq/rowselect-20-10/": "sitemap-form",
+      "http://www.i-profi.ru/faq/data/faq/rowselect-30-10/": "sitemap-form",
+      "http://www.i-profi.ru/faq/data/faq/rowselect-40-10/": "sitemap-form",
+      "http://www.i-profi.ru/faq/data/faq/rowselect-50-10/": "sitemap-form",
+      "http://www.i-profi.ru/faq/data/faq/rowselect-60-10/": "sitemap-form",
+      "http://www.i-profi.ru/faq/data/faq/rowselect-70-10/": "sitemap-form",
+      "http://www.i-profi.ru/files/privacy-policy.docx": "navigation-legal",
+      "http://www.i-profi.ru/prices/": "sitemap-form",
+      "http://www.i-profi.ru/privacy": "policy-hint",
+      "http://www.i-profi.ru/privacy-policy": "policy-hint",
+      "http://www.i-profi.ru/reception/": "sitemap-form",
+      "http://www.i-profi.ru/services/": "sitemap-form",
+      "http://www.i-profi.ru/services/dental-dictionary/": "sitemap-form",
+      "http://www.i-profi.ru/services/dental-treatment/": "sitemap-form",
+      "http://www.i-profi.ru/services/implantology/": "sitemap-form",
+      "http://www.i-profi.ru/services/malocclusion/": "sitemap-form",
+      "http://www.i-profi.ru/services/periodontics/": "sitemap-form",
+      "http://www.i-profi.ru/services/prosthesis/": "sitemap-form",
+      "http://www.i-profi.ru/services/surgery/": "sitemap-form",
+      "http://www.i-profi.ru/services/tooth-whitening/": "sitemap-form",
+      "http://www.i-profi.ru/sitemap/": "sitemap-form",
+      "http://www.i-profi.ru/useful-info/": "sitemap-form",
+      "http://www.i-profi.ru/useful-info/Implantation-or-prosthetics/": "sitemap-form",
+      "http://www.i-profi.ru/useful-info/digital-mould/": "sitemap-form",
+      "http://www.i-profi.ru/useful-info/fresh-breath/": "sitemap-form",
+      "http://www.i-profi.ru/useful-info/prophetic-tooth/": "sitemap-form",
+      "http://www.i-profi.ru/useful-info/use-of-new-technologies/": "sitemap-form",
+      "http://www.i-profi.ru/works/": "sitemap-form",
+      "http://www.i-profi.ru/works/add-review/": "sitemap-form",
+      "http://www.i-profi.ru/works/implantology/": "sitemap-form",
+      "http://www.i-profi.ru/works/prosthesis/": "sitemap-form",
+      "http://www.i-profi.ru/works/restoration-of-teeth/": "sitemap-form",
+      "http://www.i-profi.ru/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": true
+    },
+    "sitemap_total_urls": 74,
+    "sitemap_used_urls": 74
+  }
+}

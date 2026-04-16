@@ -1,0 +1,161 @@
+{
+  "domain": "michurinskiy.prezi-dent.ru",
+  "pages": [
+    {
+      "requested": "https://michurinskiy.prezi-dent.ru/",
+      "status": 200,
+      "final_url": "https://michurinskiy.prezi-dent.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://michurinskiy.prezi-dent.ru/contact",
+      "status": 404,
+      "final_url": "https://michurinskiy.prezi-dent.ru/contact",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://michurinskiy.prezi-dent.ru/contacts",
+      "status": 404,
+      "final_url": "https://michurinskiy.prezi-dent.ru/contacts",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://michurinskiy.prezi-dent.ru/kontakty",
+      "status": 404,
+      "final_url": "https://michurinskiy.prezi-dent.ru/kontakty",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://michurinskiy.prezi-dent.ru/zayavka",
+      "status": 200,
+      "final_url": "https://michurinskiy.prezi-dent.ru/zayavka",
+      "error": null
+    },
+    {
+      "requested": "https://michurinskiy.prezi-dent.ru/politika",
+      "status": 404,
+      "final_url": "https://michurinskiy.prezi-dent.ru/politika",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://michurinskiy.prezi-dent.ru/forma-obratnoy-svyazi",
+      "status": 200,
+      "final_url": "https://michurinskiy.prezi-dent.ru/forma-obratnoy-svyazi",
+      "error": null
+    },
+    {
+      "requested": "https://michurinskiy.prezi-dent.ru/tseny",
+      "status": 200,
+      "final_url": "https://michurinskiy.prezi-dent.ru/tseny",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://michurinskiy.prezi-dent.ru/zayavka",
+      "form_id": "form1825762441",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1825762441\" name='form1825762441' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"/uspech_zayavka\" class=\"t-form js-form-proccess t-form_inputs-total_6 \" data-success-callback=\"t678_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"soglasie_dannye\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "er-color:#39504b\"></div> <span>В соответствии с требованиями ФЗ № 152 от 27.07.2006 г. «О персональных данных» я даю добровольное согласие на обработку персональных данных и соглашаюсь с&nbsp;<a href=\"https://prezi-dent.ru/politika-konfidencialnosti\" target=\"_"
+    },
+    {
+      "page": "https://michurinskiy.prezi-dent.ru/forma-obratnoy-svyazi",
+      "form_id": "form1825762181",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1825762181\" name='form1825762181' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_5 \" data-success-callback=\"t678_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\">",
+      "policy_poc": "er-color:#39504b\"></div> <span>В соответствии с требованиями ФЗ № 152 от 27.07.2006 г. «О персональных данных» я даю добровольное согласие на обработку персональных данных и соглашаюсь с&nbsp;<a href=\"https://prezi-dent.ru/politika-konfidencialnosti\" target=\"_"
+    },
+    {
+      "page": "https://michurinskiy.prezi-dent.ru/tseny",
+      "form_id": "yoomoney-payment-form",
+      "action_display": "action=\"https://yookassa.ru/integration/simplepay/payment\"",
+      "open_tag": "<form class=\"yoomoney-payment-form\" action=\"https://yookassa.ru/integration/simplepay/payment\" method=\"post\" accept-charset=\"utf-8\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    }
+  ],
+  "emails": [
+    "example@site.ru",
+    "michurinsky@prezident.ru",
+    "zapovednaya@prezident.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://michurinskiy.prezi-dent.ru/",
+      "href": "https://www.prezi-dent.ru/politika-konfidencialnosti",
+      "text": "согласие"
+    },
+    {
+      "page": "https://michurinskiy.prezi-dent.ru/zayavka",
+      "href": "https://prezi-dent.ru/politika-konfidencialnosti",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://michurinskiy.prezi-dent.ru/zayavka",
+      "href": "https://www.prezi-dent.ru/politika-konfidencialnosti",
+      "text": "согласие"
+    },
+    {
+      "page": "https://michurinskiy.prezi-dent.ru/forma-obratnoy-svyazi",
+      "href": "https://prezi-dent.ru/politika-konfidencialnosti",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://michurinskiy.prezi-dent.ru/forma-obratnoy-svyazi",
+      "href": "https://www.prezi-dent.ru/politika-konfidencialnosti",
+      "text": "согласие"
+    },
+    {
+      "page": "https://michurinskiy.prezi-dent.ru/tseny",
+      "href": "https://old.prezi-dent.ru/politika-konfidencialnosti",
+      "text": "политика конфиденциальности"
+    },
+    {
+      "page": "https://michurinskiy.prezi-dent.ru/tseny",
+      "href": "https://www.prezi-dent.ru/politika-konfidencialnosti",
+      "text": "согласие"
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://michurinskiy.prezi-dent.ru/contact",
+      "https://michurinskiy.prezi-dent.ru/contacts",
+      "https://michurinskiy.prezi-dent.ru/kontakty"
+    ],
+    "booking_urls": [
+      "https://michurinskiy.prezi-dent.ru/zayavka"
+    ],
+    "legal_urls": [
+      "https://michurinskiy.prezi-dent.ru/politika"
+    ],
+    "sources": {
+      "https://michurinskiy.prezi-dent.ru/": "",
+      "https://michurinskiy.prezi-dent.ru/contact": "fallback",
+      "https://michurinskiy.prezi-dent.ru/contacts": "fallback",
+      "https://michurinskiy.prezi-dent.ru/forma-obratnoy-svyazi": "sitemap-form",
+      "https://michurinskiy.prezi-dent.ru/kontakty": "fallback",
+      "https://michurinskiy.prezi-dent.ru/politika": "policy-hint",
+      "https://michurinskiy.prezi-dent.ru/tseny": "sitemap-form",
+      "https://michurinskiy.prezi-dent.ru/zayavka": "navigation"
+    },
+    "fallback_used": {
+      "contact": true,
+      "booking": false
+    },
+    "sitemap_total_urls": 72,
+    "sitemap_used_urls": 72
+  }
+}

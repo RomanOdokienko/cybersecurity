@@ -1,0 +1,175 @@
+{
+  "domain": "taplink.cc",
+  "pages": [
+    {
+      "requested": "https://taplink.cc/",
+      "status": 200,
+      "final_url": "https://taplink.cc/",
+      "error": null
+    },
+    {
+      "requested": "https://taplink.cc/contact",
+      "status": 200,
+      "final_url": "https://taplink.cc/contact",
+      "error": null
+    },
+    {
+      "requested": "https://taplink.cc/contacts",
+      "status": 200,
+      "final_url": "https://taplink.cc/contacts",
+      "error": null
+    },
+    {
+      "requested": "https://taplink.cc/kontakty",
+      "status": 200,
+      "final_url": "https://taplink.cc/kontakty",
+      "error": null
+    },
+    {
+      "requested": "https://taplink.cc/appointment",
+      "status": 200,
+      "final_url": "https://taplink.cc/appointment",
+      "error": null
+    },
+    {
+      "requested": "https://taplink.cc/booking",
+      "status": 404,
+      "final_url": "https://taplink.cc/booking",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://taplink.cc/zapis",
+      "status": 200,
+      "final_url": "https://taplink.cc/zapis",
+      "error": null
+    },
+    {
+      "requested": "https://taplink.cc/agreement",
+      "status": 200,
+      "final_url": "https://taplink.cc/agreement",
+      "error": null
+    },
+    {
+      "requested": "https://taplink.cc/personal-data",
+      "status": 404,
+      "final_url": "https://taplink.cc/personal-data",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://taplink.cc/policy",
+      "status": 200,
+      "final_url": "https://taplink.cc/policy",
+      "error": null
+    },
+    {
+      "requested": "https://taplink.cc/politika",
+      "status": 200,
+      "final_url": "https://taplink.cc/politika",
+      "error": null
+    },
+    {
+      "requested": "https://taplink.cc/politika-konfidencialnosti",
+      "status": null,
+      "final_url": "https://taplink.cc/politika-konfidencialnosti",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "requested": "https://taplink.cc/privacy",
+      "status": 404,
+      "final_url": "https://taplink.cc/privacy",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://taplink.cc/privacy-policy",
+      "status": 404,
+      "final_url": "https://taplink.cc/privacy-policy",
+      "error": "HTTPError 404"
+    }
+  ],
+  "forms": [],
+  "emails": [
+    "itemagentcab@gmail.com",
+    "wozaxre@gmail.com"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://taplink.cc/policy",
+      "href": "https://taplink.cc/policy",
+      "text": "policy path"
+    },
+    {
+      "page": "https://taplink.cc/politika",
+      "href": "https://taplink.cc/politika",
+      "text": "policy path"
+    }
+  ],
+  "forbidden_hits": [
+    {
+      "token": "instagram",
+      "page": "https://taplink.cc/",
+      "context": "Taplink наводит порядок в Instagram продажах",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "instagram",
+      "page": "https://taplink.cc/",
+      "context": "src=\"/s/i/index/instagram.png\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://taplink.cc/",
+      "context": "alt=\"Instagram\"",
+      "visibility": "только в коде"
+    }
+  ],
+  "cert_errors": [
+    {
+      "url": "https://taplink.cc/politika-konfidencialnosti",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    }
+  ],
+  "discovery": {
+    "contact_urls": [
+      "https://taplink.cc/contact",
+      "https://taplink.cc/contacts",
+      "https://taplink.cc/kontakty"
+    ],
+    "booking_urls": [
+      "https://taplink.cc/appointment",
+      "https://taplink.cc/booking",
+      "https://taplink.cc/zapis"
+    ],
+    "legal_urls": [
+      "https://taplink.cc/agreement",
+      "https://taplink.cc/personal-data",
+      "https://taplink.cc/policy",
+      "https://taplink.cc/politika",
+      "https://taplink.cc/politika-konfidencialnosti",
+      "https://taplink.cc/privacy",
+      "https://taplink.cc/privacy-policy"
+    ],
+    "sources": {
+      "https://taplink.cc/": "",
+      "https://taplink.cc/agreement": "policy-fallback",
+      "https://taplink.cc/appointment": "fallback",
+      "https://taplink.cc/booking": "fallback",
+      "https://taplink.cc/contact": "fallback",
+      "https://taplink.cc/contacts": "fallback",
+      "https://taplink.cc/kontakty": "fallback",
+      "https://taplink.cc/personal-data": "policy-fallback",
+      "https://taplink.cc/policy": "policy-fallback",
+      "https://taplink.cc/politika": "policy-fallback",
+      "https://taplink.cc/politika-konfidencialnosti": "policy-fallback",
+      "https://taplink.cc/privacy": "policy-fallback",
+      "https://taplink.cc/privacy-policy": "policy-fallback",
+      "https://taplink.cc/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": true,
+      "booking": true
+    },
+    "sitemap_total_urls": 68,
+    "sitemap_used_urls": 68
+  }
+}

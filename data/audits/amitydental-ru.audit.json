@@ -1,0 +1,539 @@
+{
+  "domain": "amitydental.ru",
+  "pages": [
+    {
+      "requested": "https://amitydental.ru/",
+      "status": 200,
+      "final_url": "https://amitydental.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://amitydental.ru/kontakty/",
+      "status": 200,
+      "final_url": "https://amitydental.ru/kontakty/",
+      "error": null
+    },
+    {
+      "requested": "https://amitydental.ru/specialist/",
+      "status": 200,
+      "final_url": "https://amitydental.ru/specialist/",
+      "error": null
+    },
+    {
+      "requested": "https://amitydental.ru/zapisat/",
+      "status": 200,
+      "final_url": "https://amitydental.ru/zapisat/",
+      "error": null
+    },
+    {
+      "requested": "https://amitydental.ru/docs-sitemap.xml",
+      "status": 200,
+      "final_url": "https://amitydental.ru/docs-sitemap.xml",
+      "error": null
+    },
+    {
+      "requested": "https://amitydental.ru/docs/",
+      "status": 200,
+      "final_url": "https://amitydental.ru/docs/",
+      "error": null
+    },
+    {
+      "requested": "https://amitydental.ru/docs/aaron-mark-stanislavovich/",
+      "status": 200,
+      "final_url": "https://amitydental.ru/docs/aaron-mark-stanislavovich/",
+      "error": null
+    },
+    {
+      "requested": "https://amitydental.ru/docs/bondarev-aleksey-nikolaevich/",
+      "status": 200,
+      "final_url": "https://amitydental.ru/docs/bondarev-aleksey-nikolaevich/",
+      "error": null
+    },
+    {
+      "requested": "https://amitydental.ru/docs/ivantsova-darya-aleksandrovna/",
+      "status": 200,
+      "final_url": "https://amitydental.ru/docs/ivantsova-darya-aleksandrovna/",
+      "error": null
+    },
+    {
+      "requested": "https://amitydental.ru/docs/kulumbegov-zaur-igorevich/",
+      "status": 200,
+      "final_url": "https://amitydental.ru/docs/kulumbegov-zaur-igorevich/",
+      "error": null
+    },
+    {
+      "requested": "https://amitydental.ru/docs/li-mark-anatolevich/",
+      "status": 200,
+      "final_url": "https://amitydental.ru/docs/li-mark-anatolevich/",
+      "error": null
+    },
+    {
+      "requested": "https://amitydental.ru/docs/mamedov-emin-bayramovich/",
+      "status": 200,
+      "final_url": "https://amitydental.ru/docs/mamedov-emin-bayramovich/",
+      "error": null
+    },
+    {
+      "requested": "https://amitydental.ru/docs/mazurova-vera-nikolaevna/",
+      "status": 200,
+      "final_url": "https://amitydental.ru/docs/mazurova-vera-nikolaevna/",
+      "error": null
+    },
+    {
+      "requested": "https://amitydental.ru/docs/morozova-valeriya-sergeevna/",
+      "status": 200,
+      "final_url": "https://amitydental.ru/docs/morozova-valeriya-sergeevna/",
+      "error": null
+    },
+    {
+      "requested": "https://amitydental.ru/docs/movsesyan-vagarshak-gagikovich/",
+      "status": 200,
+      "final_url": "https://amitydental.ru/docs/movsesyan-vagarshak-gagikovich/",
+      "error": null
+    },
+    {
+      "requested": "https://amitydental.ru/docs/pak-albert-vyacheslavovich/",
+      "status": 200,
+      "final_url": "https://amitydental.ru/docs/pak-albert-vyacheslavovich/",
+      "error": null
+    },
+    {
+      "requested": "https://amitydental.ru/documents/",
+      "status": 200,
+      "final_url": "https://amitydental.ru/documents/",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://amitydental.ru/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/#wpcf7-f17-o1\"",
+      "open_tag": "<form action=\"/#wpcf7-f17-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://amitydental.ru/kontakty/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/kontakty/#wpcf7-f17-o1\"",
+      "open_tag": "<form action=\"/kontakty/#wpcf7-f17-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://amitydental.ru/specialist/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/specialist/#wpcf7-f115-p346-o1\"",
+      "open_tag": "<form action=\"/specialist/#wpcf7-f115-p346-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"checkbox-581[]\" value=\"Соглашаюсь на обработку персональных данных, согласно Политики конфиденциальности\" />",
+      "policy_poc": "m first last\"><input type=\"checkbox\" name=\"checkbox-581[]\" value=\"Соглашаюсь на обработку персональных данных, согласно Политики конфиденциальности\" /><span class=\"wpcf7-list-item-label\">Соглашаюсь на обработку персональных данных, согласно Политики конфиденци"
+    },
+    {
+      "page": "https://amitydental.ru/specialist/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/specialist/#wpcf7-f17-o2\"",
+      "open_tag": "<form action=\"/specialist/#wpcf7-f17-o2\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://amitydental.ru/zapisat/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/zapisat/#wpcf7-f115-o1\"",
+      "open_tag": "<form action=\"/zapisat/#wpcf7-f115-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"checkbox-581[]\" value=\"Соглашаюсь на обработку персональных данных, согласно Политики конфиденциальности\" />",
+      "policy_poc": "m first last\"><input type=\"checkbox\" name=\"checkbox-581[]\" value=\"Соглашаюсь на обработку персональных данных, согласно Политики конфиденциальности\" /><span class=\"wpcf7-list-item-label\">Соглашаюсь на обработку персональных данных, согласно Политики конфиденци"
+    },
+    {
+      "page": "https://amitydental.ru/zapisat/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/zapisat/#wpcf7-f17-o2\"",
+      "open_tag": "<form action=\"/zapisat/#wpcf7-f17-o2\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://amitydental.ru/docs/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/docs/#wpcf7-f17-o1\"",
+      "open_tag": "<form action=\"/docs/#wpcf7-f17-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://amitydental.ru/docs/aaron-mark-stanislavovich/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/docs/aaron-mark-stanislavovich/#wpcf7-f17-o1\"",
+      "open_tag": "<form action=\"/docs/aaron-mark-stanislavovich/#wpcf7-f17-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://amitydental.ru/docs/bondarev-aleksey-nikolaevich/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/docs/bondarev-aleksey-nikolaevich/#wpcf7-f17-o1\"",
+      "open_tag": "<form action=\"/docs/bondarev-aleksey-nikolaevich/#wpcf7-f17-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://amitydental.ru/docs/ivantsova-darya-aleksandrovna/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/docs/ivantsova-darya-aleksandrovna/#wpcf7-f17-o1\"",
+      "open_tag": "<form action=\"/docs/ivantsova-darya-aleksandrovna/#wpcf7-f17-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://amitydental.ru/docs/kulumbegov-zaur-igorevich/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/docs/kulumbegov-zaur-igorevich/#wpcf7-f17-o1\"",
+      "open_tag": "<form action=\"/docs/kulumbegov-zaur-igorevich/#wpcf7-f17-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://amitydental.ru/docs/li-mark-anatolevich/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/docs/li-mark-anatolevich/#wpcf7-f17-o1\"",
+      "open_tag": "<form action=\"/docs/li-mark-anatolevich/#wpcf7-f17-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://amitydental.ru/docs/mamedov-emin-bayramovich/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/docs/mamedov-emin-bayramovich/#wpcf7-f17-o1\"",
+      "open_tag": "<form action=\"/docs/mamedov-emin-bayramovich/#wpcf7-f17-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://amitydental.ru/docs/mazurova-vera-nikolaevna/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/docs/mazurova-vera-nikolaevna/#wpcf7-f17-o1\"",
+      "open_tag": "<form action=\"/docs/mazurova-vera-nikolaevna/#wpcf7-f17-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://amitydental.ru/docs/morozova-valeriya-sergeevna/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/docs/morozova-valeriya-sergeevna/#wpcf7-f17-o1\"",
+      "open_tag": "<form action=\"/docs/morozova-valeriya-sergeevna/#wpcf7-f17-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://amitydental.ru/docs/movsesyan-vagarshak-gagikovich/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/docs/movsesyan-vagarshak-gagikovich/#wpcf7-f17-o1\"",
+      "open_tag": "<form action=\"/docs/movsesyan-vagarshak-gagikovich/#wpcf7-f17-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://amitydental.ru/docs/pak-albert-vyacheslavovich/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/docs/pak-albert-vyacheslavovich/#wpcf7-f17-o1\"",
+      "open_tag": "<form action=\"/docs/pak-albert-vyacheslavovich/#wpcf7-f17-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://amitydental.ru/documents/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/documents/#wpcf7-f17-o1\"",
+      "open_tag": "<form action=\"/documents/#wpcf7-f17-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    }
+  ],
+  "emails": [
+    "amitydent2@yandex.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://amitydental.ru/",
+      "href": "/privasy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://amitydental.ru/kontakty/",
+      "href": "/privasy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://amitydental.ru/specialist/",
+      "href": "/privasy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://amitydental.ru/zapisat/",
+      "href": "/privasy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://amitydental.ru/docs/",
+      "href": "/privasy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://amitydental.ru/docs/aaron-mark-stanislavovich/",
+      "href": "/privasy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://amitydental.ru/docs/bondarev-aleksey-nikolaevich/",
+      "href": "/privasy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://amitydental.ru/docs/ivantsova-darya-aleksandrovna/",
+      "href": "/privasy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://amitydental.ru/docs/kulumbegov-zaur-igorevich/",
+      "href": "/privasy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://amitydental.ru/docs/li-mark-anatolevich/",
+      "href": "/privasy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://amitydental.ru/docs/mamedov-emin-bayramovich/",
+      "href": "/privasy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://amitydental.ru/docs/mazurova-vera-nikolaevna/",
+      "href": "/privasy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://amitydental.ru/docs/morozova-valeriya-sergeevna/",
+      "href": "/privasy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://amitydental.ru/docs/movsesyan-vagarshak-gagikovich/",
+      "href": "/privasy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://amitydental.ru/docs/pak-albert-vyacheslavovich/",
+      "href": "/privasy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://amitydental.ru/documents/",
+      "href": "/privasy/",
+      "text": "Политика конфиденциальности"
+    }
+  ],
+  "forbidden_hits": [
+    {
+      "token": "meta",
+      "page": "https://amitydental.ru/",
+      "context": "*запрещённая в РФ соцсеть компании Meta",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "meta",
+      "page": "https://amitydental.ru/kontakty/",
+      "context": "*запрещённая в РФ соцсеть компании Meta",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "meta",
+      "page": "https://amitydental.ru/specialist/",
+      "context": "*запрещённая в РФ соцсеть компании Meta",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "meta",
+      "page": "https://amitydental.ru/zapisat/",
+      "context": "*запрещённая в РФ соцсеть компании Meta",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "meta",
+      "page": "https://amitydental.ru/docs/",
+      "context": "*запрещённая в РФ соцсеть компании Meta",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "meta",
+      "page": "https://amitydental.ru/docs/aaron-mark-stanislavovich/",
+      "context": "*запрещённая в РФ соцсеть компании Meta",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "meta",
+      "page": "https://amitydental.ru/docs/bondarev-aleksey-nikolaevich/",
+      "context": "*запрещённая в РФ соцсеть компании Meta",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "meta",
+      "page": "https://amitydental.ru/docs/ivantsova-darya-aleksandrovna/",
+      "context": "*запрещённая в РФ соцсеть компании Meta",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "meta",
+      "page": "https://amitydental.ru/docs/kulumbegov-zaur-igorevich/",
+      "context": "*запрещённая в РФ соцсеть компании Meta",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "meta",
+      "page": "https://amitydental.ru/docs/li-mark-anatolevich/",
+      "context": "*запрещённая в РФ соцсеть компании Meta",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "meta",
+      "page": "https://amitydental.ru/docs/mamedov-emin-bayramovich/",
+      "context": "*запрещённая в РФ соцсеть компании Meta",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "meta",
+      "page": "https://amitydental.ru/docs/mazurova-vera-nikolaevna/",
+      "context": "*запрещённая в РФ соцсеть компании Meta",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "meta",
+      "page": "https://amitydental.ru/docs/morozova-valeriya-sergeevna/",
+      "context": "*запрещённая в РФ соцсеть компании Meta",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "meta",
+      "page": "https://amitydental.ru/docs/movsesyan-vagarshak-gagikovich/",
+      "context": "*запрещённая в РФ соцсеть компании Meta",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "meta",
+      "page": "https://amitydental.ru/docs/pak-albert-vyacheslavovich/",
+      "context": "*запрещённая в РФ соцсеть компании Meta",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "meta",
+      "page": "https://amitydental.ru/documents/",
+      "context": "*запрещённая в РФ соцсеть компании Meta",
+      "visibility": "видно пользователю"
+    }
+  ],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://amitydental.ru/kontakty/"
+    ],
+    "booking_urls": [
+      "https://amitydental.ru/kontakty/",
+      "https://amitydental.ru/specialist/",
+      "https://amitydental.ru/zapisat/"
+    ],
+    "legal_urls": [
+      "https://amitydental.ru/docs-sitemap.xml",
+      "https://amitydental.ru/docs/",
+      "https://amitydental.ru/docs/aaron-mark-stanislavovich/",
+      "https://amitydental.ru/docs/bondarev-aleksey-nikolaevich/",
+      "https://amitydental.ru/docs/ivantsova-darya-aleksandrovna/",
+      "https://amitydental.ru/docs/kulumbegov-zaur-igorevich/",
+      "https://amitydental.ru/docs/li-mark-anatolevich/",
+      "https://amitydental.ru/docs/mamedov-emin-bayramovich/",
+      "https://amitydental.ru/docs/mazurova-vera-nikolaevna/",
+      "https://amitydental.ru/docs/morozova-valeriya-sergeevna/",
+      "https://amitydental.ru/docs/movsesyan-vagarshak-gagikovich/",
+      "https://amitydental.ru/docs/pak-albert-vyacheslavovich/",
+      "https://amitydental.ru/documents/"
+    ],
+    "sources": {
+      "https://amitydental.ru/": "home-booking-candidate",
+      "https://amitydental.ru/docs-sitemap.xml": "sitemap-legal",
+      "https://amitydental.ru/docs/": "navigation-legal",
+      "https://amitydental.ru/docs/aaron-mark-stanislavovich/": "navigation-legal",
+      "https://amitydental.ru/docs/bondarev-aleksey-nikolaevich/": "navigation-legal",
+      "https://amitydental.ru/docs/ivantsova-darya-aleksandrovna/": "navigation-legal",
+      "https://amitydental.ru/docs/kulumbegov-zaur-igorevich/": "navigation-legal",
+      "https://amitydental.ru/docs/li-mark-anatolevich/": "navigation-legal",
+      "https://amitydental.ru/docs/mamedov-emin-bayramovich/": "navigation-legal",
+      "https://amitydental.ru/docs/mazurova-vera-nikolaevna/": "navigation-legal",
+      "https://amitydental.ru/docs/morozova-valeriya-sergeevna/": "navigation-legal",
+      "https://amitydental.ru/docs/movsesyan-vagarshak-gagikovich/": "navigation-legal",
+      "https://amitydental.ru/docs/pak-albert-vyacheslavovich/": "navigation-legal",
+      "https://amitydental.ru/documents/": "navigation-legal",
+      "https://amitydental.ru/kontakty/": "navigation",
+      "https://amitydental.ru/specialist/": "navigation",
+      "https://amitydental.ru/zapisat/": "navigation"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": false
+    }
+  }
+}

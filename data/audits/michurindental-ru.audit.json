@@ -1,0 +1,110 @@
+{
+  "domain": "www.michurindental.ru",
+  "pages": [
+    {
+      "requested": "https://www.michurindental.ru/",
+      "status": 200,
+      "final_url": "https://www.michurindental.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://www.michurindental.ru/contacts.html",
+      "status": 200,
+      "final_url": "https://www.michurindental.ru/contacts.html",
+      "error": null
+    },
+    {
+      "requested": "https://www.michurindental.ru/oplata-online.html",
+      "status": 200,
+      "final_url": "https://www.michurindental.ru/oplata-online.html",
+      "error": null
+    },
+    {
+      "requested": "https://www.michurindental.ru/doctors.html",
+      "status": 200,
+      "final_url": "https://www.michurindental.ru/doctors.html",
+      "error": null
+    },
+    {
+      "requested": "https://www.michurindental.ru/politika-confidencialnosty.html",
+      "status": 200,
+      "final_url": "https://www.michurindental.ru/politika-confidencialnosty.html",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://www.michurindental.ru/oplata-online.html",
+      "form_id": "form-block",
+      "action_display": "action=\"https://michurindental.server.paykeeper.ru/create/\"",
+      "open_tag": "<form class=\"form-block\" action=\"https://michurindental.server.paykeeper.ru/create/\" method=\"POST\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    }
+  ],
+  "emails": [
+    "n@michurindental.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://www.michurindental.ru/",
+      "href": "politika-confidencialnosty.html",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "https://www.michurindental.ru/contacts.html",
+      "href": "politika-confidencialnosty.html",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "https://www.michurindental.ru/oplata-online.html",
+      "href": "politika-confidencialnosty.html",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "https://www.michurindental.ru/doctors.html",
+      "href": "politika-confidencialnosty.html",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "https://www.michurindental.ru/politika-confidencialnosty.html",
+      "href": "https://www.michurindental.ru/politika-confidencialnosty.html",
+      "text": "policy path"
+    },
+    {
+      "page": "https://www.michurindental.ru/politika-confidencialnosty.html",
+      "href": "politika-confidencialnosty.html",
+      "text": "Политика обработки персональных данных"
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://www.michurindental.ru/contacts.html"
+    ],
+    "booking_urls": [
+      "https://www.michurindental.ru/oplata-online.html"
+    ],
+    "legal_urls": [
+      "https://www.michurindental.ru/doctors.html",
+      "https://www.michurindental.ru/politika-confidencialnosty.html"
+    ],
+    "sources": {
+      "https://www.michurindental.ru/": "",
+      "https://www.michurindental.ru/contacts.html": "navigation",
+      "https://www.michurindental.ru/doctors.html": "navigation-legal",
+      "https://www.michurindental.ru/oplata-online.html": "navigation",
+      "https://www.michurindental.ru/politika-confidencialnosty.html": "navigation-legal"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": false
+    },
+    "sitemap_total_urls": 0,
+    "sitemap_used_urls": 0
+  }
+}

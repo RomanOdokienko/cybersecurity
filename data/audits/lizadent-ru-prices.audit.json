@@ -1,0 +1,360 @@
+{
+  "domain": "lizadent.ru",
+  "pages": [
+    {
+      "requested": "https://lizadent.ru/",
+      "status": 200,
+      "final_url": "https://lizadent.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://lizadent.ru/contacts/",
+      "status": 200,
+      "final_url": "https://lizadent.ru/contacts/",
+      "error": null
+    },
+    {
+      "requested": "https://lizadent.ru/pravovaya-informacziya/",
+      "status": 200,
+      "final_url": "https://lizadent.ru/pravovaya-informacziya/",
+      "error": null
+    },
+    {
+      "requested": "https://lizadent.ru/privacy",
+      "status": 200,
+      "final_url": "https://lizadent.ru/privacy",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://lizadent.ru/",
+      "form_id": "wpcf7-form init consultation-appointment__form",
+      "action_display": "action=\"/#wpcf7-f36-o1\"",
+      "open_tag": "<form action=\"/#wpcf7-f36-o1\" method=\"post\" class=\"wpcf7-form init consultation-appointment__form\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance-837\" value=\"1\" class=\"consultation-appointment__checkbox-input checkbox-default checkbox-default--hidden\" aria-invalid=\"false\" />",
+      "policy_poc": "ault checkbox-default--hidden\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Согласие на обработку персональных данных и данных об абонентах</span></label></span></span> </label> <input class=\"wpcf7-form-control has-spin"
+    },
+    {
+      "page": "https://lizadent.ru/",
+      "form_id": "wpcf7-form init modal-custom__form block-era",
+      "action_display": "action=\"/#wpcf7-f681-o2\"",
+      "open_tag": "<form action=\"/#wpcf7-f681-o2\" method=\"post\" class=\"wpcf7-form init modal-custom__form block-era\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"modal-custom__checkbox-input checkbox-default checkbox-default--hidden\" type=\"checkbox\" name=\"consultationAppointmentCheckbox\" checked>",
+      "policy_poc": "cked> <span class=\"modal-custom__checkbox-custom checkbox-custom\"></span> Согласие на обработку <a href=\"https://lizadent.ru/privacy\">персональных данных</a> и данных об абонентах </label> <input class=\"wpcf7-form-control has-sp"
+    },
+    {
+      "page": "https://lizadent.ru/",
+      "form_id": "wpcf7-form init modal-custom__form block-era",
+      "action_display": "action=\"/#wpcf7-f682-o3\"",
+      "open_tag": "<form action=\"/#wpcf7-f682-o3\" method=\"post\" class=\"wpcf7-form init modal-custom__form block-era\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"modal-custom__checkbox-input checkbox-default checkbox-default--hidden\" type=\"checkbox\" name=\"consultationAppointmentCheckbox\" checked>",
+      "policy_poc": "cked> <span class=\"modal-custom__checkbox-custom checkbox-custom\"></span> Согласие на обработку <a href=\"https://lizadent.ru/privacy\">персональных данных</a> и данных об абонентах </label> <input class=\"wpcf7-form-control has-sp"
+    },
+    {
+      "page": "https://lizadent.ru/contacts/",
+      "form_id": "wpcf7-form init modal-custom__form block-era",
+      "action_display": "action=\"/contacts/#wpcf7-f681-o1\"",
+      "open_tag": "<form action=\"/contacts/#wpcf7-f681-o1\" method=\"post\" class=\"wpcf7-form init modal-custom__form block-era\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"modal-custom__checkbox-input checkbox-default checkbox-default--hidden\" type=\"checkbox\" name=\"consultationAppointmentCheckbox\" checked>",
+      "policy_poc": "cked> <span class=\"modal-custom__checkbox-custom checkbox-custom\"></span> Согласие на обработку <a href=\"https://lizadent.ru/privacy\">персональных данных</a> и данных об абонентах </label> <input class=\"wpcf7-form-control has-sp"
+    },
+    {
+      "page": "https://lizadent.ru/contacts/",
+      "form_id": "wpcf7-form init modal-custom__form block-era",
+      "action_display": "action=\"/contacts/#wpcf7-f682-o2\"",
+      "open_tag": "<form action=\"/contacts/#wpcf7-f682-o2\" method=\"post\" class=\"wpcf7-form init modal-custom__form block-era\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"modal-custom__checkbox-input checkbox-default checkbox-default--hidden\" type=\"checkbox\" name=\"consultationAppointmentCheckbox\" checked>",
+      "policy_poc": "cked> <span class=\"modal-custom__checkbox-custom checkbox-custom\"></span> Согласие на обработку <a href=\"https://lizadent.ru/privacy\">персональных данных</a> и данных об абонентах </label> <input class=\"wpcf7-form-control has-sp"
+    },
+    {
+      "page": "https://lizadent.ru/pravovaya-informacziya/",
+      "form_id": "wpcf7-form init modal-custom__form block-era",
+      "action_display": "action=\"/pravovaya-informacziya/#wpcf7-f681-o1\"",
+      "open_tag": "<form action=\"/pravovaya-informacziya/#wpcf7-f681-o1\" method=\"post\" class=\"wpcf7-form init modal-custom__form block-era\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"modal-custom__checkbox-input checkbox-default checkbox-default--hidden\" type=\"checkbox\" name=\"consultationAppointmentCheckbox\" checked>",
+      "policy_poc": "cked> <span class=\"modal-custom__checkbox-custom checkbox-custom\"></span> Согласие на обработку <a href=\"https://lizadent.ru/privacy\">персональных данных</a> и данных об абонентах </label> <input class=\"wpcf7-form-control has-sp"
+    },
+    {
+      "page": "https://lizadent.ru/pravovaya-informacziya/",
+      "form_id": "wpcf7-form init modal-custom__form block-era",
+      "action_display": "action=\"/pravovaya-informacziya/#wpcf7-f682-o2\"",
+      "open_tag": "<form action=\"/pravovaya-informacziya/#wpcf7-f682-o2\" method=\"post\" class=\"wpcf7-form init modal-custom__form block-era\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"modal-custom__checkbox-input checkbox-default checkbox-default--hidden\" type=\"checkbox\" name=\"consultationAppointmentCheckbox\" checked>",
+      "policy_poc": "cked> <span class=\"modal-custom__checkbox-custom checkbox-custom\"></span> Согласие на обработку <a href=\"https://lizadent.ru/privacy\">персональных данных</a> и данных об абонентах </label> <input class=\"wpcf7-form-control has-sp"
+    },
+    {
+      "page": "https://lizadent.ru/privacy",
+      "form_id": "wpcf7-form init modal-custom__form block-era",
+      "action_display": "action=\"/privacy/#wpcf7-f681-o1\"",
+      "open_tag": "<form action=\"/privacy/#wpcf7-f681-o1\" method=\"post\" class=\"wpcf7-form init modal-custom__form block-era\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"modal-custom__checkbox-input checkbox-default checkbox-default--hidden\" type=\"checkbox\" name=\"consultationAppointmentCheckbox\" checked>",
+      "policy_poc": "<form action=\"/privacy/#wpcf7-f681-o1\" method=\"post\" class=\"wpcf7-form init modal-custom__form block-era\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\"> <d"
+    },
+    {
+      "page": "https://lizadent.ru/privacy",
+      "form_id": "wpcf7-form init modal-custom__form block-era",
+      "action_display": "action=\"/privacy/#wpcf7-f682-o2\"",
+      "open_tag": "<form action=\"/privacy/#wpcf7-f682-o2\" method=\"post\" class=\"wpcf7-form init modal-custom__form block-era\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"modal-custom__checkbox-input checkbox-default checkbox-default--hidden\" type=\"checkbox\" name=\"consultationAppointmentCheckbox\" checked>",
+      "policy_poc": "<form action=\"/privacy/#wpcf7-f682-o2\" method=\"post\" class=\"wpcf7-form init modal-custom__form block-era\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\"> <d"
+    }
+  ],
+  "emails": [
+    "info@rosminzdrav.ru",
+    "lizadent@bk.ru",
+    "main-promo-swiper-bg-mobile@2x.jpg",
+    "main-promo-swiper-bg@2x.jpg",
+    "office@reg77.roszdravnadzor.ru",
+    "sales@goroad.ru",
+    "uprav@77.rospotrebnadzor.ru",
+    "zdrav@mos.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://lizadent.ru/",
+      "href": "https://lizadent.ru/privacy",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://lizadent.ru/",
+      "href": "https://lizadent.ru/privacy",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://lizadent.ru/contacts/",
+      "href": "https://lizadent.ru/privacy",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://lizadent.ru/contacts/",
+      "href": "https://lizadent.ru/privacy",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://lizadent.ru/pravovaya-informacziya/",
+      "href": "https://lizadent.ru/wp-content/uploads/2025/06/soglasie_na_obrabotku_pers_dannyh_1.pdf",
+      "text": "Согласие пациента на обработку персональных данных в Обществе с ограниченной ответственностью \"ЛИЗАДЕНТ\""
+    },
+    {
+      "page": "https://lizadent.ru/pravovaya-informacziya/",
+      "href": "https://lizadent.ru/privacy",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://lizadent.ru/pravovaya-informacziya/",
+      "href": "https://lizadent.ru/privacy",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://lizadent.ru/privacy",
+      "href": "https://lizadent.ru/privacy",
+      "text": "policy path"
+    },
+    {
+      "page": "https://lizadent.ru/privacy",
+      "href": "#2_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D0%B5_%D0%BF%D0%BE%D0%BD%D1%8F%D1%82%D0%B8%D1%8F_%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D0%B5%D0%BC%D1%8B%D0%B5_%D0%B2_%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B5",
+      "text": "2. Основные понятия, используемые в Политике"
+    },
+    {
+      "page": "https://lizadent.ru/privacy",
+      "href": "#4_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D0%B5_%D0%BF%D1%80%D0%B0%D0%B2%D0%B0_%D0%B8_%D0%BE%D0%B1%D1%8F%D0%B7%D0%B0%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8_%D1%81%D1%83%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BE%D0%B2_%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85",
+      "text": "4. Основные права и обязанности субъектов персональных данных"
+    },
+    {
+      "page": "https://lizadent.ru/privacy",
+      "href": "#5_%D0%9F%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF%D1%8B_%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8_%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85",
+      "text": "5. Принципы обработки персональных данных"
+    },
+    {
+      "page": "https://lizadent.ru/privacy",
+      "href": "#6_%D0%A6%D0%B5%D0%BB%D0%B8_%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8_%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85",
+      "text": "6. Цели обработки персональных данных"
+    },
+    {
+      "page": "https://lizadent.ru/privacy",
+      "href": "#7_%D0%A3%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D1%8F_%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8_%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85",
+      "text": "7. Условия обработки персональных данных"
+    },
+    {
+      "page": "https://lizadent.ru/privacy",
+      "href": "#8_%D0%9F%D0%BE%D1%80%D1%8F%D0%B4%D0%BE%D0%BA_%D1%81%D0%B1%D0%BE%D1%80%D0%B0_%D1%85%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F_%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D1%87%D0%B8_%D0%B8_%D0%B4%D1%80%D1%83%D0%B3%D0%B8%D1%85_%D0%B2%D0%B8%D0%B4%D0%BE%D0%B2_%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8_%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85",
+      "text": "8. Порядок сбора, хранения, передачи и других видов обработки персональных данных"
+    },
+    {
+      "page": "https://lizadent.ru/privacy",
+      "href": "#9_%D0%9F%D0%B5%D1%80%D0%B5%D1%87%D0%B5%D0%BD%D1%8C_%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B9_%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D0%BC%D1%8B%D1%85_%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BE%D0%BC_%D1%81_%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8_%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%BC%D0%B8_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8",
+      "text": "9. Перечень действий, производимых Оператором с полученными персональными данными"
+    },
+    {
+      "page": "https://lizadent.ru/privacy",
+      "href": "#10_%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D0%B3%D1%80%D0%B0%D0%BD%D0%B8%D1%87%D0%BD%D0%B0%D1%8F_%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D1%87%D0%B0_%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85",
+      "text": "10. Трансграничная передача персональных данных"
+    },
+    {
+      "page": "https://lizadent.ru/privacy",
+      "href": "#11_%D0%9A%D0%BE%D0%BD%D1%84%D0%B8%D0%B4%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C_%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85",
+      "text": "11. Конфиденциальность персональных данных"
+    },
+    {
+      "page": "https://lizadent.ru/privacy",
+      "href": "https://lizadent.ru/privacy",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://lizadent.ru/privacy",
+      "href": "https://lizadent.ru/privacy",
+      "text": "Политика конфиденциальности"
+    }
+  ],
+  "forbidden_hits": [
+    {
+      "token": "facebook",
+      "page": "https://lizadent.ru/",
+      "context": "href=\"#facebook\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://lizadent.ru/",
+      "context": "href=\"#instagram\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://lizadent.ru/",
+      "context": "href=\"https://instagram.com/lizadent.ru?igshid=YzcxN2Q2NzY0OA==\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://lizadent.ru/",
+      "context": "href=\"https://instagram.com/lizadent.ru?igshid=YzcxN2Q2NzY0OA==\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://lizadent.ru/contacts/",
+      "context": "href=\"#facebook\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://lizadent.ru/contacts/",
+      "context": "href=\"#instagram\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://lizadent.ru/contacts/",
+      "context": "href=\"https://instagram.com/lizadent.ru?igshid=YzcxN2Q2NzY0OA==\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://lizadent.ru/contacts/",
+      "context": "href=\"https://instagram.com/lizadent.ru?igshid=YzcxN2Q2NzY0OA==\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://lizadent.ru/pravovaya-informacziya/",
+      "context": "href=\"#facebook\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://lizadent.ru/pravovaya-informacziya/",
+      "context": "href=\"#instagram\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://lizadent.ru/pravovaya-informacziya/",
+      "context": "href=\"https://instagram.com/lizadent.ru?igshid=YzcxN2Q2NzY0OA==\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://lizadent.ru/pravovaya-informacziya/",
+      "context": "href=\"https://instagram.com/lizadent.ru?igshid=YzcxN2Q2NzY0OA==\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://lizadent.ru/privacy",
+      "context": "href=\"#facebook\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://lizadent.ru/privacy",
+      "context": "href=\"#instagram\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://lizadent.ru/privacy",
+      "context": "href=\"https://instagram.com/lizadent.ru?igshid=YzcxN2Q2NzY0OA==\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://lizadent.ru/privacy",
+      "context": "href=\"https://instagram.com/lizadent.ru?igshid=YzcxN2Q2NzY0OA==\"",
+      "visibility": "только в коде"
+    }
+  ],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://lizadent.ru/contacts/"
+    ],
+    "booking_urls": [
+      "https://lizadent.ru/"
+    ],
+    "legal_urls": [
+      "https://lizadent.ru/pravovaya-informacziya/",
+      "https://lizadent.ru/privacy"
+    ],
+    "sources": {
+      "https://lizadent.ru/": "home-booking-candidate",
+      "https://lizadent.ru/contacts/": "navigation",
+      "https://lizadent.ru/pravovaya-informacziya/": "navigation-legal",
+      "https://lizadent.ru/privacy": "navigation-legal"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": false
+    },
+    "sitemap_total_urls": 5,
+    "sitemap_used_urls": 5
+  }
+}

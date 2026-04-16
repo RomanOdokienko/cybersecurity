@@ -1,0 +1,146 @@
+{
+  "domain": "www.dentalpearl.ru",
+  "pages": [
+    {
+      "requested": "https://www.dentalpearl.ru/",
+      "status": 200,
+      "final_url": "https://dentalpearl.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://www.dentalpearl.ru/contact",
+      "status": 200,
+      "final_url": "https://dentalpearl.ru/contacts/",
+      "error": null
+    },
+    {
+      "requested": "https://www.dentalpearl.ru/contacts",
+      "status": 200,
+      "final_url": "https://dentalpearl.ru/contacts/",
+      "error": null
+    },
+    {
+      "requested": "https://www.dentalpearl.ru/kontakty",
+      "status": 404,
+      "final_url": "https://www.dentalpearl.ru/kontakty",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://www.dentalpearl.ru/appointment",
+      "status": 404,
+      "final_url": "https://www.dentalpearl.ru/appointment",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://www.dentalpearl.ru/booking",
+      "status": 404,
+      "final_url": "https://www.dentalpearl.ru/booking",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://www.dentalpearl.ru/zapis",
+      "status": 404,
+      "final_url": "https://www.dentalpearl.ru/zapis",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://www.dentalpearl.ru/documents",
+      "status": 200,
+      "final_url": "https://dentalpearl.ru/documents/",
+      "error": null
+    },
+    {
+      "requested": "https://www.dentalpearl.ru/wp-content/uploads/2025/09/Политика_защиты_и_обработки_персональных_данных.docx",
+      "status": null,
+      "final_url": "https://www.dentalpearl.ru/wp-content/uploads/2025/09/Политика_защиты_и_обработки_персональных_данных.docx",
+      "error": "'ascii' codec can't encode characters in position 32-39: ordinal not in range(128)"
+    }
+  ],
+  "forms": [],
+  "emails": [
+    "close_side_menu@2x.png",
+    "close_side_menu_dark@2x.png",
+    "frame_arrow_left@2x.png",
+    "frame_arrow_left_hover@2x.png",
+    "frame_arrow_right@2x.png",
+    "frame_arrow_right_hover@2x.png",
+    "info@dentalpearl.ru",
+    "minus@2x.png",
+    "plus@2x.png",
+    "portfolio_list_button@2x.png",
+    "portfolio_list_button_hover@2x.png",
+    "vertical_menu_cross@2x.png",
+    "vertical_menu_cross_black@2x.png",
+    "vertical_menu_cross_white@2x.png",
+    "vertical_menu_minus@2x.png",
+    "vertical_menu_minus_black@2x.png",
+    "vertical_menu_minus_white@2x.png"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://www.dentalpearl.ru/",
+      "href": "/wp-content/uploads/2025/09/Политика_защиты_и_обработки_персональных_данных.docx",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://www.dentalpearl.ru/contact",
+      "href": "/wp-content/uploads/2025/09/Политика_защиты_и_обработки_персональных_данных.docx",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://www.dentalpearl.ru/contacts",
+      "href": "/wp-content/uploads/2025/09/Политика_защиты_и_обработки_персональных_данных.docx",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://www.dentalpearl.ru/documents",
+      "href": "/wp-content/uploads/2019/11/privacy_policy.pdf",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://www.dentalpearl.ru/documents",
+      "href": "/wp-content/uploads/2025/09/Политика_защиты_и_обработки_персональных_данных.docx",
+      "text": "Политика конфиденциальности"
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [
+    {
+      "url": "https://www.dentalpearl.ru/wp-content/uploads/2025/09/Политика_защиты_и_обработки_персональных_данных.docx",
+      "error": "'ascii' codec can't encode characters in position 32-39: ordinal not in range(128)"
+    }
+  ],
+  "discovery": {
+    "contact_urls": [
+      "https://www.dentalpearl.ru/contact",
+      "https://www.dentalpearl.ru/contacts",
+      "https://www.dentalpearl.ru/kontakty"
+    ],
+    "booking_urls": [
+      "https://www.dentalpearl.ru/appointment",
+      "https://www.dentalpearl.ru/booking",
+      "https://www.dentalpearl.ru/zapis"
+    ],
+    "legal_urls": [
+      "https://www.dentalpearl.ru/documents",
+      "https://www.dentalpearl.ru/wp-content/uploads/2025/09/Политика_защиты_и_обработки_персональных_данных.docx"
+    ],
+    "sources": {
+      "https://www.dentalpearl.ru/": "",
+      "https://www.dentalpearl.ru/appointment": "fallback",
+      "https://www.dentalpearl.ru/booking": "fallback",
+      "https://www.dentalpearl.ru/contact": "fallback",
+      "https://www.dentalpearl.ru/contacts": "fallback",
+      "https://www.dentalpearl.ru/documents": "navigation-legal",
+      "https://www.dentalpearl.ru/kontakty": "fallback",
+      "https://www.dentalpearl.ru/wp-content/uploads/2025/09/Политика_защиты_и_обработки_персональных_данных.docx": "navigation-legal",
+      "https://www.dentalpearl.ru/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": true,
+      "booking": true
+    },
+    "sitemap_total_urls": 6,
+    "sitemap_used_urls": 6
+  }
+}

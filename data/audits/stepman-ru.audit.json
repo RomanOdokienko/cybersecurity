@@ -1,0 +1,2357 @@
+{
+  "domain": "stepman.ru",
+  "pages": [
+    {
+      "requested": "https://stepman.ru/",
+      "status": 200,
+      "final_url": "https://stepman.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/contacts",
+      "status": 200,
+      "final_url": "https://stepman.ru/contacts",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/ustanovka-formi",
+      "status": 200,
+      "final_url": "https://stepman.ru/ustanovka-formi",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/doctors",
+      "status": 200,
+      "final_url": "https://stepman.ru/doctors",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/privacy",
+      "status": 200,
+      "final_url": "https://stepman.ru/privacy",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/privacy-policy",
+      "status": 200,
+      "final_url": "https://stepman.ru/privacy-policy",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/3d-skanir",
+      "status": 200,
+      "final_url": "https://stepman.ru/3d-skanir",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/about",
+      "status": 200,
+      "final_url": "https://stepman.ru/about",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/akrilovy",
+      "status": 200,
+      "final_url": "https://stepman.ru/akrilovy",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/anes",
+      "status": 200,
+      "final_url": "https://stepman.ru/anes",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/bio-gide-perio",
+      "status": 200,
+      "final_url": "https://stepman.ru/bio-gide-perio",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/byugelny",
+      "status": 200,
+      "final_url": "https://stepman.ru/byugelny",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/byugelnyy-prot",
+      "status": 200,
+      "final_url": "https://stepman.ru/byugelnyy-prot",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/detskaya-stomatologiya",
+      "status": 200,
+      "final_url": "https://stepman.ru/detskaya-stomatologiya",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/diagn",
+      "status": 200,
+      "final_url": "https://stepman.ru/diagn",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/dopolniteln",
+      "status": 200,
+      "final_url": "https://stepman.ru/dopolniteln",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/fotootbelivazoom-ap",
+      "status": 200,
+      "final_url": "https://stepman.ru/fotootbelivazoom-ap",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/germetiza",
+      "status": 200,
+      "final_url": "https://stepman.ru/germetiza",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/gigiena-zubov",
+      "status": 200,
+      "final_url": "https://stepman.ru/gigiena-zubov",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/glubokoe-ftor",
+      "status": 200,
+      "final_url": "https://stepman.ru/glubokoe-ftor",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/hirurgiya",
+      "status": 200,
+      "final_url": "https://stepman.ru/hirurgiya",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/implamis",
+      "status": 200,
+      "final_url": "https://stepman.ru/implamis",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/implanobel-biocare",
+      "status": 200,
+      "final_url": "https://stepman.ru/implanobel-biocare",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/implantaciya-zubov",
+      "status": 200,
+      "final_url": "https://stepman.ru/implantaciya-zubov",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/implasimpl-swiss",
+      "status": 200,
+      "final_url": "https://stepman.ru/implasimpl-swiss",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/implaxive",
+      "status": 200,
+      "final_url": "https://stepman.ru/implaxive",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/implstraumann",
+      "status": 200,
+      "final_url": "https://stepman.ru/implstraumann",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/ispolzovanie-ortodo",
+      "status": 200,
+      "final_url": "https://stepman.ru/ispolzovanie-ortodo",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/ispravlen",
+      "status": 200,
+      "final_url": "https://stepman.ru/ispravlen",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/ispravlenie-pr",
+      "status": 200,
+      "final_url": "https://stepman.ru/ispravlenie-pr",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/izgotovlenie-napravd-planirovanie",
+      "status": 200,
+      "final_url": "https://stepman.ru/izgotovlenie-napravd-planirovanie",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/keramiches",
+      "status": 200,
+      "final_url": "https://stepman.ru/keramiches",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/keramichesk",
+      "status": 200,
+      "final_url": "https://stepman.ru/keramichesk",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/keramichesk-0",
+      "status": 200,
+      "final_url": "https://stepman.ru/keramichesk-0",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/keramicheskdamon-clear",
+      "status": 200,
+      "final_url": "https://stepman.ru/keramicheskdamon-clear",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/keramicheskie-brekety-clarity-i-clarity-advanced",
+      "status": 200,
+      "final_url": "https://stepman.ru/keramicheskie-brekety-clarity-i-clarity-advanced",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/kompyuternaya-tom",
+      "status": 200,
+      "final_url": "https://stepman.ru/kompyuternaya-tom",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/konsultaci",
+      "status": 200,
+      "final_url": "https://stepman.ru/konsultaci",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/koronka-keramicheskaya-na-oks",
+      "status": 200,
+      "final_url": "https://stepman.ru/koronka-keramicheskaya-na-oks",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/koronka-metallokeraminobel-replace",
+      "status": 200,
+      "final_url": "https://stepman.ru/koronka-metallokeraminobel-replace",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/koronki-iz-diok",
+      "status": 200,
+      "final_url": "https://stepman.ru/koronki-iz-diok",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/kostnaya",
+      "status": 200,
+      "final_url": "https://stepman.ru/kostnaya",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/kostnaya-regenerac",
+      "status": 200,
+      "final_url": "https://stepman.ru/kostnaya-regenerac",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/kulteva",
+      "status": 200,
+      "final_url": "https://stepman.ru/kulteva",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/kultevaya-vklad",
+      "status": 200,
+      "final_url": "https://stepman.ru/kultevaya-vklad",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/lechenie",
+      "status": 200,
+      "final_url": "https://stepman.ru/lechenie",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/lechenie-alv",
+      "status": 200,
+      "final_url": "https://stepman.ru/lechenie-alv",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/lechenie-dyosen-ging",
+      "status": 200,
+      "final_url": "https://stepman.ru/lechenie-dyosen-ging",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/lechenie-icon",
+      "status": 200,
+      "final_url": "https://stepman.ru/lechenie-icon",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/lechenie-k",
+      "status": 200,
+      "final_url": "https://stepman.ru/lechenie-k",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/lechenie-kari",
+      "status": 200,
+      "final_url": "https://stepman.ru/lechenie-kari",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/lechenie-pe",
+      "status": 200,
+      "final_url": "https://stepman.ru/lechenie-pe",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/lechenie-pulpita",
+      "status": 200,
+      "final_url": "https://stepman.ru/lechenie-pulpita",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/lechenie-semnoy-plast",
+      "status": 200,
+      "final_url": "https://stepman.ru/lechenie-semnoy-plast",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/lechenie-sinvisalign",
+      "status": 200,
+      "final_url": "https://stepman.ru/lechenie-sinvisalign",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/lechenie-zub",
+      "status": 200,
+      "final_url": "https://stepman.ru/lechenie-zub",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/lecheniya-zubov-pr",
+      "status": 200,
+      "final_url": "https://stepman.ru/lecheniya-zubov-pr",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/metallicheskdamon-q-idamon-3mx",
+      "status": 200,
+      "final_url": "https://stepman.ru/metallicheskdamon-q-idamon-3mx",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/metallicheskvictory",
+      "status": 200,
+      "final_url": "https://stepman.ru/metallicheskvictory",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/metallokeramichesk",
+      "status": 200,
+      "final_url": "https://stepman.ru/metallokeramichesk",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/metallokeramicheskie",
+      "status": 200,
+      "final_url": "https://stepman.ru/metallokeramicheskie",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/mostovidnye-z",
+      "status": 200,
+      "final_url": "https://stepman.ru/mostovidnye-z",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/naddesnevye-i-podd",
+      "status": 200,
+      "final_url": "https://stepman.ru/naddesnevye-i-podd",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/narashchivanie-k",
+      "status": 200,
+      "final_url": "https://stepman.ru/narashchivanie-k",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/neylonov",
+      "status": 200,
+      "final_url": "https://stepman.ru/neylonov",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/obuchenie-detey-pravilam-gigieny-i-podbor-sredstv-po-uhodu-za-zubami",
+      "status": 200,
+      "final_url": "https://stepman.ru/obuchenie-detey-pravilam-gigieny-i-podbor-sredstv-po-uhodu-za-zubami",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/ortodontiya",
+      "status": 200,
+      "final_url": "https://stepman.ru/ortodontiya",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/ortopant",
+      "status": 200,
+      "final_url": "https://stepman.ru/ortopant",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/ortopediya",
+      "status": 200,
+      "final_url": "https://stepman.ru/ortopediya",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/oslozhneniya-pr",
+      "status": 200,
+      "final_url": "https://stepman.ru/oslozhneniya-pr",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/osobennosti-dets",
+      "status": 200,
+      "final_url": "https://stepman.ru/osobennosti-dets",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/otkrytyy-si",
+      "status": 200,
+      "final_url": "https://stepman.ru/otkrytyy-si",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/plastika-desny-g",
+      "status": 200,
+      "final_url": "https://stepman.ru/plastika-desny-g",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/pokryvny",
+      "status": 200,
+      "final_url": "https://stepman.ru/pokryvny",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/price",
+      "status": 200,
+      "final_url": "https://stepman.ru/price",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/priem-spe",
+      "status": 200,
+      "final_url": "https://stepman.ru/priem-spe",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/professionalairflow",
+      "status": 200,
+      "final_url": "https://stepman.ru/professionalairflow",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/professionalnaya",
+      "status": 200,
+      "final_url": "https://stepman.ru/professionalnaya",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/protezirovanie",
+      "status": 200,
+      "final_url": "https://stepman.ru/protezirovanie",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/ren",
+      "status": 200,
+      "final_url": "https://stepman.ru/ren",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/reviews",
+      "status": 200,
+      "final_url": "https://stepman.ru/reviews",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/sapfirovyinspire-ice",
+      "status": 200,
+      "final_url": "https://stepman.ru/sapfirovyinspire-ice",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/semnyy-plasti",
+      "status": 200,
+      "final_url": "https://stepman.ru/semnyy-plasti",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/service",
+      "status": 200,
+      "final_url": "https://stepman.ru/service",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/steklovolok",
+      "status": 200,
+      "final_url": "https://stepman.ru/steklovolok",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/stepman-tv",
+      "status": 200,
+      "final_url": "https://stepman.ru/stepman-tv",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/svetootverzhd",
+      "status": 200,
+      "final_url": "https://stepman.ru/svetootverzhd",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/terapiya",
+      "status": 200,
+      "final_url": "https://stepman.ru/terapiya",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/titanov",
+      "status": 200,
+      "final_url": "https://stepman.ru/titanov",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/udalen",
+      "status": 200,
+      "final_url": "https://stepman.ru/udalen",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/udaleni",
+      "status": 200,
+      "final_url": "https://stepman.ru/udaleni",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/udalenie-mol",
+      "status": 200,
+      "final_url": "https://stepman.ru/udalenie-mol",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/udalenie-retini",
+      "status": 200,
+      "final_url": "https://stepman.ru/udalenie-retini",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/udalenie-zu",
+      "status": 200,
+      "final_url": "https://stepman.ru/udalenie-zu",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/uhod-za-breketami-v-period-o",
+      "status": 200,
+      "final_url": "https://stepman.ru/uhod-za-breketami-v-period-o",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/ultrazvukovaya",
+      "status": 200,
+      "final_url": "https://stepman.ru/ultrazvukovaya",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/vin",
+      "status": 200,
+      "final_url": "https://stepman.ru/vin",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/vremenna",
+      "status": 200,
+      "final_url": "https://stepman.ru/vremenna",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/zakrytyy-si",
+      "status": 200,
+      "final_url": "https://stepman.ru/zakrytyy-si",
+      "error": null
+    },
+    {
+      "requested": "https://stepman.ru/zubna",
+      "status": 200,
+      "final_url": "https://stepman.ru/zubna",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://stepman.ru/",
+      "form_id": "form699730323",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form699730323\" name='form699730323' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/contacts",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/ustanovka-formi",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/doctors",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/privacy",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/privacy-policy",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/3d-skanir",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/about",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/akrilovy",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/anes",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/bio-gide-perio",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/byugelny",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/byugelnyy-prot",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/detskaya-stomatologiya",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/diagn",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/dopolniteln",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/fotootbelivazoom-ap",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/germetiza",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/gigiena-zubov",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/glubokoe-ftor",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/hirurgiya",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/implamis",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/implanobel-biocare",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/implantaciya-zubov",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/implasimpl-swiss",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/implaxive",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/implstraumann",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/ispolzovanie-ortodo",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/ispravlen",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/ispravlenie-pr",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/izgotovlenie-napravd-planirovanie",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/keramiches",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/keramichesk",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/keramichesk-0",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/keramicheskdamon-clear",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/keramicheskie-brekety-clarity-i-clarity-advanced",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/kompyuternaya-tom",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/konsultaci",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/koronka-keramicheskaya-na-oks",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/koronka-metallokeraminobel-replace",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/koronki-iz-diok",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/kostnaya",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/kostnaya-regenerac",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/kulteva",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/kultevaya-vklad",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/lechenie",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/lechenie-alv",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/lechenie-dyosen-ging",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/lechenie-icon",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/lechenie-k",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/lechenie-kari",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/lechenie-pe",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/lechenie-pulpita",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/lechenie-semnoy-plast",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/lechenie-sinvisalign",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/lechenie-zub",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/lecheniya-zubov-pr",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/metallicheskdamon-q-idamon-3mx",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/metallicheskvictory",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/metallokeramichesk",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/metallokeramicheskie",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/mostovidnye-z",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/naddesnevye-i-podd",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/narashchivanie-k",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/neylonov",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/obuchenie-detey-pravilam-gigieny-i-podbor-sredstv-po-uhodu-za-zubami",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/ortodontiya",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/ortopant",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/ortopediya",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/oslozhneniya-pr",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/osobennosti-dets",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/otkrytyy-si",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/plastika-desny-g",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/pokryvny",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/price",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/priem-spe",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/professionalairflow",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/professionalnaya",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/protezirovanie",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/ren",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/reviews",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/sapfirovyinspire-ice",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/semnyy-plasti",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/service",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/steklovolok",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/stepman-tv",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/svetootverzhd",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/terapiya",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/titanov",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/udalen",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/udaleni",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/udalenie-mol",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/udalenie-retini",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/udalenie-zu",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/uhod-za-breketami-v-period-o",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/ultrazvukovaya",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/vin",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/vremenna",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/zakrytyy-si",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stepman.ru/zubna",
+      "form_id": "form708467782",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form708467782\" name='form708467782' role=\"form\" action='' method='POST' data-formactiontype=\"0\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    }
+  ],
+  "emails": [
+    "mail@example.com",
+    "stepman.ru@yandex.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://stepman.ru/",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/contacts",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/ustanovka-formi",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/doctors",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/privacy",
+      "href": "https://stepman.ru/privacy",
+      "text": "policy path"
+    },
+    {
+      "page": "https://stepman.ru/privacy",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/privacy-policy",
+      "href": "https://stepman.ru/privacy-policy",
+      "text": "policy path"
+    },
+    {
+      "page": "https://stepman.ru/privacy-policy",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/3d-skanir",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/about",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/akrilovy",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/anes",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/bio-gide-perio",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/byugelny",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/byugelnyy-prot",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/detskaya-stomatologiya",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/diagn",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/dopolniteln",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/fotootbelivazoom-ap",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/germetiza",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/gigiena-zubov",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/glubokoe-ftor",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/hirurgiya",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/implamis",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/implanobel-biocare",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/implantaciya-zubov",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/implasimpl-swiss",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/implaxive",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/implstraumann",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/ispolzovanie-ortodo",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/ispravlen",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/ispravlenie-pr",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/izgotovlenie-napravd-planirovanie",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/keramiches",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/keramichesk",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/keramichesk-0",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/keramicheskdamon-clear",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/keramicheskie-brekety-clarity-i-clarity-advanced",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/kompyuternaya-tom",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/konsultaci",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/koronka-keramicheskaya-na-oks",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/koronka-metallokeraminobel-replace",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/koronki-iz-diok",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/kostnaya",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/kostnaya-regenerac",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/kulteva",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/kultevaya-vklad",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/lechenie",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/lechenie-alv",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/lechenie-dyosen-ging",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/lechenie-icon",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/lechenie-k",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/lechenie-kari",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/lechenie-pe",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/lechenie-pulpita",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/lechenie-semnoy-plast",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/lechenie-sinvisalign",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/lechenie-zub",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/lecheniya-zubov-pr",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/metallicheskdamon-q-idamon-3mx",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/metallicheskvictory",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/metallokeramichesk",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/metallokeramicheskie",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/mostovidnye-z",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/naddesnevye-i-podd",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/narashchivanie-k",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/neylonov",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/obuchenie-detey-pravilam-gigieny-i-podbor-sredstv-po-uhodu-za-zubami",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/ortodontiya",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/ortopant",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/ortopediya",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/oslozhneniya-pr",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/osobennosti-dets",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/otkrytyy-si",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/plastika-desny-g",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/pokryvny",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/price",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/priem-spe",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/professionalairflow",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/professionalnaya",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/protezirovanie",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/ren",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/reviews",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/sapfirovyinspire-ice",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/semnyy-plasti",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/service",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/steklovolok",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/stepman-tv",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/svetootverzhd",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/terapiya",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/titanov",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/udalen",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/udaleni",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/udalenie-mol",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/udalenie-retini",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/udalenie-zu",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/uhod-za-breketami-v-period-o",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/ultrazvukovaya",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/vin",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/vremenna",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/zakrytyy-si",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stepman.ru/zubna",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://stepman.ru/contacts"
+    ],
+    "booking_urls": [
+      "https://stepman.ru/ustanovka-formi"
+    ],
+    "legal_urls": [
+      "https://stepman.ru/doctors",
+      "https://stepman.ru/privacy",
+      "https://stepman.ru/privacy-policy"
+    ],
+    "sources": {
+      "https://stepman.ru/": "sitemap-form",
+      "https://stepman.ru/3d-skanir": "sitemap-form",
+      "https://stepman.ru/about": "sitemap-form",
+      "https://stepman.ru/akrilovy": "sitemap-form",
+      "https://stepman.ru/anes": "sitemap-form",
+      "https://stepman.ru/bio-gide-perio": "sitemap-form",
+      "https://stepman.ru/byugelny": "sitemap-form",
+      "https://stepman.ru/byugelnyy-prot": "sitemap-form",
+      "https://stepman.ru/contacts": "sitemap",
+      "https://stepman.ru/detskaya-stomatologiya": "sitemap-form",
+      "https://stepman.ru/diagn": "sitemap-form",
+      "https://stepman.ru/doctors": "sitemap-legal",
+      "https://stepman.ru/dopolniteln": "sitemap-form",
+      "https://stepman.ru/fotootbelivazoom-ap": "sitemap-form",
+      "https://stepman.ru/germetiza": "sitemap-form",
+      "https://stepman.ru/gigiena-zubov": "sitemap-form",
+      "https://stepman.ru/glubokoe-ftor": "sitemap-form",
+      "https://stepman.ru/hirurgiya": "sitemap-form",
+      "https://stepman.ru/implamis": "sitemap-form",
+      "https://stepman.ru/implanobel-biocare": "sitemap-form",
+      "https://stepman.ru/implantaciya-zubov": "sitemap-form",
+      "https://stepman.ru/implasimpl-swiss": "sitemap-form",
+      "https://stepman.ru/implaxive": "sitemap-form",
+      "https://stepman.ru/implstraumann": "sitemap-form",
+      "https://stepman.ru/ispolzovanie-ortodo": "sitemap-form",
+      "https://stepman.ru/ispravlen": "sitemap-form",
+      "https://stepman.ru/ispravlenie-pr": "sitemap-form",
+      "https://stepman.ru/izgotovlenie-napravd-planirovanie": "sitemap-form",
+      "https://stepman.ru/keramiches": "sitemap-form",
+      "https://stepman.ru/keramichesk": "sitemap-form",
+      "https://stepman.ru/keramichesk-0": "sitemap-form",
+      "https://stepman.ru/keramicheskdamon-clear": "sitemap-form",
+      "https://stepman.ru/keramicheskie-brekety-clarity-i-clarity-advanced": "sitemap-form",
+      "https://stepman.ru/kompyuternaya-tom": "sitemap-form",
+      "https://stepman.ru/konsultaci": "sitemap-form",
+      "https://stepman.ru/koronka-keramicheskaya-na-oks": "sitemap-form",
+      "https://stepman.ru/koronka-metallokeraminobel-replace": "sitemap-form",
+      "https://stepman.ru/koronki-iz-diok": "sitemap-form",
+      "https://stepman.ru/kostnaya": "sitemap-form",
+      "https://stepman.ru/kostnaya-regenerac": "sitemap-form",
+      "https://stepman.ru/kulteva": "sitemap-form",
+      "https://stepman.ru/kultevaya-vklad": "sitemap-form",
+      "https://stepman.ru/lechenie": "sitemap-form",
+      "https://stepman.ru/lechenie-alv": "sitemap-form",
+      "https://stepman.ru/lechenie-dyosen-ging": "sitemap-form",
+      "https://stepman.ru/lechenie-icon": "sitemap-form",
+      "https://stepman.ru/lechenie-k": "sitemap-form",
+      "https://stepman.ru/lechenie-kari": "sitemap-form",
+      "https://stepman.ru/lechenie-pe": "sitemap-form",
+      "https://stepman.ru/lechenie-pulpita": "sitemap-form",
+      "https://stepman.ru/lechenie-semnoy-plast": "sitemap-form",
+      "https://stepman.ru/lechenie-sinvisalign": "sitemap-form",
+      "https://stepman.ru/lechenie-zub": "sitemap-form",
+      "https://stepman.ru/lecheniya-zubov-pr": "sitemap-form",
+      "https://stepman.ru/metallicheskdamon-q-idamon-3mx": "sitemap-form",
+      "https://stepman.ru/metallicheskvictory": "sitemap-form",
+      "https://stepman.ru/metallokeramichesk": "sitemap-form",
+      "https://stepman.ru/metallokeramicheskie": "sitemap-form",
+      "https://stepman.ru/mostovidnye-z": "sitemap-form",
+      "https://stepman.ru/naddesnevye-i-podd": "sitemap-form",
+      "https://stepman.ru/narashchivanie-k": "sitemap-form",
+      "https://stepman.ru/neylonov": "sitemap-form",
+      "https://stepman.ru/obuchenie-detey-pravilam-gigieny-i-podbor-sredstv-po-uhodu-za-zubami": "sitemap-form",
+      "https://stepman.ru/ortodontiya": "sitemap-form",
+      "https://stepman.ru/ortopant": "sitemap-form",
+      "https://stepman.ru/ortopediya": "sitemap-form",
+      "https://stepman.ru/oslozhneniya-pr": "sitemap-form",
+      "https://stepman.ru/osobennosti-dets": "sitemap-form",
+      "https://stepman.ru/otkrytyy-si": "sitemap-form",
+      "https://stepman.ru/plastika-desny-g": "sitemap-form",
+      "https://stepman.ru/pokryvny": "sitemap-form",
+      "https://stepman.ru/price": "sitemap-form",
+      "https://stepman.ru/priem-spe": "sitemap-form",
+      "https://stepman.ru/privacy": "sitemap-legal",
+      "https://stepman.ru/privacy-policy": "sitemap-legal",
+      "https://stepman.ru/professionalairflow": "sitemap-form",
+      "https://stepman.ru/professionalnaya": "sitemap-form",
+      "https://stepman.ru/protezirovanie": "sitemap-form",
+      "https://stepman.ru/ren": "sitemap-form",
+      "https://stepman.ru/reviews": "sitemap-form",
+      "https://stepman.ru/sapfirovyinspire-ice": "sitemap-form",
+      "https://stepman.ru/semnyy-plasti": "sitemap-form",
+      "https://stepman.ru/service": "sitemap-form",
+      "https://stepman.ru/steklovolok": "sitemap-form",
+      "https://stepman.ru/stepman-tv": "sitemap-form",
+      "https://stepman.ru/svetootverzhd": "sitemap-form",
+      "https://stepman.ru/terapiya": "sitemap-form",
+      "https://stepman.ru/titanov": "sitemap-form",
+      "https://stepman.ru/udalen": "sitemap-form",
+      "https://stepman.ru/udaleni": "sitemap-form",
+      "https://stepman.ru/udalenie-mol": "sitemap-form",
+      "https://stepman.ru/udalenie-retini": "sitemap-form",
+      "https://stepman.ru/udalenie-zu": "sitemap-form",
+      "https://stepman.ru/uhod-za-breketami-v-period-o": "sitemap-form",
+      "https://stepman.ru/ultrazvukovaya": "sitemap-form",
+      "https://stepman.ru/ustanovka-formi": "sitemap-form",
+      "https://stepman.ru/vin": "sitemap-form",
+      "https://stepman.ru/vremenna": "sitemap-form",
+      "https://stepman.ru/zakrytyy-si": "sitemap-form",
+      "https://stepman.ru/zubna": "sitemap-form"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": false
+    },
+    "sitemap_total_urls": 100,
+    "sitemap_used_urls": 100
+  }
+}

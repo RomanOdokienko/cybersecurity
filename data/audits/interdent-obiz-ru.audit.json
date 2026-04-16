@@ -1,0 +1,103 @@
+{
+  "domain": "interdent.obiz.ru",
+  "pages": [
+    {
+      "requested": "https://interdent.obiz.ru/",
+      "status": 200,
+      "final_url": "https://interdent.obiz.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://interdent.obiz.ru/contact",
+      "status": 404,
+      "final_url": "https://interdent.obiz.ru/contact",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://interdent.obiz.ru/contacts",
+      "status": 404,
+      "final_url": "https://interdent.obiz.ru/contacts",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://interdent.obiz.ru/kontakty",
+      "status": 404,
+      "final_url": "https://interdent.obiz.ru/kontakty",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://interdent.obiz.ru/appointment",
+      "status": 404,
+      "final_url": "https://interdent.obiz.ru/appointment",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://interdent.obiz.ru/booking",
+      "status": 404,
+      "final_url": "https://interdent.obiz.ru/booking",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://interdent.obiz.ru/zapis",
+      "status": 404,
+      "final_url": "https://interdent.obiz.ru/zapis",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://interdent.obiz.ru/policy/",
+      "status": 200,
+      "final_url": "https://interdent.obiz.ru/policy/",
+      "error": null
+    }
+  ],
+  "forms": [],
+  "emails": [],
+  "privacy_links": [
+    {
+      "page": "https://interdent.obiz.ru/",
+      "href": "/policy/",
+      "text": "Политика обработки данных"
+    },
+    {
+      "page": "https://interdent.obiz.ru/policy/",
+      "href": "https://interdent.obiz.ru/policy/",
+      "text": "policy path"
+    },
+    {
+      "page": "https://interdent.obiz.ru/policy/",
+      "href": "/policy/",
+      "text": "Политика обработки данных"
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://interdent.obiz.ru/contact",
+      "https://interdent.obiz.ru/contacts",
+      "https://interdent.obiz.ru/kontakty"
+    ],
+    "booking_urls": [
+      "https://interdent.obiz.ru/appointment",
+      "https://interdent.obiz.ru/booking",
+      "https://interdent.obiz.ru/zapis"
+    ],
+    "legal_urls": [
+      "https://interdent.obiz.ru/policy/"
+    ],
+    "sources": {
+      "https://interdent.obiz.ru/": "",
+      "https://interdent.obiz.ru/appointment": "fallback",
+      "https://interdent.obiz.ru/booking": "fallback",
+      "https://interdent.obiz.ru/contact": "fallback",
+      "https://interdent.obiz.ru/contacts": "fallback",
+      "https://interdent.obiz.ru/kontakty": "fallback",
+      "https://interdent.obiz.ru/policy/": "navigation-legal",
+      "https://interdent.obiz.ru/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": true,
+      "booking": true
+    }
+  }
+}

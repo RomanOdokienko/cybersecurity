@@ -1,0 +1,266 @@
+{
+  "domain": "vivadent.moscow",
+  "pages": [
+    {
+      "requested": "https://vivadent.moscow/",
+      "status": 200,
+      "final_url": "https://vivadent.moscow/",
+      "error": null
+    },
+    {
+      "requested": "https://vivadent.moscow/kontakty.html",
+      "status": 200,
+      "final_url": "https://vivadent.moscow/kontakty.html",
+      "error": null
+    },
+    {
+      "requested": "https://vivadent.moscow/appointment",
+      "status": 404,
+      "final_url": "https://vivadent.moscow/appointment",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://vivadent.moscow/booking",
+      "status": 404,
+      "final_url": "https://vivadent.moscow/booking",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://vivadent.moscow/zapis",
+      "status": 404,
+      "final_url": "https://vivadent.moscow/zapis",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://vivadent.moscow/politika",
+      "status": 404,
+      "final_url": "https://vivadent.moscow/politika",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://vivadent.moscow/wp-content/uploads/2025/08/fajl_10-politika-ispolzovaniya-cookies.pdf",
+      "status": 200,
+      "final_url": "https://vivadent.moscow/wp-content/uploads/2025/08/fajl_10-politika-ispolzovaniya-cookies.pdf",
+      "error": null
+    },
+    {
+      "requested": "https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotki-personalnyh-dannyh-vivadent.pdf",
+      "status": 200,
+      "final_url": "https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotki-personalnyh-dannyh-vivadent.pdf",
+      "error": null
+    },
+    {
+      "requested": "https://vivadent.moscow/wp-content/uploads/2025/10/politika-ispolzovaniya-sookie-faylov.pdf",
+      "status": 200,
+      "final_url": "https://vivadent.moscow/wp-content/uploads/2025/10/politika-ispolzovaniya-sookie-faylov.pdf",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://vivadent.moscow/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/#wpcf7-f11890-o1\"",
+      "open_tag": "<form action=\"/#wpcf7-f11890-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://vivadent.moscow/",
+      "form_id": "pro-contact-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"pro-contact-form\" novalidate>",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"pcf_field_2[]\" value=\"Я согласен(а) с политикой обработки персональных данных\" required>",
+      "policy_poc": "<label class=\"pcf-option-label\"><input type=\"checkbox\" name=\"pcf_field_2[]\" value=\"Я согласен(а) с политикой обработки персональных данных\" required> Я согласен(а) с <a href=\"https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotk"
+    },
+    {
+      "page": "https://vivadent.moscow/",
+      "form_id": "pro-contact-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"pro-contact-form\" novalidate>",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"pcf_field_4[]\" value=\"Я согласен(а) с политикой обработки персональных данных\" required>",
+      "policy_poc": "<label class=\"pcf-option-label\"><input type=\"checkbox\" name=\"pcf_field_4[]\" value=\"Я согласен(а) с политикой обработки персональных данных\" required> Я согласен(а) с <a href=\"https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotk"
+    },
+    {
+      "page": "https://vivadent.moscow/",
+      "form_id": "pro-contact-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"pro-contact-form\" novalidate>",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"pcf_field_3[]\" value=\"Я согласен(а) с политикой обработки персональных данных\" required>",
+      "policy_poc": "<label class=\"pcf-option-label\"><input type=\"checkbox\" name=\"pcf_field_3[]\" value=\"Я согласен(а) с политикой обработки персональных данных\" required> Я согласен(а) с <a href=\"https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotk"
+    },
+    {
+      "page": "https://vivadent.moscow/kontakty.html",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/kontakty.html#wpcf7-f11890-o1\"",
+      "open_tag": "<form action=\"/kontakty.html#wpcf7-f11890-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://vivadent.moscow/kontakty.html",
+      "form_id": "pro-contact-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"pro-contact-form\" novalidate>",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"pcf_field_2[]\" value=\"Я согласен(а) с политикой обработки персональных данных\" required>",
+      "policy_poc": "<label class=\"pcf-option-label\"><input type=\"checkbox\" name=\"pcf_field_2[]\" value=\"Я согласен(а) с политикой обработки персональных данных\" required> Я согласен(а) с <a href=\"https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotk"
+    },
+    {
+      "page": "https://vivadent.moscow/kontakty.html",
+      "form_id": "pro-contact-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"pro-contact-form\" novalidate>",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"pcf_field_4[]\" value=\"Я согласен(а) с политикой обработки персональных данных\" required>",
+      "policy_poc": "<label class=\"pcf-option-label\"><input type=\"checkbox\" name=\"pcf_field_4[]\" value=\"Я согласен(а) с политикой обработки персональных данных\" required> Я согласен(а) с <a href=\"https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotk"
+    },
+    {
+      "page": "https://vivadent.moscow/kontakty.html",
+      "form_id": "pro-contact-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"pro-contact-form\" novalidate>",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"pcf_field_3[]\" value=\"Я согласен(а) с политикой обработки персональных данных\" required>",
+      "policy_poc": "<label class=\"pcf-option-label\"><input type=\"checkbox\" name=\"pcf_field_3[]\" value=\"Я согласен(а) с политикой обработки персональных данных\" required> Я согласен(а) с <a href=\"https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotk"
+    }
+  ],
+  "emails": [
+    "1@Gp.vMc",
+    "eMN@3Q.czY",
+    "vivadent.moscow1@yandex.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://vivadent.moscow/",
+      "href": "https://vivadent.moscow/wp-content/uploads/2025/08/fajl_10-politika-ispolzovaniya-cookies.pdf",
+      "text": "Политика в отношении файлов cookie"
+    },
+    {
+      "page": "https://vivadent.moscow/",
+      "href": "https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotki-personalnyh-dannyh-vivadent.pdf",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "https://vivadent.moscow/",
+      "href": "https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotki-personalnyh-dannyh-vivadent.pdf",
+      "text": "Принимаем оплату"
+    },
+    {
+      "page": "https://vivadent.moscow/",
+      "href": "https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotki-personalnyh-dannyh-vivadent.pdf",
+      "text": "политикой обработки персональных данных"
+    },
+    {
+      "page": "https://vivadent.moscow/",
+      "href": "https://vivadent.moscow/wp-content/uploads/2025/10/politika-ispolzovaniya-sookie-faylov.pdf",
+      "text": "Политикой использования cookies"
+    },
+    {
+      "page": "https://vivadent.moscow/",
+      "href": "https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotki-personalnyh-dannyh-vivadent.pdf",
+      "text": "как мы защищаем ваши персональные данные"
+    },
+    {
+      "page": "https://vivadent.moscow/kontakty.html",
+      "href": "https://vivadent.moscow/wp-content/uploads/2025/08/fajl_10-politika-ispolzovaniya-cookies.pdf",
+      "text": "Политика в отношении файлов cookie"
+    },
+    {
+      "page": "https://vivadent.moscow/kontakty.html",
+      "href": "https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotki-personalnyh-dannyh-vivadent.pdf",
+      "text": "Политика обработки персональных данных"
+    },
+    {
+      "page": "https://vivadent.moscow/kontakty.html",
+      "href": "https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotki-personalnyh-dannyh-vivadent.pdf",
+      "text": "Принимаем оплату"
+    },
+    {
+      "page": "https://vivadent.moscow/kontakty.html",
+      "href": "https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotki-personalnyh-dannyh-vivadent.pdf",
+      "text": "политикой обработки персональных данных"
+    },
+    {
+      "page": "https://vivadent.moscow/kontakty.html",
+      "href": "https://vivadent.moscow/wp-content/uploads/2025/10/politika-ispolzovaniya-sookie-faylov.pdf",
+      "text": "Политикой использования cookies"
+    },
+    {
+      "page": "https://vivadent.moscow/kontakty.html",
+      "href": "https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotki-personalnyh-dannyh-vivadent.pdf",
+      "text": "как мы защищаем ваши персональные данные"
+    },
+    {
+      "page": "https://vivadent.moscow/wp-content/uploads/2025/08/fajl_10-politika-ispolzovaniya-cookies.pdf",
+      "href": "https://vivadent.moscow/wp-content/uploads/2025/08/fajl_10-politika-ispolzovaniya-cookies.pdf",
+      "text": "policy path"
+    },
+    {
+      "page": "https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotki-personalnyh-dannyh-vivadent.pdf",
+      "href": "https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotki-personalnyh-dannyh-vivadent.pdf",
+      "text": "policy path"
+    },
+    {
+      "page": "https://vivadent.moscow/wp-content/uploads/2025/10/politika-ispolzovaniya-sookie-faylov.pdf",
+      "href": "https://vivadent.moscow/wp-content/uploads/2025/10/politika-ispolzovaniya-sookie-faylov.pdf",
+      "text": "policy path"
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://vivadent.moscow/kontakty.html"
+    ],
+    "booking_urls": [
+      "https://vivadent.moscow/appointment",
+      "https://vivadent.moscow/booking",
+      "https://vivadent.moscow/zapis"
+    ],
+    "legal_urls": [
+      "https://vivadent.moscow/politika",
+      "https://vivadent.moscow/wp-content/uploads/2025/08/fajl_10-politika-ispolzovaniya-cookies.pdf",
+      "https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotki-personalnyh-dannyh-vivadent.pdf",
+      "https://vivadent.moscow/wp-content/uploads/2025/10/politika-ispolzovaniya-sookie-faylov.pdf"
+    ],
+    "sources": {
+      "https://vivadent.moscow/": "",
+      "https://vivadent.moscow/appointment": "fallback",
+      "https://vivadent.moscow/booking": "fallback",
+      "https://vivadent.moscow/kontakty.html": "navigation",
+      "https://vivadent.moscow/politika": "policy-hint",
+      "https://vivadent.moscow/wp-content/uploads/2025/08/fajl_10-politika-ispolzovaniya-cookies.pdf": "navigation-legal",
+      "https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotki-personalnyh-dannyh-vivadent.pdf": "navigation-legal",
+      "https://vivadent.moscow/wp-content/uploads/2025/10/politika-ispolzovaniya-sookie-faylov.pdf": "navigation-legal",
+      "https://vivadent.moscow/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": true
+    },
+    "sitemap_total_urls": 3,
+    "sitemap_used_urls": 3
+  }
+}

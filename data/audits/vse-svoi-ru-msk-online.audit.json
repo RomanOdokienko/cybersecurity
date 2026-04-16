@@ -1,0 +1,3389 @@
+{
+  "domain": "vse-svoi.ru",
+  "pages": [
+    {
+      "requested": "https://vse-svoi.ru/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/contact",
+      "status": 404,
+      "final_url": "https://vse-svoi.ru/contact",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://vse-svoi.ru/contacts",
+      "status": 404,
+      "final_url": "https://vse-svoi.ru/contacts",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://vse-svoi.ru/kontakty",
+      "status": 404,
+      "final_url": "https://vse-svoi.ru/kontakty",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://vse-svoi.ru/msk/booking/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/msk/booking/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/dokumenty/dogovor_stomat_uslugi.docx",
+      "status": 404,
+      "final_url": "https://vse-svoi.ru/dokumenty/dogovor_stomat_uslugi.docx",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://vse-svoi.ru/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/msk/legal_entity/",
+      "status": 404,
+      "final_url": "https://vse-svoi.ru/msk/legal_entity/",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://vse-svoi.ru/nn/legal_entity/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/nn/legal_entity/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/politika",
+      "status": 404,
+      "final_url": "https://vse-svoi.ru/politika",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://vse-svoi.ru/spb/legal_entity/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/spb/legal_entity/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/upload/iblock/8d2/%D0%94%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%20%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D1%8F%20%D1%81%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%85%20%D1%83%D1%81%D0%BB%D1%83%D0%B3.docx",
+      "status": 404,
+      "final_url": "https://vse-svoi.ru/upload/iblock/8d2/%D0%94%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%20%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D1%8F%20%D1%81%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%85%20%D1%83%D1%81%D0%BB%D1%83%D0%B3.docx",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://vse-svoi.ru/vopros-otvet/2014/10/gde-priobresti-skidochnyy-kupon.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/vopros-otvet/2014/10/gde-priobresti-skidochnyy-kupon.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/vopros-otvet/2015/06/dochke-1-10-mes-karies-molochnykh-zubov.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/vopros-otvet/2015/06/dochke-1-10-mes-karies-molochnykh-zubov.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/vopros-otvet/2015/07/docheri-14-let-mozhno-sdelat-snimok-odnogo-zuba.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/vopros-otvet/2015/07/docheri-14-let-mozhno-sdelat-snimok-odnogo-zuba.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/vopros-otvet/2015/10/docheri-15-let-neobkhodimo-ispravlenie-prikusa-mogu-ya-vospolzovatsya-vashey-klinikoy.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/vopros-otvet/2015/10/docheri-15-let-neobkhodimo-ispravlenie-prikusa-mogu-ya-vospolzovatsya-vashey-klinikoy.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/vopros-otvet/2016/06/kak-mozhno-poluchit-vashu-skidochnuyu-kartu.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/vopros-otvet/2016/06/kak-mozhno-poluchit-vashu-skidochnuyu-kartu.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2006/01/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2006/01/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2006/01/kholodnoe-otbelivanie-zubov-apparatnym-sposobom-beyond.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2006/01/kholodnoe-otbelivanie-zubov-apparatnym-sposobom-beyond.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2006/01/otbelivanie-zubov-apparatnym-sposobom-beyond-polus.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2006/01/otbelivanie-zubov-apparatnym-sposobom-beyond-polus.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2006/04/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2006/04/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2006/04/otbelivanie-zubov-lampoi-kholodnogo-sveta-bend.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2006/04/otbelivanie-zubov-lampoi-kholodnogo-sveta-bend.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2006/07/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2006/07/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2006/07/kholodnoe-otbelivanie-zubov-beyond-polus.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2006/07/kholodnoe-otbelivanie-zubov-beyond-polus.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2006/09/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2006/09/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2006/09/ofisnoe-otbelivanie-zubov-beyond-polus.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2006/09/ofisnoe-otbelivanie-zubov-beyond-polus.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2006/12/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2006/12/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2006/12/kholodnoe-otbelivanie-zubov-professionalnoi-sistemoi-beyond.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2006/12/kholodnoe-otbelivanie-zubov-professionalnoi-sistemoi-beyond.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2007/02/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2007/02/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2007/02/ustranenie-shcheli-mezhdu-tcentralnymi-reztcami.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2007/02/ustranenie-shcheli-mezhdu-tcentralnymi-reztcami.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2007/09/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2007/09/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2007/09/khudozhestvennaia-restavratciia-perednego-zuba.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2007/09/khudozhestvennaia-restavratciia-perednego-zuba.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2009/07/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2009/07/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2009/07/vosstanovlenie-tcentralnogo-reztca-plomboi.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2009/07/vosstanovlenie-tcentralnogo-reztca-plomboi.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2009/08/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2009/08/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2009/08/protezirovanie-frontalnykh-zubov-metallokeramicheskimi-koronkami.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2009/08/protezirovanie-frontalnykh-zubov-metallokeramicheskimi-koronkami.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2009/10/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2009/10/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2009/10/korrektciia-zubnykh-defektov-v-zone-ulybki-vinirami.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2009/10/korrektciia-zubnykh-defektov-v-zone-ulybki-vinirami.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2010/03/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2010/03/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2010/03/nesemnoe-protezirovanie-zubnymi-koronkami-moliarov-i-premoliarov.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2010/03/nesemnoe-protezirovanie-zubnymi-koronkami-moliarov-i-premoliarov.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2010/03/vosstanovlenie-otsutstvuiushchikh-zubov-koronkami.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2010/03/vosstanovlenie-otsutstvuiushchikh-zubov-koronkami.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2010/09/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2010/09/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2010/09/restavratciia-zuba-razrushennogo-bolee-chem-na-50.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2010/09/restavratciia-zuba-razrushennogo-bolee-chem-na-50.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2010/12/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2010/12/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2010/12/ustanovka-vinirov-pri-fliuoroze.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2010/12/ustanovka-vinirov-pri-fliuoroze.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2011/01/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2011/01/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2011/01/korrektciia-defektov-zubnoi-emali-vinirami.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2011/01/korrektciia-defektov-zubnoi-emali-vinirami.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2011/02/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2011/02/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2011/02/nesemnoe-protezirovanie-premoliarov-i-moliarov.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2011/02/nesemnoe-protezirovanie-premoliarov-i-moliarov.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2011/02/vosstanovlenie-premoliarov-na-verkhnei-cheliusti.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2011/02/vosstanovlenie-premoliarov-na-verkhnei-cheliusti.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2011/03/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2011/03/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2011/03/protezirovanie-zhevatelnykh-zubov-metallokeramicheskimi-koronkami.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2011/03/protezirovanie-zhevatelnykh-zubov-metallokeramicheskimi-koronkami.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2011/05/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2011/05/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2011/05/lechenie-kariesa-mezhdu-zubami.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2011/05/lechenie-kariesa-mezhdu-zubami.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2011/11/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2011/11/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2011/11/esteticheskaia-restavratciia-tcentralnykh-reztcov.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2011/11/esteticheskaia-restavratciia-tcentralnykh-reztcov.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2011/11/lechenie-zuba-s-glubokim-kariesom.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2011/11/lechenie-zuba-s-glubokim-kariesom.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2011/11/nesemnoe-protezirovanie-verkhnei-cheliusti-metallokeramikoi.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2011/11/nesemnoe-protezirovanie-verkhnei-cheliusti-metallokeramikoi.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2011/11/nesemnoe-protezirovanie-zubnymi-koronkami-na-implantakh.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2011/11/nesemnoe-protezirovanie-zubnymi-koronkami-na-implantakh.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2011/11/protezirovanie-tcentralnykh-reztcov-biugelnym-protezom.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2011/11/protezirovanie-tcentralnykh-reztcov-biugelnym-protezom.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2011/11/protezirovanie-zubov-kultevymi-vkladkami.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2011/11/protezirovanie-zubov-kultevymi-vkladkami.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2011/11/ustanovka-koronok-pri-adentii-verkhney-chelyusti.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2011/11/ustanovka-koronok-pri-adentii-verkhney-chelyusti.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2011/11/ustanovka-protezov-s-teleskopicheskimi-koronkami.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2011/11/ustanovka-protezov-s-teleskopicheskimi-koronkami.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2011/12/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2011/12/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2011/12/lechenie-retcidivnogo-kariesa-pod-plomboi.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2011/12/lechenie-retcidivnogo-kariesa-pod-plomboi.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2011/12/ustranenie-skola-na-perednem-zube.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2011/12/ustranenie-skola-na-perednem-zube.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2011/12/vosstanovlenie-verkhnego-zubnogo-riada-metallokeramikoi.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2011/12/vosstanovlenie-verkhnego-zubnogo-riada-metallokeramikoi.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2011/12/zamena-defektnoi-zubnoi-plomby-na-reztce.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2011/12/zamena-defektnoi-zubnoi-plomby-na-reztce.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2012/01/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2012/01/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2012/01/restavratciia-plomboi-skolotykh-perednikh-zubov.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2012/01/restavratciia-plomboi-skolotykh-perednikh-zubov.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2012/01/restavratciia-rezhushchego-kraia-perednikh-zubov.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2012/01/restavratciia-rezhushchego-kraia-perednikh-zubov.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2012/02/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2012/02/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-kariesa-kornia-zuba.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-kariesa-kornia-zuba.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-kariesa-v-oblasti-sheiki-zuba.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-kariesa-v-oblasti-sheiki-zuba.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-kariesa-verkhnego-bokovogo-reztca.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-kariesa-verkhnego-bokovogo-reztca.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-kariesa-zhevatelnogo-zuba-na-verkhnei-cheliusti.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-kariesa-zhevatelnogo-zuba-na-verkhnei-cheliusti.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-khronicheskogo-fibroznogo-periodontita.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-khronicheskogo-fibroznogo-periodontita.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-parodontita-v-khronicheskoi-forme.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-parodontita-v-khronicheskoi-forme.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-vtorichnogo-kariesa-zuba.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-vtorichnogo-kariesa-zuba.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-zuba-razrushennogo-kariesom.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-zuba-razrushennogo-kariesom.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2012/02/plombirovanie-glubokoi-karioznoi-polosti-moliara.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2012/02/plombirovanie-glubokoi-karioznoi-polosti-moliara.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2012/02/restavratciia-razrushennykh-zubov-plombirovochnym-materialom.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2012/02/restavratciia-razrushennykh-zubov-plombirovochnym-materialom.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2012/02/shinirovanie-zubov-pri-khronicheskom-parodontite.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2012/02/shinirovanie-zubov-pri-khronicheskom-parodontite.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2012/03/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2012/03/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2012/03/lechenie-adentii-nizhnei-cheliusti-zubnymi-implantami.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2012/03/lechenie-adentii-nizhnei-cheliusti-zubnymi-implantami.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2012/03/lechenie-ostrogo-glubokogo-kariesa.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2012/03/lechenie-ostrogo-glubokogo-kariesa.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2012/03/restavratciia-tcentralnogo-reztca-so-skolom.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2012/03/restavratciia-tcentralnogo-reztca-so-skolom.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2012/10/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2012/10/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2012/10/ustanovka-vinirov-na-zuby-s-fliuorozom.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2012/10/ustanovka-vinirov-na-zuby-s-fliuorozom.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2012/11/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2012/11/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2012/11/plombirovanie-zhevatelnogo-zuba-pri-lechenii-kariesa.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2012/11/plombirovanie-zhevatelnogo-zuba-pri-lechenii-kariesa.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2012/12/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2012/12/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2012/12/lechenie-anomalii-prikusa-breketami.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2012/12/lechenie-anomalii-prikusa-breketami.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2013/01/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2013/01/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2013/01/ispravlenie-prikusa-breketam-damon-q-i-damon-clear.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2013/01/ispravlenie-prikusa-breketam-damon-q-i-damon-clear.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2013/01/ispravlenie-skuchennosti-zubov-breketami.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2013/01/ispravlenie-skuchennosti-zubov-breketami.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2013/01/protezirovanie-verkhnei-i-nizhnei-cheliustei-zubnymi-implantami.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2013/01/protezirovanie-verkhnei-i-nizhnei-cheliustei-zubnymi-implantami.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2013/02/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2013/02/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2013/02/balochnoe-protezirovanie-na-implantakh-pri-chastichnoi-adentii.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2013/02/balochnoe-protezirovanie-na-implantakh-pri-chastichnoi-adentii.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2013/02/protezirovanie-verkhnego-zubnogo-riada-teleskopicheskimi-koronkami.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2013/02/protezirovanie-verkhnego-zubnogo-riada-teleskopicheskimi-koronkami.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2013/03/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2013/03/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2013/03/restavratciia-skola-perednego-zuba.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2013/03/restavratciia-skola-perednego-zuba.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2013/04/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2013/04/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2013/04/protezirovanie-15-go-zuba-koronkoi-iz-dioksida-tcirkoniia.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2013/04/protezirovanie-15-go-zuba-koronkoi-iz-dioksida-tcirkoniia.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2013/04/vosstanovlenie-perednikh-zubov-tcirkonievymi-koronkami.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2013/04/vosstanovlenie-perednikh-zubov-tcirkonievymi-koronkami.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2013/05/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2013/05/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2013/05/pereplombirovka-kanalov-zuba-posle-nekachestvennogo-lecheniia.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2013/05/pereplombirovka-kanalov-zuba-posle-nekachestvennogo-lecheniia.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2013/06/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2013/06/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2013/06/kombinirovannoe-protezirovanie-pri-chastichnoi-adentii-cheliustei.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2013/06/kombinirovannoe-protezirovanie-pri-chastichnoi-adentii-cheliustei.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2013/06/lechenie-diastemy-keramicheskoi-breket-sistemoi.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2013/06/lechenie-diastemy-keramicheskoi-breket-sistemoi.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2013/06/protezirovanie-nesemnymi-protezami-pri-polnoi-potere-zubov.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2013/06/protezirovanie-nesemnymi-protezami-pri-polnoi-potere-zubov.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2013/06/protezirovanie-zubov-frontalnoi-gruppy-metallokeramikoi.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2013/06/protezirovanie-zubov-frontalnoi-gruppy-metallokeramikoi.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2013/06/restavratciia-zuba-plombirovochnym-materialom-estelite.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2013/06/restavratciia-zuba-plombirovochnym-materialom-estelite.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2013/06/ustanovka-biugelnogo-proteza-na-verkhniuiu-cheliust.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2013/06/ustanovka-biugelnogo-proteza-na-verkhniuiu-cheliust.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2013/06/ustanovka-semnykh-zubnykh-protezov-pri-adentii.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2013/06/ustanovka-semnykh-zubnykh-protezov-pri-adentii.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2013/07/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2013/07/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2013/07/lechenie-kariesa-molochnogo-zuba-posle-udaleniia-sosednego.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2013/07/lechenie-kariesa-molochnogo-zuba-posle-udaleniia-sosednego.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2013/07/osvetlenie-zubnoi-emali-po-tekhnologii-klox.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2013/07/osvetlenie-zubnoi-emali-po-tekhnologii-klox.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2013/07/ustranenie-diskolorita-zubov-metodom-zoom.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2013/07/ustranenie-diskolorita-zubov-metodom-zoom.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2013/07/ustranenie-diskolorita-zubov-sistemoi-klox.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2013/07/ustranenie-diskolorita-zubov-sistemoi-klox.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2013/08/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2013/08/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2013/08/ustanovka-polnykh-semnykh-plastinochnykh-protezov.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2013/08/ustanovka-polnykh-semnykh-plastinochnykh-protezov.html",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2013/10/",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2013/10/",
+      "error": null
+    },
+    {
+      "requested": "https://vse-svoi.ru/do-i-posle/2013/10/esteticheskaia-restavratciia-verkhnego-i-nizhnego-zubnykh-riadov.html",
+      "status": 200,
+      "final_url": "https://vse-svoi.ru/do-i-posle/2013/10/esteticheskaia-restavratciia-verkhnego-i-nizhnego-zubnykh-riadov.html",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://vse-svoi.ru/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/nn/legal_entity/",
+      "form_id": "site-form banner-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form banner-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi"
+    },
+    {
+      "page": "https://vse-svoi.ru/nn/legal_entity/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/spb/legal_entity/",
+      "form_id": "site-form banner-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form banner-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi"
+    },
+    {
+      "page": "https://vse-svoi.ru/spb/legal_entity/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/vopros-otvet/2014/10/gde-priobresti-skidochnyy-kupon.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/vopros-otvet/2015/06/dochke-1-10-mes-karies-molochnykh-zubov.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/vopros-otvet/2015/07/docheri-14-let-mozhno-sdelat-snimok-odnogo-zuba.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/vopros-otvet/2015/10/docheri-15-let-neobkhodimo-ispravlenie-prikusa-mogu-ya-vospolzovatsya-vashey-klinikoy.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/vopros-otvet/2016/06/kak-mozhno-poluchit-vashu-skidochnuyu-kartu.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2006/01/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2006/01/kholodnoe-otbelivanie-zubov-apparatnym-sposobom-beyond.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2006/01/otbelivanie-zubov-apparatnym-sposobom-beyond-polus.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2006/04/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2006/04/otbelivanie-zubov-lampoi-kholodnogo-sveta-bend.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2006/07/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2006/07/kholodnoe-otbelivanie-zubov-beyond-polus.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2006/09/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2006/09/ofisnoe-otbelivanie-zubov-beyond-polus.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2006/12/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2006/12/kholodnoe-otbelivanie-zubov-professionalnoi-sistemoi-beyond.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2007/02/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2007/02/ustranenie-shcheli-mezhdu-tcentralnymi-reztcami.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2007/09/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2007/09/khudozhestvennaia-restavratciia-perednego-zuba.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2009/07/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2009/07/vosstanovlenie-tcentralnogo-reztca-plomboi.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2009/08/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2009/08/protezirovanie-frontalnykh-zubov-metallokeramicheskimi-koronkami.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2009/10/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2009/10/korrektciia-zubnykh-defektov-v-zone-ulybki-vinirami.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2010/03/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2010/03/nesemnoe-protezirovanie-zubnymi-koronkami-moliarov-i-premoliarov.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2010/03/vosstanovlenie-otsutstvuiushchikh-zubov-koronkami.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2010/09/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2010/09/restavratciia-zuba-razrushennogo-bolee-chem-na-50.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2010/12/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2010/12/ustanovka-vinirov-pri-fliuoroze.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/01/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/01/korrektciia-defektov-zubnoi-emali-vinirami.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/02/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/02/nesemnoe-protezirovanie-premoliarov-i-moliarov.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/02/vosstanovlenie-premoliarov-na-verkhnei-cheliusti.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/03/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/03/protezirovanie-zhevatelnykh-zubov-metallokeramicheskimi-koronkami.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/05/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/05/lechenie-kariesa-mezhdu-zubami.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/11/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/11/esteticheskaia-restavratciia-tcentralnykh-reztcov.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/11/lechenie-zuba-s-glubokim-kariesom.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/11/nesemnoe-protezirovanie-verkhnei-cheliusti-metallokeramikoi.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/11/nesemnoe-protezirovanie-zubnymi-koronkami-na-implantakh.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/11/protezirovanie-tcentralnykh-reztcov-biugelnym-protezom.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/11/protezirovanie-zubov-kultevymi-vkladkami.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/11/ustanovka-koronok-pri-adentii-verkhney-chelyusti.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/11/ustanovka-protezov-s-teleskopicheskimi-koronkami.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/12/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/12/lechenie-retcidivnogo-kariesa-pod-plomboi.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/12/ustranenie-skola-na-perednem-zube.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/12/vosstanovlenie-verkhnego-zubnogo-riada-metallokeramikoi.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/12/zamena-defektnoi-zubnoi-plomby-na-reztce.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/01/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/01/restavratciia-plomboi-skolotykh-perednikh-zubov.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/01/restavratciia-rezhushchego-kraia-perednikh-zubov.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-kariesa-kornia-zuba.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-kariesa-v-oblasti-sheiki-zuba.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-kariesa-verkhnego-bokovogo-reztca.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-kariesa-zhevatelnogo-zuba-na-verkhnei-cheliusti.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-khronicheskogo-fibroznogo-periodontita.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-parodontita-v-khronicheskoi-forme.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-vtorichnogo-kariesa-zuba.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-zuba-razrushennogo-kariesom.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/plombirovanie-glubokoi-karioznoi-polosti-moliara.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/restavratciia-razrushennykh-zubov-plombirovochnym-materialom.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/shinirovanie-zubov-pri-khronicheskom-parodontite.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/03/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/03/lechenie-adentii-nizhnei-cheliusti-zubnymi-implantami.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/03/lechenie-ostrogo-glubokogo-kariesa.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/03/restavratciia-tcentralnogo-reztca-so-skolom.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/10/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/10/ustanovka-vinirov-na-zuby-s-fliuorozom.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/11/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/11/plombirovanie-zhevatelnogo-zuba-pri-lechenii-kariesa.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/12/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/12/lechenie-anomalii-prikusa-breketami.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/01/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/01/ispravlenie-prikusa-breketam-damon-q-i-damon-clear.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/01/ispravlenie-skuchennosti-zubov-breketami.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/01/protezirovanie-verkhnei-i-nizhnei-cheliustei-zubnymi-implantami.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/02/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/02/balochnoe-protezirovanie-na-implantakh-pri-chastichnoi-adentii.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/02/protezirovanie-verkhnego-zubnogo-riada-teleskopicheskimi-koronkami.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/03/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/03/restavratciia-skola-perednego-zuba.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/04/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/04/protezirovanie-15-go-zuba-koronkoi-iz-dioksida-tcirkoniia.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/04/vosstanovlenie-perednikh-zubov-tcirkonievymi-koronkami.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/05/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/05/pereplombirovka-kanalov-zuba-posle-nekachestvennogo-lecheniia.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/06/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/06/kombinirovannoe-protezirovanie-pri-chastichnoi-adentii-cheliustei.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/06/lechenie-diastemy-keramicheskoi-breket-sistemoi.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/06/protezirovanie-nesemnymi-protezami-pri-polnoi-potere-zubov.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/06/protezirovanie-zubov-frontalnoi-gruppy-metallokeramikoi.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/06/restavratciia-zuba-plombirovochnym-materialom-estelite.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/06/ustanovka-biugelnogo-proteza-na-verkhniuiu-cheliust.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/06/ustanovka-semnykh-zubnykh-protezov-pri-adentii.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/07/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/07/lechenie-kariesa-molochnogo-zuba-posle-udaleniia-sosednego.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/07/osvetlenie-zubnoi-emali-po-tekhnologii-klox.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/07/ustranenie-diskolorita-zubov-metodom-zoom.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/07/ustranenie-diskolorita-zubov-sistemoi-klox.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/08/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/08/ustanovka-polnykh-semnykh-plastinochnykh-protezov.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/10/",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/10/esteticheskaia-restavratciia-verkhnego-i-nizhnego-zubnykh-riadov.html",
+      "form_id": "site-form calc-right-form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form method=\"post\" class=\"site-form calc-right-form\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" />",
+      "policy_poc": "<div class=\"conf\"> <input class=\"verified checkbox_policy\" type=\"checkbox\" checked name=\"privacy_policy\" style=\"width: auto; display: none;\" /> , <a class=\"policy\" target=\"_blank\" href=\"/dokumenty/politika_konfidentsialnosti_vse_svoi.p"
+    }
+  ],
+  "emails": [
+    "P@o.HzRHV"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://vse-svoi.ru/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/msk/booking/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "href": "https://vse-svoi.ru/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "policy path"
+    },
+    {
+      "page": "https://vse-svoi.ru/nn/legal_entity/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/nn/legal_entity/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/spb/legal_entity/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/spb/legal_entity/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/vopros-otvet/2014/10/gde-priobresti-skidochnyy-kupon.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/vopros-otvet/2014/10/gde-priobresti-skidochnyy-kupon.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/vopros-otvet/2015/06/dochke-1-10-mes-karies-molochnykh-zubov.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/vopros-otvet/2015/06/dochke-1-10-mes-karies-molochnykh-zubov.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/vopros-otvet/2015/07/docheri-14-let-mozhno-sdelat-snimok-odnogo-zuba.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/vopros-otvet/2015/07/docheri-14-let-mozhno-sdelat-snimok-odnogo-zuba.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/vopros-otvet/2015/10/docheri-15-let-neobkhodimo-ispravlenie-prikusa-mogu-ya-vospolzovatsya-vashey-klinikoy.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/vopros-otvet/2015/10/docheri-15-let-neobkhodimo-ispravlenie-prikusa-mogu-ya-vospolzovatsya-vashey-klinikoy.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/vopros-otvet/2016/06/kak-mozhno-poluchit-vashu-skidochnuyu-kartu.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/vopros-otvet/2016/06/kak-mozhno-poluchit-vashu-skidochnuyu-kartu.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2006/01/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2006/01/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2006/01/kholodnoe-otbelivanie-zubov-apparatnym-sposobom-beyond.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2006/01/kholodnoe-otbelivanie-zubov-apparatnym-sposobom-beyond.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2006/01/otbelivanie-zubov-apparatnym-sposobom-beyond-polus.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2006/01/otbelivanie-zubov-apparatnym-sposobom-beyond-polus.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2006/04/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2006/04/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2006/04/otbelivanie-zubov-lampoi-kholodnogo-sveta-bend.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2006/04/otbelivanie-zubov-lampoi-kholodnogo-sveta-bend.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2006/07/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2006/07/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2006/07/kholodnoe-otbelivanie-zubov-beyond-polus.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2006/07/kholodnoe-otbelivanie-zubov-beyond-polus.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2006/09/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2006/09/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2006/09/ofisnoe-otbelivanie-zubov-beyond-polus.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2006/09/ofisnoe-otbelivanie-zubov-beyond-polus.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2006/12/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2006/12/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2006/12/kholodnoe-otbelivanie-zubov-professionalnoi-sistemoi-beyond.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2006/12/kholodnoe-otbelivanie-zubov-professionalnoi-sistemoi-beyond.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2007/02/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2007/02/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2007/02/ustranenie-shcheli-mezhdu-tcentralnymi-reztcami.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2007/02/ustranenie-shcheli-mezhdu-tcentralnymi-reztcami.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2007/09/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2007/09/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2007/09/khudozhestvennaia-restavratciia-perednego-zuba.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2007/09/khudozhestvennaia-restavratciia-perednego-zuba.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2009/07/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2009/07/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2009/07/vosstanovlenie-tcentralnogo-reztca-plomboi.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2009/07/vosstanovlenie-tcentralnogo-reztca-plomboi.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2009/08/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2009/08/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2009/08/protezirovanie-frontalnykh-zubov-metallokeramicheskimi-koronkami.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2009/08/protezirovanie-frontalnykh-zubov-metallokeramicheskimi-koronkami.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2009/10/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2009/10/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2009/10/korrektciia-zubnykh-defektov-v-zone-ulybki-vinirami.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2009/10/korrektciia-zubnykh-defektov-v-zone-ulybki-vinirami.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2010/03/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2010/03/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2010/03/nesemnoe-protezirovanie-zubnymi-koronkami-moliarov-i-premoliarov.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2010/03/nesemnoe-protezirovanie-zubnymi-koronkami-moliarov-i-premoliarov.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2010/03/vosstanovlenie-otsutstvuiushchikh-zubov-koronkami.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2010/03/vosstanovlenie-otsutstvuiushchikh-zubov-koronkami.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2010/09/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2010/09/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2010/09/restavratciia-zuba-razrushennogo-bolee-chem-na-50.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2010/09/restavratciia-zuba-razrushennogo-bolee-chem-na-50.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2010/12/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2010/12/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2010/12/ustanovka-vinirov-pri-fliuoroze.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2010/12/ustanovka-vinirov-pri-fliuoroze.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/01/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/01/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/01/korrektciia-defektov-zubnoi-emali-vinirami.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/01/korrektciia-defektov-zubnoi-emali-vinirami.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/02/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/02/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/02/nesemnoe-protezirovanie-premoliarov-i-moliarov.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/02/nesemnoe-protezirovanie-premoliarov-i-moliarov.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/02/vosstanovlenie-premoliarov-na-verkhnei-cheliusti.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/02/vosstanovlenie-premoliarov-na-verkhnei-cheliusti.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/03/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/03/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/03/protezirovanie-zhevatelnykh-zubov-metallokeramicheskimi-koronkami.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/03/protezirovanie-zhevatelnykh-zubov-metallokeramicheskimi-koronkami.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/05/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/05/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/05/lechenie-kariesa-mezhdu-zubami.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/05/lechenie-kariesa-mezhdu-zubami.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/11/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/11/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/11/esteticheskaia-restavratciia-tcentralnykh-reztcov.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/11/esteticheskaia-restavratciia-tcentralnykh-reztcov.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/11/lechenie-zuba-s-glubokim-kariesom.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/11/lechenie-zuba-s-glubokim-kariesom.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/11/nesemnoe-protezirovanie-verkhnei-cheliusti-metallokeramikoi.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/11/nesemnoe-protezirovanie-verkhnei-cheliusti-metallokeramikoi.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/11/nesemnoe-protezirovanie-zubnymi-koronkami-na-implantakh.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/11/nesemnoe-protezirovanie-zubnymi-koronkami-na-implantakh.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/11/protezirovanie-tcentralnykh-reztcov-biugelnym-protezom.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/11/protezirovanie-tcentralnykh-reztcov-biugelnym-protezom.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/11/protezirovanie-zubov-kultevymi-vkladkami.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/11/protezirovanie-zubov-kultevymi-vkladkami.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/11/ustanovka-koronok-pri-adentii-verkhney-chelyusti.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/11/ustanovka-koronok-pri-adentii-verkhney-chelyusti.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/11/ustanovka-protezov-s-teleskopicheskimi-koronkami.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/11/ustanovka-protezov-s-teleskopicheskimi-koronkami.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/12/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/12/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/12/lechenie-retcidivnogo-kariesa-pod-plomboi.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/12/lechenie-retcidivnogo-kariesa-pod-plomboi.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/12/ustranenie-skola-na-perednem-zube.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/12/ustranenie-skola-na-perednem-zube.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/12/vosstanovlenie-verkhnego-zubnogo-riada-metallokeramikoi.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/12/vosstanovlenie-verkhnego-zubnogo-riada-metallokeramikoi.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/12/zamena-defektnoi-zubnoi-plomby-na-reztce.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2011/12/zamena-defektnoi-zubnoi-plomby-na-reztce.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/01/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/01/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/01/restavratciia-plomboi-skolotykh-perednikh-zubov.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/01/restavratciia-plomboi-skolotykh-perednikh-zubov.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/01/restavratciia-rezhushchego-kraia-perednikh-zubov.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/01/restavratciia-rezhushchego-kraia-perednikh-zubov.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-kariesa-kornia-zuba.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-kariesa-kornia-zuba.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-kariesa-v-oblasti-sheiki-zuba.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-kariesa-v-oblasti-sheiki-zuba.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-kariesa-verkhnego-bokovogo-reztca.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-kariesa-verkhnego-bokovogo-reztca.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-kariesa-zhevatelnogo-zuba-na-verkhnei-cheliusti.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-kariesa-zhevatelnogo-zuba-na-verkhnei-cheliusti.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-khronicheskogo-fibroznogo-periodontita.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-khronicheskogo-fibroznogo-periodontita.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-parodontita-v-khronicheskoi-forme.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-parodontita-v-khronicheskoi-forme.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-vtorichnogo-kariesa-zuba.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-vtorichnogo-kariesa-zuba.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-zuba-razrushennogo-kariesom.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-zuba-razrushennogo-kariesom.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/plombirovanie-glubokoi-karioznoi-polosti-moliara.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/plombirovanie-glubokoi-karioznoi-polosti-moliara.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/restavratciia-razrushennykh-zubov-plombirovochnym-materialom.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/restavratciia-razrushennykh-zubov-plombirovochnym-materialom.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/shinirovanie-zubov-pri-khronicheskom-parodontite.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/02/shinirovanie-zubov-pri-khronicheskom-parodontite.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/03/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/03/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/03/lechenie-adentii-nizhnei-cheliusti-zubnymi-implantami.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/03/lechenie-adentii-nizhnei-cheliusti-zubnymi-implantami.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/03/lechenie-ostrogo-glubokogo-kariesa.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/03/lechenie-ostrogo-glubokogo-kariesa.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/03/restavratciia-tcentralnogo-reztca-so-skolom.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/03/restavratciia-tcentralnogo-reztca-so-skolom.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/10/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/10/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/10/ustanovka-vinirov-na-zuby-s-fliuorozom.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/10/ustanovka-vinirov-na-zuby-s-fliuorozom.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/11/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/11/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/11/plombirovanie-zhevatelnogo-zuba-pri-lechenii-kariesa.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/11/plombirovanie-zhevatelnogo-zuba-pri-lechenii-kariesa.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/12/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/12/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/12/lechenie-anomalii-prikusa-breketami.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2012/12/lechenie-anomalii-prikusa-breketami.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/01/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/01/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/01/ispravlenie-prikusa-breketam-damon-q-i-damon-clear.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/01/ispravlenie-prikusa-breketam-damon-q-i-damon-clear.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/01/ispravlenie-skuchennosti-zubov-breketami.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/01/ispravlenie-skuchennosti-zubov-breketami.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/01/protezirovanie-verkhnei-i-nizhnei-cheliustei-zubnymi-implantami.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/01/protezirovanie-verkhnei-i-nizhnei-cheliustei-zubnymi-implantami.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/02/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/02/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/02/balochnoe-protezirovanie-na-implantakh-pri-chastichnoi-adentii.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/02/balochnoe-protezirovanie-na-implantakh-pri-chastichnoi-adentii.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/02/protezirovanie-verkhnego-zubnogo-riada-teleskopicheskimi-koronkami.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/02/protezirovanie-verkhnego-zubnogo-riada-teleskopicheskimi-koronkami.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/03/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/03/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/03/restavratciia-skola-perednego-zuba.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/03/restavratciia-skola-perednego-zuba.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/04/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/04/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/04/protezirovanie-15-go-zuba-koronkoi-iz-dioksida-tcirkoniia.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/04/protezirovanie-15-go-zuba-koronkoi-iz-dioksida-tcirkoniia.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/04/vosstanovlenie-perednikh-zubov-tcirkonievymi-koronkami.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/04/vosstanovlenie-perednikh-zubov-tcirkonievymi-koronkami.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/05/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/05/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/05/pereplombirovka-kanalov-zuba-posle-nekachestvennogo-lecheniia.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/05/pereplombirovka-kanalov-zuba-posle-nekachestvennogo-lecheniia.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/06/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/06/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/06/kombinirovannoe-protezirovanie-pri-chastichnoi-adentii-cheliustei.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/06/kombinirovannoe-protezirovanie-pri-chastichnoi-adentii-cheliustei.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/06/lechenie-diastemy-keramicheskoi-breket-sistemoi.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/06/lechenie-diastemy-keramicheskoi-breket-sistemoi.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/06/protezirovanie-nesemnymi-protezami-pri-polnoi-potere-zubov.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/06/protezirovanie-nesemnymi-protezami-pri-polnoi-potere-zubov.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/06/protezirovanie-zubov-frontalnoi-gruppy-metallokeramikoi.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/06/protezirovanie-zubov-frontalnoi-gruppy-metallokeramikoi.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/06/restavratciia-zuba-plombirovochnym-materialom-estelite.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/06/restavratciia-zuba-plombirovochnym-materialom-estelite.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/06/ustanovka-biugelnogo-proteza-na-verkhniuiu-cheliust.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/06/ustanovka-biugelnogo-proteza-na-verkhniuiu-cheliust.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/06/ustanovka-semnykh-zubnykh-protezov-pri-adentii.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/06/ustanovka-semnykh-zubnykh-protezov-pri-adentii.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/07/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/07/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/07/lechenie-kariesa-molochnogo-zuba-posle-udaleniia-sosednego.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/07/lechenie-kariesa-molochnogo-zuba-posle-udaleniia-sosednego.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/07/osvetlenie-zubnoi-emali-po-tekhnologii-klox.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/07/osvetlenie-zubnoi-emali-po-tekhnologii-klox.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/07/ustranenie-diskolorita-zubov-metodom-zoom.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/07/ustranenie-diskolorita-zubov-metodom-zoom.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/07/ustranenie-diskolorita-zubov-sistemoi-klox.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/07/ustranenie-diskolorita-zubov-sistemoi-klox.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/08/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/08/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/08/ustanovka-polnykh-semnykh-plastinochnykh-protezov.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/08/ustanovka-polnykh-semnykh-plastinochnykh-protezov.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/10/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/10/",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/10/esteticheskaia-restavratciia-verkhnego-i-nizhnego-zubnykh-riadov.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": "."
+    },
+    {
+      "page": "https://vse-svoi.ru/do-i-posle/2013/10/esteticheskaia-restavratciia-verkhnego-i-nizhnego-zubnykh-riadov.html",
+      "href": "/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "text": ""
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://vse-svoi.ru/contact",
+      "https://vse-svoi.ru/contacts",
+      "https://vse-svoi.ru/kontakty"
+    ],
+    "booking_urls": [
+      "https://vse-svoi.ru/msk/booking/"
+    ],
+    "legal_urls": [
+      "https://vse-svoi.ru/dokumenty/dogovor_stomat_uslugi.docx",
+      "https://vse-svoi.ru/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf",
+      "https://vse-svoi.ru/msk/legal_entity/",
+      "https://vse-svoi.ru/nn/legal_entity/",
+      "https://vse-svoi.ru/politika",
+      "https://vse-svoi.ru/spb/legal_entity/",
+      "https://vse-svoi.ru/upload/iblock/8d2/%D0%94%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%20%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D1%8F%20%D1%81%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%85%20%D1%83%D1%81%D0%BB%D1%83%D0%B3.docx",
+      "https://vse-svoi.ru/vopros-otvet/2014/10/gde-priobresti-skidochnyy-kupon.html",
+      "https://vse-svoi.ru/vopros-otvet/2015/06/dochke-1-10-mes-karies-molochnykh-zubov.html",
+      "https://vse-svoi.ru/vopros-otvet/2015/07/docheri-14-let-mozhno-sdelat-snimok-odnogo-zuba.html",
+      "https://vse-svoi.ru/vopros-otvet/2015/10/docheri-15-let-neobkhodimo-ispravlenie-prikusa-mogu-ya-vospolzovatsya-vashey-klinikoy.html",
+      "https://vse-svoi.ru/vopros-otvet/2016/06/kak-mozhno-poluchit-vashu-skidochnuyu-kartu.html"
+    ],
+    "sources": {
+      "https://vse-svoi.ru/": "sitemap-form",
+      "https://vse-svoi.ru/contact": "fallback",
+      "https://vse-svoi.ru/contacts": "fallback",
+      "https://vse-svoi.ru/do-i-posle/": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2006/01/": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2006/01/kholodnoe-otbelivanie-zubov-apparatnym-sposobom-beyond.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2006/01/otbelivanie-zubov-apparatnym-sposobom-beyond-polus.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2006/04/": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2006/04/otbelivanie-zubov-lampoi-kholodnogo-sveta-bend.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2006/07/": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2006/07/kholodnoe-otbelivanie-zubov-beyond-polus.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2006/09/": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2006/09/ofisnoe-otbelivanie-zubov-beyond-polus.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2006/12/": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2006/12/kholodnoe-otbelivanie-zubov-professionalnoi-sistemoi-beyond.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2007/02/": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2007/02/ustranenie-shcheli-mezhdu-tcentralnymi-reztcami.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2007/09/": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2007/09/khudozhestvennaia-restavratciia-perednego-zuba.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2009/07/": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2009/07/vosstanovlenie-tcentralnogo-reztca-plomboi.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2009/08/": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2009/08/protezirovanie-frontalnykh-zubov-metallokeramicheskimi-koronkami.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2009/10/": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2009/10/korrektciia-zubnykh-defektov-v-zone-ulybki-vinirami.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2010/03/": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2010/03/nesemnoe-protezirovanie-zubnymi-koronkami-moliarov-i-premoliarov.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2010/03/vosstanovlenie-otsutstvuiushchikh-zubov-koronkami.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2010/09/": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2010/09/restavratciia-zuba-razrushennogo-bolee-chem-na-50.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2010/12/": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2010/12/ustanovka-vinirov-pri-fliuoroze.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2011/01/": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2011/01/korrektciia-defektov-zubnoi-emali-vinirami.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2011/02/": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2011/02/nesemnoe-protezirovanie-premoliarov-i-moliarov.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2011/02/vosstanovlenie-premoliarov-na-verkhnei-cheliusti.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2011/03/": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2011/03/protezirovanie-zhevatelnykh-zubov-metallokeramicheskimi-koronkami.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2011/05/": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2011/05/lechenie-kariesa-mezhdu-zubami.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2011/11/": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2011/11/esteticheskaia-restavratciia-tcentralnykh-reztcov.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2011/11/lechenie-zuba-s-glubokim-kariesom.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2011/11/nesemnoe-protezirovanie-verkhnei-cheliusti-metallokeramikoi.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2011/11/nesemnoe-protezirovanie-zubnymi-koronkami-na-implantakh.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2011/11/protezirovanie-tcentralnykh-reztcov-biugelnym-protezom.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2011/11/protezirovanie-zubov-kultevymi-vkladkami.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2011/11/ustanovka-koronok-pri-adentii-verkhney-chelyusti.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2011/11/ustanovka-protezov-s-teleskopicheskimi-koronkami.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2011/12/": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2011/12/lechenie-retcidivnogo-kariesa-pod-plomboi.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2011/12/ustranenie-skola-na-perednem-zube.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2011/12/vosstanovlenie-verkhnego-zubnogo-riada-metallokeramikoi.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2011/12/zamena-defektnoi-zubnoi-plomby-na-reztce.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2012/01/": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2012/01/restavratciia-plomboi-skolotykh-perednikh-zubov.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2012/01/restavratciia-rezhushchego-kraia-perednikh-zubov.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2012/02/": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-kariesa-kornia-zuba.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-kariesa-v-oblasti-sheiki-zuba.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-kariesa-verkhnego-bokovogo-reztca.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-kariesa-zhevatelnogo-zuba-na-verkhnei-cheliusti.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-khronicheskogo-fibroznogo-periodontita.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-parodontita-v-khronicheskoi-forme.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-vtorichnogo-kariesa-zuba.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2012/02/lechenie-zuba-razrushennogo-kariesom.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2012/02/plombirovanie-glubokoi-karioznoi-polosti-moliara.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2012/02/restavratciia-razrushennykh-zubov-plombirovochnym-materialom.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2012/02/shinirovanie-zubov-pri-khronicheskom-parodontite.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2012/03/": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2012/03/lechenie-adentii-nizhnei-cheliusti-zubnymi-implantami.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2012/03/lechenie-ostrogo-glubokogo-kariesa.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2012/03/restavratciia-tcentralnogo-reztca-so-skolom.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2012/10/": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2012/10/ustanovka-vinirov-na-zuby-s-fliuorozom.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2012/11/": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2012/11/plombirovanie-zhevatelnogo-zuba-pri-lechenii-kariesa.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2012/12/": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2012/12/lechenie-anomalii-prikusa-breketami.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2013/01/": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2013/01/ispravlenie-prikusa-breketam-damon-q-i-damon-clear.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2013/01/ispravlenie-skuchennosti-zubov-breketami.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2013/01/protezirovanie-verkhnei-i-nizhnei-cheliustei-zubnymi-implantami.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2013/02/": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2013/02/balochnoe-protezirovanie-na-implantakh-pri-chastichnoi-adentii.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2013/02/protezirovanie-verkhnego-zubnogo-riada-teleskopicheskimi-koronkami.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2013/03/": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2013/03/restavratciia-skola-perednego-zuba.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2013/04/": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2013/04/protezirovanie-15-go-zuba-koronkoi-iz-dioksida-tcirkoniia.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2013/04/vosstanovlenie-perednikh-zubov-tcirkonievymi-koronkami.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2013/05/": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2013/05/pereplombirovka-kanalov-zuba-posle-nekachestvennogo-lecheniia.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2013/06/": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2013/06/kombinirovannoe-protezirovanie-pri-chastichnoi-adentii-cheliustei.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2013/06/lechenie-diastemy-keramicheskoi-breket-sistemoi.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2013/06/protezirovanie-nesemnymi-protezami-pri-polnoi-potere-zubov.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2013/06/protezirovanie-zubov-frontalnoi-gruppy-metallokeramikoi.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2013/06/restavratciia-zuba-plombirovochnym-materialom-estelite.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2013/06/ustanovka-biugelnogo-proteza-na-verkhniuiu-cheliust.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2013/06/ustanovka-semnykh-zubnykh-protezov-pri-adentii.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2013/07/": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2013/07/lechenie-kariesa-molochnogo-zuba-posle-udaleniia-sosednego.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2013/07/osvetlenie-zubnoi-emali-po-tekhnologii-klox.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2013/07/ustranenie-diskolorita-zubov-metodom-zoom.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2013/07/ustranenie-diskolorita-zubov-sistemoi-klox.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2013/08/": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2013/08/ustanovka-polnykh-semnykh-plastinochnykh-protezov.html": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2013/10/": "sitemap-form",
+      "https://vse-svoi.ru/do-i-posle/2013/10/esteticheskaia-restavratciia-verkhnego-i-nizhnego-zubnykh-riadov.html": "sitemap-form",
+      "https://vse-svoi.ru/dokumenty/dogovor_stomat_uslugi.docx": "sitemap-legal",
+      "https://vse-svoi.ru/dokumenty/politika_konfidentsialnosti_vse_svoi.pdf": "sitemap-legal",
+      "https://vse-svoi.ru/kontakty": "fallback",
+      "https://vse-svoi.ru/msk/booking/": "navigation",
+      "https://vse-svoi.ru/msk/legal_entity/": "sitemap-legal",
+      "https://vse-svoi.ru/nn/legal_entity/": "sitemap-legal",
+      "https://vse-svoi.ru/politika": "policy-hint",
+      "https://vse-svoi.ru/spb/legal_entity/": "sitemap-legal",
+      "https://vse-svoi.ru/upload/iblock/8d2/%D0%94%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%20%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D1%8F%20%D1%81%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%85%20%D1%83%D1%81%D0%BB%D1%83%D0%B3.docx": "sitemap-legal",
+      "https://vse-svoi.ru/vopros-otvet/2014/10/gde-priobresti-skidochnyy-kupon.html": "sitemap-legal",
+      "https://vse-svoi.ru/vopros-otvet/2015/06/dochke-1-10-mes-karies-molochnykh-zubov.html": "sitemap-legal",
+      "https://vse-svoi.ru/vopros-otvet/2015/07/docheri-14-let-mozhno-sdelat-snimok-odnogo-zuba.html": "sitemap-legal",
+      "https://vse-svoi.ru/vopros-otvet/2015/10/docheri-15-let-neobkhodimo-ispravlenie-prikusa-mogu-ya-vospolzovatsya-vashey-klinikoy.html": "sitemap-legal",
+      "https://vse-svoi.ru/vopros-otvet/2016/06/kak-mozhno-poluchit-vashu-skidochnuyu-kartu.html": "sitemap-legal"
+    },
+    "fallback_used": {
+      "contact": true,
+      "booking": false
+    },
+    "sitemap_total_urls": 11467,
+    "sitemap_used_urls": 120
+  }
+}
