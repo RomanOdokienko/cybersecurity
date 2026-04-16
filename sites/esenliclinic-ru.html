@@ -51,6 +51,11 @@ li{margin:4px 0}
     </section>
     
     <section class="block">
+      <h2>Доп. страницы из sitemap (формы) <span class="badge ok">ок</span></h2>
+      <ul><li>https://esenliclinic.ru/document — 200 (sitemap: правовая/документная страница)</li><li>https://esenliclinic.ru/policy — 200 (sitemap: правовая/документная страница)</li></ul>
+    </section>
+    
+    <section class="block">
       <h2>Fallback-пробы URL <span class="badge warn">проверить</span></h2>
       <ul><li>https://esenliclinic.ru/appointment — 404 (fallback-путь) | HTTPError 404</li><li>https://esenliclinic.ru/booking — 404 (fallback-путь) | HTTPError 404</li><li>https://esenliclinic.ru/zapis — 404 (fallback-путь) | HTTPError 404</li></ul>
     </section>
@@ -71,18 +76,18 @@ li{margin:4px 0}
     </section>
     
     <section class="block">
-      <h2>SPF/DMARC <span class="badge warn">проверить</span></h2>
-      <ul><li>Email для проверки не найден (ни в манифесте, ни на страницах сайта).</li></ul>
+      <h2>SPF/DMARC <span class="badge na">н/п</span></h2>
+      <ul><li>Email: snlclinic@yandex.ru (найден на сайте)</li><li>Домен yandex.ru — сторонний почтовый сервис, не почтовый домен клиники.</li><li>Для этой проверки SPF/DMARC не оценивается.</li><li>Что проверить дальше: найти корпоративный email домена клиники и проверить SPF/DMARC уже для него.</li></ul>
     </section>
     
     <section class="block">
-      <h2>Meta / Instagram <span class="badge bad">проблема</span></h2>
-      <ul><li>whatsapp | https://esenliclinic.ru/ | видно пользователю | WhatsApp</li><li>wa.me | https://esenliclinic.ru/ | только в коде | href=&quot;https://wa.me/+79031038832?text=&quot;</li><li>whatsapp | https://esenliclinic.ru/ | только в коде | class=&quot;t-sociallinks__item t-sociallinks__item_whatsapp&quot;</li><li>whatsapp | https://esenliclinic.ru/#contact | видно пользователю | WhatsApp</li><li>wa.me | https://esenliclinic.ru/#contact | только в коде | href=&quot;https://wa.me/+79031038832?text=&quot;</li><li>whatsapp | https://esenliclinic.ru/#contact | только в коде | class=&quot;t-sociallinks__item t-sociallinks__item_whatsapp&quot;</li></ul>
+      <h2>Meta / Instagram <span class="badge ok">ок</span></h2>
+      <ul><li>Совпадений по списку meta/instagram/facebook/threads не найдено.</li></ul>
     </section>
     
     <section class="block">
-      <h2>Политика <span class="badge bad">проблема</span></h2>
-      <ul><li>Ссылка на политику не найдена.</li></ul>
+      <h2>Политика <span class="badge ok">ок</span></h2>
+      <ul><li>https://esenliclinic.ru/ -&gt; /policy (текст: \u043f\u043e\u043b\u0438\u0442\u0438\u043a\u043e\u0439 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0438 \u0434\u0430\u043d\u043d\u044b\u0445 &quot;,&quot;li_req&quot;:&quot;y&quot;,&quot;li_nm&quot;:&quot;Checkbox&quot;}])</li><li>https://esenliclinic.ru/#contact -&gt; /policy (текст: \u043f\u043e\u043b\u0438\u0442\u0438\u043a\u043e\u0439 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0438 \u0434\u0430\u043d\u043d\u044b\u0445 &quot;,&quot;li_req&quot;:&quot;y&quot;,&quot;li_nm&quot;:&quot;Checkbox&quot;}])</li><li>https://esenliclinic.ru/document -&gt; /policy (текст: Открыть документ)</li><li>https://esenliclinic.ru/policy -&gt; https://esenliclinic.ru/policy (текст: policy path)</li></ul>
     </section>
     
 

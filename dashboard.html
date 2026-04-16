@@ -38,23 +38,26 @@
     .clinic { font-weight:700; font-size:11px; overflow-wrap:anywhere; }
     .badge { display:inline-block; padding:3px 8px; border-radius:999px; border:1px solid transparent; font-size:11px; font-weight:700; line-height:1.2; white-space:nowrap; }
     .consent-badge { font-size:10px; padding:3px 7px; white-space:normal; line-height:1.15; max-width:100%; }
+    .comment-input { width:100%; min-width:0; border:1px solid #d8deeb; border-radius:8px; padding:5px 7px; font-size:11px; color:#2b3343; background:#fff; }
+    .comment-input:focus { outline:none; border-color:#8db5ff; box-shadow:0 0 0 2px rgba(141,181,255,.22); }
     .ok { background:var(--ok-bg); color:var(--ok-fg); border-color:#c8efd9; }
     .warn { background:var(--warn-bg); color:var(--warn-fg); border-color:#f0d889; }
     .bad { background:var(--bad-bg); color:var(--bad-fg); border-color:#f7c4c8; }
     .na { background:var(--na-bg); color:var(--na-fg); border-color:#dde2ea; }
     .notes { margin-top:10px; background:#fff; border:1px solid var(--line); border-radius:10px; padding:10px 12px; font-size:12px; color:#4e5565; line-height:1.35; }
     .row-id { color:#6a7385; font-weight:700; }
-    thead th:nth-child(1), tbody td:nth-child(1) { width:4%; }
-    thead th:nth-child(2), tbody td:nth-child(2) { width:14%; }
-    thead th:nth-child(3), tbody td:nth-child(3) { width:10%; }
-    thead th:nth-child(4), tbody td:nth-child(4) { width:14%; }
-    thead th:nth-child(5), tbody td:nth-child(5) { width:9%; }
-    thead th:nth-child(6), tbody td:nth-child(6) { width:8%; }
-    thead th:nth-child(7), tbody td:nth-child(7) { width:12%; }
+    thead th:nth-child(1), tbody td:nth-child(1) { width:2%; }
+    thead th:nth-child(2), tbody td:nth-child(2) { width:10%; }
+    thead th:nth-child(3), tbody td:nth-child(3) { width:8%; }
+    thead th:nth-child(4), tbody td:nth-child(4) { width:12%; }
+    thead th:nth-child(5), tbody td:nth-child(5) { width:8%; }
+    thead th:nth-child(6), tbody td:nth-child(6) { width:7%; }
+    thead th:nth-child(7), tbody td:nth-child(7) { width:11%; }
     thead th:nth-child(8), tbody td:nth-child(8) { width:8%; }
     thead th:nth-child(9), tbody td:nth-child(9) { width:9%; }
     thead th:nth-child(10), tbody td:nth-child(10) { width:6%; }
-    thead th:nth-child(11), tbody td:nth-child(11) { width:6%; }
+    thead th:nth-child(11), tbody td:nth-child(11) { width:5%; }
+    thead th:nth-child(12), tbody td:nth-child(12) { width:14%; }
   </style>
 </head>
 <body>
@@ -75,7 +78,7 @@
       <table>
         <thead>
           <tr>
-            <th>ID</th><th>Клиника</th><th>Сайт</th><th class="availability-col">Доступность сайта</th><th>Сертификат</th><th>Форма: HTTPS</th><th>Согласие</th><th>SPF / DMARC</th><th>Meta / Instagram</th><th>Политика</th><th>Итог</th>
+            <th>ID</th><th>Клиника</th><th>Сайт</th><th class="availability-col">Доступность сайта</th><th>Сертификат</th><th>Форма: HTTPS</th><th>Согласие</th><th>SPF / DMARC</th><th>Meta / Instagram</th><th>Политика</th><th>Итог</th><th>Комментарий</th>
           </tr>
         </thead>
         <tbody>
@@ -92,6 +95,7 @@
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge warn">проверить</span></td>
+      <td><input class="comment-input" data-site-id="dr-knyazkin-ru" type="text" /></td>
     </tr>
     
     <tr id="row-arideo-su" class="clickable" data-href="sites/arideo-su.html" tabindex="0">
@@ -106,6 +110,7 @@
       <td><span class="badge bad">проблема</span></td>
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge ok">слать</span></td>
+      <td><input class="comment-input" data-site-id="arideo-su" type="text" /></td>
     </tr>
     
     <tr id="row-mx-medical-ru" class="clickable" data-href="sites/mx-medical-ru.html" tabindex="0">
@@ -117,9 +122,10 @@
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge consent-badge ok">unchecked</span></td>
       <td><span class="badge warn">проверить</span></td>
-      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge ok">ок</span></td>
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge warn">проверить</span></td>
+      <td><input class="comment-input" data-site-id="mx-medical-ru" type="text" /></td>
     </tr>
     
     <tr id="row-senseclinic-ru" class="clickable" data-href="sites/senseclinic-ru.html" tabindex="0">
@@ -131,9 +137,10 @@
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge consent-badge bad">checked</span></td>
       <td><span class="badge warn">проверить</span></td>
-      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge ok">ок</span></td>
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge warn">проверить</span></td>
+      <td><input class="comment-input" data-site-id="senseclinic-ru" type="text" /></td>
     </tr>
     
     <tr id="row-ortodont-center-ru" class="clickable" data-href="sites/ortodont-center-ru.html" tabindex="0">
@@ -145,9 +152,10 @@
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge consent-badge bad">checked + не найдено + текстом</span></td>
       <td><span class="badge warn">проверить</span></td>
-      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge ok">ок</span></td>
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge warn">проверить</span></td>
+      <td><input class="comment-input" data-site-id="ortodont-center-ru" type="text" /></td>
     </tr>
     
     <tr id="row-medsi-ru" class="clickable" data-href="sites/medsi-ru.html" tabindex="0">
@@ -159,9 +167,10 @@
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge consent-badge bad">не найдено</span></td>
       <td><span class="badge warn">проверить</span></td>
-      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge ok">ок</span></td>
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge warn">проверить</span></td>
+      <td><input class="comment-input" data-site-id="medsi-ru" type="text" /></td>
     </tr>
     
     <tr id="row-imclinic-dental" class="clickable" data-href="sites/imclinic-dental.html" tabindex="0">
@@ -173,9 +182,10 @@
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge consent-badge ok">unchecked</span></td>
       <td><span class="badge warn">проверить</span></td>
-      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge ok">ок</span></td>
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge warn">проверить</span></td>
+      <td><input class="comment-input" data-site-id="imclinic-dental" type="text" /></td>
     </tr>
     
     <tr id="row-drblumkin-ru" class="clickable" data-href="sites/drblumkin-ru.html" tabindex="0">
@@ -187,9 +197,10 @@
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge consent-badge bad">не найдено + текстом</span></td>
       <td><span class="badge na">н/п</span></td>
-      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge ok">ок</span></td>
       <td><span class="badge bad">проблема</span></td>
       <td><span class="badge warn">проверить</span></td>
+      <td><input class="comment-input" data-site-id="drblumkin-ru" type="text" /></td>
     </tr>
     
     <tr id="row-kmdental-ru" class="clickable" data-href="sites/kmdental-ru.html" tabindex="0">
@@ -201,9 +212,10 @@
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge consent-badge bad">не найдено</span></td>
       <td><span class="badge na">н/п</span></td>
-      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge ok">ок</span></td>
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge warn">проверить</span></td>
+      <td><input class="comment-input" data-site-id="kmdental-ru" type="text" /></td>
     </tr>
     
     <tr id="row-stom-azbuka-ru" class="clickable" data-href="sites/stom-azbuka-ru.html" tabindex="0">
@@ -215,9 +227,10 @@
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge consent-badge bad">текстом</span></td>
       <td><span class="badge bad">проблема</span></td>
-      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge ok">ок</span></td>
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge warn">проверить</span></td>
+      <td><input class="comment-input" data-site-id="stom-azbuka-ru" type="text" /></td>
     </tr>
     
     <tr id="row-olimpdent-ru" class="clickable" data-href="sites/olimpdent-ru.html" tabindex="0">
@@ -232,6 +245,7 @@
       <td><span class="badge na">-</span></td>
       <td><span class="badge na">-</span></td>
       <td><span class="badge na">-</span></td>
+      <td><input class="comment-input" data-site-id="olimpdent-ru" type="text" /></td>
     </tr>
     
     <tr id="row-pravstom-ru" class="clickable" data-href="sites/pravstom-ru.html" tabindex="0">
@@ -243,9 +257,10 @@
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge consent-badge bad">не найдено</span></td>
       <td><span class="badge warn">проверить</span></td>
-      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge ok">ок</span></td>
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge warn">проверить</span></td>
+      <td><input class="comment-input" data-site-id="pravstom-ru" type="text" /></td>
     </tr>
     
     <tr id="row-stozubov-vsena4-ru" class="clickable" data-href="sites/stozubov-vsena4-ru.html" tabindex="0">
@@ -260,6 +275,7 @@
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge warn">проверить</span></td>
+      <td><input class="comment-input" data-site-id="stozubov-vsena4-ru" type="text" /></td>
     </tr>
     
     <tr id="row-dentartmsk-com" class="clickable" data-href="sites/dentartmsk-com.html" tabindex="0">
@@ -271,9 +287,10 @@
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge consent-badge bad">не найдено</span></td>
       <td><span class="badge na">н/п</span></td>
-      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge ok">ок</span></td>
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge warn">проверить</span></td>
+      <td><input class="comment-input" data-site-id="dentartmsk-com" type="text" /></td>
     </tr>
     
     <tr id="row-stone-dent-ru" class="clickable" data-href="sites/stone-dent-ru.html" tabindex="0">
@@ -288,6 +305,7 @@
       <td><span class="badge bad">проблема</span></td>
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge warn">проверить</span></td>
+      <td><input class="comment-input" data-site-id="stone-dent-ru" type="text" /></td>
     </tr>
     
     <tr id="row-satellit-31-ru" class="clickable" data-href="sites/satellit-31-ru.html" tabindex="0">
@@ -300,8 +318,9 @@
       <td><span class="badge consent-badge bad">не найдено</span></td>
       <td><span class="badge warn">проверить</span></td>
       <td><span class="badge bad">проблема</span></td>
-      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge ok">ок</span></td>
       <td><span class="badge warn">проверить</span></td>
+      <td><input class="comment-input" data-site-id="satellit-31-ru" type="text" /></td>
     </tr>
     
     <tr id="row-amk-dental-clients-site" class="clickable" data-href="sites/amk-dental-clients-site.html" tabindex="0">
@@ -316,6 +335,7 @@
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge bad">проблема</span></td>
       <td><span class="badge warn">проверить</span></td>
+      <td><input class="comment-input" data-site-id="amk-dental-clients-site" type="text" /></td>
     </tr>
     
     <tr id="row-dsclinic-msk-ru" class="clickable" data-href="sites/dsclinic-msk-ru.html" tabindex="0">
@@ -330,6 +350,7 @@
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge warn">проверить</span></td>
+      <td><input class="comment-input" data-site-id="dsclinic-msk-ru" type="text" /></td>
     </tr>
     
     <tr id="row-dentastayl-ru" class="clickable" data-href="sites/dentastayl-ru.html" tabindex="0">
@@ -344,6 +365,7 @@
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge warn">проверить</span></td>
+      <td><input class="comment-input" data-site-id="dentastayl-ru" type="text" /></td>
     </tr>
     
     <tr id="row-prof-dental-ru" class="clickable" data-href="sites/prof-dental-ru.html" tabindex="0">
@@ -355,9 +377,10 @@
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge consent-badge ok">unchecked</span></td>
       <td><span class="badge na">н/п</span></td>
-      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge ok">ок</span></td>
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge warn">проверить</span></td>
+      <td><input class="comment-input" data-site-id="prof-dental-ru" type="text" /></td>
     </tr>
     
     <tr id="row-stomatologiyamoyaulybka-msk-ru" class="clickable" data-href="sites/stomatologiyamoyaulybka-msk-ru.html" tabindex="0">
@@ -369,9 +392,10 @@
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge consent-badge bad">checked</span></td>
       <td><span class="badge na">н/п</span></td>
-      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge ok">ок</span></td>
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge warn">проверить</span></td>
+      <td><input class="comment-input" data-site-id="stomatologiyamoyaulybka-msk-ru" type="text" /></td>
     </tr>
     
     <tr id="row-mosgorzdrav-ru-sp2" class="clickable" data-href="sites/mosgorzdrav-ru-sp2.html" tabindex="0">
@@ -386,6 +410,7 @@
       <td><span class="badge na">-</span></td>
       <td><span class="badge na">-</span></td>
       <td><span class="badge na">-</span></td>
+      <td><input class="comment-input" data-site-id="mosgorzdrav-ru-sp2" type="text" /></td>
     </tr>
     
     <tr id="row-apple-stom-ru" class="clickable" data-href="sites/apple-stom-ru.html" tabindex="0">
@@ -397,9 +422,10 @@
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge consent-badge bad">не найдено</span></td>
       <td><span class="badge bad">проблема</span></td>
-      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge ok">ок</span></td>
       <td><span class="badge bad">проблема</span></td>
       <td><span class="badge warn">проверить</span></td>
+      <td><input class="comment-input" data-site-id="apple-stom-ru" type="text" /></td>
     </tr>
     
     <tr id="row-belayatochka-ru" class="clickable" data-href="sites/belayatochka-ru.html" tabindex="0">
@@ -414,6 +440,7 @@
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge warn">проверить</span></td>
+      <td><input class="comment-input" data-site-id="belayatochka-ru" type="text" /></td>
     </tr>
     
     <tr id="row-zubnoy24-ru" class="clickable" data-href="sites/zubnoy24-ru.html" tabindex="0">
@@ -428,6 +455,7 @@
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge bad">проблема</span></td>
       <td><span class="badge warn">проверить</span></td>
+      <td><input class="comment-input" data-site-id="zubnoy24-ru" type="text" /></td>
     </tr>
     
     <tr id="row-esenliclinic-ru" class="clickable" data-href="sites/esenliclinic-ru.html" tabindex="0">
@@ -438,10 +466,11 @@
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge consent-badge bad">не найдено</span></td>
+      <td><span class="badge na">н/п</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
       <td><span class="badge warn">проверить</span></td>
-      <td><span class="badge bad">проблема</span></td>
-      <td><span class="badge bad">проблема</span></td>
-      <td><span class="badge warn">проверить</span></td>
+      <td><input class="comment-input" data-site-id="esenliclinic-ru" type="text" /></td>
     </tr>
     
     <tr id="row-albertclinic-ru" class="clickable" data-href="sites/albertclinic-ru.html" tabindex="0">
@@ -453,9 +482,10 @@
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge consent-badge bad">checked</span></td>
       <td><span class="badge na">н/п</span></td>
-      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge ok">ок</span></td>
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge warn">проверить</span></td>
+      <td><input class="comment-input" data-site-id="albertclinic-ru" type="text" /></td>
     </tr>
     
     <tr id="row-ecstom-ru" class="clickable" data-href="sites/ecstom-ru.html" tabindex="0">
@@ -470,6 +500,7 @@
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge warn">проверить</span></td>
+      <td><input class="comment-input" data-site-id="ecstom-ru" type="text" /></td>
     </tr>
     
     <tr id="row-tiptopdent-ru" class="clickable" data-href="sites/tiptopdent-ru.html" tabindex="0">
@@ -484,6 +515,7 @@
       <td><span class="badge bad">проблема</span></td>
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge warn">проверить</span></td>
+      <td><input class="comment-input" data-site-id="tiptopdent-ru" type="text" /></td>
     </tr>
     
     <tr id="row-bersclinic-ru" class="clickable" data-href="sites/bersclinic-ru.html" tabindex="0">
@@ -498,6 +530,7 @@
       <td><span class="badge bad">проблема</span></td>
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge warn">проверить</span></td>
+      <td><input class="comment-input" data-site-id="bersclinic-ru" type="text" /></td>
     </tr>
     
     <tr id="row-stomatikmsk-ru" class="clickable" data-href="sites/stomatikmsk-ru.html" tabindex="0">
@@ -512,6 +545,7 @@
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge warn">проверить</span></td>
+      <td><input class="comment-input" data-site-id="stomatikmsk-ru" type="text" /></td>
     </tr>
     
     <tr id="row-tandem-clinic-ru" class="clickable" data-href="sites/tandem-clinic-ru.html" tabindex="0">
@@ -523,9 +557,10 @@
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge consent-badge bad">checked + не найдено</span></td>
       <td><span class="badge na">н/п</span></td>
-      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge ok">ок</span></td>
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge warn">проверить</span></td>
+      <td><input class="comment-input" data-site-id="tandem-clinic-ru" type="text" /></td>
     </tr>
     
         </tbody>
@@ -533,20 +568,96 @@
     </div>
 
     <div class="notes">
-      Для масштабирования на новые сайты: добавьте audit JSON в <code>data/audits</code>, запись в <code>data/sites_manifest.json</code>, затем запустите <code>python scripts/build_dashboard.py</code>.
+      Для масштабирования на новые сайты: добавьте audit JSON в <code>data/audits</code>, запись в <code>data/sites_manifest.json</code>, затем запустите <code>python scripts/build_dashboard.py</code>. Для сохранения комментариев в репозиторий открывайте дашборд через <code>python scripts/dashboard_server.py</code>.
     </div>
   </div>
   <script>
     document.querySelectorAll('tr.clickable').forEach(function(row){
       row.addEventListener('click', function(){ window.location.href = row.dataset.href; });
       row.addEventListener('keydown', function(e){
-        if(e.target && e.target.closest && e.target.closest('a')) return;
+        if(e.target && e.target.closest && (e.target.closest('a') || e.target.closest('input,textarea,select,button'))) return;
         if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); window.location.href = row.dataset.href; }
       });
     });
     document.querySelectorAll('a.site-link').forEach(function(link){
       link.addEventListener('click', function(e){ e.stopPropagation(); });
     });
+    const COMMENT_KEY = 'clinic_audit_comments_v1';
+    const COMMENTS_API = '/api/comments';
+
+    function loadLocalComments() {
+      try {
+        const raw = localStorage.getItem(COMMENT_KEY);
+        return raw ? JSON.parse(raw) : {};
+      } catch (e) {
+        return {};
+      }
+    }
+
+    function saveLocalComments(comments) {
+      try {
+        localStorage.setItem(COMMENT_KEY, JSON.stringify(comments));
+      } catch (e) {}
+    }
+
+    async function loadApiComments() {
+      const resp = await fetch(COMMENTS_API, { cache: 'no-store' });
+      if(!resp.ok) throw new Error('comments load failed');
+      const data = await resp.json();
+      return data && typeof data === 'object' ? data : {};
+    }
+
+    async function saveApiComments(comments) {
+      const resp = await fetch(COMMENTS_API, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(comments),
+      });
+      if(!resp.ok) throw new Error('comments save failed');
+    }
+
+    (async function initComments(){
+      const localComments = loadLocalComments();
+      let comments = Object.assign({}, localComments);
+      let apiEnabled = false;
+
+      if (window.location.protocol.startsWith('http')) {
+        try {
+          const apiComments = await loadApiComments();
+          comments = Object.assign({}, apiComments, localComments);
+          apiEnabled = true;
+        } catch (e) {
+          apiEnabled = false;
+        }
+      }
+
+      let saveTimer = null;
+      function scheduleApiSave() {
+        if(!apiEnabled) return;
+        if(saveTimer) clearTimeout(saveTimer);
+        saveTimer = setTimeout(function(){
+          saveApiComments(comments).catch(function(){ apiEnabled = false; });
+        }, 350);
+      }
+
+      document.querySelectorAll('.comment-input').forEach(function(input){
+        const siteId = input.dataset.siteId || '';
+        if(siteId && comments[siteId]) input.value = comments[siteId];
+        ['click','mousedown','focus','keydown'].forEach(function(evt){
+          input.addEventListener(evt, function(e){ e.stopPropagation(); });
+        });
+        input.addEventListener('input', function(){
+          if(!siteId) return;
+          comments[siteId] = input.value;
+          saveLocalComments(comments);
+          scheduleApiSave();
+        });
+      });
+
+      // Sync initial merged state into repository file when API is available.
+      saveLocalComments(comments);
+      scheduleApiSave();
+    })();
   </script>
 </body>
 </html>

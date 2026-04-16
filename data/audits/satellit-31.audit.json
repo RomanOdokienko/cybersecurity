@@ -36,6 +36,12 @@
       "status": 404,
       "final_url": "https://www.satellit-31.ru/zapis",
       "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://www.satellit-31.ru/documents/",
+      "status": 200,
+      "final_url": "https://www.satellit-31.ru/documents/",
+      "error": null
     }
   ],
   "forms": [
@@ -65,7 +71,13 @@
   "emails": [
     "info@satellit-31.ru"
   ],
-  "privacy_links": [],
+  "privacy_links": [
+    {
+      "page": "https://www.satellit-31.ru/documents/",
+      "href": "http://www.satellit-31.ru/wp-content/uploads/2024/07/politika.pdf",
+      "text": ""
+    }
+  ],
   "forbidden_hits": [
     {
       "token": "facebook",
@@ -84,6 +96,12 @@
       "page": "https://www.satellit-31.ru/contacts/",
       "context": "src=\"https://www.facebook.com/tr?id=509093480559963&ev=PageView &noscript=1\"",
       "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://www.satellit-31.ru/documents/",
+      "context": "src=\"https://www.facebook.com/tr?id=509093480559963&ev=PageView &noscript=1\"",
+      "visibility": "только в коде"
     }
   ],
   "cert_errors": [],
@@ -97,12 +115,16 @@
       "https://www.satellit-31.ru/booking",
       "https://www.satellit-31.ru/zapis"
     ],
+    "legal_urls": [
+      "https://www.satellit-31.ru/documents/"
+    ],
     "sources": {
       "http://www.satellit-31.ru/contacts/": "navigation",
       "https://www.satellit-31.ru/": "",
       "https://www.satellit-31.ru/appointment": "fallback",
       "https://www.satellit-31.ru/booking": "fallback",
       "https://www.satellit-31.ru/contacts/": "navigation",
+      "https://www.satellit-31.ru/documents/": "navigation-legal",
       "https://www.satellit-31.ru/zapis": "fallback"
     },
     "fallback_used": {

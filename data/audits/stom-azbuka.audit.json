@@ -20,24 +20,6 @@
       "error": null
     },
     {
-      "requested": "https://stom-azbuka.ru/appointment",
-      "status": 404,
-      "final_url": "https://stom-azbuka.ru/appointment",
-      "error": "HTTPError 404"
-    },
-    {
-      "requested": "https://stom-azbuka.ru/booking",
-      "status": 404,
-      "final_url": "https://stom-azbuka.ru/booking",
-      "error": "HTTPError 404"
-    },
-    {
-      "requested": "https://stom-azbuka.ru/zapis",
-      "status": 404,
-      "final_url": "https://stom-azbuka.ru/zapis",
-      "error": "HTTPError 404"
-    },
-    {
       "requested": "https://stom-azbuka.ru/akczii/",
       "status": 200,
       "final_url": "https://stom-azbuka.ru/akczii/",
@@ -258,6 +240,48 @@
       "status": 200,
       "final_url": "https://stom-azbuka.ru/stoimost-uslug",
       "error": null
+    },
+    {
+      "requested": "https://stom-azbuka.ru/agreement",
+      "status": 404,
+      "final_url": "https://stom-azbuka.ru/agreement",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://stom-azbuka.ru/personal-data",
+      "status": 404,
+      "final_url": "https://stom-azbuka.ru/personal-data",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://stom-azbuka.ru/policy",
+      "status": 404,
+      "final_url": "https://stom-azbuka.ru/policy",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://stom-azbuka.ru/politika",
+      "status": 404,
+      "final_url": "https://stom-azbuka.ru/politika",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://stom-azbuka.ru/politika-konfidencialnosti",
+      "status": 404,
+      "final_url": "https://stom-azbuka.ru/politika-konfidencialnosti",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://stom-azbuka.ru/privacy",
+      "status": 404,
+      "final_url": "https://stom-azbuka.ru/privacy",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://stom-azbuka.ru/privacy-policy",
+      "status": 404,
+      "final_url": "https://stom-azbuka.ru/privacy-policy",
+      "error": "HTTPError 404"
     }
   ],
   "forms": [
@@ -1480,728 +1504,7 @@
       "text": "Политика конфиденциальности"
     }
   ],
-  "forbidden_hits": [
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/contacts/index.html",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/contacts/index.html",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/contacts/index.html",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/kontakti",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/kontakti",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/kontakti",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/akczii/",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/akczii/",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/akczii/",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/akczii/23-fevralya",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/akczii/23-fevralya",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/akczii/23-fevralya",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/akczii/akcziya-30-skidka-dlya-zhenshhin-k-8-marta",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/akczii/akcziya-30-skidka-dlya-zhenshhin-k-8-marta",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/akczii/akcziya-30-skidka-dlya-zhenshhin-k-8-marta",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/akczii/akcziya-karies",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/akczii/akcziya-karies",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/akczii/akcziya-karies",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/akczii/amazing-white",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/akczii/amazing-white",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/akczii/amazing-white",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/akczii/brekety",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/akczii/brekety",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/akczii/brekety",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/akczii/pod-kluch",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/akczii/pod-kluch",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/akczii/pod-kluch",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/akczii/privedi-druga",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/akczii/privedi-druga",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/akczii/privedi-druga",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/akczii/profchistka",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/akczii/profchistka",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/akczii/profchistka",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/akczii/schastlivy-chas",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/akczii/schastlivy-chas",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/akczii/schastlivy-chas",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/akczii/skajsyi",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/akczii/skajsyi",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/akczii/skajsyi",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/akczii/skidka-20",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/akczii/skidka-20",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/akczii/skidka-20",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/akczii/udalenie",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/akczii/udalenie",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/akczii/udalenie",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/novosti/2026-god",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/novosti/2026-god",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/novosti/2026-god",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/novosti/delikatnoe-otbelivanie",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/novosti/delikatnoe-otbelivanie",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/novosti/delikatnoe-otbelivanie",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/novosti/grafik-rabotyi",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/novosti/grafik-rabotyi",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/novosti/grafik-rabotyi",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/novosti/sertifikat",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/novosti/sertifikat",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/novosti/sertifikat",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/novosti/simptomy-gingivita",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/novosti/simptomy-gingivita",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/novosti/simptomy-gingivita",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/o-stomatologii/",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/o-stomatologii/",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/o-stomatologii/",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/personal/",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/personal/",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/personal/",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/personal/abas",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/personal/abas",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/personal/abas",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/personal/abdulvagabov",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/personal/abdulvagabov",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/personal/abdulvagabov",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/personal/bajteryakov",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/personal/bajteryakov",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/personal/bajteryakov",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/personal/baragunova",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/personal/baragunova",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/personal/baragunova",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/personal/ivankov",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/personal/ivankov",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/personal/ivankov",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/personal/lianidis",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/personal/lianidis",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/personal/lianidis",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/personal/tskhovrebov",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/personal/tskhovrebov",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/personal/tskhovrebov",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/services/",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/services/",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/services/",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/services/gigiena-i-otbelivanie",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/services/gigiena-i-otbelivanie",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/services/gigiena-i-otbelivanie",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/services/hirurgia",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/services/hirurgia",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/services/hirurgia",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/services/implantacziya",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/services/implantacziya",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/services/implantacziya",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/services/ortodontiya",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/services/ortodontiya",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/services/ortodontiya",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/services/parodontologiya",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/services/parodontologiya",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/services/parodontologiya",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/services/pedodontia",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/services/pedodontia",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/services/pedodontia",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/services/protezirovanie/",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/services/protezirovanie/",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/services/protezirovanie/",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/services/terapia/",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/services/terapia/",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/services/terapia/",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "wa.me",
-      "page": "https://stom-azbuka.ru/stoimost-uslug",
-      "context": "href=\"https://wa.me/79269780503\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/stoimost-uslug",
-      "context": "src=\"assets/img/icons/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stom-azbuka.ru/stoimost-uslug",
-      "context": "alt=\"WhatsApp\"",
-      "visibility": "только в коде"
-    }
-  ],
+  "forbidden_hits": [],
   "cert_errors": [],
   "discovery": {
     "contact_urls": [
@@ -2209,12 +1512,58 @@
       "https://stom-azbuka.ru/kontakti"
     ],
     "booking_urls": [
-      "https://stom-azbuka.ru/appointment",
-      "https://stom-azbuka.ru/booking",
-      "https://stom-azbuka.ru/zapis"
+      "https://stom-azbuka.ru/",
+      "https://stom-azbuka.ru/akczii/",
+      "https://stom-azbuka.ru/akczii/23-fevralya",
+      "https://stom-azbuka.ru/akczii/akcziya-30-skidka-dlya-zhenshhin-k-8-marta",
+      "https://stom-azbuka.ru/akczii/akcziya-karies",
+      "https://stom-azbuka.ru/akczii/amazing-white",
+      "https://stom-azbuka.ru/akczii/brekety",
+      "https://stom-azbuka.ru/akczii/pod-kluch",
+      "https://stom-azbuka.ru/akczii/privedi-druga",
+      "https://stom-azbuka.ru/akczii/profchistka",
+      "https://stom-azbuka.ru/akczii/schastlivy-chas",
+      "https://stom-azbuka.ru/akczii/skajsyi",
+      "https://stom-azbuka.ru/akczii/skidka-20",
+      "https://stom-azbuka.ru/akczii/udalenie",
+      "https://stom-azbuka.ru/kontakti",
+      "https://stom-azbuka.ru/novosti/2026-god",
+      "https://stom-azbuka.ru/novosti/delikatnoe-otbelivanie",
+      "https://stom-azbuka.ru/novosti/grafik-rabotyi",
+      "https://stom-azbuka.ru/novosti/sertifikat",
+      "https://stom-azbuka.ru/novosti/simptomy-gingivita",
+      "https://stom-azbuka.ru/o-stomatologii/",
+      "https://stom-azbuka.ru/personal/",
+      "https://stom-azbuka.ru/personal/abas",
+      "https://stom-azbuka.ru/personal/abdulvagabov",
+      "https://stom-azbuka.ru/personal/bajteryakov",
+      "https://stom-azbuka.ru/personal/baragunova",
+      "https://stom-azbuka.ru/personal/ivankov",
+      "https://stom-azbuka.ru/personal/lianidis",
+      "https://stom-azbuka.ru/personal/tskhovrebov",
+      "https://stom-azbuka.ru/services/",
+      "https://stom-azbuka.ru/services/gigiena-i-otbelivanie",
+      "https://stom-azbuka.ru/services/hirurgia",
+      "https://stom-azbuka.ru/services/implantacziya",
+      "https://stom-azbuka.ru/services/ortodontiya",
+      "https://stom-azbuka.ru/services/parodontologiya",
+      "https://stom-azbuka.ru/services/pedodontia",
+      "https://stom-azbuka.ru/services/protezirovanie/",
+      "https://stom-azbuka.ru/services/terapia/",
+      "https://stom-azbuka.ru/stoimost-uslug"
+    ],
+    "legal_urls": [
+      "https://stom-azbuka.ru/agreement",
+      "https://stom-azbuka.ru/personal-data",
+      "https://stom-azbuka.ru/policy",
+      "https://stom-azbuka.ru/politika",
+      "https://stom-azbuka.ru/politika-konfidencialnosti",
+      "https://stom-azbuka.ru/privacy",
+      "https://stom-azbuka.ru/privacy-policy"
     ],
     "sources": {
-      "https://stom-azbuka.ru/": "sitemap-form",
+      "https://stom-azbuka.ru/": "home-booking-candidate",
+      "https://stom-azbuka.ru/agreement": "policy-fallback",
       "https://stom-azbuka.ru/akczii/": "sitemap-form",
       "https://stom-azbuka.ru/akczii/23-fevralya": "sitemap-form",
       "https://stom-azbuka.ru/akczii/akcziya-30-skidka-dlya-zhenshhin-k-8-marta": "sitemap-form",
@@ -2228,8 +1577,6 @@
       "https://stom-azbuka.ru/akczii/skajsyi": "sitemap-form",
       "https://stom-azbuka.ru/akczii/skidka-20": "sitemap-form",
       "https://stom-azbuka.ru/akczii/udalenie": "sitemap-form",
-      "https://stom-azbuka.ru/appointment": "fallback",
-      "https://stom-azbuka.ru/booking": "fallback",
       "https://stom-azbuka.ru/contacts/index.html": "navigation",
       "https://stom-azbuka.ru/kontakti": "navigation",
       "https://stom-azbuka.ru/novosti/2026-god": "sitemap-form",
@@ -2238,6 +1585,7 @@
       "https://stom-azbuka.ru/novosti/sertifikat": "sitemap-form",
       "https://stom-azbuka.ru/novosti/simptomy-gingivita": "sitemap-form",
       "https://stom-azbuka.ru/o-stomatologii/": "sitemap-form",
+      "https://stom-azbuka.ru/personal-data": "policy-fallback",
       "https://stom-azbuka.ru/personal/": "sitemap-form",
       "https://stom-azbuka.ru/personal/abas": "sitemap-form",
       "https://stom-azbuka.ru/personal/abdulvagabov": "sitemap-form",
@@ -2246,6 +1594,11 @@
       "https://stom-azbuka.ru/personal/ivankov": "sitemap-form",
       "https://stom-azbuka.ru/personal/lianidis": "sitemap-form",
       "https://stom-azbuka.ru/personal/tskhovrebov": "sitemap-form",
+      "https://stom-azbuka.ru/policy": "policy-fallback",
+      "https://stom-azbuka.ru/politika": "policy-fallback",
+      "https://stom-azbuka.ru/politika-konfidencialnosti": "policy-fallback",
+      "https://stom-azbuka.ru/privacy": "policy-fallback",
+      "https://stom-azbuka.ru/privacy-policy": "policy-fallback",
       "https://stom-azbuka.ru/services/": "sitemap-form",
       "https://stom-azbuka.ru/services/gigiena-i-otbelivanie": "sitemap-form",
       "https://stom-azbuka.ru/services/hirurgia": "sitemap-form",
@@ -2255,12 +1608,11 @@
       "https://stom-azbuka.ru/services/pedodontia": "sitemap-form",
       "https://stom-azbuka.ru/services/protezirovanie/": "sitemap-form",
       "https://stom-azbuka.ru/services/terapia/": "sitemap-form",
-      "https://stom-azbuka.ru/stoimost-uslug": "sitemap-form",
-      "https://stom-azbuka.ru/zapis": "fallback"
+      "https://stom-azbuka.ru/stoimost-uslug": "sitemap-form"
     },
     "fallback_used": {
       "contact": false,
-      "booking": true
+      "booking": false
     }
   }
 }

@@ -18,6 +18,30 @@ PLACEHOLDER_EMAIL_DOMAINS = {
 PLACEHOLDER_EMAIL_LOCALS = {
     "example", "sample", "test", "username", "yourname", "name", "mail@example"
 }
+META_STRICT_TOKENS = {
+    "meta",
+    "мета",
+    "instagram",
+    "инстаграм",
+    "инстаграмм",
+    "facebook",
+    "фейсбук",
+    "threads",
+    "instagram.com",
+    "facebook.com",
+    "fb.com",
+    "meta.com",
+    "threads.net",
+}
+META_IGNORED_TOKENS = {
+    "whatsapp",
+    "вотсап",
+    "ватсап",
+    "wa.me",
+    "messenger",
+    "мессенджер фейсбук",
+    "m.me",
+}
 
 
 def site_host(value: str) -> str:
@@ -76,6 +100,10 @@ def source_label(source: str) -> str:
         "sitemap-booking-candidate": "sitemap: кандидат записи по форме/контенту",
         "booking-candidate": "кандидат записи по форме/контенту",
         "home-booking-candidate": "главная: кандидат записи по форме/контенту",
+        "sitemap-legal": "sitemap: правовая/документная страница",
+        "navigation-legal": "навигация: правовая/документная страница",
+        "policy-hint": "найдено по policy-hint в коде",
+        "policy-fallback": "fallback: типовой путь политики",
         "fallback": "fallback-путь",
     }
     return mapping.get(source, source or "основной URL")
@@ -104,6 +132,27 @@ def classify_form_consent(form):
     if form.get("has_policy_text"):
         return "текстом"
     return "не найдено"
+
+
+def filter_meta_hits(raw_hits):
+    filtered = []
+    seen = set()
+    for hit in raw_hits or []:
+        tok = str(hit.get("token", "") or "").strip().lower()
+        if not tok or tok in META_IGNORED_TOKENS or tok not in META_STRICT_TOKENS:
+            continue
+        ctx = str(hit.get("context", "") or "")
+        # Historic noise: UIkit classes like uk-text-meta are not Meta links.
+        if ctx.lower().startswith("class="):
+            continue
+        page = str(hit.get("page", "") or "")
+        vis = str(hit.get("visibility", "") or "")
+        key = (tok, page, ctx, vis)
+        if key in seen:
+            continue
+        seen.add(key)
+        filtered.append(hit)
+    return filtered
 
 
 def parse_email_domain(email: str):
@@ -350,7 +399,7 @@ def compute_summary(item, audit):
     source_map = discovery.get("sources", {})
 
     forms = audit.get("forms", [])
-    forbidden = audit.get("forbidden_hits", [])
+    forbidden = filter_meta_hits(audit.get("forbidden_hits", []))
     privacy = audit.get("privacy_links", [])
     cert_errors = audit.get("cert_errors", [])
 
@@ -451,6 +500,7 @@ def row_html(row_num, site_id, clinic, site, s):
       <td><span class=\"badge {badge_class(s['meta_status'])}\">{esc(s['meta_status'])}</span></td>
       <td><span class=\"badge {badge_class(s['policy_status'])}\">{esc(s['policy_status'])}</span></td>
       <td><span class=\"badge {badge_class(s['result'])}\">{esc(s['result'])}</span></td>
+      <td><input class=\"comment-input\" data-site-id=\"{esc(site_id)}\" type=\"text\" /></td>
     </tr>
     """
 
@@ -467,7 +517,7 @@ def details_section(title, status, lines):
 
 def build_detail_page(item, audit, s):
     pages = audit.get("pages", [])
-    forbidden = audit.get("forbidden_hits", [])
+    forbidden = filter_meta_hits(audit.get("forbidden_hits", []))
     privacy = audit.get("privacy_links", [])
     discovery = audit.get("discovery", {})
     source_map = discovery.get("sources", {})
@@ -545,7 +595,7 @@ def build_detail_page(item, audit, s):
         for h in forbidden[:80]:
             meta_lines.append(f"{h.get('token')} | {h.get('page')} | {h.get('visibility')} | {h.get('context')}")
     else:
-        meta_lines.append("Совпадений по списку meta/instagram/facebook/whatsapp/messenger/threads не найдено.")
+        meta_lines.append("Совпадений по списку meta/instagram/facebook/threads не найдено.")
 
     policy_lines = []
     if s.get("site_unavailable"):
@@ -685,23 +735,26 @@ def main():
     .clinic {{ font-weight:700; font-size:11px; overflow-wrap:anywhere; }}
     .badge {{ display:inline-block; padding:3px 8px; border-radius:999px; border:1px solid transparent; font-size:11px; font-weight:700; line-height:1.2; white-space:nowrap; }}
     .consent-badge {{ font-size:10px; padding:3px 7px; white-space:normal; line-height:1.15; max-width:100%; }}
+    .comment-input {{ width:100%; min-width:0; border:1px solid #d8deeb; border-radius:8px; padding:5px 7px; font-size:11px; color:#2b3343; background:#fff; }}
+    .comment-input:focus {{ outline:none; border-color:#8db5ff; box-shadow:0 0 0 2px rgba(141,181,255,.22); }}
     .ok {{ background:var(--ok-bg); color:var(--ok-fg); border-color:#c8efd9; }}
     .warn {{ background:var(--warn-bg); color:var(--warn-fg); border-color:#f0d889; }}
     .bad {{ background:var(--bad-bg); color:var(--bad-fg); border-color:#f7c4c8; }}
     .na {{ background:var(--na-bg); color:var(--na-fg); border-color:#dde2ea; }}
     .notes {{ margin-top:10px; background:#fff; border:1px solid var(--line); border-radius:10px; padding:10px 12px; font-size:12px; color:#4e5565; line-height:1.35; }}
     .row-id {{ color:#6a7385; font-weight:700; }}
-    thead th:nth-child(1), tbody td:nth-child(1) {{ width:4%; }}
-    thead th:nth-child(2), tbody td:nth-child(2) {{ width:14%; }}
-    thead th:nth-child(3), tbody td:nth-child(3) {{ width:10%; }}
-    thead th:nth-child(4), tbody td:nth-child(4) {{ width:14%; }}
-    thead th:nth-child(5), tbody td:nth-child(5) {{ width:9%; }}
-    thead th:nth-child(6), tbody td:nth-child(6) {{ width:8%; }}
-    thead th:nth-child(7), tbody td:nth-child(7) {{ width:12%; }}
+    thead th:nth-child(1), tbody td:nth-child(1) {{ width:2%; }}
+    thead th:nth-child(2), tbody td:nth-child(2) {{ width:10%; }}
+    thead th:nth-child(3), tbody td:nth-child(3) {{ width:8%; }}
+    thead th:nth-child(4), tbody td:nth-child(4) {{ width:12%; }}
+    thead th:nth-child(5), tbody td:nth-child(5) {{ width:8%; }}
+    thead th:nth-child(6), tbody td:nth-child(6) {{ width:7%; }}
+    thead th:nth-child(7), tbody td:nth-child(7) {{ width:11%; }}
     thead th:nth-child(8), tbody td:nth-child(8) {{ width:8%; }}
     thead th:nth-child(9), tbody td:nth-child(9) {{ width:9%; }}
     thead th:nth-child(10), tbody td:nth-child(10) {{ width:6%; }}
-    thead th:nth-child(11), tbody td:nth-child(11) {{ width:6%; }}
+    thead th:nth-child(11), tbody td:nth-child(11) {{ width:5%; }}
+    thead th:nth-child(12), tbody td:nth-child(12) {{ width:14%; }}
   </style>
 </head>
 <body>
@@ -722,7 +775,7 @@ def main():
       <table>
         <thead>
           <tr>
-            <th>ID</th><th>Клиника</th><th>Сайт</th><th class=\"availability-col\">Доступность сайта</th><th>Сертификат</th><th>Форма: HTTPS</th><th>Согласие</th><th>SPF / DMARC</th><th>Meta / Instagram</th><th>Политика</th><th>Итог</th>
+            <th>ID</th><th>Клиника</th><th>Сайт</th><th class=\"availability-col\">Доступность сайта</th><th>Сертификат</th><th>Форма: HTTPS</th><th>Согласие</th><th>SPF / DMARC</th><th>Meta / Instagram</th><th>Политика</th><th>Итог</th><th>Комментарий</th>
           </tr>
         </thead>
         <tbody>
@@ -732,20 +785,96 @@ def main():
     </div>
 
     <div class=\"notes\">
-      Для масштабирования на новые сайты: добавьте audit JSON в <code>data/audits</code>, запись в <code>data/sites_manifest.json</code>, затем запустите <code>python scripts/build_dashboard.py</code>.
+      Для масштабирования на новые сайты: добавьте audit JSON в <code>data/audits</code>, запись в <code>data/sites_manifest.json</code>, затем запустите <code>python scripts/build_dashboard.py</code>. Для сохранения комментариев в репозиторий открывайте дашборд через <code>python scripts/dashboard_server.py</code>.
     </div>
   </div>
   <script>
     document.querySelectorAll('tr.clickable').forEach(function(row){{
       row.addEventListener('click', function(){{ window.location.href = row.dataset.href; }});
       row.addEventListener('keydown', function(e){{
-        if(e.target && e.target.closest && e.target.closest('a')) return;
+        if(e.target && e.target.closest && (e.target.closest('a') || e.target.closest('input,textarea,select,button'))) return;
         if(e.key === 'Enter' || e.key === ' '){{ e.preventDefault(); window.location.href = row.dataset.href; }}
       }});
     }});
     document.querySelectorAll('a.site-link').forEach(function(link){{
       link.addEventListener('click', function(e){{ e.stopPropagation(); }});
     }});
+    const COMMENT_KEY = 'clinic_audit_comments_v1';
+    const COMMENTS_API = '/api/comments';
+
+    function loadLocalComments() {{
+      try {{
+        const raw = localStorage.getItem(COMMENT_KEY);
+        return raw ? JSON.parse(raw) : {{}};
+      }} catch (e) {{
+        return {{}};
+      }}
+    }}
+
+    function saveLocalComments(comments) {{
+      try {{
+        localStorage.setItem(COMMENT_KEY, JSON.stringify(comments));
+      }} catch (e) {{}}
+    }}
+
+    async function loadApiComments() {{
+      const resp = await fetch(COMMENTS_API, {{ cache: 'no-store' }});
+      if(!resp.ok) throw new Error('comments load failed');
+      const data = await resp.json();
+      return data && typeof data === 'object' ? data : {{}};
+    }}
+
+    async function saveApiComments(comments) {{
+      const resp = await fetch(COMMENTS_API, {{
+        method: 'POST',
+        headers: {{ 'Content-Type': 'application/json' }},
+        body: JSON.stringify(comments),
+      }});
+      if(!resp.ok) throw new Error('comments save failed');
+    }}
+
+    (async function initComments(){{
+      const localComments = loadLocalComments();
+      let comments = Object.assign({{}}, localComments);
+      let apiEnabled = false;
+
+      if (window.location.protocol.startsWith('http')) {{
+        try {{
+          const apiComments = await loadApiComments();
+          comments = Object.assign({{}}, apiComments, localComments);
+          apiEnabled = true;
+        }} catch (e) {{
+          apiEnabled = false;
+        }}
+      }}
+
+      let saveTimer = null;
+      function scheduleApiSave() {{
+        if(!apiEnabled) return;
+        if(saveTimer) clearTimeout(saveTimer);
+        saveTimer = setTimeout(function(){{
+          saveApiComments(comments).catch(function(){{ apiEnabled = false; }});
+        }}, 350);
+      }}
+
+      document.querySelectorAll('.comment-input').forEach(function(input){{
+        const siteId = input.dataset.siteId || '';
+        if(siteId && comments[siteId]) input.value = comments[siteId];
+        ['click','mousedown','focus','keydown'].forEach(function(evt){{
+          input.addEventListener(evt, function(e){{ e.stopPropagation(); }});
+        }});
+        input.addEventListener('input', function(){{
+          if(!siteId) return;
+          comments[siteId] = input.value;
+          saveLocalComments(comments);
+          scheduleApiSave();
+        }});
+      }});
+
+      // Sync initial merged state into repository file when API is available.
+      saveLocalComments(comments);
+      scheduleApiSave();
+    }})();
   </script>
 </body>
 </html>

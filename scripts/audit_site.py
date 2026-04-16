@@ -12,14 +12,21 @@ FORBIDDEN_TOKENS = [
     'meta', 'мета',
     'instagram', 'инстаграм', 'инстаграмм',
     'facebook', 'фейсбук',
-    'whatsapp', 'вотсап', 'ватсап',
-    'messenger', 'мессенджер фейсбук',
     'threads',
-    'fb.com', 'instagram.com', 'wa.me', 'm.me', 'meta.com'
+    'instagram.com', 'facebook.com', 'fb.com', 'meta.com', 'threads.net'
 ]
 
 CONTACT_FALLBACK_PATHS = ['/contacts', '/contact', '/kontakty']
 BOOKING_FALLBACK_PATHS = ['/zapis', '/appointment', '/booking']
+POLICY_FALLBACK_PATHS = [
+    '/policy',
+    '/privacy-policy',
+    '/privacy',
+    '/politika',
+    '/agreement',
+    '/personal-data',
+    '/politika-konfidencialnosti',
+]
 
 CHECKBOX_RE = re.compile(r'(?is)<input\b[^>]*\btype\s*=\s*["\']?checkbox["\']?[^>]*>')
 FORM_RE = re.compile(r'(?is)<form\b[^>]*>.*?</form>')
@@ -44,6 +51,31 @@ BOOKING_URL_SOFT_HINTS = [
     'callback',
     'consult',
     'anket',
+]
+
+LEGAL_URL_HINTS = [
+    'documents',
+    'document',
+    'docs',
+    'doc',
+    'правов',
+    'документ',
+    'policy',
+    'privacy',
+    'polit',
+    'legal',
+]
+
+PRIVACY_HINTS = [
+    'политик',
+    'конфиденц',
+    'персональн',
+    'privacy',
+    'policy',
+    'polit',
+    'pdn',
+    '152-фз',
+    '152-fz',
 ]
 
 
@@ -119,6 +151,18 @@ def strip_tags(text: str):
     return clean(re.sub(r'(?is)<[^>]*>', ' ', text))
 
 
+def clean_href_value(href: str):
+    h = (href or '').strip()
+    if not h:
+        return ''
+    h = h.replace('\\/', '/').replace('\\"', '"').replace("\\'", "'")
+    h = h.strip().strip('"').strip("'").strip()
+    # Drop obviously broken href artifacts.
+    if any(x in h for x in ['\\"', "\\'", '"', "'"]):
+        return ''
+    return h
+
+
 def token_found(token: str, text: str):
     t = token.lower()
     v = text.lower()
@@ -137,9 +181,11 @@ def first_group(m):
 
 
 def extract_internal_links(base: str, html: str):
+    html = re.sub(r'(?is)<script\b.*?</script>', ' ', html or '')
+    html = re.sub(r'(?is)<style\b.*?</style>', ' ', html)
     links = []
     for m in re.finditer(r'(?is)<a\b[^>]*href\s*=\s*(?:"([^"]*)"|\'([^\']*)\'|([^\s>]+))[^>]*>(.*?)</a>', html):
-        href = (m.group(1) or m.group(2) or m.group(3) or '').strip()
+        href = clean_href_value(m.group(1) or m.group(2) or m.group(3) or '')
         text = strip_tags(m.group(4) or '')
         if not href or href.startswith('#') or href.startswith('javascript:') or href.startswith('mailto:') or href.startswith('tel:'):
             continue
@@ -157,6 +203,39 @@ def is_contact_hint(s: str):
 def is_booking_hint(s: str):
     s = s.lower()
     return any(k in s for k in ['запис', 'appointment', 'booking', 'online'])
+
+
+def is_legal_hint(s: str):
+    s = s.lower()
+    return any(k in s for k in LEGAL_URL_HINTS)
+
+
+def has_privacy_hint(s: str):
+    s = s.lower()
+    return any(k in s for k in PRIVACY_HINTS)
+
+
+def extract_policy_hint_urls(base: str, html: str):
+    # Tilda/JS often keeps links in escaped form like \"\/policy\".
+    norm = (html or '').replace('\\/', '/')
+    out = set()
+
+    for pat in [
+        r'(?is)/policy(?:[/?#][^"\'<>\s]*)?',
+        r'(?is)/privacy-policy(?:[/?#][^"\'<>\s]*)?',
+        r'(?is)/privacy(?:[/?#][^"\'<>\s]*)?',
+        r'(?is)/politika(?:[/?#][^"\'<>\s]*)?',
+        r'(?is)/agreement(?:[/?#][^"\'<>\s]*)?',
+        r'(?is)/personal-data(?:[/?#][^"\'<>\s]*)?',
+        r'(?is)/pdn(?:[/?#][^"\'<>\s]*)?',
+    ]:
+        for m in re.finditer(pat, norm):
+            path = m.group(0)
+            if path.startswith('/wp-content/') and '.pdf' not in path.lower():
+                continue
+            out.add(urljoin(base + '/', path))
+
+    return out
 
 
 def extract_forms(html: str):
@@ -290,6 +369,7 @@ def run_audit(base_url: str):
 
     contact_urls = set()
     booking_urls = set()
+    legal_urls = set()
     source_map = {}
 
     for u in sitemap_urls:
@@ -299,6 +379,9 @@ def run_audit(base_url: str):
         if is_booking_hint(u):
             booking_urls.add(u)
             source_map[u] = 'sitemap'
+        if is_legal_hint(u):
+            legal_urls.add(u)
+            source_map[u] = source_map.get(u, 'sitemap-legal')
 
     # 3) discover from home navigation/internal links
     if home_html:
@@ -310,6 +393,22 @@ def run_audit(base_url: str):
             if is_booking_hint(combined):
                 booking_urls.add(link['url'])
                 source_map[link['url']] = source_map.get(link['url'], 'navigation')
+            if is_legal_hint(combined):
+                legal_urls.add(link['url'])
+                source_map[link['url']] = source_map.get(link['url'], 'navigation-legal')
+
+    # 3b) discover policy URLs from escaped JS/template markup (e.g. \"\/policy\")
+    if home_html:
+        for u in extract_policy_hint_urls(crawl_base, home_html):
+            legal_urls.add(u)
+            source_map[u] = source_map.get(u, 'policy-hint')
+
+    # 3c) if still nothing legal found, try common policy paths.
+    if not legal_urls:
+        for pth in POLICY_FALLBACK_PATHS:
+            u = crawl_base + pth
+            legal_urls.add(u)
+            source_map[u] = source_map.get(u, 'policy-fallback')
 
     # 4) collect form pages from sitemap and detect booking candidates by content
     form_pages = set()
@@ -362,7 +461,7 @@ def run_audit(base_url: str):
 
     urls = []
     seen = set()
-    for u in [home_url] + sorted(contact_urls) + sorted(booking_urls) + sorted(form_pages):
+    for u in [home_url] + sorted(contact_urls) + sorted(booking_urls) + sorted(legal_urls) + sorted(form_pages):
         if u not in seen:
             seen.add(u)
             urls.append(u)
@@ -404,6 +503,9 @@ def run_audit(base_url: str):
 
         if status != 200 or not html:
             continue
+
+        if has_privacy_hint(url):
+            privacy_links.append({'page': url, 'href': url, 'text': 'policy path'})
 
         for em in re.findall(r'(?i)\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b', html):
             emails.add(em)
@@ -454,11 +556,13 @@ def run_audit(base_url: str):
                 'policy_poc': policy_poc,
             })
 
-        for am in re.finditer(r'(?is)<a\b[^>]*href\s*=\s*(?:"([^"]*)"|\'([^\']*)\'|([^\s>]+))[^>]*>(.*?)</a>', html):
-            href = am.group(1) or am.group(2) or am.group(3) or ''
+        html_links = re.sub(r'(?is)<script\b.*?</script>', ' ', html)
+        html_links = re.sub(r'(?is)<style\b.*?</style>', ' ', html_links)
+        for am in re.finditer(r'(?is)<a\b[^>]*href\s*=\s*(?:"([^"]*)"|\'([^\']*)\'|([^\s>]+))[^>]*>(.*?)</a>', html_links):
+            href = clean_href_value(am.group(1) or am.group(2) or am.group(3) or '')
             text = strip_tags(am.group(4) or '')
             low = (href + ' ' + text).lower()
-            if any(k in low for k in ['политик', 'конфиденц', 'персональн', 'privacy']):
+            if has_privacy_hint(low):
                 privacy_links.append({'page': url, 'href': href, 'text': text[:220]})
 
         h2 = re.sub(r'(?is)<script\b.*?</script>', ' ', html)
@@ -476,7 +580,6 @@ def run_audit(base_url: str):
             ('href', r'(?is)\bhref\s*=\s*(?:"([^"]*)"|\'([^\']*)\'|([^\s>]+))'),
             ('src', r'(?is)\bsrc\s*=\s*(?:"([^"]*)"|\'([^\']*)\'|([^\s>]+))'),
             ('alt', r'(?is)\balt\s*=\s*(?:"([^"]*)"|\'([^\']*)\'|([^\s>]+))'),
-            ('class', r'(?is)\bclass\s*=\s*(?:"([^"]*)"|\'([^\']*)\')'),
         ]
 
         for aname, pat in attr_patterns:
@@ -517,6 +620,7 @@ def run_audit(base_url: str):
         'discovery': {
             'contact_urls': sorted(contact_urls),
             'booking_urls': sorted(booking_urls),
+            'legal_urls': sorted(legal_urls),
             'sources': {k: source_map.get(k, '') for k in sorted(set(urls))},
             'fallback_used': discovery['fallback_used'],
         },
