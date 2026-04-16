@@ -12,6 +12,12 @@ MANIFEST = ROOT / "data" / "sites_manifest.json"
 EXTERNAL_EMAIL_DOMAINS = {
     "gmail.com", "yandex.ru", "mail.ru", "bk.ru", "inbox.ru", "list.ru", "ya.ru"
 }
+PLACEHOLDER_EMAIL_DOMAINS = {
+    "example.com", "example.org", "example.net", "domain.ru", "domain.com", "test.com"
+}
+PLACEHOLDER_EMAIL_LOCALS = {
+    "example", "sample", "test", "username", "yourname", "name", "mail@example"
+}
 
 
 def site_host(value: str) -> str:
@@ -124,6 +130,22 @@ def parse_email_domain(email: str):
     return domain
 
 
+def is_placeholder_email(email: str) -> bool:
+    e = str(email or "").strip().lower()
+    if "@" not in e:
+        return False
+    local, domain = e.rsplit("@", 1)
+    local = local.strip()
+    domain = domain.strip().strip(".")
+    if domain in PLACEHOLDER_EMAIL_DOMAINS:
+        return True
+    if local in PLACEHOLDER_EMAIL_LOCALS:
+        return True
+    if local.startswith("example") or local.startswith("sample") or local.startswith("test"):
+        return True
+    return False
+
+
 def collect_email_candidates(item, audit):
     host = site_host(item.get("site", ""))
     seen = set()
@@ -140,6 +162,8 @@ def collect_email_candidates(item, audit):
 
     for source, email in raw:
         em = email.lower()
+        if is_placeholder_email(em):
+            continue
         if em in seen:
             continue
         seen.add(em)
@@ -248,6 +272,7 @@ def evaluate_spf_dmarc(item, audit):
     spf_lookup = dns_txt_records(domain)
     dmarc_lookup = dns_txt_records(f"_dmarc.{domain}")
 
+    critical_issues = []
     issues = []
     warns = []
     lines = [
@@ -256,6 +281,7 @@ def evaluate_spf_dmarc(item, audit):
     ]
 
     spf_info = "не найден"
+    spf_missing = False
     if not spf_lookup.get("ok"):
         warns.append(f"SPF DNS lookup error: {spf_lookup.get('error')}")
         spf_info = "ошибка DNS lookup"
@@ -263,8 +289,9 @@ def evaluate_spf_dmarc(item, audit):
         spf_records = [r for r in spf_lookup.get("txt", []) if r.lower().startswith("v=spf1")]
         if not spf_records:
             issues.append("SPF не найден")
+            spf_missing = True
         elif len(spf_records) > 1:
-            issues.append(f"Найдено несколько SPF записей ({len(spf_records)})")
+            critical_issues.append(f"Найдено несколько SPF записей ({len(spf_records)})")
             spf_info = short_record(spf_records[0])
         else:
             spf_info = short_record(spf_records[0])
@@ -272,6 +299,7 @@ def evaluate_spf_dmarc(item, audit):
                 warns.append("SPF содержит +all (слишком широкая политика)")
 
     dmarc_info = "не найден"
+    dmarc_missing = False
     if not dmarc_lookup.get("ok"):
         warns.append(f"DMARC DNS lookup error: {dmarc_lookup.get('error')}")
         dmarc_info = "ошибка DNS lookup"
@@ -279,6 +307,7 @@ def evaluate_spf_dmarc(item, audit):
         dmarc_records = [r for r in dmarc_lookup.get("txt", []) if r.lower().startswith("v=dmarc1")]
         if not dmarc_records:
             issues.append("DMARC не найден")
+            dmarc_missing = True
         elif len(dmarc_records) > 1:
             issues.append(f"Найдено несколько DMARC записей ({len(dmarc_records)})")
             dmarc_info = short_record(dmarc_records[0])
@@ -295,14 +324,19 @@ def evaluate_spf_dmarc(item, audit):
     lines.append(f"SPF: {spf_info}")
     lines.append(f"DMARC: {dmarc_info}")
 
+    if spf_missing and dmarc_missing:
+        critical_issues.append("SPF и DMARC не найдены")
+
+    if critical_issues:
+        lines.append("Проблемы: " + "; ".join(critical_issues))
     if issues:
-        lines.append("Проблемы: " + "; ".join(issues))
+        lines.append("Замечания: " + "; ".join(issues))
     if warns:
         lines.append("Замечания: " + "; ".join(warns))
 
-    if issues:
+    if critical_issues:
         status = "проблема"
-    elif warns:
+    elif issues or warns:
         status = "проверить"
     else:
         status = "ок"
