@@ -1,0 +1,106 @@
+{
+  "domain": "olimpdent.ru",
+  "pages": [
+    {
+      "requested": "https://olimpdent.ru/",
+      "status": null,
+      "final_url": "https://olimpdent.ru/",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "requested": "https://olimpdent.ru/contact",
+      "status": null,
+      "final_url": "https://olimpdent.ru/contact",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "requested": "https://olimpdent.ru/contacts",
+      "status": null,
+      "final_url": "https://olimpdent.ru/contacts",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "requested": "https://olimpdent.ru/kontakty",
+      "status": null,
+      "final_url": "https://olimpdent.ru/kontakty",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "requested": "https://olimpdent.ru/appointment",
+      "status": null,
+      "final_url": "https://olimpdent.ru/appointment",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "requested": "https://olimpdent.ru/booking",
+      "status": null,
+      "final_url": "https://olimpdent.ru/booking",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "requested": "https://olimpdent.ru/zapis",
+      "status": null,
+      "final_url": "https://olimpdent.ru/zapis",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    }
+  ],
+  "forms": [],
+  "emails": [],
+  "privacy_links": [],
+  "forbidden_hits": [],
+  "cert_errors": [
+    {
+      "url": "https://olimpdent.ru/",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "url": "https://olimpdent.ru/contact",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "url": "https://olimpdent.ru/contacts",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "url": "https://olimpdent.ru/kontakty",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "url": "https://olimpdent.ru/appointment",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "url": "https://olimpdent.ru/booking",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "url": "https://olimpdent.ru/zapis",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    }
+  ],
+  "discovery": {
+    "contact_urls": [
+      "https://olimpdent.ru/contact",
+      "https://olimpdent.ru/contacts",
+      "https://olimpdent.ru/kontakty"
+    ],
+    "booking_urls": [
+      "https://olimpdent.ru/appointment",
+      "https://olimpdent.ru/booking",
+      "https://olimpdent.ru/zapis"
+    ],
+    "sources": {
+      "https://olimpdent.ru/": "",
+      "https://olimpdent.ru/appointment": "fallback",
+      "https://olimpdent.ru/booking": "fallback",
+      "https://olimpdent.ru/contact": "fallback",
+      "https://olimpdent.ru/contacts": "fallback",
+      "https://olimpdent.ru/kontakty": "fallback",
+      "https://olimpdent.ru/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": true,
+      "booking": true
+    }
+  }
+}

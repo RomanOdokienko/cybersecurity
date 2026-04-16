@@ -1,0 +1,517 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Скрининг клиник — dashboard</title>
+  <style>
+    :root {
+      --line: #e6e8ef; --text: #1f2430; --muted: #707887;
+      --ok-bg: #e8f8ef; --ok-fg: #1d9e58;
+      --warn-bg: #fff6dd; --warn-fg: #b67a00;
+      --bad-bg: #ffe9ea; --bad-fg: #c5333a;
+      --na-bg: #f0f2f6; --na-fg: #6c7280;
+    }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family:Segoe UI,Arial,sans-serif; background:linear-gradient(180deg,#f8f9fc 0%,#f3f5fa 100%); color:var(--text); }
+    .wrap { max-width:calc(100vw - 12px); margin:14px auto; padding:0 6px 16px; }
+    h1 { margin:0; font-size:40px; letter-spacing:-0.02em; }
+    .sub { margin-top:8px; color:var(--muted); font-size:18px; }
+    .meta { margin-top:10px; font-size:13px; color:#7f8695; }
+    .cards { margin-top:14px; display:grid; grid-template-columns:repeat(5,minmax(110px,1fr)); gap:8px; }
+    .card { background:#fff; border:1px solid var(--line); border-radius:10px; padding:10px 12px; }
+    .card .n { font-size:24px; line-height:1; font-weight:800; }
+    .card .l { margin-top:3px; font-size:11px; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); font-weight:700; }
+    .n.ok{color:var(--ok-fg)} .n.warn{color:var(--warn-fg)} .n.bad{color:var(--bad-fg)} .n.na{color:var(--na-fg)} .n.total{color:#111827}
+    .table-wrap { margin-top:12px; background:#fff; border:1px solid var(--line); border-radius:12px; overflow-x:hidden; }
+    table { width:100%; min-width:0; border-collapse:collapse; table-layout:fixed; }
+    thead th { text-align:left; background:#fafbfe; border-bottom:1px solid var(--line); color:#576072; font-size:11px; letter-spacing:.04em; text-transform:uppercase; padding:10px 8px; white-space:normal; line-height:1.2; }
+    thead th.availability-col { background:#ecf4ff; color:#214b86; border-left:2px solid #cfe1ff; border-right:2px solid #cfe1ff; }
+    tbody td { border-bottom:1px solid var(--line); padding:8px 8px; font-size:12px; vertical-align:top; line-height:1.25; }
+    tbody td.availability-col { background:#f5faff; border-left:2px solid #cfe1ff; border-right:2px solid #cfe1ff; font-weight:700; }
+    .availability-badge { font-size:13px; padding:4px 9px; }
+    tbody tr:last-child td { border-bottom:0; }
+    .clickable{cursor:pointer} .clickable:hover{background:#f7f9ff}
+    .site { color:#5e6678; font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size:11px; overflow-wrap:anywhere; }
+    .site-link { color:#455066; text-decoration:none; border-bottom:1px dotted #9aa6bd; }
+    .site-link:hover { color:#24324f; text-decoration:none; border-bottom-color:#24324f; }
+    .clinic { font-weight:700; font-size:11px; overflow-wrap:anywhere; }
+    .badge { display:inline-block; padding:3px 8px; border-radius:999px; border:1px solid transparent; font-size:11px; font-weight:700; line-height:1.2; white-space:nowrap; }
+    .ok { background:var(--ok-bg); color:var(--ok-fg); border-color:#c8efd9; }
+    .warn { background:var(--warn-bg); color:var(--warn-fg); border-color:#f0d889; }
+    .bad { background:var(--bad-bg); color:var(--bad-fg); border-color:#f7c4c8; }
+    .na { background:var(--na-bg); color:var(--na-fg); border-color:#dde2ea; }
+    .notes { margin-top:10px; background:#fff; border:1px solid var(--line); border-radius:10px; padding:10px 12px; font-size:12px; color:#4e5565; line-height:1.35; }
+    thead th:nth-child(1), tbody td:nth-child(1) { width:16%; }
+    thead th:nth-child(2), tbody td:nth-child(2) { width:11%; }
+    thead th:nth-child(3), tbody td:nth-child(3) { width:15%; }
+    thead th:nth-child(4), tbody td:nth-child(4) { width:9%; }
+    thead th:nth-child(5), tbody td:nth-child(5) { width:9%; }
+    thead th:nth-child(6), tbody td:nth-child(6) { width:9%; }
+    thead th:nth-child(7), tbody td:nth-child(7) { width:9%; }
+    thead th:nth-child(8), tbody td:nth-child(8) { width:10%; }
+    thead th:nth-child(9), tbody td:nth-child(9) { width:6%; }
+    thead th:nth-child(10), tbody td:nth-child(10) { width:6%; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Скрининг клиник</h1>
+    <div class="sub">Быстрая проверка по ключевым критериям</div>
+    <div class="meta">Клик по строке открывает страницу с деталями и PoC</div>
+
+    <div class="cards">
+      <div class="card"><div class="n ok">1</div><div class="l">Слать</div></div>
+      <div class="card"><div class="n warn">29</div><div class="l">Проверить</div></div>
+      <div class="card"><div class="n na">0</div><div class="l">Не слать</div></div>
+      <div class="card"><div class="n bad">2</div><div class="l">Недоступны</div></div>
+      <div class="card"><div class="n total">32</div><div class="l">Всего</div></div>
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Клиника</th><th>Сайт</th><th class="availability-col">Доступность сайта</th><th>Сертификат</th><th>Форма: HTTPS</th><th>Форма: галочка</th><th>SPF / DMARC</th><th>Meta / Instagram</th><th>Политика</th><th>Итог</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+    <tr class="clickable" data-href="sites/dr-knyazkin-ru.html" tabindex="0">
+      <td><div class="clinic">Стоматология Князькина</div></td>
+      <td class="site"><a class="site-link" href="https://dr-knyazkin.ru" target="_blank" rel="noopener noreferrer">dr-knyazkin.ru</a></td>
+      <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge na">н/п</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge warn">проверить</span></td>
+    </tr>
+    
+    <tr class="clickable" data-href="sites/arideo-su.html" tabindex="0">
+      <td><div class="clinic">Аридео</div></td>
+      <td class="site"><a class="site-link" href="https://arideo.su" target="_blank" rel="noopener noreferrer">arideo.su</a></td>
+      <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge na">н/п</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">слать</span></td>
+    </tr>
+    
+    <tr class="clickable" data-href="sites/mx-medical-ru.html" tabindex="0">
+      <td><div class="clinic">MX Медикал</div></td>
+      <td class="site"><a class="site-link" href="https://mx-medical.ru" target="_blank" rel="noopener noreferrer">mx-medical.ru</a></td>
+      <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge warn">проверить</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge warn">проверить</span></td>
+    </tr>
+    
+    <tr class="clickable" data-href="sites/senseclinic-ru.html" tabindex="0">
+      <td><div class="clinic">Sense Clinic</div></td>
+      <td class="site"><a class="site-link" href="https://senseclinic.ru" target="_blank" rel="noopener noreferrer">senseclinic.ru</a></td>
+      <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge warn">проверить</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge warn">проверить</span></td>
+    </tr>
+    
+    <tr class="clickable" data-href="sites/ortodont-center-ru.html" tabindex="0">
+      <td><div class="clinic">Ortodont Center</div></td>
+      <td class="site"><a class="site-link" href="https://www.ortodont-center.ru" target="_blank" rel="noopener noreferrer">www.ortodont-center.ru</a></td>
+      <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge warn">проверить</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge warn">проверить</span></td>
+    </tr>
+    
+    <tr class="clickable" data-href="sites/medsi-ru.html" tabindex="0">
+      <td><div class="clinic">МЕДСИ</div></td>
+      <td class="site"><a class="site-link" href="https://medsi.ru" target="_blank" rel="noopener noreferrer">medsi.ru</a></td>
+      <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge warn">проверить</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge warn">проверить</span></td>
+    </tr>
+    
+    <tr class="clickable" data-href="sites/imclinic-dental.html" tabindex="0">
+      <td><div class="clinic">IM Clinic Dental</div></td>
+      <td class="site"><a class="site-link" href="https://imclinic.dental" target="_blank" rel="noopener noreferrer">imclinic.dental</a></td>
+      <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge warn">проверить</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge warn">проверить</span></td>
+    </tr>
+    
+    <tr class="clickable" data-href="sites/drblumkin-ru.html" tabindex="0">
+      <td><div class="clinic">Dr. Blumkin</div></td>
+      <td class="site"><a class="site-link" href="https://drblumkin.ru" target="_blank" rel="noopener noreferrer">drblumkin.ru</a></td>
+      <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge na">н/п</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge warn">проверить</span></td>
+    </tr>
+    
+    <tr class="clickable" data-href="sites/kmdental-ru.html" tabindex="0">
+      <td><div class="clinic">KM Dental</div></td>
+      <td class="site"><a class="site-link" href="https://kmdental.ru" target="_blank" rel="noopener noreferrer">kmdental.ru</a></td>
+      <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge na">н/п</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge warn">проверить</span></td>
+    </tr>
+    
+    <tr class="clickable" data-href="sites/stom-azbuka-ru.html" tabindex="0">
+      <td><div class="clinic">Стом-Азбука</div></td>
+      <td class="site"><a class="site-link" href="https://stom-azbuka.ru" target="_blank" rel="noopener noreferrer">stom-azbuka.ru</a></td>
+      <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge warn">проверить</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge warn">проверить</span></td>
+    </tr>
+    
+    <tr class="clickable" data-href="sites/olimpdent-ru.html" tabindex="0">
+      <td><div class="clinic">Олимпдент</div></td>
+      <td class="site"><a class="site-link" href="https://olimpdent.ru" target="_blank" rel="noopener noreferrer">olimpdent.ru</a></td>
+      <td class="availability-col"><span class="badge availability-badge bad">проблема</span></td>
+      <td><span class="badge na">-</span></td>
+      <td><span class="badge na">-</span></td>
+      <td><span class="badge na">-</span></td>
+      <td><span class="badge na">-</span></td>
+      <td><span class="badge na">-</span></td>
+      <td><span class="badge na">-</span></td>
+      <td><span class="badge na">-</span></td>
+    </tr>
+    
+    <tr class="clickable" data-href="sites/pravstom-ru.html" tabindex="0">
+      <td><div class="clinic">ПравСтом</div></td>
+      <td class="site"><a class="site-link" href="https://pravstom.ru" target="_blank" rel="noopener noreferrer">pravstom.ru</a></td>
+      <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge warn">проверить</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge warn">проверить</span></td>
+    </tr>
+    
+    <tr class="clickable" data-href="sites/stozubov-vsena4-ru.html" tabindex="0">
+      <td><div class="clinic">Сто Зубов</div></td>
+      <td class="site"><a class="site-link" href="https://stozubov-vsena4.ru" target="_blank" rel="noopener noreferrer">stozubov-vsena4.ru</a></td>
+      <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge warn">проверить</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge warn">проверить</span></td>
+    </tr>
+    
+    <tr class="clickable" data-href="sites/dentartmsk-com.html" tabindex="0">
+      <td><div class="clinic">DentArt MSK</div></td>
+      <td class="site"><a class="site-link" href="https://dentartmsk.com" target="_blank" rel="noopener noreferrer">dentartmsk.com</a></td>
+      <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge na">н/п</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge warn">проверить</span></td>
+    </tr>
+    
+    <tr class="clickable" data-href="sites/stone-dent-ru.html" tabindex="0">
+      <td><div class="clinic">Stone Dent</div></td>
+      <td class="site"><a class="site-link" href="https://stone-dent.ru" target="_blank" rel="noopener noreferrer">stone-dent.ru</a></td>
+      <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge warn">проверить</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge warn">проверить</span></td>
+    </tr>
+    
+    <tr class="clickable" data-href="sites/satellit-31-ru.html" tabindex="0">
+      <td><div class="clinic">Сателлит-31</div></td>
+      <td class="site"><a class="site-link" href="https://www.satellit-31.ru" target="_blank" rel="noopener noreferrer">www.satellit-31.ru</a></td>
+      <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge warn">проверить</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge warn">проверить</span></td>
+    </tr>
+    
+    <tr class="clickable" data-href="sites/amk-dental-clients-site.html" tabindex="0">
+      <td><div class="clinic">AMK Dental</div></td>
+      <td class="site"><a class="site-link" href="https://amk-dental.clients.site" target="_blank" rel="noopener noreferrer">amk-dental.clients.site</a></td>
+      <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge warn">проверить</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge warn">проверить</span></td>
+    </tr>
+    
+    <tr class="clickable" data-href="sites/dsclinic-msk-ru.html" tabindex="0">
+      <td><div class="clinic">DS Clinic</div></td>
+      <td class="site"><a class="site-link" href="https://dsclinic-msk.ru" target="_blank" rel="noopener noreferrer">dsclinic-msk.ru</a></td>
+      <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge warn">проверить</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge warn">проверить</span></td>
+    </tr>
+    
+    <tr class="clickable" data-href="sites/dentastayl-ru.html" tabindex="0">
+      <td><div class="clinic">Дентастайл</div></td>
+      <td class="site"><a class="site-link" href="https://dentastayl.ru" target="_blank" rel="noopener noreferrer">dentastayl.ru</a></td>
+      <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge warn">проверить</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge warn">проверить</span></td>
+    </tr>
+    
+    <tr class="clickable" data-href="sites/prof-dental-ru.html" tabindex="0">
+      <td><div class="clinic">Проф-Дентал</div></td>
+      <td class="site"><a class="site-link" href="https://prof-dental.ru" target="_blank" rel="noopener noreferrer">prof-dental.ru</a></td>
+      <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge na">н/п</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge warn">проверить</span></td>
+    </tr>
+    
+    <tr class="clickable" data-href="sites/stomatologiyamoyaulybka-msk-ru.html" tabindex="0">
+      <td><div class="clinic">Моя Улыбка</div></td>
+      <td class="site"><a class="site-link" href="https://stomatologiyamoyaulybka.msk.ru" target="_blank" rel="noopener noreferrer">stomatologiyamoyaulybka.msk.ru</a></td>
+      <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge na">н/п</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge warn">проверить</span></td>
+    </tr>
+    
+    <tr class="clickable" data-href="sites/mosgorzdrav-ru-sp2.html" tabindex="0">
+      <td><div class="clinic">Мосгорздрав СП2</div></td>
+      <td class="site"><a class="site-link" href="https://mosgorzdrav.ru/sp2" target="_blank" rel="noopener noreferrer">mosgorzdrav.ru/sp2</a></td>
+      <td class="availability-col"><span class="badge availability-badge bad">проблема</span></td>
+      <td><span class="badge na">-</span></td>
+      <td><span class="badge na">-</span></td>
+      <td><span class="badge na">-</span></td>
+      <td><span class="badge na">-</span></td>
+      <td><span class="badge na">-</span></td>
+      <td><span class="badge na">-</span></td>
+      <td><span class="badge na">-</span></td>
+    </tr>
+    
+    <tr class="clickable" data-href="sites/apple-stom-ru.html" tabindex="0">
+      <td><div class="clinic">Apple Stom</div></td>
+      <td class="site"><a class="site-link" href="https://www.apple-stom.ru" target="_blank" rel="noopener noreferrer">www.apple-stom.ru</a></td>
+      <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge warn">проверить</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge warn">проверить</span></td>
+    </tr>
+    
+    <tr class="clickable" data-href="sites/belayatochka-ru.html" tabindex="0">
+      <td><div class="clinic">Белая Точка</div></td>
+      <td class="site"><a class="site-link" href="https://belayatochka.ru" target="_blank" rel="noopener noreferrer">belayatochka.ru</a></td>
+      <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge warn">проверить</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge warn">проверить</span></td>
+    </tr>
+    
+    <tr class="clickable" data-href="sites/zubnoy24-ru.html" tabindex="0">
+      <td><div class="clinic">Зубной 24</div></td>
+      <td class="site"><a class="site-link" href="https://zubnoy24.ru" target="_blank" rel="noopener noreferrer">zubnoy24.ru</a></td>
+      <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge warn">проверить</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge warn">проверить</span></td>
+    </tr>
+    
+    <tr class="clickable" data-href="sites/esenliclinic-ru.html" tabindex="0">
+      <td><div class="clinic">Esenli Clinic</div></td>
+      <td class="site"><a class="site-link" href="https://esenliclinic.ru" target="_blank" rel="noopener noreferrer">esenliclinic.ru</a></td>
+      <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge warn">проверить</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge warn">проверить</span></td>
+    </tr>
+    
+    <tr class="clickable" data-href="sites/albertclinic-ru.html" tabindex="0">
+      <td><div class="clinic">Albert Clinic</div></td>
+      <td class="site"><a class="site-link" href="https://www.albertclinic.ru" target="_blank" rel="noopener noreferrer">www.albertclinic.ru</a></td>
+      <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge na">н/п</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge warn">проверить</span></td>
+    </tr>
+    
+    <tr class="clickable" data-href="sites/ecstom-ru.html" tabindex="0">
+      <td><div class="clinic">EC Stom</div></td>
+      <td class="site"><a class="site-link" href="https://ecstom.ru" target="_blank" rel="noopener noreferrer">ecstom.ru</a></td>
+      <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge na">н/п</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge warn">проверить</span></td>
+    </tr>
+    
+    <tr class="clickable" data-href="sites/tiptopdent-ru.html" tabindex="0">
+      <td><div class="clinic">TipTopDent</div></td>
+      <td class="site"><a class="site-link" href="https://www.tiptopdent.ru" target="_blank" rel="noopener noreferrer">www.tiptopdent.ru</a></td>
+      <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge warn">проверить</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge warn">проверить</span></td>
+    </tr>
+    
+    <tr class="clickable" data-href="sites/bersclinic-ru.html" tabindex="0">
+      <td><div class="clinic">Bers Clinic</div></td>
+      <td class="site"><a class="site-link" href="https://www.bersclinic.ru" target="_blank" rel="noopener noreferrer">www.bersclinic.ru</a></td>
+      <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge warn">проверить</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge warn">проверить</span></td>
+    </tr>
+    
+    <tr class="clickable" data-href="sites/stomatikmsk-ru.html" tabindex="0">
+      <td><div class="clinic">Stomatik MSK</div></td>
+      <td class="site"><a class="site-link" href="https://stomatikmsk.ru" target="_blank" rel="noopener noreferrer">stomatikmsk.ru</a></td>
+      <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge warn">проверить</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge warn">проверить</span></td>
+    </tr>
+    
+    <tr class="clickable" data-href="sites/tandem-clinic-ru.html" tabindex="0">
+      <td><div class="clinic">Тандем Клиник</div></td>
+      <td class="site"><a class="site-link" href="https://tandem-clinic.ru" target="_blank" rel="noopener noreferrer">tandem-clinic.ru</a></td>
+      <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge na">н/п</span></td>
+      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge ok">ок</span></td>
+      <td><span class="badge warn">проверить</span></td>
+    </tr>
+    
+        </tbody>
+      </table>
+    </div>
+
+    <div class="notes">
+      Для масштабирования на новые сайты: добавьте audit JSON в <code>data/audits</code>, запись в <code>data/sites_manifest.json</code>, затем запустите <code>python scripts/build_dashboard.py</code>.
+    </div>
+  </div>
+  <script>
+    document.querySelectorAll('tr.clickable').forEach(function(row){
+      row.addEventListener('click', function(){ window.location.href = row.dataset.href; });
+      row.addEventListener('keydown', function(e){
+        if(e.target && e.target.closest && e.target.closest('a')) return;
+        if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); window.location.href = row.dataset.href; }
+      });
+    });
+    document.querySelectorAll('a.site-link').forEach(function(link){
+      link.addEventListener('click', function(e){ e.stopPropagation(); });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,179 @@
+{
+  "domain": "tandem-clinic.ru",
+  "pages": [
+    {
+      "requested": "https://tandem-clinic.ru/",
+      "status": 200,
+      "final_url": "https://tandem-clinic.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://tandem-clinic.ru/kontakty/",
+      "status": 200,
+      "final_url": "https://tandem-clinic.ru/kontakty/",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://tandem-clinic.ru/",
+      "form_id": "header__search_input_wrapper",
+      "action_display": "action=\"/\"",
+      "open_tag": "<form class=\"header__search_input_wrapper\" action=\"/\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://tandem-clinic.ru/",
+      "form_id": "SIMPLE_FORM_5",
+      "action_display": "action=\"/\"",
+      "open_tag": "<form class=\"highlights__form js_appear_bottom\" name=\"SIMPLE_FORM_5\" action=\"/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"checkbox__native\" name=\"agreement\" type=\"checkbox\" checked required>",
+      "policy_poc": "<span class=\"checkbox__text\"> Даю согласие на <a href=\"/pravovaya-informatsiya/soglasie-na-obrabotku-personalnyh-dannyh/\" class=\"link\" target=\"_blank\">обработку своих"
+    },
+    {
+      "page": "https://tandem-clinic.ru/",
+      "form_id": "SIMPLE_FORM_4",
+      "action_display": "action=\"/\"",
+      "open_tag": "<form class=\"callback_form callback_form_popup__form\" name=\"SIMPLE_FORM_4\" action=\"/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"checkbox__native\" type=\"checkbox\" checked required>",
+      "policy_poc": "n> <span class=\"checkbox__text\"> Даю согласие на <a href=\"/pravovaya-informatsiya/soglasie-na-obrabotku-personalnyh-dannyh/\" class=\"link\" target=\"_blank\">обработку своих п"
+    },
+    {
+      "page": "https://tandem-clinic.ru/",
+      "form_id": "SIMPLE_FORM_1",
+      "action_display": "action=\"/\"",
+      "open_tag": "<form class=\"\" name=\"SIMPLE_FORM_1\" action=\"/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"checkbox__native\" type=\"checkbox\" checked required>",
+      "policy_poc": "\"checkbox__marker\"></span> <span class=\"checkbox__text\"> Даю согласие на <a href=\"/pravovaya-informatsiya/soglasie-na-obrabotku-personalnyh-dannyh/\" class=\"link\" target=\"_blank\">обработку своих персональных"
+    },
+    {
+      "page": "https://tandem-clinic.ru/",
+      "form_id": "SIMPLE_FORM_5",
+      "action_display": "action=\"/\"",
+      "open_tag": "<form class=\"callback_form callback_form_popup__form\" name=\"SIMPLE_FORM_5\" action=\"/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"checkbox__native\" type=\"checkbox\" checked required>",
+      "policy_poc": "<span class=\"checkbox__text\"> Даю согласие на <a href=\"/pravovaya-informatsiya/soglasie-na-obrabotku-personalnyh-dannyh/\" class=\"link\" target=\"_blank\">обработку своих"
+    },
+    {
+      "page": "https://tandem-clinic.ru/kontakty/",
+      "form_id": "header__search_input_wrapper",
+      "action_display": "action=\"/\"",
+      "open_tag": "<form class=\"header__search_input_wrapper\" action=\"/\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://tandem-clinic.ru/kontakty/",
+      "form_id": "SIMPLE_FORM_1",
+      "action_display": "action=\"/kontakty/\"",
+      "open_tag": "<form class=\"\" name=\"SIMPLE_FORM_1\" action=\"/kontakty/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"checkbox__native\" type=\"checkbox\" checked required>",
+      "policy_poc": "\"checkbox__marker\"></span> <span class=\"checkbox__text\"> Даю согласие на <a href=\"/pravovaya-informatsiya/soglasie-na-obrabotku-personalnyh-dannyh/\" class=\"link\" target=\"_blank\">обработку своих персональных"
+    },
+    {
+      "page": "https://tandem-clinic.ru/kontakty/",
+      "form_id": "SIMPLE_FORM_5",
+      "action_display": "action=\"/kontakty/\"",
+      "open_tag": "<form class=\"callback_form callback_form_popup__form\" name=\"SIMPLE_FORM_5\" action=\"/kontakty/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"checkbox__native\" type=\"checkbox\" checked required>",
+      "policy_poc": "<span class=\"checkbox__text\"> Даю согласие на <a href=\"/pravovaya-informatsiya/soglasie-na-obrabotku-personalnyh-dannyh/\" class=\"link\" target=\"_blank\">обработку своих"
+    }
+  ],
+  "emails": [
+    "tandem-clinic1@yandex.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://tandem-clinic.ru/",
+      "href": "/pravovaya-informatsiya/soglasie-na-obrabotku-personalnyh-dannyh/",
+      "text": "обработку своих персональных данных"
+    },
+    {
+      "page": "https://tandem-clinic.ru/",
+      "href": "#",
+      "text": "Политика защиты данных"
+    },
+    {
+      "page": "https://tandem-clinic.ru/",
+      "href": "/pravovaya-informatsiya/files/Политика_обработки_и_защиты_персональных_данных_Тандем.docx",
+      "text": "Политика защиты данных"
+    },
+    {
+      "page": "https://tandem-clinic.ru/kontakty/",
+      "href": "/pravovaya-informatsiya/soglasie-na-obrabotku-personalnyh-dannyh/",
+      "text": "обработку своих персональных данных"
+    },
+    {
+      "page": "https://tandem-clinic.ru/kontakty/",
+      "href": "#",
+      "text": "Политика защиты данных"
+    },
+    {
+      "page": "https://tandem-clinic.ru/kontakty/",
+      "href": "/pravovaya-informatsiya/files/Политика_обработки_и_защиты_персональных_данных_Тандем.docx",
+      "text": "Политика защиты данных"
+    }
+  ],
+  "forbidden_hits": [
+    {
+      "token": "wa.me",
+      "page": "https://tandem-clinic.ru/",
+      "context": "href=\"https://wa.me/+79852334454\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://tandem-clinic.ru/kontakty/",
+      "context": "href=\"https://wa.me/+79852334454\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://tandem-clinic.ru/kontakty/",
+      "context": "href=\"https://wa.me/+7 985 233-44-54\"",
+      "visibility": "только в коде"
+    }
+  ],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://tandem-clinic.ru/kontakty/"
+    ],
+    "booking_urls": [
+      "https://tandem-clinic.ru/"
+    ],
+    "sources": {
+      "https://tandem-clinic.ru/": "home-booking-candidate",
+      "https://tandem-clinic.ru/kontakty/": "navigation"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": false
+    }
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "domain": "arideo.su",
+  "pages": [
+    {
+      "requested": "https://arideo.su/",
+      "status": 200,
+      "final_url": "https://arideo.su/",
+      "error": null
+    },
+    {
+      "requested": "https://arideo.su/contacts/",
+      "status": 200,
+      "final_url": "https://arideo.su/contacts/",
+      "error": null
+    },
+    {
+      "requested": "https://arideo.su/appointment",
+      "status": 404,
+      "final_url": "https://arideo.su/appointment",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://arideo.su/booking",
+      "status": 404,
+      "final_url": "https://arideo.su/booking",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://arideo.su/zapis",
+      "status": 404,
+      "final_url": "https://arideo.su/zapis",
+      "error": "HTTPError 404"
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://arideo.su/",
+      "form_id": "quiz_form",
+      "action_display": "action=\"/\"",
+      "open_tag": "<form action=\"/\" id=\"quiz_form\" data-name=\"quiz_form\" novalidate=\"true\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://arideo.su/",
+      "form_id": "needs-validation feedback-form",
+      "action_display": "action=\"/local/api/\"",
+      "open_tag": "<form class=\"needs-validation feedback-form\" action=\"/local/api/\" novalidate>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "lg-7 col-sm-8 mb-sm-0 mb-2\"> <div class=\"text-14\">Нажимая на кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь с <a href=\"/agreement/\">политикой конфиденциальности</a></div> </div> <div class=\"col-xxl-4 c"
+    },
+    {
+      "page": "https://arideo.su/",
+      "form_id": "p-5 needs-validation feedback-form",
+      "action_display": "action=\"/local/api/\"",
+      "open_tag": "<form class=\"p-5 needs-validation feedback-form\" action=\"/local/api/\" novalidate>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "2\">Укажите свои имя, контактный номер телефона и в ближайшее время мы свяжемся с вами для согласования всех данных</div> <div class=\"pt-lg-3 mb-lg-4 pt-1 mb-2\"> <div class=\"form-group mb-lg-5 mb-2\">"
+    },
+    {
+      "page": "https://arideo.su/contacts/",
+      "form_id": "needs-validation feedback-form",
+      "action_display": "action=\"/local/api/\"",
+      "open_tag": "<form class=\"needs-validation feedback-form\" action=\"/local/api/\" novalidate>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "lg-7 col-sm-8 mb-sm-0 mb-2\"> <div class=\"text-14\">Нажимая на кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь с <a href=\"/agreement/\">политикой конфиденциальности</a></div> </div> <div class=\"col-xxl-4 c"
+    },
+    {
+      "page": "https://arideo.su/contacts/",
+      "form_id": "ps-lg-5 needs-validation feedback-form",
+      "action_display": "action=\"/local/api/\"",
+      "open_tag": "<form class=\"ps-lg-5 needs-validation feedback-form\" action=\"/local/api/\" novalidate>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "s=\"text-white pe-md-5 pe-sm-2 mb-sm-0 mb-2\"> Нажимая на кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь с <a href=\"/agreement/\">политикой конфиденциальности</a> </div> <div class=\"text-end\""
+    },
+    {
+      "page": "https://arideo.su/contacts/",
+      "form_id": "p-5 needs-validation feedback-form",
+      "action_display": "action=\"/local/api/\"",
+      "open_tag": "<form class=\"p-5 needs-validation feedback-form\" action=\"/local/api/\" novalidate>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "2\">Укажите свои имя, контактный номер телефона и в ближайшее время мы свяжемся с вами для согласования всех данных</div> <div class=\"pt-lg-3 mb-lg-4 pt-1 mb-2\"> <div class=\"form-group mb-lg-5 mb-2\">"
+    }
+  ],
+  "emails": [
+    "aos@3.0.0-beta.6.js",
+    "arideo@bk.ru",
+    "infinite-scroll@4.0.1.min.js",
+    "masonry-layout@4.2.2.js"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://arideo.su/",
+      "href": "/agreement/",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://arideo.su/contacts/",
+      "href": "/agreement/",
+      "text": "политикой конфиденциальности"
+    }
+  ],
+  "forbidden_hits": [
+    {
+      "token": "instagram",
+      "page": "https://arideo.su/",
+      "context": "href=\"https://www.instagram.com/tv/CYa_Ec0ouWN/?utm_medium=copy_link\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://arideo.su/",
+      "context": "href=\"https://www.instagram.com/tv/CYa_Ec0ouWN/?utm_medium=copy_link\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://arideo.su/",
+      "context": "href=\"https://www.instagram.com/reel/CXQiPifoTLj/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://arideo.su/",
+      "context": "href=\"https://www.instagram.com/reel/CXQiPifoTLj/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://arideo.su/",
+      "context": "href=\"https://www.instagram.com/p/CVyNzMZo0EF/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://arideo.su/",
+      "context": "href=\"https://www.instagram.com/p/CVyNzMZo0EF/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://arideo.su/",
+      "context": "src=\"/upload/resize_cache/iblock/9a9/306_306_2/WhatsApp Image 2021-12-17 at 13.05.30.jpeg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://arideo.su/",
+      "context": "src=\"/upload/resize_cache/iblock/7ed/306_306_2/WhatsApp Image 2021-12-17 at 13.05.35 (4).jpeg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://arideo.su/",
+      "context": "src=\"/upload/resize_cache/iblock/9e8/306_306_2/WhatsApp Image 2021-12-27 at 13.16.26.jpeg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://arideo.su/",
+      "context": "class=\"icon-svg-img icon-instagram-color icon-grad-to-blue-light icon-48\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://arideo.su/",
+      "context": "class=\"icon-svg icon-svg-32 link-share link-share-instagram me-1 ms-1\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://arideo.su/contacts/",
+      "context": "WhatsApp",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://arideo.su/contacts/",
+      "context": "href=\"https://wa.me/79774810708\"",
+      "visibility": "только в коде"
+    }
+  ],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://arideo.su/contacts/"
+    ],
+    "booking_urls": [
+      "https://arideo.su/appointment",
+      "https://arideo.su/booking",
+      "https://arideo.su/zapis"
+    ],
+    "sources": {
+      "https://arideo.su/": "",
+      "https://arideo.su/appointment": "fallback",
+      "https://arideo.su/booking": "fallback",
+      "https://arideo.su/contacts/": "navigation",
+      "https://arideo.su/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": true
+    }
+  }
+}

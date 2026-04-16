@@ -1,0 +1,183 @@
+{
+  "domain": "www.bersclinic.ru",
+  "pages": [
+    {
+      "requested": "https://www.bersclinic.ru/",
+      "status": 200,
+      "final_url": "https://www.bersclinic.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://www.bersclinic.ru/contacts/",
+      "status": 200,
+      "final_url": "https://www.bersclinic.ru/contacts/",
+      "error": null
+    },
+    {
+      "requested": "https://www.bersclinic.ru/appointment",
+      "status": 404,
+      "final_url": "https://www.bersclinic.ru/appointment",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://www.bersclinic.ru/booking",
+      "status": 404,
+      "final_url": "https://www.bersclinic.ru/booking",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://www.bersclinic.ru/zapis",
+      "status": 404,
+      "final_url": "https://www.bersclinic.ru/zapis",
+      "error": "HTTPError 404"
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://www.bersclinic.ru/",
+      "form_id": "SIMPLE_FORM_7",
+      "action_display": "action=\"/\"",
+      "open_tag": "<form name=\"SIMPLE_FORM_7\" action=\"/\" method=\"POST\" enctype=\"multipart/form-data\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" class=\"form-checkbox__input form-checkbox__input--visible\" id=\"licenses_inline_7\" checked name=\"licenses_popup\" required value=\"Y\">",
+      "policy_poc": "bel for=\"licenses_inline_7\" class=\"form-checkbox__label\"> <span> Я согласен на <a href=\"/include/licenses_detail.php\" target=\"_blank\">обработку персональных данных</a> </span> <span class=\"form-checkbox__box\"></s"
+    },
+    {
+      "page": "https://www.bersclinic.ru/",
+      "form_id": "subscribe-form",
+      "action_display": "action=\"/cabinet/subscribe/\"",
+      "open_tag": "<form action=\"/cabinet/subscribe/\" method=\"post\" class=\"subscribe-form\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.bersclinic.ru/",
+      "form_id": "search",
+      "action_display": "action=\"/search/\"",
+      "open_tag": "<form action=\"/search/\" class=\"search\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.bersclinic.ru/contacts/",
+      "form_id": "subscribe-form",
+      "action_display": "action=\"/cabinet/subscribe/\"",
+      "open_tag": "<form action=\"/cabinet/subscribe/\" method=\"post\" class=\"subscribe-form\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.bersclinic.ru/contacts/",
+      "form_id": "search",
+      "action_display": "action=\"/search/\"",
+      "open_tag": "<form action=\"/search/\" class=\"search\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    }
+  ],
+  "emails": [
+    "info@bers-clinic.ru",
+    "info@bersclinic.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://www.bersclinic.ru/",
+      "href": "/company/obrabotka-personalnyh-dannyh.php",
+      "text": "Обработка персональных данных"
+    },
+    {
+      "page": "https://www.bersclinic.ru/",
+      "href": "/include/licenses_detail.php",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://www.bersclinic.ru/",
+      "href": "/include/licenses_detail.php",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://www.bersclinic.ru/contacts/",
+      "href": "/company/obrabotka-personalnyh-dannyh.php",
+      "text": "Обработка персональных данных"
+    },
+    {
+      "page": "https://www.bersclinic.ru/contacts/",
+      "href": "/include/licenses_detail.php",
+      "text": "Политика конфиденциальности"
+    }
+  ],
+  "forbidden_hits": [
+    {
+      "token": "instagram",
+      "page": "https://www.bersclinic.ru/",
+      "context": "href=\"https://www.instagram.com/klinika_bers\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://www.bersclinic.ru/",
+      "context": "href=\"https://www.instagram.com/klinika_bers\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://www.bersclinic.ru/",
+      "context": "href=\"https://wa.me/79287794444\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://www.bersclinic.ru/contacts/",
+      "context": "href=\"https://www.instagram.com/klinika_bers\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://www.bersclinic.ru/contacts/",
+      "context": "href=\"https://www.instagram.com/klinika_bers\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://www.bersclinic.ru/contacts/",
+      "context": "href=\"https://wa.me/79287794444\"",
+      "visibility": "только в коде"
+    }
+  ],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://www.bersclinic.ru/contacts/"
+    ],
+    "booking_urls": [
+      "https://www.bersclinic.ru/appointment",
+      "https://www.bersclinic.ru/booking",
+      "https://www.bersclinic.ru/zapis"
+    ],
+    "sources": {
+      "https://www.bersclinic.ru/": "",
+      "https://www.bersclinic.ru/appointment": "fallback",
+      "https://www.bersclinic.ru/booking": "fallback",
+      "https://www.bersclinic.ru/contacts/": "navigation",
+      "https://www.bersclinic.ru/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": true
+    }
+  }
+}

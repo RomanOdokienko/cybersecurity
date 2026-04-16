@@ -1,0 +1,129 @@
+{
+  "domain": "stozubov-vsena4.ru",
+  "pages": [
+    {
+      "requested": "https://stozubov-vsena4.ru/",
+      "status": 200,
+      "final_url": "https://stozubov-vsena4.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://stozubov-vsena4.ru/contact",
+      "status": 403,
+      "final_url": "https://stozubov-vsena4.ru/contact",
+      "error": "HTTPError 403"
+    },
+    {
+      "requested": "https://stozubov-vsena4.ru/contacts",
+      "status": 403,
+      "final_url": "https://stozubov-vsena4.ru/contacts",
+      "error": "HTTPError 403"
+    },
+    {
+      "requested": "https://stozubov-vsena4.ru/kontakty",
+      "status": 403,
+      "final_url": "https://stozubov-vsena4.ru/kontakty",
+      "error": "HTTPError 403"
+    },
+    {
+      "requested": "https://stozubov-vsena4.ru/appointment",
+      "status": 403,
+      "final_url": "https://stozubov-vsena4.ru/appointment",
+      "error": "HTTPError 403"
+    },
+    {
+      "requested": "https://stozubov-vsena4.ru/booking",
+      "status": 403,
+      "final_url": "https://stozubov-vsena4.ru/booking",
+      "error": "HTTPError 403"
+    },
+    {
+      "requested": "https://stozubov-vsena4.ru/zapis",
+      "status": 403,
+      "final_url": "https://stozubov-vsena4.ru/zapis",
+      "error": "HTTPError 403"
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://stozubov-vsena4.ru/",
+      "form_id": "form1261981901",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1261981901\" name='form1261981901' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 t-form_bbonly\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(255, 94, 191);\">на обработку персональных данных</a> </div> </div> </div> </div> </div> <div class=\"t-quiz__result t-quiz__result_redirect t-quiz__screen-wrapper t-step-form__step\" data-result-url=\"/"
+    },
+    {
+      "page": "https://stozubov-vsena4.ru/",
+      "form_id": "form1261985361",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1261985361\" name='form1261985361' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 t-form_bbonly\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(255, 94, 191);\">на обработку персональных данных</a> </div> </div> </div> </div> </div> <div class=\"t-quiz__result t-quiz__result_redirect t-quiz__screen-wrapper t-step-form__step\" data-result-url=\"/"
+    },
+    {
+      "page": "https://stozubov-vsena4.ru/",
+      "form_id": "form1261931231",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1261931231\" name='form1261931231' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 t-form_bbonly\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(255, 94, 191);\">на обработку персональных данных</a> </div> </div> </div> </div> </div> <div class=\"t-quiz__result t-quiz__result_redirect t-quiz__screen-wrapper t-step-form__step\" data-result-url=\"/"
+    }
+  ],
+  "emails": [
+    "info@stozubov.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://stozubov-vsena4.ru/",
+      "href": "/politic",
+      "text": "на обработку персональных данных"
+    },
+    {
+      "page": "https://stozubov-vsena4.ru/",
+      "href": "/politic",
+      "text": "на&nbsp;обработку персональных данных"
+    },
+    {
+      "page": "https://stozubov-vsena4.ru/",
+      "href": "/politic",
+      "text": "Политика конфиденциальности"
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://stozubov-vsena4.ru/contact",
+      "https://stozubov-vsena4.ru/contacts",
+      "https://stozubov-vsena4.ru/kontakty"
+    ],
+    "booking_urls": [
+      "https://stozubov-vsena4.ru/appointment",
+      "https://stozubov-vsena4.ru/booking",
+      "https://stozubov-vsena4.ru/zapis"
+    ],
+    "sources": {
+      "https://stozubov-vsena4.ru/": "sitemap-form",
+      "https://stozubov-vsena4.ru/appointment": "fallback",
+      "https://stozubov-vsena4.ru/booking": "fallback",
+      "https://stozubov-vsena4.ru/contact": "fallback",
+      "https://stozubov-vsena4.ru/contacts": "fallback",
+      "https://stozubov-vsena4.ru/kontakty": "fallback",
+      "https://stozubov-vsena4.ru/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": true,
+      "booking": true
+    }
+  }
+}

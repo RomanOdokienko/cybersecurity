@@ -1,0 +1,113 @@
+{
+  "domain": "www.satellit-31.ru",
+  "pages": [
+    {
+      "requested": "https://www.satellit-31.ru/",
+      "status": 200,
+      "final_url": "https://www.satellit-31.ru/",
+      "error": null
+    },
+    {
+      "requested": "http://www.satellit-31.ru/contacts/",
+      "status": 200,
+      "final_url": "https://www.satellit-31.ru:443/contacts/",
+      "error": null
+    },
+    {
+      "requested": "https://www.satellit-31.ru/contacts/",
+      "status": 200,
+      "final_url": "https://www.satellit-31.ru/contacts/",
+      "error": null
+    },
+    {
+      "requested": "https://www.satellit-31.ru/appointment",
+      "status": 404,
+      "final_url": "https://www.satellit-31.ru/appointment",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://www.satellit-31.ru/booking",
+      "status": 404,
+      "final_url": "https://www.satellit-31.ru/booking",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://www.satellit-31.ru/zapis",
+      "status": 404,
+      "final_url": "https://www.satellit-31.ru/zapis",
+      "error": "HTTPError 404"
+    }
+  ],
+  "forms": [
+    {
+      "page": "http://www.satellit-31.ru/contacts/",
+      "form_id": "wpcf7-form",
+      "action_display": "action=\"/contacts/#wpcf7-f706-p41-o1\"",
+      "open_tag": "<form action=\"/contacts/#wpcf7-f706-p41-o1\" method=\"post\" class=\"wpcf7-form\" novalidate=\"novalidate\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.satellit-31.ru/contacts/",
+      "form_id": "wpcf7-form",
+      "action_display": "action=\"/contacts/#wpcf7-f706-p41-o1\"",
+      "open_tag": "<form action=\"/contacts/#wpcf7-f706-p41-o1\" method=\"post\" class=\"wpcf7-form\" novalidate=\"novalidate\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    }
+  ],
+  "emails": [
+    "info@satellit-31.ru"
+  ],
+  "privacy_links": [],
+  "forbidden_hits": [
+    {
+      "token": "facebook",
+      "page": "https://www.satellit-31.ru/",
+      "context": "src=\"https://www.facebook.com/tr?id=509093480559963&ev=PageView &noscript=1\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "http://www.satellit-31.ru/contacts/",
+      "context": "src=\"https://www.facebook.com/tr?id=509093480559963&ev=PageView &noscript=1\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://www.satellit-31.ru/contacts/",
+      "context": "src=\"https://www.facebook.com/tr?id=509093480559963&ev=PageView &noscript=1\"",
+      "visibility": "только в коде"
+    }
+  ],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "http://www.satellit-31.ru/contacts/",
+      "https://www.satellit-31.ru/contacts/"
+    ],
+    "booking_urls": [
+      "https://www.satellit-31.ru/appointment",
+      "https://www.satellit-31.ru/booking",
+      "https://www.satellit-31.ru/zapis"
+    ],
+    "sources": {
+      "http://www.satellit-31.ru/contacts/": "navigation",
+      "https://www.satellit-31.ru/": "",
+      "https://www.satellit-31.ru/appointment": "fallback",
+      "https://www.satellit-31.ru/booking": "fallback",
+      "https://www.satellit-31.ru/contacts/": "navigation",
+      "https://www.satellit-31.ru/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": true
+    }
+  }
+}

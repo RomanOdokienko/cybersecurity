@@ -1,0 +1,145 @@
+{
+  "domain": "medsi.ru",
+  "pages": [
+    {
+      "requested": "https://medsi.ru/",
+      "status": 200,
+      "final_url": "https://medsi.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://medsi.ru/press-centr/contacts/",
+      "status": 200,
+      "final_url": "https://medsi.ru/press-centr/contacts/",
+      "error": null
+    },
+    {
+      "requested": "https://medsi.ru/appointment",
+      "status": 404,
+      "final_url": "https://medsi.ru/appointment",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://medsi.ru/booking",
+      "status": 404,
+      "final_url": "https://medsi.ru/booking",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://medsi.ru/zapis",
+      "status": 404,
+      "final_url": "https://medsi.ru/zapis",
+      "error": "HTTPError 404"
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://medsi.ru/",
+      "form_id": "med-search-section__form",
+      "action_display": "action=\"\"",
+      "open_tag": "<form action=\"\" class=\"med-search-section__form\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://medsi.ru/",
+      "form_id": "med-info-item__content-block-element",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"med-info-item__content-block-element\" data-form-clinic >",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://medsi.ru/press-centr/contacts/",
+      "form_id": "med-search-section__form",
+      "action_display": "action=\"\"",
+      "open_tag": "<form action=\"\" class=\"med-search-section__form\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    }
+  ],
+  "emails": [
+    "info@medsigroup.ru",
+    "jquery.mCustomScrollbar@3.1.3.css",
+    "jquery@2.2.2.js",
+    "press@medsigroup.ru",
+    "slide-info@2x.webp"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://medsi.ru/",
+      "href": "/document.php?element=11431",
+      "text": "Политика в отношении обработки персональных данных"
+    },
+    {
+      "page": "https://medsi.ru/",
+      "href": "/document.php?element=104166116",
+      "text": "политикой использования куки-файлов"
+    },
+    {
+      "page": "https://medsi.ru/",
+      "href": "/document_politics.php",
+      "text": "Политикой обработки персональных данных"
+    },
+    {
+      "page": "https://medsi.ru/press-centr/contacts/",
+      "href": "/document.php?element=11431",
+      "text": "Политика в отношении обработки персональных данных"
+    },
+    {
+      "page": "https://medsi.ru/press-centr/contacts/",
+      "href": "/document.php?element=104166116",
+      "text": "политикой использования куки-файлов"
+    },
+    {
+      "page": "https://medsi.ru/press-centr/contacts/",
+      "href": "/document_politics.php",
+      "text": "Политикой обработки персональных данных"
+    }
+  ],
+  "forbidden_hits": [
+    {
+      "token": "m.me",
+      "page": "https://medsi.ru/",
+      "context": "href=\"https://perm.medsi.ru\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "m.me",
+      "page": "https://medsi.ru/press-centr/contacts/",
+      "context": "href=\"https://perm.medsi.ru\"",
+      "visibility": "только в коде"
+    }
+  ],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://medsi.ru/press-centr/contacts/"
+    ],
+    "booking_urls": [
+      "https://medsi.ru/appointment",
+      "https://medsi.ru/booking",
+      "https://medsi.ru/zapis"
+    ],
+    "sources": {
+      "https://medsi.ru/": "",
+      "https://medsi.ru/appointment": "fallback",
+      "https://medsi.ru/booking": "fallback",
+      "https://medsi.ru/press-centr/contacts/": "navigation",
+      "https://medsi.ru/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": true
+    }
+  }
+}

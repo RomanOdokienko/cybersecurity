@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Белая Точка — детали проверки</title>
+<style>
+body{margin:0;font-family:Segoe UI,Arial,sans-serif;background:#f4f6fb;color:#1f2430}
+.wrap{max-width:1100px;margin:24px auto;padding:0 16px 24px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.card{background:#fff;border:1px solid #e5e8ef;border-radius:12px;padding:12px 14px}
+.block{background:#fff;border:1px solid #e5e8ef;border-radius:12px;padding:14px 16px;margin-top:12px}
+h1{margin:0;font-size:30px}
+h2{margin:0 0 10px 0;font-size:18px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+a{color:#2b4dd7;text-decoration:none}
+a:hover{text-decoration:underline}
+ul{margin:0;padding-left:18px;line-height:1.45}
+li{margin:4px 0}
+.badge{display:inline-block;padding:3px 9px;border-radius:999px;font-size:12px;font-weight:700;border:1px solid transparent}
+.ok{background:#e8f8ef;color:#1d9e58;border-color:#c8efd9}
+.warn{background:#fff6dd;color:#b67a00;border-color:#f0d889}
+.bad{background:#ffe9ea;color:#c5333a;border-color:#f7c4c8}
+.na{background:#f0f2f6;color:#6c7280;border-color:#dde2ea}
+.alert{margin-top:12px;border-radius:10px;padding:10px 12px;border:1px solid transparent;font-size:14px;font-weight:600}
+.alert.ok{background:#e8f8ef;color:#1d9e58;border-color:#c8efd9}
+.alert.warn{background:#fff6dd;color:#b67a00;border-color:#f0d889}
+.alert.bad{background:#ffe9ea;color:#c5333a;border-color:#f7c4c8}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <a href="../dashboard.html">← Назад к дашборду</a>
+        <h1>Белая Точка</h1>
+        <div>belayatochka.ru</div>
+      </div>
+      <div class="card">Итог: <span class="badge warn">проверить</span></div>
+    </div>
+    <div class="alert ok">Доступность: ок. Найденные страницы доступны: 1 из 1.</div>
+
+    
+    <section class="block">
+      <h2>Доступность сайта <span class="badge ok">ок</span></h2>
+      <ul><li>Найденные страницы доступны: 1 из 1.</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Страницы проверки (основные найденные) <span class="badge ok">ок</span></h2>
+      <ul><li>http://belayatochka.ru/whitening — 200 (навигация)</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Доп. страницы из sitemap (формы) <span class="badge ok">ок</span></h2>
+      <ul><li>https://belayatochka.ru/ — 200 (sitemap: страница с формой)</li><li>https://belayatochka.ru/a-aligners — 200 (sitemap: страница с формой)</li><li>https://belayatochka.ru/a-hygiene — 200 (sitemap: страница с формой)</li><li>https://belayatochka.ru/a-hygienesup — 200 (sitemap: страница с формой)</li><li>https://belayatochka.ru/a-whitening — 200 (sitemap: страница с формой)</li><li>https://belayatochka.ru/addresses-of-clinics — 200 (sitemap: страница с формой)</li><li>https://belayatochka.ru/agreement — 200 (sitemap: страница с формой)</li><li>https://belayatochka.ru/aligner — 200 (sitemap: страница с формой)</li><li>https://belayatochka.ru/aligners-all — 200 (sitemap: страница с формой)</li><li>https://belayatochka.ru/approval-advertisement — 200 (sitemap: страница с формой)</li><li>https://belayatochka.ru/approval-opd — 200 (sitemap: страница с формой)</li><li>https://belayatochka.ru/clinic-naprichalnoi — 200 (sitemap: страница с формой)</li><li>https://belayatochka.ru/clinic-ochakovomatveeskaya — 200 (sitemap: страница с формой)</li><li>https://belayatochka.ru/clinic-voikovscaya — 200 (sitemap: страница с формой)</li><li>https://belayatochka.ru/consent — 200 (sitemap: страница с формой)</li><li>https://belayatochka.ru/expander — 200 (sitemap: страница с формой)</li><li>https://belayatochka.ru/gift-cards — 200 (sitemap: страница с формой)</li><li>https://belayatochka.ru/hygiene — 200 (sitemap: страница с формой)</li><li>https://belayatochka.ru/hygienesubscription — 200 (sitemap: страница с формой)</li><li>https://belayatochka.ru/oferta — 200 (sitemap: страница с формой)</li><li>https://belayatochka.ru/promo — 200 (sitemap: страница с формой)</li><li>https://belayatochka.ru/quiz1 — 200 (sitemap: страница с формой)</li><li>https://belayatochka.ru/quiz2 — 200 (sitemap: страница с формой)</li><li>https://belayatochka.ru/v-aligners — 200 (sitemap: страница с формой)</li><li>https://belayatochka.ru/v-hygiene — 200 (sitemap: страница с формой)</li><li>https://belayatochka.ru/v-hygienesup — 200 (sitemap: страница с формой)</li><li>https://belayatochka.ru/v-whitening — 200 (sitemap: страница с формой)</li><li>https://belayatochka.ru/whitening — 200 (sitemap: страница с формой)</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Fallback-пробы URL <span class="badge warn">проверить</span></h2>
+      <ul><li>https://belayatochka.ru/contact — 404 (fallback-путь) | HTTPError 404</li><li>https://belayatochka.ru/contacts — 404 (fallback-путь) | HTTPError 404</li><li>https://belayatochka.ru/kontakty — 404 (fallback-путь) | HTTPError 404</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Сертификат <span class="badge ok">ок</span></h2>
+      <ul><li>HTTPS-страницы открылись без TLS-ошибок.</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Форма: HTTPS <span class="badge ok">ок</span></h2>
+      <ul><li>Пример action: action=&#x27;&#x27;</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Форма: галочка <span class="badge bad">проблема</span></h2>
+      <ul><li>Всего форм: 105</li><li>Без checkbox: 2</li><li>https://belayatochka.ru/quiz1 | form1599580251 | action=&#x27;&#x27;</li><li>https://belayatochka.ru/quiz2 | form1599849011 | action=&#x27;&#x27;</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>SPF/DMARC <span class="badge warn">проверить</span></h2>
+      <ul><li>Email: info@belayatochka.ru (домен требует SPF/DMARC-проверки DNS)</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Meta / Instagram <span class="badge ok">ок</span></h2>
+      <ul><li>Совпадений по списку meta/instagram/facebook/whatsapp/messenger/threads не найдено.</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Политика <span class="badge ok">ок</span></h2>
+      <ul><li>https://belayatochka.ru/ -&gt; /consent (текст: с политикой конфиденциальности и обработки персональных данных)</li><li>https://belayatochka.ru/ -&gt; /approval-opd (текст: согласие на обработку персональных данных)</li><li>https://belayatochka.ru/ -&gt; /consent (текст: с&amp;nbsp;политикой конфиденциальности и&amp;nbsp;обработки персональных данных)</li><li>https://belayatochka.ru/ -&gt; /approval-opd (текст: согласие на&amp;nbsp;обработку персональных данных)</li><li>https://belayatochka.ru/ -&gt; http://belayatochka.ru/consent (текст: Политика конфиденциальности и обработки персональных данных)</li><li>http://belayatochka.ru/whitening -&gt; /consent (текст: с политикой конфиденциальности и обработки персональных данных)</li><li>http://belayatochka.ru/whitening -&gt; /approval-opd (текст: согласие на обработку персональных данных)</li><li>http://belayatochka.ru/whitening -&gt; http://belayatochka.ru/consent (текст: Политика конфиденциальности и обработки персональных данных)</li><li>http://belayatochka.ru/whitening -&gt; /consent (текст: с&amp;nbsp;политикой конфиденциальности и&amp;nbsp;обработки персональных данных)</li><li>http://belayatochka.ru/whitening -&gt; /approval-opd (текст: согласие на&amp;nbsp;обработку персональных данных)</li><li>https://belayatochka.ru/a-aligners -&gt; /consent (текст: с&amp;nbsp;политикой конфиденциальности и&amp;nbsp;обработки персональных данных)</li><li>https://belayatochka.ru/a-aligners -&gt; /approval-opd (текст: согласие на&amp;nbsp;обработку персональных данных)</li><li>https://belayatochka.ru/a-aligners -&gt; https://belayatochka.ru/approval-opd (текст: Согласие на обработку персональных данных)</li><li>https://belayatochka.ru/a-aligners -&gt; http://belayatochka.ru/consent (текст: Политика конфиденциальности и обработки персональных данных)</li><li>https://belayatochka.ru/a-hygiene -&gt; /consent (текст: с&amp;nbsp;политикой конфиденциальности и&amp;nbsp;обработки персональных данных)</li><li>https://belayatochka.ru/a-hygiene -&gt; /approval-opd (текст: согласие на&amp;nbsp;обработку персональных данных)</li><li>https://belayatochka.ru/a-hygiene -&gt; https://belayatochka.ru/approval-opd (текст: Согласие на обработку персональных данных)</li><li>https://belayatochka.ru/a-hygiene -&gt; http://belayatochka.ru/consent (текст: Политика конфиденциальности и обработки персональных данных)</li><li>https://belayatochka.ru/a-hygienesup -&gt; /consent (текст: с&amp;nbsp;политикой конфиденциальности и&amp;nbsp;обработки персональных данных)</li><li>https://belayatochka.ru/a-hygienesup -&gt; /approval-opd (текст: согласие на&amp;nbsp;обработку персональных данных)</li><li>https://belayatochka.ru/a-hygienesup -&gt; https://belayatochka.ru/approval-opd (текст: Согласие на обработку персональных данных)</li><li>https://belayatochka.ru/a-hygienesup -&gt; http://belayatochka.ru/consent (текст: Политика конфиденциальности и обработки персональных данных)</li><li>https://belayatochka.ru/a-whitening -&gt; /consent (текст: с&amp;nbsp;политикой конфиденциальности и&amp;nbsp;обработки персональных данных)</li><li>https://belayatochka.ru/a-whitening -&gt; /approval-opd (текст: согласие на&amp;nbsp;обработку персональных данных)</li><li>https://belayatochka.ru/a-whitening -&gt; \&quot;\/consent\&quot; (текст: \u0441&amp;nbsp;\u043f\u043e\u043b\u0438\u0442\u0438\u043a\u043e\u0439 \u043a\u043e\u043d\u0444\u0438\u0434\u0435\u043d\u0446\u0438\u0430\u043b\u044c\u043d\u043e\u0441\u0442\u0438 \u0438&amp;nbsp;\u043e\u0431\u0440\u0430\u0431\u)</li><li>https://belayatochka.ru/a-whitening -&gt; https://belayatochka.ru/approval-opd (текст: Согласие на обработку персональных данных)</li><li>https://belayatochka.ru/a-whitening -&gt; http://belayatochka.ru/consent (текст: Политика конфиденциальности и обработки персональных данных)</li><li>https://belayatochka.ru/addresses-of-clinics -&gt; /consent (текст: с политикой конфиденциальности и обработки персональных данных)</li><li>https://belayatochka.ru/addresses-of-clinics -&gt; /approval-opd (текст: согласие на обработку персональных данных)</li><li>https://belayatochka.ru/addresses-of-clinics -&gt; http://belayatochka.ru/consent (текст: Политика конфиденциальности и обработки персональных данных)</li><li>https://belayatochka.ru/addresses-of-clinics -&gt; /consent (текст: с&amp;nbsp;политикой конфиденциальности и&amp;nbsp;обработки персональных данных)</li><li>https://belayatochka.ru/addresses-of-clinics -&gt; /approval-opd (текст: согласие на&amp;nbsp;обработку персональных данных)</li><li>https://belayatochka.ru/agreement -&gt; /consent (текст: с политикой конфиденциальности и обработки персональных данных)</li><li>https://belayatochka.ru/agreement -&gt; /approval-opd (текст: согласие на обработку персональных данных)</li><li>https://belayatochka.ru/agreement -&gt; http://belayatochka.ru/consent (текст: Политика конфиденциальности и обработки персональных данных)</li><li>https://belayatochka.ru/agreement -&gt; /consent (текст: с&amp;nbsp;политикой конфиденциальности и&amp;nbsp;обработки персональных данных)</li><li>https://belayatochka.ru/agreement -&gt; /approval-opd (текст: согласие на&amp;nbsp;обработку персональных данных)</li><li>https://belayatochka.ru/aligner -&gt; /consent (текст: с политикой конфиденциальности и обработки персональных данных)</li><li>https://belayatochka.ru/aligner -&gt; /approval-opd (текст: согласие на обработку персональных данных)</li><li>https://belayatochka.ru/aligner -&gt; http://belayatochka.ru/consent (текст: Политика конфиденциальности и обработки персональных данных)</li></ul>
+    </section>
+    
+
+    <section class="block">
+      <h2>Сырые данные</h2>
+      <ul>
+        <li>Audit JSON: <a href="../data/audits/belayatochka.audit.json">data/audits/belayatochka.audit.json</a></li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>

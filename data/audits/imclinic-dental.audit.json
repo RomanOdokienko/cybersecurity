@@ -1,0 +1,268 @@
+{
+  "domain": "imclinic.dental",
+  "pages": [
+    {
+      "requested": "https://imclinic.dental/",
+      "status": 200,
+      "final_url": "https://imclinic.dental/",
+      "error": null
+    },
+    {
+      "requested": "https://imclinic.dental/articles/kontaktnyy-karies-skrytaya-ugroza-dlya-zdorovya-zubov-/",
+      "status": 200,
+      "final_url": "https://imclinic.dental/articles/kontaktnyy-karies-skrytaya-ugroza-dlya-zdorovya-zubov-/",
+      "error": null
+    },
+    {
+      "requested": "https://imclinic.dental/contacts/",
+      "status": 200,
+      "final_url": "https://imclinic.dental/contacts/",
+      "error": null
+    },
+    {
+      "requested": "https://imclinic.dental/booking/",
+      "status": 200,
+      "final_url": "https://imclinic.dental/booking/",
+      "error": null
+    },
+    {
+      "requested": "https://imclinic.dental/services/online-konsultacia/",
+      "status": 200,
+      "final_url": "https://imclinic.dental/services/online-konsultacia/",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://imclinic.dental/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\" data-captcha=\"0\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"0\" name=\"fields[terms]\" required />",
+      "policy_poc": "вы соглашаетесь с <a href=\"/doc/personal-dannie/\" rel=\"nofollow noopener\" target=\"_blank\">политикой обработки персональных данных</a>.</span> </label> <label class=\"form__input form__i"
+    },
+    {
+      "page": "https://imclinic.dental/articles/kontaktnyy-karies-skrytaya-ugroza-dlya-zdorovya-zubov-/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\" data-captcha=\"0\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"0\" name=\"fields[terms]\" required />",
+      "policy_poc": "вы соглашаетесь с <a href=\"/doc/personal-dannie/\" rel=\"nofollow noopener\" target=\"_blank\">политикой обработки персональных данных</a>.</span> </label> <label class=\"form__input form__i"
+    },
+    {
+      "page": "https://imclinic.dental/contacts/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\" data-captcha=\"0\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"0\" name=\"fields[terms]\" required />",
+      "policy_poc": "вы соглашаетесь с <a href=\"/doc/personal-dannie/\" rel=\"nofollow noopener\" target=\"_blank\">политикой обработки персональных данных</a>.</span> </label> <label class=\"form__input form__i"
+    },
+    {
+      "page": "https://imclinic.dental/booking/",
+      "form_id": "form Записаться в I'M CLINIC",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form Записаться в I'M CLINIC\" data-captcha=\"0\" data-ym_target=\"335037542\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"0\" name=\"fields[terms]\" required />",
+      "policy_poc": "вы соглашаетесь с <a href=\"/doc/personal-dannie/\" rel=\"nofollow noopener\" target=\"_blank\">политикой обработки персональных данных</a>.</span> </label> <label class=\"form__input form__i"
+    },
+    {
+      "page": "https://imclinic.dental/booking/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\" data-captcha=\"0\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"0\" name=\"fields[terms]\" required />",
+      "policy_poc": "вы соглашаетесь с <a href=\"/doc/personal-dannie/\" rel=\"nofollow noopener\" target=\"_blank\">политикой обработки персональных данных</a>.</span> </label> <label class=\"form__input form__i"
+    },
+    {
+      "page": "https://imclinic.dental/services/online-konsultacia/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\" data-captcha=\"0\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"0\" name=\"fields[terms]\" required />",
+      "policy_poc": "вы соглашаетесь с <a href=\"/doc/personal-dannie/\" rel=\"nofollow noopener\" target=\"_blank\">политикой обработки персональных данных</a>.</span> </label> <label class=\"form__input form__i"
+    }
+  ],
+  "emails": [
+    "example@imclinic.dental",
+    "info@imclinic.dental"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://imclinic.dental/",
+      "href": "/doc/personal-dannie/",
+      "text": "Обработка персональных данных"
+    },
+    {
+      "page": "https://imclinic.dental/",
+      "href": "/doc/personal-dannie/",
+      "text": "политикой обработки персональных данных"
+    },
+    {
+      "page": "https://imclinic.dental/",
+      "href": "/doc/personal-dannie/",
+      "text": "Персональные данные"
+    },
+    {
+      "page": "https://imclinic.dental/articles/kontaktnyy-karies-skrytaya-ugroza-dlya-zdorovya-zubov-/",
+      "href": "/doc/personal-dannie/",
+      "text": "Обработка персональных данных"
+    },
+    {
+      "page": "https://imclinic.dental/articles/kontaktnyy-karies-skrytaya-ugroza-dlya-zdorovya-zubov-/",
+      "href": "/doc/personal-dannie/",
+      "text": "политикой обработки персональных данных"
+    },
+    {
+      "page": "https://imclinic.dental/articles/kontaktnyy-karies-skrytaya-ugroza-dlya-zdorovya-zubov-/",
+      "href": "/doc/personal-dannie/",
+      "text": "Персональные данные"
+    },
+    {
+      "page": "https://imclinic.dental/contacts/",
+      "href": "/doc/personal-dannie/",
+      "text": "Обработка персональных данных"
+    },
+    {
+      "page": "https://imclinic.dental/contacts/",
+      "href": "/doc/personal-dannie/",
+      "text": "политикой обработки персональных данных"
+    },
+    {
+      "page": "https://imclinic.dental/contacts/",
+      "href": "/doc/personal-dannie/",
+      "text": "Персональные данные"
+    },
+    {
+      "page": "https://imclinic.dental/booking/",
+      "href": "/doc/personal-dannie/",
+      "text": "политикой обработки персональных данных"
+    },
+    {
+      "page": "https://imclinic.dental/booking/",
+      "href": "/doc/personal-dannie/",
+      "text": "Обработка персональных данных"
+    },
+    {
+      "page": "https://imclinic.dental/booking/",
+      "href": "/doc/personal-dannie/",
+      "text": "Персональные данные"
+    },
+    {
+      "page": "https://imclinic.dental/services/online-konsultacia/",
+      "href": "/doc/personal-dannie/",
+      "text": "Обработка персональных данных"
+    },
+    {
+      "page": "https://imclinic.dental/services/online-konsultacia/",
+      "href": "/doc/personal-dannie/",
+      "text": "политикой обработки персональных данных"
+    },
+    {
+      "page": "https://imclinic.dental/services/online-konsultacia/",
+      "href": "/doc/personal-dannie/",
+      "text": "Персональные данные"
+    }
+  ],
+  "forbidden_hits": [
+    {
+      "token": "whatsapp",
+      "page": "https://imclinic.dental/",
+      "context": "WhatsApp",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://imclinic.dental/",
+      "context": "href=\"https://api.whatsapp.com/send/?phone=79957979494\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://imclinic.dental/articles/kontaktnyy-karies-skrytaya-ugroza-dlya-zdorovya-zubov-/",
+      "context": "WhatsApp",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://imclinic.dental/articles/kontaktnyy-karies-skrytaya-ugroza-dlya-zdorovya-zubov-/",
+      "context": "href=\"https://api.whatsapp.com/send/?phone=79957979494\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://imclinic.dental/contacts/",
+      "context": "WhatsApp",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://imclinic.dental/contacts/",
+      "context": "href=\"https://api.whatsapp.com/send/?phone=79957979494\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://imclinic.dental/booking/",
+      "context": "WhatsApp",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://imclinic.dental/booking/",
+      "context": "href=\"https://api.whatsapp.com/send/?phone=79957979494\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://imclinic.dental/services/online-konsultacia/",
+      "context": "WhatsApp",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://imclinic.dental/services/online-konsultacia/",
+      "context": "href=\"https://api.whatsapp.com/send/?phone=79957979494\"",
+      "visibility": "только в коде"
+    }
+  ],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://imclinic.dental/articles/kontaktnyy-karies-skrytaya-ugroza-dlya-zdorovya-zubov-/",
+      "https://imclinic.dental/contacts/"
+    ],
+    "booking_urls": [
+      "https://imclinic.dental/booking/",
+      "https://imclinic.dental/services/online-konsultacia/"
+    ],
+    "sources": {
+      "https://imclinic.dental/": "",
+      "https://imclinic.dental/articles/kontaktnyy-karies-skrytaya-ugroza-dlya-zdorovya-zubov-/": "navigation",
+      "https://imclinic.dental/booking/": "navigation",
+      "https://imclinic.dental/contacts/": "navigation",
+      "https://imclinic.dental/services/online-konsultacia/": "navigation"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": false
+    }
+  }
+}

@@ -1,0 +1,567 @@
+{
+  "domain": "www.ortodont-center.ru",
+  "pages": [
+    {
+      "requested": "https://www.ortodont-center.ru/",
+      "status": 200,
+      "final_url": "https://www.ortodont-center.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://www.ortodont-center.ru/clinics/mendeleevskaya/",
+      "status": 200,
+      "final_url": "https://www.ortodont-center.ru/clinics/mendeleevskaya/",
+      "error": null
+    },
+    {
+      "requested": "https://www.ortodont-center.ru/clinics/prospekt-vernadskogo/",
+      "status": 200,
+      "final_url": "https://www.ortodont-center.ru/clinics/prospekt-vernadskogo/",
+      "error": null
+    },
+    {
+      "requested": "https://www.ortodont-center.ru/clinics/tsvetnoy-bulvar/",
+      "status": 200,
+      "final_url": "https://www.ortodont-center.ru/clinics/tsvetnoy-bulvar/",
+      "error": null
+    },
+    {
+      "requested": "https://www.ortodont-center.ru/clinics/tulskaya/",
+      "status": 200,
+      "final_url": "https://www.ortodont-center.ru/clinics/tulskaya/",
+      "error": null
+    },
+    {
+      "requested": "https://www.ortodont-center.ru/clinics/ulitsa-1905-goda/",
+      "status": 200,
+      "final_url": "https://www.ortodont-center.ru/clinics/ulitsa-1905-goda/",
+      "error": null
+    },
+    {
+      "requested": "https://www.ortodont-center.ru/clinics/volokolamskaya/",
+      "status": 200,
+      "final_url": "https://www.ortodont-center.ru/clinics/volokolamskaya/",
+      "error": null
+    },
+    {
+      "requested": "https://www.ortodont-center.ru/appointment/",
+      "status": 200,
+      "final_url": "https://www.ortodont-center.ru/appointment/",
+      "error": null
+    },
+    {
+      "requested": "https://www.ortodont-center.ru/special-offers/besplatnye-ortodonticheskie-konsultatsii/",
+      "status": 200,
+      "final_url": "https://www.ortodont-center.ru/special-offers/besplatnye-ortodonticheskie-konsultatsii/",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://www.ortodont-center.ru/",
+      "form_id": "form_1",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/",
+      "form_id": "form_2",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/",
+      "form_id": "header-search",
+      "action_display": "action=\"/search/\"",
+      "open_tag": "<form action=\"/search/\" class=\"header-search\" method=\"GET\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/",
+      "form_id": "form_4",
+      "action_display": "action=\"/search/\"",
+      "open_tag": "<form action=\"/search/\" method=\"GET\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/",
+      "form_id": "form_5",
+      "action_display": "action=\"/search/\"",
+      "open_tag": "<form action=\"/search/\" method=\"GET\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/clinics/mendeleevskaya/",
+      "form_id": "form_1",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/clinics/mendeleevskaya/",
+      "form_id": "form_2",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/clinics/mendeleevskaya/",
+      "form_id": "header-search",
+      "action_display": "action=\"/search/\"",
+      "open_tag": "<form action=\"/search/\" class=\"header-search\" method=\"GET\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/clinics/mendeleevskaya/",
+      "form_id": "form_4",
+      "action_display": "action=\"/search/\"",
+      "open_tag": "<form action=\"/search/\" method=\"GET\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/clinics/prospekt-vernadskogo/",
+      "form_id": "form_1",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/clinics/prospekt-vernadskogo/",
+      "form_id": "form_2",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/clinics/prospekt-vernadskogo/",
+      "form_id": "header-search",
+      "action_display": "action=\"/search/\"",
+      "open_tag": "<form action=\"/search/\" class=\"header-search\" method=\"GET\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/clinics/prospekt-vernadskogo/",
+      "form_id": "form_4",
+      "action_display": "action=\"/search/\"",
+      "open_tag": "<form action=\"/search/\" method=\"GET\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/clinics/tsvetnoy-bulvar/",
+      "form_id": "form_1",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/clinics/tsvetnoy-bulvar/",
+      "form_id": "form_2",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/clinics/tsvetnoy-bulvar/",
+      "form_id": "header-search",
+      "action_display": "action=\"/search/\"",
+      "open_tag": "<form action=\"/search/\" class=\"header-search\" method=\"GET\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/clinics/tsvetnoy-bulvar/",
+      "form_id": "form_4",
+      "action_display": "action=\"/search/\"",
+      "open_tag": "<form action=\"/search/\" method=\"GET\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/clinics/tulskaya/",
+      "form_id": "form_1",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/clinics/tulskaya/",
+      "form_id": "form_2",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/clinics/tulskaya/",
+      "form_id": "header-search",
+      "action_display": "action=\"/search/\"",
+      "open_tag": "<form action=\"/search/\" class=\"header-search\" method=\"GET\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/clinics/tulskaya/",
+      "form_id": "form_4",
+      "action_display": "action=\"/search/\"",
+      "open_tag": "<form action=\"/search/\" method=\"GET\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/clinics/ulitsa-1905-goda/",
+      "form_id": "form_1",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/clinics/ulitsa-1905-goda/",
+      "form_id": "form_2",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/clinics/ulitsa-1905-goda/",
+      "form_id": "header-search",
+      "action_display": "action=\"/search/\"",
+      "open_tag": "<form action=\"/search/\" class=\"header-search\" method=\"GET\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/clinics/ulitsa-1905-goda/",
+      "form_id": "form_4",
+      "action_display": "action=\"/search/\"",
+      "open_tag": "<form action=\"/search/\" method=\"GET\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/clinics/volokolamskaya/",
+      "form_id": "form_1",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/clinics/volokolamskaya/",
+      "form_id": "form_2",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/clinics/volokolamskaya/",
+      "form_id": "header-search",
+      "action_display": "action=\"/search/\"",
+      "open_tag": "<form action=\"/search/\" class=\"header-search\" method=\"GET\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/clinics/volokolamskaya/",
+      "form_id": "form_4",
+      "action_display": "action=\"/search/\"",
+      "open_tag": "<form action=\"/search/\" method=\"GET\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/appointment/",
+      "form_id": "form_1",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/appointment/",
+      "form_id": "form_2",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/appointment/",
+      "form_id": "header-search",
+      "action_display": "action=\"/search/\"",
+      "open_tag": "<form action=\"/search/\" class=\"header-search\" method=\"GET\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/appointment/",
+      "form_id": "form-APPOINTMENT",
+      "action_display": "action=\"/appointment/\"",
+      "open_tag": "<form id=\"form-APPOINTMENT\" method=\"POST\" action=\"/appointment/\" name=\"APPOINTMENT\" data-cid=\"9a6eaf70266eab8e45b6b1ddf3c4467f\" enctype=\"multipart/form-data\" data-ajax-submit>",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input id=\"PROPERTY_AGREEMENT-1776340505-1\" class=\"custom-control-input\" type=\"checkbox\" name=\"PROPERTY_AGREEMENT\" value=\"1\" checked required data-msg=\"Обязательное поле\" >",
+      "policy_poc": "m-control-label\" for=\"PROPERTY_AGREEMENT-1776340505-1\"> Выражаю свое согласие на обработку персональных данных, с <a href=\"/about/processing-data/\" target=\"_blank\" title=\"Условия обработки персональных данных\">условиями обработки персо"
+    },
+    {
+      "page": "https://www.ortodont-center.ru/appointment/",
+      "form_id": "form_5",
+      "action_display": "action=\"/search/\"",
+      "open_tag": "<form action=\"/search/\" method=\"GET\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/special-offers/besplatnye-ortodonticheskie-konsultatsii/",
+      "form_id": "form_1",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/special-offers/besplatnye-ortodonticheskie-konsultatsii/",
+      "form_id": "form_2",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/special-offers/besplatnye-ortodonticheskie-konsultatsii/",
+      "form_id": "header-search",
+      "action_display": "action=\"/search/\"",
+      "open_tag": "<form action=\"/search/\" class=\"header-search\" method=\"GET\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://www.ortodont-center.ru/special-offers/besplatnye-ortodonticheskie-konsultatsii/",
+      "form_id": "category-global-form",
+      "action_display": "action=\"/local/api/forms/appointment/\"",
+      "open_tag": "<form id=\"category-global-form\" class=\"category-global-form\" action=\"/local/api/forms/appointment/\" name=\"APPOINTMENT\" method=\"POST\" data-cid=\"e4e3e8554f2d5b6c19ea3bf109237375\" data-ajax-submit>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "ree\" class=\"control-label active\" data-field=\"cgf-agree\"> Выражаю свое согласие на обработку персональных данных, с <a href=\"/about/processing-data/\">условиями обработки персональных данных</a> ознакомлен. </label>"
+    },
+    {
+      "page": "https://www.ortodont-center.ru/special-offers/besplatnye-ortodonticheskie-konsultatsii/",
+      "form_id": "form_5",
+      "action_display": "action=\"/search/\"",
+      "open_tag": "<form action=\"/search/\" method=\"GET\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    }
+  ],
+  "emails": [
+    "mail@ortodont-center.ru",
+    "novoslobodskaya@ortodont-center.ru",
+    "prospekt-vernadskogo@ortodont-center.ru",
+    "tsvetnoy-bulvar@ortodont-center.ru",
+    "tulskaya@ortodont-center.ru",
+    "ulitsa-1905-goda@ortodont-center.ru",
+    "volokolamskaya@ortodont-center.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://www.ortodont-center.ru/appointment/",
+      "href": "/about/processing-data/",
+      "text": "условиями обработки персональных данных"
+    },
+    {
+      "page": "https://www.ortodont-center.ru/special-offers/besplatnye-ortodonticheskie-konsultatsii/",
+      "href": "/about/processing-data/",
+      "text": "условиями обработки персональных данных"
+    }
+  ],
+  "forbidden_hits": [
+    {
+      "token": "whatsapp",
+      "page": "https://www.ortodont-center.ru/",
+      "context": "src=\"/upload/resize_cache/iblock/542/90_90_2/WhatsApp-Image-2020_08_31-at-10.52.13-_1_.jpeg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://www.ortodont-center.ru/special-offers/besplatnye-ortodonticheskie-konsultatsii/",
+      "context": "src=\"/upload/resize_cache/iblock/9d4/188_251_2/WhatsApp-Image-2019_09_03-at-09.29.41_2_.jpeg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://www.ortodont-center.ru/special-offers/besplatnye-ortodonticheskie-konsultatsii/",
+      "context": "src=\"/upload/resize_cache/iblock/a6b/90_90_2/WhatsApp-Image-2020_12_20-at-16.12.08.jpeg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://www.ortodont-center.ru/special-offers/besplatnye-ortodonticheskie-konsultatsii/",
+      "context": "src=\"/upload/resize_cache/iblock/459/90_90_2/WhatsApp-Image-2021_02_25-at-12.31.12.jpeg\"",
+      "visibility": "только в коде"
+    }
+  ],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://www.ortodont-center.ru/clinics/mendeleevskaya/",
+      "https://www.ortodont-center.ru/clinics/prospekt-vernadskogo/",
+      "https://www.ortodont-center.ru/clinics/tsvetnoy-bulvar/",
+      "https://www.ortodont-center.ru/clinics/tulskaya/",
+      "https://www.ortodont-center.ru/clinics/ulitsa-1905-goda/",
+      "https://www.ortodont-center.ru/clinics/volokolamskaya/"
+    ],
+    "booking_urls": [
+      "https://www.ortodont-center.ru/appointment/",
+      "https://www.ortodont-center.ru/special-offers/besplatnye-ortodonticheskie-konsultatsii/"
+    ],
+    "sources": {
+      "https://www.ortodont-center.ru/": "",
+      "https://www.ortodont-center.ru/appointment/": "navigation",
+      "https://www.ortodont-center.ru/clinics/mendeleevskaya/": "navigation",
+      "https://www.ortodont-center.ru/clinics/prospekt-vernadskogo/": "navigation",
+      "https://www.ortodont-center.ru/clinics/tsvetnoy-bulvar/": "navigation",
+      "https://www.ortodont-center.ru/clinics/tulskaya/": "navigation",
+      "https://www.ortodont-center.ru/clinics/ulitsa-1905-goda/": "navigation",
+      "https://www.ortodont-center.ru/clinics/volokolamskaya/": "navigation",
+      "https://www.ortodont-center.ru/special-offers/besplatnye-ortodonticheskie-konsultatsii/": "navigation"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": false
+    }
+  }
+}

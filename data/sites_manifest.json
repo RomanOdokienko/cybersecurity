@@ -1,0 +1,258 @@
+﻿[
+  {
+    "id": "dr-knyazkin-ru",
+    "clinic": "Стоматология Князькина",
+    "site": "dr-knyazkin.ru",
+    "audit_file": "data/audits/dr-knyazkin.audit.json",
+    "contact_email": "drknyazkin@yandex.ru",
+    "result": "проверить"
+  },
+  {
+    "id": "arideo-su",
+    "clinic": "Аридео",
+    "site": "arideo.su",
+    "audit_file": "data/audits/arideo.audit.json",
+    "contact_email": "arideo@bk.ru",
+    "result": "слать"
+  },
+  {
+    "id": "mx-medical-ru",
+    "clinic": "MX Медикал",
+    "site": "mx-medical.ru",
+    "audit_file": "data/audits/mx-medical.audit.json",
+    "contact_email": "info@mx-medical.ru",
+    "result": "проверить"
+  },
+  {
+    "id": "senseclinic-ru",
+    "clinic": "Sense Clinic",
+    "site": "senseclinic.ru",
+    "audit_file": "data/audits/senseclinic.audit.json",
+    "contact_email": "info@senseclinic.ru",
+    "result": "проверить"
+  },
+  {
+    "id": "ortodont-center-ru",
+    "clinic": "Ortodont Center",
+    "site": "www.ortodont-center.ru",
+    "audit_file": "data/audits/ortodont-center.audit.json",
+    "contact_email": "mail@ortodont-center.ru",
+    "result": "проверить"
+  },
+  {
+    "id": "medsi-ru",
+    "clinic": "МЕДСИ",
+    "site": "medsi.ru",
+    "audit_file": "data/audits/medsi.audit.json",
+    "contact_email": "info@medsigroup.ru",
+    "result": "проверить"
+  },
+  {
+    "id": "imclinic-dental",
+    "clinic": "IM Clinic Dental",
+    "site": "imclinic.dental",
+    "audit_file": "data/audits/imclinic-dental.audit.json",
+    "contact_email": "",
+    "result": "проверить"
+  },
+  {
+    "id": "drblumkin-ru",
+    "clinic": "Dr. Blumkin",
+    "site": "drblumkin.ru",
+    "audit_file": "data/audits/drblumkin.audit.json",
+    "contact_email": "stomatprofi@mail.ru",
+    "result": "проверить"
+  },
+  {
+    "id": "kmdental-ru",
+    "clinic": "KM Dental",
+    "site": "kmdental.ru",
+    "audit_file": "data/audits/kmdental.audit.json",
+    "contact_email": "kmdental@yandex.ru",
+    "result": "проверить"
+  },
+  {
+    "id": "stom-azbuka-ru",
+    "clinic": "Стом-Азбука",
+    "site": "stom-azbuka.ru",
+    "audit_file": "data/audits/stom-azbuka.audit.json",
+    "contact_email": "info@stom-azbuka.ru",
+    "result": "проверить"
+  },
+  {
+    "id": "olimpdent-ru",
+    "clinic": "Олимпдент",
+    "site": "olimpdent.ru",
+    "audit_file": "data/audits/olimpdent.audit.json",
+    "contact_email": "",
+    "result": "проверить"
+  },
+  {
+    "id": "pravstom-ru",
+    "clinic": "ПравСтом",
+    "site": "pravstom.ru",
+    "audit_file": "data/audits/pravstom.audit.json",
+    "contact_email": "",
+    "result": "проверить"
+  },
+  {
+    "id": "stozubov-vsena4-ru",
+    "clinic": "Сто Зубов",
+    "site": "stozubov-vsena4.ru",
+    "audit_file": "data/audits/stozubov-vsena4.audit.json",
+    "contact_email": "info@stozubov.ru",
+    "result": "проверить"
+  },
+  {
+    "id": "dentartmsk-com",
+    "clinic": "DentArt MSK",
+    "site": "dentartmsk.com",
+    "audit_file": "data/audits/dentartmsk.audit.json",
+    "contact_email": "dentartmskclinic2022@yandex.ru",
+    "result": "проверить"
+  },
+  {
+    "id": "stone-dent-ru",
+    "clinic": "Stone Dent",
+    "site": "stone-dent.ru",
+    "audit_file": "data/audits/stone-dent.audit.json",
+    "contact_email": "mail@stone-dent.ru",
+    "result": "проверить"
+  },
+  {
+    "id": "satellit-31-ru",
+    "clinic": "Сателлит-31",
+    "site": "www.satellit-31.ru",
+    "audit_file": "data/audits/satellit-31.audit.json",
+    "contact_email": "info@satellit-31.ru",
+    "result": "проверить"
+  },
+  {
+    "id": "amk-dental-clients-site",
+    "clinic": "AMK Dental",
+    "site": "amk-dental.clients.site",
+    "audit_file": "data/audits/amk-dental-clients-site.audit.json",
+    "contact_email": "",
+    "result": "проверить"
+  },
+  {
+    "id": "dsclinic-msk-ru",
+    "clinic": "DS Clinic",
+    "site": "dsclinic-msk.ru",
+    "audit_file": "data/audits/dsclinic-msk.audit.json",
+    "contact_email": "info@dsclinic-msk.ru",
+    "result": "проверить"
+  },
+  {
+    "id": "dentastayl-ru",
+    "clinic": "Дентастайл",
+    "site": "dentastayl.ru",
+    "audit_file": "data/audits/dentastayl.audit.json",
+    "contact_email": "",
+    "result": "проверить"
+  },
+  {
+    "id": "prof-dental-ru",
+    "clinic": "Проф-Дентал",
+    "site": "prof-dental.ru",
+    "audit_file": "data/audits/prof-dental.audit.json",
+    "contact_email": "prof.dental.ru@yandex.ru",
+    "result": "проверить"
+  },
+  {
+    "id": "stomatologiyamoyaulybka-msk-ru",
+    "clinic": "Моя Улыбка",
+    "site": "stomatologiyamoyaulybka.msk.ru",
+    "audit_file": "data/audits/stomatologiyamoyaulybka.audit.json",
+    "contact_email": "improdent@mail.ru",
+    "result": "проверить"
+  },
+  {
+    "id": "mosgorzdrav-ru-sp2",
+    "clinic": "Мосгорздрав СП2",
+    "site": "mosgorzdrav.ru/sp2",
+    "audit_file": "data/audits/mosgorzdrav-sp2.audit.json",
+    "contact_email": "",
+    "result": "проверить"
+  },
+  {
+    "id": "apple-stom-ru",
+    "clinic": "Apple Stom",
+    "site": "www.apple-stom.ru",
+    "audit_file": "data/audits/apple-stom.audit.json",
+    "contact_email": "info@apple-stom.ru",
+    "result": "проверить"
+  },
+  {
+    "id": "belayatochka-ru",
+    "clinic": "Белая Точка",
+    "site": "belayatochka.ru",
+    "audit_file": "data/audits/belayatochka.audit.json",
+    "contact_email": "info@belayatochka.ru",
+    "result": "проверить"
+  },
+  {
+    "id": "zubnoy24-ru",
+    "clinic": "Зубной 24",
+    "site": "zubnoy24.ru",
+    "audit_file": "data/audits/zubnoy24.audit.json",
+    "contact_email": "",
+    "result": "проверить"
+  },
+  {
+    "id": "esenliclinic-ru",
+    "clinic": "Esenli Clinic",
+    "site": "esenliclinic.ru",
+    "audit_file": "data/audits/esenliclinic.audit.json",
+    "contact_email": "",
+    "result": "проверить"
+  },
+  {
+    "id": "albertclinic-ru",
+    "clinic": "Albert Clinic",
+    "site": "www.albertclinic.ru",
+    "audit_file": "data/audits/albertclinic.audit.json",
+    "contact_email": "albertclinic@ya.ru",
+    "result": "проверить"
+  },
+  {
+    "id": "ecstom-ru",
+    "clinic": "EC Stom",
+    "site": "ecstom.ru",
+    "audit_file": "data/audits/ecstom.audit.json",
+    "contact_email": "ecs.stom@gmail.com",
+    "result": "проверить"
+  },
+  {
+    "id": "tiptopdent-ru",
+    "clinic": "TipTopDent",
+    "site": "www.tiptopdent.ru",
+    "audit_file": "data/audits/tiptopdent.audit.json",
+    "contact_email": "ivanov@tiptop.ru",
+    "result": "проверить"
+  },
+  {
+    "id": "bersclinic-ru",
+    "clinic": "Bers Clinic",
+    "site": "www.bersclinic.ru",
+    "audit_file": "data/audits/bersclinic.audit.json",
+    "contact_email": "info@bers-clinic.ru",
+    "result": "проверить"
+  },
+  {
+    "id": "stomatikmsk-ru",
+    "clinic": "Stomatik MSK",
+    "site": "stomatikmsk.ru",
+    "audit_file": "data/audits/stomatikmsk.audit.json",
+    "contact_email": "info@stomatikmsk.ru",
+    "result": "проверить"
+  },
+  {
+    "id": "tandem-clinic-ru",
+    "clinic": "Тандем Клиник",
+    "site": "tandem-clinic.ru",
+    "audit_file": "data/audits/tandem-clinic.audit.json",
+    "contact_email": "tandem-clinic1@yandex.ru",
+    "result": "проверить"
+  }
+]

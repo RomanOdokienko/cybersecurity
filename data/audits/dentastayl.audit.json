@@ -1,0 +1,155 @@
+{
+  "domain": "dentastayl.ru",
+  "pages": [
+    {
+      "requested": "http://dentastayl.ru/",
+      "status": 200,
+      "final_url": "http://dentastayl.ru/",
+      "error": null
+    },
+    {
+      "requested": "http://dentastayl.ru/contacts",
+      "status": 200,
+      "final_url": "http://dentastayl.ru/contacts",
+      "error": null
+    },
+    {
+      "requested": "http://dentastayl.ru/registratsiya",
+      "status": 200,
+      "final_url": "http://dentastayl.ru/registratsiya",
+      "error": null
+    },
+    {
+      "requested": "http://dentastayl.ru/otzyvy",
+      "status": 200,
+      "final_url": "http://dentastayl.ru/otzyvy",
+      "error": null
+    },
+    {
+      "requested": "http://dentastayl.ru/search",
+      "status": 200,
+      "final_url": "http://dentastayl.ru/search",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "http://dentastayl.ru/registratsiya",
+      "form_id": "form_1",
+      "action_display": "action=\"/registratsiya/login\"",
+      "open_tag": "<form action=\"/registratsiya/login\" method=\"post\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://dentastayl.ru/otzyvy",
+      "form_id": "s3_form",
+      "action_display": "action=\"/otzyvy\"",
+      "open_tag": "<form class=\"s3_form\" action=\"/otzyvy\" method=\"post\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "http://dentastayl.ru/search",
+      "form_id": "s3_form",
+      "action_display": "action=\"/search\"",
+      "open_tag": "<form class=\"s3_form\" method=\"get\" action=\"/search\" accept-charset=\"utf-8\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    }
+  ],
+  "emails": [
+    "dentastail4@mail.ru",
+    "dentastayl@mail.ru",
+    "dentastayl_2@mail.ru",
+    "sample@domain.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "http://dentastayl.ru/",
+      "href": "/politika-konfidentsialnosti",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "http://dentastayl.ru/contacts",
+      "href": "/politika-konfidentsialnosti",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "http://dentastayl.ru/registratsiya",
+      "href": "/politika-konfidentsialnosti",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "http://dentastayl.ru/registratsiya",
+      "href": "/registratsiya?mode=agreement",
+      "text": "согласие на передачу и обработку персональных данных"
+    },
+    {
+      "page": "http://dentastayl.ru/registratsiya",
+      "href": "/registratsiya?mode=policy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "http://dentastayl.ru/otzyvy",
+      "href": "/politika-konfidentsialnosti",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "http://dentastayl.ru/search",
+      "href": "/politika-konfidentsialnosti",
+      "text": "Политика конфиденциальности"
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [
+    {
+      "url": "https://dentastayl.ru/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://dentastayl.ru/contacts",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://dentastayl.ru/registratsiya",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://dentastayl.ru/otzyvy",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://dentastayl.ru/search",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    }
+  ],
+  "discovery": {
+    "contact_urls": [
+      "http://dentastayl.ru/contacts"
+    ],
+    "booking_urls": [
+      "http://dentastayl.ru/registratsiya"
+    ],
+    "sources": {
+      "http://dentastayl.ru/": "",
+      "http://dentastayl.ru/contacts": "sitemap",
+      "http://dentastayl.ru/otzyvy": "sitemap-form",
+      "http://dentastayl.ru/registratsiya": "sitemap-form",
+      "http://dentastayl.ru/search": "sitemap-form"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": false
+    }
+  }
+}

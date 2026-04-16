@@ -1,0 +1,244 @@
+{
+  "domain": "dentartmsk.com",
+  "pages": [
+    {
+      "requested": "https://dentartmsk.com/",
+      "status": 200,
+      "final_url": "https://dentartmsk.com/",
+      "error": null
+    },
+    {
+      "requested": "https://dentartmsk.com/contact",
+      "status": 403,
+      "final_url": "https://dentartmsk.com/contact",
+      "error": "HTTPError 403"
+    },
+    {
+      "requested": "https://dentartmsk.com/contacts",
+      "status": 403,
+      "final_url": "https://dentartmsk.com/contacts",
+      "error": "HTTPError 403"
+    },
+    {
+      "requested": "https://dentartmsk.com/kontakty",
+      "status": 403,
+      "final_url": "https://dentartmsk.com/kontakty",
+      "error": "HTTPError 403"
+    },
+    {
+      "requested": "https://dentartmsk.com/allon4lenmiriot",
+      "status": 200,
+      "final_url": "https://dentartmsk.com/allon4lenmiriot",
+      "error": null
+    },
+    {
+      "requested": "https://dentartmsk.com/team/beteeva-kamilla-olegovna",
+      "status": 200,
+      "final_url": "https://dentartmsk.com/team/beteeva-kamilla-olegovna",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://dentartmsk.com/",
+      "form_id": "form640443042",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form640443042\" name='form640443042' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://dentartmsk.com/spasibo\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "ed=\"true\"> <div class=\"t-checkbox__indicator\" style=\"border-color:#6f8cb9\"></div> <span>Я согласен с <a href=\"/privacy\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(76, 78, 116); border-bottom: 1px solid rgb(76, 78, 116); box-shadow: none; t"
+    },
+    {
+      "page": "https://dentartmsk.com/",
+      "form_id": "form640443378",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form640443378\" name='form640443378' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"/\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "ed=\"true\"> <div class=\"t-checkbox__indicator\" style=\"border-color:#6f8cb9\"></div> <span>Я согласен с <a href=\"/privacy\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(76, 78, 116); border-bottom: 1px solid rgb(76, 78, 116); box-shadow: none; t"
+    },
+    {
+      "page": "https://dentartmsk.com/",
+      "form_id": "form640443654",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form640443654\" name='form640443654' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"/\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "ed=\"true\"> <div class=\"t-checkbox__indicator\" style=\"border-color:#6f8cb9\"></div> <span>Я согласен с <a href=\"/privacy\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(76, 78, 116); border-bottom: 1px solid rgb(76, 78, 116); box-shadow: none; t"
+    },
+    {
+      "page": "https://dentartmsk.com/",
+      "form_id": "form640444456",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form640444456\" name='form640444456' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"/\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "ed=\"true\"> <div class=\"t-checkbox__indicator\" style=\"border-color:#6f8cb9\"></div> <span>Я согласен с <a href=\"/privacy\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(76, 78, 116); border-bottom: 1px solid rgb(76, 78, 116); box-shadow: none; t"
+    },
+    {
+      "page": "https://dentartmsk.com/",
+      "form_id": "form641484753",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form641484753\" name='form641484753' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://dentartmsk.com/spasibo\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "ed=\"true\"> <div class=\"t-checkbox__indicator\" style=\"border-color:#6f8cb9\"></div> <span>Я согласен с <a href=\"/privacy\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(76, 78, 116); border-bottom: 1px solid rgb(76, 78, 116); box-shadow: none; t"
+    },
+    {
+      "page": "https://dentartmsk.com/",
+      "form_id": "form640201767",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form640201767\" name='form640201767' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"/\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "ed=\"true\"> <div class=\"t-checkbox__indicator\" style=\"border-color:#6f8cb9\"></div> <span>Я согласен с <a href=\"/privacy\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(76, 78, 116); border-bottom: 1px solid rgb(76, 78, 116); box-shadow: none; t"
+    },
+    {
+      "page": "https://dentartmsk.com/allon4lenmiriot",
+      "form_id": "form774161745",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form774161745\" name='form774161745' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"/\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "ed=\"true\"> <div class=\"t-checkbox__indicator\" style=\"border-color:#6f8cb9\"></div> <span>Я согласен с <a href=\"/privacy\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(76, 78, 116); border-bottom: 1px solid rgb(76, 78, 116); box-shadow: none; t"
+    },
+    {
+      "page": "https://dentartmsk.com/allon4lenmiriot",
+      "form_id": "form774161762",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form774161762\" name='form774161762' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t823_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://dentartmsk.com/allon4lenmiriot",
+      "form_id": "form640201767",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form640201767\" name='form640201767' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"/\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "ed=\"true\"> <div class=\"t-checkbox__indicator\" style=\"border-color:#6f8cb9\"></div> <span>Я согласен с <a href=\"/privacy\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(76, 78, 116); border-bottom: 1px solid rgb(76, 78, 116); box-shadow: none; t"
+    },
+    {
+      "page": "https://dentartmsk.com/team/beteeva-kamilla-olegovna",
+      "form_id": "form645962515",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form645962515\" name='form645962515' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"/\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "ed=\"true\"> <div class=\"t-checkbox__indicator\" style=\"border-color:#6f8cb9\"></div> <span>Я согласен с <a href=\"/privacy\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(76, 78, 116); border-bottom: 1px solid rgb(76, 78, 116); box-shadow: none; t"
+    },
+    {
+      "page": "https://dentartmsk.com/team/beteeva-kamilla-olegovna",
+      "form_id": "form640201767",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form640201767\" name='form640201767' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"/\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "ed=\"true\"> <div class=\"t-checkbox__indicator\" style=\"border-color:#6f8cb9\"></div> <span>Я согласен с <a href=\"/privacy\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(76, 78, 116); border-bottom: 1px solid rgb(76, 78, 116); box-shadow: none; t"
+    }
+  ],
+  "emails": [
+    "dentartmskclinic2022@yandex.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://dentartmsk.com/",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://dentartmsk.com/",
+      "href": "/privacy",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://dentartmsk.com/allon4lenmiriot",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://dentartmsk.com/allon4lenmiriot",
+      "href": "/privacy",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://dentartmsk.com/team/beteeva-kamilla-olegovna",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://dentartmsk.com/team/beteeva-kamilla-olegovna",
+      "href": "/privacy",
+      "text": "Политика конфиденциальности"
+    }
+  ],
+  "forbidden_hits": [
+    {
+      "token": "ватсап",
+      "page": "https://dentartmsk.com/",
+      "context": "alt=\"значок ватсап\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "ватсап",
+      "page": "https://dentartmsk.com/allon4lenmiriot",
+      "context": "alt=\"значок ватсап\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "ватсап",
+      "page": "https://dentartmsk.com/team/beteeva-kamilla-olegovna",
+      "context": "alt=\"значок ватсап\"",
+      "visibility": "только в коде"
+    }
+  ],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://dentartmsk.com/contact",
+      "https://dentartmsk.com/contacts",
+      "https://dentartmsk.com/kontakty"
+    ],
+    "booking_urls": [
+      "https://dentartmsk.com/",
+      "https://dentartmsk.com/allon4lenmiriot",
+      "https://dentartmsk.com/team/beteeva-kamilla-olegovna"
+    ],
+    "sources": {
+      "https://dentartmsk.com/": "home-booking-candidate",
+      "https://dentartmsk.com/allon4lenmiriot": "sitemap-form",
+      "https://dentartmsk.com/contact": "fallback",
+      "https://dentartmsk.com/contacts": "fallback",
+      "https://dentartmsk.com/kontakty": "fallback",
+      "https://dentartmsk.com/team/beteeva-kamilla-olegovna": "sitemap-form"
+    },
+    "fallback_used": {
+      "contact": true,
+      "booking": false
+    }
+  }
+}

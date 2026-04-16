@@ -1,0 +1,385 @@
+{
+  "domain": "drblumkin.ru",
+  "pages": [
+    {
+      "requested": "https://drblumkin.ru/",
+      "status": 200,
+      "final_url": "https://drblumkin.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://drblumkin.ru/kontakty/",
+      "status": 200,
+      "final_url": "https://drblumkin.ru/kontakty/",
+      "error": null
+    },
+    {
+      "requested": "https://drblumkin.ru/appointment",
+      "status": 404,
+      "final_url": "https://drblumkin.ru/appointment",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://drblumkin.ru/booking",
+      "status": 404,
+      "final_url": "https://drblumkin.ru/booking",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://drblumkin.ru/zapis",
+      "status": 404,
+      "final_url": "https://drblumkin.ru/zapis",
+      "error": "HTTPError 404"
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://drblumkin.ru/",
+      "form_id": "searchform",
+      "action_display": "action=\"https://drblumkin.ru/\"",
+      "open_tag": "<form class=\"search-form main-nav__form\" role=\"search\" method=\"get\" id=\"searchform\" action=\"https://drblumkin.ru/\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://drblumkin.ru/",
+      "form_id": "searchform",
+      "action_display": "action=\"https://drblumkin.ru/\"",
+      "open_tag": "<form class=\"search-form main-nav__form\" role=\"search\" method=\"get\" id=\"searchform\" action=\"https://drblumkin.ru/\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://drblumkin.ru/",
+      "form_id": "needs-validation form-block__form form",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form class=\"needs-validation form-block__form form\" novalidate=\"\" method=\"POST\" action=\"#\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://drblumkin.ru/",
+      "form_id": "needs-validation form-block__form form",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form class=\"needs-validation form-block__form form\" novalidate=\"\" method=\"POST\" action=\"#\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://drblumkin.ru/",
+      "form_id": "needs-validation map-form",
+      "action_display": "action=\"/thankyou/\"",
+      "open_tag": "<form class=\"needs-validation map-form\" novalidate=\"\" method=\"POST\" action=\"/thankyou/\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "с <a class=\"policy\" data-bs-toggle=\"modal\" data-bs-target=\"#policy\">условиями обработки персональных данных</a> </div> </form>"
+    },
+    {
+      "page": "https://drblumkin.ru/",
+      "form_id": "needs-validation",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form class=\"needs-validation\" novalidate=\"\" method=\"POST\" action=\"#\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "ss=\"policy\" data-bs-toggle=\"modal\" data-bs-target=\"#policy\">условиями обработки персональных данных</a></span> </div> </form>"
+    },
+    {
+      "page": "https://drblumkin.ru/",
+      "form_id": "needs-validation map-form",
+      "action_display": "action=\"/thankyou/\"",
+      "open_tag": "<form class=\"needs-validation map-form\" novalidate=\"\" method=\"POST\" action=\"/thankyou/\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "с <a class=\"policy\" data-bs-toggle=\"modal\" data-bs-target=\"#policy\">условиями обработки персональных данных</a> </div> </form>"
+    },
+    {
+      "page": "https://drblumkin.ru/",
+      "form_id": "needs-validation form-block__form form consultation-modal__form",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form class=\"needs-validation form-block__form form consultation-modal__form\" novalidate=\"\" method=\"POST\" action=\"#\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "olicy\" data-bs-toggle=\"modal\" data-bs-target=\"#policy\">условиями обработки <nobr>персональных данных</nobr></a></span> </div> <!--<div class=\"timer-block\"> <span> Возможность получить <br> <strong>бесплатную чистку A"
+    },
+    {
+      "page": "https://drblumkin.ru/",
+      "form_id": "needs-validation form-block__form form consultation-modal__form",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form class=\"needs-validation form-block__form form consultation-modal__form\" novalidate=\"\" method=\"POST\" action=\"#\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "olicy\" data-bs-toggle=\"modal\" data-bs-target=\"#policy\">условиями обработки <nobr>персональных данных</nobr></a></span> </div> <!--<div class=\"timer-block\"> <span> Возможность получить <br> <strong>бесплатную чистку A"
+    },
+    {
+      "page": "https://drblumkin.ru/",
+      "form_id": "needs-validation form-block__form form consultation-modal__form",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form class=\"needs-validation form-block__form form consultation-modal__form\" novalidate=\"\" method=\"POST\" action=\"#\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "olicy\" data-bs-toggle=\"modal\" data-bs-target=\"#policy\">условиями обработки <nobr>персональных данных</nobr></a></span> </div> <!--<div class=\"timer-block\"> <span> Возможность получить <br> <strong>бесплатную чистку A"
+    },
+    {
+      "page": "https://drblumkin.ru/",
+      "form_id": "quiz",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form class=\"needs-validation\" novalidate=\"\" method=\"POST\" action=\"#\" enctype=\"multipart/form-data\" name=\"quiz\" id=\"quiz\" >",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "=\"policy\" data-bs-toggle=\"modal\" data-bs-target=\"#policy\">условиями обработки персональных данных</a> </div> </div> </div> </div> </form>"
+    },
+    {
+      "page": "https://drblumkin.ru/",
+      "form_id": "needs-validation form-block__form form",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form class=\"needs-validation form-block__form form\" novalidate=\"\" method=\"POST\" action=\"#\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://drblumkin.ru/",
+      "form_id": "needs-validation form-block__form form",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form class=\"needs-validation form-block__form form\" novalidate=\"\" method=\"POST\" action=\"#\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://drblumkin.ru/",
+      "form_id": "needs-validation form-block__form form",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form class=\"needs-validation form-block__form form\" method=\"POST\" action=\"#\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://drblumkin.ru/",
+      "form_id": "needs-validation form-block__form form",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form class=\"needs-validation form-block__form form\" novalidate=\"\" method=\"POST\" action=\"#\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://drblumkin.ru/kontakty/",
+      "form_id": "searchform",
+      "action_display": "action=\"https://drblumkin.ru/\"",
+      "open_tag": "<form class=\"search-form main-nav__form\" role=\"search\" method=\"get\" id=\"searchform\" action=\"https://drblumkin.ru/\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://drblumkin.ru/kontakty/",
+      "form_id": "searchform",
+      "action_display": "action=\"https://drblumkin.ru/\"",
+      "open_tag": "<form class=\"search-form main-nav__form\" role=\"search\" method=\"get\" id=\"searchform\" action=\"https://drblumkin.ru/\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://drblumkin.ru/kontakty/",
+      "form_id": "needs-validation map-form",
+      "action_display": "action=\"/thankyou/\"",
+      "open_tag": "<form class=\"needs-validation map-form\" novalidate=\"\" method=\"POST\" action=\"/thankyou/\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "с <a class=\"policy\" data-bs-toggle=\"modal\" data-bs-target=\"#policy\">условиями обработки персональных данных</a> </div> </form>"
+    },
+    {
+      "page": "https://drblumkin.ru/kontakty/",
+      "form_id": "needs-validation",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form class=\"needs-validation\" novalidate=\"\" method=\"POST\" action=\"#\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "ss=\"policy\" data-bs-toggle=\"modal\" data-bs-target=\"#policy\">условиями обработки персональных данных</a></span> </div> </form>"
+    },
+    {
+      "page": "https://drblumkin.ru/kontakty/",
+      "form_id": "needs-validation map-form",
+      "action_display": "action=\"/thankyou/\"",
+      "open_tag": "<form class=\"needs-validation map-form\" novalidate=\"\" method=\"POST\" action=\"/thankyou/\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "с <a class=\"policy\" data-bs-toggle=\"modal\" data-bs-target=\"#policy\">условиями обработки персональных данных</a> </div> </form>"
+    },
+    {
+      "page": "https://drblumkin.ru/kontakty/",
+      "form_id": "needs-validation form-block__form form consultation-modal__form",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form class=\"needs-validation form-block__form form consultation-modal__form\" novalidate=\"\" method=\"POST\" action=\"#\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "olicy\" data-bs-toggle=\"modal\" data-bs-target=\"#policy\">условиями обработки <nobr>персональных данных</nobr></a></span> </div> <!--<div class=\"timer-block\"> <span> Возможность получить <br> <strong>бесплатную чистку A"
+    },
+    {
+      "page": "https://drblumkin.ru/kontakty/",
+      "form_id": "needs-validation form-block__form form consultation-modal__form",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form class=\"needs-validation form-block__form form consultation-modal__form\" novalidate=\"\" method=\"POST\" action=\"#\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "olicy\" data-bs-toggle=\"modal\" data-bs-target=\"#policy\">условиями обработки <nobr>персональных данных</nobr></a></span> </div> <!--<div class=\"timer-block\"> <span> Возможность получить <br> <strong>бесплатную чистку A"
+    },
+    {
+      "page": "https://drblumkin.ru/kontakty/",
+      "form_id": "needs-validation form-block__form form consultation-modal__form",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form class=\"needs-validation form-block__form form consultation-modal__form\" novalidate=\"\" method=\"POST\" action=\"#\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "olicy\" data-bs-toggle=\"modal\" data-bs-target=\"#policy\">условиями обработки <nobr>персональных данных</nobr></a></span> </div> <!--<div class=\"timer-block\"> <span> Возможность получить <br> <strong>бесплатную чистку A"
+    },
+    {
+      "page": "https://drblumkin.ru/kontakty/",
+      "form_id": "quiz",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form class=\"needs-validation\" novalidate=\"\" method=\"POST\" action=\"#\" enctype=\"multipart/form-data\" name=\"quiz\" id=\"quiz\" >",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "=\"policy\" data-bs-toggle=\"modal\" data-bs-target=\"#policy\">условиями обработки персональных данных</a> </div> </div> </div> </div> </form>"
+    },
+    {
+      "page": "https://drblumkin.ru/kontakty/",
+      "form_id": "needs-validation form-block__form form",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form class=\"needs-validation form-block__form form\" novalidate=\"\" method=\"POST\" action=\"#\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://drblumkin.ru/kontakty/",
+      "form_id": "needs-validation form-block__form form",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form class=\"needs-validation form-block__form form\" novalidate=\"\" method=\"POST\" action=\"#\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://drblumkin.ru/kontakty/",
+      "form_id": "needs-validation form-block__form form",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form class=\"needs-validation form-block__form form\" method=\"POST\" action=\"#\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://drblumkin.ru/kontakty/",
+      "form_id": "needs-validation form-block__form form",
+      "action_display": "action=\"#\"",
+      "open_tag": "<form class=\"needs-validation form-block__form form\" novalidate=\"\" method=\"POST\" action=\"#\" enctype=\"multipart/form-data\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    }
+  ],
+  "emails": [
+    "stomatprofi@mail.ru"
+  ],
+  "privacy_links": [],
+  "forbidden_hits": [
+    {
+      "token": "whatsapp",
+      "page": "https://drblumkin.ru/",
+      "context": "WhatsApp",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://drblumkin.ru/kontakty/",
+      "context": "WhatsApp",
+      "visibility": "видно пользователю"
+    }
+  ],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://drblumkin.ru/kontakty/"
+    ],
+    "booking_urls": [
+      "https://drblumkin.ru/appointment",
+      "https://drblumkin.ru/booking",
+      "https://drblumkin.ru/zapis"
+    ],
+    "sources": {
+      "https://drblumkin.ru/": "",
+      "https://drblumkin.ru/appointment": "fallback",
+      "https://drblumkin.ru/booking": "fallback",
+      "https://drblumkin.ru/kontakty/": "navigation",
+      "https://drblumkin.ru/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": true
+    }
+  }
+}

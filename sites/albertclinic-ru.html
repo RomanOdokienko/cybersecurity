@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Albert Clinic — детали проверки</title>
+<style>
+body{margin:0;font-family:Segoe UI,Arial,sans-serif;background:#f4f6fb;color:#1f2430}
+.wrap{max-width:1100px;margin:24px auto;padding:0 16px 24px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.card{background:#fff;border:1px solid #e5e8ef;border-radius:12px;padding:12px 14px}
+.block{background:#fff;border:1px solid #e5e8ef;border-radius:12px;padding:14px 16px;margin-top:12px}
+h1{margin:0;font-size:30px}
+h2{margin:0 0 10px 0;font-size:18px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+a{color:#2b4dd7;text-decoration:none}
+a:hover{text-decoration:underline}
+ul{margin:0;padding-left:18px;line-height:1.45}
+li{margin:4px 0}
+.badge{display:inline-block;padding:3px 9px;border-radius:999px;font-size:12px;font-weight:700;border:1px solid transparent}
+.ok{background:#e8f8ef;color:#1d9e58;border-color:#c8efd9}
+.warn{background:#fff6dd;color:#b67a00;border-color:#f0d889}
+.bad{background:#ffe9ea;color:#c5333a;border-color:#f7c4c8}
+.na{background:#f0f2f6;color:#6c7280;border-color:#dde2ea}
+.alert{margin-top:12px;border-radius:10px;padding:10px 12px;border:1px solid transparent;font-size:14px;font-weight:600}
+.alert.ok{background:#e8f8ef;color:#1d9e58;border-color:#c8efd9}
+.alert.warn{background:#fff6dd;color:#b67a00;border-color:#f0d889}
+.alert.bad{background:#ffe9ea;color:#c5333a;border-color:#f7c4c8}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <a href="../dashboard.html">← Назад к дашборду</a>
+        <h1>Albert Clinic</h1>
+        <div>www.albertclinic.ru</div>
+      </div>
+      <div class="card">Итог: <span class="badge warn">проверить</span></div>
+    </div>
+    <div class="alert ok">Доступность: ок. Найденные страницы доступны: 2 из 2.</div>
+
+    
+    <section class="block">
+      <h2>Доступность сайта <span class="badge ok">ок</span></h2>
+      <ul><li>Найденные страницы доступны: 2 из 2.</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Страницы проверки (основные найденные) <span class="badge ok">ок</span></h2>
+      <ul><li>https://www.albertclinic.ru/ — 200 (основной URL)</li><li>https://www.albertclinic.ru/#contacts — 200 (навигация)</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Доп. страницы из sitemap (формы) <span class="badge ok">ок</span></h2>
+      <ul><li>https://albertclinic.ru/ — 200 (sitemap: страница с формой)</li><li>https://albertclinic.ru/docum — 200 (sitemap: страница с формой)</li><li>https://albertclinic.ru/lechenie — 200 (sitemap: страница с формой)</li><li>https://albertclinic.ru/ortopedia — 200 (sitemap: страница с формой)</li><li>https://albertclinic.ru/polite — 200 (sitemap: страница с формой)</li><li>https://albertclinic.ru/price — 200 (sitemap: страница с формой)</li><li>https://albertclinic.ru/services/children/ — 200 (sitemap: страница с формой)</li><li>https://albertclinic.ru/udalenie — 200 (sitemap: страница с формой)</li><li>https://albertclinic.ru/vrachi — 200 (sitemap: страница с формой)</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Fallback-пробы URL <span class="badge warn">проверить</span></h2>
+      <ul><li>https://www.albertclinic.ru/appointment — 404 (fallback-путь) | HTTPError 404</li><li>https://www.albertclinic.ru/booking — 404 (fallback-путь) | HTTPError 404</li><li>https://www.albertclinic.ru/zapis — 404 (fallback-путь) | HTTPError 404</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Сертификат <span class="badge ok">ок</span></h2>
+      <ul><li>HTTPS-страницы открылись без TLS-ошибок.</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Форма: HTTPS <span class="badge ok">ок</span></h2>
+      <ul><li>Пример action: action=&#x27;&#x27;</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Форма: галочка <span class="badge ok">ок</span></h2>
+      <ul><li>Всего форм: 25</li><li>Без checkbox: 0</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>SPF/DMARC <span class="badge na">н/п</span></h2>
+      <ul><li>Email: albertclinic@ya.ru (сторонний сервис)</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Meta / Instagram <span class="badge bad">проблема</span></h2>
+      <ul><li>wa.me | https://www.albertclinic.ru/ | только в коде | href=&quot;https://wa.me/+74997497777&quot;</li><li>wa.me | https://www.albertclinic.ru/ | только в коде | href=&quot;https://wa.me/+79199992111&quot;</li><li>wa.me | https://www.albertclinic.ru/#contacts | только в коде | href=&quot;https://wa.me/+74997497777&quot;</li><li>wa.me | https://www.albertclinic.ru/#contacts | только в коде | href=&quot;https://wa.me/+79199992111&quot;</li><li>wa.me | https://albertclinic.ru/ | только в коде | href=&quot;https://wa.me/+74997497777&quot;</li><li>wa.me | https://albertclinic.ru/ | только в коде | href=&quot;https://wa.me/+79199992111&quot;</li><li>wa.me | https://albertclinic.ru/docum | только в коде | href=&quot;https://wa.me/+74997497777&quot;</li><li>wa.me | https://albertclinic.ru/docum | только в коде | href=&quot;https://wa.me/+79199992111&quot;</li><li>wa.me | https://albertclinic.ru/lechenie | только в коде | href=&quot;https://wa.me/+74997497777&quot;</li><li>wa.me | https://albertclinic.ru/lechenie | только в коде | href=&quot;https://wa.me/+79199992111&quot;</li><li>wa.me | https://albertclinic.ru/ortopedia | только в коде | href=&quot;https://wa.me/+74997497777&quot;</li><li>wa.me | https://albertclinic.ru/ortopedia | только в коде | href=&quot;https://wa.me/+79199992111&quot;</li><li>wa.me | https://albertclinic.ru/polite | только в коде | href=&quot;https://wa.me/+74997497777&quot;</li><li>wa.me | https://albertclinic.ru/polite | только в коде | href=&quot;https://wa.me/+79199992111&quot;</li><li>wa.me | https://albertclinic.ru/price | только в коде | href=&quot;https://wa.me/+74997497777&quot;</li><li>wa.me | https://albertclinic.ru/price | только в коде | href=&quot;https://wa.me/+79199992111&quot;</li><li>wa.me | https://albertclinic.ru/services/children/ | только в коде | href=&quot;https://wa.me/+74997497777&quot;</li><li>wa.me | https://albertclinic.ru/services/children/ | только в коде | href=&quot;https://wa.me/+79199992111&quot;</li><li>wa.me | https://albertclinic.ru/udalenie | только в коде | href=&quot;https://wa.me/+74997497777&quot;</li><li>wa.me | https://albertclinic.ru/udalenie | только в коде | href=&quot;https://wa.me/+79199992111&quot;</li><li>wa.me | https://albertclinic.ru/vrachi | только в коде | href=&quot;https://wa.me/+74997497777&quot;</li><li>wa.me | https://albertclinic.ru/vrachi | только в коде | href=&quot;https://wa.me/+79199992111&quot;</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Политика <span class="badge ok">ок</span></h2>
+      <ul><li>https://www.albertclinic.ru/ -&gt; https://albertclinic.ru/polite (текст: обработку персональных данных)</li><li>https://www.albertclinic.ru/ -&gt; https://albertclinic.ru/polite (текст: Политика конфиденциальности)</li><li>https://www.albertclinic.ru/#contacts -&gt; https://albertclinic.ru/polite (текст: обработку персональных данных)</li><li>https://www.albertclinic.ru/#contacts -&gt; https://albertclinic.ru/polite (текст: Политика конфиденциальности)</li><li>https://albertclinic.ru/ -&gt; https://albertclinic.ru/polite (текст: обработку персональных данных)</li><li>https://albertclinic.ru/ -&gt; https://albertclinic.ru/polite (текст: Политика конфиденциальности)</li><li>https://albertclinic.ru/docum -&gt; https://albertclinic.ru/polite (текст: обработку персональных данных)</li><li>https://albertclinic.ru/docum -&gt; https://albertclinic.ru/polite (текст: Политика конфиденциальности)</li><li>https://albertclinic.ru/lechenie -&gt; https://albertclinic.ru/polite (текст: обработку персональных данных)</li><li>https://albertclinic.ru/lechenie -&gt; https://albertclinic.ru/polite (текст: Политика конфиденциальности)</li><li>https://albertclinic.ru/ortopedia -&gt; https://albertclinic.ru/polite (текст: обработку персональных данных)</li><li>https://albertclinic.ru/ortopedia -&gt; https://albertclinic.ru/polite (текст: Политика конфиденциальности)</li><li>https://albertclinic.ru/polite -&gt; https://albertclinic.ru/polite (текст: обработку персональных данных)</li><li>https://albertclinic.ru/polite -&gt; https://albertclinic.ru/polite (текст: Политика конфиденциальности)</li><li>https://albertclinic.ru/price -&gt; https://albertclinic.ru/polite (текст: обработку персональных данных)</li><li>https://albertclinic.ru/price -&gt; https://albertclinic.ru/polite (текст: Политика конфиденциальности)</li><li>https://albertclinic.ru/services/children/ -&gt; https://albertclinic.ru/polite (текст: обработку персональных данных)</li><li>https://albertclinic.ru/services/children/ -&gt; https://albertclinic.ru/polite (текст: Политика конфиденциальности)</li><li>https://albertclinic.ru/udalenie -&gt; https://albertclinic.ru/polite (текст: обработку персональных данных)</li><li>https://albertclinic.ru/udalenie -&gt; https://albertclinic.ru/polite (текст: Политика конфиденциальности)</li><li>https://albertclinic.ru/vrachi -&gt; https://albertclinic.ru/polite (текст: обработку персональных данных)</li><li>https://albertclinic.ru/vrachi -&gt; https://albertclinic.ru/polite (текст: Политика конфиденциальности)</li></ul>
+    </section>
+    
+
+    <section class="block">
+      <h2>Сырые данные</h2>
+      <ul>
+        <li>Audit JSON: <a href="../data/audits/albertclinic.audit.json">data/audits/albertclinic.audit.json</a></li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>

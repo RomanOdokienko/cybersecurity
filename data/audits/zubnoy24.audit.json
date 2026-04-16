@@ -1,0 +1,77 @@
+{
+  "domain": "zubnoy24.ru",
+  "pages": [
+    {
+      "requested": "https://zubnoy24.ru/",
+      "status": 200,
+      "final_url": "https://zubnoy24.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://zubnoy24.ru/contact",
+      "status": 200,
+      "final_url": "https://zubnoy24.ru/contact",
+      "error": null
+    },
+    {
+      "requested": "https://zubnoy24.ru/contacts",
+      "status": 200,
+      "final_url": "https://zubnoy24.ru/contacts",
+      "error": null
+    },
+    {
+      "requested": "https://zubnoy24.ru/kontakty",
+      "status": 200,
+      "final_url": "https://zubnoy24.ru/kontakty",
+      "error": null
+    },
+    {
+      "requested": "https://zubnoy24.ru/appointment",
+      "status": 200,
+      "final_url": "https://zubnoy24.ru/appointment",
+      "error": null
+    },
+    {
+      "requested": "https://zubnoy24.ru/booking",
+      "status": 200,
+      "final_url": "https://zubnoy24.ru/booking",
+      "error": null
+    },
+    {
+      "requested": "https://zubnoy24.ru/zapis",
+      "status": 200,
+      "final_url": "https://zubnoy24.ru/zapis",
+      "error": null
+    }
+  ],
+  "forms": [],
+  "emails": [],
+  "privacy_links": [],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://zubnoy24.ru/contact",
+      "https://zubnoy24.ru/contacts",
+      "https://zubnoy24.ru/kontakty"
+    ],
+    "booking_urls": [
+      "https://zubnoy24.ru/appointment",
+      "https://zubnoy24.ru/booking",
+      "https://zubnoy24.ru/zapis"
+    ],
+    "sources": {
+      "https://zubnoy24.ru/": "",
+      "https://zubnoy24.ru/appointment": "fallback",
+      "https://zubnoy24.ru/booking": "fallback",
+      "https://zubnoy24.ru/contact": "fallback",
+      "https://zubnoy24.ru/contacts": "fallback",
+      "https://zubnoy24.ru/kontakty": "fallback",
+      "https://zubnoy24.ru/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": true,
+      "booking": true
+    }
+  }
+}

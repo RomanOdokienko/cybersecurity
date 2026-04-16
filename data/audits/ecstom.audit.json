@@ -1,0 +1,161 @@
+{
+  "domain": "ecstom.ru",
+  "pages": [
+    {
+      "requested": "https://ecstom.ru/",
+      "status": 200,
+      "final_url": "https://ecstom.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://ecstom.ru/contact-us/",
+      "status": 200,
+      "final_url": "https://ecstom.ru/contact-us/",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://ecstom.ru/",
+      "form_id": "utm_form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form id=\"utm_form\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://ecstom.ru/",
+      "form_id": "form_2",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"agree\" value=\"\" checked=\"\">",
+      "policy_poc": "<span class=\"checktext\">Я принимаю условия <a href=\"\">политики конфиденциальности</a> и даю согласие на обработку персональных данных</span> <span class=\"checkmark\"></s"
+    },
+    {
+      "page": "https://ecstom.ru/",
+      "form_id": "form_3",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"agree\" value=\"\" checked=\"\">",
+      "policy_poc": "<span class=\"checktext\">Я принимаю условия <a href=\"\">политики конфиденциальности</a> и даю согласие на обработку персональных данных</span> <span class=\"checkmark\"></s"
+    },
+    {
+      "page": "https://ecstom.ru/",
+      "form_id": "form_4",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"agree\" value=\"\" checked=\"\">",
+      "policy_poc": "-1\"> Нажимая кнопку вы соглашаетесь с <a href=\"\">политикой конфиденциальности</a> </div> <div class=\"form-block_line-agree-text-2\">"
+    },
+    {
+      "page": "https://ecstom.ru/",
+      "form_id": "form_5",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"agree\" value=\"\" checked=\"\">",
+      "policy_poc": "-1\"> Нажимая кнопку вы соглашаетесь с <a href=\"\">политикой конфиденциальности</a> </div> <div class=\"form-block_line-agree-text-2\">"
+    },
+    {
+      "page": "https://ecstom.ru/contact-us/",
+      "form_id": "utm_form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form id=\"utm_form\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://ecstom.ru/contact-us/",
+      "form_id": "form_2",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"agree\" value=\"\" checked=\"\">",
+      "policy_poc": "<span class=\"checktext\">Я принимаю условия <a href=\"\">политики конфиденциальности</a> и даю согласие на обработку персональных данных</span> <span class=\"checkmark\"></s"
+    },
+    {
+      "page": "https://ecstom.ru/contact-us/",
+      "form_id": "form_3",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"agree\" value=\"\" checked=\"\">",
+      "policy_poc": "-1\"> Нажимая кнопку вы соглашаетесь с <a href=\"\">политикой конфиденциальности</a> </div> <div class=\"form-block_line-agree-text-2\">"
+    },
+    {
+      "page": "https://ecstom.ru/contact-us/",
+      "form_id": "form_4",
+      "action_display": "action отсутствует",
+      "open_tag": "<form>",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"agree\" value=\"\" checked=\"\">",
+      "policy_poc": "-1\"> Нажимая кнопку вы соглашаетесь с <a href=\"\">политикой конфиденциальности</a> </div> <div class=\"form-block_line-agree-text-2\">"
+    }
+  ],
+  "emails": [
+    "ecs.stom@gmail.com"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://ecstom.ru/",
+      "href": "",
+      "text": "политики конфиденциальности"
+    },
+    {
+      "page": "https://ecstom.ru/",
+      "href": "",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://ecstom.ru/contact-us/",
+      "href": "",
+      "text": "политики конфиденциальности"
+    },
+    {
+      "page": "https://ecstom.ru/contact-us/",
+      "href": "",
+      "text": "политикой конфиденциальности"
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://ecstom.ru/contact-us/"
+    ],
+    "booking_urls": [
+      "https://ecstom.ru/"
+    ],
+    "sources": {
+      "https://ecstom.ru/": "home-booking-candidate",
+      "https://ecstom.ru/contact-us/": "navigation"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": false
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "domain": "stomatikmsk.ru",
+  "pages": [
+    {
+      "requested": "https://stomatikmsk.ru/",
+      "status": 200,
+      "final_url": "https://stomatikmsk.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://stomatikmsk.ru/contact",
+      "status": 404,
+      "final_url": "https://stomatikmsk.ru/contact",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://stomatikmsk.ru/contacts",
+      "status": 404,
+      "final_url": "https://stomatikmsk.ru/contacts",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://stomatikmsk.ru/kontakty",
+      "status": 404,
+      "final_url": "https://stomatikmsk.ru/kontakty",
+      "error": "HTTPError 404"
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://stomatikmsk.ru/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "<div class=\"politics\"> Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь c <a href=\"javascript:void(0);\" data-bs-toggle=\"modal\" data-bs-target=\"#politics\">политикой конфиденциальност"
+    },
+    {
+      "page": "https://stomatikmsk.ru/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "t-center\"> <div class=\"politics\">Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь c <a href=\"javascript:void(0);\" data-bs-toggle=\"modal\" data-bs-target=\"#politics\">политикой конфиденциальност"
+    },
+    {
+      "page": "https://stomatikmsk.ru/",
+      "form_id": "formReviews",
+      "action_display": "action отсутствует",
+      "open_tag": "<form id=\"formReviews\" method=\"post\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://stomatikmsk.ru/",
+      "form_id": "form",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "<div class=\"politics\"> Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь c <a href=\"javascript:void(0);\" data-bs-toggle=\"modal\" data-bs-dismiss=\"modal\" data-bs-target=\"#politics\">пол"
+    }
+  ],
+  "emails": [
+    "info@stomatikmsk.ru",
+    "stomatik44@yandex.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://stomatikmsk.ru/",
+      "href": "javascript:void(0);",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://stomatikmsk.ru/",
+      "href": "javascript:void(0);",
+      "text": "Политика конфиденциальности"
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://stomatikmsk.ru/contact",
+      "https://stomatikmsk.ru/contacts",
+      "https://stomatikmsk.ru/kontakty"
+    ],
+    "booking_urls": [
+      "https://stomatikmsk.ru/"
+    ],
+    "sources": {
+      "https://stomatikmsk.ru/": "home-booking-candidate",
+      "https://stomatikmsk.ru/contact": "fallback",
+      "https://stomatikmsk.ru/contacts": "fallback",
+      "https://stomatikmsk.ru/kontakty": "fallback"
+    },
+    "fallback_used": {
+      "contact": true,
+      "booking": false
+    }
+  }
+}

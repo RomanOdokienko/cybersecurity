@@ -1,0 +1,2142 @@
+{
+  "domain": "stomatologiyamoyaulybka.msk.ru",
+  "pages": [
+    {
+      "requested": "https://stomatologiyamoyaulybka.msk.ru/",
+      "status": 200,
+      "final_url": "https://stomatologiyamoyaulybka.msk.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://stomatologiyamoyaulybka.msk.ru/kontakty/",
+      "status": 200,
+      "final_url": "https://stomatologiyamoyaulybka.msk.ru/kontakty/",
+      "error": null
+    },
+    {
+      "requested": "https://stomatologiyamoyaulybka.msk.ru/appointment",
+      "status": 404,
+      "final_url": "https://stomatologiyamoyaulybka.msk.ru/appointment",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://stomatologiyamoyaulybka.msk.ru/booking",
+      "status": 404,
+      "final_url": "https://stomatologiyamoyaulybka.msk.ru/booking",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://stomatologiyamoyaulybka.msk.ru/zapis",
+      "status": 404,
+      "final_url": "https://stomatologiyamoyaulybka.msk.ru/zapis",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://stomatologiyamoyaulybka.msk.ru/about-us/",
+      "status": 200,
+      "final_url": "https://stomatologiyamoyaulybka.msk.ru/about-us/",
+      "error": null
+    },
+    {
+      "requested": "https://stomatologiyamoyaulybka.msk.ru/services/",
+      "status": 200,
+      "final_url": "https://stomatologiyamoyaulybka.msk.ru/uslugi/",
+      "error": null
+    },
+    {
+      "requested": "https://stomatologiyamoyaulybka.msk.ru/services/detstvo/",
+      "status": 200,
+      "final_url": "https://stomatologiyamoyaulybka.msk.ru/services/detstvo/",
+      "error": null
+    },
+    {
+      "requested": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/",
+      "status": 200,
+      "final_url": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/",
+      "error": null
+    },
+    {
+      "requested": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/akcziya-otbelivanie-zubov/",
+      "status": 200,
+      "final_url": "https://stomatologiyamoyaulybka.msk.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/professionalnaya-gigiena/",
+      "status": 200,
+      "final_url": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/professionalnaya-gigiena/",
+      "error": null
+    },
+    {
+      "requested": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/",
+      "status": 200,
+      "final_url": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/",
+      "error": null
+    },
+    {
+      "requested": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/udalenie-zubov/",
+      "status": 200,
+      "final_url": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/udalenie-zubov/",
+      "error": null
+    },
+    {
+      "requested": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/zubosohranyayushhie-operaczii/",
+      "status": 200,
+      "final_url": "https://stomatologiyamoyaulybka.msk.ru/articless/",
+      "error": null
+    },
+    {
+      "requested": "https://stomatologiyamoyaulybka.msk.ru/services/implantacziya/",
+      "status": 200,
+      "final_url": "https://stomatologiyamoyaulybka.msk.ru/services/implantacziya/",
+      "error": null
+    },
+    {
+      "requested": "https://stomatologiyamoyaulybka.msk.ru/services/implantacziya/odnomomentnaya-implatacziya-zubov/",
+      "status": 200,
+      "final_url": "https://stomatologiyamoyaulybka.msk.ru/services/implantacziya/odnomomentnaya-implatacziya-zubov/",
+      "error": null
+    },
+    {
+      "requested": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/",
+      "status": 200,
+      "final_url": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/",
+      "error": null
+    },
+    {
+      "requested": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/breket-sistemy/",
+      "status": 200,
+      "final_url": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/breket-sistemy/",
+      "error": null
+    },
+    {
+      "requested": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/elajnery/",
+      "status": 200,
+      "final_url": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/elajnery/",
+      "error": null
+    },
+    {
+      "requested": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/",
+      "status": 200,
+      "final_url": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/",
+      "error": null
+    },
+    {
+      "requested": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/bezmetallovaya-keramika-e-max/",
+      "status": 200,
+      "final_url": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/",
+      "error": null
+    },
+    {
+      "requested": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/metallokeramika/",
+      "status": 200,
+      "final_url": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/metallokeramika/",
+      "error": null
+    },
+    {
+      "requested": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/",
+      "status": 200,
+      "final_url": "https://stomatologiyamoyaulybka.msk.ru/articless/",
+      "error": null
+    },
+    {
+      "requested": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/esteticheskaya-restavracziya/",
+      "status": 200,
+      "final_url": "https://stomatologiyamoyaulybka.msk.ru/articless/",
+      "error": null
+    },
+    {
+      "requested": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/kompozitnye-viniry/",
+      "status": 200,
+      "final_url": "https://stomatologiyamoyaulybka.msk.ru/articless/kompozitnye-viniry/",
+      "error": null
+    },
+    {
+      "requested": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/kt-diagnostika/",
+      "status": 200,
+      "final_url": "https://stomatologiyamoyaulybka.msk.ru/uslugi/",
+      "error": null
+    },
+    {
+      "requested": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/lechenie-desen/",
+      "status": 200,
+      "final_url": "https://stomatologiyamoyaulybka.msk.ru/services/parodontologiya/lechenie-desen/",
+      "error": null
+    },
+    {
+      "requested": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/lechenie-kariesa/",
+      "status": 200,
+      "final_url": "https://stomatologiyamoyaulybka.msk.ru/services/lechenie-zubov/lechenie-kariesa/",
+      "error": null
+    },
+    {
+      "requested": "https://stomatologiyamoyaulybka.msk.ru/uslugi-i-czeny/",
+      "status": 200,
+      "final_url": "https://stomatologiyamoyaulybka.msk.ru/uslugi/",
+      "error": null
+    },
+    {
+      "requested": "https://stomatologiyamoyaulybka.msk.ru/vrachi/",
+      "status": 200,
+      "final_url": "https://stomatologiyamoyaulybka.msk.ru/vrachi/",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/#wpcf7-f98-p47-o1\"",
+      "open_tag": "<form action=\"/#wpcf7-f98-p47-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance\" value=\"1\" checked=\"checked\" class=\"acceptance\" aria-invalid=\"false\" />",
+      "policy_poc": "acceptance\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Я подтверждаю свое согласие: На использование в качестве каналов передачи информации, содержащихся в заявке, открытых каналов связи сети интернет. На обработку моих персональных данных"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/kontakty/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/kontakty/#wpcf7-f314-o1\"",
+      "open_tag": "<form action=\"/kontakty/#wpcf7-f314-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance\" value=\"1\" checked=\"checked\" class=\"acceptance\" aria-invalid=\"false\" />",
+      "policy_poc": "acceptance\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Я подтверждаю свое согласие: На использование в качестве каналов передачи информации, содержащихся в заявке, открытых каналов связи сети интернет. На обработку моих персональных данных"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/kontakty/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/kontakty/#wpcf7-f98-p261-o2\"",
+      "open_tag": "<form action=\"/kontakty/#wpcf7-f98-p261-o2\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance\" value=\"1\" checked=\"checked\" class=\"acceptance\" aria-invalid=\"false\" />",
+      "policy_poc": "acceptance\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Я подтверждаю свое согласие: На использование в качестве каналов передачи информации, содержащихся в заявке, открытых каналов связи сети интернет. На обработку моих персональных данных"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/about-us/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/about-us/#wpcf7-f98-o1\"",
+      "open_tag": "<form action=\"/about-us/#wpcf7-f98-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance\" value=\"1\" checked=\"checked\" class=\"acceptance\" aria-invalid=\"false\" />",
+      "policy_poc": "acceptance\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Я подтверждаю свое согласие: На использование в качестве каналов передачи информации, содержащихся в заявке, открытых каналов связи сети интернет. На обработку моих персональных данных"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/uslugi/#wpcf7-f98-o1\"",
+      "open_tag": "<form action=\"/uslugi/#wpcf7-f98-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance\" value=\"1\" checked=\"checked\" class=\"acceptance\" aria-invalid=\"false\" />",
+      "policy_poc": "acceptance\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Я подтверждаю свое согласие: На использование в качестве каналов передачи информации, содержащихся в заявке, открытых каналов связи сети интернет. На обработку моих персональных данных"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/detstvo/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/services/detstvo/#wpcf7-f98-o1\"",
+      "open_tag": "<form action=\"/services/detstvo/#wpcf7-f98-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance\" value=\"1\" checked=\"checked\" class=\"acceptance\" aria-invalid=\"false\" />",
+      "policy_poc": "acceptance\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Я подтверждаю свое согласие: На использование в качестве каналов передачи информации, содержащихся в заявке, открытых каналов связи сети интернет. На обработку моих персональных данных"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/services/gigiena/#wpcf7-f98-o1\"",
+      "open_tag": "<form action=\"/services/gigiena/#wpcf7-f98-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance\" value=\"1\" checked=\"checked\" class=\"acceptance\" aria-invalid=\"false\" />",
+      "policy_poc": "acceptance\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Я подтверждаю свое согласие: На использование в качестве каналов передачи информации, содержащихся в заявке, открытых каналов связи сети интернет. На обработку моих персональных данных"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/akcziya-otbelivanie-zubov/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/#wpcf7-f98-p47-o1\"",
+      "open_tag": "<form action=\"/#wpcf7-f98-p47-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance\" value=\"1\" checked=\"checked\" class=\"acceptance\" aria-invalid=\"false\" />",
+      "policy_poc": "acceptance\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Я подтверждаю свое согласие: На использование в качестве каналов передачи информации, содержащихся в заявке, открытых каналов связи сети интернет. На обработку моих персональных данных"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/professionalnaya-gigiena/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/services/gigiena/professionalnaya-gigiena/#wpcf7-f98-o1\"",
+      "open_tag": "<form action=\"/services/gigiena/professionalnaya-gigiena/#wpcf7-f98-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance\" value=\"1\" checked=\"checked\" class=\"acceptance\" aria-invalid=\"false\" />",
+      "policy_poc": "acceptance\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Я подтверждаю свое согласие: На использование в качестве каналов передачи информации, содержащихся в заявке, открытых каналов связи сети интернет. На обработку моих персональных данных"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/services/hirurgiya/#wpcf7-f98-o1\"",
+      "open_tag": "<form action=\"/services/hirurgiya/#wpcf7-f98-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance\" value=\"1\" checked=\"checked\" class=\"acceptance\" aria-invalid=\"false\" />",
+      "policy_poc": "acceptance\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Я подтверждаю свое согласие: На использование в качестве каналов передачи информации, содержащихся в заявке, открытых каналов связи сети интернет. На обработку моих персональных данных"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/udalenie-zubov/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/services/hirurgiya/udalenie-zubov/#wpcf7-f98-o1\"",
+      "open_tag": "<form action=\"/services/hirurgiya/udalenie-zubov/#wpcf7-f98-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance\" value=\"1\" checked=\"checked\" class=\"acceptance\" aria-invalid=\"false\" />",
+      "policy_poc": "acceptance\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Я подтверждаю свое согласие: На использование в качестве каналов передачи информации, содержащихся в заявке, открытых каналов связи сети интернет. На обработку моих персональных данных"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/zubosohranyayushhie-operaczii/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/articless/#wpcf7-f98-o1\"",
+      "open_tag": "<form action=\"/articless/#wpcf7-f98-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance\" value=\"1\" checked=\"checked\" class=\"acceptance\" aria-invalid=\"false\" />",
+      "policy_poc": "acceptance\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Я подтверждаю свое согласие: На использование в качестве каналов передачи информации, содержащихся в заявке, открытых каналов связи сети интернет. На обработку моих персональных данных"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/implantacziya/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/services/implantacziya/#wpcf7-f98-o1\"",
+      "open_tag": "<form action=\"/services/implantacziya/#wpcf7-f98-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance\" value=\"1\" checked=\"checked\" class=\"acceptance\" aria-invalid=\"false\" />",
+      "policy_poc": "acceptance\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Я подтверждаю свое согласие: На использование в качестве каналов передачи информации, содержащихся в заявке, открытых каналов связи сети интернет. На обработку моих персональных данных"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/implantacziya/odnomomentnaya-implatacziya-zubov/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/services/implantacziya/odnomomentnaya-implatacziya-zubov/#wpcf7-f98-o1\"",
+      "open_tag": "<form action=\"/services/implantacziya/odnomomentnaya-implatacziya-zubov/#wpcf7-f98-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance\" value=\"1\" checked=\"checked\" class=\"acceptance\" aria-invalid=\"false\" />",
+      "policy_poc": "acceptance\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Я подтверждаю свое согласие: На использование в качестве каналов передачи информации, содержащихся в заявке, открытых каналов связи сети интернет. На обработку моих персональных данных"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/services/ortodontiya/#wpcf7-f98-o1\"",
+      "open_tag": "<form action=\"/services/ortodontiya/#wpcf7-f98-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance\" value=\"1\" checked=\"checked\" class=\"acceptance\" aria-invalid=\"false\" />",
+      "policy_poc": "acceptance\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Я подтверждаю свое согласие: На использование в качестве каналов передачи информации, содержащихся в заявке, открытых каналов связи сети интернет. На обработку моих персональных данных"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/breket-sistemy/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/services/ortodontiya/breket-sistemy/#wpcf7-f98-o1\"",
+      "open_tag": "<form action=\"/services/ortodontiya/breket-sistemy/#wpcf7-f98-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance\" value=\"1\" checked=\"checked\" class=\"acceptance\" aria-invalid=\"false\" />",
+      "policy_poc": "acceptance\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Я подтверждаю свое согласие: На использование в качестве каналов передачи информации, содержащихся в заявке, открытых каналов связи сети интернет. На обработку моих персональных данных"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/elajnery/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/services/ortodontiya/elajnery/#wpcf7-f98-o1\"",
+      "open_tag": "<form action=\"/services/ortodontiya/elajnery/#wpcf7-f98-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance\" value=\"1\" checked=\"checked\" class=\"acceptance\" aria-invalid=\"false\" />",
+      "policy_poc": "acceptance\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Я подтверждаю свое согласие: На использование в качестве каналов передачи информации, содержащихся в заявке, открытых каналов связи сети интернет. На обработку моих персональных данных"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/services/protezirovanie/#wpcf7-f98-o1\"",
+      "open_tag": "<form action=\"/services/protezirovanie/#wpcf7-f98-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance\" value=\"1\" checked=\"checked\" class=\"acceptance\" aria-invalid=\"false\" />",
+      "policy_poc": "acceptance\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Я подтверждаю свое согласие: На использование в качестве каналов передачи информации, содержащихся в заявке, открытых каналов связи сети интернет. На обработку моих персональных данных"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/bezmetallovaya-keramika-e-max/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/services/protezirovanie/#wpcf7-f98-o1\"",
+      "open_tag": "<form action=\"/services/protezirovanie/#wpcf7-f98-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance\" value=\"1\" checked=\"checked\" class=\"acceptance\" aria-invalid=\"false\" />",
+      "policy_poc": "acceptance\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Я подтверждаю свое согласие: На использование в качестве каналов передачи информации, содержащихся в заявке, открытых каналов связи сети интернет. На обработку моих персональных данных"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/metallokeramika/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/services/protezirovanie/metallokeramika/#wpcf7-f98-o1\"",
+      "open_tag": "<form action=\"/services/protezirovanie/metallokeramika/#wpcf7-f98-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance\" value=\"1\" checked=\"checked\" class=\"acceptance\" aria-invalid=\"false\" />",
+      "policy_poc": "acceptance\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Я подтверждаю свое согласие: На использование в качестве каналов передачи информации, содержащихся в заявке, открытых каналов связи сети интернет. На обработку моих персональных данных"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/articless/#wpcf7-f98-o1\"",
+      "open_tag": "<form action=\"/articless/#wpcf7-f98-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance\" value=\"1\" checked=\"checked\" class=\"acceptance\" aria-invalid=\"false\" />",
+      "policy_poc": "acceptance\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Я подтверждаю свое согласие: На использование в качестве каналов передачи информации, содержащихся в заявке, открытых каналов связи сети интернет. На обработку моих персональных данных"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/esteticheskaya-restavracziya/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/articless/#wpcf7-f98-o1\"",
+      "open_tag": "<form action=\"/articless/#wpcf7-f98-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance\" value=\"1\" checked=\"checked\" class=\"acceptance\" aria-invalid=\"false\" />",
+      "policy_poc": "acceptance\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Я подтверждаю свое согласие: На использование в качестве каналов передачи информации, содержащихся в заявке, открытых каналов связи сети интернет. На обработку моих персональных данных"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/kompozitnye-viniry/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/articless/kompozitnye-viniry/#wpcf7-f98-o1\"",
+      "open_tag": "<form action=\"/articless/kompozitnye-viniry/#wpcf7-f98-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance\" value=\"1\" checked=\"checked\" class=\"acceptance\" aria-invalid=\"false\" />",
+      "policy_poc": "acceptance\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Я подтверждаю свое согласие: На использование в качестве каналов передачи информации, содержащихся в заявке, открытых каналов связи сети интернет. На обработку моих персональных данных"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/kt-diagnostika/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/uslugi/#wpcf7-f98-o1\"",
+      "open_tag": "<form action=\"/uslugi/#wpcf7-f98-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance\" value=\"1\" checked=\"checked\" class=\"acceptance\" aria-invalid=\"false\" />",
+      "policy_poc": "acceptance\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Я подтверждаю свое согласие: На использование в качестве каналов передачи информации, содержащихся в заявке, открытых каналов связи сети интернет. На обработку моих персональных данных"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/lechenie-desen/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/services/parodontologiya/lechenie-desen/#wpcf7-f98-o1\"",
+      "open_tag": "<form action=\"/services/parodontologiya/lechenie-desen/#wpcf7-f98-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance\" value=\"1\" checked=\"checked\" class=\"acceptance\" aria-invalid=\"false\" />",
+      "policy_poc": "acceptance\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Я подтверждаю свое согласие: На использование в качестве каналов передачи информации, содержащихся в заявке, открытых каналов связи сети интернет. На обработку моих персональных данных"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/lechenie-kariesa/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/services/lechenie-zubov/lechenie-kariesa/#wpcf7-f98-o1\"",
+      "open_tag": "<form action=\"/services/lechenie-zubov/lechenie-kariesa/#wpcf7-f98-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance\" value=\"1\" checked=\"checked\" class=\"acceptance\" aria-invalid=\"false\" />",
+      "policy_poc": "acceptance\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Я подтверждаю свое согласие: На использование в качестве каналов передачи информации, содержащихся в заявке, открытых каналов связи сети интернет. На обработку моих персональных данных"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/uslugi-i-czeny/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/uslugi/#wpcf7-f98-o1\"",
+      "open_tag": "<form action=\"/uslugi/#wpcf7-f98-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance\" value=\"1\" checked=\"checked\" class=\"acceptance\" aria-invalid=\"false\" />",
+      "policy_poc": "acceptance\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Я подтверждаю свое согласие: На использование в качестве каналов передачи информации, содержащихся в заявке, открытых каналов связи сети интернет. На обработку моих персональных данных"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/vrachi/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/vrachi/#wpcf7-f98-p258-o1\"",
+      "open_tag": "<form action=\"/vrachi/#wpcf7-f98-p258-o1\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Контактная форма\" novalidate=\"novalidate\" data-status=\"init\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"acceptance\" value=\"1\" checked=\"checked\" class=\"acceptance\" aria-invalid=\"false\" />",
+      "policy_poc": "acceptance\" aria-invalid=\"false\" /><span class=\"wpcf7-list-item-label\">Я подтверждаю свое согласие: На использование в качестве каналов передачи информации, содержащихся в заявке, открытых каналов связи сети интернет. На обработку моих персональных данных"
+    }
+  ],
+  "emails": [
+    "improdent@mail.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/",
+      "href": "/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/kontakty/",
+      "href": "/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/about-us/",
+      "href": "/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/",
+      "href": "/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/detstvo/",
+      "href": "/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/",
+      "href": "/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/akcziya-otbelivanie-zubov/",
+      "href": "/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/professionalnaya-gigiena/",
+      "href": "/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/",
+      "href": "/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/udalenie-zubov/",
+      "href": "/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/zubosohranyayushhie-operaczii/",
+      "href": "/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/implantacziya/",
+      "href": "/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/implantacziya/odnomomentnaya-implatacziya-zubov/",
+      "href": "/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/",
+      "href": "/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/breket-sistemy/",
+      "href": "/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/elajnery/",
+      "href": "/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/",
+      "href": "/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/bezmetallovaya-keramika-e-max/",
+      "href": "/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/metallokeramika/",
+      "href": "/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/",
+      "href": "/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/esteticheskaya-restavracziya/",
+      "href": "/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/kompozitnye-viniry/",
+      "href": "/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/kt-diagnostika/",
+      "href": "/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/lechenie-desen/",
+      "href": "/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/lechenie-kariesa/",
+      "href": "/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/uslugi-i-czeny/",
+      "href": "/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://stomatologiyamoyaulybka.msk.ru/vrachi/",
+      "href": "/politika-obrabotki-personalnyh-dannyh/",
+      "text": "Политика конфиденциальности"
+    }
+  ],
+  "forbidden_hits": [
+    {
+      "token": "wa.me",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/",
+      "context": "href=\"https://wa.me/+7(903)770-37-73\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/",
+      "context": "src=\"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/",
+      "context": "class=\"messenger-widget\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/",
+      "context": "class=\"messenger-text\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/",
+      "context": "class=\"messenger-container\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/",
+      "context": "class=\"messenger-item telegram\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/",
+      "context": "class=\"messenger-main\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/kontakty/",
+      "context": "href=\"https://wa.me/+7(903)770-37-73\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/kontakty/",
+      "context": "src=\"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/kontakty/",
+      "context": "class=\"messenger-widget\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/kontakty/",
+      "context": "class=\"messenger-text\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/kontakty/",
+      "context": "class=\"messenger-container\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/kontakty/",
+      "context": "class=\"messenger-item telegram\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/kontakty/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/kontakty/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/kontakty/",
+      "context": "class=\"messenger-main\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/about-us/",
+      "context": "href=\"https://wa.me/+7(903)770-37-73\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/about-us/",
+      "context": "src=\"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/about-us/",
+      "context": "class=\"messenger-widget\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/about-us/",
+      "context": "class=\"messenger-text\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/about-us/",
+      "context": "class=\"messenger-container\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/about-us/",
+      "context": "class=\"messenger-item telegram\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/about-us/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/about-us/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/about-us/",
+      "context": "class=\"messenger-main\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/",
+      "context": "href=\"https://wa.me/+7(903)770-37-73\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/",
+      "context": "src=\"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/",
+      "context": "class=\"messenger-widget\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/",
+      "context": "class=\"messenger-text\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/",
+      "context": "class=\"messenger-container\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/",
+      "context": "class=\"messenger-item telegram\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/",
+      "context": "class=\"messenger-main\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/detstvo/",
+      "context": "href=\"https://wa.me/+7(903)770-37-73\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/detstvo/",
+      "context": "src=\"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/detstvo/",
+      "context": "class=\"messenger-widget\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/detstvo/",
+      "context": "class=\"messenger-text\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/detstvo/",
+      "context": "class=\"messenger-container\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/detstvo/",
+      "context": "class=\"messenger-item telegram\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/detstvo/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/detstvo/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/detstvo/",
+      "context": "class=\"messenger-main\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/",
+      "context": "href=\"https://wa.me/+7(903)770-37-73\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/",
+      "context": "src=\"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/",
+      "context": "class=\"messenger-widget\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/",
+      "context": "class=\"messenger-text\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/",
+      "context": "class=\"messenger-container\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/",
+      "context": "class=\"messenger-item telegram\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/",
+      "context": "class=\"messenger-main\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/akcziya-otbelivanie-zubov/",
+      "context": "href=\"https://wa.me/+7(903)770-37-73\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/akcziya-otbelivanie-zubov/",
+      "context": "src=\"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/akcziya-otbelivanie-zubov/",
+      "context": "class=\"messenger-widget\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/akcziya-otbelivanie-zubov/",
+      "context": "class=\"messenger-text\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/akcziya-otbelivanie-zubov/",
+      "context": "class=\"messenger-container\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/akcziya-otbelivanie-zubov/",
+      "context": "class=\"messenger-item telegram\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/akcziya-otbelivanie-zubov/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/akcziya-otbelivanie-zubov/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/akcziya-otbelivanie-zubov/",
+      "context": "class=\"messenger-main\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/professionalnaya-gigiena/",
+      "context": "href=\"https://wa.me/+7(903)770-37-73\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/professionalnaya-gigiena/",
+      "context": "src=\"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/professionalnaya-gigiena/",
+      "context": "class=\"messenger-widget\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/professionalnaya-gigiena/",
+      "context": "class=\"messenger-text\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/professionalnaya-gigiena/",
+      "context": "class=\"messenger-container\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/professionalnaya-gigiena/",
+      "context": "class=\"messenger-item telegram\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/professionalnaya-gigiena/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/professionalnaya-gigiena/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/professionalnaya-gigiena/",
+      "context": "class=\"messenger-main\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/",
+      "context": "href=\"https://wa.me/+7(903)770-37-73\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/",
+      "context": "src=\"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/",
+      "context": "class=\"messenger-widget\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/",
+      "context": "class=\"messenger-text\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/",
+      "context": "class=\"messenger-container\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/",
+      "context": "class=\"messenger-item telegram\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/",
+      "context": "class=\"messenger-main\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/udalenie-zubov/",
+      "context": "href=\"https://wa.me/+7(903)770-37-73\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/udalenie-zubov/",
+      "context": "src=\"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/udalenie-zubov/",
+      "context": "class=\"messenger-widget\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/udalenie-zubov/",
+      "context": "class=\"messenger-text\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/udalenie-zubov/",
+      "context": "class=\"messenger-container\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/udalenie-zubov/",
+      "context": "class=\"messenger-item telegram\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/udalenie-zubov/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/udalenie-zubov/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/udalenie-zubov/",
+      "context": "class=\"messenger-main\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/zubosohranyayushhie-operaczii/",
+      "context": "href=\"https://wa.me/+7(903)770-37-73\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/zubosohranyayushhie-operaczii/",
+      "context": "src=\"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/zubosohranyayushhie-operaczii/",
+      "context": "class=\"messenger-widget\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/zubosohranyayushhie-operaczii/",
+      "context": "class=\"messenger-text\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/zubosohranyayushhie-operaczii/",
+      "context": "class=\"messenger-container\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/zubosohranyayushhie-operaczii/",
+      "context": "class=\"messenger-item telegram\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/zubosohranyayushhie-operaczii/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/zubosohranyayushhie-operaczii/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/zubosohranyayushhie-operaczii/",
+      "context": "class=\"messenger-main\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/implantacziya/",
+      "context": "href=\"https://wa.me/+7(903)770-37-73\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/implantacziya/",
+      "context": "src=\"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/implantacziya/",
+      "context": "class=\"messenger-widget\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/implantacziya/",
+      "context": "class=\"messenger-text\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/implantacziya/",
+      "context": "class=\"messenger-container\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/implantacziya/",
+      "context": "class=\"messenger-item telegram\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/implantacziya/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/implantacziya/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/implantacziya/",
+      "context": "class=\"messenger-main\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/implantacziya/odnomomentnaya-implatacziya-zubov/",
+      "context": "href=\"https://wa.me/+7(903)770-37-73\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/implantacziya/odnomomentnaya-implatacziya-zubov/",
+      "context": "src=\"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/implantacziya/odnomomentnaya-implatacziya-zubov/",
+      "context": "class=\"messenger-widget\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/implantacziya/odnomomentnaya-implatacziya-zubov/",
+      "context": "class=\"messenger-text\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/implantacziya/odnomomentnaya-implatacziya-zubov/",
+      "context": "class=\"messenger-container\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/implantacziya/odnomomentnaya-implatacziya-zubov/",
+      "context": "class=\"messenger-item telegram\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/implantacziya/odnomomentnaya-implatacziya-zubov/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/implantacziya/odnomomentnaya-implatacziya-zubov/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/implantacziya/odnomomentnaya-implatacziya-zubov/",
+      "context": "class=\"messenger-main\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/",
+      "context": "href=\"https://wa.me/+7(903)770-37-73\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/",
+      "context": "src=\"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/",
+      "context": "class=\"messenger-widget\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/",
+      "context": "class=\"messenger-text\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/",
+      "context": "class=\"messenger-container\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/",
+      "context": "class=\"messenger-item telegram\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/",
+      "context": "class=\"messenger-main\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/breket-sistemy/",
+      "context": "href=\"https://wa.me/+7(903)770-37-73\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/breket-sistemy/",
+      "context": "src=\"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/breket-sistemy/",
+      "context": "class=\"messenger-widget\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/breket-sistemy/",
+      "context": "class=\"messenger-text\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/breket-sistemy/",
+      "context": "class=\"messenger-container\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/breket-sistemy/",
+      "context": "class=\"messenger-item telegram\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/breket-sistemy/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/breket-sistemy/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/breket-sistemy/",
+      "context": "class=\"messenger-main\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/elajnery/",
+      "context": "href=\"https://wa.me/+7(903)770-37-73\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/elajnery/",
+      "context": "src=\"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/elajnery/",
+      "context": "class=\"messenger-widget\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/elajnery/",
+      "context": "class=\"messenger-text\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/elajnery/",
+      "context": "class=\"messenger-container\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/elajnery/",
+      "context": "class=\"messenger-item telegram\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/elajnery/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/elajnery/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/elajnery/",
+      "context": "class=\"messenger-main\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/",
+      "context": "href=\"https://wa.me/+7(903)770-37-73\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/",
+      "context": "src=\"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/",
+      "context": "class=\"messenger-widget\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/",
+      "context": "class=\"messenger-text\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/",
+      "context": "class=\"messenger-container\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/",
+      "context": "class=\"messenger-item telegram\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/",
+      "context": "class=\"messenger-main\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/bezmetallovaya-keramika-e-max/",
+      "context": "href=\"https://wa.me/+7(903)770-37-73\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/bezmetallovaya-keramika-e-max/",
+      "context": "src=\"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/bezmetallovaya-keramika-e-max/",
+      "context": "class=\"messenger-widget\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/bezmetallovaya-keramika-e-max/",
+      "context": "class=\"messenger-text\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/bezmetallovaya-keramika-e-max/",
+      "context": "class=\"messenger-container\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/bezmetallovaya-keramika-e-max/",
+      "context": "class=\"messenger-item telegram\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/bezmetallovaya-keramika-e-max/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/bezmetallovaya-keramika-e-max/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/bezmetallovaya-keramika-e-max/",
+      "context": "class=\"messenger-main\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/metallokeramika/",
+      "context": "href=\"https://wa.me/+7(903)770-37-73\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/metallokeramika/",
+      "context": "src=\"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/metallokeramika/",
+      "context": "class=\"messenger-widget\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/metallokeramika/",
+      "context": "class=\"messenger-text\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/metallokeramika/",
+      "context": "class=\"messenger-container\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/metallokeramika/",
+      "context": "class=\"messenger-item telegram\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/metallokeramika/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/metallokeramika/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/metallokeramika/",
+      "context": "class=\"messenger-main\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/",
+      "context": "href=\"https://wa.me/+7(903)770-37-73\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/",
+      "context": "src=\"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/",
+      "context": "class=\"messenger-widget\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/",
+      "context": "class=\"messenger-text\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/",
+      "context": "class=\"messenger-container\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/",
+      "context": "class=\"messenger-item telegram\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/",
+      "context": "class=\"messenger-main\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/esteticheskaya-restavracziya/",
+      "context": "href=\"https://wa.me/+7(903)770-37-73\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/esteticheskaya-restavracziya/",
+      "context": "src=\"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/esteticheskaya-restavracziya/",
+      "context": "class=\"messenger-widget\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/esteticheskaya-restavracziya/",
+      "context": "class=\"messenger-text\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/esteticheskaya-restavracziya/",
+      "context": "class=\"messenger-container\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/esteticheskaya-restavracziya/",
+      "context": "class=\"messenger-item telegram\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/esteticheskaya-restavracziya/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/esteticheskaya-restavracziya/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/esteticheskaya-restavracziya/",
+      "context": "class=\"messenger-main\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/kompozitnye-viniry/",
+      "context": "href=\"https://wa.me/+7(903)770-37-73\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/kompozitnye-viniry/",
+      "context": "src=\"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/kompozitnye-viniry/",
+      "context": "class=\"messenger-widget\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/kompozitnye-viniry/",
+      "context": "class=\"messenger-text\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/kompozitnye-viniry/",
+      "context": "class=\"messenger-container\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/kompozitnye-viniry/",
+      "context": "class=\"messenger-item telegram\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/kompozitnye-viniry/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/kompozitnye-viniry/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/kompozitnye-viniry/",
+      "context": "class=\"messenger-main\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/kt-diagnostika/",
+      "context": "href=\"https://wa.me/+7(903)770-37-73\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/kt-diagnostika/",
+      "context": "src=\"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/kt-diagnostika/",
+      "context": "class=\"messenger-widget\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/kt-diagnostika/",
+      "context": "class=\"messenger-text\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/kt-diagnostika/",
+      "context": "class=\"messenger-container\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/kt-diagnostika/",
+      "context": "class=\"messenger-item telegram\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/kt-diagnostika/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/kt-diagnostika/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/kt-diagnostika/",
+      "context": "class=\"messenger-main\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/lechenie-desen/",
+      "context": "href=\"https://wa.me/+7(903)770-37-73\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/lechenie-desen/",
+      "context": "src=\"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/lechenie-desen/",
+      "context": "class=\"messenger-widget\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/lechenie-desen/",
+      "context": "class=\"messenger-text\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/lechenie-desen/",
+      "context": "class=\"messenger-container\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/lechenie-desen/",
+      "context": "class=\"messenger-item telegram\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/lechenie-desen/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/lechenie-desen/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/lechenie-desen/",
+      "context": "class=\"messenger-main\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/lechenie-kariesa/",
+      "context": "href=\"https://wa.me/+7(903)770-37-73\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/lechenie-kariesa/",
+      "context": "src=\"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/lechenie-kariesa/",
+      "context": "class=\"messenger-widget\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/lechenie-kariesa/",
+      "context": "class=\"messenger-text\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/lechenie-kariesa/",
+      "context": "class=\"messenger-container\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/lechenie-kariesa/",
+      "context": "class=\"messenger-item telegram\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/lechenie-kariesa/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/lechenie-kariesa/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/lechenie-kariesa/",
+      "context": "class=\"messenger-main\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/uslugi-i-czeny/",
+      "context": "href=\"https://wa.me/+7(903)770-37-73\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/uslugi-i-czeny/",
+      "context": "src=\"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/uslugi-i-czeny/",
+      "context": "class=\"messenger-widget\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/uslugi-i-czeny/",
+      "context": "class=\"messenger-text\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/uslugi-i-czeny/",
+      "context": "class=\"messenger-container\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/uslugi-i-czeny/",
+      "context": "class=\"messenger-item telegram\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/uslugi-i-czeny/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/uslugi-i-czeny/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/uslugi-i-czeny/",
+      "context": "class=\"messenger-main\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/vrachi/",
+      "context": "href=\"https://wa.me/+7(903)770-37-73\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/vrachi/",
+      "context": "src=\"https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/vrachi/",
+      "context": "class=\"messenger-widget\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/vrachi/",
+      "context": "class=\"messenger-text\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/vrachi/",
+      "context": "class=\"messenger-container\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/vrachi/",
+      "context": "class=\"messenger-item telegram\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/vrachi/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/vrachi/",
+      "context": "class=\"messenger-item whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://stomatologiyamoyaulybka.msk.ru/vrachi/",
+      "context": "class=\"messenger-main\"",
+      "visibility": "только в коде"
+    }
+  ],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://stomatologiyamoyaulybka.msk.ru/kontakty/"
+    ],
+    "booking_urls": [
+      "https://stomatologiyamoyaulybka.msk.ru/appointment",
+      "https://stomatologiyamoyaulybka.msk.ru/booking",
+      "https://stomatologiyamoyaulybka.msk.ru/zapis"
+    ],
+    "sources": {
+      "https://stomatologiyamoyaulybka.msk.ru/": "sitemap-form",
+      "https://stomatologiyamoyaulybka.msk.ru/about-us/": "sitemap-form",
+      "https://stomatologiyamoyaulybka.msk.ru/appointment": "fallback",
+      "https://stomatologiyamoyaulybka.msk.ru/booking": "fallback",
+      "https://stomatologiyamoyaulybka.msk.ru/kontakty/": "navigation",
+      "https://stomatologiyamoyaulybka.msk.ru/services/": "sitemap-form",
+      "https://stomatologiyamoyaulybka.msk.ru/services/detstvo/": "sitemap-form",
+      "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/": "sitemap-form",
+      "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/akcziya-otbelivanie-zubov/": "sitemap-form",
+      "https://stomatologiyamoyaulybka.msk.ru/services/gigiena/professionalnaya-gigiena/": "sitemap-form",
+      "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/": "sitemap-form",
+      "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/udalenie-zubov/": "sitemap-form",
+      "https://stomatologiyamoyaulybka.msk.ru/services/hirurgiya/zubosohranyayushhie-operaczii/": "sitemap-form",
+      "https://stomatologiyamoyaulybka.msk.ru/services/implantacziya/": "sitemap-form",
+      "https://stomatologiyamoyaulybka.msk.ru/services/implantacziya/odnomomentnaya-implatacziya-zubov/": "sitemap-form",
+      "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/": "sitemap-form",
+      "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/breket-sistemy/": "sitemap-form",
+      "https://stomatologiyamoyaulybka.msk.ru/services/ortodontiya/elajnery/": "sitemap-form",
+      "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/": "sitemap-form",
+      "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/bezmetallovaya-keramika-e-max/": "sitemap-form",
+      "https://stomatologiyamoyaulybka.msk.ru/services/protezirovanie/metallokeramika/": "sitemap-form",
+      "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/": "sitemap-form",
+      "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/esteticheskaya-restavracziya/": "sitemap-form",
+      "https://stomatologiyamoyaulybka.msk.ru/services/restavracziya/kompozitnye-viniry/": "sitemap-form",
+      "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/kt-diagnostika/": "sitemap-form",
+      "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/lechenie-desen/": "sitemap-form",
+      "https://stomatologiyamoyaulybka.msk.ru/services/terapiya/lechenie-kariesa/": "sitemap-form",
+      "https://stomatologiyamoyaulybka.msk.ru/uslugi-i-czeny/": "sitemap-form",
+      "https://stomatologiyamoyaulybka.msk.ru/vrachi/": "sitemap-form",
+      "https://stomatologiyamoyaulybka.msk.ru/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": true
+    }
+  }
+}

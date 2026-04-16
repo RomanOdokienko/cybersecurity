@@ -1,0 +1,459 @@
+{
+  "domain": "senseclinic.ru",
+  "pages": [
+    {
+      "requested": "https://senseclinic.ru/",
+      "status": 200,
+      "final_url": "https://senseclinic.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://senseclinic.ru/kontakty/",
+      "status": 200,
+      "final_url": "https://senseclinic.ru/kontakty/",
+      "error": null
+    },
+    {
+      "requested": "https://senseclinic.ru/appointment",
+      "status": 404,
+      "final_url": "https://senseclinic.ru/appointment",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://senseclinic.ru/booking",
+      "status": 404,
+      "final_url": "https://senseclinic.ru/booking",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://senseclinic.ru/zapis",
+      "status": 404,
+      "final_url": "https://senseclinic.ru/zapis",
+      "error": "HTTPError 404"
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://senseclinic.ru/",
+      "form_id": "quiz",
+      "action_display": "action=\"https://senseclinic.ru/wp-content/themes/sense_stom/quizsend.php\"",
+      "open_tag": "<form class=\"quiz-form\" id=\"quiz\" action=\"https://senseclinic.ru/wp-content/themes/sense_stom/quizsend.php\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" />",
+      "policy_poc": "class=\"quiz-line__bg\" style=\"width: 100%;\"></div></div><div class=\"quiz-question__title\">Персональные бонусы будут закреплены за вашим номером телефона</div><div class=\"quiz-result__subtitle\"><b>Оставьте телефон, мы с вами свяжемся и рассчитаем стоимость в 3-"
+    },
+    {
+      "page": "https://senseclinic.ru/",
+      "form_id": "fd_form",
+      "action_display": "action=\"https://senseclinic.ru/wp-content/themes/sense_stom-child/send.php\"",
+      "open_tag": "<form class=\"fd_form form\" id=\"fd_form\" action=\"https://senseclinic.ru/wp-content/themes/sense_stom-child/send.php\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" />",
+      "policy_poc": "тацию</span> </button></div></div><div class=\"form__row form__row_full\"><div class=\"form__privacy\"> <label class=\"form__check\"> <input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" /> <span>Даю согласие на обработку моих <a href=\"/ps/\" target=\""
+    },
+    {
+      "page": "https://senseclinic.ru/",
+      "form_id": "form",
+      "action_display": "action=\"https://senseclinic.ru/wp-content/themes/sense_stom-child/send.php\"",
+      "open_tag": "<form class=\"form\" method=\"post\" action=\"https://senseclinic.ru/wp-content/themes/sense_stom-child/send.php\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" />",
+      "policy_poc": "n>Отправить</span> </button></div><div class=\"form__row form__row_full\"><div class=\"form__privacy\"> <label class=\"form__check\"> <input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" /> <span>Даю согласие на обработку моих <a href=\"/ps/\" target=\""
+    },
+    {
+      "page": "https://senseclinic.ru/",
+      "form_id": "form no-thanks-redirect",
+      "action_display": "action=\"https://senseclinic.ru/wp-content/themes/sense_stom/send.php\"",
+      "open_tag": "<form class=\"form no-thanks-redirect\" action=\"https://senseclinic.ru/wp-content/themes/sense_stom/send.php\" onsubmit=\"ym(103614965,'reachGoal','Send_zaivki');\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" required />",
+      "policy_poc": "iv class=\"pdf-ext\">DOC 2,6 Mb</div></div></div><div class=\"form__row form__row_full form__privacy-wrapper\"><div class=\"form__privacy\"> <label class=\"form__check\"> <input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" required /> <span> Нажимая н"
+    },
+    {
+      "page": "https://senseclinic.ru/",
+      "form_id": "form",
+      "action_display": "action=\"https://senseclinic.ru/wp-content/themes/sense_stom-child/send.php\"",
+      "open_tag": "<form class=\"form\" action=\"https://senseclinic.ru/wp-content/themes/sense_stom-child/send.php\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" />",
+      "policy_poc": "n>Отправить</span> </button></div><div class=\"form__row form__row_full\"><div class=\"form__privacy\"> <label class=\"form__check\"> <input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" /> <span>Даю согласие на обработку моих <a href=\"/ps/\" target=\""
+    },
+    {
+      "page": "https://senseclinic.ru/",
+      "form_id": "form",
+      "action_display": "action=\"https://senseclinic.ru/wp-content/themes/sense_stom-child/send.php\"",
+      "open_tag": "<form class=\"form\" action=\"https://senseclinic.ru/wp-content/themes/sense_stom-child/send.php\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" />",
+      "policy_poc": "n>Отправить</span> </button></div><div class=\"form__row form__row_full\"><div class=\"form__privacy\"> <label class=\"form__check\"> <input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" /> <span>Даю согласие на обработку моих <a href=\"/ps/\" target=\""
+    },
+    {
+      "page": "https://senseclinic.ru/",
+      "form_id": "form",
+      "action_display": "action=\"https://senseclinic.ru/wp-content/themes/sense_stom/send.php\"",
+      "open_tag": "<form class=\"form\" action=\"https://senseclinic.ru/wp-content/themes/sense_stom/send.php\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" />",
+      "policy_poc": "n>Отправить</span> </button></div><div class=\"form__row form__row_full\"><div class=\"form__privacy\"> <label class=\"form__check\"> <input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" /> <span>Даю согласие на обработку моих <a href=\"/ps/\" target=\""
+    },
+    {
+      "page": "https://senseclinic.ru/",
+      "form_id": "form",
+      "action_display": "action=\"https://senseclinic.ru/wp-content/themes/sense_stom/send.php\"",
+      "open_tag": "<form class=\"form\" action=\"https://senseclinic.ru/wp-content/themes/sense_stom/send.php\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" />",
+      "policy_poc": "n>Отправить</span> </button></div><div class=\"form__row form__row_full\"><div class=\"form__privacy\"> <label class=\"form__check\"> <input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" /> <span>Даю согласие на обработку моих <a href=\"/ps/\" target=\""
+    },
+    {
+      "page": "https://senseclinic.ru/",
+      "form_id": "form",
+      "action_display": "action=\"https://senseclinic.ru/wp-content/themes/sense_stom/send.php\"",
+      "open_tag": "<form class=\"form\" action=\"https://senseclinic.ru/wp-content/themes/sense_stom/send.php\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" />",
+      "policy_poc": "n>Отправить</span> </button></div><div class=\"form__row form__row_full\"><div class=\"form__privacy\"> <label class=\"form__check\"> <input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" /> <span>Даю согласие на обработку моих <a href=\"/ps/\" target=\""
+    },
+    {
+      "page": "https://senseclinic.ru/",
+      "form_id": "form",
+      "action_display": "action=\"https://senseclinic.ru/wp-content/themes/sense_stom/send.php\"",
+      "open_tag": "<form class=\"form\" action=\"https://senseclinic.ru/wp-content/themes/sense_stom/send.php\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" />",
+      "policy_poc": "n>Отправить</span> </button></div><div class=\"form__row form__row_full\"><div class=\"form__privacy\"> <label class=\"form__check\"> <input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" /> <span>Даю согласие на обработку моих <a href=\"/ps/\" target=\""
+    },
+    {
+      "page": "https://senseclinic.ru/",
+      "form_id": "quizForm",
+      "action_display": "action=\"https://senseclinic.ru/wp-content/themes/sense_stom/quizsend.php\"",
+      "open_tag": "<form class=\"quiz-form\" id=\"quizForm\" action=\"https://senseclinic.ru/wp-content/themes/sense_stom/quizsend.php\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"q-1[]\" value=\"Лечение зубов\" />",
+      "policy_poc": "ат + подарок</span></button></div><div class=\"form__row form__row_full\"><div class=\"form__privacy\"> <label class=\"form__check\"> <input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" /> <span>Даю согласие на обработку моих <a href=\"/ps/\" target=\""
+    },
+    {
+      "page": "https://senseclinic.ru/kontakty/",
+      "form_id": "fd_form",
+      "action_display": "action=\"https://senseclinic.ru/wp-content/themes/sense_stom-child/send.php\"",
+      "open_tag": "<form class=\"fd_form form\" id=\"fd_form\" action=\"https://senseclinic.ru/wp-content/themes/sense_stom-child/send.php\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" />",
+      "policy_poc": "тацию</span> </button></div></div><div class=\"form__row form__row_full\"><div class=\"form__privacy\"> <label class=\"form__check\"> <input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" /> <span>Даю согласие на обработку моих <a href=\"/ps/\" target=\""
+    },
+    {
+      "page": "https://senseclinic.ru/kontakty/",
+      "form_id": "form",
+      "action_display": "action=\"https://senseclinic.ru/wp-content/themes/sense_stom-child/send.php\"",
+      "open_tag": "<form class=\"form\" method=\"post\" action=\"https://senseclinic.ru/wp-content/themes/sense_stom-child/send.php\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" />",
+      "policy_poc": "n>Отправить</span> </button></div><div class=\"form__row form__row_full\"><div class=\"form__privacy\"> <label class=\"form__check\"> <input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" /> <span>Даю согласие на обработку моих <a href=\"/ps/\" target=\""
+    },
+    {
+      "page": "https://senseclinic.ru/kontakty/",
+      "form_id": "form no-thanks-redirect",
+      "action_display": "action=\"https://senseclinic.ru/wp-content/themes/sense_stom/send.php\"",
+      "open_tag": "<form class=\"form no-thanks-redirect\" action=\"https://senseclinic.ru/wp-content/themes/sense_stom/send.php\" onsubmit=\"ym(103614965,'reachGoal','Send_zaivki');\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" required />",
+      "policy_poc": "iv class=\"pdf-ext\">DOC 2,6 Mb</div></div></div><div class=\"form__row form__row_full form__privacy-wrapper\"><div class=\"form__privacy\"> <label class=\"form__check\"> <input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" required /> <span> Нажимая н"
+    },
+    {
+      "page": "https://senseclinic.ru/kontakty/",
+      "form_id": "form",
+      "action_display": "action=\"https://senseclinic.ru/wp-content/themes/sense_stom-child/send.php\"",
+      "open_tag": "<form class=\"form\" action=\"https://senseclinic.ru/wp-content/themes/sense_stom-child/send.php\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" />",
+      "policy_poc": "n>Отправить</span> </button></div><div class=\"form__row form__row_full\"><div class=\"form__privacy\"> <label class=\"form__check\"> <input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" /> <span>Даю согласие на обработку моих <a href=\"/ps/\" target=\""
+    },
+    {
+      "page": "https://senseclinic.ru/kontakty/",
+      "form_id": "form",
+      "action_display": "action=\"https://senseclinic.ru/wp-content/themes/sense_stom-child/send.php\"",
+      "open_tag": "<form class=\"form\" action=\"https://senseclinic.ru/wp-content/themes/sense_stom-child/send.php\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" />",
+      "policy_poc": "n>Отправить</span> </button></div><div class=\"form__row form__row_full\"><div class=\"form__privacy\"> <label class=\"form__check\"> <input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" /> <span>Даю согласие на обработку моих <a href=\"/ps/\" target=\""
+    },
+    {
+      "page": "https://senseclinic.ru/kontakty/",
+      "form_id": "form",
+      "action_display": "action=\"https://senseclinic.ru/wp-content/themes/sense_stom/send.php\"",
+      "open_tag": "<form class=\"form\" action=\"https://senseclinic.ru/wp-content/themes/sense_stom/send.php\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" />",
+      "policy_poc": "n>Отправить</span> </button></div><div class=\"form__row form__row_full\"><div class=\"form__privacy\"> <label class=\"form__check\"> <input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" /> <span>Даю согласие на обработку моих <a href=\"/ps/\" target=\""
+    },
+    {
+      "page": "https://senseclinic.ru/kontakty/",
+      "form_id": "form",
+      "action_display": "action=\"https://senseclinic.ru/wp-content/themes/sense_stom/send.php\"",
+      "open_tag": "<form class=\"form\" action=\"https://senseclinic.ru/wp-content/themes/sense_stom/send.php\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" />",
+      "policy_poc": "n>Отправить</span> </button></div><div class=\"form__row form__row_full\"><div class=\"form__privacy\"> <label class=\"form__check\"> <input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" /> <span>Даю согласие на обработку моих <a href=\"/ps/\" target=\""
+    },
+    {
+      "page": "https://senseclinic.ru/kontakty/",
+      "form_id": "form",
+      "action_display": "action=\"https://senseclinic.ru/wp-content/themes/sense_stom/send.php\"",
+      "open_tag": "<form class=\"form\" action=\"https://senseclinic.ru/wp-content/themes/sense_stom/send.php\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" />",
+      "policy_poc": "n>Отправить</span> </button></div><div class=\"form__row form__row_full\"><div class=\"form__privacy\"> <label class=\"form__check\"> <input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" /> <span>Даю согласие на обработку моих <a href=\"/ps/\" target=\""
+    },
+    {
+      "page": "https://senseclinic.ru/kontakty/",
+      "form_id": "form",
+      "action_display": "action=\"https://senseclinic.ru/wp-content/themes/sense_stom/send.php\"",
+      "open_tag": "<form class=\"form\" action=\"https://senseclinic.ru/wp-content/themes/sense_stom/send.php\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" />",
+      "policy_poc": "n>Отправить</span> </button></div><div class=\"form__row form__row_full\"><div class=\"form__privacy\"> <label class=\"form__check\"> <input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" /> <span>Даю согласие на обработку моих <a href=\"/ps/\" target=\""
+    },
+    {
+      "page": "https://senseclinic.ru/kontakty/",
+      "form_id": "quizForm",
+      "action_display": "action=\"https://senseclinic.ru/wp-content/themes/sense_stom/quizsend.php\"",
+      "open_tag": "<form class=\"quiz-form\" id=\"quizForm\" action=\"https://senseclinic.ru/wp-content/themes/sense_stom/quizsend.php\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"q-1[]\" value=\"Лечение зубов\" />",
+      "policy_poc": "ат + подарок</span></button></div><div class=\"form__row form__row_full\"><div class=\"form__privacy\"> <label class=\"form__check\"> <input class=\"check_checked_js\" type=\"checkbox\" checked=\"checked\" /> <span>Даю согласие на обработку моих <a href=\"/ps/\" target=\""
+    }
+  ],
+  "emails": [
+    "info@senseclinic.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://senseclinic.ru/",
+      "href": "/ps/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://senseclinic.ru/",
+      "href": "/policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://senseclinic.ru/",
+      "href": "https://senseclinic.ru/policy/",
+      "text": "Политикой обработки персональных данных"
+    },
+    {
+      "page": "https://senseclinic.ru/kontakty/",
+      "href": "/ps/",
+      "text": "персональных данных"
+    },
+    {
+      "page": "https://senseclinic.ru/kontakty/",
+      "href": "/policy/",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://senseclinic.ru/kontakty/",
+      "href": "https://senseclinic.ru/policy/",
+      "text": "Политикой обработки персональных данных"
+    }
+  ],
+  "forbidden_hits": [
+    {
+      "token": "messenger",
+      "page": "https://senseclinic.ru/",
+      "context": "src=\"https://senseclinic.ru/wp-content/uploads/2026/02/max-messenger-sign-logo.svg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://senseclinic.ru/",
+      "context": "alt=\"max-messenger-sign-logo\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://senseclinic.ru/",
+      "context": "class=\"head__whatsapp__container\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://senseclinic.ru/",
+      "context": "class=\"footer__messenger\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://senseclinic.ru/",
+      "context": "class=\"messenger\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://senseclinic.ru/",
+      "context": "class=\"messenger__label\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://senseclinic.ru/",
+      "context": "class=\"messenger__list\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://senseclinic.ru/",
+      "context": "class=\"messenger__item\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://senseclinic.ru/",
+      "context": "class=\"messenger__link vk\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://senseclinic.ru/",
+      "context": "class=\"messenger__link youtube\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://senseclinic.ru/",
+      "context": "class=\"messenger__link tg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://senseclinic.ru/kontakty/",
+      "context": "src=\"https://senseclinic.ru/wp-content/uploads/2026/02/max-messenger-sign-logo.svg\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://senseclinic.ru/kontakty/",
+      "context": "alt=\"max-messenger-sign-logo\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://senseclinic.ru/kontakty/",
+      "context": "class=\"head__whatsapp__container\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://senseclinic.ru/kontakty/",
+      "context": "class=\"footer__messenger\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://senseclinic.ru/kontakty/",
+      "context": "class=\"messenger\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://senseclinic.ru/kontakty/",
+      "context": "class=\"messenger__label\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://senseclinic.ru/kontakty/",
+      "context": "class=\"messenger__list\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://senseclinic.ru/kontakty/",
+      "context": "class=\"messenger__item\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://senseclinic.ru/kontakty/",
+      "context": "class=\"messenger__link vk\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://senseclinic.ru/kontakty/",
+      "context": "class=\"messenger__link youtube\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "messenger",
+      "page": "https://senseclinic.ru/kontakty/",
+      "context": "class=\"messenger__link tg\"",
+      "visibility": "только в коде"
+    }
+  ],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://senseclinic.ru/kontakty/"
+    ],
+    "booking_urls": [
+      "https://senseclinic.ru/appointment",
+      "https://senseclinic.ru/booking",
+      "https://senseclinic.ru/zapis"
+    ],
+    "sources": {
+      "https://senseclinic.ru/": "",
+      "https://senseclinic.ru/appointment": "fallback",
+      "https://senseclinic.ru/booking": "fallback",
+      "https://senseclinic.ru/kontakty/": "navigation",
+      "https://senseclinic.ru/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": true
+    }
+  }
+}

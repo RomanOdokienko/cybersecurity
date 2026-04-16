@@ -1,0 +1,117 @@
+{
+  "domain": "mx-medical.ru",
+  "pages": [
+    {
+      "requested": "https://mx-medical.ru/",
+      "status": 200,
+      "final_url": "https://mx-medical.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://mx-medical.ru/contacts/",
+      "status": 200,
+      "final_url": "https://mx-medical.ru/contacts/",
+      "error": null
+    },
+    {
+      "requested": "https://mx-medical.ru/zapis/",
+      "status": 200,
+      "final_url": "https://mx-medical.ru/zapis/",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://mx-medical.ru/zapis/",
+      "form_id": "form Запись",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form Запись\" data-captcha=\"0\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Я даю согласие на обработку персональных данных\" name=\"fields[agreement_1]\" required>",
+      "policy_poc": "ass=\"form__input form__policy\"> <label class=\"row\"> <input type=\"checkbox\" value=\"Я даю согласие на обработку персональных данных\" name=\"fields[agreement_1]\" required> <span>Я даю согласие на <a target=\"_blank\" href=\"/upload/medialibrary/c9c/uek62m8ea66"
+    }
+  ],
+  "emails": [
+    "info@mx-medical.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://mx-medical.ru/",
+      "href": "https://mx-medical.ru/upload/medialibrary/c9c/uek62m8ea662pel1f4nas79icpdsufch.pdf",
+      "text": "Политикой обработки cookies"
+    },
+    {
+      "page": "https://mx-medical.ru/contacts/",
+      "href": "https://mx-medical.ru/upload/medialibrary/c9c/uek62m8ea662pel1f4nas79icpdsufch.pdf",
+      "text": "Политикой обработки cookies"
+    },
+    {
+      "page": "https://mx-medical.ru/zapis/",
+      "href": "/upload/medialibrary/c9c/uek62m8ea662pel1f4nas79icpdsufch.pdf",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://mx-medical.ru/zapis/",
+      "href": "https://mx-medical.ru/upload/medialibrary/c9c/uek62m8ea662pel1f4nas79icpdsufch.pdf",
+      "text": "Политикой обработки cookies"
+    }
+  ],
+  "forbidden_hits": [
+    {
+      "token": "whatsapp",
+      "page": "https://mx-medical.ru/",
+      "context": "WhatsApp",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://mx-medical.ru/",
+      "context": "href=\"https://api.whatsapp.com/send/?phone=%2B79161655554&text&type=phone_number&app_absent=0\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://mx-medical.ru/contacts/",
+      "context": "WhatsApp",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://mx-medical.ru/contacts/",
+      "context": "href=\"https://api.whatsapp.com/send/?phone=%2B79161655554&text&type=phone_number&app_absent=0\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://mx-medical.ru/zapis/",
+      "context": "WhatsApp",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://mx-medical.ru/zapis/",
+      "context": "href=\"https://api.whatsapp.com/send/?phone=%2B79161655554&text&type=phone_number&app_absent=0\"",
+      "visibility": "только в коде"
+    }
+  ],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://mx-medical.ru/contacts/"
+    ],
+    "booking_urls": [
+      "https://mx-medical.ru/zapis/"
+    ],
+    "sources": {
+      "https://mx-medical.ru/": "",
+      "https://mx-medical.ru/contacts/": "navigation",
+      "https://mx-medical.ru/zapis/": "navigation"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": false
+    }
+  }
+}

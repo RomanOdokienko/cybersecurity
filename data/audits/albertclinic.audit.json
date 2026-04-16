@@ -1,0 +1,648 @@
+{
+  "domain": "www.albertclinic.ru",
+  "pages": [
+    {
+      "requested": "https://www.albertclinic.ru/",
+      "status": 200,
+      "final_url": "https://www.albertclinic.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://www.albertclinic.ru/#contacts",
+      "status": 200,
+      "final_url": "https://www.albertclinic.ru/#contacts",
+      "error": null
+    },
+    {
+      "requested": "https://www.albertclinic.ru/appointment",
+      "status": 404,
+      "final_url": "https://www.albertclinic.ru/appointment",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://www.albertclinic.ru/booking",
+      "status": 404,
+      "final_url": "https://www.albertclinic.ru/booking",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://www.albertclinic.ru/zapis",
+      "status": 404,
+      "final_url": "https://www.albertclinic.ru/zapis",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://albertclinic.ru/",
+      "status": 200,
+      "final_url": "https://albertclinic.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://albertclinic.ru/docum",
+      "status": 200,
+      "final_url": "https://albertclinic.ru/docum",
+      "error": null
+    },
+    {
+      "requested": "https://albertclinic.ru/lechenie",
+      "status": 200,
+      "final_url": "https://albertclinic.ru/lechenie",
+      "error": null
+    },
+    {
+      "requested": "https://albertclinic.ru/ortopedia",
+      "status": 200,
+      "final_url": "https://albertclinic.ru/ortopedia",
+      "error": null
+    },
+    {
+      "requested": "https://albertclinic.ru/polite",
+      "status": 200,
+      "final_url": "https://albertclinic.ru/polite",
+      "error": null
+    },
+    {
+      "requested": "https://albertclinic.ru/price",
+      "status": 200,
+      "final_url": "https://albertclinic.ru/price",
+      "error": null
+    },
+    {
+      "requested": "https://albertclinic.ru/services/children/",
+      "status": 200,
+      "final_url": "https://albertclinic.ru/services/children/",
+      "error": null
+    },
+    {
+      "requested": "https://albertclinic.ru/udalenie",
+      "status": 200,
+      "final_url": "https://albertclinic.ru/udalenie",
+      "error": null
+    },
+    {
+      "requested": "https://albertclinic.ru/vrachi",
+      "status": 200,
+      "final_url": "https://albertclinic.ru/vrachi",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://www.albertclinic.ru/",
+      "form_id": "form1513688171",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1513688171\" name='form1513688171' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 t-form_bbonly\" data-success-callback=\"t700_onSuccess\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" checked data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "equired=\"true\"> <div class=\"t-checkbox__indicator\"></div> <span>Нажимая кнопку я даю свое согласие с политикой конфиденциальности</span></label> </div> <div class=\"t-input-error\" aria-live=\"polite\" id=\"error_1762170567351\"></div> </div> <div class=\"t-form_"
+    },
+    {
+      "page": "https://www.albertclinic.ru/",
+      "form_id": "form1559667521",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1559667521\" name='form1559667521' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" checked data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "a-req=\"1\" aria-required=\"true\"> <div class=\"t-checkbox__indicator\"></div> <span>&nbsp;Даю согласие на&nbsp;<a href=\"https://albertclinic.ru/polite\" target=\"_blank\" rel=\"noreferrer noopener\">обработку персональных данных</a></span></label> </div> <div class"
+    },
+    {
+      "page": "https://www.albertclinic.ru/#contacts",
+      "form_id": "form1513688171",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1513688171\" name='form1513688171' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 t-form_bbonly\" data-success-callback=\"t700_onSuccess\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" checked data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "equired=\"true\"> <div class=\"t-checkbox__indicator\"></div> <span>Нажимая кнопку я даю свое согласие с политикой конфиденциальности</span></label> </div> <div class=\"t-input-error\" aria-live=\"polite\" id=\"error_1762170567351\"></div> </div> <div class=\"t-form_"
+    },
+    {
+      "page": "https://www.albertclinic.ru/#contacts",
+      "form_id": "form1559667521",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1559667521\" name='form1559667521' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" checked data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "a-req=\"1\" aria-required=\"true\"> <div class=\"t-checkbox__indicator\"></div> <span>&nbsp;Даю согласие на&nbsp;<a href=\"https://albertclinic.ru/polite\" target=\"_blank\" rel=\"noreferrer noopener\">обработку персональных данных</a></span></label> </div> <div class"
+    },
+    {
+      "page": "https://albertclinic.ru/",
+      "form_id": "form1513688171",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1513688171\" name='form1513688171' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 t-form_bbonly\" data-success-callback=\"t700_onSuccess\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" checked data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "equired=\"true\"> <div class=\"t-checkbox__indicator\"></div> <span>Нажимая кнопку я даю свое согласие с политикой конфиденциальности</span></label> </div> <div class=\"t-input-error\" aria-live=\"polite\" id=\"error_1762170567351\"></div> </div> <div class=\"t-form_"
+    },
+    {
+      "page": "https://albertclinic.ru/",
+      "form_id": "form1559667521",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1559667521\" name='form1559667521' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" checked data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "a-req=\"1\" aria-required=\"true\"> <div class=\"t-checkbox__indicator\"></div> <span>&nbsp;Даю согласие на&nbsp;<a href=\"https://albertclinic.ru/polite\" target=\"_blank\" rel=\"noreferrer noopener\">обработку персональных данных</a></span></label> </div> <div class"
+    },
+    {
+      "page": "https://albertclinic.ru/docum",
+      "form_id": "form1592623521",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1592623521\" name='form1592623521' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 t-form_bbonly\" data-success-callback=\"t700_onSuccess\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" checked data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "equired=\"true\"> <div class=\"t-checkbox__indicator\"></div> <span>Нажимая кнопку я даю свое согласие с политикой конфиденциальности</span></label> </div> <div class=\"t-input-error\" aria-live=\"polite\" id=\"error_1762170567351\"></div> </div> <div class=\"t-form_"
+    },
+    {
+      "page": "https://albertclinic.ru/docum",
+      "form_id": "form1559667521",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1559667521\" name='form1559667521' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" checked data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "a-req=\"1\" aria-required=\"true\"> <div class=\"t-checkbox__indicator\"></div> <span>&nbsp;Даю согласие на&nbsp;<a href=\"https://albertclinic.ru/polite\" target=\"_blank\" rel=\"noreferrer noopener\">обработку персональных данных</a></span></label> </div> <div class"
+    },
+    {
+      "page": "https://albertclinic.ru/lechenie",
+      "form_id": "form1557446861",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1557446861\" name='form1557446861' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t720_onSuccess\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" checked data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "equired=\"true\"> <div class=\"t-checkbox__indicator\"></div> <span>Нажимая кнопку я даю свое согласие с политикой конфиденциальности</span></label> </div> <div class=\"t-input-error\" aria-live=\"polite\" id=\"error_1763042652446\"></div> </div> <div class=\"t-form_"
+    },
+    {
+      "page": "https://albertclinic.ru/lechenie",
+      "form_id": "form1557094091",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1557094091\" name='form1557094091' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 t-form_bbonly\" data-success-callback=\"t700_onSuccess\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" checked data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "equired=\"true\"> <div class=\"t-checkbox__indicator\"></div> <span>Нажимая кнопку я даю свое согласие с политикой конфиденциальности</span></label> </div> <div class=\"t-input-error\" aria-live=\"polite\" id=\"error_1762170567351\"></div> </div> <div class=\"t-form_"
+    },
+    {
+      "page": "https://albertclinic.ru/lechenie",
+      "form_id": "form1559667521",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1559667521\" name='form1559667521' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" checked data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "a-req=\"1\" aria-required=\"true\"> <div class=\"t-checkbox__indicator\"></div> <span>&nbsp;Даю согласие на&nbsp;<a href=\"https://albertclinic.ru/polite\" target=\"_blank\" rel=\"noreferrer noopener\">обработку персональных данных</a></span></label> </div> <div class"
+    },
+    {
+      "page": "https://albertclinic.ru/ortopedia",
+      "form_id": "form1558132121",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1558132121\" name='form1558132121' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t720_onSuccess\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" checked data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "equired=\"true\"> <div class=\"t-checkbox__indicator\"></div> <span>Нажимая кнопку я даю свое согласие с политикой конфиденциальности</span></label> </div> <div class=\"t-input-error\" aria-live=\"polite\" id=\"error_1763042652446\"></div> </div> <div class=\"t-form_"
+    },
+    {
+      "page": "https://albertclinic.ru/ortopedia",
+      "form_id": "form1558132221",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1558132221\" name='form1558132221' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 t-form_bbonly\" data-success-callback=\"t700_onSuccess\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" checked data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "equired=\"true\"> <div class=\"t-checkbox__indicator\"></div> <span>Нажимая кнопку я даю свое согласие с политикой конфиденциальности</span></label> </div> <div class=\"t-input-error\" aria-live=\"polite\" id=\"error_1762170567351\"></div> </div> <div class=\"t-form_"
+    },
+    {
+      "page": "https://albertclinic.ru/ortopedia",
+      "form_id": "form1559667521",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1559667521\" name='form1559667521' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" checked data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "a-req=\"1\" aria-required=\"true\"> <div class=\"t-checkbox__indicator\"></div> <span>&nbsp;Даю согласие на&nbsp;<a href=\"https://albertclinic.ru/polite\" target=\"_blank\" rel=\"noreferrer noopener\">обработку персональных данных</a></span></label> </div> <div class"
+    },
+    {
+      "page": "https://albertclinic.ru/polite",
+      "form_id": "form1559667521",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1559667521\" name='form1559667521' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" checked data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "a-req=\"1\" aria-required=\"true\"> <div class=\"t-checkbox__indicator\"></div> <span>&nbsp;Даю согласие на&nbsp;<a href=\"https://albertclinic.ru/polite\" target=\"_blank\" rel=\"noreferrer noopener\">обработку персональных данных</a></span></label> </div> <div class"
+    },
+    {
+      "page": "https://albertclinic.ru/price",
+      "form_id": "form1534105231",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1534105231\" name='form1534105231' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 t-form_bbonly\" data-success-callback=\"t700_onSuccess\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" checked data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "equired=\"true\"> <div class=\"t-checkbox__indicator\"></div> <span>Нажимая кнопку я даю свое согласие с политикой конфиденциальности</span></label> </div> <div class=\"t-input-error\" aria-live=\"polite\" id=\"error_1762170567351\"></div> </div> <div class=\"t-form_"
+    },
+    {
+      "page": "https://albertclinic.ru/price",
+      "form_id": "form1559667521",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1559667521\" name='form1559667521' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" checked data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "a-req=\"1\" aria-required=\"true\"> <div class=\"t-checkbox__indicator\"></div> <span>&nbsp;Даю согласие на&nbsp;<a href=\"https://albertclinic.ru/polite\" target=\"_blank\" rel=\"noreferrer noopener\">обработку персональных данных</a></span></label> </div> <div class"
+    },
+    {
+      "page": "https://albertclinic.ru/services/children/",
+      "form_id": "form1557482871",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1557482871\" name='form1557482871' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t720_onSuccess\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" checked data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "equired=\"true\"> <div class=\"t-checkbox__indicator\"></div> <span>Нажимая кнопку я даю свое согласие с политикой конфиденциальности</span></label> </div> <div class=\"t-input-error\" aria-live=\"polite\" id=\"error_1315574468612\"></div> </div> <div class=\"t-form_"
+    },
+    {
+      "page": "https://albertclinic.ru/services/children/",
+      "form_id": "form1528342171",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1528342171\" name='form1528342171' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 t-form_bbonly\" data-success-callback=\"t700_onSuccess\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" checked data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "equired=\"true\"> <div class=\"t-checkbox__indicator\"></div> <span>Нажимая кнопку я даю свое согласие с политикой конфиденциальности</span></label> </div> <div class=\"t-input-error\" aria-live=\"polite\" id=\"error_1762170567351\"></div> </div> <div class=\"t-form_"
+    },
+    {
+      "page": "https://albertclinic.ru/services/children/",
+      "form_id": "form1559667521",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1559667521\" name='form1559667521' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" checked data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "a-req=\"1\" aria-required=\"true\"> <div class=\"t-checkbox__indicator\"></div> <span>&nbsp;Даю согласие на&nbsp;<a href=\"https://albertclinic.ru/polite\" target=\"_blank\" rel=\"noreferrer noopener\">обработку персональных данных</a></span></label> </div> <div class"
+    },
+    {
+      "page": "https://albertclinic.ru/udalenie",
+      "form_id": "form1559525241",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1559525241\" name='form1559525241' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t720_onSuccess\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" checked data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "equired=\"true\"> <div class=\"t-checkbox__indicator\"></div> <span>Нажимая кнопку я даю свое согласие с политикой конфиденциальности</span></label> </div> <div class=\"t-input-error\" aria-live=\"polite\" id=\"error_1763042652446\"></div> </div> <div class=\"t-form_"
+    },
+    {
+      "page": "https://albertclinic.ru/udalenie",
+      "form_id": "form1559525341",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1559525341\" name='form1559525341' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 t-form_bbonly\" data-success-callback=\"t700_onSuccess\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" checked data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "equired=\"true\"> <div class=\"t-checkbox__indicator\"></div> <span>Нажимая кнопку я даю свое согласие с политикой конфиденциальности</span></label> </div> <div class=\"t-input-error\" aria-live=\"polite\" id=\"error_1762170567351\"></div> </div> <div class=\"t-form_"
+    },
+    {
+      "page": "https://albertclinic.ru/udalenie",
+      "form_id": "form1559667521",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1559667521\" name='form1559667521' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" checked data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "a-req=\"1\" aria-required=\"true\"> <div class=\"t-checkbox__indicator\"></div> <span>&nbsp;Даю согласие на&nbsp;<a href=\"https://albertclinic.ru/polite\" target=\"_blank\" rel=\"noreferrer noopener\">обработку персональных данных</a></span></label> </div> <div class"
+    },
+    {
+      "page": "https://albertclinic.ru/vrachi",
+      "form_id": "form1559685111",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1559685111\" name='form1559685111' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 t-form_bbonly\" data-success-callback=\"t700_onSuccess\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" checked data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "equired=\"true\"> <div class=\"t-checkbox__indicator\"></div> <span>Нажимая кнопку я даю свое согласие с политикой конфиденциальности</span></label> </div> <div class=\"t-input-error\" aria-live=\"polite\" id=\"error_1762170567351\"></div> </div> <div class=\"t-form_"
+    },
+    {
+      "page": "https://albertclinic.ru/vrachi",
+      "form_id": "form1559667521",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1559667521\" name='form1559667521' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" checked data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "a-req=\"1\" aria-required=\"true\"> <div class=\"t-checkbox__indicator\"></div> <span>&nbsp;Даю согласие на&nbsp;<a href=\"https://albertclinic.ru/polite\" target=\"_blank\" rel=\"noreferrer noopener\">обработку персональных данных</a></span></label> </div> <div class"
+    }
+  ],
+  "emails": [
+    "albertclinic@ya.ru",
+    "info@albertclinic.ru",
+    "zdrav@mos.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://www.albertclinic.ru/",
+      "href": "https://albertclinic.ru/polite",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://www.albertclinic.ru/",
+      "href": "https://albertclinic.ru/polite",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://www.albertclinic.ru/#contacts",
+      "href": "https://albertclinic.ru/polite",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://www.albertclinic.ru/#contacts",
+      "href": "https://albertclinic.ru/polite",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://albertclinic.ru/",
+      "href": "https://albertclinic.ru/polite",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://albertclinic.ru/",
+      "href": "https://albertclinic.ru/polite",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://albertclinic.ru/docum",
+      "href": "https://albertclinic.ru/polite",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://albertclinic.ru/docum",
+      "href": "https://albertclinic.ru/polite",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://albertclinic.ru/lechenie",
+      "href": "https://albertclinic.ru/polite",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://albertclinic.ru/lechenie",
+      "href": "https://albertclinic.ru/polite",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://albertclinic.ru/ortopedia",
+      "href": "https://albertclinic.ru/polite",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://albertclinic.ru/ortopedia",
+      "href": "https://albertclinic.ru/polite",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://albertclinic.ru/polite",
+      "href": "https://albertclinic.ru/polite",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://albertclinic.ru/polite",
+      "href": "https://albertclinic.ru/polite",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://albertclinic.ru/price",
+      "href": "https://albertclinic.ru/polite",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://albertclinic.ru/price",
+      "href": "https://albertclinic.ru/polite",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://albertclinic.ru/services/children/",
+      "href": "https://albertclinic.ru/polite",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://albertclinic.ru/services/children/",
+      "href": "https://albertclinic.ru/polite",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://albertclinic.ru/udalenie",
+      "href": "https://albertclinic.ru/polite",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://albertclinic.ru/udalenie",
+      "href": "https://albertclinic.ru/polite",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://albertclinic.ru/vrachi",
+      "href": "https://albertclinic.ru/polite",
+      "text": "обработку персональных данных"
+    },
+    {
+      "page": "https://albertclinic.ru/vrachi",
+      "href": "https://albertclinic.ru/polite",
+      "text": "Политика конфиденциальности"
+    }
+  ],
+  "forbidden_hits": [
+    {
+      "token": "wa.me",
+      "page": "https://www.albertclinic.ru/",
+      "context": "href=\"https://wa.me/+74997497777\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://www.albertclinic.ru/",
+      "context": "href=\"https://wa.me/+79199992111\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://www.albertclinic.ru/#contacts",
+      "context": "href=\"https://wa.me/+74997497777\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://www.albertclinic.ru/#contacts",
+      "context": "href=\"https://wa.me/+79199992111\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://albertclinic.ru/",
+      "context": "href=\"https://wa.me/+74997497777\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://albertclinic.ru/",
+      "context": "href=\"https://wa.me/+79199992111\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://albertclinic.ru/docum",
+      "context": "href=\"https://wa.me/+74997497777\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://albertclinic.ru/docum",
+      "context": "href=\"https://wa.me/+79199992111\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://albertclinic.ru/lechenie",
+      "context": "href=\"https://wa.me/+74997497777\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://albertclinic.ru/lechenie",
+      "context": "href=\"https://wa.me/+79199992111\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://albertclinic.ru/ortopedia",
+      "context": "href=\"https://wa.me/+74997497777\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://albertclinic.ru/ortopedia",
+      "context": "href=\"https://wa.me/+79199992111\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://albertclinic.ru/polite",
+      "context": "href=\"https://wa.me/+74997497777\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://albertclinic.ru/polite",
+      "context": "href=\"https://wa.me/+79199992111\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://albertclinic.ru/price",
+      "context": "href=\"https://wa.me/+74997497777\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://albertclinic.ru/price",
+      "context": "href=\"https://wa.me/+79199992111\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://albertclinic.ru/services/children/",
+      "context": "href=\"https://wa.me/+74997497777\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://albertclinic.ru/services/children/",
+      "context": "href=\"https://wa.me/+79199992111\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://albertclinic.ru/udalenie",
+      "context": "href=\"https://wa.me/+74997497777\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://albertclinic.ru/udalenie",
+      "context": "href=\"https://wa.me/+79199992111\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://albertclinic.ru/vrachi",
+      "context": "href=\"https://wa.me/+74997497777\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://albertclinic.ru/vrachi",
+      "context": "href=\"https://wa.me/+79199992111\"",
+      "visibility": "только в коде"
+    }
+  ],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://www.albertclinic.ru/#contacts"
+    ],
+    "booking_urls": [
+      "https://www.albertclinic.ru/appointment",
+      "https://www.albertclinic.ru/booking",
+      "https://www.albertclinic.ru/zapis"
+    ],
+    "sources": {
+      "https://albertclinic.ru/": "sitemap-form",
+      "https://albertclinic.ru/docum": "sitemap-form",
+      "https://albertclinic.ru/lechenie": "sitemap-form",
+      "https://albertclinic.ru/ortopedia": "sitemap-form",
+      "https://albertclinic.ru/polite": "sitemap-form",
+      "https://albertclinic.ru/price": "sitemap-form",
+      "https://albertclinic.ru/services/children/": "sitemap-form",
+      "https://albertclinic.ru/udalenie": "sitemap-form",
+      "https://albertclinic.ru/vrachi": "sitemap-form",
+      "https://www.albertclinic.ru/": "",
+      "https://www.albertclinic.ru/#contacts": "navigation",
+      "https://www.albertclinic.ru/appointment": "fallback",
+      "https://www.albertclinic.ru/booking": "fallback",
+      "https://www.albertclinic.ru/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": true
+    }
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "domain": "dsclinic-msk.ru",
+  "pages": [
+    {
+      "requested": "https://dsclinic-msk.ru/",
+      "status": 200,
+      "final_url": "https://dsclinic-msk.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://dsclinic-msk.ru/#contacts",
+      "status": 200,
+      "final_url": "https://dsclinic-msk.ru/#contacts",
+      "error": null
+    },
+    {
+      "requested": "https://dsclinic-msk.ru/implantaciyazubov",
+      "status": 200,
+      "final_url": "https://dsclinic-msk.ru/implantaciyazubov",
+      "error": null
+    },
+    {
+      "requested": "https://dsclinic-msk.ru/protezirovaniezubov",
+      "status": 200,
+      "final_url": "https://dsclinic-msk.ru/protezirovaniezubov",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://dsclinic-msk.ru/",
+      "form_id": "form327555213",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form327555213\" name='form327555213' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"privacy\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "p t-input-group_cb \" data-input-lid=\"1775580022739\" data-field-type=\"cb\" data-field-name=\"privacy\"> <div class=\"t-input-block \" style=\"border-radius:5px;\"> <label class=\"t-checkbox__control t-checkbox__control_flex t-text t-text_xs\" style=\"\"> <input type=\"c"
+    },
+    {
+      "page": "https://dsclinic-msk.ru/",
+      "form_id": "form327557741",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form327557741\" name='form327557741' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"privacy\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "p t-input-group_cb \" data-input-lid=\"1775580041114\" data-field-type=\"cb\" data-field-name=\"privacy\"> <div class=\"t-input-block \" style=\"border-radius:5px;\"> <label class=\"t-checkbox__control t-checkbox__control_flex t-text t-text_xs\" style=\"\"> <input type=\"c"
+    },
+    {
+      "page": "https://dsclinic-msk.ru/",
+      "form_id": "form330134434",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form330134434\" name='form330134434' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_6 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"privacy\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "p t-input-group_cb \" data-input-lid=\"1775579906111\" data-field-type=\"cb\" data-field-name=\"privacy\"> <div class=\"t-input-block \" style=\"border-radius:5px;\"> <label class=\"t-checkbox__control t-checkbox__control_flex t-text t-text_xs\" style=\"\"> <input type=\"c"
+    },
+    {
+      "page": "https://dsclinic-msk.ru/",
+      "form_id": "t972__categories",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"t972__categories\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": false,
+      "checkbox_poc": "<input class=\"t972__toggle-input\" name=\"cookie_type\" value=\"analytics\" type=\"checkbox\">",
+      "policy_poc": null
+    },
+    {
+      "page": "https://dsclinic-msk.ru/#contacts",
+      "form_id": "form327555213",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form327555213\" name='form327555213' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"privacy\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "p t-input-group_cb \" data-input-lid=\"1775580022739\" data-field-type=\"cb\" data-field-name=\"privacy\"> <div class=\"t-input-block \" style=\"border-radius:5px;\"> <label class=\"t-checkbox__control t-checkbox__control_flex t-text t-text_xs\" style=\"\"> <input type=\"c"
+    },
+    {
+      "page": "https://dsclinic-msk.ru/#contacts",
+      "form_id": "form327557741",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form327557741\" name='form327557741' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"privacy\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "p t-input-group_cb \" data-input-lid=\"1775580041114\" data-field-type=\"cb\" data-field-name=\"privacy\"> <div class=\"t-input-block \" style=\"border-radius:5px;\"> <label class=\"t-checkbox__control t-checkbox__control_flex t-text t-text_xs\" style=\"\"> <input type=\"c"
+    },
+    {
+      "page": "https://dsclinic-msk.ru/#contacts",
+      "form_id": "form330134434",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form330134434\" name='form330134434' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_6 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"privacy\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "p t-input-group_cb \" data-input-lid=\"1775579906111\" data-field-type=\"cb\" data-field-name=\"privacy\"> <div class=\"t-input-block \" style=\"border-radius:5px;\"> <label class=\"t-checkbox__control t-checkbox__control_flex t-text t-text_xs\" style=\"\"> <input type=\"c"
+    },
+    {
+      "page": "https://dsclinic-msk.ru/#contacts",
+      "form_id": "t972__categories",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"t972__categories\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": false,
+      "checkbox_poc": "<input class=\"t972__toggle-input\" name=\"cookie_type\" value=\"analytics\" type=\"checkbox\">",
+      "policy_poc": null
+    },
+    {
+      "page": "https://dsclinic-msk.ru/implantaciyazubov",
+      "form_id": "form327555213",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form327555213\" name='form327555213' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"privacy\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "p t-input-group_cb \" data-input-lid=\"1775580022739\" data-field-type=\"cb\" data-field-name=\"privacy\"> <div class=\"t-input-block \" style=\"border-radius:5px;\"> <label class=\"t-checkbox__control t-checkbox__control_flex t-text t-text_xs\" style=\"\"> <input type=\"c"
+    },
+    {
+      "page": "https://dsclinic-msk.ru/implantaciyazubov",
+      "form_id": "form327557741",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form327557741\" name='form327557741' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"privacy\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "p t-input-group_cb \" data-input-lid=\"1775580041114\" data-field-type=\"cb\" data-field-name=\"privacy\"> <div class=\"t-input-block \" style=\"border-radius:5px;\"> <label class=\"t-checkbox__control t-checkbox__control_flex t-text t-text_xs\" style=\"\"> <input type=\"c"
+    },
+    {
+      "page": "https://dsclinic-msk.ru/implantaciyazubov",
+      "form_id": "t972__categories",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"t972__categories\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": false,
+      "checkbox_poc": "<input class=\"t972__toggle-input\" name=\"cookie_type\" value=\"analytics\" type=\"checkbox\">",
+      "policy_poc": null
+    },
+    {
+      "page": "https://dsclinic-msk.ru/protezirovaniezubov",
+      "form_id": "form327555213",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form327555213\" name='form327555213' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"privacy\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "p t-input-group_cb \" data-input-lid=\"1775580022739\" data-field-type=\"cb\" data-field-name=\"privacy\"> <div class=\"t-input-block \" style=\"border-radius:5px;\"> <label class=\"t-checkbox__control t-checkbox__control_flex t-text t-text_xs\" style=\"\"> <input type=\"c"
+    },
+    {
+      "page": "https://dsclinic-msk.ru/protezirovaniezubov",
+      "form_id": "form327557741",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form327557741\" name='form327557741' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"privacy\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "p t-input-group_cb \" data-input-lid=\"1775580041114\" data-field-type=\"cb\" data-field-name=\"privacy\"> <div class=\"t-input-block \" style=\"border-radius:5px;\"> <label class=\"t-checkbox__control t-checkbox__control_flex t-text t-text_xs\" style=\"\"> <input type=\"c"
+    },
+    {
+      "page": "https://dsclinic-msk.ru/protezirovaniezubov",
+      "form_id": "t972__categories",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"t972__categories\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": false,
+      "checkbox_poc": "<input class=\"t972__toggle-input\" name=\"cookie_type\" value=\"analytics\" type=\"checkbox\">",
+      "policy_poc": null
+    }
+  ],
+  "emails": [
+    "info@dsclinic-msk.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://dsclinic-msk.ru/",
+      "href": "/privacy",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://dsclinic-msk.ru/",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://dsclinic-msk.ru/",
+      "href": "/privacy",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://dsclinic-msk.ru/#contacts",
+      "href": "/privacy",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://dsclinic-msk.ru/#contacts",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://dsclinic-msk.ru/#contacts",
+      "href": "/privacy",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://dsclinic-msk.ru/implantaciyazubov",
+      "href": "/privacy",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://dsclinic-msk.ru/implantaciyazubov",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://dsclinic-msk.ru/implantaciyazubov",
+      "href": "/privacy",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://dsclinic-msk.ru/protezirovaniezubov",
+      "href": "/privacy",
+      "text": "Политикой конфиденциальности"
+    },
+    {
+      "page": "https://dsclinic-msk.ru/protezirovaniezubov",
+      "href": "/privacy",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://dsclinic-msk.ru/protezirovaniezubov",
+      "href": "/privacy",
+      "text": "Политика конфиденциальности"
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://dsclinic-msk.ru/#contacts"
+    ],
+    "booking_urls": [
+      "https://dsclinic-msk.ru/",
+      "https://dsclinic-msk.ru/implantaciyazubov",
+      "https://dsclinic-msk.ru/protezirovaniezubov"
+    ],
+    "sources": {
+      "https://dsclinic-msk.ru/": "home-booking-candidate",
+      "https://dsclinic-msk.ru/#contacts": "navigation",
+      "https://dsclinic-msk.ru/implantaciyazubov": "sitemap-form",
+      "https://dsclinic-msk.ru/protezirovaniezubov": "sitemap-form"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": false
+    }
+  }
+}

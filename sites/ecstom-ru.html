@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>EC Stom — детали проверки</title>
+<style>
+body{margin:0;font-family:Segoe UI,Arial,sans-serif;background:#f4f6fb;color:#1f2430}
+.wrap{max-width:1100px;margin:24px auto;padding:0 16px 24px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.card{background:#fff;border:1px solid #e5e8ef;border-radius:12px;padding:12px 14px}
+.block{background:#fff;border:1px solid #e5e8ef;border-radius:12px;padding:14px 16px;margin-top:12px}
+h1{margin:0;font-size:30px}
+h2{margin:0 0 10px 0;font-size:18px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+a{color:#2b4dd7;text-decoration:none}
+a:hover{text-decoration:underline}
+ul{margin:0;padding-left:18px;line-height:1.45}
+li{margin:4px 0}
+.badge{display:inline-block;padding:3px 9px;border-radius:999px;font-size:12px;font-weight:700;border:1px solid transparent}
+.ok{background:#e8f8ef;color:#1d9e58;border-color:#c8efd9}
+.warn{background:#fff6dd;color:#b67a00;border-color:#f0d889}
+.bad{background:#ffe9ea;color:#c5333a;border-color:#f7c4c8}
+.na{background:#f0f2f6;color:#6c7280;border-color:#dde2ea}
+.alert{margin-top:12px;border-radius:10px;padding:10px 12px;border:1px solid transparent;font-size:14px;font-weight:600}
+.alert.ok{background:#e8f8ef;color:#1d9e58;border-color:#c8efd9}
+.alert.warn{background:#fff6dd;color:#b67a00;border-color:#f0d889}
+.alert.bad{background:#ffe9ea;color:#c5333a;border-color:#f7c4c8}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <a href="../dashboard.html">← Назад к дашборду</a>
+        <h1>EC Stom</h1>
+        <div>ecstom.ru</div>
+      </div>
+      <div class="card">Итог: <span class="badge warn">проверить</span></div>
+    </div>
+    <div class="alert ok">Доступность: ок. Найденные страницы доступны: 2 из 2.</div>
+
+    
+    <section class="block">
+      <h2>Доступность сайта <span class="badge ok">ок</span></h2>
+      <ul><li>Найденные страницы доступны: 2 из 2.</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Страницы проверки (основные найденные) <span class="badge ok">ок</span></h2>
+      <ul><li>https://ecstom.ru/ — 200 (главная: кандидат записи по форме/контенту)</li><li>https://ecstom.ru/contact-us/ — 200 (навигация)</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Fallback-пробы URL <span class="badge ok">ок</span></h2>
+      <ul><li>Не применялся.</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Сертификат <span class="badge ok">ок</span></h2>
+      <ul><li>HTTPS-страницы открылись без TLS-ошибок.</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Форма: HTTPS <span class="badge ok">ок</span></h2>
+      <ul><li>Пример action: action отсутствует</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Форма: галочка <span class="badge bad">проблема</span></h2>
+      <ul><li>Всего форм: 9</li><li>Без checkbox: 2</li><li>https://ecstom.ru/ | utm_form | action отсутствует</li><li>https://ecstom.ru/contact-us/ | utm_form | action отсутствует</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>SPF/DMARC <span class="badge na">н/п</span></h2>
+      <ul><li>Email: ecs.stom@gmail.com (сторонний сервис)</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Meta / Instagram <span class="badge ok">ок</span></h2>
+      <ul><li>Совпадений по списку meta/instagram/facebook/whatsapp/messenger/threads не найдено.</li></ul>
+    </section>
+    
+    <section class="block">
+      <h2>Политика <span class="badge ok">ок</span></h2>
+      <ul><li>https://ecstom.ru/ -&gt;  (текст: политики конфиденциальности)</li><li>https://ecstom.ru/ -&gt;  (текст: политикой конфиденциальности)</li><li>https://ecstom.ru/contact-us/ -&gt;  (текст: политики конфиденциальности)</li><li>https://ecstom.ru/contact-us/ -&gt;  (текст: политикой конфиденциальности)</li></ul>
+    </section>
+    
+
+    <section class="block">
+      <h2>Сырые данные</h2>
+      <ul>
+        <li>Audit JSON: <a href="../data/audits/ecstom.audit.json">data/audits/ecstom.audit.json</a></li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>

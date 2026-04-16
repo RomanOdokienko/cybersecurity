@@ -1,0 +1,2101 @@
+{
+  "domain": "belayatochka.ru",
+  "pages": [
+    {
+      "requested": "https://belayatochka.ru/",
+      "status": 200,
+      "final_url": "https://belayatochka.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://belayatochka.ru/contact",
+      "status": 404,
+      "final_url": "https://belayatochka.ru/contact",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://belayatochka.ru/contacts",
+      "status": 404,
+      "final_url": "https://belayatochka.ru/contacts",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://belayatochka.ru/kontakty",
+      "status": 404,
+      "final_url": "https://belayatochka.ru/kontakty",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "http://belayatochka.ru/whitening",
+      "status": 200,
+      "final_url": "https://belayatochka.ru/whitening",
+      "error": null
+    },
+    {
+      "requested": "https://belayatochka.ru/a-aligners",
+      "status": 200,
+      "final_url": "https://belayatochka.ru/a-aligners",
+      "error": null
+    },
+    {
+      "requested": "https://belayatochka.ru/a-hygiene",
+      "status": 200,
+      "final_url": "https://belayatochka.ru/a-hygiene",
+      "error": null
+    },
+    {
+      "requested": "https://belayatochka.ru/a-hygienesup",
+      "status": 200,
+      "final_url": "https://belayatochka.ru/a-hygienesup",
+      "error": null
+    },
+    {
+      "requested": "https://belayatochka.ru/a-whitening",
+      "status": 200,
+      "final_url": "https://belayatochka.ru/a-whitening",
+      "error": null
+    },
+    {
+      "requested": "https://belayatochka.ru/addresses-of-clinics",
+      "status": 200,
+      "final_url": "https://belayatochka.ru/addresses-of-clinics",
+      "error": null
+    },
+    {
+      "requested": "https://belayatochka.ru/agreement",
+      "status": 200,
+      "final_url": "https://belayatochka.ru/agreement",
+      "error": null
+    },
+    {
+      "requested": "https://belayatochka.ru/aligner",
+      "status": 200,
+      "final_url": "https://belayatochka.ru/aligner",
+      "error": null
+    },
+    {
+      "requested": "https://belayatochka.ru/aligners-all",
+      "status": 200,
+      "final_url": "https://belayatochka.ru/aligners-all",
+      "error": null
+    },
+    {
+      "requested": "https://belayatochka.ru/approval-advertisement",
+      "status": 200,
+      "final_url": "https://belayatochka.ru/approval-advertisement",
+      "error": null
+    },
+    {
+      "requested": "https://belayatochka.ru/approval-opd",
+      "status": 200,
+      "final_url": "https://belayatochka.ru/approval-opd",
+      "error": null
+    },
+    {
+      "requested": "https://belayatochka.ru/clinic-naprichalnoi",
+      "status": 200,
+      "final_url": "https://belayatochka.ru/clinic-naprichalnoi",
+      "error": null
+    },
+    {
+      "requested": "https://belayatochka.ru/clinic-ochakovomatveeskaya",
+      "status": 200,
+      "final_url": "https://belayatochka.ru/clinic-ochakovomatveeskaya",
+      "error": null
+    },
+    {
+      "requested": "https://belayatochka.ru/clinic-voikovscaya",
+      "status": 200,
+      "final_url": "https://belayatochka.ru/clinic-voikovscaya",
+      "error": null
+    },
+    {
+      "requested": "https://belayatochka.ru/consent",
+      "status": 200,
+      "final_url": "https://belayatochka.ru/consent",
+      "error": null
+    },
+    {
+      "requested": "https://belayatochka.ru/expander",
+      "status": 200,
+      "final_url": "https://belayatochka.ru/expander",
+      "error": null
+    },
+    {
+      "requested": "https://belayatochka.ru/gift-cards",
+      "status": 200,
+      "final_url": "https://belayatochka.ru/gift-cards",
+      "error": null
+    },
+    {
+      "requested": "https://belayatochka.ru/hygiene",
+      "status": 200,
+      "final_url": "https://belayatochka.ru/hygiene",
+      "error": null
+    },
+    {
+      "requested": "https://belayatochka.ru/hygienesubscription",
+      "status": 200,
+      "final_url": "https://belayatochka.ru/hygienesubscription",
+      "error": null
+    },
+    {
+      "requested": "https://belayatochka.ru/oferta",
+      "status": 200,
+      "final_url": "https://belayatochka.ru/oferta",
+      "error": null
+    },
+    {
+      "requested": "https://belayatochka.ru/promo",
+      "status": 200,
+      "final_url": "https://belayatochka.ru/promo",
+      "error": null
+    },
+    {
+      "requested": "https://belayatochka.ru/quiz1",
+      "status": 200,
+      "final_url": "https://belayatochka.ru/quiz1",
+      "error": null
+    },
+    {
+      "requested": "https://belayatochka.ru/quiz2",
+      "status": 200,
+      "final_url": "https://belayatochka.ru/quiz2",
+      "error": null
+    },
+    {
+      "requested": "https://belayatochka.ru/v-aligners",
+      "status": 200,
+      "final_url": "https://belayatochka.ru/v-aligners",
+      "error": null
+    },
+    {
+      "requested": "https://belayatochka.ru/v-hygiene",
+      "status": 200,
+      "final_url": "https://belayatochka.ru/v-hygiene",
+      "error": null
+    },
+    {
+      "requested": "https://belayatochka.ru/v-hygienesup",
+      "status": 200,
+      "final_url": "https://belayatochka.ru/v-hygienesup",
+      "error": null
+    },
+    {
+      "requested": "https://belayatochka.ru/v-whitening",
+      "status": 200,
+      "final_url": "https://belayatochka.ru/v-whitening",
+      "error": null
+    },
+    {
+      "requested": "https://belayatochka.ru/whitening",
+      "status": 200,
+      "final_url": "https://belayatochka.ru/whitening",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://belayatochka.ru/",
+      "form_id": "form1736704901",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1736704901\" name='form1736704901' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "border-bottom: 1px solid rgb(253, 80, 179);\" target=\"_blank\" rel=\"noreferrer noopener\">с политикой конфиденциальности и обработки персональных данных</a>, и даю свое <a href=\"/approval-opd\" style=\"color: rgb(253, 80, 179); box-shadow: none; text-decoration"
+    },
+    {
+      "page": "https://belayatochka.ru/",
+      "form_id": "form1580290921",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1580290921\" name='form1580290921' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/",
+      "form_id": "form1757999891",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1757999891\" name='form1757999891' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_5 t-form_bbonly\" data-formsended-callback=\"t706_onSuccessCallback\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-decoration: none; border-bottom: 1px solid rgb(25, 11, 181); font-family: Inter;\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a><span style=\"font-family: Inter;\">, </span><a href=\"/oferta\" target=\"_blank\" rel=\"noreferrer noope"
+    },
+    {
+      "page": "http://belayatochka.ru/whitening",
+      "form_id": "form1736704901",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1736704901\" name='form1736704901' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "border-bottom: 1px solid rgb(253, 80, 179);\" target=\"_blank\" rel=\"noreferrer noopener\">с политикой конфиденциальности и обработки персональных данных</a>, и даю свое <a href=\"/approval-opd\" style=\"color: rgb(253, 80, 179); box-shadow: none; text-decoration"
+    },
+    {
+      "page": "http://belayatochka.ru/whitening",
+      "form_id": "form1736728251",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1736728251\" name='form1736728251' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "); box-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с политикой конфиденциальности и обработки персональных данных</a>, и даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(25, 11"
+    },
+    {
+      "page": "http://belayatochka.ru/whitening",
+      "form_id": "form1757999891",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1757999891\" name='form1757999891' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_5 t-form_bbonly\" data-formsended-callback=\"t706_onSuccessCallback\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-decoration: none; border-bottom: 1px solid rgb(25, 11, 181); font-family: Inter;\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a><span style=\"font-family: Inter;\">, </span><a href=\"/oferta\" target=\"_blank\" rel=\"noreferrer noope"
+    },
+    {
+      "page": "https://belayatochka.ru/a-aligners",
+      "form_id": "form1972681851",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1972681851\" name='form1972681851' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/a-aligners",
+      "form_id": "form1972681861",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1972681861\" name='form1972681861' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/a-aligners",
+      "form_id": "form1972681941",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1972681941\" name='form1972681941' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/a-aligners",
+      "form_id": "form1972682081",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1972682081\" name='form1972682081' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/a-aligners",
+      "form_id": "form1972682151",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1972682151\" name='form1972682151' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/a-aligners",
+      "form_id": "form1972682161",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1972682161\" name='form1972682161' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/a-hygiene",
+      "form_id": "form1868820381",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1868820381\" name='form1868820381' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/a-hygiene",
+      "form_id": "form1868820391",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1868820391\" name='form1868820391' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/a-hygiene",
+      "form_id": "form1868820451",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1868820451\" name='form1868820451' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/a-hygiene",
+      "form_id": "form1757999891",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1757999891\" name='form1757999891' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_5 t-form_bbonly\" data-formsended-callback=\"t706_onSuccessCallback\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-decoration: none; border-bottom: 1px solid rgb(25, 11, 181); font-family: Inter;\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a><span style=\"font-family: Inter;\">, </span><a href=\"/oferta\" target=\"_blank\" rel=\"noreferrer noope"
+    },
+    {
+      "page": "https://belayatochka.ru/a-hygiene",
+      "form_id": "form1868820571",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1868820571\" name='form1868820571' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/a-hygiene",
+      "form_id": "form1868820631",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1868820631\" name='form1868820631' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/a-hygiene",
+      "form_id": "form1868820641",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1868820641\" name='form1868820641' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/a-hygienesup",
+      "form_id": "form1933572781",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1933572781\" name='form1933572781' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/a-hygienesup",
+      "form_id": "form1933572791",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1933572791\" name='form1933572791' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/a-hygienesup",
+      "form_id": "form1933572851",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1933572851\" name='form1933572851' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/a-hygienesup",
+      "form_id": "form1757999891",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1757999891\" name='form1757999891' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_5 t-form_bbonly\" data-formsended-callback=\"t706_onSuccessCallback\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-decoration: none; border-bottom: 1px solid rgb(25, 11, 181); font-family: Inter;\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a><span style=\"font-family: Inter;\">, </span><a href=\"/oferta\" target=\"_blank\" rel=\"noreferrer noope"
+    },
+    {
+      "page": "https://belayatochka.ru/a-hygienesup",
+      "form_id": "form1933573021",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1933573021\" name='form1933573021' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/a-hygienesup",
+      "form_id": "form1933573091",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1933573091\" name='form1933573091' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/a-hygienesup",
+      "form_id": "form1933573101",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1933573101\" name='form1933573101' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/a-whitening",
+      "form_id": "form2082561681",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form2082561681\" name='form2082561681' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/a-whitening",
+      "form_id": "form2082561711",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form2082561711\" name='form2082561711' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/a-whitening",
+      "form_id": "form1757999891",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1757999891\" name='form1757999891' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_5 t-form_bbonly\" data-formsended-callback=\"t706_onSuccessCallback\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-decoration: none; border-bottom: 1px solid rgb(25, 11, 181); font-family: Inter;\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a><span style=\"font-family: Inter;\">, </span><a href=\"/oferta\" target=\"_blank\" rel=\"noreferrer noope"
+    },
+    {
+      "page": "https://belayatochka.ru/addresses-of-clinics",
+      "form_id": "form1736704901",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1736704901\" name='form1736704901' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "border-bottom: 1px solid rgb(253, 80, 179);\" target=\"_blank\" rel=\"noreferrer noopener\">с политикой конфиденциальности и обработки персональных данных</a>, и даю свое <a href=\"/approval-opd\" style=\"color: rgb(253, 80, 179); box-shadow: none; text-decoration"
+    },
+    {
+      "page": "https://belayatochka.ru/addresses-of-clinics",
+      "form_id": "form1757999891",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1757999891\" name='form1757999891' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_5 t-form_bbonly\" data-formsended-callback=\"t706_onSuccessCallback\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-decoration: none; border-bottom: 1px solid rgb(25, 11, 181); font-family: Inter;\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a><span style=\"font-family: Inter;\">, </span><a href=\"/oferta\" target=\"_blank\" rel=\"noreferrer noope"
+    },
+    {
+      "page": "https://belayatochka.ru/agreement",
+      "form_id": "form1736704901",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1736704901\" name='form1736704901' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "border-bottom: 1px solid rgb(253, 80, 179);\" target=\"_blank\" rel=\"noreferrer noopener\">с политикой конфиденциальности и обработки персональных данных</a>, и даю свое <a href=\"/approval-opd\" style=\"color: rgb(253, 80, 179); box-shadow: none; text-decoration"
+    },
+    {
+      "page": "https://belayatochka.ru/agreement",
+      "form_id": "form1757999891",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1757999891\" name='form1757999891' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_5 t-form_bbonly\" data-formsended-callback=\"t706_onSuccessCallback\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-decoration: none; border-bottom: 1px solid rgb(25, 11, 181); font-family: Inter;\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a><span style=\"font-family: Inter;\">, </span><a href=\"/oferta\" target=\"_blank\" rel=\"noreferrer noope"
+    },
+    {
+      "page": "https://belayatochka.ru/aligner",
+      "form_id": "form1736704901",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1736704901\" name='form1736704901' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "border-bottom: 1px solid rgb(253, 80, 179);\" target=\"_blank\" rel=\"noreferrer noopener\">с политикой конфиденциальности и обработки персональных данных</a>, и даю свое <a href=\"/approval-opd\" style=\"color: rgb(253, 80, 179); box-shadow: none; text-decoration"
+    },
+    {
+      "page": "https://belayatochka.ru/aligner",
+      "form_id": "form1736722581",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1736722581\" name='form1736722581' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "); box-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с политикой конфиденциальности и обработки персональных данных</a>, и даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(25, 11"
+    },
+    {
+      "page": "https://belayatochka.ru/aligner",
+      "form_id": "form1757999891",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1757999891\" name='form1757999891' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_5 t-form_bbonly\" data-formsended-callback=\"t706_onSuccessCallback\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-decoration: none; border-bottom: 1px solid rgb(25, 11, 181); font-family: Inter;\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a><span style=\"font-family: Inter;\">, </span><a href=\"/oferta\" target=\"_blank\" rel=\"noreferrer noope"
+    },
+    {
+      "page": "https://belayatochka.ru/aligners-all",
+      "form_id": "form2067908771",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form2067908771\" name='form2067908771' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/aligners-all",
+      "form_id": "form2067908781",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form2067908781\" name='form2067908781' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/aligners-all",
+      "form_id": "form2067908861",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form2067908861\" name='form2067908861' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/aligners-all",
+      "form_id": "form2067909011",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form2067909011\" name='form2067909011' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/aligners-all",
+      "form_id": "form2067909081",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form2067909081\" name='form2067909081' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/aligners-all",
+      "form_id": "form2067909091",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form2067909091\" name='form2067909091' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/approval-advertisement",
+      "form_id": "form1736704901",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1736704901\" name='form1736704901' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "border-bottom: 1px solid rgb(253, 80, 179);\" target=\"_blank\" rel=\"noreferrer noopener\">с политикой конфиденциальности и обработки персональных данных</a>, и даю свое <a href=\"/approval-opd\" style=\"color: rgb(253, 80, 179); box-shadow: none; text-decoration"
+    },
+    {
+      "page": "https://belayatochka.ru/approval-advertisement",
+      "form_id": "form1757999891",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1757999891\" name='form1757999891' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_5 t-form_bbonly\" data-formsended-callback=\"t706_onSuccessCallback\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-decoration: none; border-bottom: 1px solid rgb(25, 11, 181); font-family: Inter;\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a><span style=\"font-family: Inter;\">, </span><a href=\"/oferta\" target=\"_blank\" rel=\"noreferrer noope"
+    },
+    {
+      "page": "https://belayatochka.ru/approval-opd",
+      "form_id": "form1736704901",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1736704901\" name='form1736704901' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "border-bottom: 1px solid rgb(253, 80, 179);\" target=\"_blank\" rel=\"noreferrer noopener\">с политикой конфиденциальности и обработки персональных данных</a>, и даю свое <a href=\"/approval-opd\" style=\"color: rgb(253, 80, 179); box-shadow: none; text-decoration"
+    },
+    {
+      "page": "https://belayatochka.ru/approval-opd",
+      "form_id": "form1757999891",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1757999891\" name='form1757999891' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_5 t-form_bbonly\" data-formsended-callback=\"t706_onSuccessCallback\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-decoration: none; border-bottom: 1px solid rgb(25, 11, 181); font-family: Inter;\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a><span style=\"font-family: Inter;\">, </span><a href=\"/oferta\" target=\"_blank\" rel=\"noreferrer noope"
+    },
+    {
+      "page": "https://belayatochka.ru/clinic-naprichalnoi",
+      "form_id": "form1736704901",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1736704901\" name='form1736704901' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "border-bottom: 1px solid rgb(253, 80, 179);\" target=\"_blank\" rel=\"noreferrer noopener\">с политикой конфиденциальности и обработки персональных данных</a>, и даю свое <a href=\"/approval-opd\" style=\"color: rgb(253, 80, 179); box-shadow: none; text-decoration"
+    },
+    {
+      "page": "https://belayatochka.ru/clinic-naprichalnoi",
+      "form_id": "form2153822831",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form2153822831\" name='form2153822831' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "); box-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с политикой конфиденциальности и обработки персональных данных</a>, и даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(25, 11"
+    },
+    {
+      "page": "https://belayatochka.ru/clinic-naprichalnoi",
+      "form_id": "form1757999891",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1757999891\" name='form1757999891' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_5 t-form_bbonly\" data-formsended-callback=\"t706_onSuccessCallback\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-decoration: none; border-bottom: 1px solid rgb(25, 11, 181); font-family: Inter;\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a><span style=\"font-family: Inter;\">, </span><a href=\"/oferta\" target=\"_blank\" rel=\"noreferrer noope"
+    },
+    {
+      "page": "https://belayatochka.ru/clinic-ochakovomatveeskaya",
+      "form_id": "form1736704901",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1736704901\" name='form1736704901' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "border-bottom: 1px solid rgb(253, 80, 179);\" target=\"_blank\" rel=\"noreferrer noopener\">с политикой конфиденциальности и обработки персональных данных</a>, и даю свое <a href=\"/approval-opd\" style=\"color: rgb(253, 80, 179); box-shadow: none; text-decoration"
+    },
+    {
+      "page": "https://belayatochka.ru/clinic-ochakovomatveeskaya",
+      "form_id": "form1796153361",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1796153361\" name='form1796153361' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "); box-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с политикой конфиденциальности и обработки персональных данных</a>, и даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(25, 11"
+    },
+    {
+      "page": "https://belayatochka.ru/clinic-ochakovomatveeskaya",
+      "form_id": "form1757999891",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1757999891\" name='form1757999891' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_5 t-form_bbonly\" data-formsended-callback=\"t706_onSuccessCallback\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-decoration: none; border-bottom: 1px solid rgb(25, 11, 181); font-family: Inter;\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a><span style=\"font-family: Inter;\">, </span><a href=\"/oferta\" target=\"_blank\" rel=\"noreferrer noope"
+    },
+    {
+      "page": "https://belayatochka.ru/clinic-voikovscaya",
+      "form_id": "form1736704901",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1736704901\" name='form1736704901' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "border-bottom: 1px solid rgb(253, 80, 179);\" target=\"_blank\" rel=\"noreferrer noopener\">с политикой конфиденциальности и обработки персональных данных</a>, и даю свое <a href=\"/approval-opd\" style=\"color: rgb(253, 80, 179); box-shadow: none; text-decoration"
+    },
+    {
+      "page": "https://belayatochka.ru/clinic-voikovscaya",
+      "form_id": "form1736742591",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1736742591\" name='form1736742591' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "); box-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с политикой конфиденциальности и обработки персональных данных</a>, и даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(25, 11"
+    },
+    {
+      "page": "https://belayatochka.ru/clinic-voikovscaya",
+      "form_id": "form1757999891",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1757999891\" name='form1757999891' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_5 t-form_bbonly\" data-formsended-callback=\"t706_onSuccessCallback\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-decoration: none; border-bottom: 1px solid rgb(25, 11, 181); font-family: Inter;\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a><span style=\"font-family: Inter;\">, </span><a href=\"/oferta\" target=\"_blank\" rel=\"noreferrer noope"
+    },
+    {
+      "page": "https://belayatochka.ru/consent",
+      "form_id": "form1736704901",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1736704901\" name='form1736704901' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "border-bottom: 1px solid rgb(253, 80, 179);\" target=\"_blank\" rel=\"noreferrer noopener\">с политикой конфиденциальности и обработки персональных данных</a>, и даю свое <a href=\"/approval-opd\" style=\"color: rgb(253, 80, 179); box-shadow: none; text-decoration"
+    },
+    {
+      "page": "https://belayatochka.ru/consent",
+      "form_id": "form1757999891",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1757999891\" name='form1757999891' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_5 t-form_bbonly\" data-formsended-callback=\"t706_onSuccessCallback\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-decoration: none; border-bottom: 1px solid rgb(25, 11, 181); font-family: Inter;\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a><span style=\"font-family: Inter;\">, </span><a href=\"/oferta\" target=\"_blank\" rel=\"noreferrer noope"
+    },
+    {
+      "page": "https://belayatochka.ru/expander",
+      "form_id": "form1736704901",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1736704901\" name='form1736704901' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "border-bottom: 1px solid rgb(253, 80, 179);\" target=\"_blank\" rel=\"noreferrer noopener\">с политикой конфиденциальности и обработки персональных данных</a>, и даю свое <a href=\"/approval-opd\" style=\"color: rgb(253, 80, 179); box-shadow: none; text-decoration"
+    },
+    {
+      "page": "https://belayatochka.ru/expander",
+      "form_id": "form1736730621",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1736730621\" name='form1736730621' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "); box-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с политикой конфиденциальности и обработки персональных данных</a>, и даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(25, 11"
+    },
+    {
+      "page": "https://belayatochka.ru/expander",
+      "form_id": "form1757999891",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1757999891\" name='form1757999891' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_5 t-form_bbonly\" data-formsended-callback=\"t706_onSuccessCallback\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-decoration: none; border-bottom: 1px solid rgb(25, 11, 181); font-family: Inter;\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a><span style=\"font-family: Inter;\">, </span><a href=\"/oferta\" target=\"_blank\" rel=\"noreferrer noope"
+    },
+    {
+      "page": "https://belayatochka.ru/gift-cards",
+      "form_id": "form1736704901",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1736704901\" name='form1736704901' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "border-bottom: 1px solid rgb(253, 80, 179);\" target=\"_blank\" rel=\"noreferrer noopener\">с политикой конфиденциальности и обработки персональных данных</a>, и даю свое <a href=\"/approval-opd\" style=\"color: rgb(253, 80, 179); box-shadow: none; text-decoration"
+    },
+    {
+      "page": "https://belayatochka.ru/gift-cards",
+      "form_id": "form1757999891",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1757999891\" name='form1757999891' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_5 t-form_bbonly\" data-formsended-callback=\"t706_onSuccessCallback\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-decoration: none; border-bottom: 1px solid rgb(25, 11, 181); font-family: Inter;\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a><span style=\"font-family: Inter;\">, </span><a href=\"/oferta\" target=\"_blank\" rel=\"noreferrer noope"
+    },
+    {
+      "page": "https://belayatochka.ru/hygiene",
+      "form_id": "form1736704901",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1736704901\" name='form1736704901' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "border-bottom: 1px solid rgb(253, 80, 179);\" target=\"_blank\" rel=\"noreferrer noopener\">с политикой конфиденциальности и обработки персональных данных</a>, и даю свое <a href=\"/approval-opd\" style=\"color: rgb(253, 80, 179); box-shadow: none; text-decoration"
+    },
+    {
+      "page": "https://belayatochka.ru/hygiene",
+      "form_id": "form1736725401",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1736725401\" name='form1736725401' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "); box-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с политикой конфиденциальности и обработки персональных данных</a>, и даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(25, 11"
+    },
+    {
+      "page": "https://belayatochka.ru/hygiene",
+      "form_id": "form1757999891",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1757999891\" name='form1757999891' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_5 t-form_bbonly\" data-formsended-callback=\"t706_onSuccessCallback\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-decoration: none; border-bottom: 1px solid rgb(25, 11, 181); font-family: Inter;\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a><span style=\"font-family: Inter;\">, </span><a href=\"/oferta\" target=\"_blank\" rel=\"noreferrer noope"
+    },
+    {
+      "page": "https://belayatochka.ru/hygienesubscription",
+      "form_id": "form1736704901",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1736704901\" name='form1736704901' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "border-bottom: 1px solid rgb(253, 80, 179);\" target=\"_blank\" rel=\"noreferrer noopener\">с политикой конфиденциальности и обработки персональных данных</a>, и даю свое <a href=\"/approval-opd\" style=\"color: rgb(253, 80, 179); box-shadow: none; text-decoration"
+    },
+    {
+      "page": "https://belayatochka.ru/hygienesubscription",
+      "form_id": "form1736737151",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1736737151\" name='form1736737151' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "); box-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с политикой конфиденциальности и обработки персональных данных</a>, и даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(25, 11"
+    },
+    {
+      "page": "https://belayatochka.ru/hygienesubscription",
+      "form_id": "form1736739351",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1736739351\" name='form1736739351' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "); box-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с политикой конфиденциальности и обработки персональных данных</a>, и даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(25, 11"
+    },
+    {
+      "page": "https://belayatochka.ru/hygienesubscription",
+      "form_id": "form1757999891",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1757999891\" name='form1757999891' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_5 t-form_bbonly\" data-formsended-callback=\"t706_onSuccessCallback\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-decoration: none; border-bottom: 1px solid rgb(25, 11, 181); font-family: Inter;\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a><span style=\"font-family: Inter;\">, </span><a href=\"/oferta\" target=\"_blank\" rel=\"noreferrer noope"
+    },
+    {
+      "page": "https://belayatochka.ru/oferta",
+      "form_id": "form1736704901",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1736704901\" name='form1736704901' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "border-bottom: 1px solid rgb(253, 80, 179);\" target=\"_blank\" rel=\"noreferrer noopener\">с политикой конфиденциальности и обработки персональных данных</a>, и даю свое <a href=\"/approval-opd\" style=\"color: rgb(253, 80, 179); box-shadow: none; text-decoration"
+    },
+    {
+      "page": "https://belayatochka.ru/oferta",
+      "form_id": "form1757999891",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1757999891\" name='form1757999891' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_5 t-form_bbonly\" data-formsended-callback=\"t706_onSuccessCallback\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-decoration: none; border-bottom: 1px solid rgb(25, 11, 181); font-family: Inter;\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a><span style=\"font-family: Inter;\">, </span><a href=\"/oferta\" target=\"_blank\" rel=\"noreferrer noope"
+    },
+    {
+      "page": "https://belayatochka.ru/promo",
+      "form_id": "form1736704901",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1736704901\" name='form1736704901' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "border-bottom: 1px solid rgb(253, 80, 179);\" target=\"_blank\" rel=\"noreferrer noopener\">с политикой конфиденциальности и обработки персональных данных</a>, и даю свое <a href=\"/approval-opd\" style=\"color: rgb(253, 80, 179); box-shadow: none; text-decoration"
+    },
+    {
+      "page": "https://belayatochka.ru/promo",
+      "form_id": "form1757999891",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1757999891\" name='form1757999891' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_5 t-form_bbonly\" data-formsended-callback=\"t706_onSuccessCallback\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-decoration: none; border-bottom: 1px solid rgb(25, 11, 181); font-family: Inter;\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a><span style=\"font-family: Inter;\">, </span><a href=\"/oferta\" target=\"_blank\" rel=\"noreferrer noope"
+    },
+    {
+      "page": "https://belayatochka.ru/quiz1",
+      "form_id": "form1736704901",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1736704901\" name='form1736704901' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "border-bottom: 1px solid rgb(253, 80, 179);\" target=\"_blank\" rel=\"noreferrer noopener\">с политикой конфиденциальности и обработки персональных данных</a>, и даю свое <a href=\"/approval-opd\" style=\"color: rgb(253, 80, 179); box-shadow: none; text-decoration"
+    },
+    {
+      "page": "https://belayatochka.ru/quiz1",
+      "form_id": "form1599580251",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1599580251\" name='form1599580251' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_7 t-conditional-form\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "scr_xxs\" field=descr4> <strong>5 лёгких вопросов — </strong><br /><strong>и мы подготовим персональный мини-разбор</strong> </div> </div> <div class=\"t-quiz__content-padding-container\"> <div class=\"t-quiz__content-wrapper\"> <div class=\"t-quiz__progress-bar-con"
+    },
+    {
+      "page": "https://belayatochka.ru/quiz1",
+      "form_id": "form1757999891",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1757999891\" name='form1757999891' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_5 t-form_bbonly\" data-formsended-callback=\"t706_onSuccessCallback\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-decoration: none; border-bottom: 1px solid rgb(25, 11, 181); font-family: Inter;\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a><span style=\"font-family: Inter;\">, </span><a href=\"/oferta\" target=\"_blank\" rel=\"noreferrer noope"
+    },
+    {
+      "page": "https://belayatochka.ru/quiz2",
+      "form_id": "form1736704901",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1736704901\" name='form1736704901' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "border-bottom: 1px solid rgb(253, 80, 179);\" target=\"_blank\" rel=\"noreferrer noopener\">с политикой конфиденциальности и обработки персональных данных</a>, и даю свое <a href=\"/approval-opd\" style=\"color: rgb(253, 80, 179); box-shadow: none; text-decoration"
+    },
+    {
+      "page": "https://belayatochka.ru/quiz2",
+      "form_id": "form1599849011",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1599849011\" name='form1599849011' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_6 \" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "olbar=\"no\" field=\"li_subtitle__1763922185591\" style=\"\">Оставь свой Telegram — мы отправим персональные рекомендации и свяжемся, чтобы рассказать, как мягко и комфортно улучшить твою улыбку.</div> </div> </div> <div> <div class=\"t-input-block t-input-block_rd-f"
+    },
+    {
+      "page": "https://belayatochka.ru/quiz2",
+      "form_id": "form1757999891",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1757999891\" name='form1757999891' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_5 t-form_bbonly\" data-formsended-callback=\"t706_onSuccessCallback\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-decoration: none; border-bottom: 1px solid rgb(25, 11, 181); font-family: Inter;\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a><span style=\"font-family: Inter;\">, </span><a href=\"/oferta\" target=\"_blank\" rel=\"noreferrer noope"
+    },
+    {
+      "page": "https://belayatochka.ru/v-aligners",
+      "form_id": "form1882310901",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1882310901\" name='form1882310901' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/v-aligners",
+      "form_id": "form1882310911",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1882310911\" name='form1882310911' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/v-aligners",
+      "form_id": "form1882310971",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1882310971\" name='form1882310971' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/v-aligners",
+      "form_id": "form1882311141",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1882311141\" name='form1882311141' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/v-aligners",
+      "form_id": "form1882311211",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1882311211\" name='form1882311211' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/v-aligners",
+      "form_id": "form1882311221",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1882311221\" name='form1882311221' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/v-hygiene",
+      "form_id": "form1933407741",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1933407741\" name='form1933407741' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/v-hygiene",
+      "form_id": "form1933407751",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1933407751\" name='form1933407751' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/v-hygiene",
+      "form_id": "form1933407821",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1933407821\" name='form1933407821' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/v-hygiene",
+      "form_id": "form1757999891",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1757999891\" name='form1757999891' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_5 t-form_bbonly\" data-formsended-callback=\"t706_onSuccessCallback\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-decoration: none; border-bottom: 1px solid rgb(25, 11, 181); font-family: Inter;\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a><span style=\"font-family: Inter;\">, </span><a href=\"/oferta\" target=\"_blank\" rel=\"noreferrer noope"
+    },
+    {
+      "page": "https://belayatochka.ru/v-hygiene",
+      "form_id": "form1933407991",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1933407991\" name='form1933407991' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/v-hygiene",
+      "form_id": "form1933408061",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1933408061\" name='form1933408061' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/v-hygiene",
+      "form_id": "form1933408071",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1933408071\" name='form1933408071' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/v-hygienesup",
+      "form_id": "form1791836241",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1791836241\" name='form1791836241' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/v-hygienesup",
+      "form_id": "form1791836251",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1791836251\" name='form1791836251' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/v-hygienesup",
+      "form_id": "form1791836291",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1791836291\" name='form1791836291' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/v-hygienesup",
+      "form_id": "form1757999891",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1757999891\" name='form1757999891' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_5 t-form_bbonly\" data-formsended-callback=\"t706_onSuccessCallback\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-decoration: none; border-bottom: 1px solid rgb(25, 11, 181); font-family: Inter;\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a><span style=\"font-family: Inter;\">, </span><a href=\"/oferta\" target=\"_blank\" rel=\"noreferrer noope"
+    },
+    {
+      "page": "https://belayatochka.ru/v-hygienesup",
+      "form_id": "form1791836351",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1791836351\" name='form1791836351' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/v-hygienesup",
+      "form_id": "form1791836431",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1791836431\" name='form1791836431' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/v-hygienesup",
+      "form_id": "form1791836441",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1791836441\" name='form1791836441' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/v-whitening",
+      "form_id": "form2056865001",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form2056865001\" name='form2056865001' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/v-whitening",
+      "form_id": "form2056950381",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form2056950381\" name='form2056950381' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "x-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a>, и&nbsp;даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color:"
+    },
+    {
+      "page": "https://belayatochka.ru/v-whitening",
+      "form_id": "form1757999891",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1757999891\" name='form1757999891' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_5 t-form_bbonly\" data-formsended-callback=\"t706_onSuccessCallback\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-decoration: none; border-bottom: 1px solid rgb(25, 11, 181); font-family: Inter;\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a><span style=\"font-family: Inter;\">, </span><a href=\"/oferta\" target=\"_blank\" rel=\"noreferrer noope"
+    },
+    {
+      "page": "https://belayatochka.ru/whitening",
+      "form_id": "form1736704901",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1736704901\" name='form1736704901' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "border-bottom: 1px solid rgb(253, 80, 179);\" target=\"_blank\" rel=\"noreferrer noopener\">с политикой конфиденциальности и обработки персональных данных</a>, и даю свое <a href=\"/approval-opd\" style=\"color: rgb(253, 80, 179); box-shadow: none; text-decoration"
+    },
+    {
+      "page": "https://belayatochka.ru/whitening",
+      "form_id": "form1736728251",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1736728251\" name='form1736728251' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://flocktory.com/interchange/46577e4c-4cb2-41bf-ae04-3279845bb84d?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=belayatochka.ru\" class=\"t-form js-form-proccess t-form_inputs-total_3 \"",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "); box-shadow: none; text-decoration: none; border-bottom: 1px solid rgb(25, 11, 181);\">с политикой конфиденциальности и обработки персональных данных</a>, и даю свое <a href=\"/approval-opd\" target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(25, 11"
+    },
+    {
+      "page": "https://belayatochka.ru/whitening",
+      "form_id": "form1757999891",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1757999891\" name='form1757999891' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_5 t-form_bbonly\" data-formsended-callback=\"t706_onSuccessCallback\">",
+      "has_checkbox": true,
+      "checked": false,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "-decoration: none; border-bottom: 1px solid rgb(25, 11, 181); font-family: Inter;\">с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных</a><span style=\"font-family: Inter;\">, </span><a href=\"/oferta\" target=\"_blank\" rel=\"noreferrer noope"
+    }
+  ],
+  "emails": [
+    "info@belayatochka.ru",
+    "reception@belayaraduga.ru",
+    "reception@belayatochka.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://belayatochka.ru/",
+      "href": "/consent",
+      "text": "с политикой конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/",
+      "href": "/approval-opd",
+      "text": "согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/",
+      "href": "/consent",
+      "text": "с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/",
+      "href": "/approval-opd",
+      "text": "согласие на&nbsp;обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/",
+      "href": "http://belayatochka.ru/consent",
+      "text": "Политика конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "http://belayatochka.ru/whitening",
+      "href": "/consent",
+      "text": "с политикой конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "http://belayatochka.ru/whitening",
+      "href": "/approval-opd",
+      "text": "согласие на обработку персональных данных"
+    },
+    {
+      "page": "http://belayatochka.ru/whitening",
+      "href": "http://belayatochka.ru/consent",
+      "text": "Политика конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "http://belayatochka.ru/whitening",
+      "href": "/consent",
+      "text": "с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных"
+    },
+    {
+      "page": "http://belayatochka.ru/whitening",
+      "href": "/approval-opd",
+      "text": "согласие на&nbsp;обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/a-aligners",
+      "href": "/consent",
+      "text": "с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/a-aligners",
+      "href": "/approval-opd",
+      "text": "согласие на&nbsp;обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/a-aligners",
+      "href": "https://belayatochka.ru/approval-opd",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/a-aligners",
+      "href": "http://belayatochka.ru/consent",
+      "text": "Политика конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/a-hygiene",
+      "href": "/consent",
+      "text": "с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/a-hygiene",
+      "href": "/approval-opd",
+      "text": "согласие на&nbsp;обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/a-hygiene",
+      "href": "https://belayatochka.ru/approval-opd",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/a-hygiene",
+      "href": "http://belayatochka.ru/consent",
+      "text": "Политика конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/a-hygienesup",
+      "href": "/consent",
+      "text": "с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/a-hygienesup",
+      "href": "/approval-opd",
+      "text": "согласие на&nbsp;обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/a-hygienesup",
+      "href": "https://belayatochka.ru/approval-opd",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/a-hygienesup",
+      "href": "http://belayatochka.ru/consent",
+      "text": "Политика конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/a-whitening",
+      "href": "/consent",
+      "text": "с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/a-whitening",
+      "href": "/approval-opd",
+      "text": "согласие на&nbsp;обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/a-whitening",
+      "href": "\\\"\\/consent\\\"",
+      "text": "\\u0441&nbsp;\\u043f\\u043e\\u043b\\u0438\\u0442\\u0438\\u043a\\u043e\\u0439 \\u043a\\u043e\\u043d\\u0444\\u0438\\u0434\\u0435\\u043d\\u0446\\u0438\\u0430\\u043b\\u044c\\u043d\\u043e\\u0441\\u0442\\u0438 \\u0438&nbsp;\\u043e\\u0431\\u0440\\u0430\\u0431\\u"
+    },
+    {
+      "page": "https://belayatochka.ru/a-whitening",
+      "href": "https://belayatochka.ru/approval-opd",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/a-whitening",
+      "href": "http://belayatochka.ru/consent",
+      "text": "Политика конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/addresses-of-clinics",
+      "href": "/consent",
+      "text": "с политикой конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/addresses-of-clinics",
+      "href": "/approval-opd",
+      "text": "согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/addresses-of-clinics",
+      "href": "http://belayatochka.ru/consent",
+      "text": "Политика конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/addresses-of-clinics",
+      "href": "/consent",
+      "text": "с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/addresses-of-clinics",
+      "href": "/approval-opd",
+      "text": "согласие на&nbsp;обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/agreement",
+      "href": "/consent",
+      "text": "с политикой конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/agreement",
+      "href": "/approval-opd",
+      "text": "согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/agreement",
+      "href": "http://belayatochka.ru/consent",
+      "text": "Политика конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/agreement",
+      "href": "/consent",
+      "text": "с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/agreement",
+      "href": "/approval-opd",
+      "text": "согласие на&nbsp;обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/aligner",
+      "href": "/consent",
+      "text": "с политикой конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/aligner",
+      "href": "/approval-opd",
+      "text": "согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/aligner",
+      "href": "http://belayatochka.ru/consent",
+      "text": "Политика конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/aligner",
+      "href": "/consent",
+      "text": "с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/aligner",
+      "href": "/approval-opd",
+      "text": "согласие на&nbsp;обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/aligners-all",
+      "href": "/consent",
+      "text": "с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/aligners-all",
+      "href": "/approval-opd",
+      "text": "согласие на&nbsp;обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/aligners-all",
+      "href": "https://belayatochka.ru/approval-opd",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/aligners-all",
+      "href": "http://belayatochka.ru/consent",
+      "text": "Политика конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/approval-advertisement",
+      "href": "/consent",
+      "text": "с политикой конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/approval-advertisement",
+      "href": "/approval-opd",
+      "text": "согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/approval-advertisement",
+      "href": "http://belayatochka.ru/consent",
+      "text": "Политика конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/approval-advertisement",
+      "href": "/consent",
+      "text": "с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/approval-advertisement",
+      "href": "/approval-opd",
+      "text": "согласие на&nbsp;обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/approval-opd",
+      "href": "/consent",
+      "text": "с политикой конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/approval-opd",
+      "href": "/approval-opd",
+      "text": "согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/approval-opd",
+      "href": "http://belayatochka.ru/consent",
+      "text": "Политика конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/approval-opd",
+      "href": "/consent",
+      "text": "с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/approval-opd",
+      "href": "/approval-opd",
+      "text": "согласие на&nbsp;обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/clinic-naprichalnoi",
+      "href": "/consent",
+      "text": "с политикой конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/clinic-naprichalnoi",
+      "href": "/approval-opd",
+      "text": "согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/clinic-naprichalnoi",
+      "href": "http://belayatochka.ru/consent",
+      "text": "Политика конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/clinic-naprichalnoi",
+      "href": "/consent",
+      "text": "с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/clinic-naprichalnoi",
+      "href": "/approval-opd",
+      "text": "согласие на&nbsp;обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/clinic-ochakovomatveeskaya",
+      "href": "/consent",
+      "text": "с политикой конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/clinic-ochakovomatveeskaya",
+      "href": "/approval-opd",
+      "text": "согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/clinic-ochakovomatveeskaya",
+      "href": "http://belayatochka.ru/consent",
+      "text": "Политика конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/clinic-ochakovomatveeskaya",
+      "href": "/consent",
+      "text": "с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/clinic-ochakovomatveeskaya",
+      "href": "/approval-opd",
+      "text": "согласие на&nbsp;обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/clinic-voikovscaya",
+      "href": "/consent",
+      "text": "с политикой конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/clinic-voikovscaya",
+      "href": "/approval-opd",
+      "text": "согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/clinic-voikovscaya",
+      "href": "http://belayatochka.ru/consent",
+      "text": "Политика конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/clinic-voikovscaya",
+      "href": "/consent",
+      "text": "с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/clinic-voikovscaya",
+      "href": "/approval-opd",
+      "text": "согласие на&nbsp;обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/consent",
+      "href": "/consent",
+      "text": "с политикой конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/consent",
+      "href": "/approval-opd",
+      "text": "согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/consent",
+      "href": "http://belayatochka.ru/consent",
+      "text": "Политика конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/consent",
+      "href": "/consent",
+      "text": "с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/consent",
+      "href": "/approval-opd",
+      "text": "согласие на&nbsp;обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/expander",
+      "href": "/consent",
+      "text": "с политикой конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/expander",
+      "href": "/approval-opd",
+      "text": "согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/expander",
+      "href": "http://belayatochka.ru/consent",
+      "text": "Политика конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/expander",
+      "href": "/consent",
+      "text": "с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/expander",
+      "href": "/approval-opd",
+      "text": "согласие на&nbsp;обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/gift-cards",
+      "href": "/consent",
+      "text": "с политикой конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/gift-cards",
+      "href": "/approval-opd",
+      "text": "согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/gift-cards",
+      "href": "http://belayatochka.ru/consent",
+      "text": "Политика конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/gift-cards",
+      "href": "/consent",
+      "text": "с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/gift-cards",
+      "href": "/approval-opd",
+      "text": "согласие на&nbsp;обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/hygiene",
+      "href": "/consent",
+      "text": "с политикой конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/hygiene",
+      "href": "/approval-opd",
+      "text": "согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/hygiene",
+      "href": "http://belayatochka.ru/consent",
+      "text": "Политика конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/hygiene",
+      "href": "/consent",
+      "text": "с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/hygiene",
+      "href": "/approval-opd",
+      "text": "согласие на&nbsp;обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/hygienesubscription",
+      "href": "/consent",
+      "text": "с политикой конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/hygienesubscription",
+      "href": "/approval-opd",
+      "text": "согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/hygienesubscription",
+      "href": "http://belayatochka.ru/consent",
+      "text": "Политика конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/hygienesubscription",
+      "href": "/consent",
+      "text": "с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/hygienesubscription",
+      "href": "/approval-opd",
+      "text": "согласие на&nbsp;обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/oferta",
+      "href": "/consent",
+      "text": "с политикой конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/oferta",
+      "href": "/approval-opd",
+      "text": "согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/oferta",
+      "href": "http://belayatochka.ru/consent",
+      "text": "Политика конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/oferta",
+      "href": "/consent",
+      "text": "с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/oferta",
+      "href": "/approval-opd",
+      "text": "согласие на&nbsp;обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/promo",
+      "href": "/consent",
+      "text": "с политикой конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/promo",
+      "href": "/approval-opd",
+      "text": "согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/promo",
+      "href": "http://belayatochka.ru/consent",
+      "text": "Политика конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/promo",
+      "href": "/consent",
+      "text": "с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/promo",
+      "href": "/approval-opd",
+      "text": "согласие на&nbsp;обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/quiz1",
+      "href": "/consent",
+      "text": "с политикой конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/quiz1",
+      "href": "/approval-opd",
+      "text": "согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/quiz1",
+      "href": "http://belayatochka.ru/consent",
+      "text": "Политика конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/quiz1",
+      "href": "/consent",
+      "text": "с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/quiz1",
+      "href": "/approval-opd",
+      "text": "согласие на&nbsp;обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/quiz2",
+      "href": "/consent",
+      "text": "с политикой конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/quiz2",
+      "href": "/approval-opd",
+      "text": "согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/quiz2",
+      "href": "http://belayatochka.ru/consent",
+      "text": "Политика конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/quiz2",
+      "href": "/consent",
+      "text": "с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/quiz2",
+      "href": "/approval-opd",
+      "text": "согласие на&nbsp;обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/v-aligners",
+      "href": "/consent",
+      "text": "с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/v-aligners",
+      "href": "/approval-opd",
+      "text": "согласие на&nbsp;обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/v-aligners",
+      "href": "https://belayatochka.ru/approval-opd",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/v-aligners",
+      "href": "http://belayatochka.ru/consent",
+      "text": "Политика конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/v-hygiene",
+      "href": "/consent",
+      "text": "с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/v-hygiene",
+      "href": "/approval-opd",
+      "text": "согласие на&nbsp;обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/v-hygiene",
+      "href": "https://belayatochka.ru/approval-opd",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/v-hygiene",
+      "href": "http://belayatochka.ru/consent",
+      "text": "Политика конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/v-hygienesup",
+      "href": "/consent",
+      "text": "с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/v-hygienesup",
+      "href": "/approval-opd",
+      "text": "согласие на&nbsp;обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/v-hygienesup",
+      "href": "https://belayatochka.ru/approval-opd",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/v-hygienesup",
+      "href": "http://belayatochka.ru/consent",
+      "text": "Политика конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/v-whitening",
+      "href": "/consent",
+      "text": "с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/v-whitening",
+      "href": "/approval-opd",
+      "text": "согласие на&nbsp;обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/v-whitening",
+      "href": "\\\"\\/consent\\\"",
+      "text": "\\u0441&nbsp;\\u043f\\u043e\\u043b\\u0438\\u0442\\u0438\\u043a\\u043e\\u0439 \\u043a\\u043e\\u043d\\u0444\\u0438\\u0434\\u0435\\u043d\\u0446\\u0438\\u0430\\u043b\\u044c\\u043d\\u043e\\u0441\\u0442\\u0438 \\u0438&nbsp;\\u043e\\u0431\\u0440\\u0430\\u0431\\u"
+    },
+    {
+      "page": "https://belayatochka.ru/v-whitening",
+      "href": "https://belayatochka.ru/approval-opd",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/v-whitening",
+      "href": "http://belayatochka.ru/consent",
+      "text": "Политика конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/whitening",
+      "href": "/consent",
+      "text": "с политикой конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/whitening",
+      "href": "/approval-opd",
+      "text": "согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/whitening",
+      "href": "http://belayatochka.ru/consent",
+      "text": "Политика конфиденциальности и обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/whitening",
+      "href": "/consent",
+      "text": "с&nbsp;политикой конфиденциальности и&nbsp;обработки персональных данных"
+    },
+    {
+      "page": "https://belayatochka.ru/whitening",
+      "href": "/approval-opd",
+      "text": "согласие на&nbsp;обработку персональных данных"
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://belayatochka.ru/contact",
+      "https://belayatochka.ru/contacts",
+      "https://belayatochka.ru/kontakty"
+    ],
+    "booking_urls": [
+      "http://belayatochka.ru/whitening"
+    ],
+    "sources": {
+      "http://belayatochka.ru/whitening": "navigation",
+      "https://belayatochka.ru/": "sitemap-form",
+      "https://belayatochka.ru/a-aligners": "sitemap-form",
+      "https://belayatochka.ru/a-hygiene": "sitemap-form",
+      "https://belayatochka.ru/a-hygienesup": "sitemap-form",
+      "https://belayatochka.ru/a-whitening": "sitemap-form",
+      "https://belayatochka.ru/addresses-of-clinics": "sitemap-form",
+      "https://belayatochka.ru/agreement": "sitemap-form",
+      "https://belayatochka.ru/aligner": "sitemap-form",
+      "https://belayatochka.ru/aligners-all": "sitemap-form",
+      "https://belayatochka.ru/approval-advertisement": "sitemap-form",
+      "https://belayatochka.ru/approval-opd": "sitemap-form",
+      "https://belayatochka.ru/clinic-naprichalnoi": "sitemap-form",
+      "https://belayatochka.ru/clinic-ochakovomatveeskaya": "sitemap-form",
+      "https://belayatochka.ru/clinic-voikovscaya": "sitemap-form",
+      "https://belayatochka.ru/consent": "sitemap-form",
+      "https://belayatochka.ru/contact": "fallback",
+      "https://belayatochka.ru/contacts": "fallback",
+      "https://belayatochka.ru/expander": "sitemap-form",
+      "https://belayatochka.ru/gift-cards": "sitemap-form",
+      "https://belayatochka.ru/hygiene": "sitemap-form",
+      "https://belayatochka.ru/hygienesubscription": "sitemap-form",
+      "https://belayatochka.ru/kontakty": "fallback",
+      "https://belayatochka.ru/oferta": "sitemap-form",
+      "https://belayatochka.ru/promo": "sitemap-form",
+      "https://belayatochka.ru/quiz1": "sitemap-form",
+      "https://belayatochka.ru/quiz2": "sitemap-form",
+      "https://belayatochka.ru/v-aligners": "sitemap-form",
+      "https://belayatochka.ru/v-hygiene": "sitemap-form",
+      "https://belayatochka.ru/v-hygienesup": "sitemap-form",
+      "https://belayatochka.ru/v-whitening": "sitemap-form",
+      "https://belayatochka.ru/whitening": "sitemap-form"
+    },
+    "fallback_used": {
+      "contact": true,
+      "booking": false
+    }
+  }
+}

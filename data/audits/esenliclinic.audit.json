@@ -1,0 +1,98 @@
+{
+  "domain": "esenliclinic.ru",
+  "pages": [
+    {
+      "requested": "https://esenliclinic.ru/",
+      "status": 200,
+      "final_url": "https://esenliclinic.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://esenliclinic.ru/#contact",
+      "status": 200,
+      "final_url": "https://esenliclinic.ru/#contact",
+      "error": null
+    },
+    {
+      "requested": "https://esenliclinic.ru/appointment",
+      "status": 404,
+      "final_url": "https://esenliclinic.ru/appointment",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://esenliclinic.ru/booking",
+      "status": 404,
+      "final_url": "https://esenliclinic.ru/booking",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://esenliclinic.ru/zapis",
+      "status": 404,
+      "final_url": "https://esenliclinic.ru/zapis",
+      "error": "HTTPError 404"
+    }
+  ],
+  "forms": [],
+  "emails": [],
+  "privacy_links": [],
+  "forbidden_hits": [
+    {
+      "token": "whatsapp",
+      "page": "https://esenliclinic.ru/",
+      "context": "WhatsApp",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://esenliclinic.ru/",
+      "context": "href=\"https://wa.me/+79031038832?text=\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://esenliclinic.ru/",
+      "context": "class=\"t-sociallinks__item t-sociallinks__item_whatsapp\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://esenliclinic.ru/#contact",
+      "context": "WhatsApp",
+      "visibility": "видно пользователю"
+    },
+    {
+      "token": "wa.me",
+      "page": "https://esenliclinic.ru/#contact",
+      "context": "href=\"https://wa.me/+79031038832?text=\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "whatsapp",
+      "page": "https://esenliclinic.ru/#contact",
+      "context": "class=\"t-sociallinks__item t-sociallinks__item_whatsapp\"",
+      "visibility": "только в коде"
+    }
+  ],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://esenliclinic.ru/#contact"
+    ],
+    "booking_urls": [
+      "https://esenliclinic.ru/appointment",
+      "https://esenliclinic.ru/booking",
+      "https://esenliclinic.ru/zapis"
+    ],
+    "sources": {
+      "https://esenliclinic.ru/": "",
+      "https://esenliclinic.ru/#contact": "navigation",
+      "https://esenliclinic.ru/appointment": "fallback",
+      "https://esenliclinic.ru/booking": "fallback",
+      "https://esenliclinic.ru/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": true
+    }
+  }
+}

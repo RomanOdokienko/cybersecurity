@@ -1,0 +1,106 @@
+{
+  "domain": "mosgorzdrav.ru",
+  "pages": [
+    {
+      "requested": "https://mosgorzdrav.ru/",
+      "status": null,
+      "final_url": "https://mosgorzdrav.ru/",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "requested": "https://mosgorzdrav.ru/contact",
+      "status": null,
+      "final_url": "https://mosgorzdrav.ru/contact",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "requested": "https://mosgorzdrav.ru/contacts",
+      "status": null,
+      "final_url": "https://mosgorzdrav.ru/contacts",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "requested": "https://mosgorzdrav.ru/kontakty",
+      "status": null,
+      "final_url": "https://mosgorzdrav.ru/kontakty",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "requested": "https://mosgorzdrav.ru/appointment",
+      "status": null,
+      "final_url": "https://mosgorzdrav.ru/appointment",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "requested": "https://mosgorzdrav.ru/booking",
+      "status": null,
+      "final_url": "https://mosgorzdrav.ru/booking",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "requested": "https://mosgorzdrav.ru/zapis",
+      "status": null,
+      "final_url": "https://mosgorzdrav.ru/zapis",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    }
+  ],
+  "forms": [],
+  "emails": [],
+  "privacy_links": [],
+  "forbidden_hits": [],
+  "cert_errors": [
+    {
+      "url": "https://mosgorzdrav.ru/",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "url": "https://mosgorzdrav.ru/contact",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "url": "https://mosgorzdrav.ru/contacts",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "url": "https://mosgorzdrav.ru/kontakty",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "url": "https://mosgorzdrav.ru/appointment",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "url": "https://mosgorzdrav.ru/booking",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "url": "https://mosgorzdrav.ru/zapis",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    }
+  ],
+  "discovery": {
+    "contact_urls": [
+      "https://mosgorzdrav.ru/contact",
+      "https://mosgorzdrav.ru/contacts",
+      "https://mosgorzdrav.ru/kontakty"
+    ],
+    "booking_urls": [
+      "https://mosgorzdrav.ru/appointment",
+      "https://mosgorzdrav.ru/booking",
+      "https://mosgorzdrav.ru/zapis"
+    ],
+    "sources": {
+      "https://mosgorzdrav.ru/": "",
+      "https://mosgorzdrav.ru/appointment": "fallback",
+      "https://mosgorzdrav.ru/booking": "fallback",
+      "https://mosgorzdrav.ru/contact": "fallback",
+      "https://mosgorzdrav.ru/contacts": "fallback",
+      "https://mosgorzdrav.ru/kontakty": "fallback",
+      "https://mosgorzdrav.ru/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": true,
+      "booking": true
+    }
+  }
+}

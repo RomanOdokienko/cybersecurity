@@ -1,0 +1,168 @@
+{
+  "domain": "dr-knyazkin.ru",
+  "pages": [
+    {
+      "requested": "https://dr-knyazkin.ru/",
+      "status": 200,
+      "final_url": "https://dr-knyazkin.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://dr-knyazkin.ru/contacts",
+      "status": 200,
+      "final_url": "https://dr-knyazkin.ru/contacts",
+      "error": null
+    },
+    {
+      "requested": "https://dr-knyazkin.ru/appointment",
+      "status": 403,
+      "final_url": "https://dr-knyazkin.ru/appointment",
+      "error": "HTTPError 403"
+    },
+    {
+      "requested": "https://dr-knyazkin.ru/booking",
+      "status": 403,
+      "final_url": "https://dr-knyazkin.ru/booking",
+      "error": "HTTPError 403"
+    },
+    {
+      "requested": "https://dr-knyazkin.ru/zapis",
+      "status": 403,
+      "final_url": "https://dr-knyazkin.ru/zapis",
+      "error": "HTTPError 403"
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://dr-knyazkin.ru/",
+      "form_id": "form630933350",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form630933350\" name='form630933350' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://dr-knyazkin.ru/thanks\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" checked data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "om: 1px solid rgb(27, 158, 244); box-shadow: none; text-decoration: none;\">Я соглашаюсь с политикой конфиденциальности</a></span></label> </div> <div class=\"t-input-error\" aria-live=\"polite\" id=\"error_1753305834098\"></div> </div> <div class=\"t-form__errorbo"
+    },
+    {
+      "page": "https://dr-knyazkin.ru/",
+      "form_id": "form843327552",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form843327552\" name='form843327552' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://dr-knyazkin.ru/thanks\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t690_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://dr-knyazkin.ru/",
+      "form_id": "form843328885",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form843328885\" name='form843328885' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://dr-knyazkin.ru/thanks\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t690_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://dr-knyazkin.ru/",
+      "form_id": "form720443621",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form720443621\" name='form720443621' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://dr-knyazkin.ru/thanks\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" checked data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "om: 1px solid rgb(27, 158, 244); box-shadow: none; text-decoration: none;\">Я соглашаюсь с политикой конфиденциальности</a></span></label> </div> <div class=\"t-input-error\" aria-live=\"polite\" id=\"error_1753306087430\"></div> </div> <div class=\"t-form__errorbo"
+    },
+    {
+      "page": "https://dr-knyazkin.ru/",
+      "form_id": "form276293138",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form276293138\" name='form276293138' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://dr-knyazkin.ru/thanks\" class=\"t-form js-form-proccess t-form_inputs-total_3 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" checked data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "om: 1px solid rgb(27, 158, 244); box-shadow: none; text-decoration: none;\">Я соглашаюсь с политикой конфиденциальности</a></span></label> </div> <div class=\"t-input-error\" aria-live=\"polite\" id=\"error_1753306284047\"></div> </div> <div class=\"t-form__errorbo"
+    },
+    {
+      "page": "https://dr-knyazkin.ru/",
+      "form_id": "form517191007",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form517191007\" name='form517191007' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://dr-knyazkin.ru/thanks\" class=\"t-form js-form-proccess t-form_inputs-total_3 t-form_bbonly\" data-success-callback=\"t823_onSuccess\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"Checkbox\" value=\"yes\" class=\"t-checkbox js-tilda-rule\" checked data-tilda-req=\"1\" aria-required=\"true\">",
+      "policy_poc": "om: 1px solid rgb(27, 158, 244); box-shadow: none; text-decoration: none;\">Я соглашаюсь с политикой конфиденциальности</a></span></label> </div> <div class=\"t-input-error\" aria-live=\"polite\" id=\"error_1753306625902\"></div> </div> <div class=\"t-form__errorbo"
+    },
+    {
+      "page": "https://dr-knyazkin.ru/",
+      "form_id": "form370939339",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form370939339\" name='form370939339' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://dr-knyazkin.ru/thanks\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t690_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    },
+    {
+      "page": "https://dr-knyazkin.ru/contacts",
+      "form_id": "form517537601",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form517537601\" name='form517537601' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" data-success-url=\"https://dr-knyazkin.ru/thanks\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t690_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null
+    }
+  ],
+  "emails": [
+    "drknyazkin@yandex.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://dr-knyazkin.ru/",
+      "href": "https://dr-knyazkin.ru/politika",
+      "text": "Я соглашаюсь с политикой конфиденциальности"
+    },
+    {
+      "page": "https://dr-knyazkin.ru/",
+      "href": "https://dr-knyazkin.ru/politika",
+      "text": "Политика безопасности"
+    },
+    {
+      "page": "https://dr-knyazkin.ru/contacts",
+      "href": "https://dr-knyazkin.ru/politika",
+      "text": "Политика безопасности"
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "discovery": {
+    "contact_urls": [
+      "https://dr-knyazkin.ru/contacts"
+    ],
+    "booking_urls": [
+      "https://dr-knyazkin.ru/appointment",
+      "https://dr-knyazkin.ru/booking",
+      "https://dr-knyazkin.ru/zapis"
+    ],
+    "sources": {
+      "https://dr-knyazkin.ru/": "",
+      "https://dr-knyazkin.ru/appointment": "fallback",
+      "https://dr-knyazkin.ru/booking": "fallback",
+      "https://dr-knyazkin.ru/contacts": "navigation",
+      "https://dr-knyazkin.ru/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": true
+    }
+  }
+}
