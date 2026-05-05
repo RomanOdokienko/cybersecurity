@@ -1292,5 +1292,10 @@
     },
     "sitemap_total_urls": 32,
     "sitemap_used_urls": 32
+  },
+  "verification": {
+    "b2": true,
+    "b3": true,
+    "b4": true
   }
 }

@@ -913,6 +913,12 @@ def block4_statuses(audit, site_unavailable):
     }
 
 
+def block_verified(audit, block_id: str) -> bool:
+    verification = audit.get("verification", {}) or {}
+    value = verification.get(block_id)
+    return value is True
+
+
 def compute_summary(item, audit):
     pages = audit.get("pages", [])
     discovery = audit.get("discovery", {})
@@ -994,6 +1000,9 @@ def compute_summary(item, audit):
             "b2": block2_statuses(audit, True),
             "b3": block3_statuses(audit, True, "-", "-", "-", "-"),
             "b4": block4_statuses(audit, True),
+            "block2_verified": block_verified(audit, "b2"),
+            "block3_verified": block_verified(audit, "b3"),
+            "block4_verified": block_verified(audit, "b4"),
         }
 
     b2 = block2_statuses(audit, False)
@@ -1022,6 +1031,9 @@ def compute_summary(item, audit):
         "b2": b2,
         "b3": b3,
         "b4": b4,
+        "block2_verified": block_verified(audit, "b2"),
+        "block3_verified": block_verified(audit, "b3"),
+        "block4_verified": block_verified(audit, "b4"),
     }
 
 
@@ -1301,8 +1313,60 @@ def step2_blocks_data(summary):
     b4 = summary.get("b4", {}) or {}
     block2_default_status = "-" if site_unavailable else "проверить"
     block2_speed_status = summary.get("b2_speed_status", block2_default_status)
+    block2_verified = bool(summary.get("block2_verified"))
+    block3_verified = bool(summary.get("block3_verified"))
+    block4_verified = bool(summary.get("block4_verified"))
     no_checkbox_status = "-" if site_unavailable else ("проблема" if missing_checkbox else "ок")
     prechecked_status = "-" if site_unavailable else ("проблема" if prechecked else "ок")
+
+    b2_values = [
+        b2.get("online_slots_status", block2_default_status),
+        b2.get("digital_tool_status", block2_default_status),
+        b2.get("analytics_status", block2_default_status),
+        b2.get("remarketing_status", block2_default_status),
+        block2_speed_status,
+        b2.get("after_hours_status", block2_default_status),
+        b2.get("anonymous_status", block2_default_status),
+    ]
+    if not block2_verified:
+        b2_values = ["-"] * len(b2_values)
+
+    b3_values = [
+        b3.get("ssl_valid_status", summary["cert_status"]),
+        b3.get("ssl_expiry_status", "-" if site_unavailable else "проверить"),
+        b3.get("http_to_https_status", "-" if site_unavailable else "проверить"),
+        b3.get("hsts_status", "-" if site_unavailable else "проверить"),
+        b3.get("mixed_content_status", "-" if site_unavailable else "проверить"),
+        b3.get("security_headers_status", "-" if site_unavailable else "проверить"),
+        b3.get("spf_status", "-" if site_unavailable else "проверить"),
+        b3.get("dmarc_status", "-" if site_unavailable else "проверить"),
+        b3.get("dkim_status", "-" if site_unavailable else "проверить"),
+        b3.get("broken_internal_links_status", "-" if site_unavailable else "проверить"),
+        b3.get("broken_static_resources_status", "-" if site_unavailable else "проверить"),
+        b3.get("ttfb_status", "-" if site_unavailable else "проверить"),
+        b3.get("pagespeed_status", "-" if site_unavailable else "проверить"),
+        b3.get("canonical_status", "-" if site_unavailable else "проверить"),
+        b3.get("analytics_goals_status", "-" if site_unavailable else "проверить"),
+    ]
+    if not block3_verified:
+        b3_values = ["-"] * len(b3_values)
+
+    b4_values = [
+        b4.get("price_public_status", "-" if site_unavailable else "проверить"),
+        b4.get("doctors_page_status", "-" if site_unavailable else "проверить"),
+        b4.get("address_map_status", "-" if site_unavailable else "проверить"),
+        b4.get("hours_status", "-" if site_unavailable else "проверить"),
+        b4.get("reviews_status", "-" if site_unavailable else "проверить"),
+        b4.get("services_pages_status", "-" if site_unavailable else "проверить"),
+        b4.get("nap_consistency_status", "-" if site_unavailable else "проверить"),
+        b4.get("clickable_contacts_status", "-" if site_unavailable else "проверить"),
+        b4.get("contacts_page_status", "-" if site_unavailable else "проверить"),
+        b4.get("doctor_cards_status", "-" if site_unavailable else "проверить"),
+        b4.get("schema_medical_status", "-" if site_unavailable else "проверить"),
+    ]
+    if not block4_verified:
+        b4_values = ["-"] * len(b4_values)
+
     return {
         "b1": [
             no_checkbox_status,
@@ -1313,45 +1377,9 @@ def step2_blocks_data(summary):
             cookie_status,
             third_party_policy_status,
         ],
-        "b2": [
-            b2.get("online_slots_status", block2_default_status),
-            b2.get("digital_tool_status", block2_default_status),
-            b2.get("analytics_status", block2_default_status),
-            b2.get("remarketing_status", block2_default_status),
-            block2_speed_status,
-            b2.get("after_hours_status", block2_default_status),
-            b2.get("anonymous_status", block2_default_status),
-        ],
-        "b3": [
-            b3.get("ssl_valid_status", summary["cert_status"]),
-            b3.get("ssl_expiry_status", "-" if site_unavailable else "проверить"),
-            b3.get("http_to_https_status", "-" if site_unavailable else "проверить"),
-            b3.get("hsts_status", "-" if site_unavailable else "проверить"),
-            b3.get("mixed_content_status", "-" if site_unavailable else "проверить"),
-            b3.get("security_headers_status", "-" if site_unavailable else "проверить"),
-            b3.get("spf_status", "-" if site_unavailable else "проверить"),
-            b3.get("dmarc_status", "-" if site_unavailable else "проверить"),
-            b3.get("dkim_status", "-" if site_unavailable else "проверить"),
-            b3.get("broken_internal_links_status", "-" if site_unavailable else "проверить"),
-            b3.get("broken_static_resources_status", "-" if site_unavailable else "проверить"),
-            b3.get("ttfb_status", "-" if site_unavailable else "проверить"),
-            b3.get("pagespeed_status", "-" if site_unavailable else "проверить"),
-            b3.get("canonical_status", "-" if site_unavailable else "проверить"),
-            b3.get("analytics_goals_status", "-" if site_unavailable else "проверить"),
-        ],
-        "b4": [
-            b4.get("price_public_status", "-" if site_unavailable else "проверить"),
-            b4.get("doctors_page_status", "-" if site_unavailable else "проверить"),
-            b4.get("address_map_status", "-" if site_unavailable else "проверить"),
-            b4.get("hours_status", "-" if site_unavailable else "проверить"),
-            b4.get("reviews_status", "-" if site_unavailable else "проверить"),
-            b4.get("services_pages_status", "-" if site_unavailable else "проверить"),
-            b4.get("nap_consistency_status", "-" if site_unavailable else "проверить"),
-            b4.get("clickable_contacts_status", "-" if site_unavailable else "проверить"),
-            b4.get("contacts_page_status", "-" if site_unavailable else "проверить"),
-            b4.get("doctor_cards_status", "-" if site_unavailable else "проверить"),
-            b4.get("schema_medical_status", "-" if site_unavailable else "проверить"),
-        ],
+        "b2": b2_values,
+        "b3": b3_values,
+        "b4": b4_values,
     }
 
 def step2_header_rows(schema):
