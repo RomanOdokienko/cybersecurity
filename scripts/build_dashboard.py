@@ -470,6 +470,138 @@ def to_float(value):
         return None
 
 
+def apply_block2_speed_ranking(summaries):
+    scored = []
+    for summary in summaries:
+        tech = summary.get("audit", {}).get("tech", {}) or {}
+        ps = tech.get("pagespeed", {}) or {}
+        score = to_float(ps.get("score"))
+        lcp = to_float(ps.get("lcp_seconds"))
+        if score is None and lcp is None:
+            continue
+        scored.append({"summary": summary, "score": score, "lcp": lcp})
+
+    if not scored:
+        for summary in summaries:
+            if summary["summary"].get("site_unavailable"):
+                summary["summary"]["b2_speed_status"] = "-"
+            else:
+                summary["summary"]["b2_speed_status"] = "проверить"
+        return
+
+    def rank_key(x):
+        score = x["score"]
+        lcp = x["lcp"]
+        score_key = -score if score is not None else 10_000
+        lcp_key = lcp if lcp is not None else 10_000
+        return (score_key, lcp_key)
+
+    scored_sorted = sorted(scored, key=rank_key)
+    total = len(scored_sorted)
+    for i, item in enumerate(scored_sorted, 1):
+        pct = i / total
+        if pct <= 0.33:
+            status = "ок"
+        elif pct <= 0.66:
+            status = "проверить"
+        else:
+            status = "проблема"
+        item["summary"]["summary"]["b2_speed_status"] = status
+        item["summary"]["summary"]["b2_speed_rank"] = i
+        item["summary"]["summary"]["b2_speed_rank_total"] = total
+
+    for summary in summaries:
+        if summary["summary"].get("b2_speed_status"):
+            continue
+        if summary["summary"].get("site_unavailable"):
+            summary["summary"]["b2_speed_status"] = "-"
+        else:
+            summary["summary"]["b2_speed_status"] = "проверить"
+
+
+def block2_statuses(audit, site_unavailable):
+    if site_unavailable:
+        return {
+            "online_slots_status": "-",
+            "digital_tool_status": "-",
+            "analytics_status": "-",
+            "remarketing_status": "-",
+            "after_hours_status": "-",
+            "anonymous_status": "-",
+        }
+
+    discovery = audit.get("discovery", {}) or {}
+    forms = audit.get("forms", []) or []
+    tech = audit.get("tech", {}) or {}
+    analytics = tech.get("analytics", {}) or {}
+    engagement = tech.get("engagement", {}) or {}
+    remarketing = tech.get("remarketing", {}) or {}
+
+    has_slot_booking = bool(engagement.get("slot_booking_widget"))
+    online_slots_status = "ок" if has_slot_booking else "проверить"
+
+    sitemap_total = int(discovery.get("sitemap_total_urls") or 0)
+    pages_count = len(audit.get("pages", []) or [])
+    functional_flags = 0
+    functional_flags += 1 if has_slot_booking else 0
+    functional_flags += 1 if bool(analytics.get("found")) else 0
+    functional_flags += 1 if bool(remarketing.get("found")) else 0
+    functional_flags += 1 if bool(engagement.get("whatsapp") or engagement.get("telegram") or engagement.get("chat_widget")) else 0
+    functional_flags += 1 if len(forms) >= 10 else 0
+
+    if sitemap_total >= 35 and functional_flags >= 3:
+        digital_tool_status = "ок"
+    elif sitemap_total >= 15 or functional_flags >= 2 or pages_count >= 12:
+        digital_tool_status = "частично"
+    else:
+        digital_tool_status = "проверить"
+
+    has_analytics = bool(analytics.get("found"))
+    has_goals = bool(analytics.get("goals_found"))
+    if has_analytics and has_goals:
+        analytics_status = "ок"
+    elif has_analytics:
+        analytics_status = "проверить"
+    else:
+        analytics_status = "проблема"
+
+    if remarketing.get("found") is True:
+        remarketing_status = "ок"
+    elif has_analytics:
+        remarketing_status = "проверить"
+    else:
+        remarketing_status = "проверить"
+
+    has_async_channel = bool(
+        engagement.get("whatsapp")
+        or engagement.get("telegram")
+        or engagement.get("chat_widget")
+        or len(forms) > 0
+    )
+    after_hours_status = "ок" if has_async_channel else "проверить"
+
+    has_chat = bool(engagement.get("chat_widget"))
+    has_text_question_without_required_phone = any(
+        bool(f.get("has_textarea")) and not bool(f.get("phone_required"))
+        for f in forms
+    )
+    if has_chat or has_text_question_without_required_phone:
+        anonymous_status = "ок"
+    elif len(forms) > 0:
+        anonymous_status = "проверить"
+    else:
+        anonymous_status = "проверить"
+
+    return {
+        "online_slots_status": online_slots_status,
+        "digital_tool_status": digital_tool_status,
+        "analytics_status": analytics_status,
+        "remarketing_status": remarketing_status,
+        "after_hours_status": after_hours_status,
+        "anonymous_status": anonymous_status,
+    }
+
+
 def block3_statuses(audit, site_unavailable, cert_status, spf_status, dmarc_status, dkim_status):
     if site_unavailable:
         return {
@@ -641,6 +773,146 @@ def block3_statuses(audit, site_unavailable, cert_status, spf_status, dmarc_stat
     }
 
 
+def block4_statuses(audit, site_unavailable):
+    if site_unavailable:
+        return {
+            "price_public_status": "-",
+            "doctors_page_status": "-",
+            "address_map_status": "-",
+            "hours_status": "-",
+            "reviews_status": "-",
+            "services_pages_status": "-",
+            "nap_consistency_status": "-",
+            "clickable_contacts_status": "-",
+            "contacts_page_status": "-",
+            "doctor_cards_status": "-",
+            "schema_medical_status": "-",
+        }
+
+    tech = audit.get("tech", {}) or {}
+    med = tech.get("med_trust", {}) or {}
+    discovery = audit.get("discovery", {}) or {}
+    pages = audit.get("pages", []) or []
+    schema = tech.get("schema", {}) or {}
+
+    contact_urls = discovery.get("contact_urls", []) or []
+    page_urls = [str(p.get("requested") or "") for p in pages]
+    low_urls = [u.lower() for u in page_urls]
+
+    def has_url_hint(hints):
+        return any(any(h in u for h in hints) for u in low_urls)
+
+    price_found = med.get("price_public_found")
+    if price_found is None:
+        price_found = has_url_hint(["/price", "/prices", "/prays", "/ceny", "/tseny", "/stoim", "/uslugi"])
+    price_public_status = "ок" if price_found else "проблема"
+
+    doctors_found = med.get("doctors_page_exists")
+    if doctors_found is None:
+        doctors_found = has_url_hint(["/doctor", "/doctors", "/vrach", "/vrachi", "/specialist", "/team"])
+    doctors_page_status = "ок" if doctors_found else "проблема"
+
+    address_found = med.get("address_found")
+    map_found = med.get("map_found")
+    if address_found is True and map_found is True:
+        address_map_status = "ок"
+    elif address_found is True or map_found is True:
+        address_map_status = "проверить"
+    elif address_found is False and map_found is False:
+        address_map_status = "проблема"
+    else:
+        address_map_status = "проверить"
+
+    hours_found = med.get("hours_found")
+    if hours_found is True:
+        hours_status = "ок"
+    elif hours_found is False:
+        hours_status = "проверить"
+    else:
+        hours_status = "проверить"
+
+    reviews_found = med.get("reviews_found")
+    if reviews_found is True:
+        reviews_status = "ок"
+    elif reviews_found is False:
+        reviews_status = "проверить"
+    else:
+        reviews_status = "проверить"
+
+    service_pages_count = med.get("service_pages_count")
+    if isinstance(service_pages_count, int):
+        if service_pages_count >= 3:
+            services_pages_status = "ок"
+        elif service_pages_count >= 1:
+            services_pages_status = "проверить"
+        else:
+            services_pages_status = "проблема"
+    else:
+        services_pages_status = "проверить"
+
+    nap = med.get("nap", {}) or {}
+    nap_consistent = nap.get("consistent")
+    if nap_consistent is True:
+        nap_consistency_status = "ок"
+    elif nap_consistent is False:
+        nap_consistency_status = "проблема"
+    else:
+        nap_consistency_status = "проверить"
+
+    clickable = med.get("clickable_contacts", {}) or {}
+    has_tel = clickable.get("tel")
+    has_mailto = clickable.get("mailto")
+    if has_tel is True:
+        clickable_contacts_status = "ок"
+    elif has_mailto is True:
+        clickable_contacts_status = "проверить"
+    elif has_tel is False and has_mailto is False:
+        clickable_contacts_status = "проблема"
+    else:
+        clickable_contacts_status = "проверить"
+
+    contacts_exists = med.get("contact_page_exists")
+    if contacts_exists is None:
+        contacts_exists = bool(contact_urls) or has_url_hint(["/contact", "/contacts", "/kontakty"])
+    contacts_page_status = "ок" if contacts_exists else "проблема"
+
+    doctor_cards = med.get("doctor_cards", {}) or {}
+    doctor_cards_complete = doctor_cards.get("complete")
+    if doctor_cards_complete is True:
+        doctor_cards_status = "ок"
+    elif doctor_cards_complete is False and doctors_found:
+        doctor_cards_status = "проверить"
+    elif doctor_cards_complete is False and not doctors_found:
+        doctor_cards_status = "проблема"
+    else:
+        doctor_cards_status = "проверить"
+
+    med_schema = ((med.get("schema", {}) or {}).get("medical"))
+    if med_schema is None:
+        schema_types = [str(x).lower() for x in (schema.get("types") or [])]
+        med_schema = any(x in {"medicalorganization", "medicalclinic", "physician", "dentist", "hospital"} for x in schema_types)
+    if med_schema is True:
+        schema_medical_status = "ок"
+    elif med_schema is False:
+        schema_medical_status = "проверить"
+    else:
+        schema_medical_status = "проверить"
+
+    return {
+        "price_public_status": price_public_status,
+        "doctors_page_status": doctors_page_status,
+        "address_map_status": address_map_status,
+        "hours_status": hours_status,
+        "reviews_status": reviews_status,
+        "services_pages_status": services_pages_status,
+        "nap_consistency_status": nap_consistency_status,
+        "clickable_contacts_status": clickable_contacts_status,
+        "contacts_page_status": contacts_page_status,
+        "doctor_cards_status": doctor_cards_status,
+        "schema_medical_status": schema_medical_status,
+    }
+
+
 def compute_summary(item, audit):
     pages = audit.get("pages", [])
     discovery = audit.get("discovery", {})
@@ -719,10 +991,14 @@ def compute_summary(item, audit):
             "dkim_status": "-",
             "dkim_lines": ["Не проверено: сайт недоступен."],
             "email": email,
+            "b2": block2_statuses(audit, True),
             "b3": block3_statuses(audit, True, "-", "-", "-", "-"),
+            "b4": block4_statuses(audit, True),
         }
 
+    b2 = block2_statuses(audit, False)
     b3 = block3_statuses(audit, False, cert_status, spf_status, dmarc_status, dkim_status)
+    b4 = block4_statuses(audit, False)
 
     return {
         "site_unavailable": False,
@@ -743,7 +1019,9 @@ def compute_summary(item, audit):
         "dkim_status": dkim_status,
         "dkim_lines": dkim_lines,
         "email": email,
+        "b2": b2,
         "b3": b3,
+        "b4": b4,
     }
 
 
@@ -961,7 +1239,7 @@ def step2_block_schema():
             "id": "b2",
             "title": "Блок 2",
             "metric_names": [
-                "Нет онлайн-записи со слотами",
+                "Онлайн-запись со слотами (nice-to-have)",
                 "Сайт — цифровая визитка, не инструмент",
                 "Вы не знаете кто приходит на сайт и почему уходит",
                 "Ушедший пациент потерян навсегда — нет ремаркетинга",
@@ -995,15 +1273,17 @@ def step2_block_schema():
             "id": "b4",
             "title": "Блок 4",
             "metric_names": [
-                "Лицензия Минздрава — номер текстом",
-                "Верификация лицензии в реестре Росздравнадзора",
                 "Прайс-лист доступен без регистрации",
                 "Страница врачей / специалистов",
                 "Адрес и карта на сайте",
                 "Часы работы",
                 "Отзывы пациентов на сайте",
-                "Акции и спецпредложения",
-                "Ключевые услуги упомянуты на сайте",
+                "Ключевые услуги вынесены в отдельные страницы",
+                "NAP consistency (название/адрес/телефон согласованы)",
+                "Контакты кликабельны (tel:/mailto:)",
+                "Есть отдельная страница контактов",
+                "Карточки врачей: ФИО + специальность",
+                "Schema.org: MedicalOrganization / Physician",
             ],
         },
     ]
@@ -1012,14 +1292,15 @@ def step2_block_schema():
 def step2_blocks_data(summary):
     consent_counts = summary.get("consent_counts", {}) or {}
     site_unavailable = summary.get("site_unavailable", False)
+    b2 = summary.get("b2", {}) or {}
     b3 = summary.get("b3", {}) or {}
     missing_checkbox = int(consent_counts.get("не найдено", 0)) > 0
     prechecked = int(consent_counts.get("checked", 0)) > 0
     cookie_status = "-" if site_unavailable else "проверить"
     third_party_policy_status = "-" if site_unavailable else "проверить"
-    med_spec_status = "-" if site_unavailable else "проверить"
+    b4 = summary.get("b4", {}) or {}
     block2_default_status = "-" if site_unavailable else "проверить"
-    block2_partial_status = "-" if site_unavailable else "частично"
+    block2_speed_status = summary.get("b2_speed_status", block2_default_status)
     no_checkbox_status = "-" if site_unavailable else ("проблема" if missing_checkbox else "ок")
     prechecked_status = "-" if site_unavailable else ("проблема" if prechecked else "ок")
     return {
@@ -1033,13 +1314,13 @@ def step2_blocks_data(summary):
             third_party_policy_status,
         ],
         "b2": [
-            block2_default_status,
-            block2_partial_status,
-            block2_default_status,
-            block2_default_status,
-            block2_default_status,
-            block2_default_status,
-            block2_default_status,
+            b2.get("online_slots_status", block2_default_status),
+            b2.get("digital_tool_status", block2_default_status),
+            b2.get("analytics_status", block2_default_status),
+            b2.get("remarketing_status", block2_default_status),
+            block2_speed_status,
+            b2.get("after_hours_status", block2_default_status),
+            b2.get("anonymous_status", block2_default_status),
         ],
         "b3": [
             b3.get("ssl_valid_status", summary["cert_status"]),
@@ -1058,7 +1339,19 @@ def step2_blocks_data(summary):
             b3.get("canonical_status", "-" if site_unavailable else "проверить"),
             b3.get("analytics_goals_status", "-" if site_unavailable else "проверить"),
         ],
-        "b4": [med_spec_status] * 9,
+        "b4": [
+            b4.get("price_public_status", "-" if site_unavailable else "проверить"),
+            b4.get("doctors_page_status", "-" if site_unavailable else "проверить"),
+            b4.get("address_map_status", "-" if site_unavailable else "проверить"),
+            b4.get("hours_status", "-" if site_unavailable else "проверить"),
+            b4.get("reviews_status", "-" if site_unavailable else "проверить"),
+            b4.get("services_pages_status", "-" if site_unavailable else "проверить"),
+            b4.get("nap_consistency_status", "-" if site_unavailable else "проверить"),
+            b4.get("clickable_contacts_status", "-" if site_unavailable else "проверить"),
+            b4.get("contacts_page_status", "-" if site_unavailable else "проверить"),
+            b4.get("doctor_cards_status", "-" if site_unavailable else "проверить"),
+            b4.get("schema_medical_status", "-" if site_unavailable else "проверить"),
+        ],
     }
 
 def step2_header_rows(schema):
@@ -1242,6 +1535,7 @@ def main():
     details = []
     counts = {"слать": 0, "проверить": 0, "не слать": 0}
     unavailable = 0
+    items_with_summary = []
 
     for idx, item in enumerate(manifest, 1):
         audit_path = ROOT / item["audit_file"]
@@ -1250,6 +1544,20 @@ def main():
         counts[summary["result"]] = counts.get(summary["result"], 0) + 1
         if summary["availability_status"] == "проблема":
             unavailable += 1
+        items_with_summary.append({
+            "idx": idx,
+            "item": item,
+            "audit": audit,
+            "summary": summary,
+        })
+
+    apply_block2_speed_ranking(items_with_summary)
+
+    for entry in items_with_summary:
+        idx = entry["idx"]
+        item = entry["item"]
+        audit = entry["audit"]
+        summary = entry["summary"]
         rows.append(row_html(idx, item["id"], item["clinic"], item["site"], summary))
         rows_step2.append(row_html_step2(idx, item["id"], item["clinic"], item["site"], summary, step2_schema))
         details.append((item["id"], build_detail_page(item, audit, summary)))

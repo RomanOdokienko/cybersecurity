@@ -3,6 +3,8 @@ import json
 import re
 import socket
 import ssl
+import shutil
+import subprocess
 import time
 import urllib.request
 import urllib.error
@@ -33,6 +35,7 @@ MAX_SITEMAP_URLS = 120
 MAX_INTERNAL_LINK_CHECKS = 120
 MAX_RESOURCE_CHECKS = 160
 MAX_BROKEN_SAMPLES = 20
+LIGHTHOUSE_TIMEOUT_SEC = 120
 
 CHECKBOX_RE = re.compile(r'(?is)<input\b[^>]*\btype\s*=\s*["\']?checkbox["\']?[^>]*>')
 FORM_RE = re.compile(r'(?is)<form\b[^>]*>.*?</form>')
@@ -90,6 +93,65 @@ SECURITY_HEADERS = [
     'x-frame-options',
     'x-content-type-options',
     'referrer-policy',
+]
+
+PRICE_URL_HINTS = [
+    'price', 'prices', 'prays', 'ceny', 'tseny', 'stoim', 'cost', 'uslugi', 'tarif',
+]
+DOCTOR_URL_HINTS = [
+    'doctor', 'doctors', 'vrach', 'vrachi', 'specialist', 'team', 'staff', 'personnel',
+]
+MAP_TOKENS = [
+    'api-maps.yandex.ru',
+    'yandex.ru/maps',
+    'yandex.com/maps',
+    '2gis.ru',
+    'google.com/maps',
+]
+HOURS_TOKENS = [
+    'режим работы',
+    'часы работы',
+    'график работы',
+    'пн-пт',
+    'пн–пт',
+    'пн-вс',
+    'пн–вс',
+    'ежедневно',
+    'круглосуточно',
+]
+REVIEW_TOKENS = [
+    'отзывы',
+    'отзыв',
+    'review',
+    'prodoctorov',
+    'yandex maps',
+    'яндекс карты',
+    '2gis',
+]
+SERVICE_KEYWORDS = [
+    'implant',
+    'имплан',
+    'all-on-4',
+    'all on 4',
+    'bracket',
+    'брекет',
+    'vinir',
+    'винир',
+    'koronk',
+    'коронк',
+    'otbel',
+    'отбел',
+]
+SPECIALTY_KEYWORDS = [
+    'стоматолог',
+    'ортодонт',
+    'хирург',
+    'терапевт',
+    'пародонтолог',
+    'имплантолог',
+    'ортопед',
+    'эндодонтист',
+    'врач',
 ]
 
 
@@ -573,6 +635,173 @@ def detect_goal_markers(html_pages):
     return sorted(markers)
 
 
+def detect_engagement_signals(html_pages):
+    signals = {
+        'whatsapp': False,
+        'telegram': False,
+        'chat_widget': False,
+        'slot_booking_widget': False,
+    }
+    chat_tokens = [
+        'jivosite', 'jivo', 'carrotquest', 'livetex', 'webim', 'tawk.to',
+        'usedesk', 'chatra', 'crisp.chat', 'bitrix24', 'onlinechat',
+    ]
+    booking_tokens_strong = [
+        'yclients',
+        'medme',
+        'dikidi',
+        'widget-booking',
+        'time-slot',
+        'appointment-calendar',
+    ]
+    booking_phrases = [
+        'выбрать время',
+        'свободное время',
+        'онлайн-запись',
+        'онлайн запись',
+        'calendar booking',
+        'book appointment',
+    ]
+    for html in html_pages:
+        low = (html or '').lower()
+        if not low:
+            continue
+        if any(x in low for x in ['wa.me', 'whatsapp', 'api.whatsapp.com']):
+            signals['whatsapp'] = True
+        if any(x in low for x in ['t.me/', 'telegram.me', 'telegram']):
+            signals['telegram'] = True
+        if any(x in low for x in chat_tokens):
+            signals['chat_widget'] = True
+        if any(x in low for x in booking_tokens_strong) or any(x in low for x in booking_phrases):
+            signals['slot_booking_widget'] = True
+    return signals
+
+
+def detect_remarketing_signals(html_pages):
+    signals = {
+        'vk_pixel': False,
+        'meta_pixel': False,
+        'google_ads_remarketing': False,
+    }
+    for html in html_pages:
+        low = (html or '').lower()
+        if not low:
+            continue
+        if 'vk.com/rtrg' in low or 'vk.rtrg' in low or 'vk_retargeting' in low:
+            signals['vk_pixel'] = True
+        if 'fbq(' in low or 'facebook.com/tr' in low or 'connect.facebook.net/en_us/fbevents' in low:
+            signals['meta_pixel'] = True
+        if 'googletagmanager.com/gtag/js' in low and 'aw-' in low:
+            signals['google_ads_remarketing'] = True
+        if 'googleadservices.com/pagead/conversion' in low:
+            signals['google_ads_remarketing'] = True
+    signals['found'] = signals['vk_pixel'] or signals['meta_pixel'] or signals['google_ads_remarketing']
+    return signals
+
+
+def run_lighthouse_mobile(url: str):
+    tool = None
+    lh_path = shutil.which('lighthouse')
+    npx_path = shutil.which('npx') or shutil.which('npx.cmd')
+    if lh_path:
+        tool = [lh_path]
+    elif npx_path:
+        tool = [npx_path, '--yes', 'lighthouse']
+    else:
+        return {
+            'status': 'not_available',
+            'score': None,
+            'lcp_seconds': None,
+            'tool': None,
+            'error': 'lighthouse CLI не найден (нет lighthouse и npx).',
+        }
+
+    cmd = [
+        *tool,
+        url,
+        '--quiet',
+        '--only-categories=performance',
+        '--emulated-form-factor=mobile',
+        '--output=json',
+        '--output-path=stdout',
+        '--chrome-flags=--headless --no-sandbox --disable-gpu',
+    ]
+
+    try:
+        run = subprocess.run(
+            cmd,
+            capture_output=True,
+            text=True,
+            timeout=LIGHTHOUSE_TIMEOUT_SEC,
+            encoding='utf-8',
+            errors='ignore',
+        )
+    except subprocess.TimeoutExpired:
+        return {
+            'status': 'timeout',
+            'score': None,
+            'lcp_seconds': None,
+            'tool': ' '.join(tool),
+            'error': f'Lighthouse timeout ({LIGHTHOUSE_TIMEOUT_SEC}s).',
+        }
+    except Exception as exc:
+        return {
+            'status': 'error',
+            'score': None,
+            'lcp_seconds': None,
+            'tool': ' '.join(tool),
+            'error': str(exc),
+        }
+
+    raw = (run.stdout or '').strip()
+    if not raw:
+        raw = (run.stderr or '').strip()
+    start = raw.find('{')
+    end = raw.rfind('}')
+    if start < 0 or end <= start:
+        return {
+            'status': 'error',
+            'score': None,
+            'lcp_seconds': None,
+            'tool': ' '.join(tool),
+            'error': (run.stderr or run.stdout or 'Lighthouse JSON output parse error.')[:500],
+        }
+
+    try:
+        report = json.loads(raw[start:end + 1])
+    except Exception as exc:
+        return {
+            'status': 'error',
+            'score': None,
+            'lcp_seconds': None,
+            'tool': ' '.join(tool),
+            'error': f'JSON decode error: {exc}',
+        }
+
+    root = report.get('lighthouseResult', report)
+    perf_score = (
+        root.get('categories', {})
+        .get('performance', {})
+        .get('score')
+    )
+    lcp_ms = (
+        root.get('audits', {})
+        .get('largest-contentful-paint', {})
+        .get('numericValue')
+    )
+    score = int(round(float(perf_score) * 100)) if isinstance(perf_score, (int, float)) else None
+    lcp_seconds = round(float(lcp_ms) / 1000.0, 3) if isinstance(lcp_ms, (int, float)) else None
+    status = 'ok' if score is not None or lcp_seconds is not None else 'partial'
+
+    return {
+        'status': status,
+        'score': score,
+        'lcp_seconds': lcp_seconds,
+        'tool': ' '.join(tool),
+        'error': None if run.returncode == 0 else (run.stderr or '')[:500],
+    }
+
+
 def detect_schema_types(html_pages):
     found = set()
     known = [
@@ -617,6 +846,190 @@ def detect_mixed_content(https_pages):
         if len(samples) >= 20:
             break
     return samples
+
+
+def has_any_token(value: str, tokens):
+    low = str(value or '').lower()
+    return any(tok in low for tok in tokens)
+
+
+def normalize_phone(value: str):
+    digits = re.sub(r'\D+', '', str(value or ''))
+    if len(digits) < 10:
+        return ''
+    if len(digits) >= 11 and digits[0] in {'7', '8'}:
+        return digits[-10:]
+    return digits[-10:]
+
+
+def extract_phones(text: str):
+    out = []
+    for m in re.finditer(r'(?:(?:\+7|8)[\s\-\(\)]*\d[\d\s\-\(\)]{8,}\d)', text or ''):
+        p = normalize_phone(m.group(0))
+        if p:
+            out.append(p)
+    return dedupe_keep_order(out)
+
+
+def normalize_address(value: str):
+    s = re.sub(r'[\s,;:]+', ' ', str(value or '').lower()).strip()
+    return s
+
+
+def extract_address_snippet(text: str):
+    if not text:
+        return ''
+    patterns = [
+        r'(?is)(?:г\.?\s*[а-яa-z\- ]+[, ]+)?(?:ул\.?|улица|проспект|пр-т|шоссе|наб\.?|переулок|бул\.?|бульвар)\s*[^\n<]{3,90}\d[^\n<]{0,24}',
+        r'(?is)(?:адрес)\s*[:\-]?\s*[^\n<]{8,120}',
+    ]
+    for pat in patterns:
+        m = re.search(pat, text)
+        if m:
+            return normalize_address(clean(strip_tags(m.group(0))))
+    return ''
+
+
+def count_probable_person_names(text: str):
+    cyr = re.findall(r'\b[А-ЯЁ][а-яё]{2,}\s+[А-ЯЁ][а-яё]{2,}(?:\s+[А-ЯЁ][а-яё]{2,})?\b', text or '')
+    lat = re.findall(r'\b[A-Z][a-z]{2,}\s+[A-Z][a-z]{2,}(?:\s+[A-Z][a-z]{2,})?\b', text or '')
+    names = dedupe_keep_order(cyr + lat)
+    return len(names), names[:20]
+
+
+def detect_med_trust_signals(html_ok_pages, contact_urls, schema_types):
+    contact_set = set(contact_urls or [])
+    home_page = None
+    contact_pages = []
+    price_pages = []
+    doctor_pages = []
+    service_pages = []
+
+    reviews_found = False
+    hours_found = False
+    map_found = False
+    address_any = False
+    has_tel_link = False
+    has_mailto_link = False
+
+    home_phones = []
+    contact_phones = []
+    home_addr = ''
+    contact_addr = ''
+    doctor_names_count = 0
+    doctor_specialty_found = False
+
+    for page in html_ok_pages:
+        url = str(page.get('final_url') or page.get('url') or '')
+        html = page.get('html', '') or ''
+        if not url or not html:
+            continue
+
+        low_url = url.lower()
+        low = html.lower()
+        text = strip_tags(re.sub(r'(?is)<script\b.*?</script>|<style\b.*?</style>', ' ', html))
+        text_low = text.lower()
+
+        if not home_page and (urlparse(url).path in {'', '/'}):
+            home_page = page
+
+        if (url in contact_set) or is_contact_hint(low_url):
+            contact_pages.append(url)
+
+        if has_any_token(low_url, PRICE_URL_HINTS):
+            price_pages.append(url)
+
+        if has_any_token(low_url, DOCTOR_URL_HINTS):
+            doctor_pages.append(url)
+
+        if has_any_token(low_url, SERVICE_KEYWORDS):
+            service_pages.append(url)
+
+        if not reviews_found and has_any_token(low + ' ' + text_low, REVIEW_TOKENS):
+            reviews_found = True
+        if not hours_found and has_any_token(text_low, HOURS_TOKENS):
+            hours_found = True
+        if not map_found and has_any_token(low, MAP_TOKENS):
+            map_found = True
+
+        addr = extract_address_snippet(html)
+        if addr:
+            address_any = True
+
+        if not has_tel_link and re.search(r'(?is)\bhref\s*=\s*["\']tel:[^"\']+["\']', html):
+            has_tel_link = True
+        if not has_mailto_link and re.search(r'(?is)\bhref\s*=\s*["\']mailto:[^"\']+["\']', html):
+            has_mailto_link = True
+
+        if urlparse(url).path in {'', '/'}:
+            home_phones = extract_phones(text)
+            home_addr = addr or home_addr
+
+        if (url in contact_set) or is_contact_hint(low_url):
+            if not contact_phones:
+                contact_phones = extract_phones(text)
+            if not contact_addr:
+                contact_addr = addr
+
+        if has_any_token(low_url, DOCTOR_URL_HINTS):
+            names_count, _ = count_probable_person_names(text)
+            doctor_names_count = max(doctor_names_count, names_count)
+            if has_any_token(text_low, SPECIALTY_KEYWORDS):
+                doctor_specialty_found = True
+
+    if not home_page and html_ok_pages:
+        home_page = html_ok_pages[0]
+
+    phone_match = bool(set(home_phones) & set(contact_phones)) if (home_phones and contact_phones) else None
+    address_match = (home_addr == contact_addr) if (home_addr and contact_addr) else None
+
+    nap_consistent = False
+    if phone_match is True:
+        nap_consistent = True
+    elif phone_match is None and address_match is True:
+        nap_consistent = True
+
+    schema_set = {str(x).lower() for x in (schema_types or [])}
+    schema_medical = bool(schema_set & {'medicalorganization', 'medicalclinic', 'physician', 'dentist', 'hospital'})
+    schema_any = bool(schema_set)
+
+    return {
+        'contact_page_exists': bool(contact_pages),
+        'contact_pages': dedupe_keep_order(contact_pages),
+        'price_public_found': bool(price_pages),
+        'price_pages': dedupe_keep_order(price_pages),
+        'doctors_page_exists': bool(doctor_pages),
+        'doctor_pages': dedupe_keep_order(doctor_pages),
+        'address_found': address_any,
+        'map_found': map_found,
+        'hours_found': hours_found,
+        'reviews_found': reviews_found,
+        'service_pages_count': len(dedupe_keep_order(service_pages)),
+        'service_pages': dedupe_keep_order(service_pages)[:20],
+        'clickable_contacts': {
+            'tel': has_tel_link,
+            'mailto': has_mailto_link,
+        },
+        'doctor_cards': {
+            'names_count': doctor_names_count,
+            'specialty_found': doctor_specialty_found,
+            'complete': bool(doctor_names_count >= 2 and doctor_specialty_found),
+        },
+        'nap': {
+            'home_phones': home_phones[:5],
+            'contact_phones': contact_phones[:5],
+            'phone_match': phone_match,
+            'home_address_found': bool(home_addr),
+            'contact_address_found': bool(contact_addr),
+            'address_match': address_match,
+            'consistent': nap_consistent,
+        },
+        'schema': {
+            'medical': schema_medical,
+            'any': schema_any,
+            'types': sorted(schema_set),
+        },
+    }
 
 
 def run_audit(base_url: str):
@@ -865,8 +1278,11 @@ def run_audit(base_url: str):
 
     analytics_kinds = detect_analytics_markers(html_texts)
     analytics_goal_markers = detect_goal_markers(html_texts)
+    engagement_signals = detect_engagement_signals(html_texts)
+    remarketing_signals = detect_remarketing_signals(html_texts)
     schema_types = detect_schema_types(html_texts)
     mixed_samples = detect_mixed_content(https_ok_pages)
+    med_trust = detect_med_trust_signals(html_ok_pages, sorted(contact_urls), schema_types)
 
     home_html_low = (home_html or '').lower()
     favicon_from_html = bool(re.search(r'(?is)<link\b[^>]*\brel\s*=\s*["\'][^"\']*icon[^"\']*["\']', home_html_low))
@@ -881,6 +1297,10 @@ def run_audit(base_url: str):
     ttfb_source = https_home_resp if https_home_resp.get('status') is not None else home_resp
     ttfb_ms = ttfb_source.get('elapsed_ms')
     ttfb_seconds = round(float(ttfb_ms) / 1000.0, 3) if isinstance(ttfb_ms, (int, float)) else None
+    pagespeed_url = str(https_home_resp.get('final_url') or https_base + '/')
+    if not pagespeed_url.startswith('http'):
+        pagespeed_url = https_base + '/'
+    pagespeed_data = run_lighthouse_mobile(pagespeed_url)
 
     internal_candidates = []
     for page in html_ok_pages:
@@ -970,6 +1390,23 @@ def run_audit(base_url: str):
                 if mpol:
                     policy_poc = clean(mpol.group(0))
 
+            has_phone_field = bool(
+                re.search(r'(?is)\btype\s*=\s*["\']?tel["\']?', form_html)
+                or re.search(r'(?is)\bname\s*=\s*(?:"[^"]*phone[^"]*"|\'[^\']*phone[^\']*\'|[^\s>]*phone[^\s>]*)', form_html)
+                or re.search(r'(?is)\bname\s*=\s*(?:"[^"]*tel[^"]*"|\'[^\']*tel[^\']*\'|[^\s>]*tel[^\s>]*)', form_html)
+            )
+            has_name_field = bool(
+                re.search(r'(?is)\bname\s*=\s*(?:"[^"]*name[^"]*"|\'[^\']*name[^\']*\'|[^\s>]*name[^\s>]*)', form_html)
+                or re.search(r'(?is)\bplaceholder\s*=\s*(?:"[^"]*имя[^"]*"|\'[^\']*имя[^\']*\'|[^\s>]*имя[^\s>]*)', form_html)
+            )
+            has_textarea = bool(re.search(r'(?is)<textarea\b', form_html))
+            phone_required = bool(
+                re.search(
+                    r'(?is)<input\b[^>]*(?:type\s*=\s*["\']?tel["\']?|name\s*=\s*["\']?[^"\']*(?:phone|tel)[^"\']*["\']?)[^>]*\b(?:required|data-tilda-req\s*=\s*["\']?1["\']?)',
+                    form_html,
+                )
+            )
+
             forms.append({
                 'page': url,
                 'form_id': fid,
@@ -980,6 +1417,10 @@ def run_audit(base_url: str):
                 'has_policy_text': has_pol,
                 'checkbox_poc': checkbox_poc,
                 'policy_poc': policy_poc,
+                'has_phone_field': has_phone_field,
+                'has_name_field': has_name_field,
+                'has_textarea': has_textarea,
+                'phone_required': phone_required,
             })
 
         html_links = re.sub(r'(?is)<script\b.*?</script>', ' ', html)
@@ -1054,10 +1495,11 @@ def run_audit(base_url: str):
                 'error': ttfb_source.get('error'),
             },
             'pagespeed': {
-                'status': 'not_run',
-                'score': None,
-                'lcp_seconds': None,
-                'note': 'PageSpeed API не вызывался в текущем офлайн-аудите.',
+                'status': pagespeed_data.get('status'),
+                'score': pagespeed_data.get('score'),
+                'lcp_seconds': pagespeed_data.get('lcp_seconds'),
+                'tool': pagespeed_data.get('tool'),
+                'error': pagespeed_data.get('error'),
             },
             'analytics': {
                 'found': bool(analytics_kinds),
@@ -1065,6 +1507,8 @@ def run_audit(base_url: str):
                 'goals_found': bool(analytics_goal_markers),
                 'goal_markers': analytics_goal_markers,
             },
+            'engagement': engagement_signals,
+            'remarketing': remarketing_signals,
             'favicon': {
                 'status': favicon_probe.get('status'),
                 'from_html': favicon_from_html,
@@ -1074,6 +1518,7 @@ def run_audit(base_url: str):
                 'found': bool(schema_types),
                 'types': schema_types,
             },
+            'med_trust': med_trust,
             'mixed_content': {
                 'count': len(mixed_samples),
                 'samples': mixed_samples,
