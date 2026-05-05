@@ -1,7 +1,9 @@
 ﻿import argparse
 import json
 import re
+import socket
 import ssl
+import time
 import urllib.request
 import urllib.error
 import xml.etree.ElementTree as ET
@@ -28,6 +30,9 @@ POLICY_FALLBACK_PATHS = [
     '/politika-konfidencialnosti',
 ]
 MAX_SITEMAP_URLS = 120
+MAX_INTERNAL_LINK_CHECKS = 120
+MAX_RESOURCE_CHECKS = 160
+MAX_BROKEN_SAMPLES = 20
 
 CHECKBOX_RE = re.compile(r'(?is)<input\b[^>]*\btype\s*=\s*["\']?checkbox["\']?[^>]*>')
 FORM_RE = re.compile(r'(?is)<form\b[^>]*>.*?</form>')
@@ -79,6 +84,14 @@ PRIVACY_HINTS = [
     '152-fz',
 ]
 
+SECURITY_HEADERS = [
+    'strict-transport-security',
+    'content-security-policy',
+    'x-frame-options',
+    'x-content-type-options',
+    'referrer-policy',
+]
+
 
 def normalize_base(url: str) -> str:
     if not url.startswith('http://') and not url.startswith('https://'):
@@ -105,18 +118,98 @@ def fetch(url: str, ctx):
             'Upgrade-Insecure-Requests': '1',
         },
     )
+    started = time.perf_counter()
     try:
         with urllib.request.urlopen(req, timeout=40, context=ctx) as r:
             text = r.read().decode('utf-8', 'ignore')
-            return {'url': url, 'status': int(r.getcode() or 0), 'final_url': r.geturl(), 'html': text, 'error': None}
+            elapsed_ms = round((time.perf_counter() - started) * 1000, 1)
+            headers = {str(k).lower(): str(v) for k, v in (r.headers.items() if r.headers else [])}
+            return {
+                'url': url,
+                'status': int(r.getcode() or 0),
+                'final_url': r.geturl(),
+                'html': text,
+                'error': None,
+                'headers': headers,
+                'elapsed_ms': elapsed_ms,
+            }
     except urllib.error.HTTPError as e:
         try:
             text = e.read().decode('utf-8', 'ignore')
         except Exception:
             text = ''
-        return {'url': url, 'status': int(e.code), 'final_url': url, 'html': text, 'error': f'HTTPError {e.code}'}
+        elapsed_ms = round((time.perf_counter() - started) * 1000, 1)
+        headers = {str(k).lower(): str(v) for k, v in (e.headers.items() if e.headers else [])}
+        return {
+            'url': url,
+            'status': int(e.code),
+            'final_url': url,
+            'html': text,
+            'error': f'HTTPError {e.code}',
+            'headers': headers,
+            'elapsed_ms': elapsed_ms,
+        }
     except Exception as e:
-        return {'url': url, 'status': None, 'final_url': url, 'html': '', 'error': str(e)}
+        elapsed_ms = round((time.perf_counter() - started) * 1000, 1)
+        return {
+            'url': url,
+            'status': None,
+            'final_url': url,
+            'html': '',
+            'error': str(e),
+            'headers': {},
+            'elapsed_ms': elapsed_ms,
+        }
+
+
+def probe_status(url: str, ctx):
+    req = urllib.request.Request(
+        url,
+        headers={
+            'User-Agent': (
+                'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
+                'AppleWebKit/537.36 (KHTML, like Gecko) '
+                'Chrome/124.0.0.0 Safari/537.36'
+            ),
+            'Accept': '*/*',
+            'Accept-Language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+            'Connection': 'keep-alive',
+            'Range': 'bytes=0-4095',
+        },
+    )
+    started = time.perf_counter()
+    try:
+        with urllib.request.urlopen(req, timeout=25, context=ctx) as r:
+            try:
+                r.read(1024)
+            except Exception:
+                pass
+            elapsed_ms = round((time.perf_counter() - started) * 1000, 1)
+            return {
+                'url': url,
+                'status': int(r.getcode() or 0),
+                'final_url': r.geturl(),
+                'error': None,
+                'elapsed_ms': elapsed_ms,
+            }
+    except urllib.error.HTTPError as e:
+        elapsed_ms = round((time.perf_counter() - started) * 1000, 1)
+        return {
+            'url': url,
+            'status': int(e.code),
+            'final_url': url,
+            'error': f'HTTPError {e.code}',
+            'elapsed_ms': elapsed_ms,
+        }
+    except Exception as e:
+        elapsed_ms = round((time.perf_counter() - started) * 1000, 1)
+        return {
+            'url': url,
+            'status': None,
+            'final_url': url,
+            'error': str(e),
+            'elapsed_ms': elapsed_ms,
+        }
 
 
 def parse_sitemap(xml_text: str):
@@ -229,6 +322,59 @@ def extract_internal_links(base: str, html: str):
     return links
 
 
+def comparable_host(host: str):
+    h = str(host or '').split(':', 1)[0].lower()
+    return h[4:] if h.startswith('www.') else h
+
+
+def same_site_host(host_a: str, host_b: str):
+    return comparable_host(host_a) == comparable_host(host_b)
+
+
+def canonical_url(url: str):
+    p = urlparse(url)
+    path = p.path or '/'
+    return f"{p.scheme}://{p.netloc}{path}" + (f"?{p.query}" if p.query else "")
+
+
+def extract_internal_hrefs_from_page(page_url: str, html: str, site_host: str):
+    html = re.sub(r'(?is)<script\b.*?</script>', ' ', html or '')
+    html = re.sub(r'(?is)<style\b.*?</style>', ' ', html)
+    out = []
+    for m in re.finditer(r'(?is)<a\b[^>]*href\s*=\s*(?:"([^"]*)"|\'([^\']*)\'|([^\s>]+))', html):
+        href = clean_href_value(m.group(1) or m.group(2) or m.group(3) or '')
+        if not href or href.startswith('#') or href.startswith('javascript:') or href.startswith('mailto:') or href.startswith('tel:'):
+            continue
+        abs_url = urljoin(page_url, href)
+        p = urlparse(abs_url)
+        if p.scheme not in {'http', 'https'}:
+            continue
+        if not same_site_host(p.netloc, site_host):
+            continue
+        out.append(canonical_url(abs_url))
+    return out
+
+
+def extract_static_assets_from_page(page_url: str, html: str, site_host: str):
+    html = html or ''
+    out = []
+    pat = re.compile(
+        r'(?is)<(?:img|script|link|iframe|source|video|audio)\b[^>]*(?:src|href)\s*=\s*(?:"([^"]*)"|\'([^\']*)\'|([^\s>]+))'
+    )
+    for m in pat.finditer(html):
+        href = clean_href_value(m.group(1) or m.group(2) or m.group(3) or '')
+        if not href or href.startswith('data:') or href.startswith('javascript:') or href.startswith('mailto:') or href.startswith('tel:'):
+            continue
+        abs_url = urljoin(page_url, href)
+        p = urlparse(abs_url)
+        if p.scheme not in {'http', 'https'}:
+            continue
+        if not same_site_host(p.netloc, site_host):
+            continue
+        out.append(canonical_url(abs_url))
+    return out
+
+
 def is_contact_hint(s: str):
     s = s.lower()
     return any(k in s for k in ['контакт', 'contacts', 'contact', 'как добраться'])
@@ -335,6 +481,142 @@ def has_booking_url_signal(url: str):
 def has_booking_form_signal(form_html: str):
     low = form_html.lower()
     return any(k in low for k in BOOKING_SIGNAL_HINTS)
+
+
+def cert_not_after_to_days_left(not_after: str):
+    if not not_after:
+        return None, None
+    try:
+        expires_ts = ssl.cert_time_to_seconds(not_after)
+        now_ts = time.time()
+        days_left = int((expires_ts - now_ts) // 86400)
+        return int(expires_ts), days_left
+    except Exception:
+        return None, None
+
+
+def cert_issuer_cn(cert: dict):
+    try:
+        for issuer_part in cert.get('issuer', []) or []:
+            for key, value in issuer_part:
+                if str(key).lower() == 'commonname':
+                    return str(value)
+    except Exception:
+        pass
+    return None
+
+
+def fetch_ssl_certificate(host: str, ctx):
+    out = {
+        'ok': False,
+        'protocol': None,
+        'issuer_cn': None,
+        'not_after': None,
+        'days_left': None,
+        'error': None,
+    }
+    try:
+        with socket.create_connection((host, 443), timeout=12) as sock:
+            with ctx.wrap_socket(sock, server_hostname=host) as tls_sock:
+                cert = tls_sock.getpeercert() or {}
+                not_after = cert.get('notAfter')
+                _, days_left = cert_not_after_to_days_left(not_after)
+                out.update({
+                    'ok': True,
+                    'protocol': tls_sock.version(),
+                    'issuer_cn': cert_issuer_cn(cert),
+                    'not_after': not_after,
+                    'days_left': days_left,
+                })
+        return out
+    except Exception as exc:
+        out['error'] = str(exc)
+        return out
+
+
+def detect_analytics_markers(html_pages):
+    kinds = set()
+    for html in html_pages:
+        low = (html or '').lower()
+        if not low:
+            continue
+        if 'mc.yandex.ru' in low or 'ym(' in low or 'yandex.metrika' in low:
+            kinds.add('yandex_metrika')
+        if (
+            'googletagmanager.com/gtag/js' in low
+            or 'google-analytics.com' in low
+            or "gtag('config'" in low
+            or 'ga(' in low
+        ):
+            kinds.add('google_analytics')
+        if 'vk.com/rtrg' in low:
+            kinds.add('vk_retarg')
+        if 'facebook.com/tr' in low or 'connect.facebook.net' in low:
+            kinds.add('facebook_pixel')
+    return sorted(kinds)
+
+
+def detect_goal_markers(html_pages):
+    markers = set()
+    for html in html_pages:
+        low = (html or '').lower()
+        if not low:
+            continue
+        if 'reachgoal' in low or 'ym(' in low and 'reachgoal' in low:
+            markers.add('yandex_reachgoal')
+        if "gtag('event'" in low or 'ga(' in low and 'event' in low:
+            markers.add('google_event')
+        if 'datalayer.push' in low and 'event' in low:
+            markers.add('datalayer_event')
+        if 'fbq(' in low and 'track' in low:
+            markers.add('facebook_track')
+    return sorted(markers)
+
+
+def detect_schema_types(html_pages):
+    found = set()
+    known = [
+        'medicalorganization',
+        'medicalclinic',
+        'dentist',
+        'physician',
+        'hospital',
+        'localbusiness',
+    ]
+    for html in html_pages:
+        low = (html or '').lower()
+        if not low:
+            continue
+        if 'schema.org' not in low and 'application/ld+json' not in low:
+            continue
+        for t in known:
+            if t in low:
+                found.add(t)
+        if not found and ('schema.org' in low or 'application/ld+json' in low):
+            found.add('detected')
+    return sorted(found)
+
+
+def detect_mixed_content(https_pages):
+    samples = []
+    pattern = re.compile(
+        r'(?is)<(img|script|iframe|link|audio|video|source)\b[^>]*(?:src|href)\s*=\s*["\'](http://[^"\']+)["\']'
+    )
+    for page in https_pages:
+        url = str(page.get('url') or '')
+        html = page.get('html', '') or ''
+        if not html:
+            continue
+        for m in pattern.finditer(html):
+            ref = clean_href_value(m.group(2) or '')
+            if not ref:
+                continue
+            samples.append({'page': url, 'asset': ref})
+            if len(samples) >= 20:
+                break
+        if len(samples) >= 20:
+            break
+    return samples
 
 
 def run_audit(base_url: str):
@@ -535,6 +817,111 @@ def run_audit(base_url: str):
         if final_u.startswith('http://'):
             cert_errors.append({'url': hu, 'error': f'HTTPS redirected to HTTP ({final_u})'})
 
+    # Block 3: technical profile metrics.
+    ssl_info = fetch_ssl_certificate(host, ctx)
+
+    http_home_url = http_base + '/'
+    http_home_resp = fetch_cached(http_home_url)
+    http_final = str(http_home_resp.get('final_url') or '')
+    http_to_https = {
+        'requested': http_home_url,
+        'status': http_home_resp.get('status'),
+        'final_url': http_final,
+        'redirected_to_https': http_final.startswith('https://'),
+        'error': http_home_resp.get('error'),
+    }
+
+    canonical_host = host[4:] if host.startswith('www.') else host
+    non_www_url = f'https://{canonical_host}/'
+    www_url = f'https://www.{canonical_host}/'
+    non_www_resp = fetch_cached(non_www_url)
+    www_resp = fetch_cached(www_url)
+    non_www_final_host = urlparse(str(non_www_resp.get('final_url') or non_www_url)).netloc.lower()
+    www_final_host = urlparse(str(www_resp.get('final_url') or www_url)).netloc.lower()
+    canonical_same = bool(non_www_final_host and non_www_final_host == www_final_host)
+    canonical_www = {
+        'non_www': {
+            'requested': non_www_url,
+            'status': non_www_resp.get('status'),
+            'final_url': non_www_resp.get('final_url'),
+            'error': non_www_resp.get('error'),
+        },
+        'www': {
+            'requested': www_url,
+            'status': www_resp.get('status'),
+            'final_url': www_resp.get('final_url'),
+            'error': www_resp.get('error'),
+        },
+        'same_canonical': canonical_same,
+        'canonical_host': non_www_final_host if canonical_same else None,
+    }
+
+    html_ok_pages = [p for p in pages if p.get('status') == 200 and p.get('html')]
+    html_texts = [p.get('html', '') for p in html_ok_pages]
+    https_ok_pages = [
+        p for p in html_ok_pages
+        if str(p.get('final_url') or p.get('url') or '').startswith('https://')
+    ]
+
+    analytics_kinds = detect_analytics_markers(html_texts)
+    analytics_goal_markers = detect_goal_markers(html_texts)
+    schema_types = detect_schema_types(html_texts)
+    mixed_samples = detect_mixed_content(https_ok_pages)
+
+    home_html_low = (home_html or '').lower()
+    favicon_from_html = bool(re.search(r'(?is)<link\b[^>]*\brel\s*=\s*["\'][^"\']*icon[^"\']*["\']', home_html_low))
+    favicon_probe = fetch_cached(https_base + '/favicon.ico')
+    favicon_ok = favicon_from_html or int(favicon_probe.get('status') or 0) == 200
+
+    header_source = https_home_resp if https_home_resp.get('status') is not None else home_resp
+    header_map = {str(k).lower(): str(v) for k, v in (header_source.get('headers', {}) or {}).items()}
+    present_headers = [h for h in SECURITY_HEADERS if h in header_map]
+    missing_headers = [h for h in SECURITY_HEADERS if h not in header_map]
+
+    ttfb_source = https_home_resp if https_home_resp.get('status') is not None else home_resp
+    ttfb_ms = ttfb_source.get('elapsed_ms')
+    ttfb_seconds = round(float(ttfb_ms) / 1000.0, 3) if isinstance(ttfb_ms, (int, float)) else None
+
+    internal_candidates = []
+    for page in html_ok_pages:
+        page_url = str(page.get('final_url') or page.get('url') or '')
+        if not page_url:
+            continue
+        internal_candidates.extend(extract_internal_hrefs_from_page(page_url, page.get('html', ''), host))
+    internal_candidates = dedupe_keep_order(internal_candidates)[:MAX_INTERNAL_LINK_CHECKS]
+
+    broken_internal = []
+    for u in internal_candidates:
+        pr = probe_status(u, ctx)
+        status = pr.get('status')
+        if status is None or int(status) >= 400:
+            broken_internal.append({
+                'url': u,
+                'status': status,
+                'error': pr.get('error'),
+                'final_url': pr.get('final_url'),
+            })
+
+    resource_candidates = []
+    for page in html_ok_pages:
+        page_url = str(page.get('final_url') or page.get('url') or '')
+        if not page_url:
+            continue
+        resource_candidates.extend(extract_static_assets_from_page(page_url, page.get('html', ''), host))
+    resource_candidates = dedupe_keep_order(resource_candidates)[:MAX_RESOURCE_CHECKS]
+
+    broken_resources = []
+    for u in resource_candidates:
+        pr = probe_status(u, ctx)
+        status = pr.get('status')
+        if status is None or int(status) >= 400:
+            broken_resources.append({
+                'url': u,
+                'status': status,
+                'error': pr.get('error'),
+                'final_url': pr.get('final_url'),
+            })
+
     for p in pages:
         url = p['url']
         status = p['status']
@@ -656,6 +1043,60 @@ def run_audit(base_url: str):
         'privacy_links': uniq_priv,
         'forbidden_hits': uniq_forbidden,
         'cert_errors': cert_errors,
+        'tech': {
+            'ssl': ssl_info,
+            'http_to_https': http_to_https,
+            'canonical_www': canonical_www,
+            'ttfb': {
+                'seconds': ttfb_seconds,
+                'source_url': ttfb_source.get('url'),
+                'status': ttfb_source.get('status'),
+                'error': ttfb_source.get('error'),
+            },
+            'pagespeed': {
+                'status': 'not_run',
+                'score': None,
+                'lcp_seconds': None,
+                'note': 'PageSpeed API не вызывался в текущем офлайн-аудите.',
+            },
+            'analytics': {
+                'found': bool(analytics_kinds),
+                'kinds': analytics_kinds,
+                'goals_found': bool(analytics_goal_markers),
+                'goal_markers': analytics_goal_markers,
+            },
+            'favicon': {
+                'status': favicon_probe.get('status'),
+                'from_html': favicon_from_html,
+                'found': favicon_ok,
+            },
+            'schema': {
+                'found': bool(schema_types),
+                'types': schema_types,
+            },
+            'mixed_content': {
+                'count': len(mixed_samples),
+                'samples': mixed_samples,
+            },
+            'broken_internal_links': {
+                'checked': len(internal_candidates),
+                'broken': len(broken_internal),
+                'samples': broken_internal[:MAX_BROKEN_SAMPLES],
+            },
+            'broken_static_resources': {
+                'checked': len(resource_candidates),
+                'broken': len(broken_resources),
+                'samples': broken_resources[:MAX_BROKEN_SAMPLES],
+            },
+            'security_headers': {
+                'checked': SECURITY_HEADERS,
+                'present': present_headers,
+                'missing': missing_headers,
+                'values': {h: header_map.get(h) for h in SECURITY_HEADERS if h in header_map},
+                'source_url': header_source.get('url'),
+                'source_status': header_source.get('status'),
+            },
+        },
         'discovery': {
             'contact_urls': sorted(contact_urls),
             'booking_urls': sorted(booking_urls),

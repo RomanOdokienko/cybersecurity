@@ -42,6 +42,15 @@ META_IGNORED_TOKENS = {
     "мессенджер фейсбук",
     "m.me",
 }
+DKIM_SELECTOR_CANDIDATES = [
+    "default",
+    "selector1",
+    "selector2",
+    "mail",
+    "mx",
+    "google",
+    "dkim",
+]
 
 
 def site_host(value: str) -> str:
@@ -305,7 +314,7 @@ def evaluate_spf_dmarc(item, audit):
     if not cand:
         return "проверить", [
             "Email для проверки не найден (ни в манифесте, ни на страницах сайта)."
-        ], ""
+        ], "", "проверить", "проверить"
 
     email = cand["email"]
     domain = cand["domain"]
@@ -317,7 +326,7 @@ def evaluate_spf_dmarc(item, audit):
             f"Домен {domain} — сторонний почтовый сервис, не почтовый домен клиники.",
             "Для этой проверки SPF/DMARC не оценивается.",
             "Что проверить дальше: найти корпоративный email домена клиники и проверить SPF/DMARC уже для него.",
-        ], email
+        ], email, "н/п", "н/п"
 
     spf_lookup = dns_txt_records(domain)
     dmarc_lookup = dns_txt_records(f"_dmarc.{domain}")
@@ -332,44 +341,56 @@ def evaluate_spf_dmarc(item, audit):
 
     spf_info = "не найден"
     spf_missing = False
+    spf_status = "ок"
     if not spf_lookup.get("ok"):
         warns.append(f"SPF DNS lookup error: {spf_lookup.get('error')}")
         spf_info = "ошибка DNS lookup"
+        spf_status = "проверить"
     else:
         spf_records = [r for r in spf_lookup.get("txt", []) if r.lower().startswith("v=spf1")]
         if not spf_records:
             issues.append("SPF не найден")
             spf_missing = True
+            spf_status = "проблема"
         elif len(spf_records) > 1:
             critical_issues.append(f"Найдено несколько SPF записей ({len(spf_records)})")
             spf_info = short_record(spf_records[0])
+            spf_status = "проблема"
         else:
             spf_info = short_record(spf_records[0])
             if re.search(r"(?i)(^|\s)\+all(\s|$)", spf_records[0]):
                 warns.append("SPF содержит +all (слишком широкая политика)")
+                spf_status = "проверить"
 
     dmarc_info = "не найден"
     dmarc_missing = False
+    dmarc_status = "ок"
     if not dmarc_lookup.get("ok"):
         warns.append(f"DMARC DNS lookup error: {dmarc_lookup.get('error')}")
         dmarc_info = "ошибка DNS lookup"
+        dmarc_status = "проверить"
     else:
         dmarc_records = [r for r in dmarc_lookup.get("txt", []) if r.lower().startswith("v=dmarc1")]
         if not dmarc_records:
             issues.append("DMARC не найден")
             dmarc_missing = True
+            dmarc_status = "проблема"
         elif len(dmarc_records) > 1:
             issues.append(f"Найдено несколько DMARC записей ({len(dmarc_records)})")
             dmarc_info = short_record(dmarc_records[0])
+            dmarc_status = "проблема"
         else:
             dmarc_info = short_record(dmarc_records[0])
             p = (find_tag_value(dmarc_records[0], "p") or "").lower()
             if not p:
                 warns.append("DMARC без p= политики")
+                dmarc_status = "проверить"
             elif p == "none":
                 warns.append("DMARC p=none (мониторинг без enforcement)")
+                dmarc_status = "проверить"
             elif p not in {"quarantine", "reject"}:
                 warns.append(f"DMARC p={p} (нестандартная политика)")
+                dmarc_status = "проверить"
 
     lines.append(f"SPF: {spf_info}")
     lines.append(f"DMARC: {dmarc_info}")
@@ -391,7 +412,233 @@ def evaluate_spf_dmarc(item, audit):
     else:
         status = "ок"
 
-    return status, lines, email
+    return status, lines, email, spf_status, dmarc_status
+
+
+def evaluate_dkim(item, audit):
+    cand = pick_email_candidate(item, audit)
+    if not cand:
+        return "проверить", ["Email для проверки DKIM не найден."], ""
+
+    email = cand["email"]
+    domain = cand["domain"]
+    source_label_txt = "манифест" if cand["source"] == "manifest" else "найден на сайте"
+    if cand["is_external"]:
+        return "н/п", [
+            f"Email: {email} ({source_label_txt})",
+            f"Домен {domain} — сторонний почтовый сервис, DKIM селекторы домена клиники не проверяются.",
+        ], email
+
+    found_selectors = []
+    checked_hosts = []
+    dns_errors = []
+
+    for selector in DKIM_SELECTOR_CANDIDATES:
+        host = f"{selector}._domainkey.{domain}"
+        checked_hosts.append(host)
+        lookup = dns_txt_records(host)
+        if not lookup.get("ok"):
+            dns_errors.append(f"{host}: {lookup.get('error')}")
+            continue
+        txt_records = lookup.get("txt", []) or []
+        dkim_records = [r for r in txt_records if "v=dkim1" in r.lower()]
+        if dkim_records:
+            found_selectors.append(selector)
+
+    if found_selectors:
+        return "ок", [
+            f"Email: {email} ({source_label_txt})",
+            f"Домен проверки: {domain}",
+            f"Найдены DKIM селекторы: {', '.join(found_selectors)}",
+        ], email
+
+    lines = [
+        f"Email: {email} ({source_label_txt})",
+        f"Домен проверки: {domain}",
+        "DKIM запись по типовым селекторам не найдена.",
+        "Проверено: " + ", ".join(checked_hosts),
+    ]
+    if dns_errors:
+        lines.append("DNS ошибки: " + "; ".join(dns_errors[:4]))
+    return "проверить", lines, email
+
+
+def to_float(value):
+    try:
+        return float(value)
+    except Exception:
+        return None
+
+
+def block3_statuses(audit, site_unavailable, cert_status, spf_status, dmarc_status, dkim_status):
+    if site_unavailable:
+        return {
+            "ssl_valid_status": "-",
+            "ssl_expiry_status": "-",
+            "http_to_https_status": "-",
+            "hsts_status": "-",
+            "mixed_content_status": "-",
+            "security_headers_status": "-",
+            "spf_status": "-",
+            "dmarc_status": "-",
+            "dkim_status": "-",
+            "broken_internal_links_status": "-",
+            "broken_static_resources_status": "-",
+            "ttfb_status": "-",
+            "pagespeed_status": "-",
+            "canonical_status": "-",
+            "analytics_goals_status": "-",
+        }
+
+    tech = audit.get("tech", {}) or {}
+    ssl_info = tech.get("ssl", {}) or {}
+    http_to_https = tech.get("http_to_https", {}) or {}
+    ttfb = tech.get("ttfb", {}) or {}
+    pagespeed = tech.get("pagespeed", {}) or {}
+    canonical = tech.get("canonical_www", {}) or {}
+    analytics = tech.get("analytics", {}) or {}
+    mixed = tech.get("mixed_content", {}) or {}
+    broken_links = tech.get("broken_internal_links", {}) or {}
+    broken_resources = tech.get("broken_static_resources", {}) or {}
+    sec_headers = tech.get("security_headers", {}) or {}
+
+    ssl_expiry_status = "проверить"
+    if cert_status == "проблема":
+        ssl_expiry_status = "проблема"
+    else:
+        days_left = ssl_info.get("days_left")
+        if isinstance(days_left, int):
+            if days_left < 0:
+                ssl_expiry_status = "проблема"
+            elif days_left <= 14:
+                ssl_expiry_status = "проблема"
+            elif days_left <= 45:
+                ssl_expiry_status = "проверить"
+            else:
+                ssl_expiry_status = "ок"
+
+    hsts_value = str((sec_headers.get("values") or {}).get("strict-transport-security") or "").lower()
+    if not hsts_value:
+        hsts_status = "проблема"
+    elif "max-age=0" in hsts_value:
+        hsts_status = "проблема"
+    else:
+        hsts_status = "ок"
+
+    redirect_flag = http_to_https.get("redirected_to_https")
+    if redirect_flag is True:
+        http_to_https_status = "ок"
+    elif redirect_flag is False:
+        http_to_https_status = "проблема"
+    else:
+        http_to_https_status = "проверить"
+
+    ttfb_sec = to_float(ttfb.get("seconds"))
+    if ttfb_sec is None:
+        ttfb_status = "проверить"
+    elif ttfb_sec <= 0.8:
+        ttfb_status = "ок"
+    elif ttfb_sec <= 1.8:
+        ttfb_status = "проверить"
+    else:
+        ttfb_status = "проблема"
+
+    ps_score = to_float(pagespeed.get("score"))
+    ps_lcp = to_float(pagespeed.get("lcp_seconds"))
+    if ps_score is None and ps_lcp is None:
+        pagespeed_status = "проверить"
+    else:
+        if (ps_score is not None and ps_score < 50) or (ps_lcp is not None and ps_lcp > 4.0):
+            pagespeed_status = "проблема"
+        elif (ps_score is not None and ps_score < 75) or (ps_lcp is not None and ps_lcp > 2.5):
+            pagespeed_status = "проверить"
+        else:
+            pagespeed_status = "ок"
+
+    checked_links = int(broken_links.get("checked") or 0)
+    broken_links_count = int(broken_links.get("broken") or 0)
+    if checked_links == 0:
+        broken_internal_links_status = "проверить"
+    elif broken_links_count == 0:
+        broken_internal_links_status = "ок"
+    elif broken_links_count <= 3 and (broken_links_count / max(1, checked_links)) <= 0.05:
+        broken_internal_links_status = "проверить"
+    else:
+        broken_internal_links_status = "проблема"
+
+    checked_res = int(broken_resources.get("checked") or 0)
+    broken_res_count = int(broken_resources.get("broken") or 0)
+    if checked_res == 0:
+        broken_static_resources_status = "проверить"
+    elif broken_res_count == 0:
+        broken_static_resources_status = "ок"
+    elif broken_res_count <= 2 and (broken_res_count / max(1, checked_res)) <= 0.03:
+        broken_static_resources_status = "проверить"
+    else:
+        broken_static_resources_status = "проблема"
+
+    canonical_same = canonical.get("same_canonical")
+    if canonical_same is True:
+        canonical_status = "ок"
+    elif canonical_same is False:
+        canonical_status = "проблема"
+    else:
+        canonical_status = "проверить"
+
+    analytics_found = analytics.get("found")
+    goals_found = analytics.get("goals_found")
+    if analytics_found is True and goals_found is True:
+        analytics_goals_status = "ок"
+    elif analytics_found is True and goals_found is not True:
+        analytics_goals_status = "проверить"
+    elif analytics_found is False:
+        analytics_goals_status = "проблема"
+    else:
+        analytics_goals_status = "проверить"
+
+    mixed_count = mixed.get("count")
+    if isinstance(mixed_count, int):
+        mixed_content_status = "проблема" if mixed_count > 0 else "ок"
+    else:
+        mixed_content_status = "проверить"
+
+    baseline_headers = [
+        "content-security-policy",
+        "x-frame-options",
+        "x-content-type-options",
+        "referrer-policy",
+    ]
+    present = set(sec_headers.get("present") or [])
+    if not present and sec_headers.get("missing") is None:
+        security_headers_status = "проверить"
+    else:
+        missing_count = len([h for h in baseline_headers if h not in present])
+        if missing_count == 0:
+            security_headers_status = "ок"
+        elif missing_count == 1:
+            security_headers_status = "проверить"
+        else:
+            security_headers_status = "проблема"
+
+    ssl_valid_status = cert_status if cert_status in {"ок", "проблема"} else "проверить"
+
+    return {
+        "ssl_valid_status": ssl_valid_status,
+        "ssl_expiry_status": ssl_expiry_status,
+        "http_to_https_status": http_to_https_status,
+        "hsts_status": hsts_status,
+        "mixed_content_status": mixed_content_status,
+        "security_headers_status": security_headers_status,
+        "spf_status": spf_status or "проверить",
+        "dmarc_status": dmarc_status or "проверить",
+        "dkim_status": dkim_status or "проверить",
+        "broken_internal_links_status": broken_internal_links_status,
+        "broken_static_resources_status": broken_static_resources_status,
+        "ttfb_status": ttfb_status,
+        "pagespeed_status": pagespeed_status,
+        "canonical_status": canonical_status,
+        "analytics_goals_status": analytics_goals_status,
+    }
 
 
 def compute_summary(item, audit):
@@ -421,7 +668,12 @@ def compute_summary(item, audit):
         availability_status = "проверить"
         availability_poc = "Нет найденных (не fallback) страниц для оценки доступности."
 
-    cert_status = "ок" if not cert_errors else "проблема"
+    ssl_info = (audit.get("tech", {}) or {}).get("ssl", {}) or {}
+    ssl_ok = ssl_info.get("ok")
+    if isinstance(ssl_ok, bool):
+        cert_status = "ок" if ssl_ok and not cert_errors else "проблема"
+    else:
+        cert_status = "ок" if not cert_errors else "проблема"
 
     bad_https_forms = [f for f in forms if "http://" in str(f.get("action_display", "")).lower()]
     form_https_status = "ок" if not bad_https_forms else "проблема"
@@ -440,7 +692,8 @@ def compute_summary(item, audit):
                 negative_labels.append(label)
         consent_status = " + ".join(negative_labels) if negative_labels else "unchecked"
 
-    spf_dmarc_status, spf_dmarc_lines, email = evaluate_spf_dmarc(item, audit)
+    spf_dmarc_status, spf_dmarc_lines, email, spf_status, dmarc_status = evaluate_spf_dmarc(item, audit)
+    dkim_status, dkim_lines, _ = evaluate_dkim(item, audit)
     spf_dmarc_poc = " | ".join(spf_dmarc_lines)
 
     meta_status = "ок" if not forbidden else "проблема"
@@ -463,8 +716,13 @@ def compute_summary(item, audit):
             "consent_counts": {"текстом": 0, "checked": 0, "не найдено": 0, "unchecked": 0},
             "spf_dmarc_poc": "Не проверено: сайт недоступен.",
             "spf_dmarc_lines": ["Не проверено: сайт недоступен."],
+            "dkim_status": "-",
+            "dkim_lines": ["Не проверено: сайт недоступен."],
             "email": email,
+            "b3": block3_statuses(audit, True, "-", "-", "-", "-"),
         }
+
+    b3 = block3_statuses(audit, False, cert_status, spf_status, dmarc_status, dkim_status)
 
     return {
         "site_unavailable": False,
@@ -482,7 +740,10 @@ def compute_summary(item, audit):
         "consent_counts": consent_counts,
         "spf_dmarc_poc": spf_dmarc_poc,
         "spf_dmarc_lines": spf_dmarc_lines,
+        "dkim_status": dkim_status,
+        "dkim_lines": dkim_lines,
         "email": email,
+        "b3": b3,
     }
 
 
@@ -713,19 +974,21 @@ def step2_block_schema():
             "id": "b3",
             "title": "Блок 3",
             "metric_names": [
-                "SSL сертификат",
-                "Дата истечения SSL сертификата",
-                "Редирект HTTP → HTTPS",
-                "Время ответа сервера (TTFB)",
-                "PageSpeed Score + время загрузки (сек)",
-                "SPF запись",
-                "DMARC запись",
-                "www vs non-www (canonical)",
-                "Наличие веб-аналитики",
-                "Favicon",
-                "Schema.org разметка (LocalBusiness / MedicalOrganization)",
+                "SSL валиден",
+                "Срок действия SSL (дней до истечения)",
+                "HTTP → HTTPS редирект",
+                "HSTS включен",
                 "Смешанный контент (HTTP на HTTPS)",
-                "Заголовки безопасности",
+                "Security headers baseline (CSP/XFO/XCTO/Referrer)",
+                "SPF запись",
+                "DMARC запись + p=",
+                "DKIM (селекторы/наличие)",
+                "Битые внутренние ссылки (4xx/5xx)",
+                "Битые статические ресурсы (JS/CSS/img)",
+                "TTFB",
+                "PageSpeed mobile + LCP",
+                "www vs non-www canonical",
+                "Веб-аналитика + цели/события",
             ],
         },
         {
@@ -749,15 +1012,14 @@ def step2_block_schema():
 def step2_blocks_data(summary):
     consent_counts = summary.get("consent_counts", {}) or {}
     site_unavailable = summary.get("site_unavailable", False)
+    b3 = summary.get("b3", {}) or {}
     missing_checkbox = int(consent_counts.get("не найдено", 0)) > 0
     prechecked = int(consent_counts.get("checked", 0)) > 0
     cookie_status = "-" if site_unavailable else "проверить"
     third_party_policy_status = "-" if site_unavailable else "проверить"
-    tech_extra_status = "-" if site_unavailable else "проверить"
     med_spec_status = "-" if site_unavailable else "проверить"
     block2_default_status = "-" if site_unavailable else "проверить"
     block2_partial_status = "-" if site_unavailable else "частично"
-    ssl_expiry_status = "-" if site_unavailable else ("проблема" if summary["cert_status"] == "проблема" else "проверить")
     no_checkbox_status = "-" if site_unavailable else ("проблема" if missing_checkbox else "ок")
     prechecked_status = "-" if site_unavailable else ("проблема" if prechecked else "ок")
     return {
@@ -780,19 +1042,21 @@ def step2_blocks_data(summary):
             block2_default_status,
         ],
         "b3": [
-            summary["cert_status"],
-            ssl_expiry_status,
-            tech_extra_status,
-            tech_extra_status,
-            tech_extra_status,
-            summary["spf_dmarc_status"],
-            summary["spf_dmarc_status"],
-            tech_extra_status,
-            tech_extra_status,
-            tech_extra_status,
-            tech_extra_status,
-            tech_extra_status,
-            tech_extra_status,
+            b3.get("ssl_valid_status", summary["cert_status"]),
+            b3.get("ssl_expiry_status", "-" if site_unavailable else "проверить"),
+            b3.get("http_to_https_status", "-" if site_unavailable else "проверить"),
+            b3.get("hsts_status", "-" if site_unavailable else "проверить"),
+            b3.get("mixed_content_status", "-" if site_unavailable else "проверить"),
+            b3.get("security_headers_status", "-" if site_unavailable else "проверить"),
+            b3.get("spf_status", "-" if site_unavailable else "проверить"),
+            b3.get("dmarc_status", "-" if site_unavailable else "проверить"),
+            b3.get("dkim_status", "-" if site_unavailable else "проверить"),
+            b3.get("broken_internal_links_status", "-" if site_unavailable else "проверить"),
+            b3.get("broken_static_resources_status", "-" if site_unavailable else "проверить"),
+            b3.get("ttfb_status", "-" if site_unavailable else "проверить"),
+            b3.get("pagespeed_status", "-" if site_unavailable else "проверить"),
+            b3.get("canonical_status", "-" if site_unavailable else "проверить"),
+            b3.get("analytics_goals_status", "-" if site_unavailable else "проверить"),
         ],
         "b4": [med_spec_status] * 9,
     }
@@ -868,7 +1132,7 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
     .card .l {{ margin-top:3px; font-size:11px; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); font-weight:700; }}
     .n.ok{{color:var(--ok-fg)}} .n.warn{{color:var(--warn-fg)}} .n.bad{{color:var(--bad-fg)}} .n.na{{color:var(--na-fg)}} .n.total{{color:#111827}}
     .table-wrap {{ margin-top:12px; background:#fff; border:1px solid var(--line); border-radius:12px; overflow-x:auto; }}
-    table {{ width:100%; min-width:5400px; border-collapse:collapse; table-layout:fixed; }}
+    table {{ width:100%; min-width:6200px; border-collapse:collapse; table-layout:fixed; }}
     thead th {{ text-align:left; background:#fafbfe; border-bottom:1px solid var(--line); color:#576072; font-size:10px; letter-spacing:.01em; text-transform:none; font-weight:700; padding:9px 8px; white-space:normal; line-height:1.2; }}
     tbody td {{ border-bottom:1px solid var(--line); padding:6px 8px; font-size:12px; vertical-align:top; line-height:1.2; }}
     tbody tr:last-child td {{ border-bottom:0; }}
