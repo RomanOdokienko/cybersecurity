@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Блоки аудита — ReactorTech</title>
+  <style>
+    :root {
+      --line: #e6e8ef; --text: #1f2430; --muted: #707887;
+      --ok-bg: #e8f8ef; --ok-fg: #1d9e58;
+      --warn-bg: #fff6dd; --warn-fg: #b67a00;
+      --bad-bg: #ffe9ea; --bad-fg: #c5333a;
+      --na-bg: #f0f2f6; --na-fg: #6c7280;
+    }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family:Segoe UI,Arial,sans-serif; background:linear-gradient(180deg,#f8f9fc 0%,#f3f5fa 100%); color:var(--text); }
+    .wrap { max-width:960px; margin:14px auto; padding:0 16px 40px; }
+
+    .back-link { display:inline-flex; align-items:center; gap:6px; font-size:13px; color:#455066; text-decoration:none; border-bottom:1px dotted #9aa6bd; margin-bottom:18px; }
+    .back-link:hover { color:#24324f; border-bottom-color:#24324f; }
+
+    h1 { margin:0; font-size:36px; letter-spacing:-0.02em; }
+    .sub { margin-top:8px; color:var(--muted); font-size:16px; line-height:1.4; }
+
+    .blocks { margin-top:24px; display:flex; flex-direction:column; gap:16px; }
+
+    .block { background:#fff; border:1px solid var(--line); border-radius:12px; overflow:hidden; }
+    .block-header { display:flex; align-items:flex-start; gap:14px; padding:16px 18px 14px; border-bottom:1px solid var(--line); }
+    .block-icon { font-size:26px; line-height:1; flex-shrink:0; margin-top:2px; }
+    .block-title-wrap { flex:1; }
+    .block-num { font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.07em; color:var(--muted); margin-bottom:4px; }
+    .block-title { font-size:18px; font-weight:800; letter-spacing:-0.01em; }
+    .block-hook { margin-top:5px; font-size:13px; color:#4e5a70; line-height:1.4; }
+    .hook-label { font-weight:700; color:#b67a00; }
+
+    .block-meta { display:flex; gap:8px; margin-top:10px; flex-wrap:wrap; }
+    .tag { display:inline-block; padding:2px 9px; border-radius:999px; font-size:11px; font-weight:700; border:1px solid transparent; }
+    .tag-fear  { background:#fff0f0; color:#c5333a; border-color:#f7c4c8; }
+    .tag-money { background:#e8f8ef; color:#1d9e58; border-color:#c8efd9; }
+    .tag-visual{ background:#eef2ff; color:#3b4fc8; border-color:#c5cffa; }
+    .tag-auto-high  { background:#f0f2f6; color:#455066; border-color:#d0d6e2; }
+    .tag-auto-mid   { background:#fff6dd; color:#b67a00; border-color:#f0d889; }
+
+    .metrics-table { width:100%; border-collapse:collapse; }
+    .metrics-table th { text-align:left; padding:8px 18px; font-size:11px; text-transform:uppercase; letter-spacing:.05em; color:#576072; background:#fafbfe; border-bottom:1px solid var(--line); font-weight:700; }
+    .metrics-table td { padding:8px 18px; font-size:13px; border-bottom:1px solid var(--line); vertical-align:top; line-height:1.4; }
+    .metrics-table tr:last-child td { border-bottom:0; }
+    .metrics-table tr:hover td { background:#f7f9ff; }
+
+    .metric-name { font-weight:600; color:#1f2430; }
+    .metric-how { color:#576072; font-size:12px; margin-top:2px; font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; }
+
+    .badge { display:inline-block; padding:2px 8px; border-radius:999px; border:1px solid transparent; font-size:11px; font-weight:700; white-space:nowrap; }
+    .ok  { background:var(--ok-bg);  color:var(--ok-fg);  border-color:#c8efd9; }
+    .bad { background:var(--bad-bg); color:var(--bad-fg); border-color:#f7c4c8; }
+    .warn{ background:var(--warn-bg);color:var(--warn-fg);border-color:#f0d889; }
+
+    .col-status { width:90px; }
+    .col-how    { width:40%; }
+
+    .block-note { padding:10px 18px; font-size:12px; color:#707887; background:#fafbfe; border-top:1px solid var(--line); line-height:1.5; }
+    .block-note strong { color:#455066; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <a class="back-link" href="dashboard.html">← Назад к дашборду</a>
+
+    <h1>Блоки финального отчёта</h1>
+    <div class="sub">Структура проверок и метрики, которые войдут в отчёт для клиники.<br>Каждый блок — это отдельный раздел отчёта с понятным крючком для владельца.</div>
+
+    <div class="blocks">
+
+      <!-- БЛОК 1 -->
+      <div class="block">
+        <div class="block-header">
+          <div class="block-icon">🔐</div>
+          <div class="block-title-wrap">
+            <div class="block-num">Блок 1</div>
+            <div class="block-title">Персональные данные / 152-ФЗ</div>
+            <div class="block-hook"><span class="hook-label">Крючок:</span> Медорганизации под особой защитой закона. Штрафы за нарушения обработки персональных данных — до 500 000 ₽.</div>
+            <div class="block-meta">
+              <span class="tag tag-fear">Страх — юридический риск</span>
+              <span class="tag tag-auto-high">Автоматизация: высокая</span>
+            </div>
+          </div>
+        </div>
+        <table class="metrics-table">
+          <thead><tr><th>Метрика</th><th class="col-how">Как проверяется</th><th class="col-status">Статус</th></tr></thead>
+          <tbody>
+            <tr><td><div class="metric-name">Чекбокс согласия на форме</div></td><td><div class="metric-how">HTML парсинг — &lt;input type="checkbox"&gt; в форме</div></td><td><span class="badge ok">готово</span></td></tr>
+            <tr><td><div class="metric-name">Чекбокс предустановлен (нарушение)</div></td><td><div class="metric-how">HTML атрибут checked на чекбоксе согласия</div></td><td><span class="badge ok">готово</span></td></tr>
+            <tr><td><div class="metric-name">Ссылка на политику конфиденциальности</div></td><td><div class="metric-how">HTML парсинг — href с keywords: политик, privacy, pdn</div></td><td><span class="badge ok">готово</span></td></tr>
+            <tr><td><div class="metric-name">Форма отправляет данные по HTTP</div></td><td><div class="metric-how">Атрибут action формы — проверка на http://</div></td><td><span class="badge ok">готово</span></td></tr>
+            <tr><td><div class="metric-name">Страница политики существует</div></td><td><div class="metric-how">HTTP 200 на найденном URL политики</div></td><td><span class="badge ok">готово</span></td></tr>
+            <tr><td><div class="metric-name">Упоминания Meta / Instagram (риск РКН)</div></td><td><div class="metric-how">Поиск токенов в тексте и атрибутах всех страниц</div></td><td><span class="badge ok">готово</span></td></tr>
+            <tr><td><div class="metric-name">Cookie-баннер отсутствует</div></td><td><div class="metric-how">HTML парсинг — блок с текстом "cookie" + кнопка принятия</div></td><td><span class="badge bad">не реализовано</span></td></tr>
+            <tr><td><div class="metric-name">Сторонние сервисы не указаны в политике</div><div class="metric-how" style="margin-top:3px;color:#9aa6bd">Метрика / reCAPTCHA передают данные пользователей</div></td><td><div class="metric-how">Парсинг текста политики — поиск упоминаний Яндекс.Метрика, reCAPTCHA, VK Pixel</div></td><td><span class="badge bad">не реализовано</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- БЛОК 2 -->
+      <div class="block">
+        <div class="block-header">
+          <div class="block-icon">📱</div>
+          <div class="block-title-wrap">
+            <div class="block-num">Блок 2</div>
+            <div class="block-title">UX / Мобильная версия</div>
+            <div class="block-hook"><span class="hook-label">Крючок:</span> 70%+ пациентов ищут клинику с телефона. Неудобный сайт = пациент закрыл и пошёл к конкуренту.</div>
+            <div class="block-meta">
+              <span class="tag tag-money">Деньги — теряешь пациентов</span>
+              <span class="tag tag-visual">Наглядно — скриншоты</span>
+              <span class="tag tag-auto-mid">Автоматизация: средняя</span>
+            </div>
+          </div>
+        </div>
+        <table class="metrics-table">
+          <thead><tr><th>Метрика</th><th class="col-how">Как проверяется</th><th class="col-status">Статус</th></tr></thead>
+          <tbody>
+            <tr><td><div class="metric-name">Скриншот десктоп (1440px)</div></td><td><div class="metric-how">Playwright — screenshot.js</div></td><td><span class="badge warn">есть, не интегрирован</span></td></tr>
+            <tr><td><div class="metric-name">Скриншот мобильный (375px)</div></td><td><div class="metric-how">Playwright — viewport {width:375, height:812, isMobile:true}</div></td><td><span class="badge bad">не реализовано</span></td></tr>
+            <tr><td><div class="metric-name">Телефон кликабелен (tap-to-call)</div></td><td><div class="metric-how">HTML парсинг — &lt;a href="tel:..."&gt;</div></td><td><span class="badge bad">не реализовано</span></td></tr>
+            <tr><td><div class="metric-name">Кнопка записи видна без скролла</div></td><td><div class="metric-how">Playwright — координата Y элемента с текстом "записаться/запись" ≤ viewport height</div></td><td><span class="badge bad">не реализовано</span></td></tr>
+            <tr><td><div class="metric-name">WhatsApp / Telegram кнопка</div></td><td><div class="metric-how">HTML парсинг — href содержит wa.me или t.me</div></td><td><span class="badge bad">не реализовано</span></td></tr>
+            <tr><td><div class="metric-name">Адаптивная вёрстка (viewport meta)</div></td><td><div class="metric-how">&lt;meta name="viewport" content="width=device-width"&gt;</div></td><td><span class="badge bad">не реализовано</span></td></tr>
+            <tr><td><div class="metric-name">Время до первого контента (LCP)</div></td><td><div class="metric-how">Google PageSpeed API — поле lighthouseResult.audits.largest-contentful-paint</div></td><td><span class="badge bad">не реализовано</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- БЛОК 3 -->
+      <div class="block">
+        <div class="block-header">
+          <div class="block-icon">⚙️</div>
+          <div class="block-title-wrap">
+            <div class="block-num">Блок 3</div>
+            <div class="block-title">Технический</div>
+            <div class="block-hook"><span class="hook-label">Крючок:</span> Вес и убедительность отчёта. Браузер показывает предупреждение «Небезопасно» — пациент видит это и закрывает.</div>
+            <div class="block-meta">
+              <span class="tag tag-fear">Страх — недоверие пациентов</span>
+              <span class="tag tag-auto-high">Автоматизация: высокая</span>
+            </div>
+          </div>
+        </div>
+        <table class="metrics-table">
+          <thead><tr><th>Метрика</th><th class="col-how">Как проверяется</th><th class="col-status">Статус</th></tr></thead>
+          <tbody>
+            <tr><td><div class="metric-name">SSL сертификат</div></td><td><div class="metric-how">HTTPS запрос — перехват TLS ошибки</div></td><td><span class="badge ok">готово</span></td></tr>
+            <tr><td><div class="metric-name">Редирект HTTP → HTTPS</div></td><td><div class="metric-how">HTTP запрос → проверка Location header</div></td><td><span class="badge ok">готово</span></td></tr>
+            <tr><td><div class="metric-name">SPF запись</div></td><td><div class="metric-how">DNS TXT — v=spf1 через Google/Cloudflare DNS API</div></td><td><span class="badge ok">готово</span></td></tr>
+            <tr><td><div class="metric-name">DMARC запись</div></td><td><div class="metric-how">DNS TXT — v=DMARC1, политика p=</div></td><td><span class="badge ok">готово</span></td></tr>
+            <tr><td><div class="metric-name">PageSpeed Score (десктоп / мобильный)</div></td><td><div class="metric-how">Google PageSpeed Insights API — strategy=desktop / mobile</div></td><td><span class="badge bad">не реализовано</span></td></tr>
+            <tr><td><div class="metric-name">Смешанный контент (HTTP ресурсы на HTTPS)</div></td><td><div class="metric-how">HTML парсинг — src/href атрибуты начинаются с http:// на HTTPS странице</div></td><td><span class="badge bad">не реализовано</span></td></tr>
+            <tr><td><div class="metric-name">Заголовки безопасности</div><div class="metric-how" style="margin-top:3px;color:#9aa6bd">X-Frame-Options, Content-Security-Policy</div></td><td><div class="metric-how">HTTP response headers — проверка наличия</div></td><td><span class="badge bad">не реализовано</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- БЛОК 4 -->
+      <div class="block">
+        <div class="block-header">
+          <div class="block-icon">🏥</div>
+          <div class="block-title-wrap">
+            <div class="block-num">Блок 4</div>
+            <div class="block-title">Медицинская специфика / Доверие</div>
+            <div class="block-hook"><span class="hook-label">Крючок:</span> Пациент не видит кто его будет лечить — нет фото, нет диплома, нет лицензии. Он не доверяет и уходит.</div>
+            <div class="block-meta">
+              <span class="tag tag-fear">Страх — пациент не доверяет</span>
+              <span class="tag tag-money">Деньги — теряешь запись</span>
+              <span class="tag tag-auto-mid">Автоматизация: средняя</span>
+            </div>
+          </div>
+        </div>
+        <table class="metrics-table">
+          <thead><tr><th>Метрика</th><th class="col-how">Как проверяется</th><th class="col-status">Статус</th></tr></thead>
+          <tbody>
+            <tr><td><div class="metric-name">Лицензия Минздрава — номер текстом</div></td><td><div class="metric-how">HTML парсинг — regex номера лицензии ЛО-XX-XX-XXXXXX</div></td><td><span class="badge bad">не реализовано</span></td></tr>
+            <tr><td><div class="metric-name">Лицензия только в виде картинки</div></td><td><div class="metric-how">Номер не найден текстом, но есть &lt;img&gt; с "лицензи" в alt / src / соседнем тексте</div></td><td><span class="badge bad">не реализовано</span></td></tr>
+            <tr><td><div class="metric-name">Прайс-лист доступен без регистрации</div></td><td><div class="metric-how">HTTP 200 на /prices, /prays, /стоимость — без редиректа на форму записи</div></td><td><span class="badge bad">не реализовано</span></td></tr>
+            <tr><td><div class="metric-name">Информация о враче (ФИО)</div></td><td><div class="metric-how">HTML парсинг — блок с keywords: врач, доктор, специалист + паттерн ФИО</div></td><td><span class="badge bad">не реализовано</span></td></tr>
+            <tr><td><div class="metric-name">Фото врача на сайте</div></td><td><div class="metric-how">&lt;img&gt; рядом с блоком врача — эвристика по proximity в DOM</div></td><td><span class="badge bad">не реализовано</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- БЛОК 5 -->
+      <div class="block">
+        <div class="block-header">
+          <div class="block-icon">🔍</div>
+          <div class="block-title-wrap">
+            <div class="block-num">Блок 5</div>
+            <div class="block-title">SEO</div>
+            <div class="block-hook"><span class="hook-label">Крючок:</span> По запросу «стоматология [город]» вы на 4-й странице. Пациент не доходит до вашего сайта.</div>
+            <div class="block-meta">
+              <span class="tag tag-money">Деньги — тебя не находят</span>
+              <span class="tag tag-auto-high">Автоматизация: высокая</span>
+            </div>
+          </div>
+        </div>
+        <table class="metrics-table">
+          <thead><tr><th>Метрика</th><th class="col-how">Как проверяется</th><th class="col-status">Статус</th></tr></thead>
+          <tbody>
+            <tr><td><div class="metric-name">Title страницы заполнен</div></td><td><div class="metric-how">HTML — &lt;title&gt; не пустой, не дефолтный</div></td><td><span class="badge bad">не реализовано</span></td></tr>
+            <tr><td><div class="metric-name">Meta description заполнен</div></td><td><div class="metric-how">HTML — &lt;meta name="description" content="..."&gt;</div></td><td><span class="badge bad">не реализовано</span></td></tr>
+            <tr><td><div class="metric-name">H1 на странице ровно один</div></td><td><div class="metric-how">HTML парсинг — подсчёт тегов &lt;h1&gt;</div></td><td><span class="badge bad">не реализовано</span></td></tr>
+            <tr><td><div class="metric-name">Сайт не закрыт от индексации</div></td><td><div class="metric-how">Fetch /robots.txt — проверка Disallow: /</div></td><td><span class="badge bad">не реализовано</span></td></tr>
+            <tr><td><div class="metric-name">Sitemap.xml существует</div></td><td><div class="metric-how">HTTP 200 на /sitemap.xml</div></td><td><span class="badge ok">готово (используется для discovery)</span></td></tr>
+            <tr><td><div class="metric-name">PageSpeed влияет на ранжирование</div></td><td><div class="metric-how">Google PageSpeed API — Core Web Vitals (дублирует блок 3)</div></td><td><span class="badge bad">не реализовано</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- БЛОК 6 -->
+      <div class="block">
+        <div class="block-header">
+          <div class="block-icon">⭐</div>
+          <div class="block-title-wrap">
+            <div class="block-num">Блок 6</div>
+            <div class="block-title">Репутация и видимость</div>
+            <div class="block-hook"><span class="hook-label">Крючок:</span> Вас нет там, где пациент ищет стоматолога — Яндекс.Карты, 2GIS, ПродокторОМ. Конкурент с рейтингом 4.8 получает этих пациентов.</div>
+            <div class="block-meta">
+              <span class="tag tag-money">Деньги — невидимость</span>
+              <span class="tag tag-auto-mid">Автоматизация: сложная</span>
+            </div>
+          </div>
+        </div>
+        <table class="metrics-table">
+          <thead><tr><th>Метрика</th><th class="col-how">Как проверяется</th><th class="col-status">Статус</th></tr></thead>
+          <tbody>
+            <tr><td><div class="metric-name">Присутствие на Яндекс.Картах</div></td><td><div class="metric-how">Яндекс Places API или парсинг поиска по названию клиники</div></td><td><span class="badge bad">не реализовано</span></td></tr>
+            <tr><td><div class="metric-name">Рейтинг и количество отзывов (Яндекс)</div></td><td><div class="metric-how">Яндекс Places API — rating, reviews_count</div></td><td><span class="badge bad">не реализовано</span></td></tr>
+            <tr><td><div class="metric-name">Присутствие на 2GIS</div></td><td><div class="metric-how">2GIS API — поиск по названию + городу</div></td><td><span class="badge bad">не реализовано</span></td></tr>
+            <tr><td><div class="metric-name">Присутствие на ПродокторОМ / Zoon</div></td><td><div class="metric-how">Парсинг поиска по названию клиники</div></td><td><span class="badge bad">не реализовано</span></td></tr>
+            <tr><td><div class="metric-name">Ответы на негативные отзывы</div></td><td><div class="metric-how">Яндекс Places API — наличие owner_reply у отзывов с низкой оценкой</div></td><td><span class="badge bad">не реализовано</span></td></tr>
+          </tbody>
+        </table>
+        <div class="block-note">
+          <strong>Важно:</strong> Яндекс Places API — коммерческий. Парсинг Яндекс.Карт ненадёжен (защита от ботов). Блок с самой высокой продаваемостью, но самой сложной автоматизацией. На первом этапе — полуавтоматически вручную.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
