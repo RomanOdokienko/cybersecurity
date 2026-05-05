@@ -3,6 +3,8 @@ from __future__ import annotations
 
 import json
 import os
+import subprocess
+import time
 from http import HTTPStatus
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -11,6 +13,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 COMMENTS_FILE = ROOT / "data" / "comments.json"
 MAX_BODY_BYTES = 512 * 1024
+GIT_SYNC_ENABLED = os.getenv("DASHBOARD_GIT_SYNC", "0") == "1"
+GIT_PUSH_ENABLED = os.getenv("DASHBOARD_GIT_PUSH", "0") == "1"
+GIT_COMMIT_INTERVAL_SEC = int(os.getenv("DASHBOARD_GIT_COMMIT_INTERVAL_SEC", "30"))
+_last_git_commit_ts = 0.0
 
 
 def read_comments() -> dict[str, str]:
@@ -35,6 +41,42 @@ def write_comments(data: dict[str, str]) -> None:
     tmp = COMMENTS_FILE.with_suffix(".json.tmp")
     tmp.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     os.replace(tmp, COMMENTS_FILE)
+
+
+def _run_git(args: list[str]) -> subprocess.CompletedProcess[str]:
+    return subprocess.run(
+        ["git", "-C", str(ROOT), *args],
+        capture_output=True,
+        text=True,
+        check=True,
+    )
+
+
+def sync_comments_to_git() -> None:
+    global _last_git_commit_ts
+    if not GIT_SYNC_ENABLED:
+        return
+
+    now = time.time()
+    if now - _last_git_commit_ts < max(1, GIT_COMMIT_INTERVAL_SEC):
+        return
+
+    rel_path = str(COMMENTS_FILE.relative_to(ROOT)).replace("\\", "/")
+    try:
+        status = _run_git(["status", "--porcelain", "--", rel_path]).stdout.strip()
+        if not status:
+            return
+
+        _run_git(["add", "--", rel_path])
+        ts = time.strftime("%Y-%m-%d %H:%M:%S")
+        _run_git(["commit", "-m", f"Update dashboard comments ({ts})"])
+        _last_git_commit_ts = now
+
+        if GIT_PUSH_ENABLED:
+            _run_git(["push"])
+    except Exception:
+        # Do not fail dashboard save flow on git problems.
+        return
 
 
 class DashboardHandler(SimpleHTTPRequestHandler):
@@ -87,6 +129,7 @@ class DashboardHandler(SimpleHTTPRequestHandler):
                 clean[key] = value[:2000]
 
         write_comments(clean)
+        sync_comments_to_git()
         self._send_json(HTTPStatus.OK, {"ok": True, "saved": len(clean)})
 
     def log_message(self, fmt: str, *args: object) -> None:

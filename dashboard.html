@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Скрининг клиник — dashboard</title>
+  <title>Скрининг клиник шаг 1 — dashboard</title>
   <style>
     :root {
       --line: #e6e8ef; --text: #1f2430; --muted: #707887;
@@ -18,6 +18,8 @@
     h1 { margin:0; font-size:40px; letter-spacing:-0.02em; }
     .sub { margin-top:8px; color:var(--muted); font-size:18px; }
     .meta { margin-top:10px; font-size:13px; color:#7f8695; }
+    .meta-link { color:#455066; border-bottom:1px dotted #9aa6bd; text-decoration:none; }
+    .meta-link:hover { color:#24324f; border-bottom-color:#24324f; }
     .cards { margin-top:14px; display:grid; grid-template-columns:repeat(5,minmax(110px,1fr)); gap:8px; }
     .card { background:#fff; border:1px solid var(--line); border-radius:10px; padding:10px 12px; }
     .card .n { font-size:24px; line-height:1; font-weight:800; }
@@ -62,9 +64,9 @@
 </head>
 <body>
   <div class="wrap">
-    <h1>Скрининг клиник</h1>
+    <h1>Скрининг клиник шаг 1</h1>
     <div class="sub">Быстрая проверка по ключевым критериям</div>
-    <div class="meta">Клик по строке открывает страницу с деталями и PoC &nbsp;·&nbsp; <a href="audit-blocks.html" style="color:#455066;border-bottom:1px dotted #9aa6bd;text-decoration:none;">Блоки финального отчёта →</a></div>
+    <div class="meta">Клик по строке открывает страницу с деталями и PoC &nbsp;·&nbsp; <a class="meta-link" href="screening-step-2.html">Скрининг клиник шаг 2 →</a> &nbsp;·&nbsp; <a class="meta-link" href="final-report-blocks.html">Блоки финального отчёта →</a></div>
 
     <div class="cards">
       <div class="card"><div class="n ok">1</div><div class="l">Слать</div></div>
@@ -780,8 +782,8 @@
       <td class="availability-col"><span class="badge availability-badge ok">ок</span></td>
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge ok">ок</span></td>
-      <td><span class="badge consent-badge bad">checked</span></td>
-      <td><span class="badge bad">проблема</span></td>
+      <td><span class="badge consent-badge bad">checked + не найдено</span></td>
+      <td><span class="badge warn">проверить</span></td>
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge warn">проверить</span></td>
@@ -1426,7 +1428,7 @@
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge consent-badge bad">текстом</span></td>
-      <td><span class="badge warn">проверить</span></td>
+      <td><span class="badge bad">проблема</span></td>
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge ok">ок</span></td>
       <td><span class="badge warn">проверить</span></td>
