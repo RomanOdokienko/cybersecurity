@@ -1,117 +1,363 @@
-{
-  "domain": "mx-medical.ru",
-  "pages": [
-    {
-      "requested": "https://mx-medical.ru/",
-      "status": 200,
-      "final_url": "https://mx-medical.ru/",
-      "error": null
-    },
-    {
-      "requested": "https://mx-medical.ru/contacts/",
-      "status": 200,
-      "final_url": "https://mx-medical.ru/contacts/",
-      "error": null
-    },
-    {
-      "requested": "https://mx-medical.ru/zapis/",
-      "status": 200,
-      "final_url": "https://mx-medical.ru/zapis/",
-      "error": null
-    }
-  ],
-  "forms": [
-    {
-      "page": "https://mx-medical.ru/zapis/",
-      "form_id": "form Запись",
-      "action_display": "action отсутствует",
-      "open_tag": "<form class=\"form Запись\" data-captcha=\"0\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": true,
-      "checkbox_poc": "<input type=\"checkbox\" value=\"Я даю согласие на обработку персональных данных\" name=\"fields[agreement_1]\" required>",
-      "policy_poc": "ass=\"form__input form__policy\"> <label class=\"row\"> <input type=\"checkbox\" value=\"Я даю согласие на обработку персональных данных\" name=\"fields[agreement_1]\" required> <span>Я даю согласие на <a target=\"_blank\" href=\"/upload/medialibrary/c9c/uek62m8ea66"
-    }
-  ],
-  "emails": [
-    "info@mx-medical.ru"
-  ],
-  "privacy_links": [
-    {
-      "page": "https://mx-medical.ru/",
-      "href": "https://mx-medical.ru/upload/medialibrary/c9c/uek62m8ea662pel1f4nas79icpdsufch.pdf",
-      "text": "Политикой обработки cookies"
-    },
-    {
-      "page": "https://mx-medical.ru/contacts/",
-      "href": "https://mx-medical.ru/upload/medialibrary/c9c/uek62m8ea662pel1f4nas79icpdsufch.pdf",
-      "text": "Политикой обработки cookies"
-    },
-    {
-      "page": "https://mx-medical.ru/zapis/",
-      "href": "/upload/medialibrary/c9c/uek62m8ea662pel1f4nas79icpdsufch.pdf",
-      "text": "обработку персональных данных"
-    },
-    {
-      "page": "https://mx-medical.ru/zapis/",
-      "href": "https://mx-medical.ru/upload/medialibrary/c9c/uek62m8ea662pel1f4nas79icpdsufch.pdf",
-      "text": "Политикой обработки cookies"
-    }
-  ],
-  "forbidden_hits": [
-    {
-      "token": "whatsapp",
-      "page": "https://mx-medical.ru/",
-      "context": "WhatsApp",
-      "visibility": "видно пользователю"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://mx-medical.ru/",
-      "context": "href=\"https://api.whatsapp.com/send/?phone=%2B79161655554&text&type=phone_number&app_absent=0\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://mx-medical.ru/contacts/",
-      "context": "WhatsApp",
-      "visibility": "видно пользователю"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://mx-medical.ru/contacts/",
-      "context": "href=\"https://api.whatsapp.com/send/?phone=%2B79161655554&text&type=phone_number&app_absent=0\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://mx-medical.ru/zapis/",
-      "context": "WhatsApp",
-      "visibility": "видно пользователю"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://mx-medical.ru/zapis/",
-      "context": "href=\"https://api.whatsapp.com/send/?phone=%2B79161655554&text&type=phone_number&app_absent=0\"",
-      "visibility": "только в коде"
-    }
-  ],
-  "cert_errors": [],
-  "discovery": {
-    "contact_urls": [
-      "https://mx-medical.ru/contacts/"
-    ],
-    "booking_urls": [
-      "https://mx-medical.ru/zapis/"
-    ],
-    "sources": {
-      "https://mx-medical.ru/": "",
-      "https://mx-medical.ru/contacts/": "navigation",
-      "https://mx-medical.ru/zapis/": "navigation"
-    },
-    "fallback_used": {
-      "contact": false,
-      "booking": false
-    }
-  }
+﻿{
+    "domain":  "mx-medical.ru",
+    "pages":  [
+                  {
+                      "requested":  "https://mx-medical.ru/",
+                      "status":  200,
+                      "final_url":  "https://mx-medical.ru/",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://mx-medical.ru/contacts/",
+                      "status":  200,
+                      "final_url":  "https://mx-medical.ru/contacts/",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://mx-medical.ru/zapis/",
+                      "status":  200,
+                      "final_url":  "https://mx-medical.ru/zapis/",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://mx-medical.ru/about/doc/",
+                      "status":  200,
+                      "final_url":  "https://mx-medical.ru/about/doc/",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://mx-medical.ru/doctors/",
+                      "status":  200,
+                      "final_url":  "https://mx-medical.ru/doctors/",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://mx-medical.ru/doctors/terapevty/ambartsumyan-mariam-khachaturovna/",
+                      "status":  200,
+                      "final_url":  "https://mx-medical.ru/doctors/terapevty/ambartsumyan-mariam-khachaturovna/",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://mx-medical.ru/doctors/terapevty/andreeva-darya-mikhaylovna/",
+                      "status":  200,
+                      "final_url":  "https://mx-medical.ru/doctors/terapevty/andreeva-darya-mikhaylovna/",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://mx-medical.ru/doctors/terapevty/proshchenkova-darya-andreevna/",
+                      "status":  200,
+                      "final_url":  "https://mx-medical.ru/doctors/terapevty/proshchenkova-darya-andreevna/",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://mx-medical.ru/doctors/terapevty/zaripova-anna-aleksandrovna/",
+                      "status":  200,
+                      "final_url":  "https://mx-medical.ru/doctors/terapevty/zaripova-anna-aleksandrovna/",
+                      "error":  null
+                  }
+              ],
+    "forms":  [
+                  {
+                      "page":  "https://mx-medical.ru/zapis/",
+                      "form_id":  "form Р—Р°РїРёСЃСЊ",
+                      "action_display":  "action РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚",
+                      "open_tag":  "\u003cform class=\"form Р—Р°РїРёСЃСЊ\" data-captcha=\"0\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  true,
+                      "checkbox_poc":  "\u003cinput type=\"checkbox\" value=\"РЇ РґР°СЋ СЃРѕРіР»Р°СЃРёРµ РЅР° РѕР±СЂР°Р±РѕС‚РєСѓ РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…\" name=\"fields[agreement_1]\" required\u003e",
+                      "policy_poc":  "ass=\"form__input form__policy\"\u003e \u003clabel class=\"row\"\u003e \u003cinput type=\"checkbox\" value=\"РЇ РґР°СЋ СЃРѕРіР»Р°СЃРёРµ РЅР° РѕР±СЂР°Р±РѕС‚РєСѓ РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…\" name=\"fields[agreement_1]\" required\u003e \u003cspan\u003eРЇ РґР°СЋ СЃРѕРіР»Р°СЃРёРµ РЅР° \u003ca target=\"_blank\" href=\"/upload/medialibrary/c9c/uek62m8ea66",
+                      "has_phone_field":  true,
+                      "has_name_field":  false,
+                      "has_textarea":  true,
+                      "phone_required":  true
+                  }
+              ],
+    "emails":  [
+                   "info@mx-medical.ru"
+               ],
+    "privacy_links":  [
+                          {
+                              "page":  "https://mx-medical.ru/",
+                              "href":  "https://mx-medical.ru/upload/medialibrary/c9c/uek62m8ea662pel1f4nas79icpdsufch.pdf",
+                              "text":  "РџРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё cookies"
+                          },
+                          {
+                              "page":  "https://mx-medical.ru/contacts/",
+                              "href":  "https://mx-medical.ru/upload/medialibrary/c9c/uek62m8ea662pel1f4nas79icpdsufch.pdf",
+                              "text":  "РџРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё cookies"
+                          },
+                          {
+                              "page":  "https://mx-medical.ru/zapis/",
+                              "href":  "/upload/medialibrary/c9c/uek62m8ea662pel1f4nas79icpdsufch.pdf",
+                              "text":  "РѕР±СЂР°Р±РѕС‚РєСѓ РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+                          },
+                          {
+                              "page":  "https://mx-medical.ru/zapis/",
+                              "href":  "https://mx-medical.ru/upload/medialibrary/c9c/uek62m8ea662pel1f4nas79icpdsufch.pdf",
+                              "text":  "РџРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё cookies"
+                          },
+                          {
+                              "page":  "https://mx-medical.ru/about/doc/",
+                              "href":  "/upload/medialibrary/c9c/uek62m8ea662pel1f4nas79icpdsufch.pdf",
+                              "text":  "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+                          },
+                          {
+                              "page":  "https://mx-medical.ru/about/doc/",
+                              "href":  "https://mx-medical.ru/upload/medialibrary/c9c/uek62m8ea662pel1f4nas79icpdsufch.pdf",
+                              "text":  "РџРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё cookies"
+                          },
+                          {
+                              "page":  "https://mx-medical.ru/doctors/",
+                              "href":  "https://mx-medical.ru/upload/medialibrary/c9c/uek62m8ea662pel1f4nas79icpdsufch.pdf",
+                              "text":  "РџРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё cookies"
+                          },
+                          {
+                              "page":  "https://mx-medical.ru/doctors/terapevty/ambartsumyan-mariam-khachaturovna/",
+                              "href":  "https://mx-medical.ru/upload/medialibrary/c9c/uek62m8ea662pel1f4nas79icpdsufch.pdf",
+                              "text":  "РџРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё cookies"
+                          },
+                          {
+                              "page":  "https://mx-medical.ru/doctors/terapevty/andreeva-darya-mikhaylovna/",
+                              "href":  "https://mx-medical.ru/upload/medialibrary/c9c/uek62m8ea662pel1f4nas79icpdsufch.pdf",
+                              "text":  "РџРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё cookies"
+                          },
+                          {
+                              "page":  "https://mx-medical.ru/doctors/terapevty/proshchenkova-darya-andreevna/",
+                              "href":  "https://mx-medical.ru/upload/medialibrary/c9c/uek62m8ea662pel1f4nas79icpdsufch.pdf",
+                              "text":  "РџРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё cookies"
+                          },
+                          {
+                              "page":  "https://mx-medical.ru/doctors/terapevty/zaripova-anna-aleksandrovna/",
+                              "href":  "https://mx-medical.ru/upload/medialibrary/c9c/uek62m8ea662pel1f4nas79icpdsufch.pdf",
+                              "text":  "РџРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё cookies"
+                          }
+                      ],
+    "forbidden_hits":  [
+
+                       ],
+    "cert_errors":  [
+
+                    ],
+    "tech":  {
+                 "ssl":  {
+                             "ok":  true,
+                             "protocol":  "TLSv1.3",
+                             "issuer_cn":  "R13",
+                             "not_after":  "Jul 17 09:14:11 2026 GMT",
+                             "days_left":  72,
+                             "error":  null
+                         },
+                 "http_to_https":  {
+                                       "requested":  "http://mx-medical.ru/",
+                                       "status":  200,
+                                       "final_url":  "https://mx-medical.ru/",
+                                       "redirected_to_https":  true,
+                                       "error":  null
+                                   },
+                 "canonical_www":  {
+                                       "non_www":  {
+                                                       "requested":  "https://mx-medical.ru/",
+                                                       "status":  200,
+                                                       "final_url":  "https://mx-medical.ru/",
+                                                       "error":  null
+                                                   },
+                                       "www":  {
+                                                   "requested":  "https://www.mx-medical.ru/",
+                                                   "status":  200,
+                                                   "final_url":  "https://mx-medical.ru/",
+                                                   "error":  null
+                                               },
+                                       "same_canonical":  true,
+                                       "canonical_host":  "mx-medical.ru"
+                                   },
+                 "ttfb":  {
+                              "seconds":  1.33,
+                              "source_url":  "https://mx-medical.ru/",
+                              "status":  200,
+                              "error":  null
+                          },
+                 "pagespeed":  {
+                                   "status":  "ok",
+                                   "score":  31,
+                                   "lcp_seconds":  19.252,
+                                   "tool":  "C:\\Program Files\\nodejs\\npx.CMD --yes lighthouse",
+                                   "error":  null
+                               },
+                 "analytics":  {
+                                   "found":  true,
+                                   "kinds":  [
+                                                 "yandex_metrika"
+                                             ],
+                                   "goals_found":  false,
+                                   "goal_markers":  [
+
+                                                    ]
+                               },
+                 "engagement":  {
+                                    "whatsapp":  true,
+                                    "telegram":  true,
+                                    "chat_widget":  false,
+                                    "slot_booking_widget":  false
+                                },
+                 "remarketing":  {
+                                     "vk_pixel":  false,
+                                     "meta_pixel":  false,
+                                     "google_ads_remarketing":  false,
+                                     "found":  false
+                                 },
+                 "favicon":  {
+                                 "status":  200,
+                                 "from_html":  true,
+                                 "found":  true
+                             },
+                 "schema":  {
+                                "found":  false,
+                                "types":  [
+
+                                          ]
+                            },
+                 "med_trust":  {
+                                   "contact_page_exists":  true,
+                                   "contact_pages":  [
+                                                         "https://mx-medical.ru/contacts/"
+                                                     ],
+                                   "price_public_found":  false,
+                                   "price_pages":  [
+
+                                                   ],
+                                   "doctors_page_exists":  true,
+                                   "doctor_pages":  [
+                                                        "https://mx-medical.ru/doctors/",
+                                                        "https://mx-medical.ru/doctors/terapevty/ambartsumyan-mariam-khachaturovna/",
+                                                        "https://mx-medical.ru/doctors/terapevty/andreeva-darya-mikhaylovna/",
+                                                        "https://mx-medical.ru/doctors/terapevty/proshchenkova-darya-andreevna/",
+                                                        "https://mx-medical.ru/doctors/terapevty/zaripova-anna-aleksandrovna/"
+                                                    ],
+                                   "address_found":  true,
+                                   "map_found":  true,
+                                   "hours_found":  false,
+                                   "reviews_found":  true,
+                                   "service_pages_count":  0,
+                                   "service_pages":  [
+
+                                                     ],
+                                   "clickable_contacts":  {
+                                                              "tel":  true,
+                                                              "mailto":  true
+                                                          },
+                                   "doctor_cards":  {
+                                                        "names_count":  65,
+                                                        "specialty_found":  true,
+                                                        "complete":  true
+                                                    },
+                                   "nap":  {
+                                               "home_phones":  [
+                                                                   "4951655554"
+                                                               ],
+                                               "contact_phones":  [
+                                                                      "4951655554"
+                                                                  ],
+                                               "phone_match":  true,
+                                               "home_address_found":  true,
+                                               "contact_address_found":  true,
+                                               "address_match":  false,
+                                               "consistent":  true
+                                           },
+                                   "schema":  {
+                                                  "medical":  false,
+                                                  "any":  false,
+                                                  "types":  [
+
+                                                            ]
+                                              }
+                               },
+                 "mixed_content":  {
+                                       "count":  0,
+                                       "samples":  [
+
+                                                   ]
+                                   },
+                 "broken_internal_links":  {
+                                               "checked":  87,
+                                               "broken":  1,
+                                               "samples":  [
+                                                               {
+                                                                   "url":  "https://mx-medical.ru/raschet/",
+                                                                   "status":  404,
+                                                                   "error":  "HTTPError 404",
+                                                                   "final_url":  "https://mx-medical.ru/raschet/"
+                                                               }
+                                                           ]
+                                           },
+                 "broken_static_resources":  {
+                                                 "checked":  137,
+                                                 "broken":  0,
+                                                 "samples":  [
+
+                                                             ]
+                                             },
+                 "security_headers":  {
+                                          "checked":  [
+                                                          "strict-transport-security",
+                                                          "content-security-policy",
+                                                          "x-frame-options",
+                                                          "x-content-type-options",
+                                                          "referrer-policy"
+                                                      ],
+                                          "present":  [
+
+                                                      ],
+                                          "missing":  [
+                                                          "strict-transport-security",
+                                                          "content-security-policy",
+                                                          "x-frame-options",
+                                                          "x-content-type-options",
+                                                          "referrer-policy"
+                                                      ],
+                                          "values":  {
+
+                                                     },
+                                          "source_url":  "https://mx-medical.ru/",
+                                          "source_status":  200
+                                      }
+             },
+    "discovery":  {
+                      "contact_urls":  [
+                                           "https://mx-medical.ru/contacts/"
+                                       ],
+                      "booking_urls":  [
+                                           "https://mx-medical.ru/zapis/"
+                                       ],
+                      "legal_urls":  [
+                                         "https://mx-medical.ru/about/doc/",
+                                         "https://mx-medical.ru/doctors/",
+                                         "https://mx-medical.ru/doctors/terapevty/ambartsumyan-mariam-khachaturovna/",
+                                         "https://mx-medical.ru/doctors/terapevty/andreeva-darya-mikhaylovna/",
+                                         "https://mx-medical.ru/doctors/terapevty/proshchenkova-darya-andreevna/",
+                                         "https://mx-medical.ru/doctors/terapevty/zaripova-anna-aleksandrovna/"
+                                     ],
+                      "sources":  {
+                                      "https://mx-medical.ru/":  "",
+                                      "https://mx-medical.ru/about/doc/":  "navigation-legal",
+                                      "https://mx-medical.ru/contacts/":  "navigation",
+                                      "https://mx-medical.ru/doctors/":  "navigation-legal",
+                                      "https://mx-medical.ru/doctors/terapevty/ambartsumyan-mariam-khachaturovna/":  "navigation-legal",
+                                      "https://mx-medical.ru/doctors/terapevty/andreeva-darya-mikhaylovna/":  "navigation-legal",
+                                      "https://mx-medical.ru/doctors/terapevty/proshchenkova-darya-andreevna/":  "navigation-legal",
+                                      "https://mx-medical.ru/doctors/terapevty/zaripova-anna-aleksandrovna/":  "navigation-legal",
+                                      "https://mx-medical.ru/zapis/":  "navigation"
+                                  },
+                      "fallback_used":  {
+                                            "contact":  false,
+                                            "booking":  false
+                                        },
+                      "sitemap_total_urls":  6,
+                      "sitemap_used_urls":  6
+                  },
+    "verification":  {
+                         "b2":  true,
+                         "b3":  true,
+                         "b4":  true
+                     }
 }

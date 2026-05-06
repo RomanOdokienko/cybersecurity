@@ -1,268 +1,822 @@
-{
-  "domain": "imclinic.dental",
-  "pages": [
-    {
-      "requested": "https://imclinic.dental/",
-      "status": 200,
-      "final_url": "https://imclinic.dental/",
-      "error": null
-    },
-    {
-      "requested": "https://imclinic.dental/articles/kontaktnyy-karies-skrytaya-ugroza-dlya-zdorovya-zubov-/",
-      "status": 200,
-      "final_url": "https://imclinic.dental/articles/kontaktnyy-karies-skrytaya-ugroza-dlya-zdorovya-zubov-/",
-      "error": null
-    },
-    {
-      "requested": "https://imclinic.dental/contacts/",
-      "status": 200,
-      "final_url": "https://imclinic.dental/contacts/",
-      "error": null
-    },
-    {
-      "requested": "https://imclinic.dental/booking/",
-      "status": 200,
-      "final_url": "https://imclinic.dental/booking/",
-      "error": null
-    },
-    {
-      "requested": "https://imclinic.dental/services/online-konsultacia/",
-      "status": 200,
-      "final_url": "https://imclinic.dental/services/online-konsultacia/",
-      "error": null
-    }
-  ],
-  "forms": [
-    {
-      "page": "https://imclinic.dental/",
-      "form_id": "form",
-      "action_display": "action отсутствует",
-      "open_tag": "<form class=\"form\" data-captcha=\"0\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": true,
-      "checkbox_poc": "<input type=\"checkbox\" value=\"0\" name=\"fields[terms]\" required />",
-      "policy_poc": "вы соглашаетесь с <a href=\"/doc/personal-dannie/\" rel=\"nofollow noopener\" target=\"_blank\">политикой обработки персональных данных</a>.</span> </label> <label class=\"form__input form__i"
-    },
-    {
-      "page": "https://imclinic.dental/articles/kontaktnyy-karies-skrytaya-ugroza-dlya-zdorovya-zubov-/",
-      "form_id": "form",
-      "action_display": "action отсутствует",
-      "open_tag": "<form class=\"form\" data-captcha=\"0\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": true,
-      "checkbox_poc": "<input type=\"checkbox\" value=\"0\" name=\"fields[terms]\" required />",
-      "policy_poc": "вы соглашаетесь с <a href=\"/doc/personal-dannie/\" rel=\"nofollow noopener\" target=\"_blank\">политикой обработки персональных данных</a>.</span> </label> <label class=\"form__input form__i"
-    },
-    {
-      "page": "https://imclinic.dental/contacts/",
-      "form_id": "form",
-      "action_display": "action отсутствует",
-      "open_tag": "<form class=\"form\" data-captcha=\"0\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": true,
-      "checkbox_poc": "<input type=\"checkbox\" value=\"0\" name=\"fields[terms]\" required />",
-      "policy_poc": "вы соглашаетесь с <a href=\"/doc/personal-dannie/\" rel=\"nofollow noopener\" target=\"_blank\">политикой обработки персональных данных</a>.</span> </label> <label class=\"form__input form__i"
-    },
-    {
-      "page": "https://imclinic.dental/booking/",
-      "form_id": "form Записаться в I'M CLINIC",
-      "action_display": "action отсутствует",
-      "open_tag": "<form class=\"form Записаться в I'M CLINIC\" data-captcha=\"0\" data-ym_target=\"335037542\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": true,
-      "checkbox_poc": "<input type=\"checkbox\" value=\"0\" name=\"fields[terms]\" required />",
-      "policy_poc": "вы соглашаетесь с <a href=\"/doc/personal-dannie/\" rel=\"nofollow noopener\" target=\"_blank\">политикой обработки персональных данных</a>.</span> </label> <label class=\"form__input form__i"
-    },
-    {
-      "page": "https://imclinic.dental/booking/",
-      "form_id": "form",
-      "action_display": "action отсутствует",
-      "open_tag": "<form class=\"form\" data-captcha=\"0\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": true,
-      "checkbox_poc": "<input type=\"checkbox\" value=\"0\" name=\"fields[terms]\" required />",
-      "policy_poc": "вы соглашаетесь с <a href=\"/doc/personal-dannie/\" rel=\"nofollow noopener\" target=\"_blank\">политикой обработки персональных данных</a>.</span> </label> <label class=\"form__input form__i"
-    },
-    {
-      "page": "https://imclinic.dental/services/online-konsultacia/",
-      "form_id": "form",
-      "action_display": "action отсутствует",
-      "open_tag": "<form class=\"form\" data-captcha=\"0\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": true,
-      "checkbox_poc": "<input type=\"checkbox\" value=\"0\" name=\"fields[terms]\" required />",
-      "policy_poc": "вы соглашаетесь с <a href=\"/doc/personal-dannie/\" rel=\"nofollow noopener\" target=\"_blank\">политикой обработки персональных данных</a>.</span> </label> <label class=\"form__input form__i"
-    }
-  ],
-  "emails": [
-    "example@imclinic.dental",
-    "info@imclinic.dental"
-  ],
-  "privacy_links": [
-    {
-      "page": "https://imclinic.dental/",
-      "href": "/doc/personal-dannie/",
-      "text": "Обработка персональных данных"
-    },
-    {
-      "page": "https://imclinic.dental/",
-      "href": "/doc/personal-dannie/",
-      "text": "политикой обработки персональных данных"
-    },
-    {
-      "page": "https://imclinic.dental/",
-      "href": "/doc/personal-dannie/",
-      "text": "Персональные данные"
-    },
-    {
-      "page": "https://imclinic.dental/articles/kontaktnyy-karies-skrytaya-ugroza-dlya-zdorovya-zubov-/",
-      "href": "/doc/personal-dannie/",
-      "text": "Обработка персональных данных"
-    },
-    {
-      "page": "https://imclinic.dental/articles/kontaktnyy-karies-skrytaya-ugroza-dlya-zdorovya-zubov-/",
-      "href": "/doc/personal-dannie/",
-      "text": "политикой обработки персональных данных"
-    },
-    {
-      "page": "https://imclinic.dental/articles/kontaktnyy-karies-skrytaya-ugroza-dlya-zdorovya-zubov-/",
-      "href": "/doc/personal-dannie/",
-      "text": "Персональные данные"
-    },
-    {
-      "page": "https://imclinic.dental/contacts/",
-      "href": "/doc/personal-dannie/",
-      "text": "Обработка персональных данных"
-    },
-    {
-      "page": "https://imclinic.dental/contacts/",
-      "href": "/doc/personal-dannie/",
-      "text": "политикой обработки персональных данных"
-    },
-    {
-      "page": "https://imclinic.dental/contacts/",
-      "href": "/doc/personal-dannie/",
-      "text": "Персональные данные"
-    },
-    {
-      "page": "https://imclinic.dental/booking/",
-      "href": "/doc/personal-dannie/",
-      "text": "политикой обработки персональных данных"
-    },
-    {
-      "page": "https://imclinic.dental/booking/",
-      "href": "/doc/personal-dannie/",
-      "text": "Обработка персональных данных"
-    },
-    {
-      "page": "https://imclinic.dental/booking/",
-      "href": "/doc/personal-dannie/",
-      "text": "Персональные данные"
-    },
-    {
-      "page": "https://imclinic.dental/services/online-konsultacia/",
-      "href": "/doc/personal-dannie/",
-      "text": "Обработка персональных данных"
-    },
-    {
-      "page": "https://imclinic.dental/services/online-konsultacia/",
-      "href": "/doc/personal-dannie/",
-      "text": "политикой обработки персональных данных"
-    },
-    {
-      "page": "https://imclinic.dental/services/online-konsultacia/",
-      "href": "/doc/personal-dannie/",
-      "text": "Персональные данные"
-    }
-  ],
-  "forbidden_hits": [
-    {
-      "token": "whatsapp",
-      "page": "https://imclinic.dental/",
-      "context": "WhatsApp",
-      "visibility": "видно пользователю"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://imclinic.dental/",
-      "context": "href=\"https://api.whatsapp.com/send/?phone=79957979494\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://imclinic.dental/articles/kontaktnyy-karies-skrytaya-ugroza-dlya-zdorovya-zubov-/",
-      "context": "WhatsApp",
-      "visibility": "видно пользователю"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://imclinic.dental/articles/kontaktnyy-karies-skrytaya-ugroza-dlya-zdorovya-zubov-/",
-      "context": "href=\"https://api.whatsapp.com/send/?phone=79957979494\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://imclinic.dental/contacts/",
-      "context": "WhatsApp",
-      "visibility": "видно пользователю"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://imclinic.dental/contacts/",
-      "context": "href=\"https://api.whatsapp.com/send/?phone=79957979494\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://imclinic.dental/booking/",
-      "context": "WhatsApp",
-      "visibility": "видно пользователю"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://imclinic.dental/booking/",
-      "context": "href=\"https://api.whatsapp.com/send/?phone=79957979494\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://imclinic.dental/services/online-konsultacia/",
-      "context": "WhatsApp",
-      "visibility": "видно пользователю"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://imclinic.dental/services/online-konsultacia/",
-      "context": "href=\"https://api.whatsapp.com/send/?phone=79957979494\"",
-      "visibility": "только в коде"
-    }
-  ],
-  "cert_errors": [],
-  "discovery": {
-    "contact_urls": [
-      "https://imclinic.dental/articles/kontaktnyy-karies-skrytaya-ugroza-dlya-zdorovya-zubov-/",
-      "https://imclinic.dental/contacts/"
-    ],
-    "booking_urls": [
-      "https://imclinic.dental/booking/",
-      "https://imclinic.dental/services/online-konsultacia/"
-    ],
-    "sources": {
-      "https://imclinic.dental/": "",
-      "https://imclinic.dental/articles/kontaktnyy-karies-skrytaya-ugroza-dlya-zdorovya-zubov-/": "navigation",
-      "https://imclinic.dental/booking/": "navigation",
-      "https://imclinic.dental/contacts/": "navigation",
-      "https://imclinic.dental/services/online-konsultacia/": "navigation"
-    },
-    "fallback_used": {
-      "contact": false,
-      "booking": false
-    }
-  }
+﻿{
+    "domain":  "imclinic.dental",
+    "pages":  [
+                  {
+                      "requested":  "https://imclinic.dental/",
+                      "status":  200,
+                      "final_url":  "https://imclinic.dental/",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://imclinic.dental/articles/kontaktnyy-karies-skrytaya-ugroza-dlya-zdorovya-zubov-/",
+                      "status":  200,
+                      "final_url":  "https://imclinic.dental/articles/kontaktnyy-karies-skrytaya-ugroza-dlya-zdorovya-zubov-/",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://imclinic.dental/contacts/",
+                      "status":  200,
+                      "final_url":  "https://imclinic.dental/contacts/",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://imclinic.dental/booking/",
+                      "status":  200,
+                      "final_url":  "https://imclinic.dental/booking/",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://imclinic.dental/services/online-konsultacia/",
+                      "status":  200,
+                      "final_url":  "https://imclinic.dental/services/online-konsultacia/",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://imclinic.dental/doc/",
+                      "status":  200,
+                      "final_url":  "https://imclinic.dental/doc/",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://imclinic.dental/doc/information-subscribe/",
+                      "status":  null,
+                      "final_url":  "https://imclinic.dental/doc/information-subscribe/",
+                      "error":  "\u003curlopen error [WinError 10054] An existing connection was forcibly closed by the remote host\u003e"
+                  },
+                  {
+                      "requested":  "https://imclinic.dental/doc/personal-dannie/",
+                      "status":  200,
+                      "final_url":  "https://imclinic.dental/doc/personal-dannie/",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://imclinic.dental/doc/pravila-lecheniya/",
+                      "status":  200,
+                      "final_url":  "https://imclinic.dental/doc/pravila-lecheniya/",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://imclinic.dental/doc/soglashenie/",
+                      "status":  200,
+                      "final_url":  "https://imclinic.dental/doc/soglashenie/",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://imclinic.dental/doctors/",
+                      "status":  200,
+                      "final_url":  "https://imclinic.dental/doctors/",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://imclinic.dental/doctors/aleksandr-mamontov/",
+                      "status":  200,
+                      "final_url":  "https://imclinic.dental/doctors/aleksandr-mamontov/",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://imclinic.dental/doctors/anna-yurova/",
+                      "status":  200,
+                      "final_url":  "https://imclinic.dental/doctors/anna-yurova/",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://imclinic.dental/doctors/asmik-grigoryan/",
+                      "status":  200,
+                      "final_url":  "https://imclinic.dental/doctors/asmik-grigoryan/",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://imclinic.dental/doctors/ekaterina-chernyshevskaya/",
+                      "status":  200,
+                      "final_url":  "https://imclinic.dental/doctors/ekaterina-chernyshevskaya/",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://imclinic.dental/doctors/marianna-dilanyan/",
+                      "status":  200,
+                      "final_url":  "https://imclinic.dental/doctors/marianna-dilanyan/",
+                      "error":  null
+                  }
+              ],
+    "forms":  [
+                  {
+                      "page":  "https://imclinic.dental/",
+                      "form_id":  "form",
+                      "action_display":  "action РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚",
+                      "open_tag":  "\u003cform class=\"form\" data-captcha=\"0\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  true,
+                      "checkbox_poc":  "\u003cinput type=\"checkbox\" value=\"0\" name=\"fields[terms]\" required /\u003e",
+                      "policy_poc":  "РІС‹ СЃРѕРіР»Р°С€Р°РµС‚РµСЃСЊ СЃ \u003ca href=\"/doc/personal-dannie/\" rel=\"nofollow noopener\" target=\"_blank\"\u003eРїРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…\u003c/a\u003e.\u003c/span\u003e \u003c/label\u003e \u003clabel class=\"form__input form__i",
+                      "has_phone_field":  false,
+                      "has_name_field":  false,
+                      "has_textarea":  false,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://imclinic.dental/articles/kontaktnyy-karies-skrytaya-ugroza-dlya-zdorovya-zubov-/",
+                      "form_id":  "form",
+                      "action_display":  "action РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚",
+                      "open_tag":  "\u003cform class=\"form\" data-captcha=\"0\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  true,
+                      "checkbox_poc":  "\u003cinput type=\"checkbox\" value=\"0\" name=\"fields[terms]\" required /\u003e",
+                      "policy_poc":  "РІС‹ СЃРѕРіР»Р°С€Р°РµС‚РµСЃСЊ СЃ \u003ca href=\"/doc/personal-dannie/\" rel=\"nofollow noopener\" target=\"_blank\"\u003eРїРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…\u003c/a\u003e.\u003c/span\u003e \u003c/label\u003e \u003clabel class=\"form__input form__i",
+                      "has_phone_field":  false,
+                      "has_name_field":  false,
+                      "has_textarea":  false,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://imclinic.dental/contacts/",
+                      "form_id":  "form",
+                      "action_display":  "action РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚",
+                      "open_tag":  "\u003cform class=\"form\" data-captcha=\"0\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  true,
+                      "checkbox_poc":  "\u003cinput type=\"checkbox\" value=\"0\" name=\"fields[terms]\" required /\u003e",
+                      "policy_poc":  "РІС‹ СЃРѕРіР»Р°С€Р°РµС‚РµСЃСЊ СЃ \u003ca href=\"/doc/personal-dannie/\" rel=\"nofollow noopener\" target=\"_blank\"\u003eРїРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…\u003c/a\u003e.\u003c/span\u003e \u003c/label\u003e \u003clabel class=\"form__input form__i",
+                      "has_phone_field":  false,
+                      "has_name_field":  false,
+                      "has_textarea":  false,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://imclinic.dental/booking/",
+                      "form_id":  "form Р—Р°РїРёСЃР°С‚СЊСЃСЏ РІ I\u0027M CLINIC",
+                      "action_display":  "action РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚",
+                      "open_tag":  "\u003cform class=\"form Р—Р°РїРёСЃР°С‚СЊСЃСЏ РІ I\u0027M CLINIC\" data-captcha=\"0\" data-ym_target=\"335037542\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  true,
+                      "checkbox_poc":  "\u003cinput type=\"checkbox\" value=\"0\" name=\"fields[terms]\" required /\u003e",
+                      "policy_poc":  "РІС‹ СЃРѕРіР»Р°С€Р°РµС‚РµСЃСЊ СЃ \u003ca href=\"/doc/personal-dannie/\" rel=\"nofollow noopener\" target=\"_blank\"\u003eРїРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…\u003c/a\u003e.\u003c/span\u003e \u003c/label\u003e \u003clabel class=\"form__input form__i",
+                      "has_phone_field":  true,
+                      "has_name_field":  false,
+                      "has_textarea":  true,
+                      "phone_required":  true
+                  },
+                  {
+                      "page":  "https://imclinic.dental/booking/",
+                      "form_id":  "form",
+                      "action_display":  "action РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚",
+                      "open_tag":  "\u003cform class=\"form\" data-captcha=\"0\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  true,
+                      "checkbox_poc":  "\u003cinput type=\"checkbox\" value=\"0\" name=\"fields[terms]\" required /\u003e",
+                      "policy_poc":  "РІС‹ СЃРѕРіР»Р°С€Р°РµС‚РµСЃСЊ СЃ \u003ca href=\"/doc/personal-dannie/\" rel=\"nofollow noopener\" target=\"_blank\"\u003eРїРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…\u003c/a\u003e.\u003c/span\u003e \u003c/label\u003e \u003clabel class=\"form__input form__i",
+                      "has_phone_field":  false,
+                      "has_name_field":  false,
+                      "has_textarea":  false,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://imclinic.dental/services/online-konsultacia/",
+                      "form_id":  "form",
+                      "action_display":  "action РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚",
+                      "open_tag":  "\u003cform class=\"form\" data-captcha=\"0\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  true,
+                      "checkbox_poc":  "\u003cinput type=\"checkbox\" value=\"0\" name=\"fields[terms]\" required /\u003e",
+                      "policy_poc":  "РІС‹ СЃРѕРіР»Р°С€Р°РµС‚РµСЃСЊ СЃ \u003ca href=\"/doc/personal-dannie/\" rel=\"nofollow noopener\" target=\"_blank\"\u003eРїРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…\u003c/a\u003e.\u003c/span\u003e \u003c/label\u003e \u003clabel class=\"form__input form__i",
+                      "has_phone_field":  false,
+                      "has_name_field":  false,
+                      "has_textarea":  false,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://imclinic.dental/doc/",
+                      "form_id":  "form",
+                      "action_display":  "action РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚",
+                      "open_tag":  "\u003cform class=\"form\" data-captcha=\"0\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  true,
+                      "checkbox_poc":  "\u003cinput type=\"checkbox\" value=\"0\" name=\"fields[terms]\" required /\u003e",
+                      "policy_poc":  "РІС‹ СЃРѕРіР»Р°С€Р°РµС‚РµСЃСЊ СЃ \u003ca href=\"/doc/personal-dannie/\" rel=\"nofollow noopener\" target=\"_blank\"\u003eРїРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…\u003c/a\u003e.\u003c/span\u003e \u003c/label\u003e \u003clabel class=\"form__input form__i",
+                      "has_phone_field":  false,
+                      "has_name_field":  false,
+                      "has_textarea":  false,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://imclinic.dental/doc/personal-dannie/",
+                      "form_id":  "form",
+                      "action_display":  "action РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚",
+                      "open_tag":  "\u003cform class=\"form\" data-captcha=\"0\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  true,
+                      "checkbox_poc":  "\u003cinput type=\"checkbox\" value=\"0\" name=\"fields[terms]\" required /\u003e",
+                      "policy_poc":  "РІС‹ СЃРѕРіР»Р°С€Р°РµС‚РµСЃСЊ СЃ \u003ca href=\"/doc/personal-dannie/\" rel=\"nofollow noopener\" target=\"_blank\"\u003eРїРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…\u003c/a\u003e.\u003c/span\u003e \u003c/label\u003e \u003clabel class=\"form__input form__i",
+                      "has_phone_field":  false,
+                      "has_name_field":  false,
+                      "has_textarea":  false,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://imclinic.dental/doc/pravila-lecheniya/",
+                      "form_id":  "form",
+                      "action_display":  "action РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚",
+                      "open_tag":  "\u003cform class=\"form\" data-captcha=\"0\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  true,
+                      "checkbox_poc":  "\u003cinput type=\"checkbox\" value=\"0\" name=\"fields[terms]\" required /\u003e",
+                      "policy_poc":  "РІС‹ СЃРѕРіР»Р°С€Р°РµС‚РµСЃСЊ СЃ \u003ca href=\"/doc/personal-dannie/\" rel=\"nofollow noopener\" target=\"_blank\"\u003eРїРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…\u003c/a\u003e.\u003c/span\u003e \u003c/label\u003e \u003clabel class=\"form__input form__i",
+                      "has_phone_field":  false,
+                      "has_name_field":  false,
+                      "has_textarea":  false,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://imclinic.dental/doc/soglashenie/",
+                      "form_id":  "form",
+                      "action_display":  "action РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚",
+                      "open_tag":  "\u003cform class=\"form\" data-captcha=\"0\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  true,
+                      "checkbox_poc":  "\u003cinput type=\"checkbox\" value=\"0\" name=\"fields[terms]\" required /\u003e",
+                      "policy_poc":  "РІС‹ СЃРѕРіР»Р°С€Р°РµС‚РµСЃСЊ СЃ \u003ca href=\"/doc/personal-dannie/\" rel=\"nofollow noopener\" target=\"_blank\"\u003eРїРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…\u003c/a\u003e.\u003c/span\u003e \u003c/label\u003e \u003clabel class=\"form__input form__i",
+                      "has_phone_field":  false,
+                      "has_name_field":  false,
+                      "has_textarea":  false,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://imclinic.dental/doctors/",
+                      "form_id":  "form",
+                      "action_display":  "action РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚",
+                      "open_tag":  "\u003cform class=\"form\" data-captcha=\"0\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  true,
+                      "checkbox_poc":  "\u003cinput type=\"checkbox\" value=\"0\" name=\"fields[terms]\" required /\u003e",
+                      "policy_poc":  "РІС‹ СЃРѕРіР»Р°С€Р°РµС‚РµСЃСЊ СЃ \u003ca href=\"/doc/personal-dannie/\" rel=\"nofollow noopener\" target=\"_blank\"\u003eРїРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…\u003c/a\u003e.\u003c/span\u003e \u003c/label\u003e \u003clabel class=\"form__input form__i",
+                      "has_phone_field":  false,
+                      "has_name_field":  false,
+                      "has_textarea":  false,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://imclinic.dental/doctors/aleksandr-mamontov/",
+                      "form_id":  "form",
+                      "action_display":  "action РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚",
+                      "open_tag":  "\u003cform class=\"form\" data-captcha=\"0\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  true,
+                      "checkbox_poc":  "\u003cinput type=\"checkbox\" value=\"0\" name=\"fields[terms]\" required /\u003e",
+                      "policy_poc":  "РІС‹ СЃРѕРіР»Р°С€Р°РµС‚РµСЃСЊ СЃ \u003ca href=\"/doc/personal-dannie/\" rel=\"nofollow noopener\" target=\"_blank\"\u003eРїРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…\u003c/a\u003e.\u003c/span\u003e \u003c/label\u003e \u003clabel class=\"form__input form__i",
+                      "has_phone_field":  false,
+                      "has_name_field":  false,
+                      "has_textarea":  false,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://imclinic.dental/doctors/anna-yurova/",
+                      "form_id":  "form",
+                      "action_display":  "action РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚",
+                      "open_tag":  "\u003cform class=\"form\" data-captcha=\"0\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  true,
+                      "checkbox_poc":  "\u003cinput type=\"checkbox\" value=\"0\" name=\"fields[terms]\" required /\u003e",
+                      "policy_poc":  "РІС‹ СЃРѕРіР»Р°С€Р°РµС‚РµСЃСЊ СЃ \u003ca href=\"/doc/personal-dannie/\" rel=\"nofollow noopener\" target=\"_blank\"\u003eРїРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…\u003c/a\u003e.\u003c/span\u003e \u003c/label\u003e \u003clabel class=\"form__input form__i",
+                      "has_phone_field":  false,
+                      "has_name_field":  false,
+                      "has_textarea":  false,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://imclinic.dental/doctors/asmik-grigoryan/",
+                      "form_id":  "form",
+                      "action_display":  "action РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚",
+                      "open_tag":  "\u003cform class=\"form\" data-captcha=\"0\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  true,
+                      "checkbox_poc":  "\u003cinput type=\"checkbox\" value=\"0\" name=\"fields[terms]\" required /\u003e",
+                      "policy_poc":  "РІС‹ СЃРѕРіР»Р°С€Р°РµС‚РµСЃСЊ СЃ \u003ca href=\"/doc/personal-dannie/\" rel=\"nofollow noopener\" target=\"_blank\"\u003eРїРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…\u003c/a\u003e.\u003c/span\u003e \u003c/label\u003e \u003clabel class=\"form__input form__i",
+                      "has_phone_field":  false,
+                      "has_name_field":  false,
+                      "has_textarea":  false,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://imclinic.dental/doctors/ekaterina-chernyshevskaya/",
+                      "form_id":  "form",
+                      "action_display":  "action РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚",
+                      "open_tag":  "\u003cform class=\"form\" data-captcha=\"0\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  true,
+                      "checkbox_poc":  "\u003cinput type=\"checkbox\" value=\"0\" name=\"fields[terms]\" required /\u003e",
+                      "policy_poc":  "РІС‹ СЃРѕРіР»Р°С€Р°РµС‚РµСЃСЊ СЃ \u003ca href=\"/doc/personal-dannie/\" rel=\"nofollow noopener\" target=\"_blank\"\u003eРїРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…\u003c/a\u003e.\u003c/span\u003e \u003c/label\u003e \u003clabel class=\"form__input form__i",
+                      "has_phone_field":  false,
+                      "has_name_field":  false,
+                      "has_textarea":  false,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://imclinic.dental/doctors/marianna-dilanyan/",
+                      "form_id":  "form",
+                      "action_display":  "action РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚",
+                      "open_tag":  "\u003cform class=\"form\" data-captcha=\"0\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  true,
+                      "checkbox_poc":  "\u003cinput type=\"checkbox\" value=\"0\" name=\"fields[terms]\" required /\u003e",
+                      "policy_poc":  "РІС‹ СЃРѕРіР»Р°С€Р°РµС‚РµСЃСЊ СЃ \u003ca href=\"/doc/personal-dannie/\" rel=\"nofollow noopener\" target=\"_blank\"\u003eРїРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…\u003c/a\u003e.\u003c/span\u003e \u003c/label\u003e \u003clabel class=\"form__input form__i",
+                      "has_phone_field":  false,
+                      "has_name_field":  false,
+                      "has_textarea":  false,
+                      "phone_required":  false
+                  }
+              ],
+    "emails":  [
+                   "example@imclinic.dental",
+                   "info@imclinic.dental"
+               ],
+    "privacy_links":  [
+                          {
+                              "page":  "https://imclinic.dental/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РћР±СЂР°Р±РѕС‚РєР° РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РїРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РџРµСЂСЃРѕРЅР°Р»СЊРЅС‹Рµ РґР°РЅРЅС‹Рµ"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/articles/kontaktnyy-karies-skrytaya-ugroza-dlya-zdorovya-zubov-/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РћР±СЂР°Р±РѕС‚РєР° РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/articles/kontaktnyy-karies-skrytaya-ugroza-dlya-zdorovya-zubov-/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РїРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/articles/kontaktnyy-karies-skrytaya-ugroza-dlya-zdorovya-zubov-/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РџРµСЂСЃРѕРЅР°Р»СЊРЅС‹Рµ РґР°РЅРЅС‹Рµ"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/contacts/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РћР±СЂР°Р±РѕС‚РєР° РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/contacts/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РїРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/contacts/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РџРµСЂСЃРѕРЅР°Р»СЊРЅС‹Рµ РґР°РЅРЅС‹Рµ"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/booking/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РїРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/booking/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РћР±СЂР°Р±РѕС‚РєР° РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/booking/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РџРµСЂСЃРѕРЅР°Р»СЊРЅС‹Рµ РґР°РЅРЅС‹Рµ"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/services/online-konsultacia/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РћР±СЂР°Р±РѕС‚РєР° РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/services/online-konsultacia/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РїРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/services/online-konsultacia/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РџРµСЂСЃРѕРЅР°Р»СЊРЅС‹Рµ РґР°РЅРЅС‹Рµ"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/doc/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РЎРћР“Р›РђРЎРР• РЅР° РѕР±СЂР°Р±РѕС‚РєСѓ РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/doc/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РћР±СЂР°Р±РѕС‚РєР° РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/doc/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РїРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/doc/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РџРµСЂСЃРѕРЅР°Р»СЊРЅС‹Рµ РґР°РЅРЅС‹Рµ"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/doc/personal-dannie/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РїРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/doc/pravila-lecheniya/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РћР±СЂР°Р±РѕС‚РєР° РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/doc/pravila-lecheniya/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РїРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/doc/pravila-lecheniya/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РџРµСЂСЃРѕРЅР°Р»СЊРЅС‹Рµ РґР°РЅРЅС‹Рµ"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/doc/soglashenie/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РћР±СЂР°Р±РѕС‚РєР° РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/doc/soglashenie/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РїРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/doc/soglashenie/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РџРµСЂСЃРѕРЅР°Р»СЊРЅС‹Рµ РґР°РЅРЅС‹Рµ"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/doctors/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РћР±СЂР°Р±РѕС‚РєР° РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/doctors/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РїРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/doctors/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РџРµСЂСЃРѕРЅР°Р»СЊРЅС‹Рµ РґР°РЅРЅС‹Рµ"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/doctors/aleksandr-mamontov/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РћР±СЂР°Р±РѕС‚РєР° РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/doctors/aleksandr-mamontov/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РїРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/doctors/aleksandr-mamontov/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РџРµСЂСЃРѕРЅР°Р»СЊРЅС‹Рµ РґР°РЅРЅС‹Рµ"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/doctors/anna-yurova/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РћР±СЂР°Р±РѕС‚РєР° РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/doctors/anna-yurova/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РїРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/doctors/anna-yurova/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РџРµСЂСЃРѕРЅР°Р»СЊРЅС‹Рµ РґР°РЅРЅС‹Рµ"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/doctors/asmik-grigoryan/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РћР±СЂР°Р±РѕС‚РєР° РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/doctors/asmik-grigoryan/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РїРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/doctors/asmik-grigoryan/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РџРµСЂСЃРѕРЅР°Р»СЊРЅС‹Рµ РґР°РЅРЅС‹Рµ"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/doctors/ekaterina-chernyshevskaya/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РћР±СЂР°Р±РѕС‚РєР° РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/doctors/ekaterina-chernyshevskaya/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РїРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/doctors/ekaterina-chernyshevskaya/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РџРµСЂСЃРѕРЅР°Р»СЊРЅС‹Рµ РґР°РЅРЅС‹Рµ"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/doctors/marianna-dilanyan/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РћР±СЂР°Р±РѕС‚РєР° РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/doctors/marianna-dilanyan/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РїРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+                          },
+                          {
+                              "page":  "https://imclinic.dental/doctors/marianna-dilanyan/",
+                              "href":  "/doc/personal-dannie/",
+                              "text":  "РџРµСЂСЃРѕРЅР°Р»СЊРЅС‹Рµ РґР°РЅРЅС‹Рµ"
+                          }
+                      ],
+    "forbidden_hits":  [
+
+                       ],
+    "cert_errors":  [
+                        {
+                            "url":  "https://imclinic.dental/doc/information-subscribe/",
+                            "error":  "\u003curlopen error [WinError 10054] An existing connection was forcibly closed by the remote host\u003e"
+                        }
+                    ],
+    "tech":  {
+                 "ssl":  {
+                             "ok":  true,
+                             "protocol":  "TLSv1.3",
+                             "issuer_cn":  "R13",
+                             "not_after":  "Jul  1 08:10:32 2026 GMT",
+                             "days_left":  55,
+                             "error":  null
+                         },
+                 "http_to_https":  {
+                                       "requested":  "http://imclinic.dental/",
+                                       "status":  200,
+                                       "final_url":  "https://imclinic.dental/",
+                                       "redirected_to_https":  true,
+                                       "error":  null
+                                   },
+                 "canonical_www":  {
+                                       "non_www":  {
+                                                       "requested":  "https://imclinic.dental/",
+                                                       "status":  200,
+                                                       "final_url":  "https://imclinic.dental/",
+                                                       "error":  null
+                                                   },
+                                       "www":  {
+                                                   "requested":  "https://www.imclinic.dental/",
+                                                   "status":  200,
+                                                   "final_url":  "https://imclinic.dental/",
+                                                   "error":  null
+                                               },
+                                       "same_canonical":  true,
+                                       "canonical_host":  "imclinic.dental"
+                                   },
+                 "ttfb":  {
+                              "seconds":  1.153,
+                              "source_url":  "https://imclinic.dental/",
+                              "status":  200,
+                              "error":  null
+                          },
+                 "pagespeed":  {
+                                   "status":  "ok",
+                                   "score":  47,
+                                   "lcp_seconds":  6.966,
+                                   "tool":  "C:\\Program Files\\nodejs\\npx.CMD --yes lighthouse",
+                                   "error":  null
+                               },
+                 "analytics":  {
+                                   "found":  true,
+                                   "kinds":  [
+                                                 "yandex_metrika"
+                                             ],
+                                   "goals_found":  false,
+                                   "goal_markers":  [
+
+                                                    ]
+                               },
+                 "engagement":  {
+                                    "whatsapp":  true,
+                                    "telegram":  true,
+                                    "chat_widget":  false,
+                                    "slot_booking_widget":  false
+                                },
+                 "remarketing":  {
+                                     "vk_pixel":  false,
+                                     "meta_pixel":  false,
+                                     "google_ads_remarketing":  false,
+                                     "found":  false
+                                 },
+                 "favicon":  {
+                                 "status":  200,
+                                 "from_html":  true,
+                                 "found":  true
+                             },
+                 "schema":  {
+                                "found":  true,
+                                "types":  [
+                                              "medicalclinic"
+                                          ]
+                            },
+                 "med_trust":  {
+                                   "contact_page_exists":  true,
+                                   "contact_pages":  [
+                                                         "https://imclinic.dental/articles/kontaktnyy-karies-skrytaya-ugroza-dlya-zdorovya-zubov-/",
+                                                         "https://imclinic.dental/contacts/"
+                                                     ],
+                                   "price_public_found":  false,
+                                   "price_pages":  [
+
+                                                   ],
+                                   "doctors_page_exists":  true,
+                                   "doctor_pages":  [
+                                                        "https://imclinic.dental/doctors/",
+                                                        "https://imclinic.dental/doctors/aleksandr-mamontov/",
+                                                        "https://imclinic.dental/doctors/anna-yurova/",
+                                                        "https://imclinic.dental/doctors/asmik-grigoryan/",
+                                                        "https://imclinic.dental/doctors/ekaterina-chernyshevskaya/",
+                                                        "https://imclinic.dental/doctors/marianna-dilanyan/"
+                                                    ],
+                                   "address_found":  true,
+                                   "map_found":  true,
+                                   "hours_found":  true,
+                                   "reviews_found":  true,
+                                   "service_pages_count":  0,
+                                   "service_pages":  [
+
+                                                     ],
+                                   "clickable_contacts":  {
+                                                              "tel":  true,
+                                                              "mailto":  true
+                                                          },
+                                   "doctor_cards":  {
+                                                        "names_count":  61,
+                                                        "specialty_found":  true,
+                                                        "complete":  true
+                                                    },
+                                   "nap":  {
+                                               "home_phones":  [
+                                                                   "4950196022",
+                                                                   "9957979494"
+                                                               ],
+                                               "contact_phones":  [
+                                                                      "4950196022"
+                                                                  ],
+                                               "phone_match":  true,
+                                               "home_address_found":  true,
+                                               "contact_address_found":  true,
+                                               "address_match":  true,
+                                               "consistent":  true
+                                           },
+                                   "schema":  {
+                                                  "medical":  true,
+                                                  "any":  true,
+                                                  "types":  [
+                                                                "medicalclinic"
+                                                            ]
+                                              }
+                               },
+                 "mixed_content":  {
+                                       "count":  0,
+                                       "samples":  [
+
+                                                   ]
+                                   },
+                 "broken_internal_links":  {
+                                               "checked":  107,
+                                               "broken":  2,
+                                               "samples":  [
+                                                               {
+                                                                   "url":  "https://imclinic.dental/upload/pdf/РЎР•Р РўРР¤РРљРђРў.pdf",
+                                                                   "status":  null,
+                                                                   "error":  "\u0027ascii\u0027 codec can\u0027t encode characters in position 16-25: ordinal not in range(128)",
+                                                                   "final_url":  "https://imclinic.dental/upload/pdf/РЎР•Р РўРР¤РРљРђРў.pdf"
+                                                               },
+                                                               {
+                                                                   "url":  "https://imclinic.dental/upload/pdf/РЎР•Р РўРР¤РРљРђРў2.pdf",
+                                                                   "status":  null,
+                                                                   "error":  "\u0027ascii\u0027 codec can\u0027t encode characters in position 16-25: ordinal not in range(128)",
+                                                                   "final_url":  "https://imclinic.dental/upload/pdf/РЎР•Р РўРР¤РРљРђРў2.pdf"
+                                                               }
+                                                           ]
+                                           },
+                 "broken_static_resources":  {
+                                                 "checked":  141,
+                                                 "broken":  0,
+                                                 "samples":  [
+
+                                                             ]
+                                             },
+                 "security_headers":  {
+                                          "checked":  [
+                                                          "strict-transport-security",
+                                                          "content-security-policy",
+                                                          "x-frame-options",
+                                                          "x-content-type-options",
+                                                          "referrer-policy"
+                                                      ],
+                                          "present":  [
+                                                          "strict-transport-security",
+                                                          "x-content-type-options"
+                                                      ],
+                                          "missing":  [
+                                                          "content-security-policy",
+                                                          "x-frame-options",
+                                                          "referrer-policy"
+                                                      ],
+                                          "values":  {
+                                                         "strict-transport-security":  "max-age=31536000",
+                                                         "x-content-type-options":  "nosniff"
+                                                     },
+                                          "source_url":  "https://imclinic.dental/",
+                                          "source_status":  200
+                                      }
+             },
+    "discovery":  {
+                      "contact_urls":  [
+                                           "https://imclinic.dental/articles/kontaktnyy-karies-skrytaya-ugroza-dlya-zdorovya-zubov-/",
+                                           "https://imclinic.dental/contacts/"
+                                       ],
+                      "booking_urls":  [
+                                           "https://imclinic.dental/booking/",
+                                           "https://imclinic.dental/services/online-konsultacia/"
+                                       ],
+                      "legal_urls":  [
+                                         "https://imclinic.dental/doc/",
+                                         "https://imclinic.dental/doc/information-subscribe/",
+                                         "https://imclinic.dental/doc/personal-dannie/",
+                                         "https://imclinic.dental/doc/pravila-lecheniya/",
+                                         "https://imclinic.dental/doc/soglashenie/",
+                                         "https://imclinic.dental/doctors/",
+                                         "https://imclinic.dental/doctors/aleksandr-mamontov/",
+                                         "https://imclinic.dental/doctors/anna-yurova/",
+                                         "https://imclinic.dental/doctors/asmik-grigoryan/",
+                                         "https://imclinic.dental/doctors/ekaterina-chernyshevskaya/",
+                                         "https://imclinic.dental/doctors/marianna-dilanyan/"
+                                     ],
+                      "sources":  {
+                                      "https://imclinic.dental/":  "",
+                                      "https://imclinic.dental/articles/kontaktnyy-karies-skrytaya-ugroza-dlya-zdorovya-zubov-/":  "navigation",
+                                      "https://imclinic.dental/booking/":  "navigation",
+                                      "https://imclinic.dental/contacts/":  "navigation",
+                                      "https://imclinic.dental/doc/":  "navigation-legal",
+                                      "https://imclinic.dental/doc/information-subscribe/":  "navigation-legal",
+                                      "https://imclinic.dental/doc/personal-dannie/":  "navigation-legal",
+                                      "https://imclinic.dental/doc/pravila-lecheniya/":  "navigation-legal",
+                                      "https://imclinic.dental/doc/soglashenie/":  "navigation-legal",
+                                      "https://imclinic.dental/doctors/":  "navigation-legal",
+                                      "https://imclinic.dental/doctors/aleksandr-mamontov/":  "navigation-legal",
+                                      "https://imclinic.dental/doctors/anna-yurova/":  "navigation-legal",
+                                      "https://imclinic.dental/doctors/asmik-grigoryan/":  "navigation-legal",
+                                      "https://imclinic.dental/doctors/ekaterina-chernyshevskaya/":  "navigation-legal",
+                                      "https://imclinic.dental/doctors/marianna-dilanyan/":  "navigation-legal",
+                                      "https://imclinic.dental/services/online-konsultacia/":  "navigation"
+                                  },
+                      "fallback_used":  {
+                                            "contact":  false,
+                                            "booking":  false
+                                        },
+                      "sitemap_total_urls":  6,
+                      "sitemap_used_urls":  6
+                  },
+    "verification":  {
+                         "b2":  true,
+                         "b3":  true,
+                         "b4":  true
+                     }
 }
