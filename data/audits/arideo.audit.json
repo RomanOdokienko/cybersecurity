@@ -14,36 +14,43 @@
       "error": null
     },
     {
-      "requested": "https://arideo.su/appointment",
-      "status": 404,
-      "final_url": "https://arideo.su/appointment",
-      "error": "HTTPError 404"
+      "requested": "https://arideo.su/agreement/",
+      "status": 200,
+      "final_url": "https://arideo.su/agreement/",
+      "error": null
     },
     {
-      "requested": "https://arideo.su/booking",
-      "status": 404,
-      "final_url": "https://arideo.su/booking",
-      "error": "HTTPError 404"
+      "requested": "https://arideo.su/doctors/",
+      "status": 200,
+      "final_url": "https://arideo.su/doctors/",
+      "error": null
     },
     {
-      "requested": "https://arideo.su/zapis",
-      "status": 404,
-      "final_url": "https://arideo.su/zapis",
-      "error": "HTTPError 404"
+      "requested": "https://arideo.su/doctors/abanina-ekaterina/",
+      "status": 200,
+      "final_url": "https://arideo.su/doctors/abanina-ekaterina/",
+      "error": null
+    },
+    {
+      "requested": "https://arideo.su/doctors/nazarov-vladislav-aleksandrovich/",
+      "status": 200,
+      "final_url": "https://arideo.su/doctors/nazarov-vladislav-aleksandrovich/",
+      "error": null
+    },
+    {
+      "requested": "https://arideo.su/doctors/podvoyskaya-inna-petrovna/",
+      "status": 200,
+      "final_url": "https://arideo.su/doctors/podvoyskaya-inna-petrovna/",
+      "error": null
+    },
+    {
+      "requested": "https://arideo.su/doctors/suzdaltsev-sergey-sergeevich/",
+      "status": 200,
+      "final_url": "https://arideo.su/doctors/suzdaltsev-sergey-sergeevich/",
+      "error": null
     }
   ],
   "forms": [
-    {
-      "page": "https://arideo.su/",
-      "form_id": "quiz_form",
-      "action_display": "action=\"/\"",
-      "open_tag": "<form action=\"/\" id=\"quiz_form\" data-name=\"quiz_form\" novalidate=\"true\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
     {
       "page": "https://arideo.su/",
       "form_id": "needs-validation feedback-form",
@@ -53,7 +60,11 @@
       "checked": null,
       "has_policy_text": true,
       "checkbox_poc": null,
-      "policy_poc": "lg-7 col-sm-8 mb-sm-0 mb-2\"> <div class=\"text-14\">Нажимая на кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь с <a href=\"/agreement/\">политикой конфиденциальности</a></div> </div> <div class=\"col-xxl-4 c"
+      "policy_poc": "lg-7 col-sm-8 mb-sm-0 mb-2\"> <div class=\"text-14\">Нажимая на кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь с <a href=\"/agreement/\">политикой конфиденциальности</a></div> </div> <div class=\"col-xxl-4 c",
+      "has_phone_field": true,
+      "has_name_field": false,
+      "has_textarea": false,
+      "phone_required": true
     },
     {
       "page": "https://arideo.su/",
@@ -64,7 +75,11 @@
       "checked": null,
       "has_policy_text": true,
       "checkbox_poc": null,
-      "policy_poc": "2\">Укажите свои имя, контактный номер телефона и в ближайшее время мы свяжемся с вами для согласования всех данных</div> <div class=\"pt-lg-3 mb-lg-4 pt-1 mb-2\"> <div class=\"form-group mb-lg-5 mb-2\">"
+      "policy_poc": "2\">Укажите свои имя, контактный номер телефона и в ближайшее время мы свяжемся с вами для согласования всех данных</div> <div class=\"pt-lg-3 mb-lg-4 pt-1 mb-2\"> <div class=\"form-group mb-lg-5 mb-2\">",
+      "has_phone_field": true,
+      "has_name_field": true,
+      "has_textarea": false,
+      "phone_required": true
     },
     {
       "page": "https://arideo.su/contacts/",
@@ -75,7 +90,11 @@
       "checked": null,
       "has_policy_text": true,
       "checkbox_poc": null,
-      "policy_poc": "lg-7 col-sm-8 mb-sm-0 mb-2\"> <div class=\"text-14\">Нажимая на кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь с <a href=\"/agreement/\">политикой конфиденциальности</a></div> </div> <div class=\"col-xxl-4 c"
+      "policy_poc": "lg-7 col-sm-8 mb-sm-0 mb-2\"> <div class=\"text-14\">Нажимая на кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь с <a href=\"/agreement/\">политикой конфиденциальности</a></div> </div> <div class=\"col-xxl-4 c",
+      "has_phone_field": true,
+      "has_name_field": false,
+      "has_textarea": false,
+      "phone_required": true
     },
     {
       "page": "https://arideo.su/contacts/",
@@ -86,7 +105,11 @@
       "checked": null,
       "has_policy_text": true,
       "checkbox_poc": null,
-      "policy_poc": "s=\"text-white pe-md-5 pe-sm-2 mb-sm-0 mb-2\"> Нажимая на кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь с <a href=\"/agreement/\">политикой конфиденциальности</a> </div> <div class=\"text-end\""
+      "policy_poc": "s=\"text-white pe-md-5 pe-sm-2 mb-sm-0 mb-2\"> Нажимая на кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь с <a href=\"/agreement/\">политикой конфиденциальности</a> </div> <div class=\"text-end\"",
+      "has_phone_field": true,
+      "has_name_field": true,
+      "has_textarea": false,
+      "phone_required": true
     },
     {
       "page": "https://arideo.su/contacts/",
@@ -97,7 +120,191 @@
       "checked": null,
       "has_policy_text": true,
       "checkbox_poc": null,
-      "policy_poc": "2\">Укажите свои имя, контактный номер телефона и в ближайшее время мы свяжемся с вами для согласования всех данных</div> <div class=\"pt-lg-3 mb-lg-4 pt-1 mb-2\"> <div class=\"form-group mb-lg-5 mb-2\">"
+      "policy_poc": "2\">Укажите свои имя, контактный номер телефона и в ближайшее время мы свяжемся с вами для согласования всех данных</div> <div class=\"pt-lg-3 mb-lg-4 pt-1 mb-2\"> <div class=\"form-group mb-lg-5 mb-2\">",
+      "has_phone_field": true,
+      "has_name_field": true,
+      "has_textarea": false,
+      "phone_required": true
+    },
+    {
+      "page": "https://arideo.su/agreement/",
+      "form_id": "ps-lg-5 needs-validation feedback-form",
+      "action_display": "action=\"/local/api/\"",
+      "open_tag": "<form class=\"ps-lg-5 needs-validation feedback-form\" action=\"/local/api/\" novalidate>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "s=\"text-white pe-md-5 pe-sm-2 mb-sm-0 mb-2\"> Нажимая на кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь с <a href=\"/agreement/\">политикой конфиденциальности</a> </div> <div class=\"text-end\"",
+      "has_phone_field": true,
+      "has_name_field": true,
+      "has_textarea": false,
+      "phone_required": true
+    },
+    {
+      "page": "https://arideo.su/agreement/",
+      "form_id": "p-5 needs-validation feedback-form",
+      "action_display": "action=\"/local/api/\"",
+      "open_tag": "<form class=\"p-5 needs-validation feedback-form\" action=\"/local/api/\" novalidate>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "2\">Укажите свои имя, контактный номер телефона и в ближайшее время мы свяжемся с вами для согласования всех данных</div> <div class=\"pt-lg-3 mb-lg-4 pt-1 mb-2\"> <div class=\"form-group mb-lg-5 mb-2\">",
+      "has_phone_field": true,
+      "has_name_field": true,
+      "has_textarea": false,
+      "phone_required": true
+    },
+    {
+      "page": "https://arideo.su/doctors/",
+      "form_id": "ps-lg-5 needs-validation feedback-form",
+      "action_display": "action=\"/local/api/\"",
+      "open_tag": "<form class=\"ps-lg-5 needs-validation feedback-form\" action=\"/local/api/\" novalidate>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "s=\"text-white pe-md-5 pe-sm-2 mb-sm-0 mb-2\"> Нажимая на кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь с <a href=\"/agreement/\">политикой конфиденциальности</a> </div> <div class=\"text-end\"",
+      "has_phone_field": true,
+      "has_name_field": true,
+      "has_textarea": false,
+      "phone_required": true
+    },
+    {
+      "page": "https://arideo.su/doctors/",
+      "form_id": "p-5 needs-validation feedback-form",
+      "action_display": "action=\"/local/api/\"",
+      "open_tag": "<form class=\"p-5 needs-validation feedback-form\" action=\"/local/api/\" novalidate>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "2\">Укажите свои имя, контактный номер телефона и в ближайшее время мы свяжемся с вами для согласования всех данных</div> <div class=\"pt-lg-3 mb-lg-4 pt-1 mb-2\"> <div class=\"form-group mb-lg-5 mb-2\">",
+      "has_phone_field": true,
+      "has_name_field": true,
+      "has_textarea": false,
+      "phone_required": true
+    },
+    {
+      "page": "https://arideo.su/doctors/abanina-ekaterina/",
+      "form_id": "ps-lg-5 needs-validation feedback-form",
+      "action_display": "action=\"/local/api/\"",
+      "open_tag": "<form class=\"ps-lg-5 needs-validation feedback-form\" action=\"/local/api/\" novalidate>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "s=\"text-white pe-md-5 pe-sm-2 mb-sm-0 mb-2\"> Нажимая на кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь с <a href=\"/agreement/\">политикой конфиденциальности</a> </div> <div class=\"text-end\"",
+      "has_phone_field": true,
+      "has_name_field": true,
+      "has_textarea": false,
+      "phone_required": true
+    },
+    {
+      "page": "https://arideo.su/doctors/abanina-ekaterina/",
+      "form_id": "p-5 needs-validation feedback-form",
+      "action_display": "action=\"/local/api/\"",
+      "open_tag": "<form class=\"p-5 needs-validation feedback-form\" action=\"/local/api/\" novalidate>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "2\">Укажите свои имя, контактный номер телефона и в ближайшее время мы свяжемся с вами для согласования всех данных</div> <div class=\"pt-lg-3 mb-lg-4 pt-1 mb-2\"> <div class=\"form-group mb-lg-5 mb-2\">",
+      "has_phone_field": true,
+      "has_name_field": true,
+      "has_textarea": false,
+      "phone_required": true
+    },
+    {
+      "page": "https://arideo.su/doctors/nazarov-vladislav-aleksandrovich/",
+      "form_id": "ps-lg-5 needs-validation feedback-form",
+      "action_display": "action=\"/local/api/\"",
+      "open_tag": "<form class=\"ps-lg-5 needs-validation feedback-form\" action=\"/local/api/\" novalidate>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "s=\"text-white pe-md-5 pe-sm-2 mb-sm-0 mb-2\"> Нажимая на кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь с <a href=\"/agreement/\">политикой конфиденциальности</a> </div> <div class=\"text-end\"",
+      "has_phone_field": true,
+      "has_name_field": true,
+      "has_textarea": false,
+      "phone_required": true
+    },
+    {
+      "page": "https://arideo.su/doctors/nazarov-vladislav-aleksandrovich/",
+      "form_id": "p-5 needs-validation feedback-form",
+      "action_display": "action=\"/local/api/\"",
+      "open_tag": "<form class=\"p-5 needs-validation feedback-form\" action=\"/local/api/\" novalidate>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "2\">Укажите свои имя, контактный номер телефона и в ближайшее время мы свяжемся с вами для согласования всех данных</div> <div class=\"pt-lg-3 mb-lg-4 pt-1 mb-2\"> <div class=\"form-group mb-lg-5 mb-2\">",
+      "has_phone_field": true,
+      "has_name_field": true,
+      "has_textarea": false,
+      "phone_required": true
+    },
+    {
+      "page": "https://arideo.su/doctors/podvoyskaya-inna-petrovna/",
+      "form_id": "ps-lg-5 needs-validation feedback-form",
+      "action_display": "action=\"/local/api/\"",
+      "open_tag": "<form class=\"ps-lg-5 needs-validation feedback-form\" action=\"/local/api/\" novalidate>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "s=\"text-white pe-md-5 pe-sm-2 mb-sm-0 mb-2\"> Нажимая на кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь с <a href=\"/agreement/\">политикой конфиденциальности</a> </div> <div class=\"text-end\"",
+      "has_phone_field": true,
+      "has_name_field": true,
+      "has_textarea": false,
+      "phone_required": true
+    },
+    {
+      "page": "https://arideo.su/doctors/podvoyskaya-inna-petrovna/",
+      "form_id": "p-5 needs-validation feedback-form",
+      "action_display": "action=\"/local/api/\"",
+      "open_tag": "<form class=\"p-5 needs-validation feedback-form\" action=\"/local/api/\" novalidate>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "2\">Укажите свои имя, контактный номер телефона и в ближайшее время мы свяжемся с вами для согласования всех данных</div> <div class=\"pt-lg-3 mb-lg-4 pt-1 mb-2\"> <div class=\"form-group mb-lg-5 mb-2\">",
+      "has_phone_field": true,
+      "has_name_field": true,
+      "has_textarea": false,
+      "phone_required": true
+    },
+    {
+      "page": "https://arideo.su/doctors/suzdaltsev-sergey-sergeevich/",
+      "form_id": "ps-lg-5 needs-validation feedback-form",
+      "action_display": "action=\"/local/api/\"",
+      "open_tag": "<form class=\"ps-lg-5 needs-validation feedback-form\" action=\"/local/api/\" novalidate>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "s=\"text-white pe-md-5 pe-sm-2 mb-sm-0 mb-2\"> Нажимая на кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь с <a href=\"/agreement/\">политикой конфиденциальности</a> </div> <div class=\"text-end\"",
+      "has_phone_field": true,
+      "has_name_field": true,
+      "has_textarea": false,
+      "phone_required": true
+    },
+    {
+      "page": "https://arideo.su/doctors/suzdaltsev-sergey-sergeevich/",
+      "form_id": "p-5 needs-validation feedback-form",
+      "action_display": "action=\"/local/api/\"",
+      "open_tag": "<form class=\"p-5 needs-validation feedback-form\" action=\"/local/api/\" novalidate>",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "2\">Укажите свои имя, контактный номер телефона и в ближайшее время мы свяжемся с вами для согласования всех данных</div> <div class=\"pt-lg-3 mb-lg-4 pt-1 mb-2\"> <div class=\"form-group mb-lg-5 mb-2\">",
+      "has_phone_field": true,
+      "has_name_field": true,
+      "has_textarea": false,
+      "phone_required": true
     }
   ],
   "emails": [
@@ -114,6 +321,36 @@
     },
     {
       "page": "https://arideo.su/contacts/",
+      "href": "/agreement/",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://arideo.su/agreement/",
+      "href": "/agreement/",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://arideo.su/doctors/",
+      "href": "/agreement/",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://arideo.su/doctors/abanina-ekaterina/",
+      "href": "/agreement/",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://arideo.su/doctors/nazarov-vladislav-aleksandrovich/",
+      "href": "/agreement/",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://arideo.su/doctors/podvoyskaya-inna-petrovna/",
+      "href": "/agreement/",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://arideo.su/doctors/suzdaltsev-sergey-sergeevich/",
       "href": "/agreement/",
       "text": "политикой конфиденциальности"
     }
@@ -156,68 +393,377 @@
       "visibility": "только в коде"
     },
     {
-      "token": "whatsapp",
-      "page": "https://arideo.su/",
-      "context": "src=\"/upload/resize_cache/iblock/9a9/306_306_2/WhatsApp Image 2021-12-17 at 13.05.30.jpeg\"",
+      "token": "instagram",
+      "page": "https://arideo.su/doctors/",
+      "context": "href=\"https://www.instagram.com/tv/CYa_Ec0ouWN/?utm_medium=copy_link\"",
       "visibility": "только в коде"
     },
     {
-      "token": "whatsapp",
-      "page": "https://arideo.su/",
-      "context": "src=\"/upload/resize_cache/iblock/7ed/306_306_2/WhatsApp Image 2021-12-17 at 13.05.35 (4).jpeg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://arideo.su/",
-      "context": "src=\"/upload/resize_cache/iblock/9e8/306_306_2/WhatsApp Image 2021-12-27 at 13.16.26.jpeg\"",
+      "token": "instagram.com",
+      "page": "https://arideo.su/doctors/",
+      "context": "href=\"https://www.instagram.com/tv/CYa_Ec0ouWN/?utm_medium=copy_link\"",
       "visibility": "только в коде"
     },
     {
       "token": "instagram",
-      "page": "https://arideo.su/",
-      "context": "class=\"icon-svg-img icon-instagram-color icon-grad-to-blue-light icon-48\"",
+      "page": "https://arideo.su/doctors/",
+      "context": "href=\"https://www.instagram.com/reel/CXQiPifoTLj/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://arideo.su/doctors/",
+      "context": "href=\"https://www.instagram.com/reel/CXQiPifoTLj/\"",
       "visibility": "только в коде"
     },
     {
       "token": "instagram",
-      "page": "https://arideo.su/",
-      "context": "class=\"icon-svg icon-svg-32 link-share link-share-instagram me-1 ms-1\"",
+      "page": "https://arideo.su/doctors/",
+      "context": "href=\"https://www.instagram.com/p/CVyNzMZo0EF/\"",
       "visibility": "только в коде"
     },
     {
-      "token": "whatsapp",
-      "page": "https://arideo.su/contacts/",
-      "context": "WhatsApp",
-      "visibility": "видно пользователю"
+      "token": "instagram.com",
+      "page": "https://arideo.su/doctors/",
+      "context": "href=\"https://www.instagram.com/p/CVyNzMZo0EF/\"",
+      "visibility": "только в коде"
     },
     {
-      "token": "wa.me",
-      "page": "https://arideo.su/contacts/",
-      "context": "href=\"https://wa.me/79774810708\"",
+      "token": "instagram",
+      "page": "https://arideo.su/doctors/suzdaltsev-sergey-sergeevich/",
+      "context": "href=\"https://www.instagram.com/tv/CYa_Ec0ouWN/?utm_medium=copy_link\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://arideo.su/doctors/suzdaltsev-sergey-sergeevich/",
+      "context": "href=\"https://www.instagram.com/tv/CYa_Ec0ouWN/?utm_medium=copy_link\"",
       "visibility": "только в коде"
     }
   ],
   "cert_errors": [],
+  "tech": {
+    "ssl": {
+      "ok": true,
+      "protocol": "TLSv1.3",
+      "issuer_cn": "R13",
+      "not_after": "Jun 27 23:46:54 2026 GMT",
+      "days_left": 52,
+      "error": null
+    },
+    "http_to_https": {
+      "requested": "http://arideo.su/",
+      "status": 200,
+      "final_url": "https://arideo.su:443/",
+      "redirected_to_https": true,
+      "error": null
+    },
+    "canonical_www": {
+      "non_www": {
+        "requested": "https://arideo.su/",
+        "status": 200,
+        "final_url": "https://arideo.su/",
+        "error": null
+      },
+      "www": {
+        "requested": "https://www.arideo.su/",
+        "status": 200,
+        "final_url": "https://www.arideo.su/",
+        "error": null
+      },
+      "same_canonical": false,
+      "canonical_host": null
+    },
+    "ttfb": {
+      "seconds": 0.822,
+      "source_url": "https://arideo.su/",
+      "status": 200,
+      "error": null
+    },
+    "pagespeed": {
+      "status": "ok",
+      "score": 28,
+      "lcp_seconds": 27.983,
+      "tool": "C:\\Program Files\\nodejs\\npx.CMD --yes lighthouse",
+      "error": null
+    },
+    "analytics": {
+      "found": true,
+      "kinds": [
+        "google_analytics",
+        "yandex_metrika"
+      ],
+      "goals_found": true,
+      "goal_markers": [
+        "datalayer_event"
+      ]
+    },
+    "engagement": {
+      "whatsapp": true,
+      "telegram": false,
+      "chat_widget": false,
+      "slot_booking_widget": false
+    },
+    "remarketing": {
+      "vk_pixel": false,
+      "meta_pixel": false,
+      "google_ads_remarketing": false,
+      "found": false
+    },
+    "favicon": {
+      "status": 200,
+      "from_html": true,
+      "found": true
+    },
+    "schema": {
+      "found": false,
+      "types": []
+    },
+    "med_trust": {
+      "contact_page_exists": true,
+      "contact_pages": [
+        "https://arideo.su/contacts/"
+      ],
+      "price_public_found": false,
+      "price_pages": [],
+      "doctors_page_exists": true,
+      "doctor_pages": [
+        "https://arideo.su/doctors/",
+        "https://arideo.su/doctors/abanina-ekaterina/",
+        "https://arideo.su/doctors/nazarov-vladislav-aleksandrovich/",
+        "https://arideo.su/doctors/podvoyskaya-inna-petrovna/",
+        "https://arideo.su/doctors/suzdaltsev-sergey-sergeevich/"
+      ],
+      "address_found": true,
+      "map_found": true,
+      "hours_found": false,
+      "reviews_found": true,
+      "service_pages_count": 0,
+      "service_pages": [],
+      "clickable_contacts": {
+        "tel": true,
+        "mailto": true
+      },
+      "doctor_cards": {
+        "names_count": 24,
+        "specialty_found": true,
+        "complete": true
+      },
+      "nap": {
+        "home_phones": [
+          "9774810708",
+          "4994310928"
+        ],
+        "contact_phones": [
+          "9774810708",
+          "4994310928"
+        ],
+        "phone_match": true,
+        "home_address_found": true,
+        "contact_address_found": true,
+        "address_match": false,
+        "consistent": true
+      },
+      "schema": {
+        "medical": false,
+        "any": false,
+        "types": []
+      }
+    },
+    "mixed_content": {
+      "count": 0,
+      "samples": []
+    },
+    "broken_internal_links": {
+      "checked": 53,
+      "broken": 0,
+      "samples": []
+    },
+    "broken_static_resources": {
+      "checked": 97,
+      "broken": 46,
+      "samples": [
+        {
+          "url": "https://arideo.su/upload/resize_cache/iblock/89b/400_400_0/44_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png",
+          "status": null,
+          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/89b/400_400_0/44_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png' (found at least ' ')",
+          "final_url": "https://arideo.su/upload/resize_cache/iblock/89b/400_400_0/44_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png"
+        },
+        {
+          "url": "https://arideo.su/upload/resize_cache/iblock/08a/400_400_0/42_A (1) (1) (1) (1).png",
+          "status": null,
+          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/08a/400_400_0/42_A (1) (1) (1) (1).png' (found at least ' ')",
+          "final_url": "https://arideo.su/upload/resize_cache/iblock/08a/400_400_0/42_A (1) (1) (1) (1).png"
+        },
+        {
+          "url": "https://arideo.su/upload/resize_cache/iblock/81a/400_400_0/47_A (1) (1) (1) (1) (1) (1) (1) (1).png",
+          "status": null,
+          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/81a/400_400_0/47_A (1) (1) (1) (1) (1) (1) (1) (1).png' (found at least ' ')",
+          "final_url": "https://arideo.su/upload/resize_cache/iblock/81a/400_400_0/47_A (1) (1) (1) (1) (1) (1) (1) (1).png"
+        },
+        {
+          "url": "https://arideo.su/upload/resize_cache/iblock/c47/400_400_0/54_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png",
+          "status": null,
+          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/c47/400_400_0/54_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png' (found at least ' ')",
+          "final_url": "https://arideo.su/upload/resize_cache/iblock/c47/400_400_0/54_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png"
+        },
+        {
+          "url": "https://arideo.su/upload/resize_cache/iblock/e7f/400_400_0/16_A (1) (1) (1) (1) (1).png",
+          "status": null,
+          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/e7f/400_400_0/16_A (1) (1) (1) (1) (1).png' (found at least ' ')",
+          "final_url": "https://arideo.su/upload/resize_cache/iblock/e7f/400_400_0/16_A (1) (1) (1) (1) (1).png"
+        },
+        {
+          "url": "https://arideo.su/upload/resize_cache/iblock/17e/400_400_0/6-(2)_A (1) (1) (1) (1) (1) (1) (1) (1) (1).png",
+          "status": null,
+          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/17e/400_400_0/6-(2)_A (1) (1) (1) (1) (1) (1) (1) (1) (1).png' (found at least ' ')",
+          "final_url": "https://arideo.su/upload/resize_cache/iblock/17e/400_400_0/6-(2)_A (1) (1) (1) (1) (1) (1) (1) (1) (1).png"
+        },
+        {
+          "url": "https://arideo.su/upload/resize_cache/iblock/da3/400_400_0/34_A (1) (1).png",
+          "status": null,
+          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/da3/400_400_0/34_A (1) (1).png' (found at least ' ')",
+          "final_url": "https://arideo.su/upload/resize_cache/iblock/da3/400_400_0/34_A (1) (1).png"
+        },
+        {
+          "url": "https://arideo.su/upload/resize_cache/iblock/29d/400_400_0/7-(3)_A (1) (1) (1) (1) (1) (1) (1).png",
+          "status": null,
+          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/29d/400_400_0/7-(3)_A (1) (1) (1) (1) (1) (1) (1).png' (found at least ' ')",
+          "final_url": "https://arideo.su/upload/resize_cache/iblock/29d/400_400_0/7-(3)_A (1) (1) (1) (1) (1) (1) (1).png"
+        },
+        {
+          "url": "https://arideo.su/upload/resize_cache/iblock/c4f/400_400_0/5-(2)_A (1) (1) (1) (1) (1).png",
+          "status": null,
+          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/c4f/400_400_0/5-(2)_A (1) (1) (1) (1) (1).png' (found at least ' ')",
+          "final_url": "https://arideo.su/upload/resize_cache/iblock/c4f/400_400_0/5-(2)_A (1) (1) (1) (1) (1).png"
+        },
+        {
+          "url": "https://arideo.su/upload/resize_cache/iblock/3ba/400_400_0/2-(7)_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png",
+          "status": null,
+          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/3ba/400_400_0/2-(7)_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png' (found at least ' ')",
+          "final_url": "https://arideo.su/upload/resize_cache/iblock/3ba/400_400_0/2-(7)_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png"
+        },
+        {
+          "url": "https://arideo.su/upload/resize_cache/iblock/d6b/400_400_0/1-(9)_A (2) (2) (1) (1).png",
+          "status": null,
+          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/d6b/400_400_0/1-(9)_A (2) (2) (1) (1).png' (found at least ' ')",
+          "final_url": "https://arideo.su/upload/resize_cache/iblock/d6b/400_400_0/1-(9)_A (2) (2) (1) (1).png"
+        },
+        {
+          "url": "https://arideo.su/upload/resize_cache/iblock/f5f/400_400_0/2-(6)_A (1) (1) (1) (1).png",
+          "status": null,
+          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/f5f/400_400_0/2-(6)_A (1) (1) (1) (1).png' (found at least ' ')",
+          "final_url": "https://arideo.su/upload/resize_cache/iblock/f5f/400_400_0/2-(6)_A (1) (1) (1) (1).png"
+        },
+        {
+          "url": "https://arideo.su/upload/resize_cache/iblock/448/400_400_0/1-(10)_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png",
+          "status": null,
+          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/448/400_400_0/1-(10)_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png' (found at least ' ')",
+          "final_url": "https://arideo.su/upload/resize_cache/iblock/448/400_400_0/1-(10)_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png"
+        },
+        {
+          "url": "https://arideo.su/upload/resize_cache/iblock/0e4/400_400_0/10-(13)_A (1) (1) (1) (1) (1) (1).png",
+          "status": null,
+          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/0e4/400_400_0/10-(13)_A (1) (1) (1) (1) (1) (1).png' (found at least ' ')",
+          "final_url": "https://arideo.su/upload/resize_cache/iblock/0e4/400_400_0/10-(13)_A (1) (1) (1) (1) (1) (1).png"
+        },
+        {
+          "url": "https://arideo.su/upload/resize_cache/iblock/258/400_400_0/4-(4)_A (1) (1).png",
+          "status": null,
+          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/258/400_400_0/4-(4)_A (1) (1).png' (found at least ' ')",
+          "final_url": "https://arideo.su/upload/resize_cache/iblock/258/400_400_0/4-(4)_A (1) (1).png"
+        },
+        {
+          "url": "https://arideo.su/upload/resize_cache/iblock/fcc/180_180_2/Влад-min.jpg",
+          "status": null,
+          "error": "'ascii' codec can't encode characters in position 46-49: ordinal not in range(128)",
+          "final_url": "https://arideo.su/upload/resize_cache/iblock/fcc/180_180_2/Влад-min.jpg"
+        },
+        {
+          "url": "https://arideo.su/upload/resize_cache/iblock/483/180_180_2/Катя -min.jpg",
+          "status": null,
+          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/483/180_180_2/Катя -min.jpg' (found at least ' ')",
+          "final_url": "https://arideo.su/upload/resize_cache/iblock/483/180_180_2/Катя -min.jpg"
+        },
+        {
+          "url": "https://arideo.su/upload/resize_cache/iblock/68a/306_306_2/FullSizeRender (5) (1).jpg",
+          "status": null,
+          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/68a/306_306_2/FullSizeRender (5) (1).jpg' (found at least ' ')",
+          "final_url": "https://arideo.su/upload/resize_cache/iblock/68a/306_306_2/FullSizeRender (5) (1).jpg"
+        },
+        {
+          "url": "https://arideo.su/upload/resize_cache/iblock/cc7/306_306_2/FullSizeRender (1)-min.jpg",
+          "status": null,
+          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/cc7/306_306_2/FullSizeRender (1)-min.jpg' (found at least ' ')",
+          "final_url": "https://arideo.su/upload/resize_cache/iblock/cc7/306_306_2/FullSizeRender (1)-min.jpg"
+        },
+        {
+          "url": "https://arideo.su/upload/resize_cache/iblock/a5c/306_306_2/IMG_1092 (1)-min.JPG",
+          "status": null,
+          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/a5c/306_306_2/IMG_1092 (1)-min.JPG' (found at least ' ')",
+          "final_url": "https://arideo.su/upload/resize_cache/iblock/a5c/306_306_2/IMG_1092 (1)-min.JPG"
+        }
+      ]
+    },
+    "security_headers": {
+      "checked": [
+        "strict-transport-security",
+        "content-security-policy",
+        "x-frame-options",
+        "x-content-type-options",
+        "referrer-policy"
+      ],
+      "present": [
+        "strict-transport-security"
+      ],
+      "missing": [
+        "content-security-policy",
+        "x-frame-options",
+        "x-content-type-options",
+        "referrer-policy"
+      ],
+      "values": {
+        "strict-transport-security": "max-age=31536000;"
+      },
+      "source_url": "https://arideo.su/",
+      "source_status": 200
+    }
+  },
   "discovery": {
     "contact_urls": [
       "https://arideo.su/contacts/"
     ],
     "booking_urls": [
-      "https://arideo.su/appointment",
-      "https://arideo.su/booking",
-      "https://arideo.su/zapis"
+      "https://arideo.su/"
+    ],
+    "legal_urls": [
+      "https://arideo.su/agreement/",
+      "https://arideo.su/doctors/",
+      "https://arideo.su/doctors/abanina-ekaterina/",
+      "https://arideo.su/doctors/nazarov-vladislav-aleksandrovich/",
+      "https://arideo.su/doctors/podvoyskaya-inna-petrovna/",
+      "https://arideo.su/doctors/suzdaltsev-sergey-sergeevich/"
     ],
     "sources": {
-      "https://arideo.su/": "",
-      "https://arideo.su/appointment": "fallback",
-      "https://arideo.su/booking": "fallback",
+      "https://arideo.su/": "home-booking-candidate",
+      "https://arideo.su/agreement/": "policy-hint",
       "https://arideo.su/contacts/": "navigation",
-      "https://arideo.su/zapis": "fallback"
+      "https://arideo.su/doctors/": "navigation-legal",
+      "https://arideo.su/doctors/abanina-ekaterina/": "navigation-legal",
+      "https://arideo.su/doctors/nazarov-vladislav-aleksandrovich/": "navigation-legal",
+      "https://arideo.su/doctors/podvoyskaya-inna-petrovna/": "navigation-legal",
+      "https://arideo.su/doctors/suzdaltsev-sergey-sergeevich/": "navigation-legal"
     },
     "fallback_used": {
       "contact": false,
-      "booking": true
-    }
+      "booking": false
+    },
+    "sitemap_total_urls": 6,
+    "sitemap_used_urls": 6
+  },
+  "verification": {
+    "b2": true,
+    "b3": true,
+    "b4": true
   }
 }
