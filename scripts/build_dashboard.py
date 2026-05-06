@@ -82,6 +82,7 @@ def badge_class(label: str) -> str:
         "проблема": "bad",
         "проверить": "warn",
         "частично": "warn",
+        "рекомендация": "warn",
         "н/п": "na",
         "-": "na",
         "текстом": "bad",
@@ -470,55 +471,6 @@ def to_float(value):
         return None
 
 
-def apply_block2_speed_ranking(summaries):
-    scored = []
-    for summary in summaries:
-        tech = summary.get("audit", {}).get("tech", {}) or {}
-        ps = tech.get("pagespeed", {}) or {}
-        score = to_float(ps.get("score"))
-        lcp = to_float(ps.get("lcp_seconds"))
-        if score is None and lcp is None:
-            continue
-        scored.append({"summary": summary, "score": score, "lcp": lcp})
-
-    if not scored:
-        for summary in summaries:
-            if summary["summary"].get("site_unavailable"):
-                summary["summary"]["b2_speed_status"] = "-"
-            else:
-                summary["summary"]["b2_speed_status"] = "проверить"
-        return
-
-    def rank_key(x):
-        score = x["score"]
-        lcp = x["lcp"]
-        score_key = -score if score is not None else 10_000
-        lcp_key = lcp if lcp is not None else 10_000
-        return (score_key, lcp_key)
-
-    scored_sorted = sorted(scored, key=rank_key)
-    total = len(scored_sorted)
-    for i, item in enumerate(scored_sorted, 1):
-        pct = i / total
-        if pct <= 0.33:
-            status = "ок"
-        elif pct <= 0.66:
-            status = "проверить"
-        else:
-            status = "проблема"
-        item["summary"]["summary"]["b2_speed_status"] = status
-        item["summary"]["summary"]["b2_speed_rank"] = i
-        item["summary"]["summary"]["b2_speed_rank_total"] = total
-
-    for summary in summaries:
-        if summary["summary"].get("b2_speed_status"):
-            continue
-        if summary["summary"].get("site_unavailable"):
-            summary["summary"]["b2_speed_status"] = "-"
-        else:
-            summary["summary"]["b2_speed_status"] = "проверить"
-
-
 def block2_statuses(audit, site_unavailable):
     if site_unavailable:
         return {
@@ -526,6 +478,7 @@ def block2_statuses(audit, site_unavailable):
             "digital_tool_status": "-",
             "analytics_status": "-",
             "remarketing_status": "-",
+            "speed_status": "-",
             "after_hours_status": "-",
             "anonymous_status": "-",
         }
@@ -538,39 +491,51 @@ def block2_statuses(audit, site_unavailable):
     remarketing = tech.get("remarketing", {}) or {}
 
     has_slot_booking = bool(engagement.get("slot_booking_widget"))
-    online_slots_status = "ок" if has_slot_booking else "проверить"
+    online_slots_status = "ок" if has_slot_booking else "рекомендация"
 
     sitemap_total = int(discovery.get("sitemap_total_urls") or 0)
     pages_count = len(audit.get("pages", []) or [])
-    functional_flags = 0
-    functional_flags += 1 if has_slot_booking else 0
-    functional_flags += 1 if bool(analytics.get("found")) else 0
-    functional_flags += 1 if bool(remarketing.get("found")) else 0
-    functional_flags += 1 if bool(engagement.get("whatsapp") or engagement.get("telegram") or engagement.get("chat_widget")) else 0
-    functional_flags += 1 if len(forms) >= 10 else 0
+    indexed_pages = max(sitemap_total, pages_count)
+    functional_signals = 0
+    functional_signals += 1 if has_slot_booking else 0
+    functional_signals += 1 if bool(analytics.get("found")) else 0
+    functional_signals += 1 if bool(remarketing.get("found")) else 0
+    functional_signals += 1 if bool(engagement.get("whatsapp") or engagement.get("telegram") or engagement.get("chat_widget")) else 0
 
-    if sitemap_total >= 35 and functional_flags >= 3:
+    if indexed_pages >= 10 and functional_signals >= 2:
         digital_tool_status = "ок"
-    elif sitemap_total >= 15 or functional_flags >= 2 or pages_count >= 12:
+    elif indexed_pages >= 6 or functional_signals >= 1:
         digital_tool_status = "частично"
     else:
-        digital_tool_status = "проверить"
+        digital_tool_status = "проблема"
 
     has_analytics = bool(analytics.get("found"))
     has_goals = bool(analytics.get("goals_found"))
     if has_analytics and has_goals:
         analytics_status = "ок"
     elif has_analytics:
-        analytics_status = "проверить"
+        analytics_status = "частично"
     else:
         analytics_status = "проблема"
 
     if remarketing.get("found") is True:
         remarketing_status = "ок"
     elif has_analytics:
-        remarketing_status = "проверить"
+        remarketing_status = "частично"
     else:
-        remarketing_status = "проверить"
+        remarketing_status = "проблема"
+
+    pagespeed = tech.get("pagespeed", {}) or {}
+    ps_score = to_float(pagespeed.get("score"))
+    ps_lcp = to_float(pagespeed.get("lcp_seconds"))
+    if ps_score is None and ps_lcp is None:
+        speed_status = "проверить"
+    elif (ps_score is not None and ps_score < 50) or (ps_lcp is not None and ps_lcp > 4.5):
+        speed_status = "проблема"
+    elif (ps_score is None or ps_score >= 70) and (ps_lcp is None or ps_lcp <= 3.0):
+        speed_status = "ок"
+    else:
+        speed_status = "частично"
 
     has_async_channel = bool(
         engagement.get("whatsapp")
@@ -578,7 +543,7 @@ def block2_statuses(audit, site_unavailable):
         or engagement.get("chat_widget")
         or len(forms) > 0
     )
-    after_hours_status = "ок" if has_async_channel else "проверить"
+    after_hours_status = "ок" if has_async_channel else "проблема"
 
     has_chat = bool(engagement.get("chat_widget"))
     has_text_question_without_required_phone = any(
@@ -588,15 +553,16 @@ def block2_statuses(audit, site_unavailable):
     if has_chat or has_text_question_without_required_phone:
         anonymous_status = "ок"
     elif len(forms) > 0:
-        anonymous_status = "проверить"
+        anonymous_status = "частично"
     else:
-        anonymous_status = "проверить"
+        anonymous_status = "проблема"
 
     return {
         "online_slots_status": online_slots_status,
         "digital_tool_status": digital_tool_status,
         "analytics_status": analytics_status,
         "remarketing_status": remarketing_status,
+        "speed_status": speed_status,
         "after_hours_status": after_hours_status,
         "anonymous_status": anonymous_status,
     }
@@ -1301,6 +1267,21 @@ def step2_block_schema():
     ]
 
 
+def metric_tooltip(block_id: str, metric_idx: int, metric_name: str) -> str:
+    block2 = {
+        0: "Оценка: 'ок' — найдена онлайн-запись со слотами (выбор конкретного времени); 'рекомендация' — слотовой записи не найдено.",
+        1: "Оценка: 'ок' — >=10 страниц и >=2 функциональных сигнала; 'частично' — 6-9 страниц или >=1 сигнал; 'проблема' — <6 страниц и 0 сигналов.",
+        2: "Оценка: 'ок' — есть аналитика и маркеры целей/событий; 'частично' — аналитика есть, но маркеры целей не найдены; 'проблема' — аналитика не найдена.",
+        3: "Оценка: 'ок' — найден хотя бы 1 ремаркетинг-пиксель; 'частично' — есть аналитика, но пиксель не найден; 'проблема' — нет ни аналитики, ни пикселя.",
+        4: "Оценка: 'ок' — LCP <= 3.0s и/или score >= 70; 'частично' — промежуточные значения; 'проблема' — LCP > 4.5s или score < 50.",
+        5: "Оценка: 'ок' — есть хотя бы один асинхронный канал (форма, WhatsApp/Telegram, чат); 'проблема' — асинхронного канала нет.",
+        6: "Оценка: 'ок' — есть чат или форма вопроса без обязательного телефона; 'частично' — форма есть, но телефон обязателен; 'проблема' — ни чата, ни формы вопроса.",
+    }
+    if block_id == "b2":
+        return block2.get(metric_idx, "")
+    return ""
+
+
 def step2_blocks_data(summary):
     consent_counts = summary.get("consent_counts", {}) or {}
     site_unavailable = summary.get("site_unavailable", False)
@@ -1312,7 +1293,6 @@ def step2_blocks_data(summary):
     third_party_policy_status = "-" if site_unavailable else "проверить"
     b4 = summary.get("b4", {}) or {}
     block2_default_status = "-" if site_unavailable else "проверить"
-    block2_speed_status = summary.get("b2_speed_status", block2_default_status)
     block2_verified = bool(summary.get("block2_verified"))
     block3_verified = bool(summary.get("block3_verified"))
     block4_verified = bool(summary.get("block4_verified"))
@@ -1324,7 +1304,7 @@ def step2_blocks_data(summary):
         b2.get("digital_tool_status", block2_default_status),
         b2.get("analytics_status", block2_default_status),
         b2.get("remarketing_status", block2_default_status),
-        block2_speed_status,
+        b2.get("speed_status", block2_default_status),
         b2.get("after_hours_status", block2_default_status),
         b2.get("anonymous_status", block2_default_status),
     ]
@@ -1397,7 +1377,13 @@ def step2_header_rows(schema):
         sub.append(f'<th class="metric-col {esc(bid)}-ph metric-head-col block-ph{ph_edge} is-hidden-col"></th>')
         for metric_idx, metric_name in enumerate(block["metric_names"]):
             metric_edge = " group-edge" if block_idx > 0 and metric_idx == 0 else ""
-            sub.append(f'<th class="metric-col {esc(bid)} metric-head-col{metric_edge}"><span class="metric-label">{esc(metric_name)}</span></th>')
+            tooltip = metric_tooltip(bid, metric_idx, metric_name)
+            tooltip_attr = f' title="{esc(tooltip)}"' if tooltip else ""
+            sub.append(
+                f'<th class="metric-col {esc(bid)} metric-head-col{metric_edge}">'
+                f'<span class="metric-label"{tooltip_attr}>{esc(metric_name)}</span>'
+                f'</th>'
+            )
     return "<tr>" + "".join(top) + "</tr><tr>" + "".join(sub) + "</tr>"
 
 
@@ -1578,8 +1564,6 @@ def main():
             "audit": audit,
             "summary": summary,
         })
-
-    apply_block2_speed_ranking(items_with_summary)
 
     for entry in items_with_summary:
         idx = entry["idx"]
