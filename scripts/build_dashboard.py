@@ -1023,14 +1023,281 @@ def row_html(row_num, site_id, clinic, site, s):
     """
 
 
-def details_section(title, status, lines):
+def details_section(title, status, lines, extra_class: str = ""):
     content = "".join(f"<li>{esc(line)}</li>" for line in lines) if lines else "<li>Нет данных</li>"
+    cls = f"block {extra_class}".strip()
     return f"""
-    <section class=\"block\">
+    <section class=\"{esc(cls)}\">
       <h2>{esc(title)} <span class=\"badge {badge_class(status)}\">{esc(status)}</span></h2>
       <ul>{content}</ul>
     </section>
     """
+
+
+def details_section_grouped(title, status, groups, extra_class: str = ""):
+    if not groups:
+        groups_html = '<div class="metric-item"><div class="metric-title">Нет данных</div></div>'
+    else:
+        parts = []
+        for g in groups:
+            name = esc(g.get("name", "Метрика"))
+            mstatus = str(g.get("status", "-"))
+            ev = g.get("evidence", []) or []
+            ev_html = "".join(f"<li>{esc(x)}</li>" for x in ev) if ev else "<li>Нет evidences</li>"
+            parts.append(
+                f'<div class="metric-item">'
+                f'<div class="metric-head"><span class="metric-title">{name}</span>'
+                f'<span class="badge {badge_class(mstatus)}">{esc(mstatus)}</span></div>'
+                f'<ul>{ev_html}</ul>'
+                f'</div>'
+            )
+        groups_html = "".join(parts)
+    cls = f"block {extra_class}".strip()
+    return f"""
+    <section class=\"{esc(cls)}\">
+      <h2>{esc(title)} <span class=\"badge {badge_class(status)}\">{esc(status)}</span></h2>
+      <div class=\"metric-grid\">{groups_html}</div>
+    </section>
+    """
+
+
+def metric_lines(metric_name, status, evidence_lines):
+    return {
+        "name": metric_name,
+        "status": status,
+        "evidence": evidence_lines or [],
+    }
+
+
+def block2_poc_lines(audit, summary):
+    b2 = summary.get("b2", {}) or {}
+    tech = audit.get("tech", {}) or {}
+    discovery = audit.get("discovery", {}) or {}
+    forms = audit.get("forms", []) or []
+    analytics = tech.get("analytics", {}) or {}
+    engagement = tech.get("engagement", {}) or {}
+    remarketing = tech.get("remarketing", {}) or {}
+    pagespeed = tech.get("pagespeed", {}) or {}
+
+    lines = []
+
+    lines.append(metric_lines(
+        "Онлайн-запись со слотами (nice-to-have)",
+        b2.get("online_slots_status", "-"),
+        [
+            f"slot_booking_widget: {bool(engagement.get('slot_booking_widget'))}",
+            "booking_urls: " + ", ".join((discovery.get("booking_urls", []) or [])[:5]) if discovery.get("booking_urls") else "booking_urls: не найдены",
+        ],
+    ))
+
+    sitemap_total = int(discovery.get("sitemap_total_urls") or 0)
+    pages_count = len(audit.get("pages", []) or [])
+    functional_signals = 0
+    functional_signals += 1 if bool(engagement.get("slot_booking_widget")) else 0
+    functional_signals += 1 if bool(analytics.get("found")) else 0
+    functional_signals += 1 if bool(remarketing.get("found")) else 0
+    functional_signals += 1 if bool(engagement.get("whatsapp") or engagement.get("telegram") or engagement.get("chat_widget")) else 0
+    lines.append(metric_lines(
+        "Сайт — цифровая визитка, не инструмент",
+        b2.get("digital_tool_status", "-"),
+        [
+            f"sitemap_total_urls: {sitemap_total}",
+            f"pages_count: {pages_count}",
+            f"functional_signals: {functional_signals}",
+        ],
+    ))
+
+    lines.append(metric_lines(
+        "Вы не знаете кто приходит на сайт и почему уходит",
+        b2.get("analytics_status", "-"),
+        [
+            f"analytics.found: {analytics.get('found')}",
+            "analytics.kinds: " + ", ".join(analytics.get("kinds", []) or []) if analytics.get("kinds") else "analytics.kinds: не найдены",
+            f"analytics.goals_found: {analytics.get('goals_found')}",
+            "goal_markers: " + ", ".join(analytics.get("goal_markers", []) or []) if analytics.get("goal_markers") else "goal_markers: не найдены",
+        ],
+    ))
+
+    remarketing_hits = [k for k in ["vk_pixel", "meta_pixel", "google_ads_remarketing"] if remarketing.get(k)]
+    lines.append(metric_lines(
+        "Ушедший пациент потерян навсегда — нет ремаркетинга",
+        b2.get("remarketing_status", "-"),
+        [
+            f"remarketing.found: {remarketing.get('found')}",
+            "remarketing_signals: " + ", ".join(remarketing_hits) if remarketing_hits else "remarketing_signals: не найдены",
+        ],
+    ))
+
+    lines.append(metric_lines(
+        "Скорость сайта на мобильном — место в рейтинге среди клиник",
+        b2.get("speed_status", "-"),
+        [
+            f"pagespeed.status: {pagespeed.get('status')}",
+            f"pagespeed.score: {pagespeed.get('score')}",
+            f"pagespeed.lcp_seconds: {pagespeed.get('lcp_seconds')}",
+        ],
+    ))
+
+    async_channels = []
+    if engagement.get("whatsapp"):
+        async_channels.append("whatsapp")
+    if engagement.get("telegram"):
+        async_channels.append("telegram")
+    if engagement.get("chat_widget"):
+        async_channels.append("chat_widget")
+    if forms:
+        async_channels.append("form")
+    lines.append(metric_lines(
+        "Пациент не может написать в нерабочее время",
+        b2.get("after_hours_status", "-"),
+        [
+            "async_channels: " + ", ".join(async_channels) if async_channels else "async_channels: не найдены",
+            f"forms_count: {len(forms)}",
+        ],
+    ))
+
+    has_textarea_no_phone = any(bool(f.get("has_textarea")) and not bool(f.get("phone_required")) for f in forms)
+    lines.append(metric_lines(
+        "Нет возможности задать вопрос анонимно",
+        b2.get("anonymous_status", "-"),
+        [
+            f"chat_widget: {bool(engagement.get('chat_widget'))}",
+            f"textarea_without_required_phone: {has_textarea_no_phone}",
+            f"forms_count: {len(forms)}",
+        ],
+    ))
+
+    return lines
+
+
+def block3_poc_lines(audit, summary):
+    b3 = summary.get("b3", {}) or {}
+    tech = audit.get("tech", {}) or {}
+    ssl_info = tech.get("ssl", {}) or {}
+    http_to_https = tech.get("http_to_https", {}) or {}
+    sec = tech.get("security_headers", {}) or {}
+    mixed = tech.get("mixed_content", {}) or {}
+    broken_links = tech.get("broken_internal_links", {}) or {}
+    broken_res = tech.get("broken_static_resources", {}) or {}
+    ttfb = tech.get("ttfb", {}) or {}
+    pagespeed = tech.get("pagespeed", {}) or {}
+    canonical = tech.get("canonical_www", {}) or {}
+    analytics = tech.get("analytics", {}) or {}
+
+    lines = []
+    lines.append(metric_lines("SSL валиден", b3.get("ssl_valid_status", "-"), [
+        f"ssl.ok: {ssl_info.get('ok')}",
+        f"issuer: {ssl_info.get('issuer_cn')}",
+        f"protocol: {ssl_info.get('protocol')}",
+    ]))
+    lines.append(metric_lines("Срок действия SSL (дней до истечения)", b3.get("ssl_expiry_status", "-"), [
+        f"not_after: {ssl_info.get('not_after')}",
+        f"days_left: {ssl_info.get('days_left')}",
+    ]))
+    lines.append(metric_lines("HTTP → HTTPS редирект", b3.get("http_to_https_status", "-"), [
+        f"requested: {http_to_https.get('requested')}",
+        f"final_url: {http_to_https.get('final_url')}",
+        f"redirected_to_https: {http_to_https.get('redirected_to_https')}",
+    ]))
+    hsts_value = (sec.get("values") or {}).get("strict-transport-security")
+    lines.append(metric_lines("HSTS включен", b3.get("hsts_status", "-"), [
+        f"HSTS value: {hsts_value if hsts_value else 'отсутствует'}",
+    ]))
+    mixed_samples = (mixed.get("samples") or [])[:3]
+    lines.append(metric_lines("Смешанный контент (HTTP на HTTPS)", b3.get("mixed_content_status", "-"), [
+        f"mixed_count: {mixed.get('count')}",
+    ] + [f"{x.get('page')} -> {x.get('asset')}" for x in mixed_samples]))
+    lines.append(metric_lines("Security headers baseline (CSP/XFO/XCTO/Referrer)", b3.get("security_headers_status", "-"), [
+        "present: " + ", ".join(sec.get("present", []) or []) if sec.get("present") else "present: нет",
+        "missing: " + ", ".join(sec.get("missing", []) or []) if sec.get("missing") else "missing: нет",
+    ]))
+    lines.append(metric_lines("SPF запись", b3.get("spf_status", "-"), [x for x in (summary.get("spf_dmarc_lines") or []) if "SPF:" in x][:1] or ["SPF: нет данных"]))
+    lines.append(metric_lines("DMARC запись + p=", b3.get("dmarc_status", "-"), [x for x in (summary.get("spf_dmarc_lines") or []) if "DMARC:" in x][:1] or ["DMARC: нет данных"]))
+    lines.append(metric_lines("DKIM (селекторы/наличие)", b3.get("dkim_status", "-"), (summary.get("dkim_lines") or ["DKIM: нет данных"])[:3]))
+    lines.append(metric_lines("Битые внутренние ссылки (4xx/5xx)", b3.get("broken_internal_links_status", "-"), [
+        f"checked: {broken_links.get('checked')}",
+        f"broken: {broken_links.get('broken')}",
+    ] + [f"{x.get('url')} [{x.get('status')}]" for x in (broken_links.get("samples") or [])[:3]]))
+    lines.append(metric_lines("Битые статические ресурсы (JS/CSS/img)", b3.get("broken_static_resources_status", "-"), [
+        f"checked: {broken_res.get('checked')}",
+        f"broken: {broken_res.get('broken')}",
+    ] + [f"{x.get('url')} [{x.get('status')}]" for x in (broken_res.get("samples") or [])[:3]]))
+    lines.append(metric_lines("TTFB", b3.get("ttfb_status", "-"), [
+        f"ttfb_seconds: {ttfb.get('seconds')}",
+        f"source_url: {ttfb.get('source_url')}",
+    ]))
+    lines.append(metric_lines("PageSpeed mobile + LCP", b3.get("pagespeed_status", "-"), [
+        f"score: {pagespeed.get('score')}",
+        f"lcp_seconds: {pagespeed.get('lcp_seconds')}",
+        f"status: {pagespeed.get('status')}",
+    ]))
+    lines.append(metric_lines("www vs non-www canonical", b3.get("canonical_status", "-"), [
+        f"same_canonical: {canonical.get('same_canonical')}",
+        f"non_www.final_url: {(canonical.get('non_www') or {}).get('final_url')}",
+        f"www.final_url: {(canonical.get('www') or {}).get('final_url')}",
+    ]))
+    lines.append(metric_lines("Веб-аналитика + цели/события", b3.get("analytics_goals_status", "-"), [
+        f"analytics.found: {analytics.get('found')}",
+        f"goals_found: {analytics.get('goals_found')}",
+        "goal_markers: " + ", ".join(analytics.get("goal_markers", []) or []) if analytics.get("goal_markers") else "goal_markers: не найдены",
+    ]))
+    return lines
+
+
+def block4_poc_lines(audit, summary):
+    b4 = summary.get("b4", {}) or {}
+    tech = audit.get("tech", {}) or {}
+    med = tech.get("med_trust", {}) or {}
+    nap = med.get("nap", {}) or {}
+    click = med.get("clickable_contacts", {}) or {}
+    doc = med.get("doctor_cards", {}) or {}
+    schema = med.get("schema", {}) or {}
+
+    lines = []
+    lines.append(metric_lines("Прайс-лист доступен без регистрации", b4.get("price_public_status", "-"), [
+        "price_pages: " + ", ".join((med.get("price_pages") or [])[:5]) if med.get("price_pages") else "price_pages: не найдены",
+    ]))
+    lines.append(metric_lines("Страница врачей / специалистов", b4.get("doctors_page_status", "-"), [
+        "doctor_pages: " + ", ".join((med.get("doctor_pages") or [])[:5]) if med.get("doctor_pages") else "doctor_pages: не найдены",
+    ]))
+    lines.append(metric_lines("Адрес и карта на сайте", b4.get("address_map_status", "-"), [
+        f"address_found: {med.get('address_found')}",
+        f"map_found: {med.get('map_found')}",
+    ]))
+    lines.append(metric_lines("Часы работы", b4.get("hours_status", "-"), [
+        f"hours_found: {med.get('hours_found')}",
+    ]))
+    lines.append(metric_lines("Отзывы пациентов на сайте", b4.get("reviews_status", "-"), [
+        f"reviews_found: {med.get('reviews_found')}",
+    ]))
+    lines.append(metric_lines("Ключевые услуги вынесены в отдельные страницы", b4.get("services_pages_status", "-"), [
+        f"service_pages_count: {med.get('service_pages_count')}",
+        "service_pages: " + ", ".join((med.get("service_pages") or [])[:5]) if med.get("service_pages") else "service_pages: не найдены",
+    ]))
+    lines.append(metric_lines("NAP consistency (название/адрес/телефон согласованы)", b4.get("nap_consistency_status", "-"), [
+        f"consistent: {nap.get('consistent')}",
+        "home_phones: " + ", ".join(nap.get("home_phones", []) or []) if nap.get("home_phones") else "home_phones: не найдены",
+        "contact_phones: " + ", ".join(nap.get("contact_phones", []) or []) if nap.get("contact_phones") else "contact_phones: не найдены",
+        f"address_match: {nap.get('address_match')}",
+    ]))
+    lines.append(metric_lines("Контакты кликабельны (tel:/mailto:)", b4.get("clickable_contacts_status", "-"), [
+        f"tel_link: {click.get('tel')}",
+        f"mailto_link: {click.get('mailto')}",
+    ]))
+    lines.append(metric_lines("Есть отдельная страница контактов", b4.get("contacts_page_status", "-"), [
+        f"contact_page_exists: {med.get('contact_page_exists')}",
+        "contact_pages: " + ", ".join((med.get("contact_pages") or [])[:5]) if med.get("contact_pages") else "contact_pages: не найдены",
+    ]))
+    lines.append(metric_lines("Карточки врачей: ФИО + специальность", b4.get("doctor_cards_status", "-"), [
+        f"names_count: {doc.get('names_count')}",
+        f"specialty_found: {doc.get('specialty_found')}",
+        f"complete: {doc.get('complete')}",
+    ]))
+    lines.append(metric_lines("Schema.org: MedicalOrganization / Physician", b4.get("schema_medical_status", "-"), [
+        f"medical_schema: {schema.get('medical')}",
+        "types: " + ", ".join(schema.get("types", []) or []) if schema.get("types") else "types: не найдены",
+    ]))
+    return lines
 
 
 def build_detail_page(item, audit, s):
@@ -1128,6 +1395,22 @@ def build_detail_page(item, audit, s):
     if found_bad:
         availability_lines.append(f"Недоступных найденных страниц: {len(found_bad)}.")
 
+    block2_lines = (
+        block2_poc_lines(audit, s)
+        if s.get("block2_verified")
+        else [metric_lines("Блок 2", "-", ["Блок 2 не верифицирован для этой клиники. Статусы блока скрыты ('-')."])]
+    )
+    block3_lines = (
+        block3_poc_lines(audit, s)
+        if s.get("block3_verified")
+        else [metric_lines("Блок 3", "-", ["Блок 3 не верифицирован для этой клиники. Статусы блока скрыты ('-')."])]
+    )
+    block4_lines = (
+        block4_poc_lines(audit, s)
+        if s.get("block4_verified")
+        else [metric_lines("Блок 4", "-", ["Блок 4 не верифицирован для этой клиники. Статусы блока скрыты ('-')."])]
+    )
+
     sections = "".join([
         details_section("Доступность сайта", s["availability_status"], availability_lines),
         details_section("Страницы проверки (основные найденные)", found_pages_status, checked_pages_core or ["Нет основных найденных страниц."]),
@@ -1139,6 +1422,9 @@ def build_detail_page(item, audit, s):
         details_section("SPF/DMARC", s["spf_dmarc_status"], spf_lines),
         details_section("Meta / Instagram", s["meta_status"], meta_lines),
         details_section("Политика", s["policy_status"], policy_lines),
+        details_section_grouped("Блок 2 — PoC / Findings", "ок" if s.get("block2_verified") else "-", block2_lines, "block-tone-b2"),
+        details_section_grouped("Блок 3 — PoC / Findings", "ок" if s.get("block3_verified") else "-", block3_lines, "block-tone-b3"),
+        details_section_grouped("Блок 4 — PoC / Findings", "ок" if s.get("block4_verified") else "-", block4_lines, "block-tone-b4"),
     ])
 
     return f"""<!doctype html>
@@ -1168,6 +1454,15 @@ li{{margin:4px 0}}
 .alert.ok{{background:#e8f8ef;color:#1d9e58;border-color:#c8efd9}}
 .alert.warn{{background:#fff6dd;color:#b67a00;border-color:#f0d889}}
 .alert.bad{{background:#ffe9ea;color:#c5333a;border-color:#f7c4c8}}
+.block-tone-b2{{background:#f4f8ff;border-color:#dbe7ff;box-shadow:inset 4px 0 0 #8db3ff}}
+.block-tone-b3{{background:#f4fbf6;border-color:#d8eddd;box-shadow:inset 4px 0 0 #83c596}}
+.block-tone-b4{{background:#fff8f2;border-color:#f1e1cf;box-shadow:inset 4px 0 0 #d9ad7b}}
+.metric-grid{{display:grid;grid-template-columns:1fr;gap:10px}}
+.metric-item{{border:1px solid #e6e8ef;border-radius:10px;padding:10px 12px;background:#fbfcff}}
+.metric-head{{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap;margin-bottom:6px}}
+.metric-title{{font-weight:700;color:#1f2430;font-size:14px;line-height:1.3}}
+.metric-item ul{{margin:0;padding-left:18px;line-height:1.45}}
+.metric-item li{{margin:3px 0;color:#455066}}
 </style>
 </head>
 <body>
