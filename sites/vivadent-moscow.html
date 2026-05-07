@@ -25,6 +25,7 @@ li{margin:4px 0}
 .alert.ok{background:#e8f8ef;color:#1d9e58;border-color:#c8efd9}
 .alert.warn{background:#fff6dd;color:#b67a00;border-color:#f0d889}
 .alert.bad{background:#ffe9ea;color:#c5333a;border-color:#f7c4c8}
+.block-tone-b1{background:#fff3f4;border-color:#f6d6da;box-shadow:inset 4px 0 0 #e2909a}
 .block-tone-b2{background:#f4f8ff;border-color:#dbe7ff;box-shadow:inset 4px 0 0 #8db3ff}
 .block-tone-b3{background:#f4fbf6;border-color:#d8eddd;box-shadow:inset 4px 0 0 #83c596}
 .block-tone-b4{background:#fff8f2;border-color:#f1e1cf;box-shadow:inset 4px 0 0 #d9ad7b}
@@ -56,49 +57,9 @@ li{margin:4px 0}
       <ul><li>Найденные страницы доступны: 2 из 2.</li></ul>
     </section>
     
-    <section class="block">
-      <h2>Страницы проверки (основные найденные) <span class="badge ok">ок</span></h2>
-      <ul><li>https://vivadent.moscow/ — 200 (основной URL)</li><li>https://vivadent.moscow/kontakty.html — 200 (навигация)</li></ul>
-    </section>
-    
-    <section class="block">
-      <h2>Доп. страницы из sitemap (формы) <span class="badge ok">ок</span></h2>
-      <ul><li>https://vivadent.moscow/politika — 404 (найдено по policy-hint в коде) | HTTPError 404</li><li>https://vivadent.moscow/wp-content/uploads/2025/08/fajl_10-politika-ispolzovaniya-cookies.pdf — 200 (навигация: правовая/документная страница)</li><li>https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotki-personalnyh-dannyh-vivadent.pdf — 200 (навигация: правовая/документная страница)</li><li>https://vivadent.moscow/wp-content/uploads/2025/10/politika-ispolzovaniya-sookie-faylov.pdf — 200 (навигация: правовая/документная страница)</li></ul>
-    </section>
-    
-    <section class="block">
-      <h2>Fallback-пробы URL <span class="badge warn">проверить</span></h2>
-      <ul><li>https://vivadent.moscow/appointment — 404 (fallback-путь) | HTTPError 404</li><li>https://vivadent.moscow/booking — 404 (fallback-путь) | HTTPError 404</li><li>https://vivadent.moscow/zapis — 404 (fallback-путь) | HTTPError 404</li></ul>
-    </section>
-    
-    <section class="block">
-      <h2>Сертификат <span class="badge ok">ок</span></h2>
-      <ul><li>HTTPS-страницы открылись без TLS-ошибок.</li></ul>
-    </section>
-    
-    <section class="block">
-      <h2>Форма: HTTPS <span class="badge ok">ок</span></h2>
-      <ul><li>Пример action: action отсутствует</li><li>Пример action: action=&quot;/#wpcf7-f11890-o1&quot;</li><li>Пример action: action=&quot;/kontakty.html#wpcf7-f11890-o1&quot;</li></ul>
-    </section>
-    
-    <section class="block">
-      <h2>Согласие <span class="badge bad">не найдено</span></h2>
-      <ul><li>Всего форм: 8</li><li>unchecked: 6</li><li>checked: 0</li><li>текстом: 0</li><li>не найдено: 2</li><li>не найдено | https://vivadent.moscow/ | wpcf7-form init | action=&quot;/#wpcf7-f11890-o1&quot;</li><li>не найдено | https://vivadent.moscow/kontakty.html | wpcf7-form init | action=&quot;/kontakty.html#wpcf7-f11890-o1&quot;</li></ul>
-    </section>
-    
-    <section class="block">
-      <h2>SPF/DMARC <span class="badge na">н/п</span></h2>
-      <ul><li>Email: vivadent.moscow1@yandex.ru (манифест)</li><li>Домен yandex.ru — сторонний почтовый сервис, не почтовый домен клиники.</li><li>Для этой проверки SPF/DMARC не оценивается.</li><li>Что проверить дальше: найти корпоративный email домена клиники и проверить SPF/DMARC уже для него.</li></ul>
-    </section>
-    
-    <section class="block">
-      <h2>Meta / Instagram <span class="badge ok">ок</span></h2>
-      <ul><li>Совпадений по списку meta/instagram/facebook/threads не найдено.</li></ul>
-    </section>
-    
-    <section class="block">
-      <h2>Политика <span class="badge ok">ок</span></h2>
-      <ul><li>https://vivadent.moscow/ -&gt; https://vivadent.moscow/wp-content/uploads/2025/08/fajl_10-politika-ispolzovaniya-cookies.pdf (текст: Политика в отношении файлов cookie)</li><li>https://vivadent.moscow/ -&gt; https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotki-personalnyh-dannyh-vivadent.pdf (текст: Политика обработки персональных данных)</li><li>https://vivadent.moscow/ -&gt; https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotki-personalnyh-dannyh-vivadent.pdf (текст: Принимаем оплату)</li><li>https://vivadent.moscow/ -&gt; https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotki-personalnyh-dannyh-vivadent.pdf (текст: политикой обработки персональных данных)</li><li>https://vivadent.moscow/ -&gt; https://vivadent.moscow/wp-content/uploads/2025/10/politika-ispolzovaniya-sookie-faylov.pdf (текст: Политикой использования cookies)</li><li>https://vivadent.moscow/ -&gt; https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotki-personalnyh-dannyh-vivadent.pdf (текст: как мы защищаем ваши персональные данные)</li><li>https://vivadent.moscow/kontakty.html -&gt; https://vivadent.moscow/wp-content/uploads/2025/08/fajl_10-politika-ispolzovaniya-cookies.pdf (текст: Политика в отношении файлов cookie)</li><li>https://vivadent.moscow/kontakty.html -&gt; https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotki-personalnyh-dannyh-vivadent.pdf (текст: Политика обработки персональных данных)</li><li>https://vivadent.moscow/kontakty.html -&gt; https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotki-personalnyh-dannyh-vivadent.pdf (текст: Принимаем оплату)</li><li>https://vivadent.moscow/kontakty.html -&gt; https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotki-personalnyh-dannyh-vivadent.pdf (текст: политикой обработки персональных данных)</li><li>https://vivadent.moscow/kontakty.html -&gt; https://vivadent.moscow/wp-content/uploads/2025/10/politika-ispolzovaniya-sookie-faylov.pdf (текст: Политикой использования cookies)</li><li>https://vivadent.moscow/kontakty.html -&gt; https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotki-personalnyh-dannyh-vivadent.pdf (текст: как мы защищаем ваши персональные данные)</li><li>https://vivadent.moscow/wp-content/uploads/2025/08/fajl_10-politika-ispolzovaniya-cookies.pdf -&gt; https://vivadent.moscow/wp-content/uploads/2025/08/fajl_10-politika-ispolzovaniya-cookies.pdf (текст: policy path)</li><li>https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotki-personalnyh-dannyh-vivadent.pdf -&gt; https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotki-personalnyh-dannyh-vivadent.pdf (текст: policy path)</li><li>https://vivadent.moscow/wp-content/uploads/2025/10/politika-ispolzovaniya-sookie-faylov.pdf -&gt; https://vivadent.moscow/wp-content/uploads/2025/10/politika-ispolzovaniya-sookie-faylov.pdf (текст: policy path)</li></ul>
+    <section class="block block-tone-b1">
+      <h2>Блок 1 — PoC / Findings <span class="badge bad">проблема</span></h2>
+      <div class="metric-grid"><div class="metric-item"><div class="metric-head"><span class="metric-title">Пациент не давал согласия на обработку данных</span><span class="badge bad">проблема</span></div><ul><li>forms_total: 8</li><li>consent_missing_count: 2</li><li>https://vivadent.moscow/ | wpcf7-form init | action=&quot;/#wpcf7-f11890-o1&quot;</li><li>https://vivadent.moscow/kontakty.html | wpcf7-form init | action=&quot;/kontakty.html#wpcf7-f11890-o1&quot;</li></ul></div><div class="metric-item"><div class="metric-head"><span class="metric-title">Согласие подставлено автоматически — это хуже чем его отсутствие</span><span class="badge ok">ок</span></div><ul><li>consent_prechecked_count: 0</li></ul></div><div class="metric-item"><div class="metric-head"><span class="metric-title">На сайте нет обязательного документа об обработке данных пациентов</span><span class="badge ok">ок</span></div><ul><li>https://vivadent.moscow/ -&gt; https://vivadent.moscow/wp-content/uploads/2025/08/fajl_10-politika-ispolzovaniya-cookies.pdf (текст: Политика в отношении файлов cookie)</li><li>https://vivadent.moscow/ -&gt; https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotki-personalnyh-dannyh-vivadent.pdf (текст: Политика обработки персональных данных)</li><li>https://vivadent.moscow/ -&gt; https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotki-personalnyh-dannyh-vivadent.pdf (текст: Принимаем оплату)</li><li>https://vivadent.moscow/ -&gt; https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotki-personalnyh-dannyh-vivadent.pdf (текст: политикой обработки персональных данных)</li><li>https://vivadent.moscow/ -&gt; https://vivadent.moscow/wp-content/uploads/2025/10/politika-ispolzovaniya-sookie-faylov.pdf (текст: Политикой использования cookies)</li><li>https://vivadent.moscow/ -&gt; https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotki-personalnyh-dannyh-vivadent.pdf (текст: как мы защищаем ваши персональные данные)</li><li>https://vivadent.moscow/kontakty.html -&gt; https://vivadent.moscow/wp-content/uploads/2025/08/fajl_10-politika-ispolzovaniya-cookies.pdf (текст: Политика в отношении файлов cookie)</li><li>https://vivadent.moscow/kontakty.html -&gt; https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotki-personalnyh-dannyh-vivadent.pdf (текст: Политика обработки персональных данных)</li><li>https://vivadent.moscow/kontakty.html -&gt; https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotki-personalnyh-dannyh-vivadent.pdf (текст: Принимаем оплату)</li><li>https://vivadent.moscow/kontakty.html -&gt; https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotki-personalnyh-dannyh-vivadent.pdf (текст: политикой обработки персональных данных)</li><li>https://vivadent.moscow/kontakty.html -&gt; https://vivadent.moscow/wp-content/uploads/2025/10/politika-ispolzovaniya-sookie-faylov.pdf (текст: Политикой использования cookies)</li><li>https://vivadent.moscow/kontakty.html -&gt; https://vivadent.moscow/wp-content/uploads/2025/08/fajl_11-politika-obrabotki-personalnyh-dannyh-vivadent.pdf (текст: как мы защищаем ваши персональные данные)</li></ul></div><div class="metric-item"><div class="metric-head"><span class="metric-title">Имя и телефон пациента передаются в открытом виде — любой может перехватить</span><span class="badge ok">ок</span></div><ul><li>Пример action: action отсутствует</li><li>Пример action: action=&quot;/#wpcf7-f11890-o1&quot;</li><li>Пример action: action=&quot;/kontakty.html#wpcf7-f11890-o1&quot;</li></ul></div><div class="metric-item"><div class="metric-head"><span class="metric-title">На сайте упоминается организация, признанная в России экстремистской</span><span class="badge ok">ок</span></div><ul><li>Совпадений по списку meta/instagram/facebook/threads не найдено.</li></ul></div><div class="metric-item"><div class="metric-head"><span class="metric-title">Сайт собирает данные пациентов без их уведомления</span><span class="badge warn">проверить</span></div><ul><li>Автопроверка cookie-баннера пока не включена в бинарную верификацию.</li><li>Текущий статус: проверка вручную.</li></ul></div><div class="metric-item"><div class="metric-head"><span class="metric-title">Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова</span><span class="badge warn">проверить</span></div><ul><li>Автосопоставление сторонних сервисов с текстом политики пока в ручной верификации.</li><li>Текущий статус: проверка вручную.</li></ul></div></div>
     </section>
     
     <section class="block block-tone-b2">
@@ -106,14 +67,9 @@ li{margin:4px 0}
       <div class="metric-grid"><div class="metric-item"><div class="metric-head"><span class="metric-title">Блок 2</span><span class="badge na">-</span></div><ul><li>Блок 2 не верифицирован для этой клиники. Статусы блока скрыты (&#x27;-&#x27;).</li></ul></div></div>
     </section>
     
-    <section class="block block-tone-b3">
+    <section class="block block-tone-b4">
       <h2>Блок 3 — PoC / Findings <span class="badge na">-</span></h2>
       <div class="metric-grid"><div class="metric-item"><div class="metric-head"><span class="metric-title">Блок 3</span><span class="badge na">-</span></div><ul><li>Блок 3 не верифицирован для этой клиники. Статусы блока скрыты (&#x27;-&#x27;).</li></ul></div></div>
-    </section>
-    
-    <section class="block block-tone-b4">
-      <h2>Блок 4 — PoC / Findings <span class="badge na">-</span></h2>
-      <div class="metric-grid"><div class="metric-item"><div class="metric-head"><span class="metric-title">Блок 4</span><span class="badge na">-</span></div><ul><li>Блок 4 не верифицирован для этой клиники. Статусы блока скрыты (&#x27;-&#x27;).</li></ul></div></div>
     </section>
     
 

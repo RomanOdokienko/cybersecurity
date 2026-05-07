@@ -1395,36 +1395,94 @@ def build_detail_page(item, audit, s):
     if found_bad:
         availability_lines.append(f"Недоступных найденных страниц: {len(found_bad)}.")
 
+    consent_counts = s.get("consent_counts", {}) or {}
+    site_unavailable = bool(s.get("site_unavailable"))
+    missing_checkbox = int(consent_counts.get("не найдено", 0)) > 0
+    prechecked = int(consent_counts.get("checked", 0)) > 0
+    no_checkbox_status = "-" if site_unavailable else ("проблема" if missing_checkbox else "ок")
+    prechecked_status = "-" if site_unavailable else ("проблема" if prechecked else "ок")
+    cookie_status = "-" if site_unavailable else "проверить"
+    third_party_policy_status = "-" if site_unavailable else "проверить"
+
+    block1_lines = [
+        metric_lines(
+            "Пациент не давал согласия на обработку данных",
+            no_checkbox_status,
+            [
+                f"forms_total: {len(audit.get('forms', []) or [])}",
+                f"consent_missing_count: {consent_counts.get('не найдено', 0)}",
+            ] + [
+                f"{f.get('page')} | {f.get('form_id')} | {f.get('action_display')}"
+                for f in (s.get("consent_buckets", {}).get("не найдено", []) or [])[:8]
+            ],
+        ),
+        metric_lines(
+            "Согласие подставлено автоматически — это хуже чем его отсутствие",
+            prechecked_status,
+            [
+                f"consent_prechecked_count: {consent_counts.get('checked', 0)}",
+            ] + [
+                f"{f.get('page')} | {f.get('form_id')} | {f.get('action_display')}"
+                for f in (s.get("consent_buckets", {}).get("checked", []) or [])[:8]
+            ],
+        ),
+        metric_lines(
+            "На сайте нет обязательного документа об обработке данных пациентов",
+            s["policy_status"],
+            policy_lines[:12] or ["Ссылка на политику не найдена."],
+        ),
+        metric_lines(
+            "Имя и телефон пациента передаются в открытом виде — любой может перехватить",
+            s["form_https_status"],
+            form_https_lines[:12] or ["Признаков передачи по HTTP не найдено."],
+        ),
+        metric_lines(
+            "На сайте упоминается организация, признанная в России экстремистской",
+            s["meta_status"],
+            meta_lines[:12],
+        ),
+        metric_lines(
+            "Сайт собирает данные пациентов без их уведомления",
+            cookie_status,
+            [
+                "Автопроверка cookie-баннера пока не включена в бинарную верификацию.",
+                "Текущий статус: проверка вручную.",
+            ],
+        ),
+        metric_lines(
+            "Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова",
+            third_party_policy_status,
+            [
+                "Автосопоставление сторонних сервисов с текстом политики пока в ручной верификации.",
+                "Текущий статус: проверка вручную.",
+            ],
+        ),
+    ]
+
+    block1_metric_statuses = [m.get("status", "-") for m in block1_lines]
+    if any(st == "проблема" for st in block1_metric_statuses):
+        block1_status = "проблема"
+    elif any(st in {"-", "проверить", "частично", "рекомендация"} for st in block1_metric_statuses):
+        block1_status = "проверить"
+    else:
+        block1_status = "ок"
+
     block2_lines = (
         block2_poc_lines(audit, s)
         if s.get("block2_verified")
         else [metric_lines("Блок 2", "-", ["Блок 2 не верифицирован для этой клиники. Статусы блока скрыты ('-')."])]
     )
-    block3_lines = (
-        block3_poc_lines(audit, s)
-        if s.get("block3_verified")
-        else [metric_lines("Блок 3", "-", ["Блок 3 не верифицирован для этой клиники. Статусы блока скрыты ('-')."])]
-    )
     block4_lines = (
         block4_poc_lines(audit, s)
         if s.get("block4_verified")
-        else [metric_lines("Блок 4", "-", ["Блок 4 не верифицирован для этой клиники. Статусы блока скрыты ('-')."])]
+        else [metric_lines("Блок 3", "-", ["Блок 3 не верифицирован для этой клиники. Статусы блока скрыты ('-')."])]
     )
 
     sections = "".join([
         details_section("Доступность сайта", s["availability_status"], availability_lines),
-        details_section("Страницы проверки (основные найденные)", found_pages_status, checked_pages_core or ["Нет основных найденных страниц."]),
-        details_section("Доп. страницы из sitemap (формы)", "ок", checked_pages_extra) if checked_pages_extra else "",
-        details_section("Fallback-пробы URL", "проверить" if fallback_pages else "ок", fallback_pages or ["Не применялся."]),
-        details_section("Сертификат", s["cert_status"], cert_lines),
-        details_section("Форма: HTTPS", s["form_https_status"], form_https_lines),
-        details_section("Согласие", s["consent_status"], consent_lines),
-        details_section("SPF/DMARC", s["spf_dmarc_status"], spf_lines),
-        details_section("Meta / Instagram", s["meta_status"], meta_lines),
-        details_section("Политика", s["policy_status"], policy_lines),
+        details_section_grouped("Блок 1 — PoC / Findings", block1_status, block1_lines, "block-tone-b1"),
         details_section_grouped("Блок 2 — PoC / Findings", "ок" if s.get("block2_verified") else "-", block2_lines, "block-tone-b2"),
-        details_section_grouped("Блок 3 — PoC / Findings", "ок" if s.get("block3_verified") else "-", block3_lines, "block-tone-b3"),
-        details_section_grouped("Блок 4 — PoC / Findings", "ок" if s.get("block4_verified") else "-", block4_lines, "block-tone-b4"),
+        details_section_grouped("Блок 3 — PoC / Findings", "ок" if s.get("block4_verified") else "-", block4_lines, "block-tone-b4"),
     ])
 
     return f"""<!doctype html>
@@ -1454,6 +1512,7 @@ li{{margin:4px 0}}
 .alert.ok{{background:#e8f8ef;color:#1d9e58;border-color:#c8efd9}}
 .alert.warn{{background:#fff6dd;color:#b67a00;border-color:#f0d889}}
 .alert.bad{{background:#ffe9ea;color:#c5333a;border-color:#f7c4c8}}
+.block-tone-b1{{background:#fff3f4;border-color:#f6d6da;box-shadow:inset 4px 0 0 #e2909a}}
 .block-tone-b2{{background:#f4f8ff;border-color:#dbe7ff;box-shadow:inset 4px 0 0 #8db3ff}}
 .block-tone-b3{{background:#f4fbf6;border-color:#d8eddd;box-shadow:inset 4px 0 0 #83c596}}
 .block-tone-b4{{background:#fff8f2;border-color:#f1e1cf;box-shadow:inset 4px 0 0 #d9ad7b}}
@@ -1663,12 +1722,14 @@ def step2_header_rows(schema):
 
 def row_html_step2(row_num, site_id, clinic, site, s, schema):
     block_values = step2_blocks_data(s)
+    external = site_url(site)
     parts = [
-        "<tr>",
+        f'<tr id="row-step2-{esc(site_id)}" class="clickable" data-href="sites/{esc(site_id)}.html" tabindex="0">',
         f'<td class="id-col">{esc(row_num)}</td>',
         (
             '<td class="clinic-col">'
             f'<div class="clinic-name" title="{esc(clinic)}">{esc(clinic)}</div>'
+            f'<div class="site"><a class="site-link" href="{esc(external)}" target="_blank" rel="noopener noreferrer">{esc(site)}</a></div>'
             "</td>"
         ),
     ]
@@ -1713,10 +1774,11 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
     .card .l {{ margin-top:3px; font-size:11px; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); font-weight:700; }}
     .n.ok{{color:var(--ok-fg)}} .n.warn{{color:var(--warn-fg)}} .n.bad{{color:var(--bad-fg)}} .n.na{{color:var(--na-fg)}} .n.total{{color:#111827}}
     .table-wrap {{ margin-top:12px; background:#fff; border:1px solid var(--line); border-radius:12px; overflow-x:auto; }}
-    table {{ width:100%; min-width:6200px; border-collapse:collapse; table-layout:fixed; }}
+    table {{ width:100%; min-width:5600px; border-collapse:collapse; table-layout:fixed; }}
     thead th {{ text-align:left; background:#fafbfe; border-bottom:1px solid var(--line); color:#576072; font-size:10px; letter-spacing:.01em; text-transform:none; font-weight:700; padding:9px 8px; white-space:normal; line-height:1.2; }}
     tbody td {{ border-bottom:1px solid var(--line); padding:6px 8px; font-size:12px; vertical-align:top; line-height:1.2; }}
     tbody tr:last-child td {{ border-bottom:0; }}
+    tr.clickable{{cursor:pointer}} tr.clickable:hover td{{background:#f7f9ff}}
     .site {{ color:#5e6678; font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size:11px; overflow-wrap:anywhere; }}
     .site-link {{ color:#455066; text-decoration:none; border-bottom:1px dotted #9aa6bd; }}
     .site-link:hover {{ color:#24324f; text-decoration:none; border-bottom-color:#24324f; }}
@@ -1728,9 +1790,9 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
     .na {{ background:var(--na-bg); color:var(--na-fg); border-color:#dde2ea; }}
     .id-col-head {{ width:52px; min-width:52px; position:sticky; left:0; z-index:4; box-shadow:1px 0 0 #e9edf6; text-align:center; }}
     .id-col {{ width:52px; min-width:52px; position:sticky; left:0; z-index:3; box-shadow:1px 0 0 #e9edf6; background:#fff; text-align:center; color:#6a7385; font-weight:700; font-size:11px; }}
-    .clinic-col {{ background:#fff; width:280px; min-width:280px; position:sticky; left:52px; z-index:2; box-shadow:1px 0 0 #e9edf6; padding:8px 10px; }}
+    .clinic-col {{ background:#fff; width:260px; min-width:260px; position:sticky; left:52px; z-index:2; box-shadow:1px 0 0 #e9edf6; padding:8px 10px; }}
     .clinic-name {{ font-weight:500; font-size:14px; color:#1f2430; line-height:1.25; overflow-wrap:anywhere; }}
-    .metric-col {{ text-align:center; background:#fcfdff; border-left:1px solid #edf1f7; min-width:140px; }}
+    .metric-col {{ text-align:center; background:#fcfdff; border-left:1px solid #edf1f7; min-width:126px; }}
     .group-edge {{ border-left:3px solid #d0d8e8 !important; }}
     .col-head {{ position:relative; display:flex; justify-content:flex-end; align-items:center; min-height:24px; }}
     .col-title {{ position:absolute; left:50%; transform:translateX(-50%); width:100%; padding:0 26px 0 8px; text-align:center; font-size:12px; font-weight:800; color:#394153; pointer-events:none; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }}
@@ -1741,8 +1803,8 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
     .metric-label {{ display:block; }}
     .is-hidden-col {{ display:none !important; }}
     .notes {{ margin-top:10px; background:#fff; border:1px solid var(--line); border-radius:10px; padding:10px 12px; font-size:12px; color:#4e5565; line-height:1.35; }}
-    .clinic-col-head {{ width:280px; min-width:280px; position:sticky; left:52px; z-index:3; box-shadow:1px 0 0 #e9edf6; }}
-    .metric-head-col {{ min-width:140px; font-size:10px; line-height:1.25; font-weight:600; }}
+    .clinic-col-head {{ width:260px; min-width:260px; position:sticky; left:52px; z-index:3; box-shadow:1px 0 0 #e9edf6; }}
+    .metric-head-col {{ min-width:126px; font-size:10px; line-height:1.25; font-weight:600; }}
   </style>
 </head>
 <body>
@@ -1806,6 +1868,18 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
         const collapsed = sample ? sample.classList.contains('is-hidden-col') : false;
         setBlockCollapsed(blockId, !collapsed);
       }});
+    }});
+
+    document.querySelectorAll('tr.clickable').forEach(function(row){{
+      row.addEventListener('click', function(){{ window.location.href = row.dataset.href; }});
+      row.addEventListener('keydown', function(e){{
+        if(e.target && e.target.closest && (e.target.closest('a') || e.target.closest('input,textarea,select,button'))) return;
+        if(e.key === 'Enter' || e.key === ' '){{ e.preventDefault(); window.location.href = row.dataset.href; }}
+      }});
+    }});
+
+    document.querySelectorAll('a.site-link').forEach(function(link){{
+      link.addEventListener('click', function(e){{ e.stopPropagation(); }});
     }});
   </script>
 </body>
