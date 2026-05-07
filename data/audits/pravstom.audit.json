@@ -1,161 +1,359 @@
-{
-  "domain": "pravstom.ru",
-  "pages": [
-    {
-      "requested": "https://pravstom.ru/",
-      "status": 200,
-      "final_url": "https://pravstom.ru/",
-      "error": null
-    },
-    {
-      "requested": "https://pravstom.ru/contact",
-      "status": 404,
-      "final_url": "https://pravstom.ru/contact",
-      "error": "HTTPError 404"
-    },
-    {
-      "requested": "https://pravstom.ru/contacts",
-      "status": 404,
-      "final_url": "https://pravstom.ru/contacts",
-      "error": "HTTPError 404"
-    },
-    {
-      "requested": "https://pravstom.ru/kontakty",
-      "status": 200,
-      "final_url": "https://pravstom.ru/kontakty",
-      "error": null
-    },
-    {
-      "requested": "https://pravstom.ru/appointment",
-      "status": 404,
-      "final_url": "https://pravstom.ru/appointment",
-      "error": "HTTPError 404"
-    },
-    {
-      "requested": "https://pravstom.ru/booking",
-      "status": 404,
-      "final_url": "https://pravstom.ru/booking",
-      "error": "HTTPError 404"
-    },
-    {
-      "requested": "https://pravstom.ru/zapis",
-      "status": 404,
-      "final_url": "https://pravstom.ru/zapis",
-      "error": "HTTPError 404"
-    }
-  ],
-  "forms": [],
-  "emails": [],
-  "privacy_links": [
-    {
-      "page": "https://pravstom.ru/",
-      "href": "/index.php?option=com_content&view=article&id=80",
-      "text": "Политика конфиденциальности"
-    },
-    {
-      "page": "https://pravstom.ru/kontakty",
-      "href": "/index.php?option=com_content&view=article&id=80",
-      "text": "Политика конфиденциальности"
-    }
-  ],
-  "forbidden_hits": [
-    {
-      "token": "whatsapp",
-      "page": "https://pravstom.ru/",
-      "context": "Напишите нам в WhatsApp",
-      "visibility": "видно пользователю"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://pravstom.ru/",
-      "context": "href=\"https://web.whatsapp.com/send?phone=79151193207\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://pravstom.ru/",
-      "context": "href=\"https://api.whatsapp.com/send?phone=79151193207\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://pravstom.ru/",
-      "context": "src=\"/images/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://pravstom.ru/",
-      "context": "class=\"fa fa-whatsapp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://pravstom.ru/",
-      "context": "class=\"whatsapp-widget-icon\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://pravstom.ru/kontakty",
-      "context": "Напишите нам в WhatsApp",
-      "visibility": "видно пользователю"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://pravstom.ru/kontakty",
-      "context": "href=\"https://web.whatsapp.com/send?phone=79151193207\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://pravstom.ru/kontakty",
-      "context": "href=\"https://api.whatsapp.com/send?phone=79151193207\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://pravstom.ru/kontakty",
-      "context": "src=\"/images/whatsapp.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://pravstom.ru/kontakty",
-      "context": "class=\"fa fa-whatsapp\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://pravstom.ru/kontakty",
-      "context": "class=\"whatsapp-widget-icon\"",
-      "visibility": "только в коде"
-    }
-  ],
-  "cert_errors": [],
-  "discovery": {
-    "contact_urls": [
-      "https://pravstom.ru/contact",
-      "https://pravstom.ru/contacts",
-      "https://pravstom.ru/kontakty"
-    ],
-    "booking_urls": [
-      "https://pravstom.ru/appointment",
-      "https://pravstom.ru/booking",
-      "https://pravstom.ru/zapis"
-    ],
-    "sources": {
-      "https://pravstom.ru/": "",
-      "https://pravstom.ru/appointment": "fallback",
-      "https://pravstom.ru/booking": "fallback",
-      "https://pravstom.ru/contact": "fallback",
-      "https://pravstom.ru/contacts": "fallback",
-      "https://pravstom.ru/kontakty": "fallback",
-      "https://pravstom.ru/zapis": "fallback"
-    },
-    "fallback_used": {
-      "contact": true,
-      "booking": true
-    }
-  }
+﻿{
+    "domain":  "pravstom.ru",
+    "pages":  [
+                  {
+                      "requested":  "https://pravstom.ru/",
+                      "status":  200,
+                      "final_url":  "https://pravstom.ru/",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://pravstom.ru/kontakty",
+                      "status":  200,
+                      "final_url":  "https://pravstom.ru/kontakty",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://pravstom.ru/appointment",
+                      "status":  404,
+                      "final_url":  "https://pravstom.ru/appointment",
+                      "error":  "HTTPError 404"
+                  },
+                  {
+                      "requested":  "https://pravstom.ru/booking",
+                      "status":  404,
+                      "final_url":  "https://pravstom.ru/booking",
+                      "error":  "HTTPError 404"
+                  },
+                  {
+                      "requested":  "https://pravstom.ru/zapis",
+                      "status":  404,
+                      "final_url":  "https://pravstom.ru/zapis",
+                      "error":  "HTTPError 404"
+                  },
+                  {
+                      "requested":  "https://pravstom.ru/doctors",
+                      "status":  200,
+                      "final_url":  "https://pravstom.ru/doctors",
+                      "error":  null
+                  }
+              ],
+    "forms":  [
+
+              ],
+    "emails":  [
+
+               ],
+    "privacy_links":  [
+                          {
+                              "page":  "https://pravstom.ru/",
+                              "href":  "/index.php?option=com_content\u0026view=article\u0026id=80",
+                              "text":  "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+                          },
+                          {
+                              "page":  "https://pravstom.ru/kontakty",
+                              "href":  "/index.php?option=com_content\u0026view=article\u0026id=80",
+                              "text":  "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+                          },
+                          {
+                              "page":  "https://pravstom.ru/doctors",
+                              "href":  "https://pravstom.ru/index.php?option=com_content\u0026view=article\u0026id=80",
+                              "text":  "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+                          },
+                          {
+                              "page":  "https://pravstom.ru/doctors",
+                              "href":  "/index.php?option=com_content\u0026view=article\u0026id=80",
+                              "text":  "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+                          }
+                      ],
+    "forbidden_hits":  [
+
+                       ],
+    "cert_errors":  [
+
+                    ],
+    "tech":  {
+                 "ssl":  {
+                             "ok":  false,
+                             "protocol":  null,
+                             "issuer_cn":  null,
+                             "not_after":  null,
+                             "days_left":  null,
+                             "error":  "_ssl.c:1011: The handshake operation timed out"
+                         },
+                 "http_to_https":  {
+                                       "requested":  "http://pravstom.ru/",
+                                       "status":  200,
+                                       "final_url":  "https://pravstom.ru/",
+                                       "redirected_to_https":  true,
+                                       "error":  null
+                                   },
+                 "canonical_www":  {
+                                       "non_www":  {
+                                                       "requested":  "https://pravstom.ru/",
+                                                       "status":  200,
+                                                       "final_url":  "https://pravstom.ru/",
+                                                       "error":  null
+                                                   },
+                                       "www":  {
+                                                   "requested":  "https://www.pravstom.ru/",
+                                                   "status":  200,
+                                                   "final_url":  "https://pravstom.ru/",
+                                                   "error":  null
+                                               },
+                                       "same_canonical":  true,
+                                       "canonical_host":  "pravstom.ru"
+                                   },
+                 "ttfb":  {
+                              "seconds":  0.769,
+                              "source_url":  "https://pravstom.ru/",
+                              "status":  200,
+                              "error":  null
+                          },
+                 "pagespeed":  {
+                                   "status":  "ok",
+                                   "score":  75,
+                                   "lcp_seconds":  2.482,
+                                   "tool":  "C:\\Program Files\\nodejs\\npx.CMD --yes lighthouse",
+                                   "error":  null
+                               },
+                 "analytics":  {
+                                   "found":  true,
+                                   "kinds":  [
+                                                 "google_analytics",
+                                                 "yandex_metrika"
+                                             ],
+                                   "goals_found":  true,
+                                   "goal_markers":  [
+                                                        "google_event"
+                                                    ]
+                               },
+                 "engagement":  {
+                                    "whatsapp":  true,
+                                    "telegram":  true,
+                                    "chat_widget":  false,
+                                    "slot_booking_widget":  false
+                                },
+                 "remarketing":  {
+                                     "vk_pixel":  false,
+                                     "meta_pixel":  false,
+                                     "google_ads_remarketing":  false,
+                                     "found":  false
+                                 },
+                 "favicon":  {
+                                 "status":  null,
+                                 "from_html":  false,
+                                 "found":  false
+                             },
+                 "schema":  {
+                                "found":  true,
+                                "types":  [
+                                              "detected"
+                                          ]
+                            },
+                 "med_trust":  {
+                                   "contact_page_exists":  true,
+                                   "contact_pages":  [
+                                                         "https://pravstom.ru/kontakty"
+                                                     ],
+                                   "price_public_found":  false,
+                                   "price_pages":  [
+
+                                                   ],
+                                   "doctors_page_exists":  true,
+                                   "doctor_pages":  [
+                                                        "https://pravstom.ru/doctors"
+                                                    ],
+                                   "address_found":  true,
+                                   "map_found":  true,
+                                   "hours_found":  false,
+                                   "reviews_found":  true,
+                                   "service_pages_count":  0,
+                                   "service_pages":  [
+
+                                                     ],
+                                   "clickable_contacts":  {
+                                                              "tel":  true,
+                                                              "mailto":  false
+                                                          },
+                                   "doctor_cards":  {
+                                                        "names_count":  63,
+                                                        "specialty_found":  true,
+                                                        "complete":  true
+                                                    },
+                                   "nap":  {
+                                               "home_phones":  [
+                                                                   "4994315119",
+                                                                   "9776713541"
+                                                               ],
+                                               "contact_phones":  [
+                                                                      "4994315119",
+                                                                      "9776713541"
+                                                                  ],
+                                               "phone_match":  true,
+                                               "home_address_found":  true,
+                                               "contact_address_found":  true,
+                                               "address_match":  true,
+                                               "consistent":  true
+                                           },
+                                   "schema":  {
+                                                  "medical":  false,
+                                                  "any":  true,
+                                                  "types":  [
+                                                                "detected"
+                                                            ]
+                                              }
+                               },
+                 "mixed_content":  {
+                                       "count":  0,
+                                       "samples":  [
+
+                                                   ]
+                                   },
+                 "broken_internal_links":  {
+                                               "checked":  49,
+                                               "broken":  9,
+                                               "samples":  [
+                                                               {
+                                                                   "url":  "https://pravstom.ru/about",
+                                                                   "status":  null,
+                                                                   "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e",
+                                                                   "final_url":  "https://pravstom.ru/about"
+                                                               },
+                                                               {
+                                                                   "url":  "https://pravstom.ru/aktsii",
+                                                                   "status":  null,
+                                                                   "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e",
+                                                                   "final_url":  "https://pravstom.ru/aktsii"
+                                                               },
+                                                               {
+                                                                   "url":  "https://pravstom.ru/video",
+                                                                   "status":  null,
+                                                                   "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e",
+                                                                   "final_url":  "https://pravstom.ru/video"
+                                                               },
+                                                               {
+                                                                   "url":  "https://pravstom.ru/aktsii/professional-naya-gigiena-polosti-rta-i-zubov-dlya-novichkov-razovaya",
+                                                                   "status":  null,
+                                                                   "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e",
+                                                                   "final_url":  "https://pravstom.ru/aktsii/professional-naya-gigiena-polosti-rta-i-zubov-dlya-novichkov-razovaya"
+                                                               },
+                                                               {
+                                                                   "url":  "https://pravstom.ru/stomatologicheskie-uslugi/lechenie-djosen/lechenie-desen",
+                                                                   "status":  null,
+                                                                   "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e",
+                                                                   "final_url":  "https://pravstom.ru/stomatologicheskie-uslugi/lechenie-djosen/lechenie-desen"
+                                                               },
+                                                               {
+                                                                   "url":  "https://pravstom.ru/stomatologicheskie-uslugi/lechenie-djosen/parodontit",
+                                                                   "status":  null,
+                                                                   "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e",
+                                                                   "final_url":  "https://pravstom.ru/stomatologicheskie-uslugi/lechenie-djosen/parodontit"
+                                                               },
+                                                               {
+                                                                   "url":  "https://pravstom.ru/stomatologicheskie-uslugi/gigiena/otbelivanie-zubov-philips-zoom-white-speed",
+                                                                   "status":  null,
+                                                                   "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e",
+                                                                   "final_url":  "https://pravstom.ru/stomatologicheskie-uslugi/gigiena/otbelivanie-zubov-philips-zoom-white-speed"
+                                                               },
+                                                               {
+                                                                   "url":  "https://pravstom.ru/index.php?option=com_content\u0026view=article\u0026id=81",
+                                                                   "status":  null,
+                                                                   "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e",
+                                                                   "final_url":  "https://pravstom.ru/index.php?option=com_content\u0026view=article\u0026id=81"
+                                                               },
+                                                               {
+                                                                   "url":  "https://pravstom.ru/doctors/kupreev-aleksandr-mikhajlovich",
+                                                                   "status":  null,
+                                                                   "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e",
+                                                                   "final_url":  "https://pravstom.ru/doctors/kupreev-aleksandr-mikhajlovich"
+                                                               }
+                                                           ]
+                                           },
+                 "broken_static_resources":  {
+                                                 "checked":  36,
+                                                 "broken":  4,
+                                                 "samples":  [
+                                                                 {
+                                                                     "url":  "https://pravstom.ru/templates/smartlayout/custom/css-compiled/smartlayout_9.css",
+                                                                     "status":  null,
+                                                                     "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e",
+                                                                     "final_url":  "https://pravstom.ru/templates/smartlayout/custom/css-compiled/smartlayout_9.css"
+                                                                 },
+                                                                 {
+                                                                     "url":  "https://pravstom.ru/media/gantry5/engines/nucleus/css-compiled/joomla.css",
+                                                                     "status":  null,
+                                                                     "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e",
+                                                                     "final_url":  "https://pravstom.ru/media/gantry5/engines/nucleus/css-compiled/joomla.css"
+                                                                 },
+                                                                 {
+                                                                     "url":  "https://pravstom.ru/media/jui/css/icomoon.css",
+                                                                     "status":  null,
+                                                                     "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e",
+                                                                     "final_url":  "https://pravstom.ru/media/jui/css/icomoon.css"
+                                                                 },
+                                                                 {
+                                                                     "url":  "https://pravstom.ru/media/jui/js/jquery-migrate.min.js?8a3abd460f25f42f904a8561e1cf9a3d",
+                                                                     "status":  null,
+                                                                     "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e",
+                                                                     "final_url":  "https://pravstom.ru/media/jui/js/jquery-migrate.min.js?8a3abd460f25f42f904a8561e1cf9a3d"
+                                                                 }
+                                                             ]
+                                             },
+                 "security_headers":  {
+                                          "checked":  [
+                                                          "strict-transport-security",
+                                                          "content-security-policy",
+                                                          "x-frame-options",
+                                                          "x-content-type-options",
+                                                          "referrer-policy"
+                                                      ],
+                                          "present":  [
+                                                          "x-content-type-options"
+                                                      ],
+                                          "missing":  [
+                                                          "strict-transport-security",
+                                                          "content-security-policy",
+                                                          "x-frame-options",
+                                                          "referrer-policy"
+                                                      ],
+                                          "values":  {
+                                                         "x-content-type-options":  "nosniff"
+                                                     },
+                                          "source_url":  "https://pravstom.ru/",
+                                          "source_status":  200
+                                      }
+             },
+    "discovery":  {
+                      "contact_urls":  [
+                                           "https://pravstom.ru/kontakty"
+                                       ],
+                      "booking_urls":  [
+                                           "https://pravstom.ru/appointment",
+                                           "https://pravstom.ru/booking",
+                                           "https://pravstom.ru/zapis"
+                                       ],
+                      "legal_urls":  [
+                                         "https://pravstom.ru/doctors"
+                                     ],
+                      "sources":  {
+                                      "https://pravstom.ru/":  "",
+                                      "https://pravstom.ru/appointment":  "fallback",
+                                      "https://pravstom.ru/booking":  "fallback",
+                                      "https://pravstom.ru/doctors":  "navigation-legal",
+                                      "https://pravstom.ru/kontakty":  "navigation",
+                                      "https://pravstom.ru/zapis":  "fallback"
+                                  },
+                      "fallback_used":  {
+                                            "contact":  false,
+                                            "booking":  true
+                                        },
+                      "sitemap_total_urls":  0,
+                      "sitemap_used_urls":  0
+                  },
+    "verification":  {
+                         "b2":  true,
+                         "b3":  true,
+                         "b4":  true
+                     }
 }

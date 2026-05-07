@@ -1,5 +1,16 @@
 ﻿import argparse
 import json
+import os
+
+# Загружаем .env из корня проекта
+_env_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), '.env')
+if os.path.exists(_env_path):
+    with open(_env_path) as _f:
+        for _line in _f:
+            _line = _line.strip()
+            if _line and not _line.startswith('#') and '=' in _line:
+                _k, _v = _line.split('=', 1)
+                os.environ.setdefault(_k.strip(), _v.strip())
 import re
 import socket
 import ssl
@@ -699,6 +710,37 @@ def detect_remarketing_signals(html_pages):
     return signals
 
 
+def run_pagespeed_api(url: str, api_key: str):
+    """Google PageSpeed Insights API — стабильные результаты с серверов Google."""
+    api_url = (
+        f"https://www.googleapis.com/pagespeedonline/v5/runPagespeed"
+        f"?url={urllib.parse.quote(url, safe=':/')}&strategy=mobile&key={api_key}"
+    )
+    try:
+        req = urllib.request.Request(api_url, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req, timeout=120) as resp:
+            report = json.loads(resp.read().decode('utf-8'))
+    except Exception as exc:
+        return {
+            'status': 'error', 'score': None, 'lcp_seconds': None,
+            'tool': 'pagespeed_api', 'error': str(exc),
+        }
+
+    root = report.get('lighthouseResult', {})
+    perf_score = root.get('categories', {}).get('performance', {}).get('score')
+    audits = root.get('audits', {})
+    lcp_ms = audits.get('largest-contentful-paint', {}).get('numericValue')
+    fcp_ms = audits.get('first-contentful-paint', {}).get('numericValue')
+    score = int(round(float(perf_score) * 100)) if isinstance(perf_score, (int, float)) else None
+    lcp_seconds = round(float(lcp_ms) / 1000.0, 3) if isinstance(lcp_ms, (int, float)) else None
+    fcp_seconds = round(float(fcp_ms) / 1000.0, 3) if isinstance(fcp_ms, (int, float)) else None
+    return {
+        'status': 'ok' if score is not None else 'error',
+        'score': score, 'lcp_seconds': lcp_seconds, 'fcp_seconds': fcp_seconds,
+        'tool': 'pagespeed_api', 'error': None,
+    }
+
+
 def run_lighthouse_mobile(url: str):
     tool = None
     lh_path = shutil.which('lighthouse')
@@ -1300,7 +1342,11 @@ def run_audit(base_url: str):
     pagespeed_url = str(https_home_resp.get('final_url') or https_base + '/')
     if not pagespeed_url.startswith('http'):
         pagespeed_url = https_base + '/'
-    pagespeed_data = run_lighthouse_mobile(pagespeed_url)
+    _ps_api_key = os.environ.get('PAGESPEED_API_KEY', '').strip()
+    if _ps_api_key:
+        pagespeed_data = run_pagespeed_api(pagespeed_url, _ps_api_key)
+    else:
+        pagespeed_data = run_lighthouse_mobile(pagespeed_url)
 
     internal_candidates = []
     for page in html_ok_pages:
@@ -1497,7 +1543,7 @@ def run_audit(base_url: str):
             'pagespeed': {
                 'status': pagespeed_data.get('status'),
                 'score': pagespeed_data.get('score'),
-                'lcp_seconds': pagespeed_data.get('lcp_seconds'),
+                'lcp_seconds': pagespeed_data.get('fcp_seconds'),
                 'tool': pagespeed_data.get('tool'),
                 'error': pagespeed_data.get('error'),
             },

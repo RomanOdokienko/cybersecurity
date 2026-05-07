@@ -1,1100 +1,1611 @@
-{
-  "domain": "stone-dent.ru",
-  "pages": [
-    {
-      "requested": "https://stone-dent.ru/",
-      "status": 200,
-      "final_url": "https://stone-dent.ru/",
-      "error": null
-    },
-    {
-      "requested": "https://stone-dent.ru/kontakty",
-      "status": 200,
-      "final_url": "https://stone-dent.ru/kontakty",
-      "error": null
-    },
-    {
-      "requested": "https://stone-dent.ru",
-      "status": 200,
-      "final_url": "https://stone-dent.ru",
-      "error": null
-    },
-    {
-      "requested": "https://stone-dent.ru/akcii-1",
-      "status": 200,
-      "final_url": "https://stone-dent.ru/akcii-1",
-      "error": null
-    },
-    {
-      "requested": "https://stone-dent.ru/doktora",
-      "status": 200,
-      "final_url": "https://stone-dent.ru/doktora",
-      "error": null
-    },
-    {
-      "requested": "https://stone-dent.ru/forma",
-      "status": 200,
-      "final_url": "https://stone-dent.ru/forma",
-      "error": null
-    },
-    {
-      "requested": "https://stone-dent.ru/forma1",
-      "status": 200,
-      "final_url": "https://stone-dent.ru/forma1",
-      "error": null
-    },
-    {
-      "requested": "https://stone-dent.ru/informaciya-dlya-pacientov",
-      "status": 200,
-      "final_url": "https://stone-dent.ru/informaciya-dlya-pacientov",
-      "error": null
-    },
-    {
-      "requested": "https://stone-dent.ru/karta-sayta",
-      "status": 200,
-      "final_url": "https://stone-dent.ru/karta-sayta",
-      "error": null
-    },
-    {
-      "requested": "https://stone-dent.ru/nashi-sotrudniki",
-      "status": 200,
-      "final_url": "https://stone-dent.ru/nashi-sotrudniki",
-      "error": null
-    },
-    {
-      "requested": "https://stone-dent.ru/otzyvy-1",
-      "status": 200,
-      "final_url": "https://stone-dent.ru/otzyvy-1",
-      "error": null
-    },
-    {
-      "requested": "https://stone-dent.ru/politika-konfidencialnosti",
-      "status": 200,
-      "final_url": "https://stone-dent.ru/politika-konfidencialnosti",
-      "error": null
-    },
-    {
-      "requested": "https://stone-dent.ru/regictracia",
-      "status": 200,
-      "final_url": "https://stone-dent.ru/regictracia",
-      "error": null
-    },
-    {
-      "requested": "https://stone-dent.ru/search",
-      "status": 200,
-      "final_url": "https://stone-dent.ru/search",
-      "error": null
-    },
-    {
-      "requested": "https://stone-dent.ru/user",
-      "status": 200,
-      "final_url": "https://stone-dent.ru/user",
-      "error": null
-    },
-    {
-      "requested": "https://stone-dent.ru/voprosy",
-      "status": 200,
-      "final_url": "https://stone-dent.ru/voprosy",
-      "error": null
-    }
-  ],
-  "forms": [
-    {
-      "page": "https://stone-dent.ru/",
-      "form_id": "iks3vsw56_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"iks3vsw56_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iks3vsw56\" data-s3-anketa-id=\"75409109\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"i4y08l7he_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i4y08l7he\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/",
-      "form_id": "iywtowjjx_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"iywtowjjx_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iywtowjjx\" data-s3-anketa-id=\"18914104\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/",
-      "form_id": "ikii044rp_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"ikii044rp_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-ikii044rp\" data-s3-anketa-id=\"18914304\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/",
-      "form_id": "iewfk3r2r_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"iewfk3r2r_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iewfk3r2r\" data-s3-anketa-id=\"18913704\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"iht7c2bgu_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-iht7c2bgu\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/",
-      "form_id": "igrjtop2e_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"igrjtop2e_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-igrjtop2e\" data-s3-anketa-id=\"18913904\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"i5mnk9urj_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i5mnk9urj\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/kontakty",
-      "form_id": "ikii044rp_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"ikii044rp_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-ikii044rp\" data-s3-anketa-id=\"18914304\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/kontakty",
-      "form_id": "iewfk3r2r_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"iewfk3r2r_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iewfk3r2r\" data-s3-anketa-id=\"18913704\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"iht7c2bgu_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-iht7c2bgu\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/kontakty",
-      "form_id": "igrjtop2e_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"igrjtop2e_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-igrjtop2e\" data-s3-anketa-id=\"18913904\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"i5mnk9urj_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i5mnk9urj\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/kontakty",
-      "form_id": "iks3vsw56_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"iks3vsw56_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iks3vsw56\" data-s3-anketa-id=\"75409109\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"i4y08l7he_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i4y08l7he\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru",
-      "form_id": "iks3vsw56_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"iks3vsw56_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iks3vsw56\" data-s3-anketa-id=\"75409109\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"i4y08l7he_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i4y08l7he\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru",
-      "form_id": "iywtowjjx_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"iywtowjjx_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iywtowjjx\" data-s3-anketa-id=\"18914104\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru",
-      "form_id": "ikii044rp_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"ikii044rp_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-ikii044rp\" data-s3-anketa-id=\"18914304\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru",
-      "form_id": "iewfk3r2r_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"iewfk3r2r_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iewfk3r2r\" data-s3-anketa-id=\"18913704\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"iht7c2bgu_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-iht7c2bgu\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru",
-      "form_id": "igrjtop2e_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"igrjtop2e_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-igrjtop2e\" data-s3-anketa-id=\"18913904\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"i5mnk9urj_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i5mnk9urj\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/akcii-1",
-      "form_id": "ikii044rp_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"ikii044rp_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-ikii044rp\" data-s3-anketa-id=\"18914304\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/akcii-1",
-      "form_id": "iewfk3r2r_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"iewfk3r2r_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iewfk3r2r\" data-s3-anketa-id=\"18913704\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"iht7c2bgu_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-iht7c2bgu\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/akcii-1",
-      "form_id": "igrjtop2e_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"igrjtop2e_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-igrjtop2e\" data-s3-anketa-id=\"18913904\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"i5mnk9urj_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i5mnk9urj\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/akcii-1",
-      "form_id": "iks3vsw56_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"iks3vsw56_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iks3vsw56\" data-s3-anketa-id=\"75409109\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"i4y08l7he_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i4y08l7he\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/doktora",
-      "form_id": "ikii044rp_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"ikii044rp_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-ikii044rp\" data-s3-anketa-id=\"18914304\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/doktora",
-      "form_id": "iewfk3r2r_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"iewfk3r2r_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iewfk3r2r\" data-s3-anketa-id=\"18913704\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"iht7c2bgu_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-iht7c2bgu\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/doktora",
-      "form_id": "igrjtop2e_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"igrjtop2e_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-igrjtop2e\" data-s3-anketa-id=\"18913904\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"i5mnk9urj_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i5mnk9urj\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/doktora",
-      "form_id": "iks3vsw56_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"iks3vsw56_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iks3vsw56\" data-s3-anketa-id=\"75409109\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"i4y08l7he_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i4y08l7he\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/forma",
-      "form_id": "form_1",
-      "action_display": "action отсутствует",
-      "open_tag": "<form method=\"post\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/forma",
-      "form_id": "ikii044rp_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"ikii044rp_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-ikii044rp\" data-s3-anketa-id=\"18914304\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/forma",
-      "form_id": "iewfk3r2r_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"iewfk3r2r_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iewfk3r2r\" data-s3-anketa-id=\"18913704\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"iht7c2bgu_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-iht7c2bgu\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/forma",
-      "form_id": "igrjtop2e_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"igrjtop2e_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-igrjtop2e\" data-s3-anketa-id=\"18913904\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"i5mnk9urj_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i5mnk9urj\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/forma",
-      "form_id": "iks3vsw56_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"iks3vsw56_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iks3vsw56\" data-s3-anketa-id=\"75409109\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"i4y08l7he_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i4y08l7he\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/forma1",
-      "form_id": "form_1",
-      "action_display": "action отсутствует",
-      "open_tag": "<form method=\"post\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/forma1",
-      "form_id": "ikii044rp_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"ikii044rp_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-ikii044rp\" data-s3-anketa-id=\"18914304\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/forma1",
-      "form_id": "iewfk3r2r_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"iewfk3r2r_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iewfk3r2r\" data-s3-anketa-id=\"18913704\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"iht7c2bgu_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-iht7c2bgu\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/forma1",
-      "form_id": "igrjtop2e_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"igrjtop2e_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-igrjtop2e\" data-s3-anketa-id=\"18913904\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"i5mnk9urj_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i5mnk9urj\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/forma1",
-      "form_id": "iks3vsw56_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"iks3vsw56_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iks3vsw56\" data-s3-anketa-id=\"75409109\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"i4y08l7he_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i4y08l7he\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/informaciya-dlya-pacientov",
-      "form_id": "ikii044rp_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"ikii044rp_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-ikii044rp\" data-s3-anketa-id=\"18914304\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/informaciya-dlya-pacientov",
-      "form_id": "iewfk3r2r_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"iewfk3r2r_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iewfk3r2r\" data-s3-anketa-id=\"18913704\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"iht7c2bgu_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-iht7c2bgu\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/informaciya-dlya-pacientov",
-      "form_id": "igrjtop2e_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"igrjtop2e_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-igrjtop2e\" data-s3-anketa-id=\"18913904\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"i5mnk9urj_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i5mnk9urj\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/informaciya-dlya-pacientov",
-      "form_id": "iks3vsw56_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"iks3vsw56_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iks3vsw56\" data-s3-anketa-id=\"75409109\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"i4y08l7he_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i4y08l7he\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/karta-sayta",
-      "form_id": "ikii044rp_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"ikii044rp_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-ikii044rp\" data-s3-anketa-id=\"18914304\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/karta-sayta",
-      "form_id": "iewfk3r2r_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"iewfk3r2r_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iewfk3r2r\" data-s3-anketa-id=\"18913704\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"iht7c2bgu_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-iht7c2bgu\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/karta-sayta",
-      "form_id": "igrjtop2e_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"igrjtop2e_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-igrjtop2e\" data-s3-anketa-id=\"18913904\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"i5mnk9urj_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i5mnk9urj\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/karta-sayta",
-      "form_id": "iks3vsw56_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"iks3vsw56_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iks3vsw56\" data-s3-anketa-id=\"75409109\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"i4y08l7he_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i4y08l7he\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/nashi-sotrudniki",
-      "form_id": "ikii044rp_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"ikii044rp_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-ikii044rp\" data-s3-anketa-id=\"18914304\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/nashi-sotrudniki",
-      "form_id": "iewfk3r2r_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"iewfk3r2r_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iewfk3r2r\" data-s3-anketa-id=\"18913704\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"iht7c2bgu_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-iht7c2bgu\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/nashi-sotrudniki",
-      "form_id": "igrjtop2e_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"igrjtop2e_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-igrjtop2e\" data-s3-anketa-id=\"18913904\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"i5mnk9urj_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i5mnk9urj\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/nashi-sotrudniki",
-      "form_id": "iks3vsw56_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"iks3vsw56_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iks3vsw56\" data-s3-anketa-id=\"75409109\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"i4y08l7he_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i4y08l7he\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/otzyvy-1",
-      "form_id": "ikii044rp_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"ikii044rp_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-ikii044rp\" data-s3-anketa-id=\"18914304\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/otzyvy-1",
-      "form_id": "iewfk3r2r_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"iewfk3r2r_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iewfk3r2r\" data-s3-anketa-id=\"18913704\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"iht7c2bgu_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-iht7c2bgu\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/otzyvy-1",
-      "form_id": "igrjtop2e_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"igrjtop2e_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-igrjtop2e\" data-s3-anketa-id=\"18913904\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"i5mnk9urj_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i5mnk9urj\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/otzyvy-1",
-      "form_id": "iks3vsw56_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"iks3vsw56_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iks3vsw56\" data-s3-anketa-id=\"75409109\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"i4y08l7he_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i4y08l7he\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/politika-konfidencialnosti",
-      "form_id": "ikii044rp_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"ikii044rp_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-ikii044rp\" data-s3-anketa-id=\"18914304\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/politika-konfidencialnosti",
-      "form_id": "iewfk3r2r_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"iewfk3r2r_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iewfk3r2r\" data-s3-anketa-id=\"18913704\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"iht7c2bgu_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-iht7c2bgu\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/politika-konfidencialnosti",
-      "form_id": "igrjtop2e_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"igrjtop2e_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-igrjtop2e\" data-s3-anketa-id=\"18913904\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"i5mnk9urj_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i5mnk9urj\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/politika-konfidencialnosti",
-      "form_id": "iks3vsw56_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"iks3vsw56_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iks3vsw56\" data-s3-anketa-id=\"75409109\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"i4y08l7he_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i4y08l7he\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/regictracia",
-      "form_id": "ikii044rp_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"ikii044rp_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-ikii044rp\" data-s3-anketa-id=\"18914304\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/regictracia",
-      "form_id": "iewfk3r2r_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"iewfk3r2r_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iewfk3r2r\" data-s3-anketa-id=\"18913704\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"iht7c2bgu_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-iht7c2bgu\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/regictracia",
-      "form_id": "igrjtop2e_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"igrjtop2e_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-igrjtop2e\" data-s3-anketa-id=\"18913904\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"i5mnk9urj_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i5mnk9urj\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/regictracia",
-      "form_id": "iks3vsw56_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"iks3vsw56_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iks3vsw56\" data-s3-anketa-id=\"75409109\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"i4y08l7he_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i4y08l7he\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/search",
-      "form_id": "form_1",
-      "action_display": "action=\"\"",
-      "open_tag": "<form action=\"\" method=\"get\" accept-charset=\"utf-8\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/search",
-      "form_id": "ikii044rp_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"ikii044rp_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-ikii044rp\" data-s3-anketa-id=\"18914304\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/search",
-      "form_id": "iewfk3r2r_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"iewfk3r2r_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iewfk3r2r\" data-s3-anketa-id=\"18913704\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"iht7c2bgu_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-iht7c2bgu\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/search",
-      "form_id": "igrjtop2e_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"igrjtop2e_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-igrjtop2e\" data-s3-anketa-id=\"18913904\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"i5mnk9urj_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i5mnk9urj\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/search",
-      "form_id": "iks3vsw56_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"iks3vsw56_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iks3vsw56\" data-s3-anketa-id=\"75409109\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"i4y08l7he_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i4y08l7he\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/user",
-      "form_id": "form_1",
-      "action_display": "action=\"/user/login\"",
-      "open_tag": "<form action=\"/user/login\" method=\"post\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/user",
-      "form_id": "ikii044rp_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"ikii044rp_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-ikii044rp\" data-s3-anketa-id=\"18914304\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/user",
-      "form_id": "iewfk3r2r_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"iewfk3r2r_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iewfk3r2r\" data-s3-anketa-id=\"18913704\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"iht7c2bgu_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-iht7c2bgu\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/user",
-      "form_id": "igrjtop2e_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"igrjtop2e_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-igrjtop2e\" data-s3-anketa-id=\"18913904\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"i5mnk9urj_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i5mnk9urj\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/user",
-      "form_id": "iks3vsw56_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"iks3vsw56_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iks3vsw56\" data-s3-anketa-id=\"75409109\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"i4y08l7he_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i4y08l7he\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/voprosy",
-      "form_id": "form_1",
-      "action_display": "action отсутствует",
-      "open_tag": "<form method=\"post\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/voprosy",
-      "form_id": "ikii044rp_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"ikii044rp_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-ikii044rp\" data-s3-anketa-id=\"18914304\">",
-      "has_checkbox": false,
-      "checked": null,
-      "has_policy_text": false,
-      "checkbox_poc": null,
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/voprosy",
-      "form_id": "iewfk3r2r_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"iewfk3r2r_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iewfk3r2r\" data-s3-anketa-id=\"18913704\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"iht7c2bgu_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-iht7c2bgu\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/voprosy",
-      "form_id": "igrjtop2e_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"igrjtop2e_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-igrjtop2e\" data-s3-anketa-id=\"18913904\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"i5mnk9urj_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i5mnk9urj\">",
-      "policy_poc": null
-    },
-    {
-      "page": "https://stone-dent.ru/voprosy",
-      "form_id": "iks3vsw56_0",
-      "action_display": "action=\"#\"",
-      "open_tag": "<form id=\"iks3vsw56_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iks3vsw56\" data-s3-anketa-id=\"75409109\">",
-      "has_checkbox": true,
-      "checked": false,
-      "has_policy_text": false,
-      "checkbox_poc": "<input id=\"i4y08l7he_0\" type=\"checkbox\" value=\"Ознакомлен с пользовательским соглашением *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i4y08l7he\">",
-      "policy_poc": null
-    }
-  ],
-  "emails": [
-    "mail@stone-dent.ru",
-    "sample@domain.ru"
-  ],
-  "privacy_links": [
-    {
-      "page": "https://stone-dent.ru/",
-      "href": "/politika-konfidencialnosti",
-      "text": "Политика конфиденциальности"
-    },
-    {
-      "page": "https://stone-dent.ru/kontakty",
-      "href": "/politika-konfidencialnosti",
-      "text": "Политика конфиденциальности"
-    },
-    {
-      "page": "https://stone-dent.ru",
-      "href": "/politika-konfidencialnosti",
-      "text": "Политика конфиденциальности"
-    },
-    {
-      "page": "https://stone-dent.ru/akcii-1",
-      "href": "/politika-konfidencialnosti",
-      "text": "Политика конфиденциальности"
-    },
-    {
-      "page": "https://stone-dent.ru/doktora",
-      "href": "/politika-konfidencialnosti",
-      "text": "Политика конфиденциальности"
-    },
-    {
-      "page": "https://stone-dent.ru/forma",
-      "href": "/politika-konfidencialnosti",
-      "text": "Политика конфиденциальности"
-    },
-    {
-      "page": "https://stone-dent.ru/forma1",
-      "href": "/politika-konfidencialnosti",
-      "text": "Политика конфиденциальности"
-    },
-    {
-      "page": "https://stone-dent.ru/informaciya-dlya-pacientov",
-      "href": "/politika-konfidencialnosti",
-      "text": "Политика конфиденциальности"
-    },
-    {
-      "page": "https://stone-dent.ru/karta-sayta",
-      "href": "/politika-konfidencialnosti",
-      "text": "Политика конфиденциальности"
-    },
-    {
-      "page": "https://stone-dent.ru/nashi-sotrudniki",
-      "href": "/politika-konfidencialnosti",
-      "text": "Политика конфиденциальности"
-    },
-    {
-      "page": "https://stone-dent.ru/otzyvy-1",
-      "href": "/politika-konfidencialnosti",
-      "text": "Политика конфиденциальности"
-    },
-    {
-      "page": "https://stone-dent.ru/politika-konfidencialnosti",
-      "href": "/politika-konfidencialnosti",
-      "text": "Политика конфиденциальности"
-    },
-    {
-      "page": "https://stone-dent.ru/regictracia",
-      "href": "/politika-konfidencialnosti",
-      "text": "Политика конфиденциальности"
-    },
-    {
-      "page": "https://stone-dent.ru/search",
-      "href": "/politika-konfidencialnosti",
-      "text": "Политика конфиденциальности"
-    },
-    {
-      "page": "https://stone-dent.ru/user",
-      "href": "/politika-konfidencialnosti",
-      "text": "Политика конфиденциальности"
-    },
-    {
-      "page": "https://stone-dent.ru/user",
-      "href": "/user?mode=agreement",
-      "text": "согласие на передачу и обработку персональных данных"
-    },
-    {
-      "page": "https://stone-dent.ru/user",
-      "href": "/user?mode=policy",
-      "text": "политикой конфиденциальности"
-    },
-    {
-      "page": "https://stone-dent.ru/voprosy",
-      "href": "/politika-konfidencialnosti",
-      "text": "Политика конфиденциальности"
-    }
-  ],
-  "forbidden_hits": [
-    {
-      "token": "whatsapp",
-      "page": "https://stone-dent.ru/",
-      "context": "src=\"/thumb/2/_KIoTx_BbciwL7o3HJohfA/r/d/whatsapp_image_2024-07-16_at_125935.jpg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stone-dent.ru/",
-      "context": "src=\"/thumb/2/yUu8ozGQyGQMKY54WaR7DQ/1920r1000/d/whatsapp_image_2024-07-16_at_125935.jpg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stone-dent.ru/",
-      "context": "alt=\"WhatsApp Image 2024-07-16 at 12.59.35\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook",
-      "page": "https://stone-dent.ru/kontakty",
-      "context": "href=\"http://facebook.com/\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stone-dent.ru",
-      "context": "src=\"/thumb/2/_KIoTx_BbciwL7o3HJohfA/r/d/whatsapp_image_2024-07-16_at_125935.jpg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stone-dent.ru",
-      "context": "src=\"/thumb/2/yUu8ozGQyGQMKY54WaR7DQ/1920r1000/d/whatsapp_image_2024-07-16_at_125935.jpg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stone-dent.ru",
-      "context": "alt=\"WhatsApp Image 2024-07-16 at 12.59.35\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stone-dent.ru/informaciya-dlya-pacientov",
-      "context": "href=\"/thumb/2/_KIoTx_BbciwL7o3HJohfA/r/d/whatsapp_image_2024-07-16_at_125935.jpg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stone-dent.ru/informaciya-dlya-pacientov",
-      "context": "src=\"/thumb/2/LKbPF6KUydMt3AYNggeiQQ/960r/d/whatsapp_image_2024-07-16_at_125935.jpg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stone-dent.ru/informaciya-dlya-pacientov",
-      "context": "alt=\"whatsapp_image_2024-07-16_at_125935\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stone-dent.ru/nashi-sotrudniki",
-      "context": "href=\"/d/whatsapp_image_2024-05-21_at_123417.jpg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "whatsapp",
-      "page": "https://stone-dent.ru/nashi-sotrudniki",
-      "context": "src=\"/thumb/2/2FsHvhRvgLStm9ztj5lNPA/200r200/d/whatsapp_image_2024-05-21_at_123417.jpg\"",
-      "visibility": "только в коде"
-    }
-  ],
-  "cert_errors": [],
-  "discovery": {
-    "contact_urls": [
-      "https://stone-dent.ru/kontakty"
-    ],
-    "booking_urls": [
-      "https://stone-dent.ru",
-      "https://stone-dent.ru/",
-      "https://stone-dent.ru/akcii-1",
-      "https://stone-dent.ru/doktora",
-      "https://stone-dent.ru/forma",
-      "https://stone-dent.ru/forma1",
-      "https://stone-dent.ru/informaciya-dlya-pacientov",
-      "https://stone-dent.ru/karta-sayta",
-      "https://stone-dent.ru/kontakty",
-      "https://stone-dent.ru/nashi-sotrudniki",
-      "https://stone-dent.ru/otzyvy-1",
-      "https://stone-dent.ru/politika-konfidencialnosti",
-      "https://stone-dent.ru/regictracia",
-      "https://stone-dent.ru/search",
-      "https://stone-dent.ru/user",
-      "https://stone-dent.ru/voprosy"
-    ],
-    "sources": {
-      "https://stone-dent.ru": "sitemap-form",
-      "https://stone-dent.ru/": "home-booking-candidate",
-      "https://stone-dent.ru/akcii-1": "sitemap-form",
-      "https://stone-dent.ru/doktora": "sitemap-form",
-      "https://stone-dent.ru/forma": "sitemap-form",
-      "https://stone-dent.ru/forma1": "sitemap-form",
-      "https://stone-dent.ru/informaciya-dlya-pacientov": "sitemap-form",
-      "https://stone-dent.ru/karta-sayta": "sitemap-form",
-      "https://stone-dent.ru/kontakty": "navigation",
-      "https://stone-dent.ru/nashi-sotrudniki": "sitemap-form",
-      "https://stone-dent.ru/otzyvy-1": "sitemap-form",
-      "https://stone-dent.ru/politika-konfidencialnosti": "sitemap-form",
-      "https://stone-dent.ru/regictracia": "sitemap-form",
-      "https://stone-dent.ru/search": "sitemap-form",
-      "https://stone-dent.ru/user": "sitemap-form",
-      "https://stone-dent.ru/voprosy": "sitemap-form"
-    },
-    "fallback_used": {
-      "contact": false,
-      "booking": false
-    }
-  }
+﻿{
+    "domain":  "stone-dent.ru",
+    "pages":  [
+                  {
+                      "requested":  "https://stone-dent.ru/",
+                      "status":  200,
+                      "final_url":  "https://stone-dent.ru/",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://stone-dent.ru/kontakty",
+                      "status":  200,
+                      "final_url":  "https://stone-dent.ru/kontakty",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://stone-dent.ru",
+                      "status":  200,
+                      "final_url":  "https://stone-dent.ru",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://stone-dent.ru/akcii-1",
+                      "status":  200,
+                      "final_url":  "https://stone-dent.ru/akcii-1",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://stone-dent.ru/doktora",
+                      "status":  200,
+                      "final_url":  "https://stone-dent.ru/doktora",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://stone-dent.ru/forma",
+                      "status":  200,
+                      "final_url":  "https://stone-dent.ru/forma",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://stone-dent.ru/forma1",
+                      "status":  200,
+                      "final_url":  "https://stone-dent.ru/forma1",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://stone-dent.ru/informaciya-dlya-pacientov",
+                      "status":  200,
+                      "final_url":  "https://stone-dent.ru/informaciya-dlya-pacientov",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://stone-dent.ru/karta-sayta",
+                      "status":  200,
+                      "final_url":  "https://stone-dent.ru/karta-sayta",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://stone-dent.ru/nashi-sotrudniki",
+                      "status":  200,
+                      "final_url":  "https://stone-dent.ru/nashi-sotrudniki",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://stone-dent.ru/otzyvy-1",
+                      "status":  200,
+                      "final_url":  "https://stone-dent.ru/otzyvy-1",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://stone-dent.ru/politika-konfidencialnosti",
+                      "status":  200,
+                      "final_url":  "https://stone-dent.ru/politika-konfidencialnosti",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://stone-dent.ru/regictracia",
+                      "status":  200,
+                      "final_url":  "https://stone-dent.ru/regictracia",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://stone-dent.ru/search",
+                      "status":  200,
+                      "final_url":  "https://stone-dent.ru/search",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://stone-dent.ru/user",
+                      "status":  200,
+                      "final_url":  "https://stone-dent.ru/user",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://stone-dent.ru/voprosy",
+                      "status":  200,
+                      "final_url":  "https://stone-dent.ru/voprosy",
+                      "error":  null
+                  },
+                  {
+                      "requested":  "https://stone-dent.ru/agreement",
+                      "status":  404,
+                      "final_url":  "https://stone-dent.ru/agreement",
+                      "error":  "HTTPError 404"
+                  },
+                  {
+                      "requested":  "https://stone-dent.ru/politika",
+                      "status":  404,
+                      "final_url":  "https://stone-dent.ru/politika",
+                      "error":  "HTTPError 404"
+                  }
+              ],
+    "forms":  [
+                  {
+                      "page":  "https://stone-dent.ru/",
+                      "form_id":  "iks3vsw56_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"iks3vsw56_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iks3vsw56\" data-s3-anketa-id=\"75409109\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"i4y08l7he_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i4y08l7he\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/",
+                      "form_id":  "iywtowjjx_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"iywtowjjx_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iywtowjjx\" data-s3-anketa-id=\"18914104\"\u003e",
+                      "has_checkbox":  false,
+                      "checked":  null,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  null,
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/",
+                      "form_id":  "ikii044rp_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"ikii044rp_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-ikii044rp\" data-s3-anketa-id=\"18914304\"\u003e",
+                      "has_checkbox":  false,
+                      "checked":  null,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  null,
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  false,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/",
+                      "form_id":  "iewfk3r2r_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"iewfk3r2r_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iewfk3r2r\" data-s3-anketa-id=\"18913704\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"iht7c2bgu_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-iht7c2bgu\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/",
+                      "form_id":  "igrjtop2e_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"igrjtop2e_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-igrjtop2e\" data-s3-anketa-id=\"18913904\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"i5mnk9urj_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i5mnk9urj\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/kontakty",
+                      "form_id":  "ikii044rp_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"ikii044rp_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-ikii044rp\" data-s3-anketa-id=\"18914304\"\u003e",
+                      "has_checkbox":  false,
+                      "checked":  null,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  null,
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  false,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/kontakty",
+                      "form_id":  "iewfk3r2r_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"iewfk3r2r_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iewfk3r2r\" data-s3-anketa-id=\"18913704\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"iht7c2bgu_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-iht7c2bgu\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/kontakty",
+                      "form_id":  "igrjtop2e_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"igrjtop2e_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-igrjtop2e\" data-s3-anketa-id=\"18913904\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"i5mnk9urj_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i5mnk9urj\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/kontakty",
+                      "form_id":  "iks3vsw56_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"iks3vsw56_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iks3vsw56\" data-s3-anketa-id=\"75409109\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"i4y08l7he_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i4y08l7he\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru",
+                      "form_id":  "iks3vsw56_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"iks3vsw56_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iks3vsw56\" data-s3-anketa-id=\"75409109\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"i4y08l7he_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i4y08l7he\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru",
+                      "form_id":  "iywtowjjx_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"iywtowjjx_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iywtowjjx\" data-s3-anketa-id=\"18914104\"\u003e",
+                      "has_checkbox":  false,
+                      "checked":  null,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  null,
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru",
+                      "form_id":  "ikii044rp_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"ikii044rp_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-ikii044rp\" data-s3-anketa-id=\"18914304\"\u003e",
+                      "has_checkbox":  false,
+                      "checked":  null,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  null,
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  false,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru",
+                      "form_id":  "iewfk3r2r_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"iewfk3r2r_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iewfk3r2r\" data-s3-anketa-id=\"18913704\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"iht7c2bgu_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-iht7c2bgu\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru",
+                      "form_id":  "igrjtop2e_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"igrjtop2e_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-igrjtop2e\" data-s3-anketa-id=\"18913904\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"i5mnk9urj_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i5mnk9urj\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/akcii-1",
+                      "form_id":  "ikii044rp_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"ikii044rp_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-ikii044rp\" data-s3-anketa-id=\"18914304\"\u003e",
+                      "has_checkbox":  false,
+                      "checked":  null,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  null,
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  false,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/akcii-1",
+                      "form_id":  "iewfk3r2r_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"iewfk3r2r_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iewfk3r2r\" data-s3-anketa-id=\"18913704\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"iht7c2bgu_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-iht7c2bgu\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/akcii-1",
+                      "form_id":  "igrjtop2e_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"igrjtop2e_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-igrjtop2e\" data-s3-anketa-id=\"18913904\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"i5mnk9urj_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i5mnk9urj\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/akcii-1",
+                      "form_id":  "iks3vsw56_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"iks3vsw56_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iks3vsw56\" data-s3-anketa-id=\"75409109\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"i4y08l7he_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i4y08l7he\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/doktora",
+                      "form_id":  "ikii044rp_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"ikii044rp_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-ikii044rp\" data-s3-anketa-id=\"18914304\"\u003e",
+                      "has_checkbox":  false,
+                      "checked":  null,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  null,
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  false,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/doktora",
+                      "form_id":  "iewfk3r2r_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"iewfk3r2r_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iewfk3r2r\" data-s3-anketa-id=\"18913704\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"iht7c2bgu_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-iht7c2bgu\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/doktora",
+                      "form_id":  "igrjtop2e_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"igrjtop2e_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-igrjtop2e\" data-s3-anketa-id=\"18913904\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"i5mnk9urj_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i5mnk9urj\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/doktora",
+                      "form_id":  "iks3vsw56_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"iks3vsw56_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iks3vsw56\" data-s3-anketa-id=\"75409109\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"i4y08l7he_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i4y08l7he\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/forma",
+                      "form_id":  "form_1",
+                      "action_display":  "action РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚",
+                      "open_tag":  "\u003cform method=\"post\"\u003e",
+                      "has_checkbox":  false,
+                      "checked":  null,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  null,
+                      "policy_poc":  null,
+                      "has_phone_field":  false,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/forma",
+                      "form_id":  "ikii044rp_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"ikii044rp_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-ikii044rp\" data-s3-anketa-id=\"18914304\"\u003e",
+                      "has_checkbox":  false,
+                      "checked":  null,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  null,
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  false,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/forma",
+                      "form_id":  "iewfk3r2r_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"iewfk3r2r_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iewfk3r2r\" data-s3-anketa-id=\"18913704\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"iht7c2bgu_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-iht7c2bgu\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/forma",
+                      "form_id":  "igrjtop2e_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"igrjtop2e_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-igrjtop2e\" data-s3-anketa-id=\"18913904\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"i5mnk9urj_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i5mnk9urj\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/forma",
+                      "form_id":  "iks3vsw56_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"iks3vsw56_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iks3vsw56\" data-s3-anketa-id=\"75409109\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"i4y08l7he_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i4y08l7he\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/forma1",
+                      "form_id":  "form_1",
+                      "action_display":  "action РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚",
+                      "open_tag":  "\u003cform method=\"post\"\u003e",
+                      "has_checkbox":  false,
+                      "checked":  null,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  null,
+                      "policy_poc":  null,
+                      "has_phone_field":  false,
+                      "has_name_field":  true,
+                      "has_textarea":  false,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/forma1",
+                      "form_id":  "ikii044rp_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"ikii044rp_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-ikii044rp\" data-s3-anketa-id=\"18914304\"\u003e",
+                      "has_checkbox":  false,
+                      "checked":  null,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  null,
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  false,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/forma1",
+                      "form_id":  "iewfk3r2r_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"iewfk3r2r_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iewfk3r2r\" data-s3-anketa-id=\"18913704\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"iht7c2bgu_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-iht7c2bgu\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/forma1",
+                      "form_id":  "igrjtop2e_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"igrjtop2e_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-igrjtop2e\" data-s3-anketa-id=\"18913904\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"i5mnk9urj_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i5mnk9urj\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/forma1",
+                      "form_id":  "iks3vsw56_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"iks3vsw56_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iks3vsw56\" data-s3-anketa-id=\"75409109\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"i4y08l7he_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i4y08l7he\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/informaciya-dlya-pacientov",
+                      "form_id":  "ikii044rp_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"ikii044rp_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-ikii044rp\" data-s3-anketa-id=\"18914304\"\u003e",
+                      "has_checkbox":  false,
+                      "checked":  null,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  null,
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  false,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/informaciya-dlya-pacientov",
+                      "form_id":  "iewfk3r2r_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"iewfk3r2r_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iewfk3r2r\" data-s3-anketa-id=\"18913704\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"iht7c2bgu_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-iht7c2bgu\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/informaciya-dlya-pacientov",
+                      "form_id":  "igrjtop2e_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"igrjtop2e_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-igrjtop2e\" data-s3-anketa-id=\"18913904\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"i5mnk9urj_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i5mnk9urj\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/informaciya-dlya-pacientov",
+                      "form_id":  "iks3vsw56_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"iks3vsw56_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iks3vsw56\" data-s3-anketa-id=\"75409109\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"i4y08l7he_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i4y08l7he\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/karta-sayta",
+                      "form_id":  "ikii044rp_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"ikii044rp_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-ikii044rp\" data-s3-anketa-id=\"18914304\"\u003e",
+                      "has_checkbox":  false,
+                      "checked":  null,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  null,
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  false,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/karta-sayta",
+                      "form_id":  "iewfk3r2r_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"iewfk3r2r_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iewfk3r2r\" data-s3-anketa-id=\"18913704\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"iht7c2bgu_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-iht7c2bgu\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/karta-sayta",
+                      "form_id":  "igrjtop2e_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"igrjtop2e_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-igrjtop2e\" data-s3-anketa-id=\"18913904\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"i5mnk9urj_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i5mnk9urj\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/karta-sayta",
+                      "form_id":  "iks3vsw56_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"iks3vsw56_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iks3vsw56\" data-s3-anketa-id=\"75409109\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"i4y08l7he_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i4y08l7he\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/nashi-sotrudniki",
+                      "form_id":  "ikii044rp_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"ikii044rp_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-ikii044rp\" data-s3-anketa-id=\"18914304\"\u003e",
+                      "has_checkbox":  false,
+                      "checked":  null,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  null,
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  false,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/nashi-sotrudniki",
+                      "form_id":  "iewfk3r2r_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"iewfk3r2r_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iewfk3r2r\" data-s3-anketa-id=\"18913704\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"iht7c2bgu_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-iht7c2bgu\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/nashi-sotrudniki",
+                      "form_id":  "igrjtop2e_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"igrjtop2e_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-igrjtop2e\" data-s3-anketa-id=\"18913904\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"i5mnk9urj_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i5mnk9urj\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/nashi-sotrudniki",
+                      "form_id":  "iks3vsw56_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"iks3vsw56_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iks3vsw56\" data-s3-anketa-id=\"75409109\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"i4y08l7he_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i4y08l7he\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/otzyvy-1",
+                      "form_id":  "ikii044rp_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"ikii044rp_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-ikii044rp\" data-s3-anketa-id=\"18914304\"\u003e",
+                      "has_checkbox":  false,
+                      "checked":  null,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  null,
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  false,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/otzyvy-1",
+                      "form_id":  "iewfk3r2r_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"iewfk3r2r_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iewfk3r2r\" data-s3-anketa-id=\"18913704\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"iht7c2bgu_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-iht7c2bgu\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/otzyvy-1",
+                      "form_id":  "igrjtop2e_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"igrjtop2e_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-igrjtop2e\" data-s3-anketa-id=\"18913904\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"i5mnk9urj_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i5mnk9urj\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/otzyvy-1",
+                      "form_id":  "iks3vsw56_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"iks3vsw56_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iks3vsw56\" data-s3-anketa-id=\"75409109\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"i4y08l7he_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i4y08l7he\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/politika-konfidencialnosti",
+                      "form_id":  "ikii044rp_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"ikii044rp_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-ikii044rp\" data-s3-anketa-id=\"18914304\"\u003e",
+                      "has_checkbox":  false,
+                      "checked":  null,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  null,
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  false,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/politika-konfidencialnosti",
+                      "form_id":  "iewfk3r2r_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"iewfk3r2r_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iewfk3r2r\" data-s3-anketa-id=\"18913704\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"iht7c2bgu_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-iht7c2bgu\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/politika-konfidencialnosti",
+                      "form_id":  "igrjtop2e_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"igrjtop2e_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-igrjtop2e\" data-s3-anketa-id=\"18913904\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"i5mnk9urj_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i5mnk9urj\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/politika-konfidencialnosti",
+                      "form_id":  "iks3vsw56_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"iks3vsw56_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iks3vsw56\" data-s3-anketa-id=\"75409109\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"i4y08l7he_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i4y08l7he\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/regictracia",
+                      "form_id":  "ikii044rp_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"ikii044rp_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-ikii044rp\" data-s3-anketa-id=\"18914304\"\u003e",
+                      "has_checkbox":  false,
+                      "checked":  null,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  null,
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  false,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/regictracia",
+                      "form_id":  "iewfk3r2r_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"iewfk3r2r_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iewfk3r2r\" data-s3-anketa-id=\"18913704\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"iht7c2bgu_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-iht7c2bgu\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/regictracia",
+                      "form_id":  "igrjtop2e_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"igrjtop2e_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-igrjtop2e\" data-s3-anketa-id=\"18913904\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"i5mnk9urj_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i5mnk9urj\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/regictracia",
+                      "form_id":  "iks3vsw56_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"iks3vsw56_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iks3vsw56\" data-s3-anketa-id=\"75409109\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"i4y08l7he_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i4y08l7he\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/search",
+                      "form_id":  "ikii044rp_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"ikii044rp_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-ikii044rp\" data-s3-anketa-id=\"18914304\"\u003e",
+                      "has_checkbox":  false,
+                      "checked":  null,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  null,
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  false,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/search",
+                      "form_id":  "iewfk3r2r_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"iewfk3r2r_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iewfk3r2r\" data-s3-anketa-id=\"18913704\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"iht7c2bgu_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-iht7c2bgu\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/search",
+                      "form_id":  "igrjtop2e_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"igrjtop2e_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-igrjtop2e\" data-s3-anketa-id=\"18913904\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"i5mnk9urj_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i5mnk9urj\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/search",
+                      "form_id":  "iks3vsw56_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"iks3vsw56_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iks3vsw56\" data-s3-anketa-id=\"75409109\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"i4y08l7he_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i4y08l7he\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/user",
+                      "form_id":  "form_1",
+                      "action_display":  "action=\"/user/login\"",
+                      "open_tag":  "\u003cform action=\"/user/login\" method=\"post\"\u003e",
+                      "has_checkbox":  false,
+                      "checked":  null,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  null,
+                      "policy_poc":  null,
+                      "has_phone_field":  false,
+                      "has_name_field":  false,
+                      "has_textarea":  false,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/user",
+                      "form_id":  "ikii044rp_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"ikii044rp_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-ikii044rp\" data-s3-anketa-id=\"18914304\"\u003e",
+                      "has_checkbox":  false,
+                      "checked":  null,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  null,
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  false,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/user",
+                      "form_id":  "iewfk3r2r_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"iewfk3r2r_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iewfk3r2r\" data-s3-anketa-id=\"18913704\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"iht7c2bgu_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-iht7c2bgu\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/user",
+                      "form_id":  "igrjtop2e_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"igrjtop2e_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-igrjtop2e\" data-s3-anketa-id=\"18913904\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"i5mnk9urj_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i5mnk9urj\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/user",
+                      "form_id":  "iks3vsw56_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"iks3vsw56_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iks3vsw56\" data-s3-anketa-id=\"75409109\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"i4y08l7he_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i4y08l7he\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/voprosy",
+                      "form_id":  "form_1",
+                      "action_display":  "action РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚",
+                      "open_tag":  "\u003cform method=\"post\"\u003e",
+                      "has_checkbox":  false,
+                      "checked":  null,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  null,
+                      "policy_poc":  null,
+                      "has_phone_field":  false,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/voprosy",
+                      "form_id":  "ikii044rp_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"ikii044rp_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-ikii044rp\" data-s3-anketa-id=\"18914304\"\u003e",
+                      "has_checkbox":  false,
+                      "checked":  null,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  null,
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  false,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/voprosy",
+                      "form_id":  "iewfk3r2r_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"iewfk3r2r_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iewfk3r2r\" data-s3-anketa-id=\"18913704\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"iht7c2bgu_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-iht7c2bgu\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/voprosy",
+                      "form_id":  "igrjtop2e_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"igrjtop2e_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-igrjtop2e\" data-s3-anketa-id=\"18913904\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"i5mnk9urj_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i5mnk9urj\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  },
+                  {
+                      "page":  "https://stone-dent.ru/voprosy",
+                      "form_id":  "iks3vsw56_0",
+                      "action_display":  "action=\"#\"",
+                      "open_tag":  "\u003cform id=\"iks3vsw56_0\" action=\"#\" class=\"mosaic-form__form mosaic-form__form--u-iks3vsw56\" data-s3-anketa-id=\"75409109\"\u003e",
+                      "has_checkbox":  true,
+                      "checked":  false,
+                      "has_policy_text":  false,
+                      "checkbox_poc":  "\u003cinput id=\"i4y08l7he_0\" type=\"checkbox\" value=\"РћР·РЅР°РєРѕРјР»РµРЅ СЃ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј *\" class=\"mosaic-form__checkbox mosaic-form__checkbox--u-i4y08l7he\"\u003e",
+                      "policy_poc":  null,
+                      "has_phone_field":  true,
+                      "has_name_field":  true,
+                      "has_textarea":  true,
+                      "phone_required":  false
+                  }
+              ],
+    "emails":  [
+                   "mail@stone-dent.ru",
+                   "sample@domain.ru"
+               ],
+    "privacy_links":  [
+                          {
+                              "page":  "https://stone-dent.ru/",
+                              "href":  "/politika-konfidencialnosti",
+                              "text":  "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+                          },
+                          {
+                              "page":  "https://stone-dent.ru/",
+                              "href":  "/politika-konfidencialnosti",
+                              "text":  "https://stone-dent.ru/politika-konfidencialnosti"
+                          },
+                          {
+                              "page":  "https://stone-dent.ru/kontakty",
+                              "href":  "/politika-konfidencialnosti",
+                              "text":  "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+                          },
+                          {
+                              "page":  "https://stone-dent.ru/kontakty",
+                              "href":  "/politika-konfidencialnosti",
+                              "text":  "https://stone-dent.ru/politika-konfidencialnosti"
+                          },
+                          {
+                              "page":  "https://stone-dent.ru",
+                              "href":  "/politika-konfidencialnosti",
+                              "text":  "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+                          },
+                          {
+                              "page":  "https://stone-dent.ru",
+                              "href":  "/politika-konfidencialnosti",
+                              "text":  "https://stone-dent.ru/politika-konfidencialnosti"
+                          },
+                          {
+                              "page":  "https://stone-dent.ru/akcii-1",
+                              "href":  "/politika-konfidencialnosti",
+                              "text":  "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+                          },
+                          {
+                              "page":  "https://stone-dent.ru/akcii-1",
+                              "href":  "/politika-konfidencialnosti",
+                              "text":  "https://stone-dent.ru/politika-konfidencialnosti"
+                          },
+                          {
+                              "page":  "https://stone-dent.ru/doktora",
+                              "href":  "/politika-konfidencialnosti",
+                              "text":  "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+                          },
+                          {
+                              "page":  "https://stone-dent.ru/doktora",
+                              "href":  "/politika-konfidencialnosti",
+                              "text":  "https://stone-dent.ru/politika-konfidencialnosti"
+                          },
+                          {
+                              "page":  "https://stone-dent.ru/forma",
+                              "href":  "/politika-konfidencialnosti",
+                              "text":  "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+                          },
+                          {
+                              "page":  "https://stone-dent.ru/forma",
+                              "href":  "/politika-konfidencialnosti",
+                              "text":  "https://stone-dent.ru/politika-konfidencialnosti"
+                          },
+                          {
+                              "page":  "https://stone-dent.ru/forma1",
+                              "href":  "/politika-konfidencialnosti",
+                              "text":  "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+                          },
+                          {
+                              "page":  "https://stone-dent.ru/forma1",
+                              "href":  "/politika-konfidencialnosti",
+                              "text":  "https://stone-dent.ru/politika-konfidencialnosti"
+                          },
+                          {
+                              "page":  "https://stone-dent.ru/informaciya-dlya-pacientov",
+                              "href":  "/politika-konfidencialnosti",
+                              "text":  "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+                          },
+                          {
+                              "page":  "https://stone-dent.ru/informaciya-dlya-pacientov",
+                              "href":  "/politika-konfidencialnosti",
+                              "text":  "https://stone-dent.ru/politika-konfidencialnosti"
+                          },
+                          {
+                              "page":  "https://stone-dent.ru/karta-sayta",
+                              "href":  "/politika-konfidencialnosti",
+                              "text":  "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+                          },
+                          {
+                              "page":  "https://stone-dent.ru/karta-sayta",
+                              "href":  "/politika-konfidencialnosti",
+                              "text":  "https://stone-dent.ru/politika-konfidencialnosti"
+                          },
+                          {
+                              "page":  "https://stone-dent.ru/nashi-sotrudniki",
+                              "href":  "/politika-konfidencialnosti",
+                              "text":  "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+                          },
+                          {
+                              "page":  "https://stone-dent.ru/nashi-sotrudniki",
+                              "href":  "/politika-konfidencialnosti",
+                              "text":  "https://stone-dent.ru/politika-konfidencialnosti"
+                          },
+                          {
+                              "page":  "https://stone-dent.ru/otzyvy-1",
+                              "href":  "/politika-konfidencialnosti",
+                              "text":  "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+                          },
+                          {
+                              "page":  "https://stone-dent.ru/otzyvy-1",
+                              "href":  "/politika-konfidencialnosti",
+                              "text":  "https://stone-dent.ru/politika-konfidencialnosti"
+                          },
+                          {
+                              "page":  "https://stone-dent.ru/politika-konfidencialnosti",
+                              "href":  "https://stone-dent.ru/politika-konfidencialnosti",
+                              "text":  "policy path"
+                          },
+                          {
+                              "page":  "https://stone-dent.ru/politika-konfidencialnosti",
+                              "href":  "/politika-konfidencialnosti",
+                              "text":  "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+                          },
+                          {
+                              "page":  "https://stone-dent.ru/politika-konfidencialnosti",
+                              "href":  "/politika-konfidencialnosti",
+                              "text":  "https://stone-dent.ru/politika-konfidencialnosti"
+                          },
+                          {
+                              "page":  "https://stone-dent.ru/regictracia",
+                              "href":  "/politika-konfidencialnosti",
+                              "text":  "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+                          },
+                          {
+                              "page":  "https://stone-dent.ru/regictracia",
+                              "href":  "/politika-konfidencialnosti",
+                              "text":  "https://stone-dent.ru/politika-konfidencialnosti"
+                          },
+                          {
+                              "page":  "https://stone-dent.ru/search",
+                              "href":  "/politika-konfidencialnosti",
+                              "text":  "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+                          },
+                          {
+                              "page":  "https://stone-dent.ru/search",
+                              "href":  "/politika-konfidencialnosti",
+                              "text":  "https://stone-dent.ru/politika-konfidencialnosti"
+                          },
+                          {
+                              "page":  "https://stone-dent.ru/user",
+                              "href":  "/politika-konfidencialnosti",
+                              "text":  "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+                          },
+                          {
+                              "page":  "https://stone-dent.ru/user",
+                              "href":  "/user?mode=agreement",
+                              "text":  "СЃРѕРіР»Р°СЃРёРµ РЅР° РїРµСЂРµРґР°С‡Сѓ Рё РѕР±СЂР°Р±РѕС‚РєСѓ РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+                          },
+                          {
+                              "page":  "https://stone-dent.ru/user",
+                              "href":  "/user?mode=policy",
+                              "text":  "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+                          },
+                          {
+                              "page":  "https://stone-dent.ru/user",
+                              "href":  "/politika-konfidencialnosti",
+                              "text":  "https://stone-dent.ru/politika-konfidencialnosti"
+                          },
+                          {
+                              "page":  "https://stone-dent.ru/voprosy",
+                              "href":  "/politika-konfidencialnosti",
+                              "text":  "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+                          },
+                          {
+                              "page":  "https://stone-dent.ru/voprosy",
+                              "href":  "/politika-konfidencialnosti",
+                              "text":  "https://stone-dent.ru/politika-konfidencialnosti"
+                          }
+                      ],
+    "forbidden_hits":  [
+                           {
+                               "token":  "facebook",
+                               "page":  "https://stone-dent.ru/kontakty",
+                               "context":  "href=\"http://facebook.com/\"",
+                               "visibility":  "С‚РѕР»СЊРєРѕ РІ РєРѕРґРµ"
+                           },
+                           {
+                               "token":  "facebook.com",
+                               "page":  "https://stone-dent.ru/kontakty",
+                               "context":  "href=\"http://facebook.com/\"",
+                               "visibility":  "С‚РѕР»СЊРєРѕ РІ РєРѕРґРµ"
+                           }
+                       ],
+    "cert_errors":  [
+
+                    ],
+    "tech":  {
+                 "ssl":  {
+                             "ok":  true,
+                             "protocol":  "TLSv1.3",
+                             "issuer_cn":  "R12",
+                             "not_after":  "Jul 24 10:43:06 2026 GMT",
+                             "days_left":  79,
+                             "error":  null
+                         },
+                 "http_to_https":  {
+                                       "requested":  "http://stone-dent.ru/",
+                                       "status":  200,
+                                       "final_url":  "https://stone-dent.ru/",
+                                       "redirected_to_https":  true,
+                                       "error":  null
+                                   },
+                 "canonical_www":  {
+                                       "non_www":  {
+                                                       "requested":  "https://stone-dent.ru/",
+                                                       "status":  200,
+                                                       "final_url":  "https://stone-dent.ru/",
+                                                       "error":  null
+                                                   },
+                                       "www":  {
+                                                   "requested":  "https://www.stone-dent.ru/",
+                                                   "status":  200,
+                                                   "final_url":  "https://stone-dent.ru/",
+                                                   "error":  null
+                                               },
+                                       "same_canonical":  true,
+                                       "canonical_host":  "stone-dent.ru"
+                                   },
+                 "ttfb":  {
+                              "seconds":  0.842,
+                              "source_url":  "https://stone-dent.ru/",
+                              "status":  200,
+                              "error":  null
+                          },
+                 "pagespeed":  {
+                                   "status":  "ok",
+                                   "score":  33,
+                                   "lcp_seconds":  20.678,
+                                   "tool":  "C:\\Program Files\\nodejs\\npx.CMD --yes lighthouse",
+                                   "error":  null
+                               },
+                 "analytics":  {
+                                   "found":  true,
+                                   "kinds":  [
+                                                 "yandex_metrika"
+                                             ],
+                                   "goals_found":  false,
+                                   "goal_markers":  [
+
+                                                    ]
+                               },
+                 "engagement":  {
+                                    "whatsapp":  true,
+                                    "telegram":  false,
+                                    "chat_widget":  true,
+                                    "slot_booking_widget":  false
+                                },
+                 "remarketing":  {
+                                     "vk_pixel":  false,
+                                     "meta_pixel":  false,
+                                     "google_ads_remarketing":  false,
+                                     "found":  false
+                                 },
+                 "favicon":  {
+                                 "status":  200,
+                                 "from_html":  true,
+                                 "found":  true
+                             },
+                 "schema":  {
+                                "found":  false,
+                                "types":  [
+
+                                          ]
+                            },
+                 "med_trust":  {
+                                   "contact_page_exists":  true,
+                                   "contact_pages":  [
+                                                         "https://stone-dent.ru/kontakty"
+                                                     ],
+                                   "price_public_found":  false,
+                                   "price_pages":  [
+
+                                                   ],
+                                   "doctors_page_exists":  false,
+                                   "doctor_pages":  [
+
+                                                    ],
+                                   "address_found":  true,
+                                   "map_found":  true,
+                                   "hours_found":  true,
+                                   "reviews_found":  true,
+                                   "service_pages_count":  0,
+                                   "service_pages":  [
+
+                                                     ],
+                                   "clickable_contacts":  {
+                                                              "tel":  true,
+                                                              "mailto":  false
+                                                          },
+                                   "doctor_cards":  {
+                                                        "names_count":  0,
+                                                        "specialty_found":  false,
+                                                        "complete":  false
+                                                    },
+                                   "nap":  {
+                                               "home_phones":  [
+                                                                   "4951501139"
+                                                               ],
+                                               "contact_phones":  [
+                                                                      "4951501139"
+                                                                  ],
+                                               "phone_match":  true,
+                                               "home_address_found":  true,
+                                               "contact_address_found":  true,
+                                               "address_match":  false,
+                                               "consistent":  true
+                                           },
+                                   "schema":  {
+                                                  "medical":  false,
+                                                  "any":  false,
+                                                  "types":  [
+
+                                                            ]
+                                              }
+                               },
+                 "mixed_content":  {
+                                       "count":  0,
+                                       "samples":  [
+
+                                                   ]
+                                   },
+                 "broken_internal_links":  {
+                                               "checked":  62,
+                                               "broken":  1,
+                                               "samples":  [
+                                                               {
+                                                                   "url":  "https://stone-dent.ru/users/hauth/start/vkontakte",
+                                                                   "status":  null,
+                                                                   "error":  "\u003curlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1028)\u003e",
+                                                                   "final_url":  "https://stone-dent.ru/users/hauth/start/vkontakte"
+                                                               }
+                                                           ]
+                                           },
+                 "broken_static_resources":  {
+                                                 "checked":  160,
+                                                 "broken":  2,
+                                                 "samples":  [
+                                                                 {
+                                                                     "url":  "https://stone-dent.ru/t/v1018/images/mosaic/themes/i78m42gj5-1585024862_theme-iudlasfln.css",
+                                                                     "status":  404,
+                                                                     "error":  "HTTPError 404",
+                                                                     "final_url":  "https://stone-dent.ru/t/v1018/images/mosaic/themes/i78m42gj5-1585024862_theme-iudlasfln.css"
+                                                                 },
+                                                                 {
+                                                                     "url":  "https://stone-dent.ru/t/v1018/images/mosaic/themes/i78m42gj5-1585056677_theme-iudlasfln.css",
+                                                                     "status":  404,
+                                                                     "error":  "HTTPError 404",
+                                                                     "final_url":  "https://stone-dent.ru/t/v1018/images/mosaic/themes/i78m42gj5-1585056677_theme-iudlasfln.css"
+                                                                 }
+                                                             ]
+                                             },
+                 "security_headers":  {
+                                          "checked":  [
+                                                          "strict-transport-security",
+                                                          "content-security-policy",
+                                                          "x-frame-options",
+                                                          "x-content-type-options",
+                                                          "referrer-policy"
+                                                      ],
+                                          "present":  [
+                                                          "strict-transport-security"
+                                                      ],
+                                          "missing":  [
+                                                          "content-security-policy",
+                                                          "x-frame-options",
+                                                          "x-content-type-options",
+                                                          "referrer-policy"
+                                                      ],
+                                          "values":  {
+                                                         "strict-transport-security":  "max-age=10"
+                                                     },
+                                          "source_url":  "https://stone-dent.ru/",
+                                          "source_status":  200
+                                      }
+             },
+    "discovery":  {
+                      "contact_urls":  [
+                                           "https://stone-dent.ru/kontakty"
+                                       ],
+                      "booking_urls":  [
+                                           "https://stone-dent.ru",
+                                           "https://stone-dent.ru/",
+                                           "https://stone-dent.ru/akcii-1",
+                                           "https://stone-dent.ru/doktora",
+                                           "https://stone-dent.ru/forma",
+                                           "https://stone-dent.ru/forma1",
+                                           "https://stone-dent.ru/informaciya-dlya-pacientov",
+                                           "https://stone-dent.ru/karta-sayta",
+                                           "https://stone-dent.ru/kontakty",
+                                           "https://stone-dent.ru/nashi-sotrudniki",
+                                           "https://stone-dent.ru/otzyvy-1",
+                                           "https://stone-dent.ru/politika-konfidencialnosti",
+                                           "https://stone-dent.ru/regictracia",
+                                           "https://stone-dent.ru/search",
+                                           "https://stone-dent.ru/user",
+                                           "https://stone-dent.ru/voprosy"
+                                       ],
+                      "legal_urls":  [
+                                         "https://stone-dent.ru/agreement",
+                                         "https://stone-dent.ru/politika",
+                                         "https://stone-dent.ru/politika-konfidencialnosti"
+                                     ],
+                      "sources":  {
+                                      "https://stone-dent.ru":  "sitemap-form",
+                                      "https://stone-dent.ru/":  "home-booking-candidate",
+                                      "https://stone-dent.ru/agreement":  "policy-hint",
+                                      "https://stone-dent.ru/akcii-1":  "sitemap-form",
+                                      "https://stone-dent.ru/doktora":  "sitemap-form",
+                                      "https://stone-dent.ru/forma":  "sitemap-form",
+                                      "https://stone-dent.ru/forma1":  "sitemap-form",
+                                      "https://stone-dent.ru/informaciya-dlya-pacientov":  "sitemap-form",
+                                      "https://stone-dent.ru/karta-sayta":  "sitemap-form",
+                                      "https://stone-dent.ru/kontakty":  "navigation",
+                                      "https://stone-dent.ru/nashi-sotrudniki":  "sitemap-form",
+                                      "https://stone-dent.ru/otzyvy-1":  "sitemap-form",
+                                      "https://stone-dent.ru/politika":  "policy-hint",
+                                      "https://stone-dent.ru/politika-konfidencialnosti":  "sitemap-legal",
+                                      "https://stone-dent.ru/regictracia":  "sitemap-form",
+                                      "https://stone-dent.ru/search":  "sitemap-form",
+                                      "https://stone-dent.ru/user":  "sitemap-form",
+                                      "https://stone-dent.ru/voprosy":  "sitemap-form"
+                                  },
+                      "fallback_used":  {
+                                            "contact":  false,
+                                            "booking":  false
+                                        },
+                      "sitemap_total_urls":  15,
+                      "sitemap_used_urls":  15
+                  },
+    "verification":  {
+                         "b2":  true,
+                         "b3":  true,
+                         "b4":  true
+                     }
 }
