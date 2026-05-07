@@ -134,40 +134,6 @@
           <div class="block-icon">??</div>
           <div class="block-title-wrap">
             <div class="block-num">Блок 3</div>
-            <div class="block-title">Технический</div>
-            <div class="block-hook"><span class="hook-label">Крючок:</span> Браузер показывает «Небезопасно» — пациент видит и закрывает. Сайт грузится 9 секунд — больше половины уходят не дождавшись.</div>
-            <div class="block-meta">
-              <span class="tag tag-fear">Страх — недоверие пациентов</span>
-              <span class="tag tag-auto-high">Автоматизация: высокая</span>
-            </div>
-          </div>
-        </div>
-        <table class="metrics-table">
-          <thead><tr><th>Метрика</th><th class="col-how">Как проверяется</th><th class="col-status">Статус</th></tr></thead>
-          <tbody>
-            <tr><td><div class="metric-name">SSL сертификат</div><div class="metric-how" style="margin-top:3px;color:#9aa6bd">Есть / нет / ошибка</div></td><td><div class="metric-how">HTTPS запрос — перехват TLS ошибки</div></td><td><span class="badge ok">готово</span></td></tr>
-            <tr><td><div class="metric-name">Дата истечения SSL сертификата</div><div class="metric-how" style="margin-top:3px;color:#9aa6bd">«Сертификат истекает через 12 дней» — срочность понятна без IT</div></td><td><div class="metric-how">ssl.get_server_certificate() > notAfter поле, дней до истечения</div></td><td><span class="badge ok">реализовано</span></td></tr>
-            <tr><td><div class="metric-name">Редирект HTTP > HTTPS</div></td><td><div class="metric-how">HTTP запрос > проверка Location header</div></td><td><span class="badge ok">готово</span></td></tr>
-            <tr><td><div class="metric-name">Время ответа сервера (TTFB)</div><div class="metric-how" style="margin-top:3px;color:#9aa6bd">Бесплатно при текущих запросах — просто фиксируем elapsed</div></td><td><div class="metric-how">response.elapsed.total_seconds() при обычном HTTP запросе</div></td><td><span class="badge ok">реализовано</span></td></tr>
-            <tr><td><div class="metric-name">PageSpeed Score + время загрузки (сек)</div><div class="metric-how" style="margin-top:3px;color:#9aa6bd">Выражать в секундах: «8.9 сек — 53% пользователей уходят при >3 сек»</div></td><td><div class="metric-how">Google PageSpeed Insights API — strategy=mobile, поля score + LCP value</div></td><td><span class="badge ok">реализовано</span></td></tr>
-            <tr><td><div class="metric-name">SPF запись</div><div class="metric-how" style="margin-top:3px;color:#9aa6bd">Без SPF — с вашего домена можно слать письма пациентам от вашего имени</div></td><td><div class="metric-how">DNS TXT — v=spf1 через Google/Cloudflare DNS API</div></td><td><span class="badge ok">готово</span></td></tr>
-            <tr><td><div class="metric-name">DMARC запись</div><div class="metric-how" style="margin-top:3px;color:#9aa6bd">Без DMARC — спуфинг домена не заблокирован даже при наличии SPF</div></td><td><div class="metric-how">DNS TXT — v=DMARC1, политика p= через Google/Cloudflare DNS API</div></td><td><span class="badge ok">готово</span></td></tr>
-            <tr><td><div class="metric-name">www vs non-www (canonical)</div><div class="metric-how" style="margin-top:3px;color:#9aa6bd">Два адреса сайта без редиректа — дублирование, проблема для поиска</div></td><td><div class="metric-how">HTTP запросы на domain.ru и www.domain.ru — проверка редиректа одного в другой</div></td><td><span class="badge ok">реализовано</span></td></tr>
-            <tr><td><div class="metric-name">Наличие веб-аналитики</div><div class="metric-how" style="margin-top:3px;color:#9aa6bd">«Вы не знаете сколько людей приходит на сайт и откуда» — сильный крючок</div></td><td><div class="metric-how">HTML парсинг script src — mc.yandex.ru, googletagmanager.com, top-fwz1.mail.ru</div></td><td><span class="badge ok">реализовано</span></td></tr>
-            <tr><td><div class="metric-name">Favicon</div><div class="metric-how" style="margin-top:3px;color:#9aa6bd">Пустой серый квадрат во вкладке вместо логотипа — видит каждый пациент</div></td><td><div class="metric-how">HTTP запрос /favicon.ico (200 vs 404) или &lt;link rel="icon"&gt; в HTML</div></td><td><span class="badge ok">реализовано</span></td></tr>
-            <tr><td><div class="metric-name">Schema.org разметка (LocalBusiness / MedicalOrganization)</div><div class="metric-how" style="margin-top:3px;color:#9aa6bd">Конкурент показывает ????? и часы работы прямо в поиске — у вас просто ссылка</div></td><td><div class="metric-how">HTML парсинг — &lt;script type="application/ld+json"&gt; или itemtype="schema.org/MedicalOrganization"</div></td><td><span class="badge ok">реализовано</span></td></tr>
-            <tr><td><div class="metric-name">Смешанный контент (HTTP на HTTPS)</div><div class="metric-how" style="margin-top:3px;color:#9aa6bd">Для веса отчёта</div></td><td><div class="metric-how">HTML парсинг — src/href начинаются с http:// на HTTPS странице</div></td><td><span class="badge ok">реализовано</span></td></tr>
-            <tr><td><div class="metric-name">Заголовки безопасности</div><div class="metric-how" style="margin-top:3px;color:#9aa6bd">X-Frame-Options, CSP — для веса отчёта, не акцентировать</div></td><td><div class="metric-how">HTTP response headers — проверка наличия</div></td><td><span class="badge ok">реализовано</span></td></tr>
-          </tbody>
-        </table>
-      </div>
-
-      <!-- БЛОК 4 -->
-      <div class="block">
-        <div class="block-header">
-          <div class="block-icon">??</div>
-          <div class="block-title-wrap">
-            <div class="block-num">Блок 4</div>
             <div class="block-title">Медицинская специфика / Доверие</div>
             <div class="block-hook"><span class="hook-label">Крючок:</span> Пациент выбирает врача, а не клинику. Нет адреса, нет отзывов, нет понятных цен — он не доверяет и уходит к конкуренту, у которого всё это есть.</div>
             <div class="block-meta">
@@ -180,17 +146,12 @@
         <table class="metrics-table">
           <thead><tr><th>Метрика</th><th class="col-how">Как проверяется</th><th class="col-status">Статус</th></tr></thead>
           <tbody>
-            <tr><td><div class="metric-name">Прайс-лист доступен без регистрации</div><div class="metric-how" style="margin-top:3px;color:#9aa6bd">Цены должны быть видны до звонка/записи</div></td><td><div class="metric-how">URL и sitemap-hints: /price, /prices, /стоимость, /uslugi + проверка доступности страницы</div></td><td><span class="badge ok">реализовано</span></td></tr>
             <tr><td><div class="metric-name">Страница врачей / специалистов</div><div class="metric-how" style="margin-top:3px;color:#9aa6bd">Пациент выбирает врача, не только клинику</div></td><td><div class="metric-how">URL/навигация: /doctors, /vrachi, /team, /specialists и похожие паттерны</div></td><td><span class="badge ok">реализовано</span></td></tr>
             <tr><td><div class="metric-name">Адрес и карта на сайте</div><div class="metric-how" style="margin-top:3px;color:#9aa6bd">Локальный бизнес без адреса и карты теряет доверие</div></td><td><div class="metric-how">Парсинг адресных паттернов + embed Яндекс/2GIS/Google maps</div></td><td><span class="badge ok">реализовано</span></td></tr>
             <tr><td><div class="metric-name">Часы работы</div><div class="metric-how" style="margin-top:3px;color:#9aa6bd">Пациент должен быстро понимать когда можно записаться</div></td><td><div class="metric-how">Поиск текстовых маркеров: «режим работы», «пн-пт», «пн-вс», «ежедневно»</div></td><td><span class="badge ok">реализовано</span></td></tr>
             <tr><td><div class="metric-name">Отзывы пациентов на сайте</div><div class="metric-how" style="margin-top:3px;color:#9aa6bd">Социальное доказательство для первичного обращения</div></td><td><div class="metric-how">Поиск блоков/виджетов отзывов: «отзывы», ProDoctorov, карты и review-виджеты</div></td><td><span class="badge ok">реализовано</span></td></tr>
-            <tr><td><div class="metric-name">Ключевые услуги вынесены в отдельные страницы</div><div class="metric-how" style="margin-top:3px;color:#9aa6bd">Глубина услуг повышает доверие и понятность предложения</div></td><td><div class="metric-how">Подсчёт service-URL по маржинальным направлениям: имплантация, брекеты, виниры, коронки, отбеливание</div></td><td><span class="badge ok">реализовано</span></td></tr>
-            <tr><td><div class="metric-name">NAP consistency (название/адрес/телефон согласованы)</div><div class="metric-how" style="margin-top:3px;color:#9aa6bd">Несогласованные контакты снижают доверие</div></td><td><div class="metric-how">Сравнение телефона/адреса на главной и на контактной странице</div></td><td><span class="badge ok">реализовано</span></td></tr>
-            <tr><td><div class="metric-name">Контакты кликабельны (tel:/mailto:)</div><div class="metric-how" style="margin-top:3px;color:#9aa6bd">Меньше трения в мобильной записи</div></td><td><div class="metric-how">Проверка ссылок вида <code>tel:</code> и <code>mailto:</code> в HTML</div></td><td><span class="badge ok">реализовано</span></td></tr>
+            <tr><td><div class="metric-name">Актуальность года в футере (если он вообще есть). Если его нет — ок</div><div class="metric-how" style="margin-top:3px;color:#9aa6bd">Устаревший год в подвале снижает доверие к клинике</div></td><td><div class="metric-how">Поиск блока footer. Если footer найден — проверка года (текущий/прошлый контекст). Если footer отсутствует — статус ок</div></td><td><span class="badge ok">реализовано</span></td></tr>
             <tr><td><div class="metric-name">Есть отдельная страница контактов</div><div class="metric-how" style="margin-top:3px;color:#9aa6bd">Базовый trust-signal для локальной клиники</div></td><td><div class="metric-how">Discovery по sitemap/навигации + fallback-paths /contacts, /contact, /kontakty</div></td><td><span class="badge ok">реализовано</span></td></tr>
-            <tr><td><div class="metric-name">Карточки врачей: ФИО + специальность</div><div class="metric-how" style="margin-top:3px;color:#9aa6bd">Пациенту нужен понятный профиль врача до записи</div></td><td><div class="metric-how">На doctor-pages: детекция вероятных ФИО + ключевых слов специальностей</div></td><td><span class="badge ok">реализовано</span></td></tr>
-            <tr><td><div class="metric-name">Schema.org: MedicalOrganization / Physician</div><div class="metric-how" style="margin-top:3px;color:#9aa6bd">Структурированные данные усиливают доверие и сниппеты</div></td><td><div class="metric-how">Проверка JSON-LD/microdata типов: MedicalOrganization, MedicalClinic, Physician, Dentist</div></td><td><span class="badge ok">реализовано</span></td></tr>
           </tbody>
         </table>
       </div>

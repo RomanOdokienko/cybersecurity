@@ -1,415 +1,370 @@
-﻿{
-    "domain":  "dentastayl.ru",
-    "pages":  [
-                  {
-                      "requested":  "http://dentastayl.ru/",
-                      "status":  200,
-                      "final_url":  "http://dentastayl.ru/",
-                      "error":  null
-                  },
-                  {
-                      "requested":  "http://dentastayl.ru/contacts",
-                      "status":  200,
-                      "final_url":  "http://dentastayl.ru/contacts",
-                      "error":  null
-                  },
-                  {
-                      "requested":  "http://dentastayl.ru/registratsiya",
-                      "status":  200,
-                      "final_url":  "http://dentastayl.ru/registratsiya",
-                      "error":  null
-                  },
-                  {
-                      "requested":  "http://dentastayl.ru/politika",
-                      "status":  404,
-                      "final_url":  "http://dentastayl.ru/politika",
-                      "error":  "HTTPError 404"
-                  },
-                  {
-                      "requested":  "http://dentastayl.ru/politika-konfidentsialnosti",
-                      "status":  200,
-                      "final_url":  "http://dentastayl.ru/politika-konfidentsialnosti",
-                      "error":  null
-                  },
-                  {
-                      "requested":  "http://dentastayl.ru/privacy-policy",
-                      "status":  200,
-                      "final_url":  "http://dentastayl.ru/privacy-policy",
-                      "error":  null
-                  },
-                  {
-                      "requested":  "http://dentastayl.ru/otzyvy",
-                      "status":  200,
-                      "final_url":  "http://dentastayl.ru/otzyvy",
-                      "error":  null
-                  },
-                  {
-                      "requested":  "http://dentastayl.ru/search",
-                      "status":  200,
-                      "final_url":  "http://dentastayl.ru/search",
-                      "error":  null
-                  }
-              ],
-    "forms":  [
-                  {
-                      "page":  "http://dentastayl.ru/registratsiya",
-                      "form_id":  "form_1",
-                      "action_display":  "action=\"/registratsiya/login\"",
-                      "open_tag":  "\u003cform action=\"/registratsiya/login\" method=\"post\"\u003e",
-                      "has_checkbox":  false,
-                      "checked":  null,
-                      "has_policy_text":  false,
-                      "checkbox_poc":  null,
-                      "policy_poc":  null,
-                      "has_phone_field":  false,
-                      "has_name_field":  false,
-                      "has_textarea":  false,
-                      "phone_required":  false
-                  },
-                  {
-                      "page":  "http://dentastayl.ru/otzyvy",
-                      "form_id":  "s3_form",
-                      "action_display":  "action=\"/otzyvy\"",
-                      "open_tag":  "\u003cform class=\"s3_form\" action=\"/otzyvy\" method=\"post\"\u003e",
-                      "has_checkbox":  false,
-                      "checked":  null,
-                      "has_policy_text":  false,
-                      "checkbox_poc":  null,
-                      "policy_poc":  null,
-                      "has_phone_field":  true,
-                      "has_name_field":  true,
-                      "has_textarea":  true,
-                      "phone_required":  false
-                  }
-              ],
-    "emails":  [
-                   "dentastail4@mail.ru",
-                   "dentastayl@mail.ru",
-                   "dentastayl_2@mail.ru",
-                   "sample@domain.ru"
-               ],
-    "privacy_links":  [
-                          {
-                              "page":  "http://dentastayl.ru/",
-                              "href":  "/politika-konfidentsialnosti",
-                              "text":  "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
-                          },
-                          {
-                              "page":  "http://dentastayl.ru/contacts",
-                              "href":  "/politika-konfidentsialnosti",
-                              "text":  "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
-                          },
-                          {
-                              "page":  "http://dentastayl.ru/registratsiya",
-                              "href":  "/politika-konfidentsialnosti",
-                              "text":  "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
-                          },
-                          {
-                              "page":  "http://dentastayl.ru/registratsiya",
-                              "href":  "/registratsiya?mode=agreement",
-                              "text":  "СЃРѕРіР»Р°СЃРёРµ РЅР° РїРµСЂРµРґР°С‡Сѓ Рё РѕР±СЂР°Р±РѕС‚РєСѓ РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
-                          },
-                          {
-                              "page":  "http://dentastayl.ru/registratsiya",
-                              "href":  "/registratsiya?mode=policy",
-                              "text":  "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
-                          },
-                          {
-                              "page":  "http://dentastayl.ru/politika-konfidentsialnosti",
-                              "href":  "http://dentastayl.ru/politika-konfidentsialnosti",
-                              "text":  "policy path"
-                          },
-                          {
-                              "page":  "http://dentastayl.ru/politika-konfidentsialnosti",
-                              "href":  "/politika-konfidentsialnosti",
-                              "text":  "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
-                          },
-                          {
-                              "page":  "http://dentastayl.ru/politika-konfidentsialnosti",
-                              "href":  "/f/politika_konfidentsialnosti_dentastayl.docx",
-                              "text":  "РЎРєР°С‡Р°С‚СЊ СЃРѕРіР»Р°С€РµРЅРёРµ Рѕ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
-                          },
-                          {
-                              "page":  "http://dentastayl.ru/privacy-policy",
-                              "href":  "http://dentastayl.ru/privacy-policy",
-                              "text":  "policy path"
-                          },
-                          {
-                              "page":  "http://dentastayl.ru/privacy-policy",
-                              "href":  "/politika-konfidentsialnosti",
-                              "text":  "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
-                          },
-                          {
-                              "page":  "http://dentastayl.ru/otzyvy",
-                              "href":  "/politika-konfidentsialnosti",
-                              "text":  "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
-                          },
-                          {
-                              "page":  "http://dentastayl.ru/search",
-                              "href":  "/politika-konfidentsialnosti",
-                              "text":  "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
-                          }
-                      ],
-    "forbidden_hits":  [
-
-                       ],
-    "cert_errors":  [
-                        {
-                            "url":  "https://dentastayl.ru/",
-                            "error":  "\u003curlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)\u003e"
-                        },
-                        {
-                            "url":  "https://dentastayl.ru/contacts",
-                            "error":  "\u003curlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)\u003e"
-                        },
-                        {
-                            "url":  "https://dentastayl.ru/registratsiya",
-                            "error":  "\u003curlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)\u003e"
-                        },
-                        {
-                            "url":  "https://dentastayl.ru/politika",
-                            "error":  "\u003curlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)\u003e"
-                        },
-                        {
-                            "url":  "https://dentastayl.ru/politika-konfidentsialnosti",
-                            "error":  "\u003curlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)\u003e"
-                        },
-                        {
-                            "url":  "https://dentastayl.ru/privacy-policy",
-                            "error":  "\u003curlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)\u003e"
-                        },
-                        {
-                            "url":  "https://dentastayl.ru/otzyvy",
-                            "error":  "\u003curlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)\u003e"
-                        },
-                        {
-                            "url":  "https://dentastayl.ru/search",
-                            "error":  "\u003curlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)\u003e"
-                        }
-                    ],
-    "tech":  {
-                 "ssl":  {
-                             "ok":  false,
-                             "protocol":  null,
-                             "issuer_cn":  null,
-                             "not_after":  null,
-                             "days_left":  null,
-                             "error":  "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)"
-                         },
-                 "http_to_https":  {
-                                       "requested":  "http://dentastayl.ru/",
-                                       "status":  200,
-                                       "final_url":  "http://dentastayl.ru/",
-                                       "redirected_to_https":  false,
-                                       "error":  null
-                                   },
-                 "canonical_www":  {
-                                       "non_www":  {
-                                                       "requested":  "https://dentastayl.ru/",
-                                                       "status":  null,
-                                                       "final_url":  "https://dentastayl.ru/",
-                                                       "error":  "\u003curlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)\u003e"
-                                                   },
-                                       "www":  {
-                                                   "requested":  "https://www.dentastayl.ru/",
-                                                   "status":  null,
-                                                   "final_url":  "https://www.dentastayl.ru/",
-                                                   "error":  "\u003curlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)\u003e"
-                                               },
-                                       "same_canonical":  false,
-                                       "canonical_host":  null
-                                   },
-                 "ttfb":  {
-                              "seconds":  0.505,
-                              "source_url":  "http://dentastayl.ru/",
-                              "status":  200,
-                              "error":  null
-                          },
-                 "pagespeed":  {
-                                   "status":  "partial",
-                                   "score":  null,
-                                   "lcp_seconds":  null,
-                                   "tool":  "C:\\Program Files\\nodejs\\npx.CMD --yes lighthouse",
-                                   "error":  "Runtime error encountered: The URL you have provided does not have a valid security certificate. net::ERR_CERT_AUTHORITY_INVALID\n"
-                               },
-                 "analytics":  {
-                                   "found":  true,
-                                   "kinds":  [
-                                                 "yandex_metrika"
-                                             ],
-                                   "goals_found":  false,
-                                   "goal_markers":  [
-
-                                                    ]
-                               },
-                 "engagement":  {
-                                    "whatsapp":  false,
-                                    "telegram":  false,
-                                    "chat_widget":  false,
-                                    "slot_booking_widget":  false
-                                },
-                 "remarketing":  {
-                                     "vk_pixel":  false,
-                                     "meta_pixel":  false,
-                                     "google_ads_remarketing":  false,
-                                     "found":  false
-                                 },
-                 "favicon":  {
-                                 "status":  null,
-                                 "from_html":  true,
-                                 "found":  true
-                             },
-                 "schema":  {
-                                "found":  false,
-                                "types":  [
-
-                                          ]
-                            },
-                 "med_trust":  {
-                                   "contact_page_exists":  true,
-                                   "contact_pages":  [
-                                                         "http://dentastayl.ru/contacts"
-                                                     ],
-                                   "price_public_found":  false,
-                                   "price_pages":  [
-
-                                                   ],
-                                   "doctors_page_exists":  false,
-                                   "doctor_pages":  [
-
-                                                    ],
-                                   "address_found":  true,
-                                   "map_found":  true,
-                                   "hours_found":  true,
-                                   "reviews_found":  true,
-                                   "service_pages_count":  0,
-                                   "service_pages":  [
-
-                                                     ],
-                                   "clickable_contacts":  {
-                                                              "tel":  false,
-                                                              "mailto":  false
-                                                          },
-                                   "doctor_cards":  {
-                                                        "names_count":  0,
-                                                        "specialty_found":  false,
-                                                        "complete":  false
-                                                    },
-                                   "nap":  {
-                                               "home_phones":  [
-                                                                   "9856130402",
-                                                                   "9266838224",
-                                                                   "9017012040",
-                                                                   "9268722282"
-                                                               ],
-                                               "contact_phones":  [
-                                                                      "9856130402",
-                                                                      "9266838224",
-                                                                      "9017012040",
-                                                                      "9268722282"
-                                                                  ],
-                                               "phone_match":  true,
-                                               "home_address_found":  true,
-                                               "contact_address_found":  true,
-                                               "address_match":  true,
-                                               "consistent":  true
-                                           },
-                                   "schema":  {
-                                                  "medical":  false,
-                                                  "any":  false,
-                                                  "types":  [
-
-                                                            ]
-                                              }
-                               },
-                 "mixed_content":  {
-                                       "count":  0,
-                                       "samples":  [
-
-                                                   ]
-                                   },
-                 "broken_internal_links":  {
-                                               "checked":  39,
-                                               "broken":  2,
-                                               "samples":  [
-                                                               {
-                                                                   "url":  "http://dentastayl.ru/novogodnyaya-akciya",
-                                                                   "status":  404,
-                                                                   "error":  "HTTPError 404",
-                                                                   "final_url":  "http://dentastayl.ru/novogodnyaya-akciya"
-                                                               },
-                                                               {
-                                                                   "url":  "http://dentastayl.ru/f/politika_konfidentsialnosti_dentastayl.docx",
-                                                                   "status":  404,
-                                                                   "error":  "HTTPError 404",
-                                                                   "final_url":  "http://dentastayl.ru/f/politika_konfidentsialnosti_dentastayl.docx"
-                                                               }
-                                                           ]
-                                           },
-                 "broken_static_resources":  {
-                                                 "checked":  49,
-                                                 "broken":  0,
-                                                 "samples":  [
-
-                                                             ]
-                                             },
-                 "security_headers":  {
-                                          "checked":  [
-                                                          "strict-transport-security",
-                                                          "content-security-policy",
-                                                          "x-frame-options",
-                                                          "x-content-type-options",
-                                                          "referrer-policy"
-                                                      ],
-                                          "present":  [
-
-                                                      ],
-                                          "missing":  [
-                                                          "strict-transport-security",
-                                                          "content-security-policy",
-                                                          "x-frame-options",
-                                                          "x-content-type-options",
-                                                          "referrer-policy"
-                                                      ],
-                                          "values":  {
-
-                                                     },
-                                          "source_url":  "http://dentastayl.ru/",
-                                          "source_status":  200
-                                      }
-             },
-    "discovery":  {
-                      "contact_urls":  [
-                                           "http://dentastayl.ru/contacts"
-                                       ],
-                      "booking_urls":  [
-                                           "http://dentastayl.ru/registratsiya"
-                                       ],
-                      "legal_urls":  [
-                                         "http://dentastayl.ru/politika",
-                                         "http://dentastayl.ru/politika-konfidentsialnosti",
-                                         "http://dentastayl.ru/privacy-policy"
-                                     ],
-                      "sources":  {
-                                      "http://dentastayl.ru/":  "",
-                                      "http://dentastayl.ru/contacts":  "sitemap",
-                                      "http://dentastayl.ru/otzyvy":  "sitemap-form",
-                                      "http://dentastayl.ru/politika":  "policy-hint",
-                                      "http://dentastayl.ru/politika-konfidentsialnosti":  "sitemap-legal",
-                                      "http://dentastayl.ru/privacy-policy":  "sitemap-legal",
-                                      "http://dentastayl.ru/registratsiya":  "sitemap-form",
-                                      "http://dentastayl.ru/search":  "sitemap-form"
-                                  },
-                      "fallback_used":  {
-                                            "contact":  false,
-                                            "booking":  false
-                                        },
-                      "sitemap_total_urls":  49,
-                      "sitemap_used_urls":  49
-                  },
-    "verification":  {
-                         "b2":  true,
-                         "b3":  true,
-                         "b4":  true
-                     }
+{
+  "domain": "dentastayl.ru",
+  "pages": [
+    {
+      "requested": "http://dentastayl.ru/",
+      "status": 200,
+      "final_url": "http://dentastayl.ru/",
+      "error": null
+    },
+    {
+      "requested": "http://dentastayl.ru/contacts",
+      "status": 200,
+      "final_url": "http://dentastayl.ru/contacts",
+      "error": null
+    },
+    {
+      "requested": "http://dentastayl.ru/registratsiya",
+      "status": 200,
+      "final_url": "http://dentastayl.ru/registratsiya",
+      "error": null
+    },
+    {
+      "requested": "http://dentastayl.ru/politika",
+      "status": 404,
+      "final_url": "http://dentastayl.ru/politika",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "http://dentastayl.ru/politika-konfidentsialnosti",
+      "status": 200,
+      "final_url": "http://dentastayl.ru/politika-konfidentsialnosti",
+      "error": null
+    },
+    {
+      "requested": "http://dentastayl.ru/privacy-policy",
+      "status": 200,
+      "final_url": "http://dentastayl.ru/privacy-policy",
+      "error": null
+    },
+    {
+      "requested": "http://dentastayl.ru/otzyvy",
+      "status": 200,
+      "final_url": "http://dentastayl.ru/otzyvy",
+      "error": null
+    },
+    {
+      "requested": "http://dentastayl.ru/search",
+      "status": 200,
+      "final_url": "http://dentastayl.ru/search",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "http://dentastayl.ru/registratsiya",
+      "form_id": "form_1",
+      "action_display": "action=\"/registratsiya/login\"",
+      "open_tag": "<form action=\"/registratsiya/login\" method=\"post\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null,
+      "has_phone_field": false,
+      "has_name_field": false,
+      "has_textarea": false,
+      "phone_required": false
+    },
+    {
+      "page": "http://dentastayl.ru/otzyvy",
+      "form_id": "s3_form",
+      "action_display": "action=\"/otzyvy\"",
+      "open_tag": "<form class=\"s3_form\" action=\"/otzyvy\" method=\"post\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null,
+      "has_phone_field": true,
+      "has_name_field": true,
+      "has_textarea": true,
+      "phone_required": false
+    }
+  ],
+  "emails": [
+    "dentastail4@mail.ru",
+    "dentastayl@mail.ru",
+    "dentastayl_2@mail.ru",
+    "sample@domain.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "http://dentastayl.ru/",
+      "href": "/politika-konfidentsialnosti",
+      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+    },
+    {
+      "page": "http://dentastayl.ru/contacts",
+      "href": "/politika-konfidentsialnosti",
+      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+    },
+    {
+      "page": "http://dentastayl.ru/registratsiya",
+      "href": "/politika-konfidentsialnosti",
+      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+    },
+    {
+      "page": "http://dentastayl.ru/registratsiya",
+      "href": "/registratsiya?mode=agreement",
+      "text": "СЃРѕРіР»Р°СЃРёРµ РЅР° РїРµСЂРµРґР°С‡Сѓ Рё РѕР±СЂР°Р±РѕС‚РєСѓ РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+    },
+    {
+      "page": "http://dentastayl.ru/registratsiya",
+      "href": "/registratsiya?mode=policy",
+      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+    },
+    {
+      "page": "http://dentastayl.ru/politika-konfidentsialnosti",
+      "href": "http://dentastayl.ru/politika-konfidentsialnosti",
+      "text": "policy path"
+    },
+    {
+      "page": "http://dentastayl.ru/politika-konfidentsialnosti",
+      "href": "/politika-konfidentsialnosti",
+      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+    },
+    {
+      "page": "http://dentastayl.ru/politika-konfidentsialnosti",
+      "href": "/f/politika_konfidentsialnosti_dentastayl.docx",
+      "text": "РЎРєР°С‡Р°С‚СЊ СЃРѕРіР»Р°С€РµРЅРёРµ Рѕ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+    },
+    {
+      "page": "http://dentastayl.ru/privacy-policy",
+      "href": "http://dentastayl.ru/privacy-policy",
+      "text": "policy path"
+    },
+    {
+      "page": "http://dentastayl.ru/privacy-policy",
+      "href": "/politika-konfidentsialnosti",
+      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+    },
+    {
+      "page": "http://dentastayl.ru/otzyvy",
+      "href": "/politika-konfidentsialnosti",
+      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+    },
+    {
+      "page": "http://dentastayl.ru/search",
+      "href": "/politika-konfidentsialnosti",
+      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [
+    {
+      "url": "https://dentastayl.ru/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://dentastayl.ru/contacts",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://dentastayl.ru/registratsiya",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://dentastayl.ru/politika",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://dentastayl.ru/politika-konfidentsialnosti",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://dentastayl.ru/privacy-policy",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://dentastayl.ru/otzyvy",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    },
+    {
+      "url": "https://dentastayl.ru/search",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+    }
+  ],
+  "tech": {
+    "ssl": {
+      "ok": false,
+      "protocol": null,
+      "issuer_cn": null,
+      "not_after": null,
+      "days_left": null,
+      "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)"
+    },
+    "http_to_https": {
+      "requested": "http://dentastayl.ru/",
+      "status": 200,
+      "final_url": "http://dentastayl.ru/",
+      "redirected_to_https": false,
+      "error": null
+    },
+    "canonical_www": {
+      "non_www": {
+        "requested": "https://dentastayl.ru/",
+        "status": null,
+        "final_url": "https://dentastayl.ru/",
+        "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+      },
+      "www": {
+        "requested": "https://www.dentastayl.ru/",
+        "status": null,
+        "final_url": "https://www.dentastayl.ru/",
+        "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)>"
+      },
+      "same_canonical": false,
+      "canonical_host": null
+    },
+    "ttfb": {
+      "seconds": 0.505,
+      "source_url": "http://dentastayl.ru/",
+      "status": 200,
+      "error": null
+    },
+    "pagespeed": {
+      "status": "partial",
+      "score": null,
+      "lcp_seconds": null,
+      "tool": "C:\\Program Files\\nodejs\\npx.CMD --yes lighthouse",
+      "error": "Runtime error encountered: The URL you have provided does not have a valid security certificate. net::ERR_CERT_AUTHORITY_INVALID\n"
+    },
+    "analytics": {
+      "found": true,
+      "kinds": [
+        "yandex_metrika"
+      ],
+      "goals_found": false,
+      "goal_markers": []
+    },
+    "engagement": {
+      "whatsapp": false,
+      "telegram": false,
+      "chat_widget": false,
+      "slot_booking_widget": false
+    },
+    "remarketing": {
+      "vk_pixel": false,
+      "meta_pixel": false,
+      "google_ads_remarketing": false,
+      "found": false
+    },
+    "favicon": {
+      "status": null,
+      "from_html": true,
+      "found": true
+    },
+    "schema": {
+      "found": false,
+      "types": []
+    },
+    "med_trust": {
+      "contact_page_exists": true,
+      "contact_pages": [
+        "http://dentastayl.ru/contacts"
+      ],
+      "price_public_found": false,
+      "price_pages": [],
+      "doctors_page_exists": false,
+      "doctor_pages": [],
+      "address_found": true,
+      "map_found": true,
+      "hours_found": true,
+      "reviews_found": true,
+      "service_pages_count": 0,
+      "service_pages": [],
+      "schema": {
+        "medical": false,
+        "any": false,
+        "types": []
+      },
+      "footer_year": {
+        "present": null,
+        "year": null,
+        "current_year": null
+      }
+    },
+    "mixed_content": {
+      "count": 0,
+      "samples": []
+    },
+    "broken_internal_links": {
+      "checked": 39,
+      "broken": 2,
+      "samples": [
+        {
+          "url": "http://dentastayl.ru/novogodnyaya-akciya",
+          "status": 404,
+          "error": "HTTPError 404",
+          "final_url": "http://dentastayl.ru/novogodnyaya-akciya"
+        },
+        {
+          "url": "http://dentastayl.ru/f/politika_konfidentsialnosti_dentastayl.docx",
+          "status": 404,
+          "error": "HTTPError 404",
+          "final_url": "http://dentastayl.ru/f/politika_konfidentsialnosti_dentastayl.docx"
+        }
+      ]
+    },
+    "broken_static_resources": {
+      "checked": 49,
+      "broken": 0,
+      "samples": []
+    },
+    "security_headers": {
+      "checked": [
+        "strict-transport-security",
+        "content-security-policy",
+        "x-frame-options",
+        "x-content-type-options",
+        "referrer-policy"
+      ],
+      "present": [],
+      "missing": [
+        "strict-transport-security",
+        "content-security-policy",
+        "x-frame-options",
+        "x-content-type-options",
+        "referrer-policy"
+      ],
+      "values": {},
+      "source_url": "http://dentastayl.ru/",
+      "source_status": 200
+    }
+  },
+  "discovery": {
+    "contact_urls": [
+      "http://dentastayl.ru/contacts"
+    ],
+    "booking_urls": [
+      "http://dentastayl.ru/registratsiya"
+    ],
+    "legal_urls": [
+      "http://dentastayl.ru/politika",
+      "http://dentastayl.ru/politika-konfidentsialnosti",
+      "http://dentastayl.ru/privacy-policy"
+    ],
+    "sources": {
+      "http://dentastayl.ru/": "",
+      "http://dentastayl.ru/contacts": "sitemap",
+      "http://dentastayl.ru/otzyvy": "sitemap-form",
+      "http://dentastayl.ru/politika": "policy-hint",
+      "http://dentastayl.ru/politika-konfidentsialnosti": "sitemap-legal",
+      "http://dentastayl.ru/privacy-policy": "sitemap-legal",
+      "http://dentastayl.ru/registratsiya": "sitemap-form",
+      "http://dentastayl.ru/search": "sitemap-form"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": false
+    },
+    "sitemap_total_urls": 49,
+    "sitemap_used_urls": 49
+  },
+  "verification": {
+    "b2": true,
+    "b3": true,
+    "b4": true
+  }
 }

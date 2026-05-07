@@ -17,6 +17,7 @@ import ssl
 import shutil
 import subprocess
 import time
+from datetime import datetime
 import urllib.request
 import urllib.error
 import xml.etree.ElementTree as ET
@@ -939,6 +940,24 @@ def count_probable_person_names(text: str):
     return len(names), names[:20]
 
 
+def detect_footer_year_info(html: str, current_year: int):
+    if not html:
+        return {'present': None, 'year': None, 'current_year': None}
+
+    m = re.search(r'(?is)<footer\b[^>]*>(.*?)</footer>', html)
+    if not m:
+        return {'present': False, 'year': None, 'current_year': None}
+
+    footer_html = m.group(1) or ''
+    footer_text = clean(strip_tags(footer_html))
+    years = re.findall(r'\b(20\d{2})\b', footer_text)
+    if not years:
+        return {'present': True, 'year': None, 'current_year': None}
+
+    year = int(years[-1])
+    return {'present': True, 'year': year, 'current_year': (year == int(current_year))}
+
+
 def detect_med_trust_signals(html_ok_pages, contact_urls, schema_types):
     contact_set = set(contact_urls or [])
     home_page = None
@@ -951,15 +970,8 @@ def detect_med_trust_signals(html_ok_pages, contact_urls, schema_types):
     hours_found = False
     map_found = False
     address_any = False
-    has_tel_link = False
-    has_mailto_link = False
 
-    home_phones = []
-    contact_phones = []
-    home_addr = ''
-    contact_addr = ''
-    doctor_names_count = 0
-    doctor_specialty_found = False
+    footer_year_info = {'present': None, 'year': None, 'current_year': None}
 
     for page in html_ok_pages:
         url = str(page.get('final_url') or page.get('url') or '')
@@ -998,38 +1010,18 @@ def detect_med_trust_signals(html_ok_pages, contact_urls, schema_types):
         if addr:
             address_any = True
 
-        if not has_tel_link and re.search(r'(?is)\bhref\s*=\s*["\']tel:[^"\']+["\']', html):
-            has_tel_link = True
-        if not has_mailto_link and re.search(r'(?is)\bhref\s*=\s*["\']mailto:[^"\']+["\']', html):
-            has_mailto_link = True
-
         if urlparse(url).path in {'', '/'}:
-            home_phones = extract_phones(text)
-            home_addr = addr or home_addr
+            if footer_year_info.get('present') is None:
+                footer_year_info = detect_footer_year_info(html, datetime.now().year)
 
         if (url in contact_set) or is_contact_hint(low_url):
-            if not contact_phones:
-                contact_phones = extract_phones(text)
-            if not contact_addr:
-                contact_addr = addr
-
-        if has_any_token(low_url, DOCTOR_URL_HINTS):
-            names_count, _ = count_probable_person_names(text)
-            doctor_names_count = max(doctor_names_count, names_count)
-            if has_any_token(text_low, SPECIALTY_KEYWORDS):
-                doctor_specialty_found = True
+            if footer_year_info.get('present') is None:
+                footer_year_info = detect_footer_year_info(html, datetime.now().year)
 
     if not home_page and html_ok_pages:
         home_page = html_ok_pages[0]
-
-    phone_match = bool(set(home_phones) & set(contact_phones)) if (home_phones and contact_phones) else None
-    address_match = (home_addr == contact_addr) if (home_addr and contact_addr) else None
-
-    nap_consistent = False
-    if phone_match is True:
-        nap_consistent = True
-    elif phone_match is None and address_match is True:
-        nap_consistent = True
+    if footer_year_info.get('present') is None and home_page:
+        footer_year_info = detect_footer_year_info((home_page.get('html', '') or ''), datetime.now().year)
 
     schema_set = {str(x).lower() for x in (schema_types or [])}
     schema_medical = bool(schema_set & {'medicalorganization', 'medicalclinic', 'physician', 'dentist', 'hospital'})
@@ -1048,29 +1040,12 @@ def detect_med_trust_signals(html_ok_pages, contact_urls, schema_types):
         'reviews_found': reviews_found,
         'service_pages_count': len(dedupe_keep_order(service_pages)),
         'service_pages': dedupe_keep_order(service_pages)[:20],
-        'clickable_contacts': {
-            'tel': has_tel_link,
-            'mailto': has_mailto_link,
-        },
-        'doctor_cards': {
-            'names_count': doctor_names_count,
-            'specialty_found': doctor_specialty_found,
-            'complete': bool(doctor_names_count >= 2 and doctor_specialty_found),
-        },
-        'nap': {
-            'home_phones': home_phones[:5],
-            'contact_phones': contact_phones[:5],
-            'phone_match': phone_match,
-            'home_address_found': bool(home_addr),
-            'contact_address_found': bool(contact_addr),
-            'address_match': address_match,
-            'consistent': nap_consistent,
-        },
         'schema': {
             'medical': schema_medical,
             'any': schema_any,
             'types': sorted(schema_set),
         },
+        'footer_year': footer_year_info,
     }
 
 

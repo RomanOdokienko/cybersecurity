@@ -1176,38 +1176,17 @@
         "https://dr-knyazkin.ru/implantation",
         "https://dr-knyazkin.ru/osstem-dental-implantation"
       ],
-      "clickable_contacts": {
-        "tel": true,
-        "mailto": true
-      },
-      "doctor_cards": {
-        "names_count": 26,
-        "specialty_found": true,
-        "complete": true
-      },
-      "nap": {
-        "home_phones": [
-          "9299372181",
-          "9266924131",
-          "4951475910"
-        ],
-        "contact_phones": [
-          "9299372181",
-          "9266924131",
-          "4951475910"
-        ],
-        "phone_match": true,
-        "home_address_found": true,
-        "contact_address_found": false,
-        "address_match": null,
-        "consistent": true
-      },
       "schema": {
         "medical": false,
         "any": true,
         "types": [
           "detected"
         ]
+      },
+      "footer_year": {
+        "present": null,
+        "year": null,
+        "current_year": null
       }
     },
     "mixed_content": {

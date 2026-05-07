@@ -1,409 +1,380 @@
-﻿{
-    "domain":  "www.satellit-31.ru",
-    "pages":  [
-                  {
-                      "requested":  "https://www.satellit-31.ru/",
-                      "status":  200,
-                      "final_url":  "https://www.satellit-31.ru/",
-                      "error":  null
-                  },
-                  {
-                      "requested":  "http://www.satellit-31.ru/contacts/",
-                      "status":  200,
-                      "final_url":  "https://www.satellit-31.ru:443/contacts/",
-                      "error":  null
-                  },
-                  {
-                      "requested":  "https://www.satellit-31.ru/contacts/",
-                      "status":  200,
-                      "final_url":  "https://www.satellit-31.ru/contacts/",
-                      "error":  null
-                  },
-                  {
-                      "requested":  "https://www.satellit-31.ru/appointment",
-                      "status":  404,
-                      "final_url":  "https://www.satellit-31.ru/appointment",
-                      "error":  "HTTPError 404"
-                  },
-                  {
-                      "requested":  "https://www.satellit-31.ru/booking",
-                      "status":  404,
-                      "final_url":  "https://www.satellit-31.ru/booking",
-                      "error":  "HTTPError 404"
-                  },
-                  {
-                      "requested":  "https://www.satellit-31.ru/zapis",
-                      "status":  404,
-                      "final_url":  "https://www.satellit-31.ru/zapis",
-                      "error":  "HTTPError 404"
-                  },
-                  {
-                      "requested":  "https://www.satellit-31.ru/documents/",
-                      "status":  200,
-                      "final_url":  "https://www.satellit-31.ru/documents/",
-                      "error":  null
-                  }
-              ],
-    "forms":  [
-                  {
-                      "page":  "http://www.satellit-31.ru/contacts/",
-                      "form_id":  "wpcf7-form",
-                      "action_display":  "action=\"/contacts/#wpcf7-f706-p41-o1\"",
-                      "open_tag":  "\u003cform action=\"/contacts/#wpcf7-f706-p41-o1\" method=\"post\" class=\"wpcf7-form\" novalidate=\"novalidate\"\u003e",
-                      "has_checkbox":  false,
-                      "checked":  null,
-                      "has_policy_text":  false,
-                      "checkbox_poc":  null,
-                      "policy_poc":  null,
-                      "has_phone_field":  true,
-                      "has_name_field":  true,
-                      "has_textarea":  true,
-                      "phone_required":  true
-                  },
-                  {
-                      "page":  "https://www.satellit-31.ru/contacts/",
-                      "form_id":  "wpcf7-form",
-                      "action_display":  "action=\"/contacts/#wpcf7-f706-p41-o1\"",
-                      "open_tag":  "\u003cform action=\"/contacts/#wpcf7-f706-p41-o1\" method=\"post\" class=\"wpcf7-form\" novalidate=\"novalidate\"\u003e",
-                      "has_checkbox":  false,
-                      "checked":  null,
-                      "has_policy_text":  false,
-                      "checkbox_poc":  null,
-                      "policy_poc":  null,
-                      "has_phone_field":  true,
-                      "has_name_field":  true,
-                      "has_textarea":  true,
-                      "phone_required":  true
-                  }
-              ],
-    "emails":  [
-                   "info@satellit-31.ru"
-               ],
-    "privacy_links":  [
-                          {
-                              "page":  "https://www.satellit-31.ru/documents/",
-                              "href":  "http://www.satellit-31.ru/wp-content/uploads/2024/07/politika.pdf",
-                              "text":  ""
-                          }
-                      ],
-    "forbidden_hits":  [
-                           {
-                               "token":  "facebook",
-                               "page":  "https://www.satellit-31.ru/",
-                               "context":  "src=\"https://www.facebook.com/tr?id=509093480559963\u0026ev=PageView \u0026noscript=1\"",
-                               "visibility":  "С‚РѕР»СЊРєРѕ РІ РєРѕРґРµ"
-                           },
-                           {
-                               "token":  "facebook.com",
-                               "page":  "https://www.satellit-31.ru/",
-                               "context":  "src=\"https://www.facebook.com/tr?id=509093480559963\u0026ev=PageView \u0026noscript=1\"",
-                               "visibility":  "С‚РѕР»СЊРєРѕ РІ РєРѕРґРµ"
-                           },
-                           {
-                               "token":  "facebook",
-                               "page":  "http://www.satellit-31.ru/contacts/",
-                               "context":  "src=\"https://www.facebook.com/tr?id=509093480559963\u0026ev=PageView \u0026noscript=1\"",
-                               "visibility":  "С‚РѕР»СЊРєРѕ РІ РєРѕРґРµ"
-                           },
-                           {
-                               "token":  "facebook.com",
-                               "page":  "http://www.satellit-31.ru/contacts/",
-                               "context":  "src=\"https://www.facebook.com/tr?id=509093480559963\u0026ev=PageView \u0026noscript=1\"",
-                               "visibility":  "С‚РѕР»СЊРєРѕ РІ РєРѕРґРµ"
-                           },
-                           {
-                               "token":  "facebook",
-                               "page":  "https://www.satellit-31.ru/contacts/",
-                               "context":  "src=\"https://www.facebook.com/tr?id=509093480559963\u0026ev=PageView \u0026noscript=1\"",
-                               "visibility":  "С‚РѕР»СЊРєРѕ РІ РєРѕРґРµ"
-                           },
-                           {
-                               "token":  "facebook.com",
-                               "page":  "https://www.satellit-31.ru/contacts/",
-                               "context":  "src=\"https://www.facebook.com/tr?id=509093480559963\u0026ev=PageView \u0026noscript=1\"",
-                               "visibility":  "С‚РѕР»СЊРєРѕ РІ РєРѕРґРµ"
-                           },
-                           {
-                               "token":  "facebook",
-                               "page":  "https://www.satellit-31.ru/documents/",
-                               "context":  "src=\"https://www.facebook.com/tr?id=509093480559963\u0026ev=PageView \u0026noscript=1\"",
-                               "visibility":  "С‚РѕР»СЊРєРѕ РІ РєРѕРґРµ"
-                           },
-                           {
-                               "token":  "facebook.com",
-                               "page":  "https://www.satellit-31.ru/documents/",
-                               "context":  "src=\"https://www.facebook.com/tr?id=509093480559963\u0026ev=PageView \u0026noscript=1\"",
-                               "visibility":  "С‚РѕР»СЊРєРѕ РІ РєРѕРґРµ"
-                           }
-                       ],
-    "cert_errors":  [
-
-                    ],
-    "tech":  {
-                 "ssl":  {
-                             "ok":  true,
-                             "protocol":  "TLSv1.3",
-                             "issuer_cn":  "GlobalSign GCC R3 DV TLS CA 2020",
-                             "not_after":  "Apr  9 12:43:25 2027 GMT",
-                             "days_left":  338,
-                             "error":  null
-                         },
-                 "http_to_https":  {
-                                       "requested":  "http://www.satellit-31.ru/",
-                                       "status":  200,
-                                       "final_url":  "https://www.satellit-31.ru:443/",
-                                       "redirected_to_https":  true,
-                                       "error":  null
-                                   },
-                 "canonical_www":  {
-                                       "non_www":  {
-                                                       "requested":  "https://satellit-31.ru/",
-                                                       "status":  200,
-                                                       "final_url":  "https://www.satellit-31.ru:443/",
-                                                       "error":  null
-                                                   },
-                                       "www":  {
-                                                   "requested":  "https://www.satellit-31.ru/",
-                                                   "status":  200,
-                                                   "final_url":  "https://www.satellit-31.ru/",
-                                                   "error":  null
-                                               },
-                                       "same_canonical":  false,
-                                       "canonical_host":  null
-                                   },
-                 "ttfb":  {
-                              "seconds":  2.861,
-                              "source_url":  "https://www.satellit-31.ru/",
-                              "status":  200,
-                              "error":  null
-                          },
-                 "pagespeed":  {
-                                   "status":  "ok",
-                                   "score":  36,
-                                   "lcp_seconds":  11.624,
-                                   "tool":  "C:\\Program Files\\nodejs\\npx.CMD --yes lighthouse",
-                                   "error":  null
-                               },
-                 "analytics":  {
-                                   "found":  true,
-                                   "kinds":  [
-                                                 "facebook_pixel",
-                                                 "google_analytics",
-                                                 "yandex_metrika"
-                                             ],
-                                   "goals_found":  true,
-                                   "goal_markers":  [
-                                                        "datalayer_event",
-                                                        "facebook_track"
-                                                    ]
-                               },
-                 "engagement":  {
-                                    "whatsapp":  false,
-                                    "telegram":  false,
-                                    "chat_widget":  false,
-                                    "slot_booking_widget":  false
-                                },
-                 "remarketing":  {
-                                     "vk_pixel":  false,
-                                     "meta_pixel":  true,
-                                     "google_ads_remarketing":  false,
-                                     "found":  true
-                                 },
-                 "favicon":  {
-                                 "status":  200,
-                                 "from_html":  true,
-                                 "found":  true
-                             },
-                 "schema":  {
-                                "found":  true,
-                                "types":  [
-                                              "hospital"
-                                          ]
-                            },
-                 "med_trust":  {
-                                   "contact_page_exists":  true,
-                                   "contact_pages":  [
-                                                         "https://www.satellit-31.ru:443/contacts/",
-                                                         "https://www.satellit-31.ru/contacts/"
-                                                     ],
-                                   "price_public_found":  false,
-                                   "price_pages":  [
-
-                                                   ],
-                                   "doctors_page_exists":  false,
-                                   "doctor_pages":  [
-
-                                                    ],
-                                   "address_found":  true,
-                                   "map_found":  false,
-                                   "hours_found":  true,
-                                   "reviews_found":  true,
-                                   "service_pages_count":  0,
-                                   "service_pages":  [
-
-                                                     ],
-                                   "clickable_contacts":  {
-                                                              "tel":  false,
-                                                              "mailto":  true
-                                                          },
-                                   "doctor_cards":  {
-                                                        "names_count":  0,
-                                                        "specialty_found":  false,
-                                                        "complete":  false
-                                                    },
-                                   "nap":  {
-                                               "home_phones":  [
-                                                                   "4994321600",
-                                                                   "4994320420"
-                                                               ],
-                                               "contact_phones":  [
-                                                                      "4994321600",
-                                                                      "4994320420"
-                                                                  ],
-                                               "phone_match":  true,
-                                               "home_address_found":  true,
-                                               "contact_address_found":  true,
-                                               "address_match":  false,
-                                               "consistent":  true
-                                           },
-                                   "schema":  {
-                                                  "medical":  true,
-                                                  "any":  true,
-                                                  "types":  [
-                                                                "hospital"
-                                                            ]
-                                              }
-                               },
-                 "mixed_content":  {
-                                       "count":  5,
-                                       "samples":  [
-                                                       {
-                                                           "page":  "https://www.satellit-31.ru/",
-                                                           "asset":  "http://gmpg.org/xfn/11"
-                                                       },
-                                                       {
-                                                           "page":  "http://www.satellit-31.ru/contacts/",
-                                                           "asset":  "http://gmpg.org/xfn/11"
-                                                       },
-                                                       {
-                                                           "page":  "https://www.satellit-31.ru/contacts/",
-                                                           "asset":  "http://gmpg.org/xfn/11"
-                                                       },
-                                                       {
-                                                           "page":  "https://www.satellit-31.ru/documents/",
-                                                           "asset":  "http://gmpg.org/xfn/11"
-                                                       },
-                                                       {
-                                                           "page":  "https://www.satellit-31.ru/documents/",
-                                                           "asset":  "http://www.satellit-31.ru/wp-content/uploads/2024/07/pdf-150x150.png"
-                                                       }
-                                                   ]
-                                   },
-                 "broken_internal_links":  {
-                                               "checked":  43,
-                                               "broken":  0,
-                                               "samples":  [
-
-                                                           ]
-                                           },
-                 "broken_static_resources":  {
-                                                 "checked":  66,
-                                                 "broken":  6,
-                                                 "samples":  [
-                                                                 {
-                                                                     "url":  "https://www.satellit-31.ru/xmlrpc.php",
-                                                                     "status":  null,
-                                                                     "error":  "Remote end closed connection without response",
-                                                                     "final_url":  "https://www.satellit-31.ru/xmlrpc.php"
-                                                                 },
-                                                                 {
-                                                                     "url":  "https://www.satellit-31.ru/xmlrpc.php?rsd",
-                                                                     "status":  null,
-                                                                     "error":  "Remote end closed connection without response",
-                                                                     "final_url":  "https://www.satellit-31.ru/xmlrpc.php?rsd"
-                                                                 },
-                                                                 {
-                                                                     "url":  "https://www.satellit-31.ru/wp-content/uploads/2025/10/РЎР°С‚РµР»Р»РёС‚-2.png",
-                                                                     "status":  null,
-                                                                     "error":  "\u0027ascii\u0027 codec can\u0027t encode characters in position 32-39: ordinal not in range(128)",
-                                                                     "final_url":  "https://www.satellit-31.ru/wp-content/uploads/2025/10/РЎР°С‚РµР»Р»РёС‚-2.png"
-                                                                 },
-                                                                 {
-                                                                     "url":  "https://www.satellit-31.ru/wp-content/uploads/2022/01/РїСѓРЅРєС‚-6-РіРёРЅРµРєРѕР»РѕРіРёСЏ--500x500.jpg",
-                                                                     "status":  null,
-                                                                     "error":  "\u0027ascii\u0027 codec can\u0027t encode characters in position 32-36: ordinal not in range(128)",
-                                                                     "final_url":  "https://www.satellit-31.ru/wp-content/uploads/2022/01/РїСѓРЅРєС‚-6-РіРёРЅРµРєРѕР»РѕРіРёСЏ--500x500.jpg"
-                                                                 },
-                                                                 {
-                                                                     "url":  "https://www.satellit-31.ru/wp-content/uploads/2022/01/РїСѓРЅРєС‚-6-СЃС‚РѕРјР°С‚РѕР»РѕРіРёСЏ--500x500.jpg",
-                                                                     "status":  null,
-                                                                     "error":  "\u0027ascii\u0027 codec can\u0027t encode characters in position 32-36: ordinal not in range(128)",
-                                                                     "final_url":  "https://www.satellit-31.ru/wp-content/uploads/2022/01/РїСѓРЅРєС‚-6-СЃС‚РѕРјР°С‚РѕР»РѕРіРёСЏ--500x500.jpg"
-                                                                 },
-                                                                 {
-                                                                     "url":  "https://www.satellit-31.ru/wp-content/uploads/2022/09/РћРґРёРЅС†РѕРІР°-РњРёР»Р°-Р’Р°РґРёРјРѕРІРЅР°-1-500x500.jpg",
-                                                                     "status":  null,
-                                                                     "error":  "\u0027ascii\u0027 codec can\u0027t encode characters in position 32-39: ordinal not in range(128)",
-                                                                     "final_url":  "https://www.satellit-31.ru/wp-content/uploads/2022/09/РћРґРёРЅС†РѕРІР°-РњРёР»Р°-Р’Р°РґРёРјРѕРІРЅР°-1-500x500.jpg"
-                                                                 }
-                                                             ]
-                                             },
-                 "security_headers":  {
-                                          "checked":  [
-                                                          "strict-transport-security",
-                                                          "content-security-policy",
-                                                          "x-frame-options",
-                                                          "x-content-type-options",
-                                                          "referrer-policy"
-                                                      ],
-                                          "present":  [
-                                                          "strict-transport-security"
-                                                      ],
-                                          "missing":  [
-                                                          "content-security-policy",
-                                                          "x-frame-options",
-                                                          "x-content-type-options",
-                                                          "referrer-policy"
-                                                      ],
-                                          "values":  {
-                                                         "strict-transport-security":  "max-age=31536000;"
-                                                     },
-                                          "source_url":  "https://www.satellit-31.ru/",
-                                          "source_status":  200
-                                      }
-             },
-    "discovery":  {
-                      "contact_urls":  [
-                                           "http://www.satellit-31.ru/contacts/",
-                                           "https://www.satellit-31.ru/contacts/"
-                                       ],
-                      "booking_urls":  [
-                                           "https://www.satellit-31.ru/appointment",
-                                           "https://www.satellit-31.ru/booking",
-                                           "https://www.satellit-31.ru/zapis"
-                                       ],
-                      "legal_urls":  [
-                                         "https://www.satellit-31.ru/documents/"
-                                     ],
-                      "sources":  {
-                                      "http://www.satellit-31.ru/contacts/":  "navigation",
-                                      "https://www.satellit-31.ru/":  "",
-                                      "https://www.satellit-31.ru/appointment":  "fallback",
-                                      "https://www.satellit-31.ru/booking":  "fallback",
-                                      "https://www.satellit-31.ru/contacts/":  "navigation",
-                                      "https://www.satellit-31.ru/documents/":  "navigation-legal",
-                                      "https://www.satellit-31.ru/zapis":  "fallback"
-                                  },
-                      "fallback_used":  {
-                                            "contact":  false,
-                                            "booking":  true
-                                        },
-                      "sitemap_total_urls":  17,
-                      "sitemap_used_urls":  17
-                  },
-    "verification":  {
-                         "b2":  true,
-                         "b3":  true,
-                         "b4":  true
-                     }
+{
+  "domain": "www.satellit-31.ru",
+  "pages": [
+    {
+      "requested": "https://www.satellit-31.ru/",
+      "status": 200,
+      "final_url": "https://www.satellit-31.ru/",
+      "error": null
+    },
+    {
+      "requested": "http://www.satellit-31.ru/contacts/",
+      "status": 200,
+      "final_url": "https://www.satellit-31.ru:443/contacts/",
+      "error": null
+    },
+    {
+      "requested": "https://www.satellit-31.ru/contacts/",
+      "status": 200,
+      "final_url": "https://www.satellit-31.ru/contacts/",
+      "error": null
+    },
+    {
+      "requested": "https://www.satellit-31.ru/appointment",
+      "status": 404,
+      "final_url": "https://www.satellit-31.ru/appointment",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://www.satellit-31.ru/booking",
+      "status": 404,
+      "final_url": "https://www.satellit-31.ru/booking",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://www.satellit-31.ru/zapis",
+      "status": 404,
+      "final_url": "https://www.satellit-31.ru/zapis",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://www.satellit-31.ru/documents/",
+      "status": 200,
+      "final_url": "https://www.satellit-31.ru/documents/",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "http://www.satellit-31.ru/contacts/",
+      "form_id": "wpcf7-form",
+      "action_display": "action=\"/contacts/#wpcf7-f706-p41-o1\"",
+      "open_tag": "<form action=\"/contacts/#wpcf7-f706-p41-o1\" method=\"post\" class=\"wpcf7-form\" novalidate=\"novalidate\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null,
+      "has_phone_field": true,
+      "has_name_field": true,
+      "has_textarea": true,
+      "phone_required": true
+    },
+    {
+      "page": "https://www.satellit-31.ru/contacts/",
+      "form_id": "wpcf7-form",
+      "action_display": "action=\"/contacts/#wpcf7-f706-p41-o1\"",
+      "open_tag": "<form action=\"/contacts/#wpcf7-f706-p41-o1\" method=\"post\" class=\"wpcf7-form\" novalidate=\"novalidate\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null,
+      "has_phone_field": true,
+      "has_name_field": true,
+      "has_textarea": true,
+      "phone_required": true
+    }
+  ],
+  "emails": [
+    "info@satellit-31.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://www.satellit-31.ru/documents/",
+      "href": "http://www.satellit-31.ru/wp-content/uploads/2024/07/politika.pdf",
+      "text": ""
+    }
+  ],
+  "forbidden_hits": [
+    {
+      "token": "facebook",
+      "page": "https://www.satellit-31.ru/",
+      "context": "src=\"https://www.facebook.com/tr?id=509093480559963&ev=PageView &noscript=1\"",
+      "visibility": "С‚РѕР»СЊРєРѕ РІ РєРѕРґРµ"
+    },
+    {
+      "token": "facebook.com",
+      "page": "https://www.satellit-31.ru/",
+      "context": "src=\"https://www.facebook.com/tr?id=509093480559963&ev=PageView &noscript=1\"",
+      "visibility": "С‚РѕР»СЊРєРѕ РІ РєРѕРґРµ"
+    },
+    {
+      "token": "facebook",
+      "page": "http://www.satellit-31.ru/contacts/",
+      "context": "src=\"https://www.facebook.com/tr?id=509093480559963&ev=PageView &noscript=1\"",
+      "visibility": "С‚РѕР»СЊРєРѕ РІ РєРѕРґРµ"
+    },
+    {
+      "token": "facebook.com",
+      "page": "http://www.satellit-31.ru/contacts/",
+      "context": "src=\"https://www.facebook.com/tr?id=509093480559963&ev=PageView &noscript=1\"",
+      "visibility": "С‚РѕР»СЊРєРѕ РІ РєРѕРґРµ"
+    },
+    {
+      "token": "facebook",
+      "page": "https://www.satellit-31.ru/contacts/",
+      "context": "src=\"https://www.facebook.com/tr?id=509093480559963&ev=PageView &noscript=1\"",
+      "visibility": "С‚РѕР»СЊРєРѕ РІ РєРѕРґРµ"
+    },
+    {
+      "token": "facebook.com",
+      "page": "https://www.satellit-31.ru/contacts/",
+      "context": "src=\"https://www.facebook.com/tr?id=509093480559963&ev=PageView &noscript=1\"",
+      "visibility": "С‚РѕР»СЊРєРѕ РІ РєРѕРґРµ"
+    },
+    {
+      "token": "facebook",
+      "page": "https://www.satellit-31.ru/documents/",
+      "context": "src=\"https://www.facebook.com/tr?id=509093480559963&ev=PageView &noscript=1\"",
+      "visibility": "С‚РѕР»СЊРєРѕ РІ РєРѕРґРµ"
+    },
+    {
+      "token": "facebook.com",
+      "page": "https://www.satellit-31.ru/documents/",
+      "context": "src=\"https://www.facebook.com/tr?id=509093480559963&ev=PageView &noscript=1\"",
+      "visibility": "С‚РѕР»СЊРєРѕ РІ РєРѕРґРµ"
+    }
+  ],
+  "cert_errors": [],
+  "tech": {
+    "ssl": {
+      "ok": true,
+      "protocol": "TLSv1.3",
+      "issuer_cn": "GlobalSign GCC R3 DV TLS CA 2020",
+      "not_after": "Apr  9 12:43:25 2027 GMT",
+      "days_left": 338,
+      "error": null
+    },
+    "http_to_https": {
+      "requested": "http://www.satellit-31.ru/",
+      "status": 200,
+      "final_url": "https://www.satellit-31.ru:443/",
+      "redirected_to_https": true,
+      "error": null
+    },
+    "canonical_www": {
+      "non_www": {
+        "requested": "https://satellit-31.ru/",
+        "status": 200,
+        "final_url": "https://www.satellit-31.ru:443/",
+        "error": null
+      },
+      "www": {
+        "requested": "https://www.satellit-31.ru/",
+        "status": 200,
+        "final_url": "https://www.satellit-31.ru/",
+        "error": null
+      },
+      "same_canonical": false,
+      "canonical_host": null
+    },
+    "ttfb": {
+      "seconds": 2.861,
+      "source_url": "https://www.satellit-31.ru/",
+      "status": 200,
+      "error": null
+    },
+    "pagespeed": {
+      "status": "ok",
+      "score": 36,
+      "lcp_seconds": 11.624,
+      "tool": "C:\\Program Files\\nodejs\\npx.CMD --yes lighthouse",
+      "error": null
+    },
+    "analytics": {
+      "found": true,
+      "kinds": [
+        "facebook_pixel",
+        "google_analytics",
+        "yandex_metrika"
+      ],
+      "goals_found": true,
+      "goal_markers": [
+        "datalayer_event",
+        "facebook_track"
+      ]
+    },
+    "engagement": {
+      "whatsapp": false,
+      "telegram": false,
+      "chat_widget": false,
+      "slot_booking_widget": false
+    },
+    "remarketing": {
+      "vk_pixel": false,
+      "meta_pixel": true,
+      "google_ads_remarketing": false,
+      "found": true
+    },
+    "favicon": {
+      "status": 200,
+      "from_html": true,
+      "found": true
+    },
+    "schema": {
+      "found": true,
+      "types": [
+        "hospital"
+      ]
+    },
+    "med_trust": {
+      "contact_page_exists": true,
+      "contact_pages": [
+        "https://www.satellit-31.ru:443/contacts/",
+        "https://www.satellit-31.ru/contacts/"
+      ],
+      "price_public_found": false,
+      "price_pages": [],
+      "doctors_page_exists": false,
+      "doctor_pages": [],
+      "address_found": true,
+      "map_found": false,
+      "hours_found": true,
+      "reviews_found": true,
+      "service_pages_count": 0,
+      "service_pages": [],
+      "schema": {
+        "medical": true,
+        "any": true,
+        "types": [
+          "hospital"
+        ]
+      },
+      "footer_year": {
+        "present": null,
+        "year": null,
+        "current_year": null
+      }
+    },
+    "mixed_content": {
+      "count": 5,
+      "samples": [
+        {
+          "page": "https://www.satellit-31.ru/",
+          "asset": "http://gmpg.org/xfn/11"
+        },
+        {
+          "page": "http://www.satellit-31.ru/contacts/",
+          "asset": "http://gmpg.org/xfn/11"
+        },
+        {
+          "page": "https://www.satellit-31.ru/contacts/",
+          "asset": "http://gmpg.org/xfn/11"
+        },
+        {
+          "page": "https://www.satellit-31.ru/documents/",
+          "asset": "http://gmpg.org/xfn/11"
+        },
+        {
+          "page": "https://www.satellit-31.ru/documents/",
+          "asset": "http://www.satellit-31.ru/wp-content/uploads/2024/07/pdf-150x150.png"
+        }
+      ]
+    },
+    "broken_internal_links": {
+      "checked": 43,
+      "broken": 0,
+      "samples": []
+    },
+    "broken_static_resources": {
+      "checked": 66,
+      "broken": 6,
+      "samples": [
+        {
+          "url": "https://www.satellit-31.ru/xmlrpc.php",
+          "status": null,
+          "error": "Remote end closed connection without response",
+          "final_url": "https://www.satellit-31.ru/xmlrpc.php"
+        },
+        {
+          "url": "https://www.satellit-31.ru/xmlrpc.php?rsd",
+          "status": null,
+          "error": "Remote end closed connection without response",
+          "final_url": "https://www.satellit-31.ru/xmlrpc.php?rsd"
+        },
+        {
+          "url": "https://www.satellit-31.ru/wp-content/uploads/2025/10/РЎР°С‚РµР»Р»РёС‚-2.png",
+          "status": null,
+          "error": "'ascii' codec can't encode characters in position 32-39: ordinal not in range(128)",
+          "final_url": "https://www.satellit-31.ru/wp-content/uploads/2025/10/РЎР°С‚РµР»Р»РёС‚-2.png"
+        },
+        {
+          "url": "https://www.satellit-31.ru/wp-content/uploads/2022/01/РїСѓРЅРєС‚-6-РіРёРЅРµРєРѕР»РѕРіРёСЏ--500x500.jpg",
+          "status": null,
+          "error": "'ascii' codec can't encode characters in position 32-36: ordinal not in range(128)",
+          "final_url": "https://www.satellit-31.ru/wp-content/uploads/2022/01/РїСѓРЅРєС‚-6-РіРёРЅРµРєРѕР»РѕРіРёСЏ--500x500.jpg"
+        },
+        {
+          "url": "https://www.satellit-31.ru/wp-content/uploads/2022/01/РїСѓРЅРєС‚-6-СЃС‚РѕРјР°С‚РѕР»РѕРіРёСЏ--500x500.jpg",
+          "status": null,
+          "error": "'ascii' codec can't encode characters in position 32-36: ordinal not in range(128)",
+          "final_url": "https://www.satellit-31.ru/wp-content/uploads/2022/01/РїСѓРЅРєС‚-6-СЃС‚РѕРјР°С‚РѕР»РѕРіРёСЏ--500x500.jpg"
+        },
+        {
+          "url": "https://www.satellit-31.ru/wp-content/uploads/2022/09/РћРґРёРЅС†РѕРІР°-РњРёР»Р°-Р’Р°РґРёРјРѕРІРЅР°-1-500x500.jpg",
+          "status": null,
+          "error": "'ascii' codec can't encode characters in position 32-39: ordinal not in range(128)",
+          "final_url": "https://www.satellit-31.ru/wp-content/uploads/2022/09/РћРґРёРЅС†РѕРІР°-РњРёР»Р°-Р’Р°РґРёРјРѕРІРЅР°-1-500x500.jpg"
+        }
+      ]
+    },
+    "security_headers": {
+      "checked": [
+        "strict-transport-security",
+        "content-security-policy",
+        "x-frame-options",
+        "x-content-type-options",
+        "referrer-policy"
+      ],
+      "present": [
+        "strict-transport-security"
+      ],
+      "missing": [
+        "content-security-policy",
+        "x-frame-options",
+        "x-content-type-options",
+        "referrer-policy"
+      ],
+      "values": {
+        "strict-transport-security": "max-age=31536000;"
+      },
+      "source_url": "https://www.satellit-31.ru/",
+      "source_status": 200
+    }
+  },
+  "discovery": {
+    "contact_urls": [
+      "http://www.satellit-31.ru/contacts/",
+      "https://www.satellit-31.ru/contacts/"
+    ],
+    "booking_urls": [
+      "https://www.satellit-31.ru/appointment",
+      "https://www.satellit-31.ru/booking",
+      "https://www.satellit-31.ru/zapis"
+    ],
+    "legal_urls": [
+      "https://www.satellit-31.ru/documents/"
+    ],
+    "sources": {
+      "http://www.satellit-31.ru/contacts/": "navigation",
+      "https://www.satellit-31.ru/": "",
+      "https://www.satellit-31.ru/appointment": "fallback",
+      "https://www.satellit-31.ru/booking": "fallback",
+      "https://www.satellit-31.ru/contacts/": "navigation",
+      "https://www.satellit-31.ru/documents/": "navigation-legal",
+      "https://www.satellit-31.ru/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": true
+    },
+    "sitemap_total_urls": 17,
+    "sitemap_used_urls": 17
+  },
+  "verification": {
+    "b2": true,
+    "b3": true,
+    "b4": true
+  }
 }

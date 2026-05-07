@@ -1,312 +1,261 @@
-﻿{
-    "domain":  "amk-dental.clients.site",
-    "pages":  [
-                  {
-                      "requested":  "https://amk-dental.clients.site/",
-                      "status":  200,
-                      "final_url":  "https://amk-dental.clients.site/",
-                      "error":  null
-                  },
-                  {
-                      "requested":  "https://amk-dental.clients.site#contacts",
-                      "status":  200,
-                      "final_url":  "https://amk-dental.clients.site#contacts",
-                      "error":  null
-                  },
-                  {
-                      "requested":  "https://amk-dental.clients.site/appointment",
-                      "status":  404,
-                      "final_url":  "https://amk-dental.clients.site/appointment",
-                      "error":  "HTTPError 404"
-                  },
-                  {
-                      "requested":  "https://amk-dental.clients.site/booking",
-                      "status":  404,
-                      "final_url":  "https://amk-dental.clients.site/booking",
-                      "error":  "HTTPError 404"
-                  },
-                  {
-                      "requested":  "https://amk-dental.clients.site/zapis",
-                      "status":  404,
-                      "final_url":  "https://amk-dental.clients.site/zapis",
-                      "error":  "HTTPError 404"
-                  },
-                  {
-                      "requested":  "https://amk-dental.clients.site/agreement",
-                      "status":  404,
-                      "final_url":  "https://amk-dental.clients.site/agreement",
-                      "error":  "HTTPError 404"
-                  },
-                  {
-                      "requested":  "https://amk-dental.clients.site/personal-data",
-                      "status":  404,
-                      "final_url":  "https://amk-dental.clients.site/personal-data",
-                      "error":  "HTTPError 404"
-                  },
-                  {
-                      "requested":  "https://amk-dental.clients.site/policy",
-                      "status":  404,
-                      "final_url":  "https://amk-dental.clients.site/policy",
-                      "error":  "HTTPError 404"
-                  },
-                  {
-                      "requested":  "https://amk-dental.clients.site/politika",
-                      "status":  404,
-                      "final_url":  "https://amk-dental.clients.site/politika",
-                      "error":  "HTTPError 404"
-                  },
-                  {
-                      "requested":  "https://amk-dental.clients.site/politika-konfidencialnosti",
-                      "status":  404,
-                      "final_url":  "https://amk-dental.clients.site/politika-konfidencialnosti",
-                      "error":  "HTTPError 404"
-                  },
-                  {
-                      "requested":  "https://amk-dental.clients.site/privacy",
-                      "status":  404,
-                      "final_url":  "https://amk-dental.clients.site/privacy",
-                      "error":  "HTTPError 404"
-                  },
-                  {
-                      "requested":  "https://amk-dental.clients.site/privacy-policy",
-                      "status":  404,
-                      "final_url":  "https://amk-dental.clients.site/privacy-policy",
-                      "error":  "HTTPError 404"
-                  }
-              ],
-    "forms":  [
-
-              ],
-    "emails":  [
-
-               ],
-    "privacy_links":  [
-
-                      ],
-    "forbidden_hits":  [
-
-                       ],
-    "cert_errors":  [
-
-                    ],
-    "tech":  {
-                 "ssl":  {
-                             "ok":  true,
-                             "protocol":  "TLSv1.2",
-                             "issuer_cn":  "GlobalSign RSA OV SSL CA 2018",
-                             "not_after":  "Aug 27 20:59:59 2026 GMT",
-                             "days_left":  113,
-                             "error":  null
-                         },
-                 "http_to_https":  {
-                                       "requested":  "http://amk-dental.clients.site/",
-                                       "status":  200,
-                                       "final_url":  "https://amk-dental.clients.site/",
-                                       "redirected_to_https":  true,
-                                       "error":  null
-                                   },
-                 "canonical_www":  {
-                                       "non_www":  {
-                                                       "requested":  "https://amk-dental.clients.site/",
-                                                       "status":  200,
-                                                       "final_url":  "https://amk-dental.clients.site/",
-                                                       "error":  null
-                                                   },
-                                       "www":  {
-                                                   "requested":  "https://www.amk-dental.clients.site/",
-                                                   "status":  null,
-                                                   "final_url":  "https://www.amk-dental.clients.site/",
-                                                   "error":  "\u003curlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for \u0027www.amk-dental.clients.site\u0027. (_ssl.c:1028)\u003e"
-                                               },
-                                       "same_canonical":  false,
-                                       "canonical_host":  null
-                                   },
-                 "ttfb":  {
-                              "seconds":  1.193,
-                              "source_url":  "https://amk-dental.clients.site/",
-                              "status":  200,
-                              "error":  null
-                          },
-                 "pagespeed":  {
-                                   "status":  "ok",
-                                   "score":  35,
-                                   "lcp_seconds":  6.817,
-                                   "tool":  "C:\\Program Files\\nodejs\\npx.CMD --yes lighthouse",
-                                   "error":  null
-                               },
-                 "analytics":  {
-                                   "found":  true,
-                                   "kinds":  [
-                                                 "yandex_metrika"
-                                             ],
-                                   "goals_found":  false,
-                                   "goal_markers":  [
-
-                                                    ]
-                               },
-                 "engagement":  {
-                                    "whatsapp":  true,
-                                    "telegram":  true,
-                                    "chat_widget":  false,
-                                    "slot_booking_widget":  false
-                                },
-                 "remarketing":  {
-                                     "vk_pixel":  false,
-                                     "meta_pixel":  false,
-                                     "google_ads_remarketing":  false,
-                                     "found":  false
-                                 },
-                 "favicon":  {
-                                 "status":  200,
-                                 "from_html":  true,
-                                 "found":  true
-                             },
-                 "schema":  {
-                                "found":  false,
-                                "types":  [
-
-                                          ]
-                            },
-                 "med_trust":  {
-                                   "contact_page_exists":  true,
-                                   "contact_pages":  [
-                                                         "https://amk-dental.clients.site#contacts"
-                                                     ],
-                                   "price_public_found":  false,
-                                   "price_pages":  [
-
-                                                   ],
-                                   "doctors_page_exists":  false,
-                                   "doctor_pages":  [
-
-                                                    ],
-                                   "address_found":  true,
-                                   "map_found":  true,
-                                   "hours_found":  false,
-                                   "reviews_found":  true,
-                                   "service_pages_count":  0,
-                                   "service_pages":  [
-
-                                                     ],
-                                   "clickable_contacts":  {
-                                                              "tel":  false,
-                                                              "mailto":  false
-                                                          },
-                                   "doctor_cards":  {
-                                                        "names_count":  0,
-                                                        "specialty_found":  false,
-                                                        "complete":  false
-                                                    },
-                                   "nap":  {
-                                               "home_phones":  [
-                                                                   "9015346996",
-                                                                   "7746753072"
-                                                               ],
-                                               "contact_phones":  [
-                                                                      "9015346996",
-                                                                      "7746753072"
-                                                                  ],
-                                               "phone_match":  true,
-                                               "home_address_found":  true,
-                                               "contact_address_found":  true,
-                                               "address_match":  true,
-                                               "consistent":  true
-                                           },
-                                   "schema":  {
-                                                  "medical":  false,
-                                                  "any":  false,
-                                                  "types":  [
-
-                                                            ]
-                                              }
-                               },
-                 "mixed_content":  {
-                                       "count":  0,
-                                       "samples":  [
-
-                                                   ]
-                                   },
-                 "broken_internal_links":  {
-                                               "checked":  1,
-                                               "broken":  0,
-                                               "samples":  [
-
-                                                           ]
-                                           },
-                 "broken_static_resources":  {
-                                                 "checked":  0,
-                                                 "broken":  0,
-                                                 "samples":  [
-
-                                                             ]
-                                             },
-                 "security_headers":  {
-                                          "checked":  [
-                                                          "strict-transport-security",
-                                                          "content-security-policy",
-                                                          "x-frame-options",
-                                                          "x-content-type-options",
-                                                          "referrer-policy"
-                                                      ],
-                                          "present":  [
-
-                                                      ],
-                                          "missing":  [
-                                                          "strict-transport-security",
-                                                          "content-security-policy",
-                                                          "x-frame-options",
-                                                          "x-content-type-options",
-                                                          "referrer-policy"
-                                                      ],
-                                          "values":  {
-
-                                                     },
-                                          "source_url":  "https://amk-dental.clients.site/",
-                                          "source_status":  200
-                                      }
-             },
-    "discovery":  {
-                      "contact_urls":  [
-                                           "https://amk-dental.clients.site#contacts"
-                                       ],
-                      "booking_urls":  [
-                                           "https://amk-dental.clients.site/appointment",
-                                           "https://amk-dental.clients.site/booking",
-                                           "https://amk-dental.clients.site/zapis"
-                                       ],
-                      "legal_urls":  [
-                                         "https://amk-dental.clients.site/agreement",
-                                         "https://amk-dental.clients.site/personal-data",
-                                         "https://amk-dental.clients.site/policy",
-                                         "https://amk-dental.clients.site/politika",
-                                         "https://amk-dental.clients.site/politika-konfidencialnosti",
-                                         "https://amk-dental.clients.site/privacy",
-                                         "https://amk-dental.clients.site/privacy-policy"
-                                     ],
-                      "sources":  {
-                                      "https://amk-dental.clients.site#contacts":  "navigation",
-                                      "https://amk-dental.clients.site/":  "",
-                                      "https://amk-dental.clients.site/agreement":  "policy-fallback",
-                                      "https://amk-dental.clients.site/appointment":  "fallback",
-                                      "https://amk-dental.clients.site/booking":  "fallback",
-                                      "https://amk-dental.clients.site/personal-data":  "policy-fallback",
-                                      "https://amk-dental.clients.site/policy":  "policy-fallback",
-                                      "https://amk-dental.clients.site/politika":  "policy-fallback",
-                                      "https://amk-dental.clients.site/politika-konfidencialnosti":  "policy-fallback",
-                                      "https://amk-dental.clients.site/privacy":  "policy-fallback",
-                                      "https://amk-dental.clients.site/privacy-policy":  "policy-fallback",
-                                      "https://amk-dental.clients.site/zapis":  "fallback"
-                                  },
-                      "fallback_used":  {
-                                            "contact":  false,
-                                            "booking":  true
-                                        },
-                      "sitemap_total_urls":  4,
-                      "sitemap_used_urls":  4
-                  },
-    "verification":  {
-                         "b2":  true,
-                         "b3":  true,
-                         "b4":  true
-                     }
+{
+  "domain": "amk-dental.clients.site",
+  "pages": [
+    {
+      "requested": "https://amk-dental.clients.site/",
+      "status": 200,
+      "final_url": "https://amk-dental.clients.site/",
+      "error": null
+    },
+    {
+      "requested": "https://amk-dental.clients.site#contacts",
+      "status": 200,
+      "final_url": "https://amk-dental.clients.site#contacts",
+      "error": null
+    },
+    {
+      "requested": "https://amk-dental.clients.site/appointment",
+      "status": 404,
+      "final_url": "https://amk-dental.clients.site/appointment",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://amk-dental.clients.site/booking",
+      "status": 404,
+      "final_url": "https://amk-dental.clients.site/booking",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://amk-dental.clients.site/zapis",
+      "status": 404,
+      "final_url": "https://amk-dental.clients.site/zapis",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://amk-dental.clients.site/agreement",
+      "status": 404,
+      "final_url": "https://amk-dental.clients.site/agreement",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://amk-dental.clients.site/personal-data",
+      "status": 404,
+      "final_url": "https://amk-dental.clients.site/personal-data",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://amk-dental.clients.site/policy",
+      "status": 404,
+      "final_url": "https://amk-dental.clients.site/policy",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://amk-dental.clients.site/politika",
+      "status": 404,
+      "final_url": "https://amk-dental.clients.site/politika",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://amk-dental.clients.site/politika-konfidencialnosti",
+      "status": 404,
+      "final_url": "https://amk-dental.clients.site/politika-konfidencialnosti",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://amk-dental.clients.site/privacy",
+      "status": 404,
+      "final_url": "https://amk-dental.clients.site/privacy",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://amk-dental.clients.site/privacy-policy",
+      "status": 404,
+      "final_url": "https://amk-dental.clients.site/privacy-policy",
+      "error": "HTTPError 404"
+    }
+  ],
+  "forms": [],
+  "emails": [],
+  "privacy_links": [],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "tech": {
+    "ssl": {
+      "ok": true,
+      "protocol": "TLSv1.2",
+      "issuer_cn": "GlobalSign RSA OV SSL CA 2018",
+      "not_after": "Aug 27 20:59:59 2026 GMT",
+      "days_left": 113,
+      "error": null
+    },
+    "http_to_https": {
+      "requested": "http://amk-dental.clients.site/",
+      "status": 200,
+      "final_url": "https://amk-dental.clients.site/",
+      "redirected_to_https": true,
+      "error": null
+    },
+    "canonical_www": {
+      "non_www": {
+        "requested": "https://amk-dental.clients.site/",
+        "status": 200,
+        "final_url": "https://amk-dental.clients.site/",
+        "error": null
+      },
+      "www": {
+        "requested": "https://www.amk-dental.clients.site/",
+        "status": null,
+        "final_url": "https://www.amk-dental.clients.site/",
+        "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.amk-dental.clients.site'. (_ssl.c:1028)>"
+      },
+      "same_canonical": false,
+      "canonical_host": null
+    },
+    "ttfb": {
+      "seconds": 1.193,
+      "source_url": "https://amk-dental.clients.site/",
+      "status": 200,
+      "error": null
+    },
+    "pagespeed": {
+      "status": "ok",
+      "score": 35,
+      "lcp_seconds": 6.817,
+      "tool": "C:\\Program Files\\nodejs\\npx.CMD --yes lighthouse",
+      "error": null
+    },
+    "analytics": {
+      "found": true,
+      "kinds": [
+        "yandex_metrika"
+      ],
+      "goals_found": false,
+      "goal_markers": []
+    },
+    "engagement": {
+      "whatsapp": true,
+      "telegram": true,
+      "chat_widget": false,
+      "slot_booking_widget": false
+    },
+    "remarketing": {
+      "vk_pixel": false,
+      "meta_pixel": false,
+      "google_ads_remarketing": false,
+      "found": false
+    },
+    "favicon": {
+      "status": 200,
+      "from_html": true,
+      "found": true
+    },
+    "schema": {
+      "found": false,
+      "types": []
+    },
+    "med_trust": {
+      "contact_page_exists": true,
+      "contact_pages": [
+        "https://amk-dental.clients.site#contacts"
+      ],
+      "price_public_found": false,
+      "price_pages": [],
+      "doctors_page_exists": false,
+      "doctor_pages": [],
+      "address_found": true,
+      "map_found": true,
+      "hours_found": false,
+      "reviews_found": true,
+      "service_pages_count": 0,
+      "service_pages": [],
+      "schema": {
+        "medical": false,
+        "any": false,
+        "types": []
+      },
+      "footer_year": {
+        "present": null,
+        "year": null,
+        "current_year": null
+      }
+    },
+    "mixed_content": {
+      "count": 0,
+      "samples": []
+    },
+    "broken_internal_links": {
+      "checked": 1,
+      "broken": 0,
+      "samples": []
+    },
+    "broken_static_resources": {
+      "checked": 0,
+      "broken": 0,
+      "samples": []
+    },
+    "security_headers": {
+      "checked": [
+        "strict-transport-security",
+        "content-security-policy",
+        "x-frame-options",
+        "x-content-type-options",
+        "referrer-policy"
+      ],
+      "present": [],
+      "missing": [
+        "strict-transport-security",
+        "content-security-policy",
+        "x-frame-options",
+        "x-content-type-options",
+        "referrer-policy"
+      ],
+      "values": {},
+      "source_url": "https://amk-dental.clients.site/",
+      "source_status": 200
+    }
+  },
+  "discovery": {
+    "contact_urls": [
+      "https://amk-dental.clients.site#contacts"
+    ],
+    "booking_urls": [
+      "https://amk-dental.clients.site/appointment",
+      "https://amk-dental.clients.site/booking",
+      "https://amk-dental.clients.site/zapis"
+    ],
+    "legal_urls": [
+      "https://amk-dental.clients.site/agreement",
+      "https://amk-dental.clients.site/personal-data",
+      "https://amk-dental.clients.site/policy",
+      "https://amk-dental.clients.site/politika",
+      "https://amk-dental.clients.site/politika-konfidencialnosti",
+      "https://amk-dental.clients.site/privacy",
+      "https://amk-dental.clients.site/privacy-policy"
+    ],
+    "sources": {
+      "https://amk-dental.clients.site#contacts": "navigation",
+      "https://amk-dental.clients.site/": "",
+      "https://amk-dental.clients.site/agreement": "policy-fallback",
+      "https://amk-dental.clients.site/appointment": "fallback",
+      "https://amk-dental.clients.site/booking": "fallback",
+      "https://amk-dental.clients.site/personal-data": "policy-fallback",
+      "https://amk-dental.clients.site/policy": "policy-fallback",
+      "https://amk-dental.clients.site/politika": "policy-fallback",
+      "https://amk-dental.clients.site/politika-konfidencialnosti": "policy-fallback",
+      "https://amk-dental.clients.site/privacy": "policy-fallback",
+      "https://amk-dental.clients.site/privacy-policy": "policy-fallback",
+      "https://amk-dental.clients.site/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": false,
+      "booking": true
+    },
+    "sitemap_total_urls": 4,
+    "sitemap_used_urls": 4
+  },
+  "verification": {
+    "b2": true,
+    "b3": true,
+    "b4": true
+  }
 }

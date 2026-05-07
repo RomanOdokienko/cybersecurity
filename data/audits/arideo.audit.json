@@ -540,34 +540,15 @@
       "reviews_found": true,
       "service_pages_count": 0,
       "service_pages": [],
-      "clickable_contacts": {
-        "tel": true,
-        "mailto": true
-      },
-      "doctor_cards": {
-        "names_count": 24,
-        "specialty_found": true,
-        "complete": true
-      },
-      "nap": {
-        "home_phones": [
-          "9774810708",
-          "4994310928"
-        ],
-        "contact_phones": [
-          "9774810708",
-          "4994310928"
-        ],
-        "phone_match": true,
-        "home_address_found": true,
-        "contact_address_found": true,
-        "address_match": false,
-        "consistent": true
-      },
       "schema": {
         "medical": false,
         "any": false,
         "types": []
+      },
+      "footer_year": {
+        "present": null,
+        "year": null,
+        "current_year": null
       }
     },
     "mixed_content": {

@@ -1,381 +1,330 @@
-﻿{
-    "domain":  "mosgorzdrav.ru",
-    "pages":  [
-                  {
-                      "requested":  "https://mosgorzdrav.ru/",
-                      "status":  null,
-                      "final_url":  "https://mosgorzdrav.ru/",
-                      "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e"
-                  },
-                  {
-                      "requested":  "https://mosgorzdrav.ru/contact",
-                      "status":  null,
-                      "final_url":  "https://mosgorzdrav.ru/contact",
-                      "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e"
-                  },
-                  {
-                      "requested":  "https://mosgorzdrav.ru/contacts",
-                      "status":  null,
-                      "final_url":  "https://mosgorzdrav.ru/contacts",
-                      "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e"
-                  },
-                  {
-                      "requested":  "https://mosgorzdrav.ru/kontakty",
-                      "status":  null,
-                      "final_url":  "https://mosgorzdrav.ru/kontakty",
-                      "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e"
-                  },
-                  {
-                      "requested":  "https://mosgorzdrav.ru/appointment",
-                      "status":  null,
-                      "final_url":  "https://mosgorzdrav.ru/appointment",
-                      "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e"
-                  },
-                  {
-                      "requested":  "https://mosgorzdrav.ru/booking",
-                      "status":  null,
-                      "final_url":  "https://mosgorzdrav.ru/booking",
-                      "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e"
-                  },
-                  {
-                      "requested":  "https://mosgorzdrav.ru/zapis",
-                      "status":  null,
-                      "final_url":  "https://mosgorzdrav.ru/zapis",
-                      "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e"
-                  },
-                  {
-                      "requested":  "https://mosgorzdrav.ru/agreement",
-                      "status":  null,
-                      "final_url":  "https://mosgorzdrav.ru/agreement",
-                      "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e"
-                  },
-                  {
-                      "requested":  "https://mosgorzdrav.ru/personal-data",
-                      "status":  null,
-                      "final_url":  "https://mosgorzdrav.ru/personal-data",
-                      "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e"
-                  },
-                  {
-                      "requested":  "https://mosgorzdrav.ru/policy",
-                      "status":  null,
-                      "final_url":  "https://mosgorzdrav.ru/policy",
-                      "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e"
-                  },
-                  {
-                      "requested":  "https://mosgorzdrav.ru/politika",
-                      "status":  null,
-                      "final_url":  "https://mosgorzdrav.ru/politika",
-                      "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e"
-                  },
-                  {
-                      "requested":  "https://mosgorzdrav.ru/politika-konfidencialnosti",
-                      "status":  null,
-                      "final_url":  "https://mosgorzdrav.ru/politika-konfidencialnosti",
-                      "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e"
-                  },
-                  {
-                      "requested":  "https://mosgorzdrav.ru/privacy",
-                      "status":  null,
-                      "final_url":  "https://mosgorzdrav.ru/privacy",
-                      "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e"
-                  },
-                  {
-                      "requested":  "https://mosgorzdrav.ru/privacy-policy",
-                      "status":  null,
-                      "final_url":  "https://mosgorzdrav.ru/privacy-policy",
-                      "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e"
-                  }
-              ],
-    "forms":  [
-
-              ],
-    "emails":  [
-
-               ],
-    "privacy_links":  [
-
-                      ],
-    "forbidden_hits":  [
-
-                       ],
-    "cert_errors":  [
-                        {
-                            "url":  "https://mosgorzdrav.ru/",
-                            "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e"
-                        },
-                        {
-                            "url":  "https://mosgorzdrav.ru/contact",
-                            "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e"
-                        },
-                        {
-                            "url":  "https://mosgorzdrav.ru/contacts",
-                            "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e"
-                        },
-                        {
-                            "url":  "https://mosgorzdrav.ru/kontakty",
-                            "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e"
-                        },
-                        {
-                            "url":  "https://mosgorzdrav.ru/appointment",
-                            "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e"
-                        },
-                        {
-                            "url":  "https://mosgorzdrav.ru/booking",
-                            "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e"
-                        },
-                        {
-                            "url":  "https://mosgorzdrav.ru/zapis",
-                            "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e"
-                        },
-                        {
-                            "url":  "https://mosgorzdrav.ru/agreement",
-                            "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e"
-                        },
-                        {
-                            "url":  "https://mosgorzdrav.ru/personal-data",
-                            "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e"
-                        },
-                        {
-                            "url":  "https://mosgorzdrav.ru/policy",
-                            "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e"
-                        },
-                        {
-                            "url":  "https://mosgorzdrav.ru/politika",
-                            "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e"
-                        },
-                        {
-                            "url":  "https://mosgorzdrav.ru/politika-konfidencialnosti",
-                            "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e"
-                        },
-                        {
-                            "url":  "https://mosgorzdrav.ru/privacy",
-                            "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e"
-                        },
-                        {
-                            "url":  "https://mosgorzdrav.ru/privacy-policy",
-                            "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e"
-                        }
-                    ],
-    "tech":  {
-                 "ssl":  {
-                             "ok":  false,
-                             "protocol":  null,
-                             "issuer_cn":  null,
-                             "not_after":  null,
-                             "days_left":  null,
-                             "error":  "_ssl.c:1011: The handshake operation timed out"
-                         },
-                 "http_to_https":  {
-                                       "requested":  "http://mosgorzdrav.ru/",
-                                       "status":  null,
-                                       "final_url":  "http://mosgorzdrav.ru/",
-                                       "redirected_to_https":  false,
-                                       "error":  "Remote end closed connection without response"
-                                   },
-                 "canonical_www":  {
-                                       "non_www":  {
-                                                       "requested":  "https://mosgorzdrav.ru/",
-                                                       "status":  null,
-                                                       "final_url":  "https://mosgorzdrav.ru/",
-                                                       "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e"
-                                                   },
-                                       "www":  {
-                                                   "requested":  "https://www.mosgorzdrav.ru/",
-                                                   "status":  null,
-                                                   "final_url":  "https://www.mosgorzdrav.ru/",
-                                                   "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e"
-                                               },
-                                       "same_canonical":  false,
-                                       "canonical_host":  null
-                                   },
-                 "ttfb":  {
-                              "seconds":  40.056,
-                              "source_url":  "https://mosgorzdrav.ru/",
-                              "status":  null,
-                              "error":  "\u003curlopen error _ssl.c:1011: The handshake operation timed out\u003e"
-                          },
-                 "pagespeed":  {
-                                   "status":  "partial",
-                                   "score":  null,
-                                   "lcp_seconds":  null,
-                                   "tool":  "C:\\Program Files\\nodejs\\npx.CMD --yes lighthouse",
-                                   "error":  "Runtime error encountered: The page did not paint any content. Please ensure you keep the browser window in the foreground during the load and try again. (NO_FCP)\n"
-                               },
-                 "analytics":  {
-                                   "found":  false,
-                                   "kinds":  [
-
-                                             ],
-                                   "goals_found":  false,
-                                   "goal_markers":  [
-
-                                                    ]
-                               },
-                 "engagement":  {
-                                    "whatsapp":  false,
-                                    "telegram":  false,
-                                    "chat_widget":  false,
-                                    "slot_booking_widget":  false
-                                },
-                 "remarketing":  {
-                                     "vk_pixel":  false,
-                                     "meta_pixel":  false,
-                                     "google_ads_remarketing":  false,
-                                     "found":  false
-                                 },
-                 "favicon":  {
-                                 "status":  null,
-                                 "from_html":  false,
-                                 "found":  false
-                             },
-                 "schema":  {
-                                "found":  false,
-                                "types":  [
-
-                                          ]
-                            },
-                 "med_trust":  {
-                                   "contact_page_exists":  false,
-                                   "contact_pages":  [
-
-                                                     ],
-                                   "price_public_found":  false,
-                                   "price_pages":  [
-
-                                                   ],
-                                   "doctors_page_exists":  false,
-                                   "doctor_pages":  [
-
-                                                    ],
-                                   "address_found":  false,
-                                   "map_found":  false,
-                                   "hours_found":  false,
-                                   "reviews_found":  false,
-                                   "service_pages_count":  0,
-                                   "service_pages":  [
-
-                                                     ],
-                                   "clickable_contacts":  {
-                                                              "tel":  false,
-                                                              "mailto":  false
-                                                          },
-                                   "doctor_cards":  {
-                                                        "names_count":  0,
-                                                        "specialty_found":  false,
-                                                        "complete":  false
-                                                    },
-                                   "nap":  {
-                                               "home_phones":  [
-
-                                                               ],
-                                               "contact_phones":  [
-
-                                                                  ],
-                                               "phone_match":  null,
-                                               "home_address_found":  false,
-                                               "contact_address_found":  false,
-                                               "address_match":  null,
-                                               "consistent":  false
-                                           },
-                                   "schema":  {
-                                                  "medical":  false,
-                                                  "any":  false,
-                                                  "types":  [
-
-                                                            ]
-                                              }
-                               },
-                 "mixed_content":  {
-                                       "count":  0,
-                                       "samples":  [
-
-                                                   ]
-                                   },
-                 "broken_internal_links":  {
-                                               "checked":  0,
-                                               "broken":  0,
-                                               "samples":  [
-
-                                                           ]
-                                           },
-                 "broken_static_resources":  {
-                                                 "checked":  0,
-                                                 "broken":  0,
-                                                 "samples":  [
-
-                                                             ]
-                                             },
-                 "security_headers":  {
-                                          "checked":  [
-                                                          "strict-transport-security",
-                                                          "content-security-policy",
-                                                          "x-frame-options",
-                                                          "x-content-type-options",
-                                                          "referrer-policy"
-                                                      ],
-                                          "present":  [
-
-                                                      ],
-                                          "missing":  [
-                                                          "strict-transport-security",
-                                                          "content-security-policy",
-                                                          "x-frame-options",
-                                                          "x-content-type-options",
-                                                          "referrer-policy"
-                                                      ],
-                                          "values":  {
-
-                                                     },
-                                          "source_url":  "https://mosgorzdrav.ru/",
-                                          "source_status":  null
-                                      }
-             },
-    "discovery":  {
-                      "contact_urls":  [
-                                           "https://mosgorzdrav.ru/contact",
-                                           "https://mosgorzdrav.ru/contacts",
-                                           "https://mosgorzdrav.ru/kontakty"
-                                       ],
-                      "booking_urls":  [
-                                           "https://mosgorzdrav.ru/appointment",
-                                           "https://mosgorzdrav.ru/booking",
-                                           "https://mosgorzdrav.ru/zapis"
-                                       ],
-                      "legal_urls":  [
-                                         "https://mosgorzdrav.ru/agreement",
-                                         "https://mosgorzdrav.ru/personal-data",
-                                         "https://mosgorzdrav.ru/policy",
-                                         "https://mosgorzdrav.ru/politika",
-                                         "https://mosgorzdrav.ru/politika-konfidencialnosti",
-                                         "https://mosgorzdrav.ru/privacy",
-                                         "https://mosgorzdrav.ru/privacy-policy"
-                                     ],
-                      "sources":  {
-                                      "https://mosgorzdrav.ru/":  "",
-                                      "https://mosgorzdrav.ru/agreement":  "policy-fallback",
-                                      "https://mosgorzdrav.ru/appointment":  "fallback",
-                                      "https://mosgorzdrav.ru/booking":  "fallback",
-                                      "https://mosgorzdrav.ru/contact":  "fallback",
-                                      "https://mosgorzdrav.ru/contacts":  "fallback",
-                                      "https://mosgorzdrav.ru/kontakty":  "fallback",
-                                      "https://mosgorzdrav.ru/personal-data":  "policy-fallback",
-                                      "https://mosgorzdrav.ru/policy":  "policy-fallback",
-                                      "https://mosgorzdrav.ru/politika":  "policy-fallback",
-                                      "https://mosgorzdrav.ru/politika-konfidencialnosti":  "policy-fallback",
-                                      "https://mosgorzdrav.ru/privacy":  "policy-fallback",
-                                      "https://mosgorzdrav.ru/privacy-policy":  "policy-fallback",
-                                      "https://mosgorzdrav.ru/zapis":  "fallback"
-                                  },
-                      "fallback_used":  {
-                                            "contact":  true,
-                                            "booking":  true
-                                        },
-                      "sitemap_total_urls":  0,
-                      "sitemap_used_urls":  0
-                  },
-    "verification":  {
-                         "b2":  true,
-                         "b3":  true,
-                         "b4":  true
-                     }
+{
+  "domain": "mosgorzdrav.ru",
+  "pages": [
+    {
+      "requested": "https://mosgorzdrav.ru/",
+      "status": null,
+      "final_url": "https://mosgorzdrav.ru/",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "requested": "https://mosgorzdrav.ru/contact",
+      "status": null,
+      "final_url": "https://mosgorzdrav.ru/contact",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "requested": "https://mosgorzdrav.ru/contacts",
+      "status": null,
+      "final_url": "https://mosgorzdrav.ru/contacts",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "requested": "https://mosgorzdrav.ru/kontakty",
+      "status": null,
+      "final_url": "https://mosgorzdrav.ru/kontakty",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "requested": "https://mosgorzdrav.ru/appointment",
+      "status": null,
+      "final_url": "https://mosgorzdrav.ru/appointment",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "requested": "https://mosgorzdrav.ru/booking",
+      "status": null,
+      "final_url": "https://mosgorzdrav.ru/booking",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "requested": "https://mosgorzdrav.ru/zapis",
+      "status": null,
+      "final_url": "https://mosgorzdrav.ru/zapis",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "requested": "https://mosgorzdrav.ru/agreement",
+      "status": null,
+      "final_url": "https://mosgorzdrav.ru/agreement",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "requested": "https://mosgorzdrav.ru/personal-data",
+      "status": null,
+      "final_url": "https://mosgorzdrav.ru/personal-data",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "requested": "https://mosgorzdrav.ru/policy",
+      "status": null,
+      "final_url": "https://mosgorzdrav.ru/policy",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "requested": "https://mosgorzdrav.ru/politika",
+      "status": null,
+      "final_url": "https://mosgorzdrav.ru/politika",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "requested": "https://mosgorzdrav.ru/politika-konfidencialnosti",
+      "status": null,
+      "final_url": "https://mosgorzdrav.ru/politika-konfidencialnosti",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "requested": "https://mosgorzdrav.ru/privacy",
+      "status": null,
+      "final_url": "https://mosgorzdrav.ru/privacy",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "requested": "https://mosgorzdrav.ru/privacy-policy",
+      "status": null,
+      "final_url": "https://mosgorzdrav.ru/privacy-policy",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    }
+  ],
+  "forms": [],
+  "emails": [],
+  "privacy_links": [],
+  "forbidden_hits": [],
+  "cert_errors": [
+    {
+      "url": "https://mosgorzdrav.ru/",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "url": "https://mosgorzdrav.ru/contact",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "url": "https://mosgorzdrav.ru/contacts",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "url": "https://mosgorzdrav.ru/kontakty",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "url": "https://mosgorzdrav.ru/appointment",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "url": "https://mosgorzdrav.ru/booking",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "url": "https://mosgorzdrav.ru/zapis",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "url": "https://mosgorzdrav.ru/agreement",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "url": "https://mosgorzdrav.ru/personal-data",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "url": "https://mosgorzdrav.ru/policy",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "url": "https://mosgorzdrav.ru/politika",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "url": "https://mosgorzdrav.ru/politika-konfidencialnosti",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "url": "https://mosgorzdrav.ru/privacy",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "url": "https://mosgorzdrav.ru/privacy-policy",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    }
+  ],
+  "tech": {
+    "ssl": {
+      "ok": false,
+      "protocol": null,
+      "issuer_cn": null,
+      "not_after": null,
+      "days_left": null,
+      "error": "_ssl.c:1011: The handshake operation timed out"
+    },
+    "http_to_https": {
+      "requested": "http://mosgorzdrav.ru/",
+      "status": null,
+      "final_url": "http://mosgorzdrav.ru/",
+      "redirected_to_https": false,
+      "error": "Remote end closed connection without response"
+    },
+    "canonical_www": {
+      "non_www": {
+        "requested": "https://mosgorzdrav.ru/",
+        "status": null,
+        "final_url": "https://mosgorzdrav.ru/",
+        "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+      },
+      "www": {
+        "requested": "https://www.mosgorzdrav.ru/",
+        "status": null,
+        "final_url": "https://www.mosgorzdrav.ru/",
+        "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+      },
+      "same_canonical": false,
+      "canonical_host": null
+    },
+    "ttfb": {
+      "seconds": 40.056,
+      "source_url": "https://mosgorzdrav.ru/",
+      "status": null,
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    "pagespeed": {
+      "status": "partial",
+      "score": null,
+      "lcp_seconds": null,
+      "tool": "C:\\Program Files\\nodejs\\npx.CMD --yes lighthouse",
+      "error": "Runtime error encountered: The page did not paint any content. Please ensure you keep the browser window in the foreground during the load and try again. (NO_FCP)\n"
+    },
+    "analytics": {
+      "found": false,
+      "kinds": [],
+      "goals_found": false,
+      "goal_markers": []
+    },
+    "engagement": {
+      "whatsapp": false,
+      "telegram": false,
+      "chat_widget": false,
+      "slot_booking_widget": false
+    },
+    "remarketing": {
+      "vk_pixel": false,
+      "meta_pixel": false,
+      "google_ads_remarketing": false,
+      "found": false
+    },
+    "favicon": {
+      "status": null,
+      "from_html": false,
+      "found": false
+    },
+    "schema": {
+      "found": false,
+      "types": []
+    },
+    "med_trust": {
+      "contact_page_exists": false,
+      "contact_pages": [],
+      "price_public_found": false,
+      "price_pages": [],
+      "doctors_page_exists": false,
+      "doctor_pages": [],
+      "address_found": false,
+      "map_found": false,
+      "hours_found": false,
+      "reviews_found": false,
+      "service_pages_count": 0,
+      "service_pages": [],
+      "schema": {
+        "medical": false,
+        "any": false,
+        "types": []
+      },
+      "footer_year": {
+        "present": null,
+        "year": null,
+        "current_year": null
+      }
+    },
+    "mixed_content": {
+      "count": 0,
+      "samples": []
+    },
+    "broken_internal_links": {
+      "checked": 0,
+      "broken": 0,
+      "samples": []
+    },
+    "broken_static_resources": {
+      "checked": 0,
+      "broken": 0,
+      "samples": []
+    },
+    "security_headers": {
+      "checked": [
+        "strict-transport-security",
+        "content-security-policy",
+        "x-frame-options",
+        "x-content-type-options",
+        "referrer-policy"
+      ],
+      "present": [],
+      "missing": [
+        "strict-transport-security",
+        "content-security-policy",
+        "x-frame-options",
+        "x-content-type-options",
+        "referrer-policy"
+      ],
+      "values": {},
+      "source_url": "https://mosgorzdrav.ru/",
+      "source_status": null
+    }
+  },
+  "discovery": {
+    "contact_urls": [
+      "https://mosgorzdrav.ru/contact",
+      "https://mosgorzdrav.ru/contacts",
+      "https://mosgorzdrav.ru/kontakty"
+    ],
+    "booking_urls": [
+      "https://mosgorzdrav.ru/appointment",
+      "https://mosgorzdrav.ru/booking",
+      "https://mosgorzdrav.ru/zapis"
+    ],
+    "legal_urls": [
+      "https://mosgorzdrav.ru/agreement",
+      "https://mosgorzdrav.ru/personal-data",
+      "https://mosgorzdrav.ru/policy",
+      "https://mosgorzdrav.ru/politika",
+      "https://mosgorzdrav.ru/politika-konfidencialnosti",
+      "https://mosgorzdrav.ru/privacy",
+      "https://mosgorzdrav.ru/privacy-policy"
+    ],
+    "sources": {
+      "https://mosgorzdrav.ru/": "",
+      "https://mosgorzdrav.ru/agreement": "policy-fallback",
+      "https://mosgorzdrav.ru/appointment": "fallback",
+      "https://mosgorzdrav.ru/booking": "fallback",
+      "https://mosgorzdrav.ru/contact": "fallback",
+      "https://mosgorzdrav.ru/contacts": "fallback",
+      "https://mosgorzdrav.ru/kontakty": "fallback",
+      "https://mosgorzdrav.ru/personal-data": "policy-fallback",
+      "https://mosgorzdrav.ru/policy": "policy-fallback",
+      "https://mosgorzdrav.ru/politika": "policy-fallback",
+      "https://mosgorzdrav.ru/politika-konfidencialnosti": "policy-fallback",
+      "https://mosgorzdrav.ru/privacy": "policy-fallback",
+      "https://mosgorzdrav.ru/privacy-policy": "policy-fallback",
+      "https://mosgorzdrav.ru/zapis": "fallback"
+    },
+    "fallback_used": {
+      "contact": true,
+      "booking": true
+    },
+    "sitemap_total_urls": 0,
+    "sitemap_used_urls": 0
+  },
+  "verification": {
+    "b2": true,
+    "b3": true,
+    "b4": true
+  }
 }

@@ -1,335 +1,293 @@
-﻿{
-    "domain":  "stozubov-vsena4.ru",
-    "pages":  [
-                  {
-                      "requested":  "https://stozubov-vsena4.ru/",
-                      "status":  200,
-                      "final_url":  "https://stozubov-vsena4.ru/",
-                      "error":  null
-                  },
-                  {
-                      "requested":  "https://stozubov-vsena4.ru/contact",
-                      "status":  404,
-                      "final_url":  "https://stozubov-vsena4.ru/contact",
-                      "error":  "HTTPError 404"
-                  },
-                  {
-                      "requested":  "https://stozubov-vsena4.ru/contacts",
-                      "status":  404,
-                      "final_url":  "https://stozubov-vsena4.ru/contacts",
-                      "error":  "HTTPError 404"
-                  },
-                  {
-                      "requested":  "https://stozubov-vsena4.ru/kontakty",
-                      "status":  404,
-                      "final_url":  "https://stozubov-vsena4.ru/kontakty",
-                      "error":  "HTTPError 404"
-                  },
-                  {
-                      "requested":  "https://stozubov-vsena4.ru/politic",
-                      "status":  200,
-                      "final_url":  "https://stozubov-vsena4.ru/politic",
-                      "error":  null
-                  }
-              ],
-    "forms":  [
-                  {
-                      "page":  "https://stozubov-vsena4.ru/",
-                      "form_id":  "form1261981901",
-                      "action_display":  "action=\u0027\u0027",
-                      "open_tag":  "\u003cform id=\"form1261981901\" name=\u0027form1261981901\u0027 role=\"form\" action=\u0027\u0027 method=\u0027POST\u0027 data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 t-form_bbonly\" data-success-callback=\"t_quiz__onSuccess\"\u003e",
-                      "has_checkbox":  false,
-                      "checked":  null,
-                      "has_policy_text":  true,
-                      "checkbox_poc":  null,
-                      "policy_poc":  "target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(255, 94, 191);\"\u003eРЅР° РѕР±СЂР°Р±РѕС‚РєСѓ РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…\u003c/a\u003e \u003c/div\u003e \u003c/div\u003e \u003c/div\u003e \u003c/div\u003e \u003c/div\u003e \u003cdiv class=\"t-quiz__result t-quiz__result_redirect t-quiz__screen-wrapper t-step-form__step\" data-result-url=\"/",
-                      "has_phone_field":  true,
-                      "has_name_field":  false,
-                      "has_textarea":  false,
-                      "phone_required":  true
-                  },
-                  {
-                      "page":  "https://stozubov-vsena4.ru/",
-                      "form_id":  "form1261985361",
-                      "action_display":  "action=\u0027\u0027",
-                      "open_tag":  "\u003cform id=\"form1261985361\" name=\u0027form1261985361\u0027 role=\"form\" action=\u0027\u0027 method=\u0027POST\u0027 data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 t-form_bbonly\" data-success-callback=\"t_quiz__onSuccess\"\u003e",
-                      "has_checkbox":  false,
-                      "checked":  null,
-                      "has_policy_text":  true,
-                      "checkbox_poc":  null,
-                      "policy_poc":  "target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(255, 94, 191);\"\u003eРЅР° РѕР±СЂР°Р±РѕС‚РєСѓ РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…\u003c/a\u003e \u003c/div\u003e \u003c/div\u003e \u003c/div\u003e \u003c/div\u003e \u003c/div\u003e \u003cdiv class=\"t-quiz__result t-quiz__result_redirect t-quiz__screen-wrapper t-step-form__step\" data-result-url=\"/",
-                      "has_phone_field":  true,
-                      "has_name_field":  false,
-                      "has_textarea":  false,
-                      "phone_required":  true
-                  },
-                  {
-                      "page":  "https://stozubov-vsena4.ru/",
-                      "form_id":  "form1261931231",
-                      "action_display":  "action=\u0027\u0027",
-                      "open_tag":  "\u003cform id=\"form1261931231\" name=\u0027form1261931231\u0027 role=\"form\" action=\u0027\u0027 method=\u0027POST\u0027 data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 t-form_bbonly\" data-success-callback=\"t_quiz__onSuccess\"\u003e",
-                      "has_checkbox":  false,
-                      "checked":  null,
-                      "has_policy_text":  true,
-                      "checkbox_poc":  null,
-                      "policy_poc":  "target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(255, 94, 191);\"\u003eРЅР° РѕР±СЂР°Р±РѕС‚РєСѓ РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…\u003c/a\u003e \u003c/div\u003e \u003c/div\u003e \u003c/div\u003e \u003c/div\u003e \u003c/div\u003e \u003cdiv class=\"t-quiz__result t-quiz__result_redirect t-quiz__screen-wrapper t-step-form__step\" data-result-url=\"/",
-                      "has_phone_field":  true,
-                      "has_name_field":  false,
-                      "has_textarea":  false,
-                      "phone_required":  true
-                  }
-              ],
-    "emails":  [
-                   "Stozubovmsk@yandex.ru",
-                   "info@stozubov.ru"
-               ],
-    "privacy_links":  [
-                          {
-                              "page":  "https://stozubov-vsena4.ru/",
-                              "href":  "/politic",
-                              "text":  "РЅР° РѕР±СЂР°Р±РѕС‚РєСѓ РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
-                          },
-                          {
-                              "page":  "https://stozubov-vsena4.ru/",
-                              "href":  "/politic",
-                              "text":  "РЅР°\u0026nbsp;РѕР±СЂР°Р±РѕС‚РєСѓ РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
-                          },
-                          {
-                              "page":  "https://stozubov-vsena4.ru/",
-                              "href":  "/politic",
-                              "text":  "РїРѕРґСЂРѕР±РЅРµРµ"
-                          },
-                          {
-                              "page":  "https://stozubov-vsena4.ru/",
-                              "href":  "/politic",
-                              "text":  "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
-                          },
-                          {
-                              "page":  "https://stozubov-vsena4.ru/politic",
-                              "href":  "https://stozubov-vsena4.ru/politic",
-                              "text":  "policy path"
-                          },
-                          {
-                              "page":  "https://stozubov-vsena4.ru/politic",
-                              "href":  "/politic",
-                              "text":  "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
-                          },
-                          {
-                              "page":  "https://stozubov-vsena4.ru/politic",
-                              "href":  "https://stozubov-vsena4.ru/politic",
-                              "text":  "https://stozubov-vsena4.ru/politic"
-                          }
-                      ],
-    "forbidden_hits":  [
-
-                       ],
-    "cert_errors":  [
-
-                    ],
-    "tech":  {
-                 "ssl":  {
-                             "ok":  true,
-                             "protocol":  "TLSv1.3",
-                             "issuer_cn":  "R13",
-                             "not_after":  "Jul  9 07:55:21 2026 GMT",
-                             "days_left":  63,
-                             "error":  null
-                         },
-                 "http_to_https":  {
-                                       "requested":  "http://stozubov-vsena4.ru/",
-                                       "status":  200,
-                                       "final_url":  "https://stozubov-vsena4.ru/",
-                                       "redirected_to_https":  true,
-                                       "error":  null
-                                   },
-                 "canonical_www":  {
-                                       "non_www":  {
-                                                       "requested":  "https://stozubov-vsena4.ru/",
-                                                       "status":  200,
-                                                       "final_url":  "https://stozubov-vsena4.ru/",
-                                                       "error":  null
-                                                   },
-                                       "www":  {
-                                                   "requested":  "https://www.stozubov-vsena4.ru/",
-                                                   "status":  200,
-                                                   "final_url":  "https://stozubov-vsena4.ru/",
-                                                   "error":  null
-                                               },
-                                       "same_canonical":  true,
-                                       "canonical_host":  "stozubov-vsena4.ru"
-                                   },
-                 "ttfb":  {
-                              "seconds":  1.323,
-                              "source_url":  "https://stozubov-vsena4.ru/",
-                              "status":  200,
-                              "error":  null
-                          },
-                 "pagespeed":  {
-                                   "status":  "ok",
-                                   "score":  51,
-                                   "lcp_seconds":  3.956,
-                                   "tool":  "C:\\Program Files\\nodejs\\npx.CMD --yes lighthouse",
-                                   "error":  null
-                               },
-                 "analytics":  {
-                                   "found":  true,
-                                   "kinds":  [
-                                                 "yandex_metrika"
-                                             ],
-                                   "goals_found":  false,
-                                   "goal_markers":  [
-
-                                                    ]
-                               },
-                 "engagement":  {
-                                    "whatsapp":  true,
-                                    "telegram":  false,
-                                    "chat_widget":  false,
-                                    "slot_booking_widget":  false
-                                },
-                 "remarketing":  {
-                                     "vk_pixel":  false,
-                                     "meta_pixel":  false,
-                                     "google_ads_remarketing":  false,
-                                     "found":  false
-                                 },
-                 "favicon":  {
-                                 "status":  200,
-                                 "from_html":  true,
-                                 "found":  true
-                             },
-                 "schema":  {
-                                "found":  true,
-                                "types":  [
-                                              "detected"
-                                          ]
-                            },
-                 "med_trust":  {
-                                   "contact_page_exists":  false,
-                                   "contact_pages":  [
-
-                                                     ],
-                                   "price_public_found":  false,
-                                   "price_pages":  [
-
-                                                   ],
-                                   "doctors_page_exists":  false,
-                                   "doctor_pages":  [
-
-                                                    ],
-                                   "address_found":  true,
-                                   "map_found":  true,
-                                   "hours_found":  true,
-                                   "reviews_found":  true,
-                                   "service_pages_count":  0,
-                                   "service_pages":  [
-
-                                                     ],
-                                   "clickable_contacts":  {
-                                                              "tel":  true,
-                                                              "mailto":  true
-                                                          },
-                                   "doctor_cards":  {
-                                                        "names_count":  0,
-                                                        "specialty_found":  false,
-                                                        "complete":  false
-                                                    },
-                                   "nap":  {
-                                               "home_phones":  [
-                                                                   "9770890509",
-                                                                   "9999999999"
-                                                               ],
-                                               "contact_phones":  [
-
-                                                                  ],
-                                               "phone_match":  null,
-                                               "home_address_found":  true,
-                                               "contact_address_found":  false,
-                                               "address_match":  null,
-                                               "consistent":  false
-                                           },
-                                   "schema":  {
-                                                  "medical":  false,
-                                                  "any":  true,
-                                                  "types":  [
-                                                                "detected"
-                                                            ]
-                                              }
-                               },
-                 "mixed_content":  {
-                                       "count":  0,
-                                       "samples":  [
-
-                                                   ]
-                                   },
-                 "broken_internal_links":  {
-                                               "checked":  2,
-                                               "broken":  0,
-                                               "samples":  [
-
-                                                           ]
-                                           },
-                 "broken_static_resources":  {
-                                                 "checked":  2,
-                                                 "broken":  0,
-                                                 "samples":  [
-
-                                                             ]
-                                             },
-                 "security_headers":  {
-                                          "checked":  [
-                                                          "strict-transport-security",
-                                                          "content-security-policy",
-                                                          "x-frame-options",
-                                                          "x-content-type-options",
-                                                          "referrer-policy"
-                                                      ],
-                                          "present":  [
-
-                                                      ],
-                                          "missing":  [
-                                                          "strict-transport-security",
-                                                          "content-security-policy",
-                                                          "x-frame-options",
-                                                          "x-content-type-options",
-                                                          "referrer-policy"
-                                                      ],
-                                          "values":  {
-
-                                                     },
-                                          "source_url":  "https://stozubov-vsena4.ru/",
-                                          "source_status":  200
-                                      }
-             },
-    "discovery":  {
-                      "contact_urls":  [
-                                           "https://stozubov-vsena4.ru/contact",
-                                           "https://stozubov-vsena4.ru/contacts",
-                                           "https://stozubov-vsena4.ru/kontakty"
-                                       ],
-                      "booking_urls":  [
-                                           "https://stozubov-vsena4.ru/"
-                                       ],
-                      "legal_urls":  [
-                                         "https://stozubov-vsena4.ru/politic"
-                                     ],
-                      "sources":  {
-                                      "https://stozubov-vsena4.ru/":  "home-booking-candidate",
-                                      "https://stozubov-vsena4.ru/contact":  "fallback",
-                                      "https://stozubov-vsena4.ru/contacts":  "fallback",
-                                      "https://stozubov-vsena4.ru/kontakty":  "fallback",
-                                      "https://stozubov-vsena4.ru/politic":  "navigation-legal"
-                                  },
-                      "fallback_used":  {
-                                            "contact":  true,
-                                            "booking":  false
-                                        },
-                      "sitemap_total_urls":  1,
-                      "sitemap_used_urls":  1
-                  },
-    "verification":  {
-                         "b2":  true,
-                         "b3":  true,
-                         "b4":  true
-                     }
+{
+  "domain": "stozubov-vsena4.ru",
+  "pages": [
+    {
+      "requested": "https://stozubov-vsena4.ru/",
+      "status": 200,
+      "final_url": "https://stozubov-vsena4.ru/",
+      "error": null
+    },
+    {
+      "requested": "https://stozubov-vsena4.ru/contact",
+      "status": 404,
+      "final_url": "https://stozubov-vsena4.ru/contact",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://stozubov-vsena4.ru/contacts",
+      "status": 404,
+      "final_url": "https://stozubov-vsena4.ru/contacts",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://stozubov-vsena4.ru/kontakty",
+      "status": 404,
+      "final_url": "https://stozubov-vsena4.ru/kontakty",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://stozubov-vsena4.ru/politic",
+      "status": 200,
+      "final_url": "https://stozubov-vsena4.ru/politic",
+      "error": null
+    }
+  ],
+  "forms": [
+    {
+      "page": "https://stozubov-vsena4.ru/",
+      "form_id": "form1261981901",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1261981901\" name='form1261981901' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 t-form_bbonly\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(255, 94, 191);\">РЅР° РѕР±СЂР°Р±РѕС‚РєСѓ РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…</a> </div> </div> </div> </div> </div> <div class=\"t-quiz__result t-quiz__result_redirect t-quiz__screen-wrapper t-step-form__step\" data-result-url=\"/",
+      "has_phone_field": true,
+      "has_name_field": false,
+      "has_textarea": false,
+      "phone_required": true
+    },
+    {
+      "page": "https://stozubov-vsena4.ru/",
+      "form_id": "form1261985361",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1261985361\" name='form1261985361' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 t-form_bbonly\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(255, 94, 191);\">РЅР° РѕР±СЂР°Р±РѕС‚РєСѓ РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…</a> </div> </div> </div> </div> </div> <div class=\"t-quiz__result t-quiz__result_redirect t-quiz__screen-wrapper t-step-form__step\" data-result-url=\"/",
+      "has_phone_field": true,
+      "has_name_field": false,
+      "has_textarea": false,
+      "phone_required": true
+    },
+    {
+      "page": "https://stozubov-vsena4.ru/",
+      "form_id": "form1261931231",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form1261931231\" name='form1261931231' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_4 t-form_bbonly\" data-success-callback=\"t_quiz__onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": true,
+      "checkbox_poc": null,
+      "policy_poc": "target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(255, 94, 191);\">РЅР° РѕР±СЂР°Р±РѕС‚РєСѓ РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…</a> </div> </div> </div> </div> </div> <div class=\"t-quiz__result t-quiz__result_redirect t-quiz__screen-wrapper t-step-form__step\" data-result-url=\"/",
+      "has_phone_field": true,
+      "has_name_field": false,
+      "has_textarea": false,
+      "phone_required": true
+    }
+  ],
+  "emails": [
+    "Stozubovmsk@yandex.ru",
+    "info@stozubov.ru"
+  ],
+  "privacy_links": [
+    {
+      "page": "https://stozubov-vsena4.ru/",
+      "href": "/politic",
+      "text": "РЅР° РѕР±СЂР°Р±РѕС‚РєСѓ РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+    },
+    {
+      "page": "https://stozubov-vsena4.ru/",
+      "href": "/politic",
+      "text": "РЅР°&nbsp;РѕР±СЂР°Р±РѕС‚РєСѓ РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+    },
+    {
+      "page": "https://stozubov-vsena4.ru/",
+      "href": "/politic",
+      "text": "РїРѕРґСЂРѕР±РЅРµРµ"
+    },
+    {
+      "page": "https://stozubov-vsena4.ru/",
+      "href": "/politic",
+      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+    },
+    {
+      "page": "https://stozubov-vsena4.ru/politic",
+      "href": "https://stozubov-vsena4.ru/politic",
+      "text": "policy path"
+    },
+    {
+      "page": "https://stozubov-vsena4.ru/politic",
+      "href": "/politic",
+      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+    },
+    {
+      "page": "https://stozubov-vsena4.ru/politic",
+      "href": "https://stozubov-vsena4.ru/politic",
+      "text": "https://stozubov-vsena4.ru/politic"
+    }
+  ],
+  "forbidden_hits": [],
+  "cert_errors": [],
+  "tech": {
+    "ssl": {
+      "ok": true,
+      "protocol": "TLSv1.3",
+      "issuer_cn": "R13",
+      "not_after": "Jul  9 07:55:21 2026 GMT",
+      "days_left": 63,
+      "error": null
+    },
+    "http_to_https": {
+      "requested": "http://stozubov-vsena4.ru/",
+      "status": 200,
+      "final_url": "https://stozubov-vsena4.ru/",
+      "redirected_to_https": true,
+      "error": null
+    },
+    "canonical_www": {
+      "non_www": {
+        "requested": "https://stozubov-vsena4.ru/",
+        "status": 200,
+        "final_url": "https://stozubov-vsena4.ru/",
+        "error": null
+      },
+      "www": {
+        "requested": "https://www.stozubov-vsena4.ru/",
+        "status": 200,
+        "final_url": "https://stozubov-vsena4.ru/",
+        "error": null
+      },
+      "same_canonical": true,
+      "canonical_host": "stozubov-vsena4.ru"
+    },
+    "ttfb": {
+      "seconds": 1.323,
+      "source_url": "https://stozubov-vsena4.ru/",
+      "status": 200,
+      "error": null
+    },
+    "pagespeed": {
+      "status": "ok",
+      "score": 51,
+      "lcp_seconds": 3.956,
+      "tool": "C:\\Program Files\\nodejs\\npx.CMD --yes lighthouse",
+      "error": null
+    },
+    "analytics": {
+      "found": true,
+      "kinds": [
+        "yandex_metrika"
+      ],
+      "goals_found": false,
+      "goal_markers": []
+    },
+    "engagement": {
+      "whatsapp": true,
+      "telegram": false,
+      "chat_widget": false,
+      "slot_booking_widget": false
+    },
+    "remarketing": {
+      "vk_pixel": false,
+      "meta_pixel": false,
+      "google_ads_remarketing": false,
+      "found": false
+    },
+    "favicon": {
+      "status": 200,
+      "from_html": true,
+      "found": true
+    },
+    "schema": {
+      "found": true,
+      "types": [
+        "detected"
+      ]
+    },
+    "med_trust": {
+      "contact_page_exists": false,
+      "contact_pages": [],
+      "price_public_found": false,
+      "price_pages": [],
+      "doctors_page_exists": false,
+      "doctor_pages": [],
+      "address_found": true,
+      "map_found": true,
+      "hours_found": true,
+      "reviews_found": true,
+      "service_pages_count": 0,
+      "service_pages": [],
+      "schema": {
+        "medical": false,
+        "any": true,
+        "types": [
+          "detected"
+        ]
+      },
+      "footer_year": {
+        "present": null,
+        "year": null,
+        "current_year": null
+      }
+    },
+    "mixed_content": {
+      "count": 0,
+      "samples": []
+    },
+    "broken_internal_links": {
+      "checked": 2,
+      "broken": 0,
+      "samples": []
+    },
+    "broken_static_resources": {
+      "checked": 2,
+      "broken": 0,
+      "samples": []
+    },
+    "security_headers": {
+      "checked": [
+        "strict-transport-security",
+        "content-security-policy",
+        "x-frame-options",
+        "x-content-type-options",
+        "referrer-policy"
+      ],
+      "present": [],
+      "missing": [
+        "strict-transport-security",
+        "content-security-policy",
+        "x-frame-options",
+        "x-content-type-options",
+        "referrer-policy"
+      ],
+      "values": {},
+      "source_url": "https://stozubov-vsena4.ru/",
+      "source_status": 200
+    }
+  },
+  "discovery": {
+    "contact_urls": [
+      "https://stozubov-vsena4.ru/contact",
+      "https://stozubov-vsena4.ru/contacts",
+      "https://stozubov-vsena4.ru/kontakty"
+    ],
+    "booking_urls": [
+      "https://stozubov-vsena4.ru/"
+    ],
+    "legal_urls": [
+      "https://stozubov-vsena4.ru/politic"
+    ],
+    "sources": {
+      "https://stozubov-vsena4.ru/": "home-booking-candidate",
+      "https://stozubov-vsena4.ru/contact": "fallback",
+      "https://stozubov-vsena4.ru/contacts": "fallback",
+      "https://stozubov-vsena4.ru/kontakty": "fallback",
+      "https://stozubov-vsena4.ru/politic": "navigation-legal"
+    },
+    "fallback_used": {
+      "contact": true,
+      "booking": false
+    },
+    "sitemap_total_urls": 1,
+    "sitemap_used_urls": 1
+  },
+  "verification": {
+    "b2": true,
+    "b3": true,
+    "b4": true
+  }
 }

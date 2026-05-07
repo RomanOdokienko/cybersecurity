@@ -742,24 +742,18 @@ def block3_statuses(audit, site_unavailable, cert_status, spf_status, dmarc_stat
 def block4_statuses(audit, site_unavailable):
     if site_unavailable:
         return {
-            "price_public_status": "-",
             "doctors_page_status": "-",
             "address_map_status": "-",
             "hours_status": "-",
             "reviews_status": "-",
-            "services_pages_status": "-",
-            "nap_consistency_status": "-",
-            "clickable_contacts_status": "-",
+            "footer_year_status": "-",
             "contacts_page_status": "-",
-            "doctor_cards_status": "-",
-            "schema_medical_status": "-",
         }
 
     tech = audit.get("tech", {}) or {}
     med = tech.get("med_trust", {}) or {}
     discovery = audit.get("discovery", {}) or {}
     pages = audit.get("pages", []) or []
-    schema = tech.get("schema", {}) or {}
 
     contact_urls = discovery.get("contact_urls", []) or []
     page_urls = [str(p.get("requested") or "") for p in pages]
@@ -767,11 +761,6 @@ def block4_statuses(audit, site_unavailable):
 
     def has_url_hint(hints):
         return any(any(h in u for h in hints) for u in low_urls)
-
-    price_found = med.get("price_public_found")
-    if price_found is None:
-        price_found = has_url_hint(["/price", "/prices", "/prays", "/ceny", "/tseny", "/stoim", "/uslugi"])
-    price_public_status = "ок" if price_found else "проблема"
 
     doctors_found = med.get("doctors_page_exists")
     if doctors_found is None:
@@ -805,77 +794,30 @@ def block4_statuses(audit, site_unavailable):
     else:
         reviews_status = "проверить"
 
-    service_pages_count = med.get("service_pages_count")
-    if isinstance(service_pages_count, int):
-        if service_pages_count >= 3:
-            services_pages_status = "ок"
-        elif service_pages_count >= 1:
-            services_pages_status = "проверить"
-        else:
-            services_pages_status = "проблема"
-    else:
-        services_pages_status = "проверить"
-
-    nap = med.get("nap", {}) or {}
-    nap_consistent = nap.get("consistent")
-    if nap_consistent is True:
-        nap_consistency_status = "ок"
-    elif nap_consistent is False:
-        nap_consistency_status = "проблема"
-    else:
-        nap_consistency_status = "проверить"
-
-    clickable = med.get("clickable_contacts", {}) or {}
-    has_tel = clickable.get("tel")
-    has_mailto = clickable.get("mailto")
-    if has_tel is True:
-        clickable_contacts_status = "ок"
-    elif has_mailto is True:
-        clickable_contacts_status = "проверить"
-    elif has_tel is False and has_mailto is False:
-        clickable_contacts_status = "проблема"
-    else:
-        clickable_contacts_status = "проверить"
-
     contacts_exists = med.get("contact_page_exists")
     if contacts_exists is None:
         contacts_exists = bool(contact_urls) or has_url_hint(["/contact", "/contacts", "/kontakty"])
     contacts_page_status = "ок" if contacts_exists else "проблема"
 
-    doctor_cards = med.get("doctor_cards", {}) or {}
-    doctor_cards_complete = doctor_cards.get("complete")
-    if doctor_cards_complete is True:
-        doctor_cards_status = "ок"
-    elif doctor_cards_complete is False and doctors_found:
-        doctor_cards_status = "проверить"
-    elif doctor_cards_complete is False and not doctors_found:
-        doctor_cards_status = "проблема"
+    footer_year = med.get("footer_year", {}) or {}
+    footer_present = footer_year.get("present")
+    footer_current = footer_year.get("current_year")
+    if footer_present is False:
+        footer_year_status = "ок"
+    elif footer_current is True:
+        footer_year_status = "ок"
+    elif footer_current is False:
+        footer_year_status = "проблема"
     else:
-        doctor_cards_status = "проверить"
-
-    med_schema = ((med.get("schema", {}) or {}).get("medical"))
-    if med_schema is None:
-        schema_types = [str(x).lower() for x in (schema.get("types") or [])]
-        med_schema = any(x in {"medicalorganization", "medicalclinic", "physician", "dentist", "hospital"} for x in schema_types)
-    if med_schema is True:
-        schema_medical_status = "ок"
-    elif med_schema is False:
-        schema_medical_status = "проверить"
-    else:
-        schema_medical_status = "проверить"
+        footer_year_status = "проверить"
 
     return {
-        "price_public_status": price_public_status,
         "doctors_page_status": doctors_page_status,
         "address_map_status": address_map_status,
         "hours_status": hours_status,
         "reviews_status": reviews_status,
-        "services_pages_status": services_pages_status,
-        "nap_consistency_status": nap_consistency_status,
-        "clickable_contacts_status": clickable_contacts_status,
+        "footer_year_status": footer_year_status,
         "contacts_page_status": contacts_page_status,
-        "doctor_cards_status": doctor_cards_status,
-        "schema_medical_status": schema_medical_status,
     }
 
 
@@ -1248,15 +1190,9 @@ def block4_poc_lines(audit, summary):
     b4 = summary.get("b4", {}) or {}
     tech = audit.get("tech", {}) or {}
     med = tech.get("med_trust", {}) or {}
-    nap = med.get("nap", {}) or {}
-    click = med.get("clickable_contacts", {}) or {}
-    doc = med.get("doctor_cards", {}) or {}
-    schema = med.get("schema", {}) or {}
+    footer_year = med.get("footer_year", {}) or {}
 
     lines = []
-    lines.append(metric_lines("Прайс-лист доступен без регистрации", b4.get("price_public_status", "-"), [
-        "price_pages: " + ", ".join((med.get("price_pages") or [])[:5]) if med.get("price_pages") else "price_pages: не найдены",
-    ]))
     lines.append(metric_lines("Страница врачей / специалистов", b4.get("doctors_page_status", "-"), [
         "doctor_pages: " + ", ".join((med.get("doctor_pages") or [])[:5]) if med.get("doctor_pages") else "doctor_pages: не найдены",
     ]))
@@ -1270,32 +1206,14 @@ def block4_poc_lines(audit, summary):
     lines.append(metric_lines("Отзывы пациентов на сайте", b4.get("reviews_status", "-"), [
         f"reviews_found: {med.get('reviews_found')}",
     ]))
-    lines.append(metric_lines("Ключевые услуги вынесены в отдельные страницы", b4.get("services_pages_status", "-"), [
-        f"service_pages_count: {med.get('service_pages_count')}",
-        "service_pages: " + ", ".join((med.get("service_pages") or [])[:5]) if med.get("service_pages") else "service_pages: не найдены",
-    ]))
-    lines.append(metric_lines("NAP consistency (название/адрес/телефон согласованы)", b4.get("nap_consistency_status", "-"), [
-        f"consistent: {nap.get('consistent')}",
-        "home_phones: " + ", ".join(nap.get("home_phones", []) or []) if nap.get("home_phones") else "home_phones: не найдены",
-        "contact_phones: " + ", ".join(nap.get("contact_phones", []) or []) if nap.get("contact_phones") else "contact_phones: не найдены",
-        f"address_match: {nap.get('address_match')}",
-    ]))
-    lines.append(metric_lines("Контакты кликабельны (tel:/mailto:)", b4.get("clickable_contacts_status", "-"), [
-        f"tel_link: {click.get('tel')}",
-        f"mailto_link: {click.get('mailto')}",
+    lines.append(metric_lines("Актуальность года в футере (если он вообще есть). Если его нет — ок", b4.get("footer_year_status", "-"), [
+        f"footer_present: {footer_year.get('present')}",
+        f"current_year: {footer_year.get('current_year')}",
+        f"year_value: {footer_year.get('year')}",
     ]))
     lines.append(metric_lines("Есть отдельная страница контактов", b4.get("contacts_page_status", "-"), [
         f"contact_page_exists: {med.get('contact_page_exists')}",
         "contact_pages: " + ", ".join((med.get("contact_pages") or [])[:5]) if med.get("contact_pages") else "contact_pages: не найдены",
-    ]))
-    lines.append(metric_lines("Карточки врачей: ФИО + специальность", b4.get("doctor_cards_status", "-"), [
-        f"names_count: {doc.get('names_count')}",
-        f"specialty_found: {doc.get('specialty_found')}",
-        f"complete: {doc.get('complete')}",
-    ]))
-    lines.append(metric_lines("Schema.org: MedicalOrganization / Physician", b4.get("schema_medical_status", "-"), [
-        f"medical_schema: {schema.get('medical')}",
-        "types: " + ", ".join(schema.get("types", []) or []) if schema.get("types") else "types: не найдены",
     ]))
     return lines
 
@@ -1584,17 +1502,12 @@ def step2_block_schema():
             "id": "b4",
             "title": "Блок 3",
             "metric_names": [
-                "Прайс-лист доступен без регистрации",
                 "Страница врачей / специалистов",
                 "Адрес и карта на сайте",
                 "Часы работы",
                 "Отзывы пациентов на сайте",
-                "Ключевые услуги вынесены в отдельные страницы",
-                "NAP consistency (название/адрес/телефон согласованы)",
-                "Контакты кликабельны (tel:/mailto:)",
+                "Актуальность года в футере (если он вообще есть). Если его нет — ок",
                 "Есть отдельная страница контактов",
-                "Карточки врачей: ФИО + специальность",
-                "Schema.org: MedicalOrganization / Physician",
             ],
         },
     ]
@@ -1665,17 +1578,12 @@ def step2_blocks_data(summary):
         b3_values = ["-"] * len(b3_values)
 
     b4_values = [
-        b4.get("price_public_status", "-" if site_unavailable else "проверить"),
         b4.get("doctors_page_status", "-" if site_unavailable else "проверить"),
         b4.get("address_map_status", "-" if site_unavailable else "проверить"),
         b4.get("hours_status", "-" if site_unavailable else "проверить"),
         b4.get("reviews_status", "-" if site_unavailable else "проверить"),
-        b4.get("services_pages_status", "-" if site_unavailable else "проверить"),
-        b4.get("nap_consistency_status", "-" if site_unavailable else "проверить"),
-        b4.get("clickable_contacts_status", "-" if site_unavailable else "проверить"),
+        b4.get("footer_year_status", "-" if site_unavailable else "проверить"),
         b4.get("contacts_page_status", "-" if site_unavailable else "проверить"),
-        b4.get("doctor_cards_status", "-" if site_unavailable else "проверить"),
-        b4.get("schema_medical_status", "-" if site_unavailable else "проверить"),
     ]
     if not block4_verified:
         b4_values = ["-"] * len(b4_values)
@@ -1774,7 +1682,7 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
     .card .l {{ margin-top:3px; font-size:11px; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); font-weight:700; }}
     .n.ok{{color:var(--ok-fg)}} .n.warn{{color:var(--warn-fg)}} .n.bad{{color:var(--bad-fg)}} .n.na{{color:var(--na-fg)}} .n.total{{color:#111827}}
     .table-wrap {{ margin-top:12px; background:#fff; border:1px solid var(--line); border-radius:12px; overflow-x:auto; }}
-    table {{ width:100%; min-width:5600px; border-collapse:collapse; table-layout:fixed; }}
+    table {{ width:100%; min-width:3200px; border-collapse:collapse; table-layout:fixed; }}
     thead th {{ text-align:left; background:#fafbfe; border-bottom:1px solid var(--line); color:#576072; font-size:10px; letter-spacing:.01em; text-transform:none; font-weight:700; padding:9px 8px; white-space:normal; line-height:1.2; }}
     tbody td {{ border-bottom:1px solid var(--line); padding:6px 8px; font-size:12px; vertical-align:top; line-height:1.2; }}
     tbody tr:last-child td {{ border-bottom:0; }}
@@ -1790,9 +1698,9 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
     .na {{ background:var(--na-bg); color:var(--na-fg); border-color:#dde2ea; }}
     .id-col-head {{ width:52px; min-width:52px; position:sticky; left:0; z-index:4; box-shadow:1px 0 0 #e9edf6; text-align:center; }}
     .id-col {{ width:52px; min-width:52px; position:sticky; left:0; z-index:3; box-shadow:1px 0 0 #e9edf6; background:#fff; text-align:center; color:#6a7385; font-weight:700; font-size:11px; }}
-    .clinic-col {{ background:#fff; width:260px; min-width:260px; position:sticky; left:52px; z-index:2; box-shadow:1px 0 0 #e9edf6; padding:8px 10px; }}
+    .clinic-col {{ background:#fff; width:220px; min-width:220px; position:sticky; left:52px; z-index:2; box-shadow:1px 0 0 #e9edf6; padding:8px 8px; }}
     .clinic-name {{ font-weight:500; font-size:14px; color:#1f2430; line-height:1.25; overflow-wrap:anywhere; }}
-    .metric-col {{ text-align:center; background:#fcfdff; border-left:1px solid #edf1f7; min-width:126px; }}
+    .metric-col {{ text-align:center; background:#fcfdff; border-left:1px solid #edf1f7; min-width:98px; }}
     .group-edge {{ border-left:3px solid #d0d8e8 !important; }}
     .col-head {{ position:relative; display:flex; justify-content:flex-end; align-items:center; min-height:24px; }}
     .col-title {{ position:absolute; left:50%; transform:translateX(-50%); width:100%; padding:0 26px 0 8px; text-align:center; font-size:12px; font-weight:800; color:#394153; pointer-events:none; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }}
@@ -1803,8 +1711,8 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
     .metric-label {{ display:block; }}
     .is-hidden-col {{ display:none !important; }}
     .notes {{ margin-top:10px; background:#fff; border:1px solid var(--line); border-radius:10px; padding:10px 12px; font-size:12px; color:#4e5565; line-height:1.35; }}
-    .clinic-col-head {{ width:260px; min-width:260px; position:sticky; left:52px; z-index:3; box-shadow:1px 0 0 #e9edf6; }}
-    .metric-head-col {{ min-width:126px; font-size:10px; line-height:1.25; font-weight:600; }}
+    .clinic-col-head {{ width:220px; min-width:220px; position:sticky; left:52px; z-index:3; box-shadow:1px 0 0 #e9edf6; }}
+    .metric-head-col {{ min-width:98px; font-size:9px; line-height:1.2; font-weight:600; }}
   </style>
 </head>
 <body>
