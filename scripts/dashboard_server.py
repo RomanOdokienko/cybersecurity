@@ -93,7 +93,7 @@ class DashboardHandler(SimpleHTTPRequestHandler):
             self._send_json(HTTPStatus.OK, read_comments())
             return
         if self.path == "/":
-            self.path = "/dashboard.html"
+            self.path = "/screening-step-2.html"
         super().do_GET()
 
     def do_POST(self) -> None:
@@ -145,7 +145,7 @@ def main() -> None:
     host = "127.0.0.1"
     port = 8000
     server = ThreadingHTTPServer((host, port), DashboardHandler)
-    print(f"Dashboard server: http://{host}:{port}/dashboard.html")
+    print(f"Dashboard server: http://{host}:{port}/screening-step-2.html")
     try:
         server.serve_forever()
     except KeyboardInterrupt:

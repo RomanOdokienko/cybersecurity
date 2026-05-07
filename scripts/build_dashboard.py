@@ -1469,9 +1469,9 @@ li{{margin:4px 0}}
   <div class=\"wrap\">
     <div class=\"top\">
       <div>
-        <a href=\"../dashboard.html\">← Скрининг клиник шаг 1</a>
+        <a href=\"../screening-step-2.html\">← Скрининг клиник шаг 2</a>
         <span style=\"color:#9aa6bd\">&nbsp;·&nbsp;</span>
-        <a href=\"../screening-step-2.html\">Скрининг клиник шаг 2 →</a>
+        <a href=\"../final-report-blocks.html\">Блоки финального отчёта →</a>
         <h1>{esc(item['clinic'])}</h1>
         <div>{esc(item['site'])}</div>
       </div>
@@ -1522,29 +1522,8 @@ def step2_block_schema():
             ],
         },
         {
-            "id": "b3",
-            "title": "Блок 3",
-            "metric_names": [
-                "SSL валиден",
-                "Срок действия SSL (дней до истечения)",
-                "HTTP → HTTPS редирект",
-                "HSTS включен",
-                "Смешанный контент (HTTP на HTTPS)",
-                "Security headers baseline (CSP/XFO/XCTO/Referrer)",
-                "SPF запись",
-                "DMARC запись + p=",
-                "DKIM (селекторы/наличие)",
-                "Битые внутренние ссылки (4xx/5xx)",
-                "Битые статические ресурсы (JS/CSS/img)",
-                "TTFB",
-                "PageSpeed mobile + LCP",
-                "www vs non-www canonical",
-                "Веб-аналитика + цели/события",
-            ],
-        },
-        {
             "id": "b4",
-            "title": "Блок 4",
+            "title": "Блок 3",
             "metric_names": [
                 "Прайс-лист доступен без регистрации",
                 "Страница врачей / специалистов",
@@ -1770,7 +1749,7 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
   <div class=\"wrap\">
     <h1>Скрининг клиник шаг 2</h1>
     <div class=\"sub\">Слева клиники, далее вертикальные блоки метрик по каждой клинике</div>
-    <div class=\"meta\"><a class=\"meta-link\" href=\"dashboard.html\">← Скрининг клиник шаг 1</a> &nbsp;·&nbsp; <a class=\"meta-link\" href=\"final-report-blocks.html\">Блоки финального отчёта →</a></div>
+    <div class=\"meta\"><a class=\"meta-link\" href=\"final-report-blocks.html\">Блоки финального отчёта →</a></div>
 
     <div class=\"cards\">
       <div class=\"card\"><div class=\"n ok\">{counts.get('слать', 0)}</div><div class=\"l\">Слать</div></div>
@@ -1792,7 +1771,7 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
     </div>
 
     <div class=\"notes\">
-      Сворачивание работает на уровне блока: кнопка в заголовке `Блок 1/2/3/4` скрывает или показывает все метрики этого блока сразу для всех клиник.
+      Сворачивание работает на уровне блока: кнопка в заголовке `Блок 1/2/3` скрывает или показывает все метрики этого блока сразу для всех клиник.
     </div>
   </div>
   <script>
