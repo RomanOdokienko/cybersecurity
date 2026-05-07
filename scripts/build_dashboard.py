@@ -1515,13 +1515,13 @@ def step2_block_schema():
 
 def metric_tooltip(block_id: str, metric_idx: int, metric_name: str) -> str:
     block2 = {
-        0: "Оценка: 'ок' — найдена онлайн-запись со слотами (выбор конкретного времени); 'рекомендация' — слотовой записи не найдено.",
-        1: "Оценка: 'ок' — >=10 страниц и >=2 функциональных сигнала; 'частично' — 6-9 страниц или >=1 сигнал; 'проблема' — <6 страниц и 0 сигналов.",
-        2: "Оценка: 'ок' — есть аналитика и маркеры целей/событий; 'частично' — аналитика есть, но маркеры целей не найдены; 'проблема' — аналитика не найдена.",
-        3: "Оценка: 'ок' — найден хотя бы 1 ремаркетинг-пиксель; 'частично' — есть аналитика, но пиксель не найден; 'проблема' — нет ни аналитики, ни пикселя.",
-        4: "Оценка: 'ок' — LCP <= 3.0s и/или score >= 70; 'частично' — промежуточные значения; 'проблема' — LCP > 4.5s или score < 50.",
-        5: "Оценка: 'ок' — есть хотя бы один асинхронный канал (форма, WhatsApp/Telegram, чат); 'проблема' — асинхронного канала нет.",
-        6: "Оценка: 'ок' — есть чат или форма вопроса без обязательного телефона; 'частично' — форма есть, но телефон обязателен; 'проблема' — ни чата, ни формы вопроса.",
+        0: "Оценка: 'ок' — найдена рабочая онлайн-запись со слотами (дата/время); 'проблема' — слоты не найдены.",
+        1: "Оценка: 'ок' — индексируемых страниц >=12 и страниц услуг >=5; 'проблема' — хотя бы одно условие не выполнено.",
+        2: "Оценка: 'ок' — есть Яндекс.Метрика и признаки целей/событий; 'проблема' — Метрики нет или целей/событий нет.",
+        3: "Оценка: 'ок' — найден минимум один ремаркетинг-пиксель (VK/Meta/Google Ads); 'проблема' — пиксель не найден.",
+        4: "Оценка: 'ок' — LCP <= 3.0s и/или score >= 70; 'проблема' — LCP > 3.0s или score < 70.",
+        5: "Оценка: 'ок' — есть рабочий асинхронный канал (WhatsApp/Telegram/Max/чат); 'проблема' — канала нет.",
+        6: "Оценка: 'ок' — есть чат или форма вопроса без обязательного телефона; 'проблема' — таких каналов нет.",
     }
     if block_id == "b2":
         return block2.get(metric_idx, "")
@@ -1612,7 +1612,7 @@ def step2_header_rows(schema):
         col_count = len(block["metric_names"])
         edge_cls = " group-edge" if block_idx > 0 else ""
         top.append(
-            f'<th class="group-{esc(bid)}{edge_cls}" colspan="{col_count}"><div class="col-head"><span class="col-title">{esc(title)}</span><button class="col-toggle" data-block-toggle="{esc(bid)}" type="button" aria-label="Свернуть блок" title="Свернуть блок">▾</button></div></th>'
+            f'<th class="group-{esc(bid)}{edge_cls}" colspan="{col_count}"><div class="col-head"><span class="col-title">{esc(title)}</span><div class="col-actions"><button class="method-btn" data-methodology-open="{esc(bid)}" type="button" aria-label="Посмотреть методологию" title="Посмотреть методологию">i</button><button class="col-toggle" data-block-toggle="{esc(bid)}" type="button" aria-label="Свернуть блок" title="Свернуть блок">▾</button></div></div></th>'
         )
         ph_edge = " group-edge" if block_idx > 0 else ""
         sub.append(f'<th class="metric-col {esc(bid)}-ph metric-head-col block-ph{ph_edge} is-hidden-col"></th>')
@@ -1703,7 +1703,10 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
     .metric-col {{ text-align:center; background:#fcfdff; border-left:1px solid #edf1f7; min-width:98px; }}
     .group-edge {{ border-left:3px solid #d0d8e8 !important; }}
     .col-head {{ position:relative; display:flex; justify-content:flex-end; align-items:center; min-height:24px; }}
-    .col-title {{ position:absolute; left:50%; transform:translateX(-50%); width:100%; padding:0 26px 0 8px; text-align:center; font-size:12px; font-weight:800; color:#394153; pointer-events:none; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }}
+    .col-title {{ position:absolute; left:50%; transform:translateX(-50%); width:100%; padding:0 56px 0 8px; text-align:center; font-size:12px; font-weight:800; color:#394153; pointer-events:none; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }}
+    .col-actions {{ position:relative; z-index:1; display:flex; align-items:center; gap:6px; }}
+    .method-btn {{ width:22px; height:22px; border:1px solid #ccd4e2; background:#fff; color:#2b3343; border-radius:7px; padding:0; font-size:12px; font-weight:700; line-height:1; cursor:pointer; }}
+    .method-btn:hover {{ border-color:#9fb2d3; color:#1d2a41; }}
     .col-toggle {{ width:22px; height:22px; border:1px solid #ccd4e2; background:#fff; color:#2b3343; border-radius:7px; padding:0; font-size:14px; font-weight:700; line-height:1; cursor:pointer; }}
     .col-toggle:hover {{ border-color:#9fb2d3; color:#1d2a41; }}
     th.group-collapsed .col-head {{ justify-content:center; }}
@@ -1713,6 +1716,20 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
     .notes {{ margin-top:10px; background:#fff; border:1px solid var(--line); border-radius:10px; padding:10px 12px; font-size:12px; color:#4e5565; line-height:1.35; }}
     .clinic-col-head {{ width:220px; min-width:220px; position:sticky; left:52px; z-index:3; box-shadow:1px 0 0 #e9edf6; }}
     .metric-head-col {{ min-width:98px; font-size:9px; line-height:1.2; font-weight:600; }}
+    .method-modal {{ position:fixed; inset:0; display:none; z-index:2000; }}
+    .method-modal.is-open {{ display:block; }}
+    .method-modal-backdrop {{ position:absolute; inset:0; background:rgba(20,28,45,.45); }}
+    .method-modal-panel {{ position:relative; width:min(920px, calc(100vw - 24px)); max-height:calc(100vh - 24px); margin:12px auto; background:#fff; border:1px solid #dbe2ef; border-radius:12px; box-shadow:0 20px 50px rgba(18,27,45,.18); overflow:auto; }}
+    .method-modal-head {{ display:flex; justify-content:space-between; align-items:center; gap:12px; padding:12px 14px; border-bottom:1px solid #e7ecf5; position:sticky; top:0; background:#fff; }}
+    .method-modal-title {{ font-size:18px; font-weight:700; color:#2b3343; }}
+    .method-modal-close {{ width:28px; height:28px; border:1px solid #cfd7e6; background:#fff; color:#2a3346; border-radius:8px; font-size:18px; line-height:1; cursor:pointer; }}
+    .method-modal-close:hover {{ border-color:#9fb2d3; }}
+    .method-modal-body {{ padding:14px; font-size:13px; line-height:1.45; color:#2f3747; }}
+    .method-modal-body h4 {{ margin:12px 0 6px; font-size:14px; color:#1f2737; }}
+    .method-modal-body p {{ margin:0 0 8px; }}
+    .method-modal-body ul {{ margin:0 0 8px 16px; padding:0; }}
+    .method-modal-body li {{ margin:0 0 5px; }}
+    .method-template {{ display:none; }}
   </style>
 </head>
 <body>
@@ -1744,8 +1761,55 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
       Сворачивание работает на уровне блока: кнопка в заголовке `Блок 1/2/3` скрывает или показывает все метрики этого блока сразу для всех клиник.
     </div>
   </div>
+
+  <div class=\"method-template\" id=\"methodology-b1\">
+    <p>Методология для этого блока будет добавлена отдельно.</p>
+  </div>
+  <div class=\"method-template\" id=\"methodology-b2\">
+    <h4>Общие правила</h4>
+    <ul>
+      <li>Один агент = одна клиника = один прогон.</li>
+      <li>Проверка в браузере с рендерингом JS.</li>
+      <li>Результат строго бинарный: <b>ок</b> или <b>проблема</b>.</li>
+      <li>Если сигнал противоречивый, статус не ставим до ручного обсуждения.</li>
+    </ul>
+    <h4>1. Онлайн-запись со слотами</h4>
+    <p><b>ок:</b> есть рабочий выбор даты и времени (слоты). <b>проблема:</b> только форма/звонок без слотов.</p>
+    <h4>2. Сайт — цифровая визитка, не инструмент</h4>
+    <p><b>ок:</b> индексируемых страниц &gt;= 12 и страниц услуг &gt;= 5. <b>проблема:</b> любое условие не выполнено.</p>
+    <h4>3. Вы не знаете кто приходит на сайт и почему уходит</h4>
+    <p><b>ок:</b> есть Яндекс.Метрика и признаки целей/событий. <b>проблема:</b> Метрики нет или целей/событий нет.</p>
+    <h4>4. Ушедший пациент потерян навсегда — нет ремаркетинга</h4>
+    <p><b>ок:</b> найден хотя бы один пиксель ремаркетинга (VK/Meta/Google Ads). <b>проблема:</b> не найдено.</p>
+    <h4>5. Скорость сайта на мобильном</h4>
+    <p><b>ок:</b> LCP &lt;= 3.0s и/или PageSpeed score &gt;= 70. <b>проблема:</b> LCP &gt; 3.0s или score &lt; 70.</p>
+    <h4>6. Пациент не может написать в нерабочее время</h4>
+    <p><b>ок:</b> есть WhatsApp/Telegram/Max/онлайн-чат и он открывается. <b>проблема:</b> рабочего канала нет.</p>
+    <h4>7. Нет возможности задать вопрос анонимно</h4>
+    <p><b>ок:</b> есть форма вопроса без обязательного телефона или чат без требования номера. <b>проблема:</b> таких каналов нет.</p>
+  </div>
+  <div class=\"method-template\" id=\"methodology-b4\">
+    <p>Методология для этого блока будет добавлена отдельно.</p>
+  </div>
+
+  <div class=\"method-modal\" id=\"methodology-modal\" aria-hidden=\"true\">
+    <div class=\"method-modal-backdrop\" data-methodology-close=\"1\"></div>
+    <div class=\"method-modal-panel\" role=\"dialog\" aria-modal=\"true\" aria-labelledby=\"methodology-modal-title\">
+      <div class=\"method-modal-head\">
+        <div class=\"method-modal-title\" id=\"methodology-modal-title\">Методология</div>
+        <button class=\"method-modal-close\" type=\"button\" data-methodology-close=\"1\" aria-label=\"Закрыть\">×</button>
+      </div>
+      <div class=\"method-modal-body\" id=\"methodology-modal-body\"></div>
+    </div>
+  </div>
+
   <script>
     const BLOCK_COL_COUNTS = {block_col_counts_json};
+    const BLOCK_TITLES = {{
+      b1: 'Блок 1',
+      b2: 'Блок 2',
+      b4: 'Блок 3',
+    }};
 
     function setBlockCollapsed(blockId, collapsed) {{
       document.querySelectorAll('.' + blockId).forEach(function(el) {{
@@ -1776,6 +1840,47 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
         const collapsed = sample ? sample.classList.contains('is-hidden-col') : false;
         setBlockCollapsed(blockId, !collapsed);
       }});
+    }});
+
+    const methodModal = document.getElementById('methodology-modal');
+    const methodModalTitle = document.getElementById('methodology-modal-title');
+    const methodModalBody = document.getElementById('methodology-modal-body');
+
+    function openMethodology(blockId) {{
+      if (!methodModal || !methodModalTitle || !methodModalBody) return;
+      const tpl = document.getElementById('methodology-' + blockId);
+      const title = BLOCK_TITLES[blockId] || 'Блок';
+      methodModalTitle.textContent = title + ' — методология проверки';
+      methodModalBody.innerHTML = tpl ? tpl.innerHTML : '<p>Методология пока не добавлена.</p>';
+      methodModal.classList.add('is-open');
+      methodModal.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+    }}
+
+    function closeMethodology() {{
+      if (!methodModal) return;
+      methodModal.classList.remove('is-open');
+      methodModal.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+    }}
+
+    document.querySelectorAll('[data-methodology-open]').forEach(function(btn) {{
+      btn.addEventListener('click', function(e) {{
+        e.stopPropagation();
+        const blockId = btn.dataset.methodologyOpen;
+        if (!blockId) return;
+        openMethodology(blockId);
+      }});
+    }});
+
+    document.querySelectorAll('[data-methodology-close]').forEach(function(el) {{
+      el.addEventListener('click', function() {{
+        closeMethodology();
+      }});
+    }});
+
+    document.addEventListener('keydown', function(e) {{
+      if (e.key === 'Escape') closeMethodology();
     }});
 
     document.querySelectorAll('tr.clickable').forEach(function(row){{
