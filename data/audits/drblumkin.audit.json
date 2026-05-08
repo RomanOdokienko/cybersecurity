@@ -48,7 +48,7 @@
       "checked": false,
       "has_policy_text": true,
       "checkbox_poc": "<input type=\"checkbox\" name=\"accept-policy\" required=\"\">",
-      "policy_poc": "m__checkbox-text\">РЇ РїСЂРёРЅРёРјР°СЋ СѓСЃР»РѕРІРёСЏ <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >РїРѕР»РёС‚РёРєРё РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё</a></span> </label> </div> </form>",
+      "policy_poc": "m__checkbox-text\">Я принимаю условия <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >политики конфиденциальности</a></span> </label> </div> </form>",
       "has_phone_field": true,
       "has_name_field": false,
       "has_textarea": false,
@@ -63,7 +63,7 @@
       "checked": false,
       "has_policy_text": true,
       "checkbox_poc": "<input type=\"checkbox\" name=\"accept-policy\" required=\"\">",
-      "policy_poc": "m__checkbox-text\">РЇ РїСЂРёРЅРёРјР°СЋ СѓСЃР»РѕРІРёСЏ <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >РїРѕР»РёС‚РёРєРё РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё</a></span> </label> </div> </form>",
+      "policy_poc": "m__checkbox-text\">Я принимаю условия <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >политики конфиденциальности</a></span> </label> </div> </form>",
       "has_phone_field": true,
       "has_name_field": false,
       "has_textarea": false,
@@ -78,7 +78,7 @@
       "checked": false,
       "has_policy_text": true,
       "checkbox_poc": "<input type=\"checkbox\" name=\"accept-policy\" required=\"\">",
-      "policy_poc": "m__checkbox-text\">РЇ РїСЂРёРЅРёРјР°СЋ СѓСЃР»РѕРІРёСЏ <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >РїРѕР»РёС‚РёРєРё РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё</a></span> </label> </div> </form>",
+      "policy_poc": "m__checkbox-text\">Я принимаю условия <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >политики конфиденциальности</a></span> </label> </div> </form>",
       "has_phone_field": true,
       "has_name_field": false,
       "has_textarea": false,
@@ -93,7 +93,7 @@
       "checked": false,
       "has_policy_text": true,
       "checkbox_poc": "<input type=\"checkbox\" name=\"accept-policy\" required=\"\">",
-      "policy_poc": "m__checkbox-text\">РЇ РїСЂРёРЅРёРјР°СЋ СѓСЃР»РѕРІРёСЏ <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >РїРѕР»РёС‚РёРєРё РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё</a></span> </label> </div> </form>",
+      "policy_poc": "m__checkbox-text\">Я принимаю условия <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >политики конфиденциальности</a></span> </label> </div> </form>",
       "has_phone_field": true,
       "has_name_field": false,
       "has_textarea": false,
@@ -108,7 +108,7 @@
       "checked": false,
       "has_policy_text": true,
       "checkbox_poc": "<input type=\"checkbox\" name=\"accept-policy\" required=\"\">",
-      "policy_poc": "m__checkbox-text\">РЇ РїСЂРёРЅРёРјР°СЋ СѓСЃР»РѕРІРёСЏ <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >РїРѕР»РёС‚РёРєРё РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё</a></span> </label> </div> </form>",
+      "policy_poc": "m__checkbox-text\">Я принимаю условия <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >политики конфиденциальности</a></span> </label> </div> </form>",
       "has_phone_field": true,
       "has_name_field": false,
       "has_textarea": false,
@@ -123,7 +123,7 @@
       "checked": false,
       "has_policy_text": true,
       "checkbox_poc": "<input type=\"checkbox\" name=\"accept-policy\" required=\"\">",
-      "policy_poc": "m__checkbox-text\">РЇ РїСЂРёРЅРёРјР°СЋ СѓСЃР»РѕРІРёСЏ <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >РїРѕР»РёС‚РёРєРё РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё</a></span> </label> </div> </form>",
+      "policy_poc": "m__checkbox-text\">Я принимаю условия <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >политики конфиденциальности</a></span> </label> </div> </form>",
       "has_phone_field": true,
       "has_name_field": false,
       "has_textarea": false,
@@ -138,7 +138,7 @@
       "checked": false,
       "has_policy_text": true,
       "checkbox_poc": "<input type=\"checkbox\" name=\"accept-policy\" required=\"\">",
-      "policy_poc": "m__checkbox-text\">РЇ РїСЂРёРЅРёРјР°СЋ СѓСЃР»РѕРІРёСЏ <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >РїРѕР»РёС‚РёРєРё РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё</a></span> </label> </div> </form>",
+      "policy_poc": "m__checkbox-text\">Я принимаю условия <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >политики конфиденциальности</a></span> </label> </div> </form>",
       "has_phone_field": true,
       "has_name_field": false,
       "has_textarea": false,
@@ -153,7 +153,7 @@
       "checked": false,
       "has_policy_text": true,
       "checkbox_poc": "<input type=\"checkbox\" name=\"accept-policy\" required=\"\">",
-      "policy_poc": "m__checkbox-text\">РЇ РїСЂРёРЅРёРјР°СЋ СѓСЃР»РѕРІРёСЏ <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >РїРѕР»РёС‚РёРєРё РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё</a></span> </label> </div> </form>",
+      "policy_poc": "m__checkbox-text\">Я принимаю условия <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >политики конфиденциальности</a></span> </label> </div> </form>",
       "has_phone_field": true,
       "has_name_field": false,
       "has_textarea": false,
@@ -168,7 +168,7 @@
       "checked": false,
       "has_policy_text": true,
       "checkbox_poc": "<input type=\"checkbox\" name=\"accept-policy\" required=\"\">",
-      "policy_poc": "m__checkbox-text\">РЇ РїСЂРёРЅРёРјР°СЋ СѓСЃР»РѕРІРёСЏ <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >РїРѕР»РёС‚РёРєРё РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё</a></span> </label> </div> </form>",
+      "policy_poc": "m__checkbox-text\">Я принимаю условия <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >политики конфиденциальности</a></span> </label> </div> </form>",
       "has_phone_field": true,
       "has_name_field": false,
       "has_textarea": false,
@@ -183,7 +183,7 @@
       "checked": false,
       "has_policy_text": true,
       "checkbox_poc": "<input type=\"checkbox\" name=\"accept-policy\" required=\"\">",
-      "policy_poc": "m__checkbox-text\">РЇ РїСЂРёРЅРёРјР°СЋ СѓСЃР»РѕРІРёСЏ <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >РїРѕР»РёС‚РёРєРё РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё</a></span> </label> </div> </form>",
+      "policy_poc": "m__checkbox-text\">Я принимаю условия <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >политики конфиденциальности</a></span> </label> </div> </form>",
       "has_phone_field": true,
       "has_name_field": false,
       "has_textarea": false,
@@ -198,7 +198,7 @@
       "checked": false,
       "has_policy_text": true,
       "checkbox_poc": "<input type=\"checkbox\" name=\"accept-policy\" required=\"\">",
-      "policy_poc": "m__checkbox-text\">РЇ РїСЂРёРЅРёРјР°СЋ СѓСЃР»РѕРІРёСЏ <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >РїРѕР»РёС‚РёРєРё РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё</a></span> </label> </div> </form>",
+      "policy_poc": "m__checkbox-text\">Я принимаю условия <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >политики конфиденциальности</a></span> </label> </div> </form>",
       "has_phone_field": true,
       "has_name_field": false,
       "has_textarea": false,
@@ -213,7 +213,7 @@
       "checked": false,
       "has_policy_text": true,
       "checkbox_poc": "<input type=\"checkbox\" name=\"accept-policy\" required=\"\">",
-      "policy_poc": "m__checkbox-text\">РЇ РїСЂРёРЅРёРјР°СЋ СѓСЃР»РѕРІРёСЏ <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >РїРѕР»РёС‚РёРєРё РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё</a></span> </label> </div> </form>",
+      "policy_poc": "m__checkbox-text\">Я принимаю условия <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >политики конфиденциальности</a></span> </label> </div> </form>",
       "has_phone_field": true,
       "has_name_field": false,
       "has_textarea": false,
@@ -228,7 +228,7 @@
       "checked": false,
       "has_policy_text": true,
       "checkbox_poc": "<input type=\"checkbox\" name=\"accept-policy\" required=\"\">",
-      "policy_poc": "m__checkbox-text\">РЇ РїСЂРёРЅРёРјР°СЋ СѓСЃР»РѕРІРёСЏ <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >РїРѕР»РёС‚РёРєРё РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё</a></span> </label> </div> </form>",
+      "policy_poc": "m__checkbox-text\">Я принимаю условия <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >политики конфиденциальности</a></span> </label> </div> </form>",
       "has_phone_field": true,
       "has_name_field": false,
       "has_textarea": false,
@@ -243,7 +243,7 @@
       "checked": false,
       "has_policy_text": true,
       "checkbox_poc": "<input type=\"checkbox\" name=\"accept-policy\" required=\"\">",
-      "policy_poc": "m__checkbox-text\">РЇ РїСЂРёРЅРёРјР°СЋ СѓСЃР»РѕРІРёСЏ <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >РїРѕР»РёС‚РёРєРё РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё</a></span> </label> </div> </form>",
+      "policy_poc": "m__checkbox-text\">Я принимаю условия <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >политики конфиденциальности</a></span> </label> </div> </form>",
       "has_phone_field": true,
       "has_name_field": false,
       "has_textarea": false,
@@ -258,7 +258,7 @@
       "checked": false,
       "has_policy_text": true,
       "checkbox_poc": "<input type=\"checkbox\" name=\"accept-policy\" required=\"\">",
-      "policy_poc": "m__checkbox-text\">РЇ РїСЂРёРЅРёРјР°СЋ СѓСЃР»РѕРІРёСЏ <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >РїРѕР»РёС‚РёРєРё РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё</a></span> </label> </div> </form>",
+      "policy_poc": "m__checkbox-text\">Я принимаю условия <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >политики конфиденциальности</a></span> </label> </div> </form>",
       "has_phone_field": true,
       "has_name_field": false,
       "has_textarea": false,
@@ -273,7 +273,7 @@
       "checked": false,
       "has_policy_text": true,
       "checkbox_poc": "<input type=\"checkbox\" name=\"accept-policy\" required=\"\">",
-      "policy_poc": "m__checkbox-text\">РЇ РїСЂРёРЅРёРјР°СЋ СѓСЃР»РѕРІРёСЏ <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >РїРѕР»РёС‚РёРєРё РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё</a></span> </label> </div> </form>",
+      "policy_poc": "m__checkbox-text\">Я принимаю условия <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >политики конфиденциальности</a></span> </label> </div> </form>",
       "has_phone_field": true,
       "has_name_field": false,
       "has_textarea": false,
@@ -288,7 +288,7 @@
       "checked": false,
       "has_policy_text": true,
       "checkbox_poc": "<input type=\"checkbox\" name=\"accept-policy\" required=\"\">",
-      "policy_poc": "m__checkbox-text\">РЇ РїСЂРёРЅРёРјР°СЋ СѓСЃР»РѕРІРёСЏ <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >РїРѕР»РёС‚РёРєРё РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё</a></span> </label> </div> </form>",
+      "policy_poc": "m__checkbox-text\">Я принимаю условия <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >политики конфиденциальности</a></span> </label> </div> </form>",
       "has_phone_field": true,
       "has_name_field": false,
       "has_textarea": false,
@@ -303,7 +303,7 @@
       "checked": false,
       "has_policy_text": true,
       "checkbox_poc": "<input type=\"checkbox\" name=\"accept-policy\" required=\"\">",
-      "policy_poc": "m__checkbox-text\">РЇ РїСЂРёРЅРёРјР°СЋ СѓСЃР»РѕРІРёСЏ <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >РїРѕР»РёС‚РёРєРё РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё</a></span> </label> </div> </form>",
+      "policy_poc": "m__checkbox-text\">Я принимаю условия <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >политики конфиденциальности</a></span> </label> </div> </form>",
       "has_phone_field": true,
       "has_name_field": false,
       "has_textarea": false,
@@ -318,7 +318,7 @@
       "checked": false,
       "has_policy_text": true,
       "checkbox_poc": "<input type=\"checkbox\" name=\"accept-policy\" required=\"\">",
-      "policy_poc": "m__checkbox-text\">РЇ РїСЂРёРЅРёРјР°СЋ СѓСЃР»РѕРІРёСЏ <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >РїРѕР»РёС‚РёРєРё РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё</a></span> </label> </div> </form>",
+      "policy_poc": "m__checkbox-text\">Я принимаю условия <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >политики конфиденциальности</a></span> </label> </div> </form>",
       "has_phone_field": true,
       "has_name_field": false,
       "has_textarea": false,
@@ -333,7 +333,7 @@
       "checked": false,
       "has_policy_text": true,
       "checkbox_poc": "<input type=\"checkbox\" name=\"accept-policy\" required=\"\">",
-      "policy_poc": "m__checkbox-text\">РЇ РїСЂРёРЅРёРјР°СЋ СѓСЃР»РѕРІРёСЏ <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >РїРѕР»РёС‚РёРєРё РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё</a></span> </label> </div> </form>",
+      "policy_poc": "m__checkbox-text\">Я принимаю условия <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >политики конфиденциальности</a></span> </label> </div> </form>",
       "has_phone_field": true,
       "has_name_field": false,
       "has_textarea": false,
@@ -348,7 +348,7 @@
       "checked": false,
       "has_policy_text": true,
       "checkbox_poc": "<input type=\"checkbox\" name=\"accept-policy\" required=\"\">",
-      "policy_poc": "m__checkbox-text\">РЇ РїСЂРёРЅРёРјР°СЋ СѓСЃР»РѕРІРёСЏ <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >РїРѕР»РёС‚РёРєРё РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё</a></span> </label> </div> </form>",
+      "policy_poc": "m__checkbox-text\">Я принимаю условия <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >политики конфиденциальности</a></span> </label> </div> </form>",
       "has_phone_field": true,
       "has_name_field": false,
       "has_textarea": false,
@@ -363,7 +363,7 @@
       "checked": false,
       "has_policy_text": true,
       "checkbox_poc": "<input type=\"checkbox\" name=\"accept-policy\" required=\"\">",
-      "policy_poc": "m__checkbox-text\">РЇ РїСЂРёРЅРёРјР°СЋ СѓСЃР»РѕРІРёСЏ <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >РїРѕР»РёС‚РёРєРё РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё</a></span> </label> </div> </form>",
+      "policy_poc": "m__checkbox-text\">Я принимаю условия <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >политики конфиденциальности</a></span> </label> </div> </form>",
       "has_phone_field": true,
       "has_name_field": false,
       "has_textarea": false,
@@ -378,7 +378,7 @@
       "checked": false,
       "has_policy_text": true,
       "checkbox_poc": "<input type=\"checkbox\" name=\"accept-policy\" required=\"\">",
-      "policy_poc": "m__checkbox-text\">РЇ РїСЂРёРЅРёРјР°СЋ СѓСЃР»РѕРІРёСЏ <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >РїРѕР»РёС‚РёРєРё РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё</a></span> </label> </div> </form>",
+      "policy_poc": "m__checkbox-text\">Я принимаю условия <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >политики конфиденциальности</a></span> </label> </div> </form>",
       "has_phone_field": true,
       "has_name_field": false,
       "has_textarea": false,
@@ -393,7 +393,7 @@
       "checked": false,
       "has_policy_text": true,
       "checkbox_poc": "<input type=\"checkbox\" name=\"accept-policy\" required=\"\">",
-      "policy_poc": "m__checkbox-text\">РЇ РїСЂРёРЅРёРјР°СЋ СѓСЃР»РѕРІРёСЏ <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >РїРѕР»РёС‚РёРєРё РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё</a></span> </label> </div> </form>",
+      "policy_poc": "m__checkbox-text\">Я принимаю условия <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >политики конфиденциальности</a></span> </label> </div> </form>",
       "has_phone_field": true,
       "has_name_field": false,
       "has_textarea": false,
@@ -401,7 +401,6 @@
     }
   ],
   "emails": [
-    "e@h.hMh",
     "stomatprofi@mail.ru"
   ],
   "privacy_links": [],
@@ -413,7 +412,7 @@
       "protocol": "TLSv1.3",
       "issuer_cn": "R13",
       "not_after": "Jun  9 06:55:43 2026 GMT",
-      "days_left": 33,
+      "days_left": 31,
       "error": null
     },
     "http_to_https": {
@@ -440,16 +439,16 @@
       "canonical_host": "drblumkin.ru"
     },
     "ttfb": {
-      "seconds": 0.866,
+      "seconds": 3.405,
       "source_url": "https://drblumkin.ru/",
       "status": 200,
       "error": null
     },
     "pagespeed": {
       "status": "ok",
-      "score": 60,
-      "lcp_seconds": 2.027,
-      "tool": "C:\\Program Files\\nodejs\\npx.CMD --yes lighthouse",
+      "score": 66,
+      "lcp_seconds": 1.598,
+      "tool": "pagespeed_api",
       "error": null
     },
     "analytics": {
@@ -463,6 +462,7 @@
     "engagement": {
       "whatsapp": true,
       "telegram": true,
+      "max_messenger": false,
       "chat_widget": false,
       "slot_booking_widget": false
     },
@@ -485,12 +485,14 @@
     },
     "med_trust": {
       "contact_page_exists": true,
+      "contact_block_found": true,
       "contact_pages": [
         "https://drblumkin.ru/kontakty/"
       ],
       "price_public_found": false,
       "price_pages": [],
       "doctors_page_exists": true,
+      "doctors_content_found": true,
       "doctor_pages": [
         "https://drblumkin.ru/wp-content/uploads/2023/02/prodoctorov1.webp",
         "https://drblumkin.ru/wp-content/uploads/2023/02/prodoctorov2.webp",
@@ -511,9 +513,261 @@
         ]
       },
       "footer_year": {
-        "present": null,
+        "present": true,
         "year": null,
         "current_year": null
+      },
+      "text_typos": {
+        "checked_pages": [
+          "https://drblumkin.ru/",
+          "https://drblumkin.ru/kontakty/",
+          "https://drblumkin.ru/wp-content/uploads/2023/02/prodoctorov1.webp",
+          "https://drblumkin.ru/wp-content/uploads/2023/02/prodoctorov2.webp",
+          "https://drblumkin.ru/wp-content/uploads/2023/02/prodoctorov3.webp"
+        ],
+        "error_count": 40,
+        "samples": [
+          {
+            "page": "https://drblumkin.ru/",
+            "type": "space_before_punct",
+            "match": " :",
+            "snippet": "нирование зуба Посмотреть цены До 13 мая : Консультация нескольких специалистов по"
+          },
+          {
+            "page": "https://drblumkin.ru/",
+            "type": "space_before_punct",
+            "match": " :",
+            "snippet": " отзывов и результатов лечения До 13 мая : Консультация нескольких специалистов по"
+          },
+          {
+            "page": "https://drblumkin.ru/",
+            "type": "space_before_punct",
+            "match": " ,",
+            "snippet": "уясь сайтом, вы принимаете политику куки , в том числе сервисы аналитики Яндекс.Ме"
+          },
+          {
+            "page": "https://drblumkin.ru/",
+            "type": "space_before_punct",
+            "match": " .",
+            "snippet": "одход к лечению апикального периодонтита .Закрытие широких апикальных отверстий Ле"
+          },
+          {
+            "page": "https://drblumkin.ru/",
+            "type": "space_before_punct",
+            "match": " .",
+            "snippet": "и злокачественных опухолей. Елчиев Вугар . Терапевт Стоматолог-терапевт, эндодонти"
+          },
+          {
+            "page": "https://drblumkin.ru/",
+            "type": "space_before_punct",
+            "match": " :",
+            "snippet": "чистку Air Flow исчезнет через: 19 минут : 25 секунд --> Я принимаю условия полити"
+          },
+          {
+            "page": "https://drblumkin.ru/",
+            "type": "space_before_punct",
+            "match": " :",
+            "snippet": "на лечения бесплатно Бесплатно до 13 мая : Компьютерная томография + фотопротокол "
+          },
+          {
+            "page": "https://drblumkin.ru/",
+            "type": "space_before_punct",
+            "match": " :",
+            "snippet": "олитики конфиденциальности --> До 13 мая : Консультация нескольких специалистов по"
+          },
+          {
+            "page": "https://drblumkin.ru/",
+            "type": "missing_space_after_punct",
+            "match": ".А",
+            "snippet": "инической практике ортодонта» 3D smile Р.А. Фадеев 22-24 марта 2019 г. — «Современ"
+          },
+          {
+            "page": "https://drblumkin.ru/",
+            "type": "missing_space_after_punct",
+            "match": ".Р",
+            "snippet": "тического лечения. Основы диагностики» И.Р. Нуртдинов ORTHOART 12 апреля 2019 г. —"
+          },
+          {
+            "page": "https://drblumkin.ru/",
+            "type": "missing_space_after_punct",
+            "match": ",F",
+            "snippet": "ухчелюстной аппарат. Элайнеры(INVISALIGN,Flexi Lingner,3D Smale)). Несъемная аппар"
+          },
+          {
+            "page": "https://drblumkin.ru/",
+            "type": "missing_space_after_punct",
+            "match": ",а",
+            "snippet": "ет-система(лигатурные, самолигирующиеся),аппарат Норда,Pendulum,Квадхеликс. Лечени"
+          },
+          {
+            "page": "https://drblumkin.ru/",
+            "type": "missing_space_after_punct",
+            "match": ",P",
+            "snippet": "атурные, самолигирующиеся),аппарат Норда,Pendulum,Квадхеликс. Лечение аномалий раз"
+          },
+          {
+            "page": "https://drblumkin.ru/",
+            "type": "missing_space_after_punct",
+            "match": ",К",
+            "snippet": "самолигирующиеся),аппарат Норда,Pendulum,Квадхеликс. Лечение аномалий развития чел"
+          },
+          {
+            "page": "https://drblumkin.ru/",
+            "type": "missing_space_after_punct",
+            "match": ",п",
+            "snippet": "да«Профессиональное общество ортодонтов»,приняла участие в работе XV Съезда ортодо"
+          },
+          {
+            "page": "https://drblumkin.ru/",
+            "type": "missing_space_after_punct",
+            "match": ",п",
+            "snippet": "да«Профессиональное общество ортодонтов»,приняла участие в работе XVIII Съезда орт"
+          },
+          {
+            "page": "https://drblumkin.ru/",
+            "type": "missing_space_after_punct",
+            "match": ".С",
+            "snippet": "ЛЭБ» (голландии) в МГСМУ (проф. Персии Л.С.); · 1986г. – Факультет Усовершенствова"
+          },
+          {
+            "page": "https://drblumkin.ru/",
+            "type": "missing_space_after_punct",
+            "match": ".Я",
+            "snippet": "ей и взрослых» (рук. Проф. Хорошилкина Ф.Я.); · 1995-1996г. стажировалась и работа"
+          },
+          {
+            "page": "https://drblumkin.ru/",
+            "type": "comma_glue",
+            "match": "N,F",
+            "snippet": "вухчелюстной аппарат. Элайнеры(INVISALIGN,Flexi Lingner,3D Smale)). Несъемная аппар"
+          },
+          {
+            "page": "https://drblumkin.ru/",
+            "type": "comma_glue",
+            "match": "а,P",
+            "snippet": "гатурные, самолигирующиеся),аппарат Норда,Pendulum,Квадхеликс. Лечение аномалий раз"
+          },
+          {
+            "page": "https://drblumkin.ru/",
+            "type": "comma_glue",
+            "match": "m,К",
+            "snippet": " самолигирующиеся),аппарат Норда,Pendulum,Квадхеликс. Лечение аномалий развития чел"
+          },
+          {
+            "page": "https://drblumkin.ru/",
+            "type": "comma_glue",
+            "match": "х,п",
+            "snippet": "ия, аномалии формы и размера зубов, вывих,перелом, абсцесс зуба, абсцесс полости рт"
+          },
+          {
+            "page": "https://drblumkin.ru/",
+            "type": "dot_glue",
+            "match": "с.М",
+            "snippet": "ки , в том числе сервисы аналитики Яндекс.Метрика и Calltouch Принять все Контакты:"
+          },
+          {
+            "page": "https://drblumkin.ru/",
+            "type": "dot_glue",
+            "match": "Р.А",
+            "snippet": "линической практике ортодонта» 3D smile Р.А. Фадеев 22-24 марта 2019 г. — «Современ"
+          },
+          {
+            "page": "https://drblumkin.ru/",
+            "type": "dot_glue",
+            "match": "И.Р",
+            "snippet": "нтического лечения. Основы диагностики» И.Р. Нуртдинов ORTHOART 12 апреля 2019 г. —"
+          },
+          {
+            "page": "https://drblumkin.ru/",
+            "type": "dot_glue",
+            "match": "Л.С",
+            "snippet": "ОЛЭБ» (голландии) в МГСМУ (проф. Персии Л.С.); · 1986г. – Факультет Усовершенствова"
+          },
+          {
+            "page": "https://drblumkin.ru/",
+            "type": "dot_glue",
+            "match": "Ф.Я",
+            "snippet": "тей и взрослых» (рук. Проф. Хорошилкина Ф.Я.); · 1995-1996г. стажировалась и работа"
+          },
+          {
+            "page": "https://drblumkin.ru/",
+            "type": "dot_glue",
+            "match": "р.М",
+            "snippet": "эстетической стоматологии и эндодонтии др.Марно Мартинвони (Президента Ассоциации э"
+          },
+          {
+            "page": "https://drblumkin.ru/",
+            "type": "dot_glue",
+            "match": "А.В",
+            "snippet": "ких апикальных отверстий Лектор Болячин А.В. 2017 г. Дентальная фотография Молчанов"
+          },
+          {
+            "page": "https://drblumkin.ru/",
+            "type": "dot_glue",
+            "match": "А.В",
+            "snippet": "а приеме с эндодонтистом Лектор Болячин А.В. 2017 г. Семинар \"Сложная анатомия корн"
+          },
+          {
+            "page": "https://drblumkin.ru/kontakty/",
+            "type": "comma_glue",
+            "match": "N,F",
+            "snippet": "вухчелюстной аппарат. Элайнеры(INVISALIGN,Flexi Lingner,3D Smale)). Несъемная аппар"
+          },
+          {
+            "page": "https://drblumkin.ru/kontakty/",
+            "type": "comma_glue",
+            "match": "а,P",
+            "snippet": "гатурные, самолигирующиеся),аппарат Норда,Pendulum,Квадхеликс. Лечение аномалий раз"
+          },
+          {
+            "page": "https://drblumkin.ru/kontakty/",
+            "type": "comma_glue",
+            "match": "m,К",
+            "snippet": " самолигирующиеся),аппарат Норда,Pendulum,Квадхеликс. Лечение аномалий развития чел"
+          },
+          {
+            "page": "https://drblumkin.ru/kontakty/",
+            "type": "comma_glue",
+            "match": "х,п",
+            "snippet": "ия, аномалии формы и размера зубов, вывих,перелом, абсцесс зуба, абсцесс полости рт"
+          },
+          {
+            "page": "https://drblumkin.ru/wp-content/uploads/2023/02/prodoctorov1.webp",
+            "type": "missing_space_after_number_dot",
+            "match": "6.Y",
+            "snippet": "{\u000e┘iЁ\u0006П▌vl w\b1ЪЙ}сoJЕй2]V}\b⌡╔нqпШр⌠gБчd'6.Y@ЙЮм╫\u0011_mR┘АР\u00181Г⌠÷v╟▓2K▒╞╟н#%┤ б▐ ┬\\ьy╚Ы\u0013"
+          },
+          {
+            "page": "https://drblumkin.ru/wp-content/uploads/2023/02/prodoctorov1.webp",
+            "type": "missing_space_after_number_dot",
+            "match": "9.A",
+            "snippet": "fZ°D\u00055wЧ >⌡\\\u0000В\u0003╟Уxб÷\u0004т≥lPЙ░\u0019cИиуЫTЦ)Рэ╙Щ9.AЙV\u0003│ Пf─jяjD\u0004]QqQиF\u0007wг= щюжzL╪^ ф\u0001О bj├j"
+          },
+          {
+            "page": "https://drblumkin.ru/wp-content/uploads/2023/02/prodoctorov1.webp",
+            "type": "missing_space_after_number_dot",
+            "match": "2.X",
+            "snippet": "J═не/A├oчPYж≥╞&YW░ьК;▐Р°│\u0017x]mн8 ▓ a⌠╪\u0018╩\u000e2.Xтfр╛3⌡╧y&m\u0007╙╢-÷≥▐G╗iэС╛ЯdoиВ▄e\u0010С OHъЫ╡ \u0015"
+          },
+          {
+            "page": "https://drblumkin.ru/wp-content/uploads/2023/02/prodoctorov1.webp",
+            "type": "missing_space_after_number_dot",
+            "match": "7.К",
+            "snippet": "8cЧR8нЖh═г9`#▒ Аi╫ ?-\bx Э┌еЗvf║.ЧЮP╪≈▐H 7.К\u001bBЗУ╥M╔9 /Po \u0016╒\u0017r\u0011UЬOtё+·╨\u0000)~╩gSмЙCДй≤"
+          },
+          {
+            "page": "https://drblumkin.ru/wp-content/uploads/2023/02/prodoctorov2.webp",
+            "type": "missing_space_after_number_dot",
+            "match": "8.Q",
+            "snippet": "5;б\u0017v ╙&в╗\u0011вb1]4Ш╚rЪй▐:²gKT█╕\u0010┐Ъ#x╓nV╫П\u00058.Q│Ь!oM\u000ee│w©v;\u0006╒%i-b\u0012\u00006л║²Аu IeТ\u0015\bф └ыt═ЬТ"
+          },
+          {
+            "page": "https://drblumkin.ru/wp-content/uploads/2023/02/prodoctorov3.webp",
+            "type": "missing_space_after_number_dot",
+            "match": "7.q",
+            "snippet": ".⌠\u001aФ5D≤`\u0013\u0015иГj]c┤эAе├ч\u0006▄┤ 2$I┼\"G≈H{╡\u0010\u0019≈\u0010╥7.qЯ оОъЩЕкF╜ B┬┬sИ\\█5ь·Z\u0006\u000f}\u00155╩Ч\bxK'╘V╛зf Б"
+          }
+        ]
       }
     },
     "mixed_content": {
@@ -558,10 +812,10 @@
           "final_url": "https://drblumkin.ru/wp-content/themes/blumkin/img/foto-2 (2).png"
         },
         {
-          "url": "https://drblumkin.ru/wp-content/uploads/2023/02/prodoc2-вЂ”-kopiya.webp",
+          "url": "https://drblumkin.ru/wp-content/uploads/2023/02/prodoc2-—-kopiya.webp",
           "status": null,
           "error": "'ascii' codec can't encode character '\\u2014' in position 40: ordinal not in range(128)",
-          "final_url": "https://drblumkin.ru/wp-content/uploads/2023/02/prodoc2-вЂ”-kopiya.webp"
+          "final_url": "https://drblumkin.ru/wp-content/uploads/2023/02/prodoc2-—-kopiya.webp"
         },
         {
           "url": "https://drblumkin.ru/wp-content/themes/blumkin/img/quiz_1-1.jpg",
@@ -657,8 +911,8 @@
     "sitemap_used_urls": 1
   },
   "verification": {
-    "b2": false,
+    "b2": true,
     "b3": true,
-    "b4": false
+    "b4": true
   }
 }

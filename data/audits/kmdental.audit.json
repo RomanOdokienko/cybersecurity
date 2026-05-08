@@ -68,6 +68,12 @@
       "error": null
     },
     {
+      "requested": "https://kmdental.ru/doctors/bindukova",
+      "status": 200,
+      "final_url": "https://kmdental.ru/doctors/bindukova",
+      "error": null
+    },
+    {
       "requested": "https://kmdental.ru/doctors/bugunov",
       "status": 200,
       "final_url": "https://kmdental.ru/doctors/bugunov",
@@ -481,6 +487,21 @@
       "phone_required": true
     },
     {
+      "page": "https://kmdental.ru/doctors/bindukova",
+      "form_id": "form856126949",
+      "action_display": "action=''",
+      "open_tag": "<form id=\"form856126949\" name='form856126949' role=\"form\" action='' method='POST' data-formactiontype=\"2\" data-inputbox=\".t-input-group\" class=\"t-form js-form-proccess t-form_inputs-total_2 \" data-success-callback=\"t702_onSuccess\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null,
+      "has_phone_field": true,
+      "has_name_field": true,
+      "has_textarea": false,
+      "phone_required": true
+    },
+    {
       "page": "https://kmdental.ru/doctors/bugunov",
       "form_id": "form856126949",
       "action_display": "action=''",
@@ -743,7 +764,7 @@
       "has_checkbox": true,
       "checked": false,
       "has_policy_text": false,
-      "checkbox_poc": "<input type=\"checkbox\" value=\"Р—СѓР± СЂРµР°РіРёСЂСѓРµС‚ РЅР° СЃР»Р°РґРєРѕРµ, С…РѕР»РѕРґРЅРѕРµ\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Зуб реагирует на сладкое, холодное\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
       "policy_poc": null,
       "has_phone_field": true,
       "has_name_field": true,
@@ -758,7 +779,7 @@
       "has_checkbox": true,
       "checked": false,
       "has_policy_text": false,
-      "checkbox_poc": "<input type=\"checkbox\" value=\"Р‘С‹Р»(Р°) РЅР° РєРѕРЅСЃСѓР»СЊС‚Р°С†РёРё, СЂРµРєРѕРјРµРЅРґРѕРІР°Р»Рё СѓРґР°Р»РёС‚СЊ Р·СѓР±\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Был(а) на консультации, рекомендовали удалить зуб\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
       "policy_poc": null,
       "has_phone_field": true,
       "has_name_field": true,
@@ -773,7 +794,7 @@
       "has_checkbox": true,
       "checked": false,
       "has_policy_text": false,
-      "checkbox_poc": "<input type=\"checkbox\" value=\"Р‘С‹Р»(Р°) РЅР° РєРѕРЅСЃСѓР»СЊС‚Р°С†РёРё, СЂРµРєРѕРјРµРЅРґРѕРІР°Р»Рё СѓСЃС‚Р°РЅРѕРІРёС‚СЊ РёРјРїР»Р°РЅС‚\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Был(а) на консультации, рекомендовали установить имплант\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
       "policy_poc": null,
       "has_phone_field": true,
       "has_name_field": true,
@@ -788,7 +809,7 @@
       "has_checkbox": true,
       "checked": false,
       "has_policy_text": false,
-      "checkbox_poc": "<input type=\"checkbox\" value=\"Р‘С‹Р»(Р°) РЅР° РєРѕРЅСЃСѓР»СЊС‚Р°С†РёРё, СЂРµРєРѕРјРµРЅРґРѕРІР°Р»Рё СѓСЃС‚Р°РЅРѕРІРёС‚СЊ РєРѕСЂРѕРЅРєСѓ РёР»Рё РїСЂРѕС‚РµР·\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Был(а) на консультации, рекомендовали установить коронку или протез\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
       "policy_poc": null,
       "has_phone_field": true,
       "has_name_field": true,
@@ -803,7 +824,7 @@
       "has_checkbox": true,
       "checked": false,
       "has_policy_text": false,
-      "checkbox_poc": "<input type=\"checkbox\" value=\"Р‘С‹Р»(Р°) РЅР° РєРѕРЅСЃСѓР»СЊС‚Р°С†РёРё, СЂРµРєРѕРјРµРЅРґРѕРІР°Р»Рё СѓСЃС‚Р°РЅРѕРІРёС‚СЊ Р±СЂРµРєРµС‚С‹\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Был(а) на консультации, рекомендовали установить брекеты\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
       "policy_poc": null,
       "has_phone_field": true,
       "has_name_field": true,
@@ -818,7 +839,7 @@
       "has_checkbox": true,
       "checked": false,
       "has_policy_text": false,
-      "checkbox_poc": "<input type=\"checkbox\" value=\"РљСЂРѕРІРѕС‚РѕС‡Р°С‚ РґРµСЃРЅС‹ РїСЂРё С‡РёСЃС‚РєРµ Р·СѓР±РѕРІ\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Кровоточат десны при чистке зубов\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
       "policy_poc": null,
       "has_phone_field": true,
       "has_name_field": true,
@@ -833,7 +854,7 @@
       "has_checkbox": true,
       "checked": false,
       "has_policy_text": false,
-      "checkbox_poc": "<input type=\"checkbox\" value=\"- Р‘С‹Р»(Р°) РЅР° РєРѕРЅСЃСѓР»СЊС‚Р°С†РёРё, СЂРµРєРѕРјРµРЅРґРѕРІР°Р»Рё СЃРґРµР»Р°С‚СЊ РѕС‚Р±РµР»РёРІР°РЅРёРµ Zoom\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "checkbox_poc": "<input type=\"checkbox\" value=\"- Был(а) на консультации, рекомендовали сделать отбеливание Zoom\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
       "policy_poc": null,
       "has_phone_field": true,
       "has_name_field": true,
@@ -848,7 +869,7 @@
       "has_checkbox": true,
       "checked": false,
       "has_policy_text": false,
-      "checkbox_poc": "<input type=\"checkbox\" value=\"РџРѕСЃС‚РѕСЏРЅРЅР°СЏ РЅРѕСЋС‰Р°СЏ Р±РѕР»СЊ\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Постоянная ноющая боль\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
       "policy_poc": null,
       "has_phone_field": true,
       "has_name_field": true,
@@ -878,7 +899,7 @@
       "has_checkbox": true,
       "checked": false,
       "has_policy_text": false,
-      "checkbox_poc": "<input type=\"checkbox\" value=\"Р—СѓР± СЂРµР°РіРёСЂСѓРµС‚ РЅР° СЃР»Р°РґРєРѕРµ, С…РѕР»РѕРґРЅРѕРµ\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Зуб реагирует на сладкое, холодное\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
       "policy_poc": null,
       "has_phone_field": true,
       "has_name_field": true,
@@ -893,7 +914,7 @@
       "has_checkbox": true,
       "checked": false,
       "has_policy_text": false,
-      "checkbox_poc": "<input type=\"checkbox\" value=\"Р‘С‹Р»(Р°) РЅР° РєРѕРЅСЃСѓР»СЊС‚Р°С†РёРё, СЂРµРєРѕРјРµРЅРґРѕРІР°Р»Рё СѓРґР°Р»РёС‚СЊ Р·СѓР±\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Был(а) на консультации, рекомендовали удалить зуб\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
       "policy_poc": null,
       "has_phone_field": true,
       "has_name_field": true,
@@ -908,7 +929,7 @@
       "has_checkbox": true,
       "checked": false,
       "has_policy_text": false,
-      "checkbox_poc": "<input type=\"checkbox\" value=\"Р‘С‹Р»(Р°) РЅР° РєРѕРЅСЃСѓР»СЊС‚Р°С†РёРё, СЂРµРєРѕРјРµРЅРґРѕРІР°Р»Рё СѓСЃС‚Р°РЅРѕРІРёС‚СЊ РёРјРїР»Р°РЅС‚\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Был(а) на консультации, рекомендовали установить имплант\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
       "policy_poc": null,
       "has_phone_field": true,
       "has_name_field": true,
@@ -923,7 +944,7 @@
       "has_checkbox": true,
       "checked": false,
       "has_policy_text": false,
-      "checkbox_poc": "<input type=\"checkbox\" value=\"Р‘С‹Р»(Р°) РЅР° РєРѕРЅСЃСѓР»СЊС‚Р°С†РёРё, СЂРµРєРѕРјРµРЅРґРѕРІР°Р»Рё СѓСЃС‚Р°РЅРѕРІРёС‚СЊ РєРѕСЂРѕРЅРєСѓ РёР»Рё РїСЂРѕС‚РµР·\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Был(а) на консультации, рекомендовали установить коронку или протез\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
       "policy_poc": null,
       "has_phone_field": true,
       "has_name_field": true,
@@ -938,7 +959,7 @@
       "has_checkbox": true,
       "checked": false,
       "has_policy_text": false,
-      "checkbox_poc": "<input type=\"checkbox\" value=\"Р‘С‹Р»(Р°) РЅР° РєРѕРЅСЃСѓР»СЊС‚Р°С†РёРё, СЂРµРєРѕРјРµРЅРґРѕРІР°Р»Рё СѓСЃС‚Р°РЅРѕРІРёС‚СЊ Р±СЂРµРєРµС‚С‹\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Был(а) на консультации, рекомендовали установить брекеты\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
       "policy_poc": null,
       "has_phone_field": true,
       "has_name_field": true,
@@ -953,7 +974,7 @@
       "has_checkbox": true,
       "checked": false,
       "has_policy_text": false,
-      "checkbox_poc": "<input type=\"checkbox\" value=\"РљСЂРѕРІРѕС‚РѕС‡Р°С‚ РґРµСЃРЅС‹ РїСЂРё С‡РёСЃС‚РєРµ Р·СѓР±РѕРІ\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Кровоточат десны при чистке зубов\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
       "policy_poc": null,
       "has_phone_field": true,
       "has_name_field": true,
@@ -968,7 +989,7 @@
       "has_checkbox": true,
       "checked": false,
       "has_policy_text": false,
-      "checkbox_poc": "<input type=\"checkbox\" value=\"- Р‘С‹Р»(Р°) РЅР° РєРѕРЅСЃСѓР»СЊС‚Р°С†РёРё, СЂРµРєРѕРјРµРЅРґРѕРІР°Р»Рё СЃРґРµР»Р°С‚СЊ РѕС‚Р±РµР»РёРІР°РЅРёРµ Zoom\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "checkbox_poc": "<input type=\"checkbox\" value=\"- Был(а) на консультации, рекомендовали сделать отбеливание Zoom\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
       "policy_poc": null,
       "has_phone_field": true,
       "has_name_field": true,
@@ -983,7 +1004,7 @@
       "has_checkbox": true,
       "checked": false,
       "has_policy_text": false,
-      "checkbox_poc": "<input type=\"checkbox\" value=\"РџРѕСЃС‚РѕСЏРЅРЅР°СЏ РЅРѕСЋС‰Р°СЏ Р±РѕР»СЊ\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Постоянная ноющая боль\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
       "policy_poc": null,
       "has_phone_field": true,
       "has_name_field": true,
@@ -1013,7 +1034,7 @@
       "has_checkbox": true,
       "checked": false,
       "has_policy_text": false,
-      "checkbox_poc": "<input type=\"checkbox\" value=\"Р—СѓР± СЂРµР°РіРёСЂСѓРµС‚ РЅР° СЃР»Р°РґРєРѕРµ, С…РѕР»РѕРґРЅРѕРµ\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Зуб реагирует на сладкое, холодное\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
       "policy_poc": null,
       "has_phone_field": true,
       "has_name_field": true,
@@ -1028,7 +1049,7 @@
       "has_checkbox": true,
       "checked": false,
       "has_policy_text": false,
-      "checkbox_poc": "<input type=\"checkbox\" value=\"Р‘С‹Р»(Р°) РЅР° РєРѕРЅСЃСѓР»СЊС‚Р°С†РёРё, СЂРµРєРѕРјРµРЅРґРѕРІР°Р»Рё СѓРґР°Р»РёС‚СЊ Р·СѓР±\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Был(а) на консультации, рекомендовали удалить зуб\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
       "policy_poc": null,
       "has_phone_field": true,
       "has_name_field": true,
@@ -1043,7 +1064,7 @@
       "has_checkbox": true,
       "checked": false,
       "has_policy_text": false,
-      "checkbox_poc": "<input type=\"checkbox\" value=\"Р‘С‹Р»(Р°) РЅР° РєРѕРЅСЃСѓР»СЊС‚Р°С†РёРё, СЂРµРєРѕРјРµРЅРґРѕРІР°Р»Рё СѓСЃС‚Р°РЅРѕРІРёС‚СЊ РёРјРїР»Р°РЅС‚\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Был(а) на консультации, рекомендовали установить имплант\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
       "policy_poc": null,
       "has_phone_field": true,
       "has_name_field": true,
@@ -1058,7 +1079,7 @@
       "has_checkbox": true,
       "checked": false,
       "has_policy_text": false,
-      "checkbox_poc": "<input type=\"checkbox\" value=\"Р‘С‹Р»(Р°) РЅР° РєРѕРЅСЃСѓР»СЊС‚Р°С†РёРё, СЂРµРєРѕРјРµРЅРґРѕРІР°Р»Рё СѓСЃС‚Р°РЅРѕРІРёС‚СЊ РєРѕСЂРѕРЅРєСѓ РёР»Рё РїСЂРѕС‚РµР·\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Был(а) на консультации, рекомендовали установить коронку или протез\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
       "policy_poc": null,
       "has_phone_field": true,
       "has_name_field": true,
@@ -1073,7 +1094,7 @@
       "has_checkbox": true,
       "checked": false,
       "has_policy_text": false,
-      "checkbox_poc": "<input type=\"checkbox\" value=\"Р‘С‹Р»(Р°) РЅР° РєРѕРЅСЃСѓР»СЊС‚Р°С†РёРё, СЂРµРєРѕРјРµРЅРґРѕРІР°Р»Рё СѓСЃС‚Р°РЅРѕРІРёС‚СЊ Р±СЂРµРєРµС‚С‹\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Был(а) на консультации, рекомендовали установить брекеты\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
       "policy_poc": null,
       "has_phone_field": true,
       "has_name_field": true,
@@ -1088,7 +1109,7 @@
       "has_checkbox": true,
       "checked": false,
       "has_policy_text": false,
-      "checkbox_poc": "<input type=\"checkbox\" value=\"РљСЂРѕРІРѕС‚РѕС‡Р°С‚ РґРµСЃРЅС‹ РїСЂРё С‡РёСЃС‚РєРµ Р·СѓР±РѕРІ\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Кровоточат десны при чистке зубов\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
       "policy_poc": null,
       "has_phone_field": true,
       "has_name_field": true,
@@ -1103,7 +1124,7 @@
       "has_checkbox": true,
       "checked": false,
       "has_policy_text": false,
-      "checkbox_poc": "<input type=\"checkbox\" value=\"- Р‘С‹Р»(Р°) РЅР° РєРѕРЅСЃСѓР»СЊС‚Р°С†РёРё, СЂРµРєРѕРјРµРЅРґРѕРІР°Р»Рё СЃРґРµР»Р°С‚СЊ РѕС‚Р±РµР»РёРІР°РЅРёРµ Zoom\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "checkbox_poc": "<input type=\"checkbox\" value=\"- Был(а) на консультации, рекомендовали сделать отбеливание Zoom\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
       "policy_poc": null,
       "has_phone_field": true,
       "has_name_field": true,
@@ -1118,7 +1139,7 @@
       "has_checkbox": true,
       "checked": false,
       "has_policy_text": false,
-      "checkbox_poc": "<input type=\"checkbox\" value=\"РџРѕСЃС‚РѕСЏРЅРЅР°СЏ РЅРѕСЋС‰Р°СЏ Р±РѕР»СЊ\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Постоянная ноющая боль\" class=\"t-checkbox\" data-tilda-req=\"1\" aria-required=\"true\">",
       "policy_poc": null,
       "has_phone_field": true,
       "has_name_field": true,
@@ -1464,547 +1485,557 @@
     {
       "page": "https://kmdental.ru/",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/contacts",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/contacts",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/contacts#location",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/contacts#location",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/aligners",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/aligners",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/all-on-4",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/all-on-4",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/brackets",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/brackets",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/consultation",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/consultation",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/corp/polozhenie",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/corp/polozhenie",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/corp/pravovaya-informacia",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/corp/pravovaya-informacia",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/doctors",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/doctors",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/doctors/avdeenko",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/doctors/avdeenko",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "page": "https://kmdental.ru/doctors/bindukova",
+      "href": "/polozhenie",
+      "text": "политикой конфиденциальности"
+    },
+    {
+      "page": "https://kmdental.ru/doctors/bindukova",
+      "href": "corp/polozhenie",
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/doctors/bugunov",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/doctors/bugunov",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/doctors/grigoryan",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/doctors/grigoryan",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/doctors/kulaev",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/doctors/kulaev",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/doctors/kuznetsov",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/doctors/kuznetsov",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/doctors/metelkina",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/doctors/metelkina",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/doctors/ostaeva",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/doctors/ostaeva",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/doctors/protashuk",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/doctors/protashuk",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/doctors/vnukovskaya",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/doctors/vnukovskaya",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/documenti",
       "href": "https://disk.yandex.ru/i/Zf4no7LdiyL43A",
-      "text": "РЎРѕРіР»Р°СЃРёРµ РЅР° РѕР±СЂР°Р±РѕС‚РєСѓ РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+      "text": "Согласие на обработку персональных данных"
     },
     {
       "page": "https://kmdental.ru/documenti",
       "href": "https://disk.yandex.ru/i/o892oAiPXUuLjQ",
-      "text": "РџРѕР»РёС‚РёРєР° РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+      "text": "Политика персональных данных"
     },
     {
       "page": "https://kmdental.ru/documenti",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/documenti",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/faq",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/faq",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/gnatology",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/gnatology",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/implantacia",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/implantacia",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/lechenie_desen",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/lechenie_desen",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/lechenie_detei",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/lechenie_detei",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/nalog",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/nalog",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/narkoz",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/narkoz",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/o_nas",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/o_nas",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/page134238686.html",
       "href": "https://radix-p.ru/politika-konfidencialnosti",
-      "text": "РѕР±СЂР°Р±РѕС‚РєСѓ РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+      "text": "обработку персональных данных"
     },
     {
       "page": "https://kmdental.ru/page134238686.html",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/page134238686.html",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/page135493596.html",
       "href": "https://radix-p.ru/politika-konfidencialnosti",
-      "text": "РѕР±СЂР°Р±РѕС‚РєСѓ РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+      "text": "обработку персональных данных"
     },
     {
       "page": "https://kmdental.ru/page135493596.html",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/page135493596.html",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/page65434071.html",
       "href": "https://radix-p.ru/politika-konfidencialnosti",
-      "text": "РѕР±СЂР°Р±РѕС‚РєСѓ РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+      "text": "обработку персональных данных"
     },
     {
       "page": "https://kmdental.ru/page65434071.html",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/page65434071.html",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/page67960943.html",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/page67960943.html",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/page67975065.html",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/page67975065.html",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/page69891845.html",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/page69891845.html",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/pamyatka_implantacia",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/pamyatka_implantacia",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/pamyatka_implantacia_block",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/pamyatka_implantacia_block",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/pamyatka_plombirovanie",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/pamyatka_plombirovanie",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/pamyatka_sedacia",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/pamyatka_sedacia",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/prices",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/prices",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/profhygene",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/profhygene",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/protezirovanie",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/protezirovanie",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/sedacia",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/sedacia",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/sedacia_detei",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/sedacia_detei",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/statya/antibiotiki_udalenie",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/statya/antibiotiki_udalenie",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/statya/bol_s_implantom",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/statya/bol_s_implantom",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/statya/boleznennost_implantacii",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/statya/boleznennost_implantacii",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/statya/kaps_brekets",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/statya/kaps_brekets",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/statya/krovotochenie_desen",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/statya/krovotochenie_desen",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/statya/menat_zub",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/statya/menat_zub",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/statya/ostraya_bol",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/statya/ostraya_bol",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/statya/vibor_koronok",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/statya/vibor_koronok",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/udalenie",
       "href": "/polozhenie",
-      "text": "РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "политикой конфиденциальности"
     },
     {
       "page": "https://kmdental.ru/udalenie",
       "href": "corp/polozhenie",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     }
   ],
   "forbidden_hits": [],
@@ -2015,7 +2046,7 @@
       "protocol": "TLSv1.3",
       "issuer_cn": "R13",
       "not_after": "Jun  2 10:39:47 2026 GMT",
-      "days_left": 27,
+      "days_left": 24,
       "error": null
     },
     "http_to_https": {
@@ -2042,16 +2073,16 @@
       "canonical_host": null
     },
     "ttfb": {
-      "seconds": 0.971,
+      "seconds": 12.607,
       "source_url": "https://kmdental.ru/",
       "status": 200,
       "error": null
     },
     "pagespeed": {
       "status": "ok",
-      "score": 33,
-      "lcp_seconds": 12.522,
-      "tool": "C:\\Program Files\\nodejs\\npx.CMD --yes lighthouse",
+      "score": 44,
+      "lcp_seconds": 2.396,
+      "tool": "pagespeed_api",
       "error": null
     },
     "analytics": {
@@ -2065,6 +2096,7 @@
     "engagement": {
       "whatsapp": true,
       "telegram": true,
+      "max_messenger": true,
       "chat_widget": false,
       "slot_booking_widget": false
     },
@@ -2088,6 +2120,7 @@
     },
     "med_trust": {
       "contact_page_exists": true,
+      "contact_block_found": true,
       "contact_pages": [
         "https://kmdental.ru/contacts",
         "https://kmdental.ru/contacts#location"
@@ -2097,9 +2130,11 @@
         "https://kmdental.ru/prices"
       ],
       "doctors_page_exists": true,
+      "doctors_content_found": true,
       "doctor_pages": [
         "https://kmdental.ru/doctors",
         "https://kmdental.ru/doctors/avdeenko",
+        "https://kmdental.ru/doctors/bindukova",
         "https://kmdental.ru/doctors/bugunov",
         "https://kmdental.ru/doctors/grigoryan",
         "https://kmdental.ru/doctors/kulaev",
@@ -2132,9 +2167,158 @@
         ]
       },
       "footer_year": {
-        "present": null,
+        "present": true,
         "year": null,
         "current_year": null
+      },
+      "text_typos": {
+        "checked_pages": [
+          "https://kmdental.ru/",
+          "https://kmdental.ru/contacts",
+          "https://kmdental.ru/contacts#location",
+          "https://kmdental.ru/corp/pravovaya-informacia",
+          "https://kmdental.ru/doctors",
+          "https://kmdental.ru/doctors/avdeenko",
+          "https://kmdental.ru/doctors/bindukova",
+          "https://kmdental.ru/doctors/bugunov",
+          "https://kmdental.ru/doctors/grigoryan",
+          "https://kmdental.ru/doctors/kulaev"
+        ],
+        "error_count": 22,
+        "samples": [
+          {
+            "page": "https://kmdental.ru/",
+            "type": "missing_space_after_punct",
+            "match": ";D",
+            "snippet": "матолога: День Здоровой Улыбки в KM&nbsp;Dental — отмечаем 15 ноября! День Здорово"
+          },
+          {
+            "page": "https://kmdental.ru/",
+            "type": "missing_space_after_punct",
+            "match": ";D",
+            "snippet": "5 ноября! День Здоровой Улыбки в KM&nbsp;Dental — отмечаем 15 ноября! Приглашаем в"
+          },
+          {
+            "page": "https://kmdental.ru/",
+            "type": "missing_space_after_punct",
+            "match": ".К",
+            "snippet": "стная дентальная имплантация Dentium (Юж.Корея) За более чем 15 лет практики мы ус"
+          },
+          {
+            "page": "https://kmdental.ru/",
+            "type": "dot_glue",
+            "match": "ж.К",
+            "snippet": "остная дентальная имплантация Dentium (Юж.Корея) За более чем 15 лет практики мы ус"
+          },
+          {
+            "page": "https://kmdental.ru/corp/pravovaya-informacia",
+            "type": "space_before_punct",
+            "match": " ,",
+            "snippet": "и, размещенный в сети Интернет по адресу , в том числе поддомены ***.kmdental.ru, "
+          },
+          {
+            "page": "https://kmdental.ru/corp/pravovaya-informacia",
+            "type": "dot_glue",
+            "match": "L.R",
+            "snippet": "ОГЛАШЕНИЕ ОБ ИСПОЛЬЗОВАНИИ САЙТА KMDENTAL.RU Уважаемый Пользователь, мы рады видеть"
+          },
+          {
+            "page": "https://kmdental.ru/corp/pravovaya-informacia",
+            "type": "dot_glue",
+            "match": "l.r",
+            "snippet": "ресу , в том числе поддомены ***.kmdental.ru, а так же любые другие веб-сайты Компа"
+          },
+          {
+            "page": "https://kmdental.ru/corp/pravovaya-informacia",
+            "type": "dot_glue",
+            "match": "г.М",
+            "snippet": "72901001 ОГРН Адрес организации 119454, г.Москва, Лобачевского ул, д.92, корп.4, по"
+          },
+          {
+            "page": "https://kmdental.ru/doctors/avdeenko",
+            "type": "missing_space_after_punct",
+            "match": ".В",
+            "snippet": "мы зубов в эстетических реставрациях», А.В.Ветчинкин, г.Москва 2011 год «Использов"
+          },
+          {
+            "page": "https://kmdental.ru/doctors/avdeenko",
+            "type": "missing_space_after_punct",
+            "match": ".В",
+            "snippet": " зубов в эстетических реставрациях», А.В.Ветчинкин, г.Москва 2011 год «Использован"
+          },
+          {
+            "page": "https://kmdental.ru/doctors/avdeenko",
+            "type": "missing_space_after_punct",
+            "match": ".Н",
+            "snippet": "ского общества дентальной микроскопии, г.Нижний Новгород «3D обтурация корневых ка"
+          },
+          {
+            "page": "https://kmdental.ru/doctors/avdeenko",
+            "type": "missing_space_after_punct",
+            "match": ".Б",
+            "snippet": " 2018 год «Перенимая опыт гигиениста», Т.Б.Габрава, г.Санкт-Петербург «Методика st"
+          },
+          {
+            "page": "https://kmdental.ru/doctors/avdeenko",
+            "type": "missing_space_after_punct",
+            "match": ".Г",
+            "snippet": "018 год «Перенимая опыт гигиениста», Т.Б.Габрава, г.Санкт-Петербург «Методика styl"
+          },
+          {
+            "page": "https://kmdental.ru/doctors/avdeenko",
+            "type": "missing_space_after_punct",
+            "match": ".С",
+            "snippet": "ренимая опыт гигиениста», Т.Б.Габрава, г.Санкт-Петербург «Методика style italiano "
+          },
+          {
+            "page": "https://kmdental.ru/doctors/avdeenko",
+            "type": "missing_space_after_punct",
+            "match": ",а",
+            "snippet": "откой навыков» Мастер-класс «Возможности,алгоритм и нюансы применения ротационных "
+          },
+          {
+            "page": "https://kmdental.ru/doctors/avdeenko",
+            "type": "comma_glue",
+            "match": "и,а",
+            "snippet": "боткой навыков» Мастер-класс «Возможности,алгоритм и нюансы применения ротационных "
+          },
+          {
+            "page": "https://kmdental.ru/doctors/avdeenko",
+            "type": "comma_glue",
+            "match": "н,п",
+            "snippet": "блемы эндодонтии в пародонтологии», д.м.н,проф. А.В.Шумский 2020 год «Первичная энд"
+          },
+          {
+            "page": "https://kmdental.ru/doctors/avdeenko",
+            "type": "dot_glue",
+            "match": "M.S",
+            "snippet": "д «Endo-Prostodontic Relationship», Dr. M.Solomonov 2010 год «Реабилитация пациенто"
+          },
+          {
+            "page": "https://kmdental.ru/doctors/avdeenko",
+            "type": "dot_glue",
+            "match": "А.В",
+            "snippet": "рмы зубов в эстетических реставрациях», А.В.Ветчинкин, г.Москва 2011 год «Использов"
+          },
+          {
+            "page": "https://kmdental.ru/doctors/avdeenko",
+            "type": "dot_glue",
+            "match": "г.М",
+            "snippet": "етических реставрациях», А.В.Ветчинкин, г.Москва 2011 год «Использование бинокулярн"
+          },
+          {
+            "page": "https://kmdental.ru/doctors/avdeenko",
+            "type": "dot_glue",
+            "match": "г.Н",
+            "snippet": "йского общества дентальной микроскопии, г.Нижний Новгород «3D обтурация корневых ка"
+          },
+          {
+            "page": "https://kmdental.ru/doctors/grigoryan",
+            "type": "space_before_punct",
+            "match": " .",
+            "snippet": "и зубочелюстными аномалиями. Диагностика . Клиника. Современные методы лечения. Ст"
+          }
+        ]
       }
     },
     "mixed_content": {
@@ -2142,8 +2326,8 @@
       "samples": []
     },
     "broken_internal_links": {
-      "checked": 64,
-      "broken": 25,
+      "checked": 66,
+      "broken": 26,
       "samples": [
         {
           "url": "https://kmdental.ru/polozhenie",
@@ -2192,6 +2376,12 @@
           "status": 404,
           "error": "HTTPError 404",
           "final_url": "https://kmdental.ru/doctors/corp/polozhenie"
+        },
+        {
+          "url": "https://kmdental.ru/doctors/kmdental.ru/doctors/ostaeva",
+          "status": 404,
+          "error": "HTTPError 404",
+          "final_url": "https://kmdental.ru/doctors/kmdental.ru/doctors/ostaeva"
         },
         {
           "url": "https://kmdental.ru/kmdental.ru/doctors/ostaeva",
@@ -2258,17 +2448,11 @@
           "status": 404,
           "error": "HTTPError 404",
           "final_url": "https://kmdental.ru/lechenie-zubov-pod-narkozom"
-        },
-        {
-          "url": "https://kmdental.ru/statya/corp/pravovaya-informacia",
-          "status": 404,
-          "error": "HTTPError 404",
-          "final_url": "https://kmdental.ru/statya/corp/pravovaya-informacia"
         }
       ]
     },
     "broken_static_resources": {
-      "checked": 51,
+      "checked": 52,
       "broken": 0,
       "samples": []
     },
@@ -2312,6 +2496,7 @@
       "https://kmdental.ru/corp/pravovaya-informacia",
       "https://kmdental.ru/doctors",
       "https://kmdental.ru/doctors/avdeenko",
+      "https://kmdental.ru/doctors/bindukova",
       "https://kmdental.ru/doctors/bugunov",
       "https://kmdental.ru/doctors/grigoryan",
       "https://kmdental.ru/doctors/kulaev",
@@ -2358,6 +2543,7 @@
       "https://kmdental.ru/corp/pravovaya-informacia",
       "https://kmdental.ru/doctors",
       "https://kmdental.ru/doctors/avdeenko",
+      "https://kmdental.ru/doctors/bindukova",
       "https://kmdental.ru/doctors/bugunov",
       "https://kmdental.ru/doctors/grigoryan",
       "https://kmdental.ru/doctors/kulaev",
@@ -2380,6 +2566,7 @@
       "https://kmdental.ru/corp/pravovaya-informacia": "navigation-legal",
       "https://kmdental.ru/doctors": "sitemap-legal",
       "https://kmdental.ru/doctors/avdeenko": "sitemap-legal",
+      "https://kmdental.ru/doctors/bindukova": "sitemap-legal",
       "https://kmdental.ru/doctors/bugunov": "sitemap-legal",
       "https://kmdental.ru/doctors/grigoryan": "sitemap-legal",
       "https://kmdental.ru/doctors/kulaev": "sitemap-legal",
@@ -2426,12 +2613,12 @@
       "contact": false,
       "booking": false
     },
-    "sitemap_total_urls": 52,
-    "sitemap_used_urls": 52
+    "sitemap_total_urls": 53,
+    "sitemap_used_urls": 53
   },
   "verification": {
-    "b2": false,
+    "b2": true,
     "b3": true,
-    "b4": false
+    "b4": true
   }
 }
