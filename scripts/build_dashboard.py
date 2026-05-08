@@ -587,7 +587,6 @@ def block2_statuses(audit, site_unavailable):
             "analytics_status": "-",
             "after_hours_status": "-",
             "price_public_status": "-",
-            "services_pages_status": "-",
             "schema_supported_status": "-",
         }
 
@@ -618,11 +617,6 @@ def block2_statuses(audit, site_unavailable):
     sitemap_total = int(discovery.get("sitemap_total_urls") or 0)
     pages_count = len(audit.get("pages", []) or [])
     indexed_pages = max(sitemap_total, pages_count)
-    service_pages = med.get("service_pages") or []
-    if not isinstance(service_pages, list):
-        service_pages = []
-    service_pages_count = int(med.get("service_pages_count") or len(service_pages))
-
     digital_tool_status = "проблема" if indexed_pages <= 4 else "ок"
 
     has_analytics = bool(analytics.get("found"))
@@ -637,8 +631,6 @@ def block2_statuses(audit, site_unavailable):
     after_hours_status = "ок" if has_async_channel else "проблема"
 
     price_public_status = "ок" if med.get("price_public_found") is True else "проблема"
-    services_pages_status = "ок" if service_pages_count >= 3 else "проблема"
-
     schema = med.get("schema", {}) or {}
     schema_types = [str(x).strip().lower() for x in (schema.get("types") or []) if str(x).strip()]
     supported = {"medicalorganization", "medicalclinic", "dentist", "physician", "hospital", "localbusiness"}
@@ -650,7 +642,6 @@ def block2_statuses(audit, site_unavailable):
         "analytics_status": analytics_status,
         "after_hours_status": after_hours_status,
         "price_public_status": price_public_status,
-        "services_pages_status": services_pages_status,
         "schema_supported_status": schema_supported_status,
     }
 
@@ -1118,7 +1109,6 @@ def block2_poc_lines(audit, summary):
         [
             f"sitemap_total_urls: {sitemap_total}",
             f"pages_count: {pages_count}",
-            f"service_pages_count: {int(med.get('service_pages_count') or len(med.get('service_pages') or []))}",
         ],
     ))
 
@@ -1149,15 +1139,6 @@ def block2_poc_lines(audit, summary):
         [
             f"price_public_found: {med.get('price_public_found')}",
             "price_pages: " + ", ".join((med.get("price_pages") or [])[:5]) if med.get("price_pages") else "price_pages: не найдены",
-        ],
-    ))
-
-    lines.append(metric_lines(
-        "Ключевые услуги вынесены в отдельные страницы",
-        b2.get("services_pages_status", "-"),
-        [
-            f"service_pages_count: {int(med.get('service_pages_count') or len(med.get('service_pages') or []))}",
-            "service_pages: " + ", ".join((med.get("service_pages") or [])[:5]) if med.get("service_pages") else "service_pages: не найдены",
         ],
     ))
 
@@ -1563,7 +1544,6 @@ def step2_block_schema():
                 "Вы не знаете кто приходит на сайт и почему уходит",
                 "Пациент не может написать в нерабочее время",
                 "Прайс-лист доступен без регистрации",
-                "Ключевые услуги вынесены в отдельные страницы",
                 "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
             ],
         },
@@ -1589,8 +1569,7 @@ def metric_tooltip(block_id: str, metric_idx: int, metric_name: str) -> str:
         2: "Оценка: 'ок' — есть Яндекс.Метрика и признаки целей/событий; 'проблема' — Метрики нет или целей/событий нет.",
         3: "Оценка: 'ок' — есть рабочий асинхронный канал (WhatsApp/Telegram/Max/чат); 'проблема' — канала нет.",
         4: "Оценка: 'ок' — найдена публичная страница цен (без логина/регистрации); 'проблема' — не найдена.",
-        5: "Оценка: 'ок' — найдено >=3 отдельных service-URL; 'проблема' — меньше 3.",
-        6: "Оценка: 'ок' — есть поддерживаемая schema.org разметка (organization/medical/localbusiness); 'проблема' — не найдена.",
+        5: "Оценка: 'ок' — есть поддерживаемая schema.org разметка (organization/medical/localbusiness); 'проблема' — не найдена.",
     }
     if block_id == "b2":
         return block2.get(metric_idx, "")
@@ -1620,7 +1599,6 @@ def step2_blocks_data(summary):
         b2.get("analytics_status", block2_default_status),
         b2.get("after_hours_status", block2_default_status),
         b2.get("price_public_status", block2_default_status),
-        b2.get("services_pages_status", block2_default_status),
         b2.get("schema_supported_status", block2_default_status),
     ]
     if not block2_verified:
@@ -1872,9 +1850,7 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
     <p><b>ок:</b> есть WhatsApp/Telegram/Max/онлайн-чат и он открывается. <b>проблема:</b> рабочего канала нет.</p>
     <h4>5. Прайс-лист доступен без регистрации</h4>
     <p><b>ок:</b> найдена публичная страница цен без логина/регистрации и с ценовым контентом. <b>проблема:</b> не найдена.</p>
-    <h4>6. Ключевые услуги вынесены в отдельные страницы</h4>
-    <p><b>ок:</b> найдено не менее 3 отдельных страниц услуг (имплантация/брекеты/виниры/коронки/отбеливание). <b>проблема:</b> меньше 3.</p>
-    <h4>7. Schema.org Поддерживаемые схемы Schemaorg от Яндекса</h4>
+    <h4>6. Schema.org Поддерживаемые схемы Schemaorg от Яндекса</h4>
     <p><b>ок:</b> есть поддерживаемая schema.org разметка (organization/medical/localbusiness). <b>проблема:</b> разметка не найдена.</p>
   </div>
   <div class=\"method-template\" id=\"methodology-b4\">
