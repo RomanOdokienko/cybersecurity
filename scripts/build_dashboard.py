@@ -844,14 +844,14 @@ def block4_statuses(audit, site_unavailable):
     def has_url_hint(hints):
         return any(any(h in u for h in hints) for u in low_urls)
 
-    doctors_found = med.get("doctors_page_exists")
-    if doctors_found is None:
+    doctors_found = bool(med.get("doctors_page_exists")) or bool(med.get("doctors_content_found"))
+    if not doctors_found:
         doctors_found = has_url_hint(["/doctor", "/doctors", "/vrach", "/vrachi", "/specialist", "/team"])
     doctors_page_status = "ок" if doctors_found else "проблема"
 
     address_found = med.get("address_found")
     map_found = med.get("map_found")
-    address_map_status = "ок" if (address_found is True and map_found is True) else "проблема"
+    address_map_status = "ок" if (address_found is True or map_found is True) else "проблема"
 
     hours_found = med.get("hours_found")
     hours_status = "ок" if (hours_found is True) else "проблема"
@@ -859,9 +859,12 @@ def block4_statuses(audit, site_unavailable):
     reviews_found = med.get("reviews_found")
     reviews_status = "ок" if (reviews_found is True) else "проблема"
 
-    contacts_exists = med.get("contact_page_exists")
-    if contacts_exists is None:
-        contacts_exists = bool(contact_urls) or has_url_hint(["/contact", "/contacts", "/kontakty"])
+    contacts_exists = (
+        bool(med.get("contact_page_exists"))
+        or bool(med.get("contact_block_found"))
+        or bool(contact_urls)
+        or has_url_hint(["/contact", "/contacts", "/kontakty"])
+    )
     contacts_page_status = "ок" if contacts_exists else "проблема"
 
     footer_year = med.get("footer_year", {}) or {}
@@ -1244,6 +1247,7 @@ def block4_poc_lines(audit, summary):
 
     lines = []
     lines.append(metric_lines("Страница врачей / специалистов", b4.get("doctors_page_status", "-"), [
+        f"doctors_content_found: {med.get('doctors_content_found')}",
         "doctor_pages: " + ", ".join((med.get("doctor_pages") or [])[:5]) if med.get("doctor_pages") else "doctor_pages: не найдены",
     ]))
     lines.append(metric_lines("Адрес и карта на сайте", b4.get("address_map_status", "-"), [
@@ -1263,6 +1267,7 @@ def block4_poc_lines(audit, summary):
     ]))
     lines.append(metric_lines("Есть отдельная страница контактов", b4.get("contacts_page_status", "-"), [
         f"contact_page_exists: {med.get('contact_page_exists')}",
+        f"contact_block_found: {med.get('contact_block_found')}",
         "contact_pages: " + ", ".join((med.get("contact_pages") or [])[:5]) if med.get("contact_pages") else "contact_pages: не найдены",
     ]))
     return lines
@@ -1868,17 +1873,17 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
       <li>Результат строго бинарный: <b>ок</b> или <b>проблема</b>.</li>
     </ul>
     <h4>1. Страница или карточки врачей / специалистов</h4>
-    <p><b>ок:</b> найдены отдельные doctor/specialist URL или раздел врачей. <b>проблема:</b> не найдено.</p>
+    <p><b>ок:</b> найдены блоки с информацией о врачах или отдельные страницы врачей/специалистов. <b>проблема:</b> не найдено ни блоков, ни страниц.</p>
     <h4>2. Адрес и карта на сайте</h4>
-    <p><b>ок:</b> одновременно найден адрес и embed-карта (Яндекс/2GIS/Google). <b>проблема:</b> отсутствует любой из сигналов.</p>
+    <p><b>ок:</b> найден адрес или embed-карта (Яндекс/2GIS/Google). <b>проблема:</b> не найдено ни адреса, ни карты.</p>
     <h4>3. Часы работы</h4>
     <p><b>ок:</b> найдены явные маркеры режима работы (часы/дни). <b>проблема:</b> не найдено.</p>
     <h4>4. Отзывы пациентов на сайте</h4>
     <p><b>ок:</b> найден блок/виджет отзывов на сайте. <b>проблема:</b> не найдено.</p>
     <h4>5. Актуальность года в футере (если он вообще есть). Если его нет — ок</h4>
-    <p><b>ок:</b> футер отсутствует или в футере указан актуальный год. <b>проблема:</b> футер есть, год неактуален/неопределён.</p>
+    <p><b>ок:</b> футер отсутствует или в футере указан актуальный год. <b>проблема:</b> футер есть, но год неактуален.</p>
     <h4>6. Есть отдельная страница контактов</h4>
-    <p><b>ок:</b> найдена отдельная contact-страница. <b>проблема:</b> не найдена.</p>
+    <p><b>ок:</b> найдена отдельная страница контактов или контактный блок на главной. <b>проблема:</b> не найдено ни страницы, ни блока контактов.</p>
   </div>
 
   <div class=\"method-modal\" id=\"methodology-modal\" aria-hidden=\"true\">

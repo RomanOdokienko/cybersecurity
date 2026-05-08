@@ -942,6 +942,8 @@ def detect_med_trust_signals(html_ok_pages, contact_urls, schema_types):
     hours_found = False
     map_found = False
     address_any = False
+    doctors_content_found = False
+    contact_block_found = False
 
     footer_year_info = {'present': None, 'year': None, 'current_year': None}
 
@@ -971,6 +973,14 @@ def detect_med_trust_signals(html_ok_pages, contact_urls, schema_types):
         if has_any_token(low_url, SERVICE_KEYWORDS):
             service_pages.append(url)
 
+        if not doctors_content_found:
+            names_count, _ = count_probable_person_names(text)
+            doctors_context = has_any_token(
+                text_low,
+                SPECIALTY_KEYWORDS + ['наши врачи', 'врачи клиники', 'специалисты'],
+            )
+            doctors_content_found = bool(doctors_context and names_count >= 2)
+
         if not reviews_found and has_any_token(low + ' ' + text_low, REVIEW_TOKENS):
             reviews_found = True
         if not hours_found and has_any_token(text_low, HOURS_TOKENS):
@@ -981,6 +991,15 @@ def detect_med_trust_signals(html_ok_pages, contact_urls, schema_types):
         addr = extract_address_snippet(html)
         if addr:
             address_any = True
+
+        if not contact_block_found and (urlparse(url).path in {'', '/'}):
+            has_contact_words = has_any_token(text_low, ['контакты', 'связаться', 'телефон', 'адрес'])
+            has_contact_signal = bool(
+                re.search(r'(?i)(\+?\d[\d\-\s\(\)]{8,}\d)', text)
+                or addr
+                or has_any_token(text_low, HOURS_TOKENS)
+            )
+            contact_block_found = bool(has_contact_words and has_contact_signal)
 
         if urlparse(url).path in {'', '/'}:
             if footer_year_info.get('present') is None:
@@ -1001,10 +1020,12 @@ def detect_med_trust_signals(html_ok_pages, contact_urls, schema_types):
 
     return {
         'contact_page_exists': bool(contact_pages),
+        'contact_block_found': contact_block_found,
         'contact_pages': dedupe_keep_order(contact_pages),
         'price_public_found': bool(price_pages),
         'price_pages': dedupe_keep_order(price_pages),
         'doctors_page_exists': bool(doctor_pages),
+        'doctors_content_found': doctors_content_found,
         'doctor_pages': dedupe_keep_order(doctor_pages),
         'address_found': address_any,
         'map_found': map_found,
