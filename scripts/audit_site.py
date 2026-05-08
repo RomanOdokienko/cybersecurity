@@ -619,6 +619,7 @@ def detect_engagement_signals(html_pages):
     signals = {
         'whatsapp': False,
         'telegram': False,
+        'max_messenger': False,
         'chat_widget': False,
         'slot_booking_widget': False,
     }
@@ -650,6 +651,8 @@ def detect_engagement_signals(html_pages):
             signals['whatsapp'] = True
         if any(x in low for x in ['t.me/', 'telegram.me', 'telegram']):
             signals['telegram'] = True
+        if any(x in low for x in ['max.ru', 'max messenger', 'messenger.max']):
+            signals['max_messenger'] = True
         if any(x in low for x in chat_tokens):
             signals['chat_widget'] = True
         if any(x in low for x in booking_tokens_strong) or any(x in low for x in booking_phrases):

@@ -623,10 +623,13 @@ def block2_statuses(audit, site_unavailable):
     has_goals = bool(analytics.get("goals_found")) or bool(analytics.get("goal_markers"))
     analytics_status = "ок" if (has_analytics and has_goals) else "проблема"
 
+    has_message_form = any(bool(f.get("has_textarea")) for f in (audit.get("forms", []) or []))
     has_async_channel = bool(
         engagement.get("whatsapp")
         or engagement.get("telegram")
+        or engagement.get("max_messenger")
         or engagement.get("chat_widget")
+        or has_message_form
     )
     after_hours_status = "ок" if has_async_channel else "проблема"
 
@@ -1124,12 +1127,14 @@ def block2_poc_lines(audit, summary):
     ))
 
     lines.append(metric_lines(
-        "Пациент не может написать в нерабочее время",
+        "Пациент не может написать первым",
         b2.get("after_hours_status", "-"),
         [
             f"whatsapp: {bool(engagement.get('whatsapp'))}",
             f"telegram: {bool(engagement.get('telegram'))}",
+            f"max_messenger: {bool(engagement.get('max_messenger'))}",
             f"chat_widget: {bool(engagement.get('chat_widget'))}",
+            f"message_form_found: {any(bool(f.get('has_textarea')) for f in (audit.get('forms', []) or []))}",
         ],
     ))
 
@@ -1542,7 +1547,7 @@ def step2_block_schema():
                 "Нет онлайн-записи со слотами",
                 "Сайт — цифровая визитка, не инструмент",
                 "Вы не знаете кто приходит на сайт и почему уходит",
-                "Пациент не может написать в нерабочее время",
+                "Пациент не может написать первым",
                 "Прайс-лист доступен без регистрации",
                 "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
             ],
@@ -1567,7 +1572,7 @@ def metric_tooltip(block_id: str, metric_idx: int, metric_name: str) -> str:
         0: "Оценка: 'ок' — есть рабочая онлайн-запись (слоты ИЛИ отдельная рабочая страница записи); 'проблема' — только форма/звонок без онлайн-инструмента записи.",
         1: "Оценка: 'ок' — страниц сайта >=5; 'проблема' — страниц сайта <=4.",
         2: "Оценка: 'ок' — есть Яндекс.Метрика и признаки целей/событий; 'проблема' — Метрики нет или целей/событий нет.",
-        3: "Оценка: 'ок' — есть рабочий асинхронный канал (WhatsApp/Telegram/Max/чат); 'проблема' — канала нет.",
+        3: "Оценка: 'ок' — есть хотя бы один рабочий канал первого письменного контакта (WhatsApp/Telegram/Max/чат/форма сообщения); 'проблема' — такого канала нет.",
         4: "Оценка: 'ок' — найдена публичная страница цен (без логина/регистрации); 'проблема' — не найдена.",
         5: "Оценка: 'ок' — есть поддерживаемая schema.org разметка (organization/medical/localbusiness); 'проблема' — не найдена.",
     }
@@ -1846,8 +1851,8 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
     <p><b>ок:</b> страниц сайта &gt;= 5. <b>проблема:</b> страниц сайта &lt;= 4.</p>
     <h4>3. Вы не знаете кто приходит на сайт и почему уходит</h4>
     <p><b>ок:</b> есть Яндекс.Метрика и признаки целей/событий. <b>проблема:</b> Метрики нет или целей/событий нет.</p>
-    <h4>4. Пациент не может написать в нерабочее время</h4>
-    <p><b>ок:</b> есть WhatsApp/Telegram/Max/онлайн-чат и он открывается. <b>проблема:</b> рабочего канала нет.</p>
+    <h4>4. Пациент не может написать первым</h4>
+    <p><b>ок:</b> есть хотя бы один рабочий канал первого письменного контакта (WhatsApp/Telegram/Max/онлайн-чат/форма сообщения). <b>проблема:</b> нет ни одного рабочего канала для первого письменного контакта.</p>
     <h4>5. Прайс-лист доступен без регистрации</h4>
     <p><b>ок:</b> найдена публичная страница цен без логина/регистрации и с ценовым контентом. <b>проблема:</b> не найдена.</p>
     <h4>6. Schema.org Поддерживаемые схемы Schemaorg от Яндекса</h4>
