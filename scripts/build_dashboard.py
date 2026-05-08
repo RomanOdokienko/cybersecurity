@@ -598,7 +598,22 @@ def block2_statuses(audit, site_unavailable):
     engagement = tech.get("engagement", {}) or {}
 
     has_slot_booking = bool(engagement.get("slot_booking_widget"))
-    online_slots_status = "ок" if has_slot_booking else "проблема"
+    source_map = discovery.get("sources", {}) or {}
+    pages_by_req = {str(p.get("requested") or ""): p for p in (audit.get("pages", []) or [])}
+    booking_urls = [str(u) for u in (discovery.get("booking_urls") or []) if str(u)]
+    booking_sources_ok = {
+        "sitemap",
+        "navigation",
+        "booking-candidate",
+        "sitemap-booking-candidate",
+        "home-booking-candidate",
+    }
+    booking_page_found = any(
+        str(source_map.get(u, "")).strip().lower() in booking_sources_ok
+        and int((pages_by_req.get(u) or {}).get("status") or 0) == 200
+        for u in booking_urls
+    )
+    online_slots_status = "ок" if (has_slot_booking or booking_page_found) else "проблема"
 
     sitemap_total = int(discovery.get("sitemap_total_urls") or 0)
     pages_count = len(audit.get("pages", []) or [])
@@ -1086,6 +1101,12 @@ def block2_poc_lines(audit, summary):
         [
             f"slot_booking_widget: {bool(engagement.get('slot_booking_widget'))}",
             "booking_urls: " + ", ".join((discovery.get("booking_urls", []) or [])[:5]) if discovery.get("booking_urls") else "booking_urls: не найдены",
+            "booking_sources: " + ", ".join(
+                sorted({
+                    str((discovery.get("sources", {}) or {}).get(u, "") or "")
+                    for u in (discovery.get("booking_urls", []) or [])
+                })
+            ) if discovery.get("booking_urls") else "booking_sources: не найдены",
         ],
     ))
 
@@ -1563,7 +1584,7 @@ def step2_block_schema():
 
 def metric_tooltip(block_id: str, metric_idx: int, metric_name: str) -> str:
     block2 = {
-        0: "Оценка: 'ок' — найдена рабочая онлайн-запись со слотами (дата/время); 'проблема' — слоты не найдены.",
+        0: "Оценка: 'ок' — есть рабочая онлайн-запись (слоты ИЛИ отдельная рабочая страница записи); 'проблема' — только форма/звонок без онлайн-инструмента записи.",
         1: "Оценка: 'ок' — страниц сайта >=5; 'проблема' — страниц сайта <=4.",
         2: "Оценка: 'ок' — есть Яндекс.Метрика и признаки целей/событий; 'проблема' — Метрики нет или целей/событий нет.",
         3: "Оценка: 'ок' — есть рабочий асинхронный канал (WhatsApp/Telegram/Max/чат); 'проблема' — канала нет.",
@@ -1842,7 +1863,7 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
       <li>Если сигнал противоречивый, статус не ставим до ручного обсуждения.</li>
     </ul>
     <h4>1. Нет онлайн-записи со слотами</h4>
-    <p><b>ок:</b> есть рабочий выбор даты и времени (слоты). <b>проблема:</b> только форма/звонок без слотов.</p>
+    <p><b>ок:</b> есть рабочая онлайн-запись: либо выбор даты/времени (слоты), либо отдельная рабочая страница записи. <b>проблема:</b> только форма/звонок без онлайн-инструмента записи.</p>
     <h4>2. Сайт — цифровая визитка, не инструмент</h4>
     <p><b>ок:</b> страниц сайта &gt;= 5. <b>проблема:</b> страниц сайта &lt;= 4.</p>
     <h4>3. Вы не знаете кто приходит на сайт и почему уходит</h4>
