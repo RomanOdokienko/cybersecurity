@@ -635,8 +635,9 @@ def block2_statuses(audit, site_unavailable):
     price_public_status = "ок" if med.get("price_public_found") is True else "проблема"
     schema = med.get("schema", {}) or {}
     schema_types = [str(x).strip().lower() for x in (schema.get("types") or []) if str(x).strip()]
-    supported = {"medicalorganization", "medicalclinic", "dentist", "physician", "hospital", "localbusiness"}
-    schema_supported_status = "ок" if any(t in supported for t in schema_types) else "проблема"
+    supported = {"organization", "medicalorganization", "medicalclinic", "dentist", "physician", "hospital", "localbusiness"}
+    schema_supported_hits = sorted([t for t in schema_types if t in supported])
+    schema_supported_status = "ок" if schema_supported_hits else "проблема"
 
     return {
         "online_slots_status": online_slots_status,
@@ -645,6 +646,7 @@ def block2_statuses(audit, site_unavailable):
         "after_hours_status": after_hours_status,
         "price_public_status": price_public_status,
         "schema_supported_status": schema_supported_status,
+        "schema_supported_hits": schema_supported_hits,
     }
 
 
@@ -1153,6 +1155,7 @@ def block2_poc_lines(audit, summary):
         [
             f"schema.any: {schema.get('any')}",
             "schema.types: " + ", ".join((schema.get("types") or [])) if schema.get("types") else "schema.types: не найдены",
+            "schema.supported_hits: " + ", ".join((b2.get("schema_supported_hits") or [])) if b2.get("schema_supported_hits") else "schema.supported_hits: не найдены",
         ],
     ))
 
@@ -1573,7 +1576,7 @@ def metric_tooltip(block_id: str, metric_idx: int, metric_name: str) -> str:
         2: "Оценка: 'ок' — аналитика установлена; 'проблема' — аналитика не найдена. Наличие целей/событий показывается как quality-flag в PoC.",
         3: "Оценка: 'ок' — есть хотя бы один рабочий канал первого письменного контакта (WhatsApp/Telegram/Max/чат/форма сообщения); 'проблема' — такого канала нет.",
         4: "Оценка: 'ок' — найдена публичная страница цен (без логина/регистрации); 'проблема' — не найдена.",
-        5: "Оценка: 'ок' — есть поддерживаемая schema.org разметка (organization/medical/localbusiness); 'проблема' — не найдена.",
+        5: "Оценка: 'ок' — найден хотя бы один поддерживаемый type (Organization/Medical*/LocalBusiness и др. из whitelist); 'проблема' — поддерживаемые типы не найдены.",
     }
     if block_id == "b2":
         return block2.get(metric_idx, "")
@@ -1855,7 +1858,7 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
     <h4>5. Прайс-лист доступен без регистрации</h4>
     <p><b>ок:</b> найдена публичная страница цен без логина/регистрации и с ценовым контентом. <b>проблема:</b> не найдена.</p>
     <h4>6. Schema.org Поддерживаемые схемы Schemaorg от Яндекса</h4>
-    <p><b>ок:</b> есть поддерживаемая schema.org разметка (organization/medical/localbusiness). <b>проблема:</b> разметка не найдена.</p>
+    <p><b>ок:</b> найден хотя бы один поддерживаемый тип из whitelist (Organization/Medical*/LocalBusiness и др.). <b>проблема:</b> поддерживаемые типы не найдены.</p>
   </div>
   <div class=\"method-template\" id=\"methodology-b4\">
     <h4>Общие правила</h4>

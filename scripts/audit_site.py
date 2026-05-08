@@ -819,6 +819,7 @@ def run_lighthouse_mobile(url: str):
 def detect_schema_types(html_pages):
     found = set()
     known = [
+        'organization',
         'medicalorganization',
         'medicalclinic',
         'dentist',
