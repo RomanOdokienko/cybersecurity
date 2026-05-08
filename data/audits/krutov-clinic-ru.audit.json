@@ -4679,5 +4679,9 @@
     },
     "sitemap_total_urls": 84,
     "sitemap_used_urls": 84
+  },
+  "verification": {
+    "b2": false,
+    "b4": false
   }
 }

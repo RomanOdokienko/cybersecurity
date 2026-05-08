@@ -229,5 +229,9 @@
     },
     "sitemap_total_urls": 2,
     "sitemap_used_urls": 2
+  },
+  "verification": {
+    "b2": false,
+    "b4": false
   }
 }

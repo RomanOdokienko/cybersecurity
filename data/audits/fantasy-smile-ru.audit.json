@@ -902,5 +902,9 @@
     },
     "sitemap_total_urls": 10,
     "sitemap_used_urls": 10
+  },
+  "verification": {
+    "b2": false,
+    "b4": false
   }
 }

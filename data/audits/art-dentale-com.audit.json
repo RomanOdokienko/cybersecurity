@@ -1111,5 +1111,9 @@
     },
     "sitemap_total_urls": 19,
     "sitemap_used_urls": 19
+  },
+  "verification": {
+    "b2": false,
+    "b4": false
   }
 }

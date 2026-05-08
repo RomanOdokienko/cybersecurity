@@ -59,14 +59,14 @@
   "forms": [
     {
       "page": "https://mx-medical.ru/zapis/",
-      "form_id": "form Р—Р°РїРёСЃСЊ",
-      "action_display": "action РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚",
-      "open_tag": "<form class=\"form Р—Р°РїРёСЃСЊ\" data-captcha=\"0\">",
+      "form_id": "form Запись",
+      "action_display": "action отсутствует",
+      "open_tag": "<form class=\"form Запись\" data-captcha=\"0\">",
       "has_checkbox": true,
       "checked": false,
       "has_policy_text": true,
-      "checkbox_poc": "<input type=\"checkbox\" value=\"РЇ РґР°СЋ СЃРѕРіР»Р°СЃРёРµ РЅР° РѕР±СЂР°Р±РѕС‚РєСѓ РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…\" name=\"fields[agreement_1]\" required>",
-      "policy_poc": "ass=\"form__input form__policy\"> <label class=\"row\"> <input type=\"checkbox\" value=\"РЇ РґР°СЋ СЃРѕРіР»Р°СЃРёРµ РЅР° РѕР±СЂР°Р±РѕС‚РєСѓ РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…\" name=\"fields[agreement_1]\" required> <span>РЇ РґР°СЋ СЃРѕРіР»Р°СЃРёРµ РЅР° <a target=\"_blank\" href=\"/upload/medialibrary/c9c/uek62m8ea66",
+      "checkbox_poc": "<input type=\"checkbox\" value=\"Я даю согласие на обработку персональных данных\" name=\"fields[agreement_1]\" required>",
+      "policy_poc": "ass=\"form__input form__policy\"> <label class=\"row\"> <input type=\"checkbox\" value=\"Я даю согласие на обработку персональных данных\" name=\"fields[agreement_1]\" required> <span>Я даю согласие на <a target=\"_blank\" href=\"/upload/medialibrary/c9c/uek62m8ea66",
       "has_phone_field": true,
       "has_name_field": false,
       "has_textarea": true,
@@ -80,57 +80,57 @@
     {
       "page": "https://mx-medical.ru/",
       "href": "https://mx-medical.ru/upload/medialibrary/c9c/uek62m8ea662pel1f4nas79icpdsufch.pdf",
-      "text": "РџРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё cookies"
+      "text": "Политикой обработки cookies"
     },
     {
       "page": "https://mx-medical.ru/contacts/",
       "href": "https://mx-medical.ru/upload/medialibrary/c9c/uek62m8ea662pel1f4nas79icpdsufch.pdf",
-      "text": "РџРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё cookies"
+      "text": "Политикой обработки cookies"
     },
     {
       "page": "https://mx-medical.ru/zapis/",
       "href": "/upload/medialibrary/c9c/uek62m8ea662pel1f4nas79icpdsufch.pdf",
-      "text": "РѕР±СЂР°Р±РѕС‚РєСѓ РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…"
+      "text": "обработку персональных данных"
     },
     {
       "page": "https://mx-medical.ru/zapis/",
       "href": "https://mx-medical.ru/upload/medialibrary/c9c/uek62m8ea662pel1f4nas79icpdsufch.pdf",
-      "text": "РџРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё cookies"
+      "text": "Политикой обработки cookies"
     },
     {
       "page": "https://mx-medical.ru/about/doc/",
       "href": "/upload/medialibrary/c9c/uek62m8ea662pel1f4nas79icpdsufch.pdf",
-      "text": "РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё"
+      "text": "Политика конфиденциальности"
     },
     {
       "page": "https://mx-medical.ru/about/doc/",
       "href": "https://mx-medical.ru/upload/medialibrary/c9c/uek62m8ea662pel1f4nas79icpdsufch.pdf",
-      "text": "РџРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё cookies"
+      "text": "Политикой обработки cookies"
     },
     {
       "page": "https://mx-medical.ru/doctors/",
       "href": "https://mx-medical.ru/upload/medialibrary/c9c/uek62m8ea662pel1f4nas79icpdsufch.pdf",
-      "text": "РџРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё cookies"
+      "text": "Политикой обработки cookies"
     },
     {
       "page": "https://mx-medical.ru/doctors/terapevty/ambartsumyan-mariam-khachaturovna/",
       "href": "https://mx-medical.ru/upload/medialibrary/c9c/uek62m8ea662pel1f4nas79icpdsufch.pdf",
-      "text": "РџРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё cookies"
+      "text": "Политикой обработки cookies"
     },
     {
       "page": "https://mx-medical.ru/doctors/terapevty/andreeva-darya-mikhaylovna/",
       "href": "https://mx-medical.ru/upload/medialibrary/c9c/uek62m8ea662pel1f4nas79icpdsufch.pdf",
-      "text": "РџРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё cookies"
+      "text": "Политикой обработки cookies"
     },
     {
       "page": "https://mx-medical.ru/doctors/terapevty/proshchenkova-darya-andreevna/",
       "href": "https://mx-medical.ru/upload/medialibrary/c9c/uek62m8ea662pel1f4nas79icpdsufch.pdf",
-      "text": "РџРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё cookies"
+      "text": "Политикой обработки cookies"
     },
     {
       "page": "https://mx-medical.ru/doctors/terapevty/zaripova-anna-aleksandrovna/",
       "href": "https://mx-medical.ru/upload/medialibrary/c9c/uek62m8ea662pel1f4nas79icpdsufch.pdf",
-      "text": "РџРѕР»РёС‚РёРєРѕР№ РѕР±СЂР°Р±РѕС‚РєРё cookies"
+      "text": "Политикой обработки cookies"
     }
   ],
   "forbidden_hits": [],
@@ -141,7 +141,7 @@
       "protocol": "TLSv1.3",
       "issuer_cn": "R13",
       "not_after": "Jul 17 09:14:11 2026 GMT",
-      "days_left": 72,
+      "days_left": 70,
       "error": null
     },
     "http_to_https": {
@@ -168,16 +168,16 @@
       "canonical_host": "mx-medical.ru"
     },
     "ttfb": {
-      "seconds": 1.33,
+      "seconds": 1.456,
       "source_url": "https://mx-medical.ru/",
       "status": 200,
       "error": null
     },
     "pagespeed": {
       "status": "ok",
-      "score": 31,
-      "lcp_seconds": 19.252,
-      "tool": "C:\\Program Files\\nodejs\\npx.CMD --yes lighthouse",
+      "score": 44,
+      "lcp_seconds": 1.9,
+      "tool": "pagespeed_api",
       "error": null
     },
     "analytics": {
@@ -236,9 +236,9 @@
         "types": []
       },
       "footer_year": {
-        "present": null,
-        "year": null,
-        "current_year": null
+        "present": true,
+        "year": 2026,
+        "current_year": true
       }
     },
     "mixed_content": {
@@ -318,7 +318,6 @@
   },
   "verification": {
     "b2": true,
-    "b3": true,
     "b4": true
   }
 }

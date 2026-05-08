@@ -977,5 +977,9 @@
       "contact": true,
       "booking": false
     }
+  },
+  "verification": {
+    "b2": false,
+    "b4": false
   }
 }

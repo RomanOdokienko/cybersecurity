@@ -16889,5 +16889,9 @@
     },
     "sitemap_total_urls": 446,
     "sitemap_used_urls": 120
+  },
+  "verification": {
+    "b2": false,
+    "b4": false
   }
 }

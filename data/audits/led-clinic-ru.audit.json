@@ -243,5 +243,9 @@
       "contact": true,
       "booking": true
     }
+  },
+  "verification": {
+    "b2": false,
+    "b4": false
   }
 }

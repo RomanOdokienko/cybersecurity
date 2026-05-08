@@ -16295,5 +16295,9 @@
     },
     "sitemap_total_urls": 3,
     "sitemap_used_urls": 3
+  },
+  "verification": {
+    "b2": false,
+    "b4": false
   }
 }

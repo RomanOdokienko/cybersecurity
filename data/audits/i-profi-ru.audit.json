@@ -1420,5 +1420,9 @@
     },
     "sitemap_total_urls": 74,
     "sitemap_used_urls": 74
+  },
+  "verification": {
+    "b2": false,
+    "b4": false
   }
 }

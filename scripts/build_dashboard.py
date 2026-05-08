@@ -42,6 +42,23 @@ META_IGNORED_TOKENS = {
     "мессенджер фейсбук",
     "m.me",
 }
+COOKIE_NOTICE_TOKENS = {
+    "cookie",
+    "cookies",
+    "куки",
+    "файл cookie",
+    "файлы cookie",
+    "cookie policy",
+    "политика cookie",
+}
+METRIKA_POLICY_TOKENS = {
+    "яндекс.метрик",
+    "яндекс метрик",
+    "yandex metrika",
+    "yandex.metrika",
+    "mc.yandex.ru",
+    "ym(",
+}
 DKIM_SELECTOR_CANDIDATES = [
     "default",
     "selector1",
@@ -164,6 +181,47 @@ def filter_meta_hits(raw_hits):
         seen.add(key)
         filtered.append(hit)
     return filtered
+
+
+def _collect_policy_text_chunks(audit):
+    chunks = []
+    for x in (audit.get("privacy_links", []) or []):
+        for key in ("text", "href", "page"):
+            v = str(x.get(key) or "").strip().lower()
+            if v:
+                chunks.append(v)
+    discovery = audit.get("discovery", {}) or {}
+    for u in (discovery.get("legal_urls", []) or []):
+        s = str(u or "").strip().lower()
+        if s:
+            chunks.append(s)
+    for f in (audit.get("forms", []) or []):
+        s = str(f.get("policy_poc") or "").strip().lower()
+        if s:
+            chunks.append(s)
+    return chunks
+
+
+def _contains_any_token(chunks, tokens):
+    for c in chunks:
+        if any(t in c for t in tokens):
+            return True
+    return False
+
+
+def detect_cookie_notice(audit):
+    chunks = _collect_policy_text_chunks(audit)
+    return _contains_any_token(chunks, COOKIE_NOTICE_TOKENS)
+
+
+def detect_metrika_policy_disclosure(audit):
+    analytics = ((audit.get("tech") or {}).get("analytics") or {})
+    kinds = [str(x).lower() for x in (analytics.get("kinds") or [])]
+    has_yandex_metrika = "yandex_metrika" in kinds
+    if not has_yandex_metrika:
+        return True
+    chunks = _collect_policy_text_chunks(audit)
+    return _contains_any_token(chunks, METRIKA_POLICY_TOKENS)
 
 
 def parse_email_domain(email: str):
@@ -477,94 +535,58 @@ def block2_statuses(audit, site_unavailable):
             "online_slots_status": "-",
             "digital_tool_status": "-",
             "analytics_status": "-",
-            "remarketing_status": "-",
-            "speed_status": "-",
             "after_hours_status": "-",
-            "anonymous_status": "-",
+            "price_public_status": "-",
+            "services_pages_status": "-",
+            "schema_supported_status": "-",
         }
 
     discovery = audit.get("discovery", {}) or {}
-    forms = audit.get("forms", []) or []
     tech = audit.get("tech", {}) or {}
+    med = tech.get("med_trust", {}) or {}
     analytics = tech.get("analytics", {}) or {}
     engagement = tech.get("engagement", {}) or {}
-    remarketing = tech.get("remarketing", {}) or {}
 
     has_slot_booking = bool(engagement.get("slot_booking_widget"))
-    online_slots_status = "ок" if has_slot_booking else "рекомендация"
+    online_slots_status = "ок" if has_slot_booking else "проблема"
 
     sitemap_total = int(discovery.get("sitemap_total_urls") or 0)
     pages_count = len(audit.get("pages", []) or [])
     indexed_pages = max(sitemap_total, pages_count)
-    functional_signals = 0
-    functional_signals += 1 if has_slot_booking else 0
-    functional_signals += 1 if bool(analytics.get("found")) else 0
-    functional_signals += 1 if bool(remarketing.get("found")) else 0
-    functional_signals += 1 if bool(engagement.get("whatsapp") or engagement.get("telegram") or engagement.get("chat_widget")) else 0
+    service_pages = med.get("service_pages") or []
+    if not isinstance(service_pages, list):
+        service_pages = []
+    service_pages_count = int(med.get("service_pages_count") or len(service_pages))
 
-    if indexed_pages >= 10 and functional_signals >= 2:
-        digital_tool_status = "ок"
-    elif indexed_pages >= 6 or functional_signals >= 1:
-        digital_tool_status = "частично"
-    else:
-        digital_tool_status = "проблема"
+    digital_tool_status = "ок" if (indexed_pages >= 12 and service_pages_count >= 5) else "проблема"
 
     has_analytics = bool(analytics.get("found"))
-    has_goals = bool(analytics.get("goals_found"))
-    if has_analytics and has_goals:
-        analytics_status = "ок"
-    elif has_analytics:
-        analytics_status = "частично"
-    else:
-        analytics_status = "проблема"
-
-    if remarketing.get("found") is True:
-        remarketing_status = "ок"
-    elif has_analytics:
-        remarketing_status = "частично"
-    else:
-        remarketing_status = "проблема"
-
-    pagespeed = tech.get("pagespeed", {}) or {}
-    ps_score = to_float(pagespeed.get("score"))
-    ps_lcp = to_float(pagespeed.get("lcp_seconds"))
-    if ps_score is None and ps_lcp is None:
-        speed_status = "проверить"
-    elif (ps_score is not None and ps_score < 50) or (ps_lcp is not None and ps_lcp > 4.5):
-        speed_status = "проблема"
-    elif (ps_score is None or ps_score >= 70) and (ps_lcp is None or ps_lcp <= 3.0):
-        speed_status = "ок"
-    else:
-        speed_status = "частично"
+    has_goals = bool(analytics.get("goals_found")) or bool(analytics.get("goal_markers"))
+    analytics_status = "ок" if (has_analytics and has_goals) else "проблема"
 
     has_async_channel = bool(
         engagement.get("whatsapp")
         or engagement.get("telegram")
         or engagement.get("chat_widget")
-        or len(forms) > 0
     )
     after_hours_status = "ок" if has_async_channel else "проблема"
 
-    has_chat = bool(engagement.get("chat_widget"))
-    has_text_question_without_required_phone = any(
-        bool(f.get("has_textarea")) and not bool(f.get("phone_required"))
-        for f in forms
-    )
-    if has_chat or has_text_question_without_required_phone:
-        anonymous_status = "ок"
-    elif len(forms) > 0:
-        anonymous_status = "частично"
-    else:
-        anonymous_status = "проблема"
+    price_public_status = "ок" if med.get("price_public_found") is True else "проблема"
+    services_pages_status = "ок" if service_pages_count >= 3 else "проблема"
+
+    schema = med.get("schema", {}) or {}
+    schema_types = [str(x).strip().lower() for x in (schema.get("types") or []) if str(x).strip()]
+    supported = {"medicalorganization", "medicalclinic", "dentist", "physician", "hospital", "localbusiness"}
+    schema_supported_status = "ок" if any(t in supported for t in schema_types) else "проблема"
 
     return {
         "online_slots_status": online_slots_status,
         "digital_tool_status": digital_tool_status,
         "analytics_status": analytics_status,
-        "remarketing_status": remarketing_status,
-        "speed_status": speed_status,
         "after_hours_status": after_hours_status,
-        "anonymous_status": anonymous_status,
+        "price_public_status": price_public_status,
+        "services_pages_status": services_pages_status,
+        "schema_supported_status": schema_supported_status,
     }
 
 
@@ -769,30 +791,13 @@ def block4_statuses(audit, site_unavailable):
 
     address_found = med.get("address_found")
     map_found = med.get("map_found")
-    if address_found is True and map_found is True:
-        address_map_status = "ок"
-    elif address_found is True or map_found is True:
-        address_map_status = "проверить"
-    elif address_found is False and map_found is False:
-        address_map_status = "проблема"
-    else:
-        address_map_status = "проверить"
+    address_map_status = "ок" if (address_found is True and map_found is True) else "проблема"
 
     hours_found = med.get("hours_found")
-    if hours_found is True:
-        hours_status = "ок"
-    elif hours_found is False:
-        hours_status = "проверить"
-    else:
-        hours_status = "проверить"
+    hours_status = "ок" if (hours_found is True) else "проблема"
 
     reviews_found = med.get("reviews_found")
-    if reviews_found is True:
-        reviews_status = "ок"
-    elif reviews_found is False:
-        reviews_status = "проверить"
-    else:
-        reviews_status = "проверить"
+    reviews_status = "ок" if (reviews_found is True) else "проблема"
 
     contacts_exists = med.get("contact_page_exists")
     if contacts_exists is None:
@@ -806,10 +811,8 @@ def block4_statuses(audit, site_unavailable):
         footer_year_status = "ок"
     elif footer_current is True:
         footer_year_status = "ок"
-    elif footer_current is False:
-        footer_year_status = "проблема"
     else:
-        footer_year_status = "проверить"
+        footer_year_status = "проблема"
 
     return {
         "doctors_page_status": doctors_page_status,
@@ -884,6 +887,8 @@ def compute_summary(item, audit):
 
     meta_status = "ок" if not forbidden else "проблема"
     policy_status = "ок" if privacy else "проблема"
+    cookie_notice_found = detect_cookie_notice(audit)
+    metrika_policy_disclosed = detect_metrika_policy_disclosure(audit)
 
     if availability_status == "проблема":
         return {
@@ -896,6 +901,8 @@ def compute_summary(item, audit):
             "spf_dmarc_status": "-",
             "meta_status": "-",
             "policy_status": "-",
+            "cookie_notice_found": None,
+            "metrika_policy_disclosed": None,
             "result": "-",
             "bad_https_forms": [],
             "consent_buckets": {"текстом": [], "checked": [], "не найдено": [], "unchecked": []},
@@ -927,6 +934,8 @@ def compute_summary(item, audit):
         "spf_dmarc_status": spf_dmarc_status,
         "meta_status": meta_status,
         "policy_status": policy_status,
+        "cookie_notice_found": cookie_notice_found,
+        "metrika_policy_disclosed": metrika_policy_disclosed,
         "result": item.get("result", "проверить"),
         "bad_https_forms": bad_https_forms,
         "consent_buckets": consent_buckets,
@@ -1014,17 +1023,15 @@ def metric_lines(metric_name, status, evidence_lines):
 def block2_poc_lines(audit, summary):
     b2 = summary.get("b2", {}) or {}
     tech = audit.get("tech", {}) or {}
+    med = tech.get("med_trust", {}) or {}
     discovery = audit.get("discovery", {}) or {}
-    forms = audit.get("forms", []) or []
     analytics = tech.get("analytics", {}) or {}
     engagement = tech.get("engagement", {}) or {}
-    remarketing = tech.get("remarketing", {}) or {}
-    pagespeed = tech.get("pagespeed", {}) or {}
 
     lines = []
 
     lines.append(metric_lines(
-        "Онлайн-запись со слотами (nice-to-have)",
+        "Нет онлайн-записи со слотами",
         b2.get("online_slots_status", "-"),
         [
             f"slot_booking_widget: {bool(engagement.get('slot_booking_widget'))}",
@@ -1034,18 +1041,13 @@ def block2_poc_lines(audit, summary):
 
     sitemap_total = int(discovery.get("sitemap_total_urls") or 0)
     pages_count = len(audit.get("pages", []) or [])
-    functional_signals = 0
-    functional_signals += 1 if bool(engagement.get("slot_booking_widget")) else 0
-    functional_signals += 1 if bool(analytics.get("found")) else 0
-    functional_signals += 1 if bool(remarketing.get("found")) else 0
-    functional_signals += 1 if bool(engagement.get("whatsapp") or engagement.get("telegram") or engagement.get("chat_widget")) else 0
     lines.append(metric_lines(
         "Сайт — цифровая визитка, не инструмент",
         b2.get("digital_tool_status", "-"),
         [
             f"sitemap_total_urls: {sitemap_total}",
             f"pages_count: {pages_count}",
-            f"functional_signals: {functional_signals}",
+            f"service_pages_count: {int(med.get('service_pages_count') or len(med.get('service_pages') or []))}",
         ],
     ))
 
@@ -1060,52 +1062,41 @@ def block2_poc_lines(audit, summary):
         ],
     ))
 
-    remarketing_hits = [k for k in ["vk_pixel", "meta_pixel", "google_ads_remarketing"] if remarketing.get(k)]
-    lines.append(metric_lines(
-        "Ушедший пациент потерян навсегда — нет ремаркетинга",
-        b2.get("remarketing_status", "-"),
-        [
-            f"remarketing.found: {remarketing.get('found')}",
-            "remarketing_signals: " + ", ".join(remarketing_hits) if remarketing_hits else "remarketing_signals: не найдены",
-        ],
-    ))
-
-    lines.append(metric_lines(
-        "Скорость сайта на мобильном — место в рейтинге среди клиник",
-        b2.get("speed_status", "-"),
-        [
-            f"pagespeed.status: {pagespeed.get('status')}",
-            f"pagespeed.score: {pagespeed.get('score')}",
-            f"pagespeed.lcp_seconds: {pagespeed.get('lcp_seconds')}",
-        ],
-    ))
-
-    async_channels = []
-    if engagement.get("whatsapp"):
-        async_channels.append("whatsapp")
-    if engagement.get("telegram"):
-        async_channels.append("telegram")
-    if engagement.get("chat_widget"):
-        async_channels.append("chat_widget")
-    if forms:
-        async_channels.append("form")
     lines.append(metric_lines(
         "Пациент не может написать в нерабочее время",
         b2.get("after_hours_status", "-"),
         [
-            "async_channels: " + ", ".join(async_channels) if async_channels else "async_channels: не найдены",
-            f"forms_count: {len(forms)}",
+            f"whatsapp: {bool(engagement.get('whatsapp'))}",
+            f"telegram: {bool(engagement.get('telegram'))}",
+            f"chat_widget: {bool(engagement.get('chat_widget'))}",
         ],
     ))
 
-    has_textarea_no_phone = any(bool(f.get("has_textarea")) and not bool(f.get("phone_required")) for f in forms)
     lines.append(metric_lines(
-        "Нет возможности задать вопрос анонимно",
-        b2.get("anonymous_status", "-"),
+        "Прайс-лист доступен без регистрации",
+        b2.get("price_public_status", "-"),
         [
-            f"chat_widget: {bool(engagement.get('chat_widget'))}",
-            f"textarea_without_required_phone: {has_textarea_no_phone}",
-            f"forms_count: {len(forms)}",
+            f"price_public_found: {med.get('price_public_found')}",
+            "price_pages: " + ", ".join((med.get("price_pages") or [])[:5]) if med.get("price_pages") else "price_pages: не найдены",
+        ],
+    ))
+
+    lines.append(metric_lines(
+        "Ключевые услуги вынесены в отдельные страницы",
+        b2.get("services_pages_status", "-"),
+        [
+            f"service_pages_count: {int(med.get('service_pages_count') or len(med.get('service_pages') or []))}",
+            "service_pages: " + ", ".join((med.get("service_pages") or [])[:5]) if med.get("service_pages") else "service_pages: не найдены",
+        ],
+    ))
+
+    schema = med.get("schema", {}) or {}
+    lines.append(metric_lines(
+        "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
+        b2.get("schema_supported_status", "-"),
+        [
+            f"schema.any: {schema.get('any')}",
+            "schema.types: " + ", ".join((schema.get("types") or [])) if schema.get("types") else "schema.types: не найдены",
         ],
     ))
 
@@ -1319,8 +1310,8 @@ def build_detail_page(item, audit, s):
     prechecked = int(consent_counts.get("checked", 0)) > 0
     no_checkbox_status = "-" if site_unavailable else ("проблема" if missing_checkbox else "ок")
     prechecked_status = "-" if site_unavailable else ("проблема" if prechecked else "ок")
-    cookie_status = "-" if site_unavailable else "проверить"
-    third_party_policy_status = "-" if site_unavailable else "проверить"
+    cookie_status = "-" if site_unavailable else ("ок" if bool(s.get("cookie_notice_found")) else "проблема")
+    third_party_policy_status = "-" if site_unavailable else ("ок" if bool(s.get("metrika_policy_disclosed")) else "проблема")
 
     block1_lines = [
         metric_lines(
@@ -1363,16 +1354,16 @@ def build_detail_page(item, audit, s):
             "Сайт собирает данные пациентов без их уведомления",
             cookie_status,
             [
-                "Автопроверка cookie-баннера пока не включена в бинарную верификацию.",
-                "Текущий статус: проверка вручную.",
+                f"cookie_notice_found: {s.get('cookie_notice_found')}",
+                "Источник: privacy_links / legal_urls / policy_poc.",
             ],
         ),
         metric_lines(
             "Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова",
             third_party_policy_status,
             [
-                "Автосопоставление сторонних сервисов с текстом политики пока в ручной верификации.",
-                "Текущий статус: проверка вручную.",
+                f"metrika_policy_disclosed: {s.get('metrika_policy_disclosed')}",
+                "Источник: analytics.kinds + policy-related тексты (privacy_links/legal_urls/policy_poc).",
             ],
         ),
     ]
@@ -1489,13 +1480,13 @@ def step2_block_schema():
             "id": "b2",
             "title": "Блок 2",
             "metric_names": [
-                "Онлайн-запись со слотами (nice-to-have)",
+                "Нет онлайн-записи со слотами",
                 "Сайт — цифровая визитка, не инструмент",
                 "Вы не знаете кто приходит на сайт и почему уходит",
-                "Ушедший пациент потерян навсегда — нет ремаркетинга",
-                "Скорость сайта на мобильном — место в рейтинге среди клиник",
                 "Пациент не может написать в нерабочее время",
-                "Нет возможности задать вопрос анонимно",
+                "Прайс-лист доступен без регистрации",
+                "Ключевые услуги вынесены в отдельные страницы",
+                "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
             ],
         },
         {
@@ -1518,10 +1509,10 @@ def metric_tooltip(block_id: str, metric_idx: int, metric_name: str) -> str:
         0: "Оценка: 'ок' — найдена рабочая онлайн-запись со слотами (дата/время); 'проблема' — слоты не найдены.",
         1: "Оценка: 'ок' — индексируемых страниц >=12 и страниц услуг >=5; 'проблема' — хотя бы одно условие не выполнено.",
         2: "Оценка: 'ок' — есть Яндекс.Метрика и признаки целей/событий; 'проблема' — Метрики нет или целей/событий нет.",
-        3: "Оценка: 'ок' — найден минимум один ремаркетинг-пиксель (VK/Meta/Google Ads); 'проблема' — пиксель не найден.",
-        4: "Оценка: 'ок' — LCP <= 3.0s и/или score >= 70; 'проблема' — LCP > 3.0s или score < 70.",
-        5: "Оценка: 'ок' — есть рабочий асинхронный канал (WhatsApp/Telegram/Max/чат); 'проблема' — канала нет.",
-        6: "Оценка: 'ок' — есть чат или форма вопроса без обязательного телефона; 'проблема' — таких каналов нет.",
+        3: "Оценка: 'ок' — есть рабочий асинхронный канал (WhatsApp/Telegram/Max/чат); 'проблема' — канала нет.",
+        4: "Оценка: 'ок' — найдена публичная страница цен (без логина/регистрации); 'проблема' — не найдена.",
+        5: "Оценка: 'ок' — найдено >=3 отдельных service-URL; 'проблема' — меньше 3.",
+        6: "Оценка: 'ок' — есть поддерживаемая schema.org разметка (organization/medical/localbusiness); 'проблема' — не найдена.",
     }
     if block_id == "b2":
         return block2.get(metric_idx, "")
@@ -1535,8 +1526,8 @@ def step2_blocks_data(summary):
     b3 = summary.get("b3", {}) or {}
     missing_checkbox = int(consent_counts.get("не найдено", 0)) > 0
     prechecked = int(consent_counts.get("checked", 0)) > 0
-    cookie_status = "-" if site_unavailable else "проверить"
-    third_party_policy_status = "-" if site_unavailable else "проверить"
+    cookie_status = "-" if site_unavailable else ("ок" if bool(summary.get("cookie_notice_found")) else "проблема")
+    third_party_policy_status = "-" if site_unavailable else ("ок" if bool(summary.get("metrika_policy_disclosed")) else "проблема")
     b4 = summary.get("b4", {}) or {}
     block2_default_status = "-" if site_unavailable else "проверить"
     block2_verified = bool(summary.get("block2_verified"))
@@ -1549,10 +1540,10 @@ def step2_blocks_data(summary):
         b2.get("online_slots_status", block2_default_status),
         b2.get("digital_tool_status", block2_default_status),
         b2.get("analytics_status", block2_default_status),
-        b2.get("remarketing_status", block2_default_status),
-        b2.get("speed_status", block2_default_status),
         b2.get("after_hours_status", block2_default_status),
-        b2.get("anonymous_status", block2_default_status),
+        b2.get("price_public_status", block2_default_status),
+        b2.get("services_pages_status", block2_default_status),
+        b2.get("schema_supported_status", block2_default_status),
     ]
     if not block2_verified:
         b2_values = ["-"] * len(b2_values)
@@ -1578,12 +1569,12 @@ def step2_blocks_data(summary):
         b3_values = ["-"] * len(b3_values)
 
     b4_values = [
-        b4.get("doctors_page_status", "-" if site_unavailable else "проверить"),
-        b4.get("address_map_status", "-" if site_unavailable else "проверить"),
-        b4.get("hours_status", "-" if site_unavailable else "проверить"),
-        b4.get("reviews_status", "-" if site_unavailable else "проверить"),
-        b4.get("footer_year_status", "-" if site_unavailable else "проверить"),
-        b4.get("contacts_page_status", "-" if site_unavailable else "проверить"),
+        b4.get("doctors_page_status", "-" if site_unavailable else "проблема"),
+        b4.get("address_map_status", "-" if site_unavailable else "проблема"),
+        b4.get("hours_status", "-" if site_unavailable else "проблема"),
+        b4.get("reviews_status", "-" if site_unavailable else "проблема"),
+        b4.get("footer_year_status", "-" if site_unavailable else "проблема"),
+        b4.get("contacts_page_status", "-" if site_unavailable else "проблема"),
     ]
     if not block4_verified:
         b4_values = ["-"] * len(b4_values)
@@ -1773,20 +1764,20 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
       <li>Результат строго бинарный: <b>ок</b> или <b>проблема</b>.</li>
       <li>Если сигнал противоречивый, статус не ставим до ручного обсуждения.</li>
     </ul>
-    <h4>1. Онлайн-запись со слотами</h4>
+    <h4>1. Нет онлайн-записи со слотами</h4>
     <p><b>ок:</b> есть рабочий выбор даты и времени (слоты). <b>проблема:</b> только форма/звонок без слотов.</p>
     <h4>2. Сайт — цифровая визитка, не инструмент</h4>
     <p><b>ок:</b> индексируемых страниц &gt;= 12 и страниц услуг &gt;= 5. <b>проблема:</b> любое условие не выполнено.</p>
     <h4>3. Вы не знаете кто приходит на сайт и почему уходит</h4>
     <p><b>ок:</b> есть Яндекс.Метрика и признаки целей/событий. <b>проблема:</b> Метрики нет или целей/событий нет.</p>
-    <h4>4. Ушедший пациент потерян навсегда — нет ремаркетинга</h4>
-    <p><b>ок:</b> найден хотя бы один пиксель ремаркетинга (VK/Meta/Google Ads). <b>проблема:</b> не найдено.</p>
-    <h4>5. Скорость сайта на мобильном</h4>
-    <p><b>ок:</b> LCP &lt;= 3.0s и/или PageSpeed score &gt;= 70. <b>проблема:</b> LCP &gt; 3.0s или score &lt; 70.</p>
-    <h4>6. Пациент не может написать в нерабочее время</h4>
+    <h4>4. Пациент не может написать в нерабочее время</h4>
     <p><b>ок:</b> есть WhatsApp/Telegram/Max/онлайн-чат и он открывается. <b>проблема:</b> рабочего канала нет.</p>
-    <h4>7. Нет возможности задать вопрос анонимно</h4>
-    <p><b>ок:</b> есть форма вопроса без обязательного телефона или чат без требования номера. <b>проблема:</b> таких каналов нет.</p>
+    <h4>5. Прайс-лист доступен без регистрации</h4>
+    <p><b>ок:</b> найдена публичная страница цен без логина/регистрации и с ценовым контентом. <b>проблема:</b> не найдена.</p>
+    <h4>6. Ключевые услуги вынесены в отдельные страницы</h4>
+    <p><b>ок:</b> найдено не менее 3 отдельных страниц услуг (имплантация/брекеты/виниры/коронки/отбеливание). <b>проблема:</b> меньше 3.</p>
+    <h4>7. Schema.org Поддерживаемые схемы Schemaorg от Яндекса</h4>
+    <p><b>ок:</b> есть поддерживаемая schema.org разметка (organization/medical/localbusiness). <b>проблема:</b> разметка не найдена.</p>
   </div>
   <div class=\"method-template\" id=\"methodology-b4\">
     <p>Методология для этого блока будет добавлена отдельно.</p>
@@ -2122,7 +2113,6 @@ def main():
 </html>
 """
 
-    (ROOT / "dashboard.html").write_text(dashboard, encoding="utf-8")
     screening_step_2 = build_screening_step2(
         rows_step2,
         counts,
@@ -2131,6 +2121,8 @@ def main():
         step2_headers,
         json.dumps(step2_col_counts, ensure_ascii=False),
     )
+    # Keep dashboard.html as the default entry point, but serve Step 2 content.
+    (ROOT / "dashboard.html").write_text(screening_step_2, encoding="utf-8")
     (ROOT / "screening-step-2.html").write_text(screening_step_2, encoding="utf-8")
     (ROOT / "audit-blocks.html").write_text(screening_step_2, encoding="utf-8")
 

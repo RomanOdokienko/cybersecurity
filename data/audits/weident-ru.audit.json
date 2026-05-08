@@ -801,5 +801,9 @@
       "contact": false,
       "booking": false
     }
+  },
+  "verification": {
+    "b2": false,
+    "b4": false
   }
 }

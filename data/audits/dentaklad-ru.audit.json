@@ -443,5 +443,9 @@
     },
     "sitemap_total_urls": 4,
     "sitemap_used_urls": 4
+  },
+  "verification": {
+    "b2": false,
+    "b4": false
   }
 }

@@ -458,8 +458,8 @@
     "sitemap_used_urls": 2
   },
   "verification": {
-    "b2": true,
+    "b2": false,
     "b3": true,
-    "b4": true
+    "b4": false
   }
 }

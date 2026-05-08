@@ -709,5 +709,9 @@
     },
     "sitemap_total_urls": 26,
     "sitemap_used_urls": 26
+  },
+  "verification": {
+    "b2": false,
+    "b4": false
   }
 }

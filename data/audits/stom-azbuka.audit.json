@@ -2306,8 +2306,8 @@
     "sitemap_used_urls": 40
   },
   "verification": {
-    "b2": true,
+    "b2": false,
     "b3": true,
-    "b4": true
+    "b4": false
   }
 }
