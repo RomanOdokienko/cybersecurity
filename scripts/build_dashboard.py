@@ -59,6 +59,7 @@ METRIKA_POLICY_TOKENS = {
     "mc.yandex.ru",
     "ym(",
 }
+NON_EVIDENCE_DISCOVERY_SOURCES = {"fallback", "policy-fallback", "policy-hint"}
 DKIM_SELECTOR_CANDIDATES = [
     "default",
     "selector1",
@@ -185,7 +186,7 @@ def filter_meta_hits(raw_hits):
 
 def _collect_policy_text_chunks(audit):
     chunks = []
-    for x in (audit.get("privacy_links", []) or []):
+    for x in collect_policy_evidence(audit):
         for key in ("text", "href", "page"):
             v = str(x.get(key) or "").strip().lower()
             if v:
@@ -200,6 +201,55 @@ def _collect_policy_text_chunks(audit):
         if s:
             chunks.append(s)
     return chunks
+
+
+def collect_policy_evidence(audit):
+    discovery = audit.get("discovery", {}) or {}
+    source_map = discovery.get("sources", {}) or {}
+    pages = audit.get("pages", []) or []
+    status_by_requested = {str(p.get("requested") or ""): p.get("status") for p in pages}
+
+    evidence = []
+    seen = set()
+
+    # 1) Anchor/link evidence from real crawled pages (exclude synthetic fallback sources).
+    for x in (audit.get("privacy_links", []) or []):
+        page = str(x.get("page") or "").strip()
+        href = str(x.get("href") or "").strip()
+        text = str(x.get("text") or "").strip()
+        if not (page or href or text):
+            continue
+        if text.lower() == "policy path":
+            continue
+        page_src = str(source_map.get(page, "") or "").strip().lower()
+        if page_src in NON_EVIDENCE_DISCOVERY_SOURCES:
+            continue
+        key = ("anchor", page, href, text)
+        if key in seen:
+            continue
+        seen.add(key)
+        evidence.append({"kind": "anchor", "page": page, "href": href, "text": text, "source": page_src or "unknown"})
+
+    # 2) Legal pages discovered from sitemap/navigation only (exclude policy fallback/hint).
+    for u in (discovery.get("legal_urls", []) or []):
+        url = str(u or "").strip()
+        if not url:
+            continue
+        src = str(source_map.get(url, "") or "").strip().lower()
+        if src in NON_EVIDENCE_DISCOVERY_SOURCES:
+            continue
+        if src not in {"sitemap-legal", "navigation-legal"}:
+            continue
+        status = status_by_requested.get(url)
+        if status != 200:
+            continue
+        key = ("legal-page", url, src)
+        if key in seen:
+            continue
+        seen.add(key)
+        evidence.append({"kind": "legal-page", "page": url, "href": url, "text": "legal page", "source": src})
+
+    return evidence
 
 
 def _contains_any_token(chunks, tokens):
@@ -837,7 +887,7 @@ def compute_summary(item, audit):
 
     forms = audit.get("forms", [])
     forbidden = filter_meta_hits(audit.get("forbidden_hits", []))
-    privacy = audit.get("privacy_links", [])
+    policy_evidence = collect_policy_evidence(audit)
     cert_errors = audit.get("cert_errors", [])
 
     found_pages = select_found_pages_for_availability(pages, source_map)
@@ -884,7 +934,7 @@ def compute_summary(item, audit):
     spf_dmarc_poc = " | ".join(spf_dmarc_lines)
 
     meta_status = "ок" if not forbidden else "проблема"
-    policy_status = "ок" if privacy else "проблема"
+    policy_status = "ок" if policy_evidence else "проблема"
     cookie_notice_found = detect_cookie_notice(audit)
     metrika_policy_disclosed = detect_metrika_policy_disclosure(audit)
 
@@ -899,6 +949,7 @@ def compute_summary(item, audit):
             "spf_dmarc_status": "-",
             "meta_status": "-",
             "policy_status": "-",
+            "policy_evidence": [],
             "cookie_notice_found": None,
             "metrika_policy_disclosed": None,
             "result": "-",
@@ -932,6 +983,7 @@ def compute_summary(item, audit):
         "spf_dmarc_status": spf_dmarc_status,
         "meta_status": meta_status,
         "policy_status": policy_status,
+        "policy_evidence": policy_evidence,
         "cookie_notice_found": cookie_notice_found,
         "metrika_policy_disclosed": metrika_policy_disclosed,
         "result": item.get("result", "проверить"),
@@ -1210,7 +1262,7 @@ def block4_poc_lines(audit, summary):
 def build_detail_page(item, audit, s):
     pages = audit.get("pages", [])
     forbidden = filter_meta_hits(audit.get("forbidden_hits", []))
-    privacy = audit.get("privacy_links", [])
+    policy_evidence = s.get("policy_evidence", []) or []
     discovery = audit.get("discovery", {})
     source_map = discovery.get("sources", {})
 
@@ -1292,9 +1344,15 @@ def build_detail_page(item, audit, s):
     policy_lines = []
     if s.get("site_unavailable"):
         policy_lines.append("Не проверено: сайт недоступен.")
-    elif privacy:
-        for x in privacy[:40]:
-            policy_lines.append(f"{x.get('page')} -> {x.get('href')} (текст: {x.get('text')})")
+    elif policy_evidence:
+        policy_lines.append(f"policy_evidence_count: {len(policy_evidence)}")
+        for x in policy_evidence[:40]:
+            if str(x.get("kind")) == "legal-page":
+                policy_lines.append(f"legal-page | {x.get('page')} | source={x.get('source')}")
+            else:
+                policy_lines.append(
+                    f"anchor | {x.get('page')} -> {x.get('href')} (текст: {x.get('text')}) | source={x.get('source')}"
+                )
     else:
         policy_lines.append("Ссылка на политику не найдена.")
 
@@ -1758,13 +1816,14 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
       <li>Один агент = одна клиника = один прогон.</li>
       <li>Проверка в браузере с рендерингом JS + анализ audit JSON.</li>
       <li>Результат строго бинарный: <b>ок</b> или <b>проблема</b>.</li>
+      <li>Fallback-эвристики не используются: статус ставится только по фактически найденным сигналам (PoC).</li>
     </ul>
     <h4>1. Пациент не давал согласия на обработку данных</h4>
     <p><b>ок:</b> на всех формах найден маркер согласия (чекбокс или корректный текст согласия). <b>проблема:</b> есть формы без маркера согласия. Предустановленный чекбокс оценивается отдельно в п.2.</p>
     <h4>2. Согласие подставлено автоматически — это хуже чем его отсутствие</h4>
     <p><b>ок:</b> нет предустановленных чекбоксов согласия. <b>проблема:</b> есть хотя бы один prechecked-чекбокс.</p>
     <h4>3. На сайте нет обязательного документа об обработке данных пациентов</h4>
-    <p><b>ок:</b> найдена ссылка/страница политики обработки ПДн. <b>проблема:</b> не найдена.</p>
+    <p><b>ок:</b> найдена реальная ссылка/страница политики ПДн из навигации/контента сайта (с PoC URL/контекста). <b>проблема:</b> доказательство не найдено.</p>
     <h4>4. Имя и телефон пациента передаются в открытом виде — любой может перехватить</h4>
     <p><b>ок:</b> формы не отправляют данные на HTTP (используется HTTPS). <b>проблема:</b> найден хотя бы один HTTP action.</p>
     <h4>5. На сайте упоминается организация, признанная в России экстремистской</h4>

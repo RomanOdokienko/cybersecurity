@@ -34,15 +34,6 @@ FORBIDDEN_TOKENS = [
 
 CONTACT_FALLBACK_PATHS = ['/contacts', '/contact', '/kontakty']
 BOOKING_FALLBACK_PATHS = ['/zapis', '/appointment', '/booking']
-POLICY_FALLBACK_PATHS = [
-    '/policy',
-    '/privacy-policy',
-    '/privacy',
-    '/politika',
-    '/agreement',
-    '/personal-data',
-    '/politika-konfidencialnosti',
-]
 MAX_SITEMAP_URLS = 120
 MAX_INTERNAL_LINK_CHECKS = 120
 MAX_RESOURCE_CHECKS = 160
@@ -467,29 +458,6 @@ def is_legal_hint(s: str):
 def has_privacy_hint(s: str):
     s = s.lower()
     return any(k in s for k in PRIVACY_HINTS)
-
-
-def extract_policy_hint_urls(base: str, html: str):
-    # Tilda/JS often keeps links in escaped form like \"\/policy\".
-    norm = (html or '').replace('\\/', '/')
-    out = set()
-
-    for pat in [
-        r'(?is)/policy(?:[/?#][^"\'<>\s]*)?',
-        r'(?is)/privacy-policy(?:[/?#][^"\'<>\s]*)?',
-        r'(?is)/privacy(?:[/?#][^"\'<>\s]*)?',
-        r'(?is)/politika(?:[/?#][^"\'<>\s]*)?',
-        r'(?is)/agreement(?:[/?#][^"\'<>\s]*)?',
-        r'(?is)/personal-data(?:[/?#][^"\'<>\s]*)?',
-        r'(?is)/pdn(?:[/?#][^"\'<>\s]*)?',
-    ]:
-        for m in re.finditer(pat, norm):
-            path = m.group(0)
-            if path.startswith('/wp-content/') and '.pdf' not in path.lower():
-                continue
-            out.add(urljoin(base + '/', path))
-
-    return out
 
 
 def extract_forms(html: str):
@@ -1148,19 +1116,6 @@ def run_audit(base_url: str):
                 legal_urls.add(link['url'])
                 source_map[link['url']] = source_map.get(link['url'], 'navigation-legal')
 
-    # 3b) discover policy URLs from escaped JS/template markup (e.g. \"\/policy\")
-    if home_html:
-        for u in extract_policy_hint_urls(crawl_base, home_html):
-            legal_urls.add(u)
-            source_map[u] = source_map.get(u, 'policy-hint')
-
-    # 3c) if still nothing legal found, try common policy paths.
-    if not legal_urls:
-        for pth in POLICY_FALLBACK_PATHS:
-            u = crawl_base + pth
-            legal_urls.add(u)
-            source_map[u] = source_map.get(u, 'policy-fallback')
-
     # 4) collect form pages from sitemap and detect booking candidates by content
     form_pages = set()
     booking_candidates = set()
@@ -1370,9 +1325,6 @@ def run_audit(base_url: str):
 
         if status != 200 or not html:
             continue
-
-        if has_privacy_hint(url):
-            privacy_links.append({'page': url, 'href': url, 'text': 'policy path'})
 
         for em in re.findall(r'(?i)\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b', html):
             emails.add(em)
