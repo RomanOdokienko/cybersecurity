@@ -1,4 +1,5 @@
-﻿import json
+﻿import argparse
+import json
 import html
 import re
 from functools import lru_cache
@@ -830,6 +831,7 @@ def block4_statuses(audit, site_unavailable):
             "reviews_status": "-",
             "footer_year_status": "-",
             "contacts_page_status": "-",
+            "text_typos_status": "-",
         }
 
     tech = audit.get("tech", {}) or {}
@@ -876,6 +878,13 @@ def block4_statuses(audit, site_unavailable):
         footer_year_status = "ок"
     else:
         footer_year_status = "проблема"
+    text_typos = med.get("text_typos", {}) or {}
+    typo_errors = int(text_typos.get("error_count") or 0)
+    typo_checked_pages = int(len(text_typos.get("checked_pages") or []))
+    if typo_checked_pages == 0:
+        text_typos_status = "проблема"
+    else:
+        text_typos_status = "проблема" if typo_errors > 5 else "ок"
 
     return {
         "doctors_page_status": doctors_page_status,
@@ -884,6 +893,7 @@ def block4_statuses(audit, site_unavailable):
         "reviews_status": reviews_status,
         "footer_year_status": footer_year_status,
         "contacts_page_status": contacts_page_status,
+        "text_typos_status": text_typos_status,
     }
 
 
@@ -1244,6 +1254,7 @@ def block4_poc_lines(audit, summary):
     tech = audit.get("tech", {}) or {}
     med = tech.get("med_trust", {}) or {}
     footer_year = med.get("footer_year", {}) or {}
+    text_typos = med.get("text_typos", {}) or {}
 
     lines = []
     lines.append(metric_lines("Страница врачей / специалистов", b4.get("doctors_page_status", "-"), [
@@ -1269,6 +1280,13 @@ def block4_poc_lines(audit, summary):
         f"contact_page_exists: {med.get('contact_page_exists')}",
         f"contact_block_found: {med.get('contact_block_found')}",
         "contact_pages: " + ", ".join((med.get("contact_pages") or [])[:5]) if med.get("contact_pages") else "contact_pages: не найдены",
+    ]))
+    typo_samples = text_typos.get("samples") or []
+    lines.append(metric_lines("Орфографические ошибки в тексте сайта", b4.get("text_typos_status", "-"), [
+        f"error_count: {text_typos.get('error_count')}",
+        f"checked_pages: {len(text_typos.get('checked_pages') or [])}",
+    ] + [
+        f"{x.get('word')} ({x.get('suggestion')}) — {x.get('page')}" for x in typo_samples[:8]
     ]))
     return lines
 
@@ -1569,6 +1587,7 @@ def step2_block_schema():
                 "Отзывы пациентов на сайте",
                 "Актуальность года в футере (если он вообще есть). Если его нет — ок",
                 "Есть отдельная страница контактов",
+                "Орфографические ошибки в тексте сайта",
             ],
         },
     ]
@@ -1643,6 +1662,7 @@ def step2_blocks_data(summary):
         b4.get("reviews_status", "-" if site_unavailable else "проблема"),
         b4.get("footer_year_status", "-" if site_unavailable else "проблема"),
         b4.get("contacts_page_status", "-" if site_unavailable else "проблема"),
+        b4.get("text_typos_status", "-" if site_unavailable else "проблема"),
     ]
     if not block4_verified:
         b4_values = ["-"] * len(b4_values)
@@ -1884,6 +1904,8 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
     <p><b>ок:</b> футер отсутствует или в футере указан актуальный год. <b>проблема:</b> футер есть, но год неактуален.</p>
     <h4>6. Есть отдельная страница контактов</h4>
     <p><b>ок:</b> найдена отдельная страница контактов или контактный блок на главной. <b>проблема:</b> не найдено ни страницы, ни блока контактов.</p>
+    <h4>7. Орфографические ошибки в тексте сайта</h4>
+    <p><b>ок:</b> найдено 5 ошибок или меньше. <b>проблема:</b> найдено больше 5 ошибок.</p>
   </div>
 
   <div class=\"method-modal\" id=\"methodology-modal\" aria-hidden=\"true\">
@@ -1994,7 +2016,31 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
 """
 
 
+
+def parse_args():
+    parser = argparse.ArgumentParser(description="Build screening dashboards and detail pages")
+    parser.add_argument("--site-id", dest="site_ids_single", action="append", default=[], help="Build details only for this site id (repeatable)")
+    parser.add_argument("--site-ids", dest="site_ids_csv", default="", help="Comma-separated site ids for detail build")
+    return parser.parse_args()
+
+
+def normalized_site_id_filter(args):
+    selected = set()
+    for x in args.site_ids_single or []:
+        v = str(x or "").strip()
+        if v:
+            selected.add(v)
+    for x in str(args.site_ids_csv or "").split(","):
+        v = x.strip()
+        if v:
+            selected.add(v)
+    return selected
+
 def main():
+    args = parse_args()
+    selected_site_ids = normalized_site_id_filter(args)
+    selective_details = len(selected_site_ids) > 0
+
     manifest = read_json(MANIFEST)
     step2_schema = step2_block_schema()
     step2_headers = step2_header_rows(step2_schema)
@@ -2027,7 +2073,8 @@ def main():
         summary = entry["summary"]
         rows.append(row_html(idx, item["id"], item["clinic"], item["site"], summary))
         rows_step2.append(row_html_step2(idx, item["id"], item["clinic"], item["site"], summary, step2_schema))
-        details.append((item["id"], build_detail_page(item, audit, summary)))
+        if (not selective_details) or (item["id"] in selected_site_ids):
+            details.append((item["id"], build_detail_page(item, audit, summary)))
 
     dashboard = f"""<!doctype html>
 <html lang=\"ru\">
@@ -2241,7 +2288,14 @@ def main():
     for site_id, _ in details:
         print(sites_dir / f"{site_id}.html")
 
+    if selective_details:
+        skipped = [str(x.get("id")) for x in manifest if str(x.get("id")) not in selected_site_ids]
+        print(f"Detail pages updated: {len(details)} selected")
+        if skipped:
+            print(f"Detail pages skipped: {len(skipped)}")
+
 
 if __name__ == "__main__":
     main()
+
 

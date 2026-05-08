@@ -909,11 +909,6 @@
     {
       "page": "https://dr-knyazkin.ru/politika",
       "href": "https://dr-knyazkin.ru/politika",
-      "text": "policy path"
-    },
-    {
-      "page": "https://dr-knyazkin.ru/politika",
-      "href": "https://dr-knyazkin.ru/politika",
       "text": "Политика безопасности"
     },
     {
@@ -1080,7 +1075,7 @@
       "protocol": "TLSv1.3",
       "issuer_cn": "R13",
       "not_after": "May 22 22:49:50 2026 GMT",
-      "days_left": 17,
+      "days_left": 14,
       "error": null
     },
     "http_to_https": {
@@ -1107,16 +1102,16 @@
       "canonical_host": "dr-knyazkin.ru"
     },
     "ttfb": {
-      "seconds": 1.468,
+      "seconds": 1.055,
       "source_url": "https://dr-knyazkin.ru/",
       "status": 200,
       "error": null
     },
     "pagespeed": {
       "status": "ok",
-      "score": 41,
-      "lcp_seconds": 8.793,
-      "tool": "C:\\Program Files\\nodejs\\npx.CMD --yes lighthouse",
+      "score": 60,
+      "lcp_seconds": 3.324,
+      "tool": "pagespeed_api",
       "error": null
     },
     "analytics": {
@@ -1130,6 +1125,7 @@
     "engagement": {
       "whatsapp": true,
       "telegram": true,
+      "max_messenger": true,
       "chat_widget": false,
       "slot_booking_widget": false
     },
@@ -1152,6 +1148,7 @@
     },
     "med_trust": {
       "contact_page_exists": true,
+      "contact_block_found": true,
       "contact_pages": [
         "https://dr-knyazkin.ru/contacts"
       ],
@@ -1161,6 +1158,7 @@
         "https://dr-knyazkin.ru/uslugi"
       ],
       "doctors_page_exists": true,
+      "doctors_content_found": true,
       "doctor_pages": [
         "https://dr-knyazkin.ru/doctors",
         "https://dr-knyazkin.ru/doctors#rec658111054"
@@ -1184,9 +1182,23 @@
         ]
       },
       "footer_year": {
-        "present": null,
-        "year": null,
-        "current_year": null
+        "present": true,
+        "year": 2023,
+        "current_year": false
+      },
+      "text_typos": {
+        "checked_pages": [
+          "https://dr-knyazkin.ru/",
+          "https://dr-knyazkin.ru/contacts",
+          "https://dr-knyazkin.ru/doctors",
+          "https://dr-knyazkin.ru/doctors#rec658111054",
+          "https://dr-knyazkin.ru/info",
+          "https://dr-knyazkin.ru/price",
+          "https://dr-knyazkin.ru/uslugi",
+          "https://dr-knyazkin.ru/politika"
+        ],
+        "error_count": 0,
+        "samples": []
       }
     },
     "mixed_content": {
@@ -1271,10 +1283,5 @@
     },
     "sitemap_total_urls": 32,
     "sitemap_used_urls": 32
-  },
-  "verification": {
-    "b2": true,
-    "b3": true,
-    "b4": true
   }
 }

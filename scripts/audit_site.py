@@ -22,7 +22,7 @@ import urllib.request
 import urllib.error
 import xml.etree.ElementTree as ET
 from pathlib import Path
-from urllib.parse import urlparse, urljoin
+from urllib.parse import urlparse, urljoin, urlencode
 
 FORBIDDEN_TOKENS = [
     'meta', 'мета',
@@ -1042,6 +1042,77 @@ def detect_med_trust_signals(html_ok_pages, contact_urls, schema_types):
     }
 
 
+def collect_text_typos(html_ok_pages):
+    max_pages = 8
+    max_chars_per_page = 10000
+    endpoint = 'https://speller.yandex.net/services/spellservice.json/checkText'
+
+    selected_pages = []
+    for page in html_ok_pages:
+        url = str(page.get('final_url') or page.get('url') or '')
+        if not url:
+            continue
+        low = url.lower()
+        if urlparse(url).path in {'', '/'} or any(
+            x in low for x in ['contact', 'kontak', 'price', 'uslug', 'doctor', 'vrach', 'about', 'info']
+        ):
+            selected_pages.append(page)
+    if len(selected_pages) < max_pages:
+        for page in html_ok_pages:
+            if page not in selected_pages:
+                selected_pages.append(page)
+            if len(selected_pages) >= max_pages:
+                break
+    selected_pages = selected_pages[:max_pages]
+
+    total_errors = 0
+    samples = []
+    checked = []
+
+    for page in selected_pages:
+        url = str(page.get('final_url') or page.get('url') or '')
+        html = page.get('html', '') or ''
+        if not html:
+            continue
+        text = strip_tags(re.sub(r'(?is)<script\b.*?</script>|<style\b.*?</style>', ' ', html))
+        text = re.sub(r'\s+', ' ', text).strip()
+        if not text:
+            continue
+        text = text[:max_chars_per_page]
+        checked.append(url)
+        try:
+            query = urlencode({'text': text, 'lang': 'ru,en'})
+            req = urllib.request.Request(
+                f'{endpoint}?{query}',
+                headers={'User-Agent': 'Mozilla/5.0', 'Accept': 'application/json'},
+            )
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                raw = resp.read().decode('utf-8', 'ignore')
+            rows = json.loads(raw)
+            if isinstance(rows, list):
+                total_errors += len(rows)
+                for row in rows:
+                    if len(samples) >= 12:
+                        break
+                    word = str(row.get('word') or '').strip()
+                    hints = row.get('s') or []
+                    hint = str(hints[0]).strip() if hints else ''
+                    if word:
+                        samples.append({
+                            'page': url,
+                            'word': word,
+                            'suggestion': hint,
+                        })
+        except Exception:
+            continue
+
+    return {
+        'checked_pages': checked,
+        'error_count': int(total_errors),
+        'samples': samples,
+    }
+
+
 def run_audit(base_url: str):
     base = normalize_base(base_url)
     host = urlparse(base).netloc
@@ -1280,6 +1351,7 @@ def run_audit(base_url: str):
     schema_types = detect_schema_types(html_texts)
     mixed_samples = detect_mixed_content(https_ok_pages)
     med_trust = detect_med_trust_signals(html_ok_pages, sorted(contact_urls), schema_types)
+    med_trust['text_typos'] = collect_text_typos(html_ok_pages)
 
     home_html_low = (home_html or '').lower()
     favicon_from_html = bool(re.search(r'(?is)<link\b[^>]*\brel\s*=\s*["\'][^"\']*icon[^"\']*["\']', home_html_low))
