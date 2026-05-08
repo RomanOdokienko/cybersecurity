@@ -1286,7 +1286,7 @@ def block4_poc_lines(audit, summary):
         f"error_count: {text_typos.get('error_count')}",
         f"checked_pages: {len(text_typos.get('checked_pages') or [])}",
     ] + [
-        f"{x.get('word')} ({x.get('suggestion')}) — {x.get('page')}" for x in typo_samples[:8]
+        f"[{x.get('type')}] {x.get('match')} — {x.get('snippet')} ({x.get('page')})" for x in typo_samples[:8]
     ]))
     return lines
 

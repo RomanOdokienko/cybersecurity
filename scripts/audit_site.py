@@ -1043,9 +1043,9 @@ def detect_med_trust_signals(html_ok_pages, contact_urls, schema_types):
 
 
 def collect_text_typos(html_ok_pages):
-    max_pages = 8
-    max_chars_per_page = 10000
-    endpoint = 'https://speller.yandex.net/services/spellservice.json/checkText'
+    # Rule-based proofreading signals with deterministic PoC.
+    max_pages = 10
+    max_samples = 40
 
     selected_pages = []
     for page in html_ok_pages:
@@ -1065,50 +1065,128 @@ def collect_text_typos(html_ok_pages):
                 break
     selected_pages = selected_pages[:max_pages]
 
-    total_errors = 0
-    samples = []
     checked = []
+    samples = []
 
+    # Pre-compiled patterns.
+    patterns = [
+        ('space_before_punct', re.compile(r'\s+[,:;.!?]')),
+        ('missing_space_after_punct', re.compile(r'[,:;!?][А-Яа-яA-Za-zЁё]|[.][А-Яа-яЁё]')),
+        ('missing_space_after_number_dot', re.compile(r'(?<!\d)\d+\.[А-Яа-яA-Za-zЁё]')),
+        ('double_space', re.compile(r' {2,}')),
+        ('encoding_artifact', re.compile(r'�|Â|â€™|вЂ|】')),
+        ('comma_glue', re.compile(r'[А-Яа-яA-Za-zЁё],[А-Яа-яA-Za-zЁё]')),
+        ('dot_glue', re.compile(r'[А-Яа-яA-Za-zЁё]\.[А-Яа-яA-Za-zЁё]')),
+    ]
+    bad_phrases = [
+        'приобретение можно ознакомиться',
+    ]
+
+    def to_lines(html_text: str):
+        raw = re.sub(r'(?is)<script\b.*?</script>|<style\b.*?</style>|<noscript\b.*?</noscript>', ' ', html_text or '')
+        raw = re.sub(r'(?is)<br\s*/?>', '\n', raw)
+        raw = re.sub(r'(?is)</p>|</div>|</li>|</h[1-6]>', '\n', raw)
+        raw = re.sub(r'(?is)<[^>]+>', ' ', raw)
+        raw = clean(raw)
+        lines = [x.strip() for x in re.split(r'[\n\r]+', raw) if x.strip()]
+        return lines
+
+    seen = set()
+    per_type_count = {}
+    max_per_type = {
+        'space_before_punct': 8,
+        'missing_space_after_punct': 10,
+        'missing_space_after_number_dot': 8,
+        'double_space': 6,
+        'encoding_artifact': 6,
+        'comma_glue': 8,
+        'dot_glue': 8,
+        'bad_phrase': 8,
+    }
+
+    def normalize_snippet(s: str):
+        x = re.sub(r'\s+', ' ', str(s or '').strip().lower())
+        x = re.sub(r'\d+', '#', x)
+        return x
+
+    noise_tokens = [
+        'ст.м.', 'пн.-пт', 'e-mail:', 'yandex.ru', 'dr-knyazkin.ru',
+    ]
+
+    def should_skip(err_type: str, match: str, snippet: str):
+        low_snip = snippet.lower()
+        low_match = str(match or '').lower()
+        if any(t in low_snip for t in noise_tokens):
+            return True
+        # Abbreviation patterns like "ст.м." are not punctuation errors.
+        if err_type in {'missing_space_after_punct', 'dot_glue'} and low_match in {'.м', 'т.м', 'n.r'}:
+            return True
+        # Skip obvious menu/link glue chunks.
+        if len(low_snip) > 160 and ('контакты новости отзывы' in low_snip or 'cookie' in low_snip):
+            return True
+        return False
     for page in selected_pages:
         url = str(page.get('final_url') or page.get('url') or '')
         html = page.get('html', '') or ''
-        if not html:
+        if not url or not html:
             continue
-        text = strip_tags(re.sub(r'(?is)<script\b.*?</script>|<style\b.*?</style>', ' ', html))
-        text = re.sub(r'\s+', ' ', text).strip()
-        if not text:
-            continue
-        text = text[:max_chars_per_page]
         checked.append(url)
-        try:
-            query = urlencode({'text': text, 'lang': 'ru,en'})
-            req = urllib.request.Request(
-                f'{endpoint}?{query}',
-                headers={'User-Agent': 'Mozilla/5.0', 'Accept': 'application/json'},
-            )
-            with urllib.request.urlopen(req, timeout=30) as resp:
-                raw = resp.read().decode('utf-8', 'ignore')
-            rows = json.loads(raw)
-            if isinstance(rows, list):
-                total_errors += len(rows)
-                for row in rows:
-                    if len(samples) >= 12:
+        for line in to_lines(html):
+            if len(line) < 12:
+                continue
+            line_for_check = re.sub(r'https?://\S+|www\.\S+|\b[\w\.-]+@[\w\.-]+\.\w+\b', ' ', line, flags=re.I)
+            line_for_check = re.sub(r'\+?\d[\d\-\s\(\)]{8,}\d', ' ', line_for_check)
+            line_for_check = re.sub(r'\s+', ' ', line_for_check).strip()
+            if not line_for_check:
+                continue
+            # Phrase-level checks.
+            low_line = line_for_check.lower()
+            for phrase in bad_phrases:
+                if phrase in low_line:
+                    key = (url, 'bad_phrase', phrase, normalize_snippet(line_for_check[:140]))
+                    if key in seen:
+                        continue
+                    seen.add(key)
+                    per_type_count['bad_phrase'] = per_type_count.get('bad_phrase', 0) + 1
+                    if per_type_count['bad_phrase'] > max_per_type.get('bad_phrase', 8):
+                        continue
+                    samples.append({
+                        'page': url,
+                        'type': 'bad_phrase',
+                        'match': phrase,
+                        'snippet': line_for_check[:200],
+                    })
+            for err_type, patt in patterns:
+                for m in patt.finditer(line_for_check):
+                    snippet = line_for_check[max(0, m.start() - 40): min(len(line_for_check), m.end() + 40)]
+                    if should_skip(err_type, m.group(0), snippet):
+                        continue
+                    norm = normalize_snippet(snippet)
+                    key = (url, err_type, norm)
+                    if key in seen:
+                        continue
+                    seen.add(key)
+                    per_type_count[err_type] = per_type_count.get(err_type, 0) + 1
+                    if per_type_count[err_type] > max_per_type.get(err_type, 8):
+                        continue
+                    samples.append({
+                        'page': url,
+                        'type': err_type,
+                        'match': m.group(0),
+                        'snippet': snippet,
+                    })
+                    if len(samples) >= max_samples:
                         break
-                    word = str(row.get('word') or '').strip()
-                    hints = row.get('s') or []
-                    hint = str(hints[0]).strip() if hints else ''
-                    if word:
-                        samples.append({
-                            'page': url,
-                            'word': word,
-                            'suggestion': hint,
-                        })
-        except Exception:
-            continue
+                if len(samples) >= max_samples:
+                    break
+            if len(samples) >= max_samples:
+                break
+        if len(samples) >= max_samples:
+            break
 
     return {
         'checked_pages': checked,
-        'error_count': int(total_errors),
+        'error_count': len(samples),
         'samples': samples,
     }
 
