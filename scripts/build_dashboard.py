@@ -1067,7 +1067,17 @@ def details_section_grouped(title, status, groups, extra_class: str = ""):
             name = esc(g.get("name", "Метрика"))
             mstatus = str(g.get("status", "-"))
             ev = g.get("evidence", []) or []
-            ev_html = "".join(f"<li>{esc(x)}</li>" for x in ev) if ev else "<li>Нет evidences</li>"
+            if ev:
+                ev_parts = []
+                for x in ev:
+                    raw = str(x)
+                    if raw.startswith("__H__:"):
+                        ev_parts.append(f'<div class="evidence-subhead">{esc(raw.replace("__H__:", "", 1).strip())}</div>')
+                    else:
+                        ev_parts.append(f"<li>{esc(raw)}</li>")
+                ev_html = "".join(ev_parts)
+            else:
+                ev_html = "<li>Нет evidences</li>"
             parts.append(
                 f'<div class="metric-item">'
                 f'<div class="metric-head"><span class="metric-title">{name}</span>'
@@ -1282,12 +1292,31 @@ def block4_poc_lines(audit, summary):
         "contact_pages: " + ", ".join((med.get("contact_pages") or [])[:5]) if med.get("contact_pages") else "contact_pages: не найдены",
     ]))
     typo_samples = text_typos.get("samples") or []
+    type_counts = {}
+    type_examples = {}
+    for x in typo_samples:
+        t = str(x.get("type") or "other")
+        type_counts[t] = int(type_counts.get(t) or 0) + 1
+        type_examples.setdefault(t, [])
+        if len(type_examples[t]) < 2:
+            type_examples[t].append(x)
+    top_types = sorted(type_counts.items(), key=lambda kv: kv[1], reverse=True)
+    type_summary = ", ".join([f"{k}: {v}" for k, v in top_types]) if top_types else "нет"
+    top_type_lines = []
+    for t, c in top_types[:3]:
+        top_type_lines.append(f"__H__:{t} ({c})")
+        for ex in type_examples.get(t, []):
+            top_type_lines.append(
+                f"[{t}] {ex.get('match')} — {ex.get('snippet')} ({ex.get('page')})"
+            )
+
     lines.append(metric_lines("Орфографические ошибки в тексте сайта", b4.get("text_typos_status", "-"), [
-        f"error_count: {text_typos.get('error_count')}",
-        f"checked_pages: {len(text_typos.get('checked_pages') or [])}",
-    ] + [
-        f"[{x.get('type')}] {x.get('match')} — {x.get('snippet')} ({x.get('page')})" for x in typo_samples[:8]
-    ]))
+        "__H__:Сводка",
+        f"Всего ошибок: {text_typos.get('error_count')}",
+        f"Проверено страниц: {len(text_typos.get('checked_pages') or [])}",
+        f"По типам: {type_summary}",
+        "__H__:Топ типы и примеры",
+    ] + top_type_lines))
     return lines
 
 
@@ -1520,6 +1549,7 @@ li{{margin:4px 0}}
 .metric-title{{font-weight:700;color:#1f2430;font-size:14px;line-height:1.3}}
 .metric-item ul{{margin:0;padding-left:18px;line-height:1.45}}
 .metric-item li{{margin:3px 0;color:#455066}}
+.evidence-subhead{{margin:8px 0 4px;padding:4px 8px;border-radius:8px;background:#eef2ff;color:#2f4370;font-size:12px;font-weight:700;display:inline-block}}
 </style>
 </head>
 <body>

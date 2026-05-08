@@ -165,6 +165,61 @@ def normalize_base(url: str) -> str:
     return f"{p.scheme}://{p.netloc}"
 
 
+def decode_html_bytes(raw: bytes, content_type: str = ""):
+    if not raw:
+        return ""
+
+    enc_candidates = []
+    m = re.search(r'charset=([A-Za-z0-9_\-]+)', str(content_type or ""), re.IGNORECASE)
+    if m:
+        enc_candidates.append(m.group(1).strip())
+
+    head = raw[:4096].decode('ascii', 'ignore')
+    m_meta = re.search(r'(?is)<meta[^>]+charset=["\']?\s*([A-Za-z0-9_\-]+)\s*["\']?', head)
+    if m_meta:
+        enc_candidates.append(m_meta.group(1).strip())
+    m_meta_ct = re.search(r'(?is)<meta[^>]+content=["\'][^"\']*charset=([A-Za-z0-9_\-]+)', head)
+    if m_meta_ct:
+        enc_candidates.append(m_meta_ct.group(1).strip())
+
+    enc_candidates += ['utf-8', 'windows-1251', 'cp1251', 'koi8-r']
+    seen = set()
+    ordered = []
+    for enc in enc_candidates:
+        e = enc.lower()
+        if e and e not in seen:
+            seen.add(e)
+            ordered.append(e)
+
+    # Prefer UTF-8 first for modern web pages. Fallback only when utf-8 decoding is clearly broken.
+    utf8_text = raw.decode('utf-8', 'replace')
+    utf8_bad = utf8_text.count('�')
+    if utf8_bad <= max(2, len(utf8_text) // 500):
+        return utf8_text
+
+    decoded_candidates = []
+    for enc in ordered:
+        try:
+            txt = raw.decode(enc)
+            decoded_candidates.append((enc, txt))
+        except Exception:
+            continue
+    if not decoded_candidates:
+        return raw.decode('utf-8', 'ignore')
+
+    def mojibake_score(text: str):
+        if not text:
+            return 10**9
+        bad_patterns = ['Ð', 'Ñ', 'â', 'Â', '�', 'вЂ', 'РЎ', 'Р°', 'С‚', 'СЏ', 'п╨', 'п╩', '╨', '╩']
+        bad = sum(text.count(p) for p in bad_patterns)
+        # Prefer readable cyrillic/latin text and penalize control noise.
+        good = len(re.findall(r'[А-Яа-яЁёA-Za-z0-9]', text))
+        return bad * 1000 - good
+
+    best = sorted(decoded_candidates, key=lambda x: mojibake_score(x[1]))[0]
+    return best[1]
+
+
 def fetch(url: str, ctx):
     req = urllib.request.Request(
         url,
@@ -186,7 +241,9 @@ def fetch(url: str, ctx):
     started = time.perf_counter()
     try:
         with urllib.request.urlopen(req, timeout=40, context=ctx) as r:
-            text = r.read().decode('utf-8', 'ignore')
+            body = r.read()
+            content_type = str(r.headers.get('Content-Type', '') if r.headers else '')
+            text = decode_html_bytes(body, content_type)
             elapsed_ms = round((time.perf_counter() - started) * 1000, 1)
             headers = {str(k).lower(): str(v) for k, v in (r.headers.items() if r.headers else [])}
             return {
@@ -200,7 +257,9 @@ def fetch(url: str, ctx):
             }
     except urllib.error.HTTPError as e:
         try:
-            text = e.read().decode('utf-8', 'ignore')
+            body = e.read()
+            content_type = str(e.headers.get('Content-Type', '') if e.headers else '')
+            text = decode_html_bytes(body, content_type)
         except Exception:
             text = ''
         elapsed_ms = round((time.perf_counter() - started) * 1000, 1)
