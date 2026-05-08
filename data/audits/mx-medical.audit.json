@@ -141,7 +141,7 @@
       "protocol": "TLSv1.3",
       "issuer_cn": "R13",
       "not_after": "Jul 17 09:14:11 2026 GMT",
-      "days_left": 70,
+      "days_left": 69,
       "error": null
     },
     "http_to_https": {
@@ -168,15 +168,15 @@
       "canonical_host": "mx-medical.ru"
     },
     "ttfb": {
-      "seconds": 1.456,
+      "seconds": 1.664,
       "source_url": "https://mx-medical.ru/",
       "status": 200,
       "error": null
     },
     "pagespeed": {
       "status": "ok",
-      "score": 44,
-      "lcp_seconds": 1.9,
+      "score": 52,
+      "lcp_seconds": 1.856,
       "tool": "pagespeed_api",
       "error": null
     },
@@ -191,6 +191,7 @@
     "engagement": {
       "whatsapp": true,
       "telegram": true,
+      "max_messenger": true,
       "chat_widget": false,
       "slot_booking_widget": false
     },
@@ -211,12 +212,14 @@
     },
     "med_trust": {
       "contact_page_exists": true,
+      "contact_block_found": true,
       "contact_pages": [
         "https://mx-medical.ru/contacts/"
       ],
       "price_public_found": false,
       "price_pages": [],
       "doctors_page_exists": true,
+      "doctors_content_found": true,
       "doctor_pages": [
         "https://mx-medical.ru/doctors/",
         "https://mx-medical.ru/doctors/terapevty/ambartsumyan-mariam-khachaturovna/",
@@ -239,6 +242,226 @@
         "present": true,
         "year": 2026,
         "current_year": true
+      },
+      "text_typos": {
+        "checked_pages": [
+          "https://mx-medical.ru/",
+          "https://mx-medical.ru/contacts/",
+          "https://mx-medical.ru/about/doc/",
+          "https://mx-medical.ru/doctors/",
+          "https://mx-medical.ru/doctors/terapevty/ambartsumyan-mariam-khachaturovna/",
+          "https://mx-medical.ru/doctors/terapevty/andreeva-darya-mikhaylovna/",
+          "https://mx-medical.ru/doctors/terapevty/proshchenkova-darya-andreevna/",
+          "https://mx-medical.ru/doctors/terapevty/zaripova-anna-aleksandrovna/",
+          "https://mx-medical.ru/zapis/"
+        ],
+        "error_count": 34,
+        "samples": [
+          {
+            "page": "https://mx-medical.ru/",
+            "type": "space_before_punct",
+            "match": " .",
+            "snippet": " Вакансии Блог Документы Отзывы Контакты ... Скопировать номер WhatsApp Telegram ч"
+          },
+          {
+            "page": "https://mx-medical.ru/",
+            "type": "space_before_punct",
+            "match": " ,",
+            "snippet": " своего сына (5 лет)🥰 и очень переживала , тк у него огромный страх перед врачами "
+          },
+          {
+            "page": "https://mx-medical.ru/",
+            "type": "space_before_punct",
+            "match": " ,",
+            "snippet": "ами из-за уколов. И произошла тажа магия , наш прием прошел на улыбке и без капли "
+          },
+          {
+            "page": "https://mx-medical.ru/",
+            "type": "space_before_punct",
+            "match": " ,",
+            "snippet": " прием прошел на улыбке и без капли слез , более того теперь он спрашивает когда м"
+          },
+          {
+            "page": "https://mx-medical.ru/",
+            "type": "space_before_punct",
+            "match": " .",
+            "snippet": "перь он спрашивает когда мы еще пойдем ) . Всем рекомендую данную клинику, где Вас"
+          },
+          {
+            "page": "https://mx-medical.ru/",
+            "type": "space_before_punct",
+            "match": " .",
+            "snippet": "йствий. Быстро, качественно, все по делу . Благодарю вас. Показать полностью Элен "
+          },
+          {
+            "page": "https://mx-medical.ru/",
+            "type": "space_before_punct",
+            "match": " .",
+            "snippet": "детали, чтоб у пациента все было на 100% . 2. Альберт, к сожалению не запомнил отч"
+          },
+          {
+            "page": "https://mx-medical.ru/",
+            "type": "space_before_punct",
+            "match": " ,",
+            "snippet": "арить клинику и врача Мариам Хачатуровну ,за приятный сервис ,внимание и профессио"
+          },
+          {
+            "page": "https://mx-medical.ru/",
+            "type": "missing_space_after_punct",
+            "match": ";I",
+            "snippet": "чение Инфильтрация кариеса методом &quot;ICON&quot; Удаление зубов Удаление зубов "
+          },
+          {
+            "page": "https://mx-medical.ru/",
+            "type": "missing_space_after_punct",
+            "match": ".е",
+            "snippet": "ам, то уверена, что мы болели бы реже! Т.е. индивидуальный подход к каждому клиент"
+          },
+          {
+            "page": "https://mx-medical.ru/",
+            "type": "missing_space_after_punct",
+            "match": ",з",
+            "snippet": "рить клинику и врача Мариам Хачатуровну ,за приятный сервис ,внимание и профессион"
+          },
+          {
+            "page": "https://mx-medical.ru/",
+            "type": "missing_space_after_punct",
+            "match": ",в",
+            "snippet": " Мариам Хачатуровну ,за приятный сервис ,внимание и профессионализм ! У меня очень"
+          },
+          {
+            "page": "https://mx-medical.ru/",
+            "type": "missing_space_after_punct",
+            "match": ",в",
+            "snippet": "ень деликатная пломба на передних зубах ,все осложняют ретейнеры и только она умее"
+          },
+          {
+            "page": "https://mx-medical.ru/",
+            "type": "missing_space_after_punct",
+            "match": ",ч",
+            "snippet": "лько она умеет так филигранно ее делать ,что комар носа не подточит . Рекомендую 💪"
+          },
+          {
+            "page": "https://mx-medical.ru/",
+            "type": "missing_space_after_punct",
+            "match": ".Г",
+            "snippet": "росто песня! Был на чистке у Мамедовой А.Г. Без боли, идеально! Оказывается до это"
+          },
+          {
+            "page": "https://mx-medical.ru/",
+            "type": "missing_space_after_punct",
+            "match": ",с",
+            "snippet": " полностью Лиана Г**** 24.01.2026 Уютная,современная стоматологическая клиника в к"
+          },
+          {
+            "page": "https://mx-medical.ru/",
+            "type": "missing_space_after_punct",
+            "match": ",к",
+            "snippet": "ую хочется вернуться! Улыбчивый персонал,качество работы,забота МХ не может остави"
+          },
+          {
+            "page": "https://mx-medical.ru/",
+            "type": "missing_space_after_punct",
+            "match": ",з",
+            "snippet": "ться! Улыбчивый персонал,качество работы,забота МХ не может оставить равнодушным н"
+          },
+          {
+            "page": "https://mx-medical.ru/",
+            "type": "comma_glue",
+            "match": "я,с",
+            "snippet": "ь полностью Лиана Г**** 24.01.2026 Уютная,современная стоматологическая клиника в к"
+          },
+          {
+            "page": "https://mx-medical.ru/",
+            "type": "comma_glue",
+            "match": "л,к",
+            "snippet": "рую хочется вернуться! Улыбчивый персонал,качество работы,забота МХ не может остави"
+          },
+          {
+            "page": "https://mx-medical.ru/",
+            "type": "comma_glue",
+            "match": "ы,з",
+            "snippet": "уться! Улыбчивый персонал,качество работы,забота МХ не может оставить равнодушным н"
+          },
+          {
+            "page": "https://mx-medical.ru/",
+            "type": "comma_glue",
+            "match": "е,з",
+            "snippet": "л очень милые и приветливые…С порога кофе,забота💗Мы были с двумя детьми и мои дети "
+          },
+          {
+            "page": "https://mx-medical.ru/",
+            "type": "comma_glue",
+            "match": "ь,н",
+            "snippet": "с двумя детьми и мои дети безумно боялись,но лечение было на столько позитивно и пр"
+          },
+          {
+            "page": "https://mx-medical.ru/",
+            "type": "comma_glue",
+            "match": "о,ч",
+            "snippet": "ько позитивно и профессионально выстроено,что мои дети сказали..теперь только здесь"
+          },
+          {
+            "page": "https://mx-medical.ru/",
+            "type": "comma_glue",
+            "match": "м,я",
+            "snippet": "рдарку и мороженному…Мужу кофе с десертом,я словео пришла в гости к близким родстве"
+          },
+          {
+            "page": "https://mx-medical.ru/",
+            "type": "dot_glue",
+            "match": "Т.е",
+            "snippet": "иам, то уверена, что мы болели бы реже! Т.е. индивидуальный подход к каждому клиент"
+          },
+          {
+            "page": "https://mx-medical.ru/",
+            "type": "dot_glue",
+            "match": "P.s",
+            "snippet": " адрес написан, телефон есть, удачи Вам P.s два зуба на фото, сори кому такое непри"
+          },
+          {
+            "page": "https://mx-medical.ru/",
+            "type": "dot_glue",
+            "match": "А.Г",
+            "snippet": "просто песня! Был на чистке у Мамедовой А.Г. Без боли, идеально! Оказывается до это"
+          },
+          {
+            "page": "https://mx-medical.ru/doctors/terapevty/ambartsumyan-mariam-khachaturovna/",
+            "type": "comma_glue",
+            "match": "я,с",
+            "snippet": "ь полностью Лиана Г**** 24.01.2026 Уютная,современная стоматологическая клиника в к"
+          },
+          {
+            "page": "https://mx-medical.ru/doctors/terapevty/ambartsumyan-mariam-khachaturovna/",
+            "type": "dot_glue",
+            "match": "Т.е",
+            "snippet": "иам, то уверена, что мы болели бы реже! Т.е. индивидуальный подход к каждому клиент"
+          },
+          {
+            "page": "https://mx-medical.ru/doctors/terapevty/ambartsumyan-mariam-khachaturovna/",
+            "type": "dot_glue",
+            "match": "P.s",
+            "snippet": " адрес написан, телефон есть, удачи Вам P.s два зуба на фото, сори кому такое непри"
+          },
+          {
+            "page": "https://mx-medical.ru/doctors/terapevty/ambartsumyan-mariam-khachaturovna/",
+            "type": "dot_glue",
+            "match": "А.Г",
+            "snippet": "просто песня! Был на чистке у Мамедовой А.Г. Без боли, идеально! Оказывается до это"
+          },
+          {
+            "page": "https://mx-medical.ru/doctors/terapevty/andreeva-darya-mikhaylovna/",
+            "type": "dot_glue",
+            "match": "Т.е",
+            "snippet": "иам, то уверена, что мы болели бы реже! Т.е. индивидуальный подход к каждому клиент"
+          },
+          {
+            "page": "https://mx-medical.ru/doctors/terapevty/andreeva-darya-mikhaylovna/",
+            "type": "dot_glue",
+            "match": "P.s",
+            "snippet": " адрес написан, телефон есть, удачи Вам P.s два зуба на фото, сори кому такое непри"
+          }
+        ]
       }
     },
     "mixed_content": {
@@ -318,6 +541,7 @@
   },
   "verification": {
     "b2": true,
+    "b3": true,
     "b4": true
   }
 }
