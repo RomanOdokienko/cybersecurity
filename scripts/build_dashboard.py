@@ -875,11 +875,9 @@ def compute_summary(item, audit):
     if not forms:
         consent_status = "не найдено"
     else:
-        negative_labels = []
-        for label in ["checked", "не найдено", "текстом"]:
-            if consent_buckets[label]:
-                negative_labels.append(label)
-        consent_status = " + ".join(negative_labels) if negative_labels else "unchecked"
+        # Metric 1 only checks missing consent markers.
+        # Prechecked consent is tracked separately in metric 2.
+        consent_status = "не найдено" if consent_buckets["не найдено"] else "unchecked"
 
     spf_dmarc_status, spf_dmarc_lines, email, spf_status, dmarc_status = evaluate_spf_dmarc(item, audit)
     dkim_status, dkim_lines, _ = evaluate_dkim(item, audit)
@@ -1389,6 +1387,7 @@ def build_detail_page(item, audit, s):
 
     sections = "".join([
         details_section("Доступность сайта", s["availability_status"], availability_lines),
+        details_section("Согласия (расширенная аналитика)", s.get("consent_status", "-"), consent_lines),
         details_section_grouped("Блок 1 — PoC / Findings", block1_status, block1_lines, "block-tone-b1"),
         details_section_grouped("Блок 2 — PoC / Findings", "ок" if s.get("block2_verified") else "-", block2_lines, "block-tone-b2"),
         details_section_grouped("Блок 3 — PoC / Findings", "ок" if s.get("block4_verified") else "-", block4_lines, "block-tone-b4"),
@@ -1761,7 +1760,7 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
       <li>Результат строго бинарный: <b>ок</b> или <b>проблема</b>.</li>
     </ul>
     <h4>1. Пациент не давал согласия на обработку данных</h4>
-    <p><b>ок:</b> на всех формах найдено согласие (чекбокс или корректный текст согласия). <b>проблема:</b> есть формы без согласия.</p>
+    <p><b>ок:</b> на всех формах найден маркер согласия (чекбокс или корректный текст согласия). <b>проблема:</b> есть формы без маркера согласия. Предустановленный чекбокс оценивается отдельно в п.2.</p>
     <h4>2. Согласие подставлено автоматически — это хуже чем его отсутствие</h4>
     <p><b>ок:</b> нет предустановленных чекбоксов согласия. <b>проблема:</b> есть хотя бы один prechecked-чекбокс.</p>
     <h4>3. На сайте нет обязательного документа об обработке данных пациентов</h4>
