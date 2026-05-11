@@ -83,8 +83,8 @@
       "has_checkbox": true,
       "checked": true,
       "has_policy_text": true,
-      "checkbox_poc": "<input id=\"PROPERTY_AGREEMENT-1778252698-1\" class=\"custom-control-input\" type=\"checkbox\" name=\"PROPERTY_AGREEMENT\" value=\"1\" checked required data-msg=\"Обязательное поле\" >",
-      "policy_poc": "m-control-label\" for=\"PROPERTY_AGREEMENT-1778252698-1\"> Выражаю свое согласие на обработку персональных данных, с <a href=\"/about/processing-data/\" target=\"_blank\" title=\"Условия обработки персональных данных\">условиями обработки персо",
+      "checkbox_poc": "<input id=\"PROPERTY_AGREEMENT-1778505987-1\" class=\"custom-control-input\" type=\"checkbox\" name=\"PROPERTY_AGREEMENT\" value=\"1\" checked required data-msg=\"Обязательное поле\" >",
+      "policy_poc": "m-control-label\" for=\"PROPERTY_AGREEMENT-1778505987-1\"> Выражаю свое согласие на обработку персональных данных, с <a href=\"/about/processing-data/\" target=\"_blank\" title=\"Условия обработки персональных данных\">условиями обработки персо",
       "has_phone_field": true,
       "has_name_field": true,
       "has_textarea": true,
@@ -117,9 +117,49 @@
   ],
   "privacy_links": [
     {
+      "page": "https://www.ortodont-center.ru/",
+      "href": "",
+      "text": "cookie notice: ер для лучшей навигации по интернету. × ваша заявка успешно отправлена мы&nbsp;используем cookies для улучшения работы сайта. продолжая работу с&nbsp;сайтом, вы&nbsp;даёте согласие на&nbsp;использование cookie-файлов . принять перезвоните мне оставить отзыв бесплатная к"
+    },
+    {
+      "page": "https://www.ortodont-center.ru/clinics/mendeleevskaya/",
+      "href": "",
+      "text": "cookie notice: ер для лучшей навигации по интернету. × ваша заявка успешно отправлена мы&nbsp;используем cookies для улучшения работы сайта. продолжая работу с&nbsp;сайтом, вы&nbsp;даёте согласие на&nbsp;использование cookie-файлов . принять перезвоните мне оставить отзыв бесплатная к"
+    },
+    {
+      "page": "https://www.ortodont-center.ru/clinics/prospekt-vernadskogo/",
+      "href": "",
+      "text": "cookie notice: ер для лучшей навигации по интернету. × ваша заявка успешно отправлена мы&nbsp;используем cookies для улучшения работы сайта. продолжая работу с&nbsp;сайтом, вы&nbsp;даёте согласие на&nbsp;использование cookie-файлов . принять перезвоните мне оставить отзыв бесплатная к"
+    },
+    {
+      "page": "https://www.ortodont-center.ru/clinics/tsvetnoy-bulvar/",
+      "href": "",
+      "text": "cookie notice: ер для лучшей навигации по интернету. × ваша заявка успешно отправлена мы&nbsp;используем cookies для улучшения работы сайта. продолжая работу с&nbsp;сайтом, вы&nbsp;даёте согласие на&nbsp;использование cookie-файлов . принять перезвоните мне оставить отзыв бесплатная к"
+    },
+    {
+      "page": "https://www.ortodont-center.ru/clinics/tulskaya/",
+      "href": "",
+      "text": "cookie notice: ер для лучшей навигации по интернету. × ваша заявка успешно отправлена мы&nbsp;используем cookies для улучшения работы сайта. продолжая работу с&nbsp;сайтом, вы&nbsp;даёте согласие на&nbsp;использование cookie-файлов . принять перезвоните мне оставить отзыв бесплатная к"
+    },
+    {
+      "page": "https://www.ortodont-center.ru/clinics/ulitsa-1905-goda/",
+      "href": "",
+      "text": "cookie notice: ер для лучшей навигации по интернету. × ваша заявка успешно отправлена мы&nbsp;используем cookies для улучшения работы сайта. продолжая работу с&nbsp;сайтом, вы&nbsp;даёте согласие на&nbsp;использование cookie-файлов . принять перезвоните мне оставить отзыв бесплатная к"
+    },
+    {
+      "page": "https://www.ortodont-center.ru/clinics/volokolamskaya/",
+      "href": "",
+      "text": "cookie notice: ер для лучшей навигации по интернету. × ваша заявка успешно отправлена мы&nbsp;используем cookies для улучшения работы сайта. продолжая работу с&nbsp;сайтом, вы&nbsp;даёте согласие на&nbsp;использование cookie-файлов . принять перезвоните мне оставить отзыв бесплатная к"
+    },
+    {
       "page": "https://www.ortodont-center.ru/appointment/",
       "href": "/about/processing-data/",
       "text": "условиями обработки персональных данных"
+    },
+    {
+      "page": "https://www.ortodont-center.ru/appointment/",
+      "href": "",
+      "text": "cookie notice: ер для лучшей навигации по интернету. × ваша заявка успешно отправлена мы&nbsp;используем cookies для улучшения работы сайта. продолжая работу с&nbsp;сайтом, вы&nbsp;даёте согласие на&nbsp;использование cookie-файлов . принять перезвоните мне оставить отзыв бесплатная к"
     },
     {
       "page": "https://www.ortodont-center.ru/special-offers/besplatnye-ortodonticheskie-konsultatsii/",
@@ -127,9 +167,29 @@
       "text": "условиями обработки персональных данных"
     },
     {
+      "page": "https://www.ortodont-center.ru/special-offers/besplatnye-ortodonticheskie-konsultatsii/",
+      "href": "",
+      "text": "cookie notice: ер для лучшей навигации по интернету. × ваша заявка успешно отправлена мы&nbsp;используем cookies для улучшения работы сайта. продолжая работу с&nbsp;сайтом, вы&nbsp;даёте согласие на&nbsp;использование cookie-файлов . принять перезвоните мне оставить отзыв бесплатная к"
+    },
+    {
       "page": "https://www.ortodont-center.ru/about/legal/",
       "href": "/about/processing-data/",
       "text": "Политика обработки персональных данных клиентов"
+    },
+    {
+      "page": "https://www.ortodont-center.ru/about/legal/",
+      "href": "",
+      "text": "cookie notice: ер для лучшей навигации по интернету. × ваша заявка успешно отправлена мы&nbsp;используем cookies для улучшения работы сайта. продолжая работу с&nbsp;сайтом, вы&nbsp;даёте согласие на&nbsp;использование cookie-файлов . принять перезвоните мне оставить отзыв бесплатная к"
+    },
+    {
+      "page": "https://www.ortodont-center.ru/about/legal/poluchenie-nalogovogo-vycheta/",
+      "href": "",
+      "text": "cookie notice: ер для лучшей навигации по интернету. × ваша заявка успешно отправлена мы&nbsp;используем cookies для улучшения работы сайта. продолжая работу с&nbsp;сайтом, вы&nbsp;даёте согласие на&nbsp;использование cookie-файлов . принять перезвоните мне оставить отзыв бесплатная к"
+    },
+    {
+      "page": "https://www.ortodont-center.ru/about/legal/requisites/",
+      "href": "",
+      "text": "cookie notice: ер для лучшей навигации по интернету. × ваша заявка успешно отправлена мы&nbsp;используем cookies для улучшения работы сайта. продолжая работу с&nbsp;сайтом, вы&nbsp;даёте согласие на&nbsp;использование cookie-файлов . принять перезвоните мне оставить отзыв бесплатная к"
     }
   ],
   "forbidden_hits": [],
@@ -140,7 +200,7 @@
       "protocol": "TLSv1.3",
       "issuer_cn": "R12",
       "not_after": "Jul 18 14:52:58 2026 GMT",
-      "days_left": 70,
+      "days_left": 68,
       "error": null
     },
     "http_to_https": {
@@ -167,17 +227,17 @@
       "canonical_host": "www.ortodont-center.ru"
     },
     "ttfb": {
-      "seconds": 1.352,
+      "seconds": 0.704,
       "source_url": "https://www.ortodont-center.ru/",
       "status": 200,
       "error": null
     },
     "pagespeed": {
-      "status": "ok",
-      "score": 49,
-      "lcp_seconds": 2.702,
+      "status": "error",
+      "score": null,
+      "lcp_seconds": null,
       "tool": "pagespeed_api",
-      "error": null
+      "error": "The read operation timed out"
     },
     "analytics": {
       "found": true,
@@ -503,6 +563,8 @@
   "verification": {
     "b2": true,
     "b3": true,
-    "b4": true
+    "b4": true,
+    "mode": "agent",
+    "mode_updated_at": "2026-05-11T17:34:25Z"
   }
 }

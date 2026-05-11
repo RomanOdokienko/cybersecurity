@@ -4,7 +4,7 @@ import html
 import re
 from functools import lru_cache
 from pathlib import Path
-from urllib.parse import urlencode, urlparse
+from urllib.parse import urlencode, urlparse, urljoin
 from urllib.request import Request, urlopen
 
 ROOT = Path(r"D:\разработка\Кибербеза 2.0")
@@ -60,6 +60,21 @@ METRIKA_POLICY_TOKENS = {
     "mc.yandex.ru",
     "ym(",
 }
+POLICY_URL_HINT_TOKENS = {
+    "policy",
+    "privacy",
+    "polit",
+    "processing-data",
+    "personal-data",
+    "pdn",
+    "confident",
+    "конфиден",
+    "персональ",
+    "обработк",
+    "данн",
+    "152-fz",
+    "152-фз",
+}
 NON_EVIDENCE_DISCOVERY_SOURCES = {"fallback", "policy-fallback", "policy-hint"}
 NON_TEXT_ASSET_EXTENSIONS = {
     ".jpg", ".jpeg", ".png", ".webp", ".gif", ".svg", ".ico", ".bmp", ".tiff", ".avif",
@@ -114,6 +129,9 @@ def badge_class(label: str) -> str:
         "unchecked": "ok",
         "слать": "ok",
         "не слать": "bad",
+        "агент": "ok",
+        "скрипт": "warn",
+        "не указан": "na",
     }
     if label in mapping:
         return mapping[label]
@@ -123,6 +141,16 @@ def badge_class(label: str) -> str:
     if any(x in low for x in ["checked", "не найдено", "текстом"]):
         return "bad"
     return "na"
+
+
+def verification_mode_info(audit):
+    verification = audit.get("verification", {}) or {}
+    raw = str(verification.get("mode") or "").strip().lower()
+    if raw in {"agent", "agentic", "агент", "agent_mode"}:
+        return {"code": "agent", "label": "агент"}
+    if raw in {"legacy_script", "script", "скрипт", "legacy"}:
+        return {"code": "legacy_script", "label": "скрипт"}
+    return {"code": "unknown", "label": "не указан"}
 
 
 def source_label(source: str) -> str:
@@ -136,6 +164,8 @@ def source_label(source: str) -> str:
         "home-booking-candidate": "главная: кандидат записи по форме/контенту",
         "sitemap-legal": "sitemap: правовая/документная страница",
         "navigation-legal": "навигация: правовая/документная страница",
+        "sitemap-price": "sitemap: кандидат страницы цен",
+        "navigation-price": "навигация: кандидат страницы цен",
         "policy-hint": "найдено по policy-hint в коде",
         "policy-fallback": "fallback: типовой путь политики",
         "fallback": "fallback-путь",
@@ -151,6 +181,8 @@ def is_core_discovery_source(source: str) -> bool:
         "sitemap-booking-candidate",
         "booking-candidate",
         "home-booking-candidate",
+        "sitemap-price",
+        "navigation-price",
     }
 
 
@@ -189,6 +221,16 @@ def filter_meta_hits(raw_hits):
     return filtered
 
 
+def classify_meta_status(forbidden_hits):
+    if not forbidden_hits:
+        return "ок"
+    has_visible_mentions = any(
+        "видно пользователю" in str(x.get("visibility", "") or "").lower()
+        for x in forbidden_hits
+    )
+    return "проблема" if has_visible_mentions else "проверить"
+
+
 def _collect_policy_text_chunks(audit):
     chunks = []
     for x in collect_policy_evidence(audit):
@@ -224,6 +266,8 @@ def collect_policy_evidence(audit):
         text = str(x.get("text") or "").strip()
         if not (page or href or text):
             continue
+        if text.lower().startswith("cookie notice:"):
+            continue
         if text.lower() == "policy path":
             continue
         page_src = str(source_map.get(page, "") or "").strip().lower()
@@ -240,6 +284,8 @@ def collect_policy_evidence(audit):
     for u in (discovery.get("legal_urls", []) or []):
         url = str(u or "").strip()
         if not url:
+            continue
+        if not _contains_policy_hint(url):
             continue
         path = urlparse(url).path.lower()
         suffix = Path(path).suffix.lower()
@@ -292,9 +338,161 @@ def _contains_any_token(chunks, tokens):
     return False
 
 
+def _contains_policy_hint(text: str) -> bool:
+    low = str(text or "").strip().lower()
+    return any(tok in low for tok in POLICY_URL_HINT_TOKENS)
+
+
+def _normalize_candidate_url(domain: str, raw_url: str) -> str:
+    u = str(raw_url or "").strip()
+    if not u:
+        return ""
+    low = u.lower()
+    # Skip non-URL payloads captured from form action_display (e.g. action="/path/").
+    if low.startswith("action="):
+        return ""
+    if any(x in low for x in ['"', "'", "<", ">", " "]):
+        return ""
+    if u.startswith("http://") or u.startswith("https://"):
+        return u
+    if not u.startswith("/"):
+        return ""
+    base = f"https://{str(domain or '').strip().lstrip('/')}"
+    return urljoin(base if base.endswith("/") else base + "/", u)
+
+
+def collect_semantic_policy_urls(audit, policy_evidence=None):
+    discovery = audit.get("discovery", {}) or {}
+    domain = str(audit.get("domain") or "").strip()
+    urls = []
+    seen = set()
+
+    def add_url(raw_url: str, context_text: str):
+        abs_url = _normalize_candidate_url(domain, raw_url)
+        if not abs_url:
+            return
+        if not _contains_policy_hint(f"{abs_url} {context_text}"):
+            return
+        key = abs_url.strip()
+        if key in seen:
+            return
+        seen.add(key)
+        urls.append(key)
+
+    for x in (audit.get("privacy_links", []) or []):
+        add_url(str(x.get("href") or ""), str(x.get("text") or ""))
+        add_url(str(x.get("page") or ""), "")
+
+    for u in (discovery.get("legal_urls", []) or []):
+        add_url(str(u or ""), "")
+
+    for x in (policy_evidence or []):
+        add_url(str(x.get("href") or ""), str(x.get("text") or ""))
+        add_url(str(x.get("page") or ""), "")
+
+    return urls
+
+
+@lru_cache(maxsize=1024)
+def _fetch_url_html_lower(url: str) -> str:
+    req = Request(url, headers={"user-agent": "Mozilla/5.0", "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"})
+    try:
+        with urlopen(req, timeout=6) as resp:
+            raw = resp.read()
+            ctype = str(resp.headers.get("Content-Type", "") if resp.headers else "")
+            if "charset=" in ctype.lower():
+                enc = ctype.lower().split("charset=", 1)[1].split(";", 1)[0].strip()
+            else:
+                enc = "utf-8"
+            try:
+                text = raw.decode(enc, "ignore")
+            except Exception:
+                text = raw.decode("utf-8", "ignore")
+            return text.lower()
+    except Exception:
+        return ""
+
+
+def scan_policy_pages_for_metrika(audit, policy_evidence=None, max_urls: int = 3):
+    urls = collect_semantic_policy_urls(audit, policy_evidence=policy_evidence)
+    checked = []
+    matched = set()
+    for u in urls[:max_urls]:
+        html_low = _fetch_url_html_lower(u)
+        if not html_low:
+            continue
+        checked.append(u)
+        for tok in METRIKA_POLICY_TOKENS:
+            if tok in html_low:
+                matched.add(tok)
+    return {"candidate_urls": urls, "checked_urls": checked, "matched_tokens": sorted(matched)}
+
+
 def detect_cookie_notice(audit):
+    for x in (audit.get("privacy_links", []) or []):
+        txt = str(x.get("text") or "").strip().lower()
+        if txt.startswith("cookie notice:"):
+            return True
+
+    # 1) Policy-related signals (privacy links / legal urls / form snippets).
     chunks = _collect_policy_text_chunks(audit)
-    return _contains_any_token(chunks, COOKIE_NOTICE_TOKENS)
+    if _contains_any_token(chunks, COOKIE_NOTICE_TOKENS):
+        return True
+
+    # 2) Direct page HTML signals (cookie banner text/class/id can be rendered outside policy docs).
+    for p in (audit.get("pages", []) or []):
+        if p.get("status") != 200:
+            continue
+        html_text = str(p.get("html") or "").lower()
+        if html_text and any(tok in html_text for tok in COOKIE_NOTICE_TOKENS):
+            return True
+    return False
+
+
+def build_cookie_notice_poc(audit, summary):
+    if bool(summary.get("site_unavailable")):
+        return ["Не проверено: сайт недоступен."]
+
+    cookie_priv_hits = []
+    for x in (audit.get("privacy_links", []) or []):
+        txt = str(x.get("text") or "").strip()
+        if txt.lower().startswith("cookie notice:"):
+            cookie_priv_hits.append(
+                (
+                    str(x.get("page") or "").strip(),
+                    txt[:220],
+                )
+            )
+
+    matches = []
+    for p in (audit.get("pages", []) or []):
+        if p.get("status") != 200:
+            continue
+        html_text = str(p.get("html") or "").lower()
+        if not html_text:
+            continue
+        found = [tok for tok in COOKIE_NOTICE_TOKENS if tok in html_text]
+        if found:
+            matches.append(
+                (
+                    str(p.get("requested") or p.get("final_url") or "").strip(),
+                    sorted(set(found)),
+                )
+            )
+
+    lines = [
+        f"cookie_notice_found: {summary.get('cookie_notice_found')}",
+        f"cookie_notice_hits_in_privacy_links: {len(cookie_priv_hits)}",
+        f"cookie_notice_pages_matched: {len(matches)}",
+    ]
+    for page, txt in cookie_priv_hits[:8]:
+        lines.append(f"{page} | {txt}")
+    for url, toks in matches[:8]:
+        lines.append(f"{url} | tokens: {', '.join(toks)}")
+    if not matches and not cookie_priv_hits:
+        lines.append("Совпадений по cookie-токенам не найдено.")
+    lines.append("Источник: policy-related evidence + pages.html (статус 200).")
+    return lines
 
 
 def detect_metrika_policy_disclosure(audit):
@@ -303,6 +501,12 @@ def detect_metrika_policy_disclosure(audit):
     has_yandex_metrika = "yandex_metrika" in kinds
     if not has_yandex_metrika:
         return True
+
+    policy_evidence = collect_policy_evidence(audit)
+    policy_scan = scan_policy_pages_for_metrika(audit, policy_evidence=policy_evidence)
+    if policy_scan.get("matched_tokens"):
+        return True
+
     chunks = _collect_policy_text_chunks(audit)
     return _contains_any_token(chunks, METRIKA_POLICY_TOKENS)
 
@@ -313,24 +517,19 @@ def build_metrika_policy_poc(audit, summary):
     has_yandex_metrika = "yandex_metrika" in kinds
 
     policy_evidence = (summary.get("policy_evidence") or [])
-    policy_urls = []
-    seen = set()
-    for x in policy_evidence:
-        for key in ("href", "page"):
-            u = str(x.get(key) or "").strip()
-            if u and u not in seen:
-                seen.add(u)
-                policy_urls.append(u)
+    policy_scan = scan_policy_pages_for_metrika(audit, policy_evidence=policy_evidence)
+    policy_urls = policy_scan.get("checked_urls") or policy_scan.get("candidate_urls") or []
 
     chunks = _collect_policy_text_chunks(audit)
     matched_tokens = [t for t in sorted(METRIKA_POLICY_TOKENS) if any(t in c for c in chunks)]
+    matched_tokens = sorted(set(matched_tokens) | set(policy_scan.get("matched_tokens") or []))
 
     lines = [
         f"metrika_policy_disclosed: {summary.get('metrika_policy_disclosed')}",
         "analytics.kinds: " + (", ".join(analytics.get("kinds", []) or []) if analytics.get("kinds") else "не найдены"),
         f"has_yandex_metrika: {has_yandex_metrika}",
         f"policy_evidence_count: {len(policy_evidence)}",
-        "checked_policy_urls: " + (", ".join(policy_urls[:6]) if policy_urls else "не найдены"),
+        "checked_policy_urls: " + (", ".join(policy_urls[:8]) if policy_urls else "не найдены"),
         "matched_tokens_in_policy_text: " + (", ".join(matched_tokens) if matched_tokens else "не найдены"),
     ]
 
@@ -701,7 +900,60 @@ def block2_statuses(audit, site_unavailable):
     )
     after_hours_status = "ок" if has_async_channel else "проблема"
 
-    price_public_status = "ок" if med.get("price_public_found") is True else "проблема"
+    price_public_found = med.get("price_public_found")
+    price_sources_ok = {
+        "sitemap",
+        "navigation",
+        "sitemap-price",
+        "navigation-price",
+        "sitemap-form",
+        "booking-candidate",
+        "sitemap-booking-candidate",
+        "home-booking-candidate",
+    }
+
+    def is_price_url(u: str) -> bool:
+        lu = str(u or "").lower()
+        return any(
+            t in lu
+            for t in [
+                "price",
+                "prices",
+                "prays",
+                "ceny",
+                "tseny",
+                "stoim",
+                "cost",
+                "tarif",
+                "price-list",
+                "pricing",
+                "cena",
+                "stoimost",
+                "uslugi",
+            ]
+        )
+
+    candidate_urls = []
+    for u, src in source_map.items():
+        if str(src).strip().lower() not in price_sources_ok:
+            continue
+        if not is_price_url(u):
+            continue
+        status = int((pages_by_req.get(u) or {}).get("status") or 0)
+        if status == 200:
+            candidate_urls.append(u)
+
+    if price_public_found is None:
+        price_public_found = bool(candidate_urls)
+
+    if price_public_found is True:
+        price_public_status = "ок"
+    elif candidate_urls:
+        # Relevant price-like pages were checked but no public price proof found.
+        price_public_status = "проблема"
+    else:
+        # No reliable evidence either way -> manual recheck, avoid false negative.
+        price_public_status = "проверить"
     schema = med.get("schema", {}) or {}
     schema_types = [str(x).strip().lower() for x in (schema.get("types") or []) if str(x).strip()]
     supported = {"organization", "medicalorganization", "medicalclinic", "dentist", "physician", "hospital", "localbusiness"}
@@ -714,6 +966,7 @@ def block2_statuses(audit, site_unavailable):
         "analytics_status": analytics_status,
         "after_hours_status": after_hours_status,
         "price_public_status": price_public_status,
+        "price_candidate_urls": candidate_urls[:12],
         "schema_supported_status": schema_supported_status,
         "schema_supported_hits": schema_supported_hits,
     }
@@ -940,9 +1193,9 @@ def block4_statuses(audit, site_unavailable):
     footer_year = med.get("footer_year", {}) or {}
     footer_present = footer_year.get("present")
     footer_current = footer_year.get("current_year")
-    if footer_present is False:
+    if footer_present in {False, None}:
         footer_year_status = "ок"
-    elif footer_current is True:
+    elif footer_current is True or footer_current is None:
         footer_year_status = "ок"
     else:
         footer_year_status = "проблема"
@@ -1024,13 +1277,14 @@ def compute_summary(item, audit):
     dkim_status, dkim_lines, _ = evaluate_dkim(item, audit)
     spf_dmarc_poc = " | ".join(spf_dmarc_lines)
 
-    meta_status = "ок" if not forbidden else "проблема"
+    meta_status = classify_meta_status(forbidden)
     policy_status = "ок" if policy_evidence else "проблема"
     cookie_notice_found = detect_cookie_notice(audit)
     analytics = ((audit.get("tech") or {}).get("analytics") or {})
     analytics_kinds = [str(x).lower() for x in (analytics.get("kinds") or [])]
     has_yandex_metrika = "yandex_metrika" in analytics_kinds
     metrika_policy_disclosed = detect_metrika_policy_disclosure(audit)
+    verification_mode = verification_mode_info(audit)
 
     if availability_status == "проблема":
         return {
@@ -1048,6 +1302,7 @@ def compute_summary(item, audit):
             "metrika_policy_disclosed": None,
             "has_yandex_metrika": False,
             "result": "-",
+            "verification_mode": verification_mode,
             "bad_https_forms": [],
             "consent_buckets": {"текстом": [], "checked": [], "не найдено": [], "unchecked": []},
             "consent_counts": {"текстом": 0, "checked": 0, "не найдено": 0, "unchecked": 0},
@@ -1083,6 +1338,7 @@ def compute_summary(item, audit):
         "metrika_policy_disclosed": metrika_policy_disclosed,
         "has_yandex_metrika": has_yandex_metrika,
         "result": item.get("result", "проверить"),
+        "verification_mode": verification_mode,
         "bad_https_forms": bad_https_forms,
         "consent_buckets": consent_buckets,
         "consent_counts": consent_counts,
@@ -1102,10 +1358,11 @@ def compute_summary(item, audit):
 
 def row_html(row_num, site_id, clinic, site, s):
     external = site_url(site)
+    mode_label = (s.get("verification_mode") or {}).get("label", "не указан")
     return f"""
     <tr id=\"row-{esc(site_id)}\" class=\"clickable\" data-href=\"sites/{esc(site_id)}.html\" tabindex=\"0\">
       <td class=\"row-id\">{esc(row_num)}</td>
-      <td><div class=\"clinic\">{esc(clinic)}</div></td>
+      <td><div class=\"clinic\">{esc(clinic)}</div><div style=\"margin-top:4px\"><span class=\"badge {badge_class(mode_label)}\">{esc(mode_label)}</span></div></td>
       <td class=\"site\"><a class=\"site-link\" href=\"{esc(external)}\" target=\"_blank\" rel=\"noopener noreferrer\">{esc(site)}</a></td>
       <td class=\"availability-col\"><span class=\"badge availability-badge {badge_class(s['availability_status'])}\">{esc(s['availability_status'])}</span></td>
       <td><span class=\"badge {badge_class(s['cert_status'])}\">{esc(s['cert_status'])}</span></td>
@@ -1241,6 +1498,7 @@ def block2_poc_lines(audit, summary):
         [
             f"price_public_found: {med.get('price_public_found')}",
             "price_pages: " + ", ".join((med.get("price_pages") or [])[:5]) if med.get("price_pages") else "price_pages: не найдены",
+            "price_candidate_urls_checked: " + ", ".join((b2.get("price_candidate_urls") or [])[:8]) if b2.get("price_candidate_urls") else "price_candidate_urls_checked: не найдены",
         ],
     ))
 
@@ -1351,9 +1609,16 @@ def block4_poc_lines(audit, summary):
     lines.append(metric_lines("Часы работы", b4.get("hours_status", "-"), [
         f"hours_found: {med.get('hours_found')}",
     ]))
-    lines.append(metric_lines("Отзывы пациентов на сайте", b4.get("reviews_status", "-"), [
-        f"reviews_found: {med.get('reviews_found')}",
-    ]))
+    reviews_evidence = med.get("reviews_evidence") or []
+    review_lines = [f"reviews_found: {med.get('reviews_found')}"]
+    if reviews_evidence:
+        for ev in reviews_evidence[:5]:
+            review_lines.append(
+                f"{ev.get('page')} | {ev.get('signal')} | snippet={ev.get('snippet')}"
+            )
+    else:
+        review_lines.append("reviews_evidence: не найдены")
+    lines.append(metric_lines("Отзывы пациентов на сайте", b4.get("reviews_status", "-"), review_lines))
     lines.append(metric_lines("Актуальность года в футере (если он вообще есть). Если его нет — ок", b4.get("footer_year_status", "-"), [
         f"footer_present: {footer_year.get('present')}",
         f"current_year: {footer_year.get('current_year')}",
@@ -1399,6 +1664,7 @@ def build_detail_page(item, audit, s):
     policy_evidence = s.get("policy_evidence", []) or []
     discovery = audit.get("discovery", {})
     source_map = discovery.get("sources", {})
+    verification_mode_label = (s.get("verification_mode") or {}).get("label", "не указан")
 
     checked_pages_core = []
     checked_pages_extra = []
@@ -1470,6 +1736,12 @@ def build_detail_page(item, audit, s):
     if s.get("site_unavailable"):
         meta_lines.append("Не проверено: сайт недоступен.")
     elif forbidden:
+        visible_count = sum(
+            1 for h in forbidden if "видно пользователю" in str(h.get("visibility", "") or "").lower()
+        )
+        code_only_count = len(forbidden) - visible_count
+        meta_lines.append(f"visible_mentions_count: {visible_count}")
+        meta_lines.append(f"code_only_mentions_count: {code_only_count}")
         for h in forbidden[:80]:
             meta_lines.append(f"{h.get('token')} | {h.get('page')} | {h.get('visibility')} | {h.get('context')}")
     else:
@@ -1563,10 +1835,7 @@ def build_detail_page(item, audit, s):
         metric_lines(
             "Сайт собирает данные пациентов без их уведомления",
             cookie_status,
-            [
-                f"cookie_notice_found: {s.get('cookie_notice_found')}",
-                "Источник: privacy_links / legal_urls / policy_poc.",
-            ],
+            build_cookie_notice_poc(audit, s),
         ),
         metric_lines(
             "Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова",
@@ -1652,7 +1921,10 @@ li{{margin:4px 0}}
         <h1>{esc(item['clinic'])}</h1>
         <div>{esc(item['site'])}</div>
       </div>
-      <div class=\"card\">Итог: <span class=\"badge {badge_class(s['result'])}\">{esc(s['result'])}</span></div>
+      <div style=\"display:flex;gap:8px;flex-wrap:wrap\">
+        <div class=\"card\">Итог: <span class=\"badge {badge_class(s['result'])}\">{esc(s['result'])}</span></div>
+        <div class=\"card\">Проверка: <span class=\"badge {badge_class(verification_mode_label)}\">{esc(verification_mode_label)}</span></div>
+      </div>
     </div>
     <div class=\"alert {badge_class(s['availability_status'])}\">Доступность: {esc(s['availability_status'])}. {esc(s['availability_poc'])}</div>
 
@@ -1719,7 +1991,7 @@ def metric_tooltip(block_id: str, metric_idx: int, metric_name: str) -> str:
         1: "Оценка: 'ок' — страниц сайта >=5; 'проблема' — страниц сайта <=4.",
         2: "Оценка: 'ок' — аналитика установлена; 'проблема' — аналитика не найдена. Наличие целей/событий показывается как quality-flag в PoC.",
         3: "Оценка: 'ок' — есть хотя бы один рабочий канал первого письменного контакта (WhatsApp/Telegram/Max/чат/форма сообщения); 'проблема' — такого канала нет.",
-        4: "Оценка: 'ок' — найдена публичная страница цен (без логина/регистрации); 'проблема' — не найдена.",
+        4: "Оценка: 'ок' — найдено явное публичное ценовое доказательство; 'проблема' — релевантные ценовые страницы проверены, но доказательства нет; 'проверить' — недостаточно надежного покрытия для отрицательного вывода.",
         5: "Оценка: 'ок' — найден хотя бы один поддерживаемый type (Organization/Medical*/LocalBusiness и др. из whitelist); 'проблема' — поддерживаемые типы не найдены.",
     }
     if block_id == "b2":
@@ -1837,6 +2109,7 @@ def step2_header_rows(schema):
 def row_html_step2(row_num, site_id, clinic, site, s, schema):
     block_values = step2_blocks_data(s)
     external = site_url(site)
+    mode_label = (s.get("verification_mode") or {}).get("label", "не указан")
     parts = [
         f'<tr id="row-step2-{esc(site_id)}" class="clickable" data-href="sites/{esc(site_id)}.html" tabindex="0">',
         f'<td class="id-col">{esc(row_num)}</td>',
@@ -1844,6 +2117,7 @@ def row_html_step2(row_num, site_id, clinic, site, s, schema):
             '<td class="clinic-col">'
             f'<div class="clinic-name" title="{esc(clinic)}">{esc(clinic)}</div>'
             f'<div class="site"><a class="site-link" href="{esc(external)}" target="_blank" rel="noopener noreferrer">{esc(site)}</a></div>'
+            f'<div class="site" style="margin-top:4px"><span class="badge {badge_class(mode_label)}">{esc(mode_label)}</span></div>'
             "</td>"
         ),
     ]
@@ -1973,7 +2247,7 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
     <ul>
       <li>Один агент = одна клиника = один прогон.</li>
       <li>Проверка в браузере с рендерингом JS + анализ audit JSON.</li>
-      <li>Результат строго бинарный: <b>ок</b> или <b>проблема</b>.</li>
+      <li>Статусы: <b>ок</b>, <b>проблема</b>, <b>проверить</b> (если покрытие недостаточно для надежного отрицательного вывода).</li>
       <li>Fallback-эвристики не используются: статус ставится только по фактически найденным сигналам (PoC).</li>
     </ul>
     <h4>1. Пациент не давал согласия на обработку данных</h4>
@@ -1981,23 +2255,23 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
     <h4>2. Согласие подставлено автоматически — это хуже чем его отсутствие</h4>
     <p><b>ок:</b> есть отдельное явное согласие до отправки формы (чекбокс/эквивалент) и нет предустановленных чекбоксов. <b>проблема:</b> есть хотя бы один prechecked-чекбокс ИЛИ нет отдельного явного согласия (только текст «нажимая кнопку…» или чекбокс отсутствует).</p>
     <h4>3. На сайте нет обязательного документа об обработке данных пациентов</h4>
-    <p><b>ок:</b> найдена реальная ссылка/страница политики ПДн из навигации/контента сайта (с PoC URL/контекста). <b>проблема:</b> доказательство не найдено.</p>
+    <p><b>ок:</b> найдена реальная policy-страница/документ ПДн по ссылкам сайта (навигация/контент) с PoC URL и контекстом. <b>проблема:</b> такого доказательства нет. Технические псевдо-ссылки (например, action/data-href без реальной страницы) не засчитываются.</p>
     <h4>4. Имя и телефон пациента передаются в открытом виде — любой может перехватить</h4>
     <p><b>ок:</b> формы не отправляют данные на HTTP (используется HTTPS). <b>проблема:</b> найден хотя бы один HTTP action.</p>
     <h4>5. На сайте упоминается организация, признанная в России экстремистской</h4>
-    <p><b>ок:</b> упоминаний Meta/Instagram/Facebook/Threads не найдено. <b>проблема:</b> найдено хотя бы одно релевантное упоминание.</p>
+    <p><b>ок:</b> упоминаний Meta/Instagram/Facebook/Threads не найдено. <b>проверить:</b> упоминания есть только в коде, без видимого текста для пользователя. <b>проблема:</b> найдено видимое пользователю упоминание.</p>
     <h4>6. Сайт собирает данные пациентов без их уведомления</h4>
-    <p><b>ок:</b> найдены признаки уведомления о cookies/согласии. <b>проблема:</b> признаки не найдены.</p>
+    <p><b>ок:</b> на реально открытых страницах найдены признаки уведомления о cookies/согласии (баннер/текст/ссылка на cookie-policy). <b>проблема:</b> признаки не найдены.</p>
     <h4>7. Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова</h4>
-    <p><b>ок:</b> либо Метрика не найдена, либо найдена и упомянута в политике/документах. <b>проблема:</b> Метрика найдена, но упоминаний в политике нет.</p>
+    <p><b>ок:</b> либо Метрика не найдена, либо найдена и явно упомянута в найденной policy-странице/документах. <b>проблема:</b> Метрика найдена, но упоминаний в policy-документах нет. Проверяются только реально найденные policy URL (без fallback на типовые пути).</p>
   </div>
   <div class=\"method-template\" id=\"methodology-b2\">
     <h4>Общие правила</h4>
     <ul>
       <li>Один агент = одна клиника = один прогон.</li>
       <li>Проверка в браузере с рендерингом JS.</li>
-      <li>Результат строго бинарный: <b>ок</b> или <b>проблема</b>.</li>
-      <li>Если сигнал противоречивый, статус не ставим до ручного обсуждения.</li>
+      <li>Статусы: <b>ок</b>, <b>проблема</b>, <b>проверить</b> (если покрытия недостаточно для надежного отрицательного вывода).</li>
+      <li>При противоречивых сигналах используем <b>проверить</b>, а не автоматическую <b>проблему</b>.</li>
     </ul>
     <h4>1. Нет онлайн-записи со слотами</h4>
     <p><b>ок:</b> есть рабочая онлайн-запись: либо выбор даты/времени (слоты), либо отдельная рабочая страница записи. <b>проблема:</b> только форма/звонок без онлайн-инструмента записи.</p>
@@ -2008,7 +2282,7 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
     <h4>4. Пациент не может написать первым</h4>
     <p><b>ок:</b> есть хотя бы один рабочий канал первого письменного контакта (WhatsApp/Telegram/Max/онлайн-чат/форма сообщения). <b>проблема:</b> нет ни одного рабочего канала для первого письменного контакта.</p>
     <h4>5. Прайс-лист доступен без регистрации</h4>
-    <p><b>ок:</b> найдена публичная страница цен без логина/регистрации и с ценовым контентом. <b>проблема:</b> не найдена.</p>
+    <p><b>ок:</b> найден публичный ценовой контент (страница/блок) с явными ценами на услуги. <b>проблема:</b> релевантные ценовые страницы проверены, но ценового доказательства нет. <b>проверить:</b> релевантные страницы не обнаружены/непрочитаны, отрицательный вывод ненадежен.</p>
     <h4>6. Schema.org Поддерживаемые схемы Schemaorg от Яндекса</h4>
     <p><b>ок:</b> найден хотя бы один поддерживаемый тип из whitelist (Organization/Medical*/LocalBusiness и др.). <b>проблема:</b> поддерживаемые типы не найдены.</p>
   </div>
@@ -2148,6 +2422,11 @@ def parse_args():
     parser = argparse.ArgumentParser(description="Build screening dashboards and detail pages")
     parser.add_argument("--site-id", dest="site_ids_single", action="append", default=[], help="Build details only for this site id (repeatable)")
     parser.add_argument("--site-ids", dest="site_ids_csv", default="", help="Comma-separated site ids for detail build")
+    parser.add_argument(
+        "--full-rebuild",
+        action="store_true",
+        help="Explicitly allow full rebuild for all clinics. Without this flag, only --site-id/--site-ids mode is allowed.",
+    )
     return parser.parse_args()
 
 
@@ -2163,13 +2442,75 @@ def normalized_site_id_filter(args):
             selected.add(v)
     return selected
 
+
+def replace_step2_row_in_html(html_text: str, site_id: str, new_row_html: str):
+    sid = re.escape(str(site_id))
+    pattern = re.compile(rf"<tr id=\"row-step2-{sid}\"[^>]*>.*?</tr>", re.DOTALL)
+    return pattern.sub(new_row_html, html_text, count=1), bool(pattern.search(html_text))
+
+
 def main():
     args = parse_args()
     selected_site_ids = normalized_site_id_filter(args)
     selective_details = len(selected_site_ids) > 0
 
+    if not selective_details and not args.full_rebuild:
+        raise SystemExit(
+            "Blocked by policy: full rebuild is disabled by default.\n"
+            "Use --site-id/--site-ids for single-clinic updates, or pass --full-rebuild intentionally."
+        )
+
     manifest = read_json(MANIFEST)
     step2_schema = step2_block_schema()
+
+    # Selective mode: update only chosen clinics (detail pages + their row in step2 dashboards).
+    if selective_details:
+        manifest_index = {str(item.get("id")): (idx, item) for idx, item in enumerate(manifest, 1)}
+        details = []
+        updated_rows = []
+        missing_ids = []
+
+        for sid in selected_site_ids:
+            pair = manifest_index.get(str(sid))
+            if not pair:
+                missing_ids.append(str(sid))
+                continue
+            idx, item = pair
+            audit = read_json(ROOT / item["audit_file"])
+            summary = compute_summary(item, audit)
+            details.append((item["id"], build_detail_page(item, audit, summary)))
+            updated_rows.append((item["id"], row_html_step2(idx, item["id"], item["clinic"], item["site"], summary, step2_schema)))
+
+        sites_dir = ROOT / "sites"
+        sites_dir.mkdir(parents=True, exist_ok=True)
+        for site_id, page in details:
+            (sites_dir / f"{site_id}.html").write_text(page, encoding="utf-8")
+
+        for page_name in ["dashboard.html", "screening-step-2.html", "audit-blocks.html"]:
+            page_path = ROOT / page_name
+            if not page_path.exists():
+                continue
+            txt = page_path.read_text(encoding="utf-8")
+            changed = False
+            for sid, row in updated_rows:
+                new_txt, found = replace_step2_row_in_html(txt, sid, row)
+                if found:
+                    txt = new_txt
+                    changed = True
+            if changed:
+                page_path.write_text(txt, encoding="utf-8")
+
+        print("Generated:")
+        for site_id, _ in details:
+            print(sites_dir / f"{site_id}.html")
+        print("Patched rows in:")
+        for page_name in ["dashboard.html", "screening-step-2.html", "audit-blocks.html"]:
+            print(ROOT / page_name)
+        print(f"Detail pages updated: {len(details)} selected")
+        if missing_ids:
+            print("Unknown site ids:", ", ".join(sorted(missing_ids)))
+        return
+
     step2_headers = step2_header_rows(step2_schema)
     step2_col_counts = {block["id"]: len(block["metric_names"]) for block in step2_schema}
     rows = []
@@ -2200,8 +2541,7 @@ def main():
         summary = entry["summary"]
         rows.append(row_html(idx, item["id"], item["clinic"], item["site"], summary))
         rows_step2.append(row_html_step2(idx, item["id"], item["clinic"], item["site"], summary, step2_schema))
-        if (not selective_details) or (item["id"] in selected_site_ids):
-            details.append((item["id"], build_detail_page(item, audit, summary)))
+        details.append((item["id"], build_detail_page(item, audit, summary)))
 
     dashboard = f"""<!doctype html>
 <html lang=\"ru\">

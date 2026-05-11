@@ -407,7 +407,7 @@
       "protocol": "TLSv1.3",
       "issuer_cn": "R13",
       "not_after": "Jun 27 23:46:54 2026 GMT",
-      "days_left": 50,
+      "days_left": 47,
       "error": null
     },
     "http_to_https": {
@@ -434,15 +434,15 @@
       "canonical_host": null
     },
     "ttfb": {
-      "seconds": 0.771,
+      "seconds": 1.104,
       "source_url": "https://arideo.su/",
       "status": 200,
       "error": null
     },
     "pagespeed": {
       "status": "ok",
-      "score": 45,
-      "lcp_seconds": 10.742,
+      "score": 27,
+      "lcp_seconds": 4.543,
       "tool": "pagespeed_api",
       "error": null
     },
@@ -485,10 +485,8 @@
       "contact_pages": [
         "https://arideo.su/contacts/"
       ],
-      "price_public_found": true,
-      "price_pages": [
-        "https://arideo.su/"
-      ],
+      "price_public_found": false,
+      "price_pages": [],
       "doctors_page_exists": true,
       "doctors_content_found": true,
       "doctor_pages": [
@@ -657,10 +655,10 @@
       "broken": 46,
       "samples": [
         {
-          "url": "https://arideo.su/upload/resize_cache/iblock/0e4/400_400_0/10-(13)_A (1) (1) (1) (1) (1) (1).png",
+          "url": "https://arideo.su/upload/resize_cache/iblock/da3/400_400_0/34_A (1) (1).png",
           "status": null,
-          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/0e4/400_400_0/10-(13)_A (1) (1) (1) (1) (1) (1).png' (found at least ' ')",
-          "final_url": "https://arideo.su/upload/resize_cache/iblock/0e4/400_400_0/10-(13)_A (1) (1) (1) (1) (1) (1).png"
+          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/da3/400_400_0/34_A (1) (1).png' (found at least ' ')",
+          "final_url": "https://arideo.su/upload/resize_cache/iblock/da3/400_400_0/34_A (1) (1).png"
         },
         {
           "url": "https://arideo.su/upload/resize_cache/iblock/f5f/400_400_0/2-(6)_A (1) (1) (1) (1).png",
@@ -669,16 +667,10 @@
           "final_url": "https://arideo.su/upload/resize_cache/iblock/f5f/400_400_0/2-(6)_A (1) (1) (1) (1).png"
         },
         {
-          "url": "https://arideo.su/upload/resize_cache/iblock/c47/400_400_0/54_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png",
+          "url": "https://arideo.su/upload/resize_cache/iblock/89b/400_400_0/44_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png",
           "status": null,
-          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/c47/400_400_0/54_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png' (found at least ' ')",
-          "final_url": "https://arideo.su/upload/resize_cache/iblock/c47/400_400_0/54_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png"
-        },
-        {
-          "url": "https://arideo.su/upload/resize_cache/iblock/17e/400_400_0/6-(2)_A (1) (1) (1) (1) (1) (1) (1) (1) (1).png",
-          "status": null,
-          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/17e/400_400_0/6-(2)_A (1) (1) (1) (1) (1) (1) (1) (1) (1).png' (found at least ' ')",
-          "final_url": "https://arideo.su/upload/resize_cache/iblock/17e/400_400_0/6-(2)_A (1) (1) (1) (1) (1) (1) (1) (1) (1).png"
+          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/89b/400_400_0/44_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png' (found at least ' ')",
+          "final_url": "https://arideo.su/upload/resize_cache/iblock/89b/400_400_0/44_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png"
         },
         {
           "url": "https://arideo.su/upload/resize_cache/iblock/29d/400_400_0/7-(3)_A (1) (1) (1) (1) (1) (1) (1).png",
@@ -687,40 +679,22 @@
           "final_url": "https://arideo.su/upload/resize_cache/iblock/29d/400_400_0/7-(3)_A (1) (1) (1) (1) (1) (1) (1).png"
         },
         {
-          "url": "https://arideo.su/upload/resize_cache/iblock/c4f/400_400_0/5-(2)_A (1) (1) (1) (1) (1).png",
-          "status": null,
-          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/c4f/400_400_0/5-(2)_A (1) (1) (1) (1) (1).png' (found at least ' ')",
-          "final_url": "https://arideo.su/upload/resize_cache/iblock/c4f/400_400_0/5-(2)_A (1) (1) (1) (1) (1).png"
-        },
-        {
           "url": "https://arideo.su/upload/resize_cache/iblock/81a/400_400_0/47_A (1) (1) (1) (1) (1) (1) (1) (1).png",
           "status": null,
           "error": "URL can't contain control characters. '/upload/resize_cache/iblock/81a/400_400_0/47_A (1) (1) (1) (1) (1) (1) (1) (1).png' (found at least ' ')",
           "final_url": "https://arideo.su/upload/resize_cache/iblock/81a/400_400_0/47_A (1) (1) (1) (1) (1) (1) (1) (1).png"
         },
         {
-          "url": "https://arideo.su/upload/resize_cache/iblock/448/400_400_0/1-(10)_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png",
+          "url": "https://arideo.su/upload/resize_cache/iblock/17e/400_400_0/6-(2)_A (1) (1) (1) (1) (1) (1) (1) (1) (1).png",
           "status": null,
-          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/448/400_400_0/1-(10)_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png' (found at least ' ')",
-          "final_url": "https://arideo.su/upload/resize_cache/iblock/448/400_400_0/1-(10)_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png"
+          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/17e/400_400_0/6-(2)_A (1) (1) (1) (1) (1) (1) (1) (1) (1).png' (found at least ' ')",
+          "final_url": "https://arideo.su/upload/resize_cache/iblock/17e/400_400_0/6-(2)_A (1) (1) (1) (1) (1) (1) (1) (1) (1).png"
         },
         {
-          "url": "https://arideo.su/upload/resize_cache/iblock/da3/400_400_0/34_A (1) (1).png",
+          "url": "https://arideo.su/upload/resize_cache/iblock/c4f/400_400_0/5-(2)_A (1) (1) (1) (1) (1).png",
           "status": null,
-          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/da3/400_400_0/34_A (1) (1).png' (found at least ' ')",
-          "final_url": "https://arideo.su/upload/resize_cache/iblock/da3/400_400_0/34_A (1) (1).png"
-        },
-        {
-          "url": "https://arideo.su/upload/resize_cache/iblock/08a/400_400_0/42_A (1) (1) (1) (1).png",
-          "status": null,
-          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/08a/400_400_0/42_A (1) (1) (1) (1).png' (found at least ' ')",
-          "final_url": "https://arideo.su/upload/resize_cache/iblock/08a/400_400_0/42_A (1) (1) (1) (1).png"
-        },
-        {
-          "url": "https://arideo.su/upload/resize_cache/iblock/3ba/400_400_0/2-(7)_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png",
-          "status": null,
-          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/3ba/400_400_0/2-(7)_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png' (found at least ' ')",
-          "final_url": "https://arideo.su/upload/resize_cache/iblock/3ba/400_400_0/2-(7)_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png"
+          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/c4f/400_400_0/5-(2)_A (1) (1) (1) (1) (1).png' (found at least ' ')",
+          "final_url": "https://arideo.su/upload/resize_cache/iblock/c4f/400_400_0/5-(2)_A (1) (1) (1) (1) (1).png"
         },
         {
           "url": "https://arideo.su/upload/resize_cache/iblock/e7f/400_400_0/16_A (1) (1) (1) (1) (1).png",
@@ -729,10 +703,34 @@
           "final_url": "https://arideo.su/upload/resize_cache/iblock/e7f/400_400_0/16_A (1) (1) (1) (1) (1).png"
         },
         {
-          "url": "https://arideo.su/upload/resize_cache/iblock/89b/400_400_0/44_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png",
+          "url": "https://arideo.su/upload/resize_cache/iblock/448/400_400_0/1-(10)_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png",
           "status": null,
-          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/89b/400_400_0/44_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png' (found at least ' ')",
-          "final_url": "https://arideo.su/upload/resize_cache/iblock/89b/400_400_0/44_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png"
+          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/448/400_400_0/1-(10)_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png' (found at least ' ')",
+          "final_url": "https://arideo.su/upload/resize_cache/iblock/448/400_400_0/1-(10)_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png"
+        },
+        {
+          "url": "https://arideo.su/upload/resize_cache/iblock/d6b/400_400_0/1-(9)_A (2) (2) (1) (1).png",
+          "status": null,
+          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/d6b/400_400_0/1-(9)_A (2) (2) (1) (1).png' (found at least ' ')",
+          "final_url": "https://arideo.su/upload/resize_cache/iblock/d6b/400_400_0/1-(9)_A (2) (2) (1) (1).png"
+        },
+        {
+          "url": "https://arideo.su/upload/resize_cache/iblock/0e4/400_400_0/10-(13)_A (1) (1) (1) (1) (1) (1).png",
+          "status": null,
+          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/0e4/400_400_0/10-(13)_A (1) (1) (1) (1) (1) (1).png' (found at least ' ')",
+          "final_url": "https://arideo.su/upload/resize_cache/iblock/0e4/400_400_0/10-(13)_A (1) (1) (1) (1) (1) (1).png"
+        },
+        {
+          "url": "https://arideo.su/upload/resize_cache/iblock/08a/400_400_0/42_A (1) (1) (1) (1).png",
+          "status": null,
+          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/08a/400_400_0/42_A (1) (1) (1) (1).png' (found at least ' ')",
+          "final_url": "https://arideo.su/upload/resize_cache/iblock/08a/400_400_0/42_A (1) (1) (1) (1).png"
+        },
+        {
+          "url": "https://arideo.su/upload/resize_cache/iblock/c47/400_400_0/54_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png",
+          "status": null,
+          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/c47/400_400_0/54_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png' (found at least ' ')",
+          "final_url": "https://arideo.su/upload/resize_cache/iblock/c47/400_400_0/54_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png"
         },
         {
           "url": "https://arideo.su/upload/resize_cache/iblock/258/400_400_0/4-(4)_A (1) (1).png",
@@ -741,10 +739,10 @@
           "final_url": "https://arideo.su/upload/resize_cache/iblock/258/400_400_0/4-(4)_A (1) (1).png"
         },
         {
-          "url": "https://arideo.su/upload/resize_cache/iblock/d6b/400_400_0/1-(9)_A (2) (2) (1) (1).png",
+          "url": "https://arideo.su/upload/resize_cache/iblock/3ba/400_400_0/2-(7)_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png",
           "status": null,
-          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/d6b/400_400_0/1-(9)_A (2) (2) (1) (1).png' (found at least ' ')",
-          "final_url": "https://arideo.su/upload/resize_cache/iblock/d6b/400_400_0/1-(9)_A (2) (2) (1) (1).png"
+          "error": "URL can't contain control characters. '/upload/resize_cache/iblock/3ba/400_400_0/2-(7)_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png' (found at least ' ')",
+          "final_url": "https://arideo.su/upload/resize_cache/iblock/3ba/400_400_0/2-(7)_A (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png"
         },
         {
           "url": "https://arideo.su/upload/resize_cache/iblock/fcc/180_180_2/Влад-min.jpg",
@@ -831,10 +829,5 @@
     },
     "sitemap_total_urls": 6,
     "sitemap_used_urls": 6
-  },
-  "verification": {
-    "b2": true,
-    "b3": true,
-    "b4": true
   }
 }

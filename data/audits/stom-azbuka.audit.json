@@ -1773,7 +1773,7 @@
       "protocol": "TLSv1.3",
       "issuer_cn": "R12",
       "not_after": "Jun 25 09:23:46 2026 GMT",
-      "days_left": 47,
+      "days_left": 44,
       "error": null
     },
     "http_to_https": {
@@ -1800,15 +1800,15 @@
       "canonical_host": "stom-azbuka.ru"
     },
     "ttfb": {
-      "seconds": 1.572,
+      "seconds": 1.139,
       "source_url": "https://stom-azbuka.ru/",
       "status": 200,
       "error": null
     },
     "pagespeed": {
       "status": "ok",
-      "score": 35,
-      "lcp_seconds": 3.197,
+      "score": 55,
+      "lcp_seconds": 3.018,
       "tool": "pagespeed_api",
       "error": null
     },
@@ -1852,13 +1852,116 @@
       "price_pages": [
         "https://stom-azbuka.ru/stoimost-uslug"
       ],
-      "doctors_page_exists": false,
+      "doctors_page_exists": true,
       "doctors_content_found": true,
-      "doctor_pages": [],
+      "doctor_pages": [
+        "https://stom-azbuka.ru/",
+        "https://stom-azbuka.ru/kontakti",
+        "https://stom-azbuka.ru/akczii/",
+        "https://stom-azbuka.ru/akczii/23-fevralya",
+        "https://stom-azbuka.ru/akczii/akcziya-30-skidka-dlya-zhenshhin-k-8-marta",
+        "https://stom-azbuka.ru/akczii/akcziya-karies",
+        "https://stom-azbuka.ru/akczii/akcziya-podarok-na-majskie",
+        "https://stom-azbuka.ru/akczii/amazing-white",
+        "https://stom-azbuka.ru/akczii/brekety",
+        "https://stom-azbuka.ru/akczii/pod-kluch",
+        "https://stom-azbuka.ru/akczii/privedi-druga",
+        "https://stom-azbuka.ru/akczii/profchistka",
+        "https://stom-azbuka.ru/akczii/schastlivy-chas",
+        "https://stom-azbuka.ru/akczii/skajsyi",
+        "https://stom-azbuka.ru/akczii/skidka-20",
+        "https://stom-azbuka.ru/akczii/udalenie",
+        "https://stom-azbuka.ru/novosti/2026-god",
+        "https://stom-azbuka.ru/novosti/delikatnoe-otbelivanie",
+        "https://stom-azbuka.ru/novosti/grafik-rabotyi",
+        "https://stom-azbuka.ru/novosti/sertifikat",
+        "https://stom-azbuka.ru/novosti/simptomy-gingivita",
+        "https://stom-azbuka.ru/o-stomatologii/",
+        "https://stom-azbuka.ru/personal/",
+        "https://stom-azbuka.ru/personal/abas",
+        "https://stom-azbuka.ru/personal/abdulvagabov",
+        "https://stom-azbuka.ru/personal/bajteryakov",
+        "https://stom-azbuka.ru/personal/baragunova",
+        "https://stom-azbuka.ru/personal/ivankov",
+        "https://stom-azbuka.ru/personal/lianidis",
+        "https://stom-azbuka.ru/personal/tskhovrebov",
+        "https://stom-azbuka.ru/services/",
+        "https://stom-azbuka.ru/services/gigiena-i-otbelivanie",
+        "https://stom-azbuka.ru/services/hirurgia",
+        "https://stom-azbuka.ru/services/implantacziya",
+        "https://stom-azbuka.ru/services/ortodontiya",
+        "https://stom-azbuka.ru/services/parodontologiya",
+        "https://stom-azbuka.ru/services/pedodontia",
+        "https://stom-azbuka.ru/services/protezirovanie/",
+        "https://stom-azbuka.ru/services/terapia/",
+        "https://stom-azbuka.ru/stoimost-uslug"
+      ],
       "address_found": true,
       "map_found": true,
       "hours_found": true,
       "reviews_found": true,
+      "reviews_evidence": [
+        {
+          "page": "https://stom-azbuka.ru/",
+          "signal": "text:отзыв",
+          "snippet": "ечения зубов лучшие цены доступные цены без накруток и очень выгодные регулярные акции хорошая репутация подтвержденная отзывами пациентов, наградами и дипломами комфорт и сервис уютная атмосфера, качественный сервис и индивидуальный подход опыт"
+        },
+        {
+          "page": "https://stom-azbuka.ru/kontakti",
+          "signal": "text:отзыв",
+          "snippet": "дальцова, дом 79 сообщение отправлено в ближайшее время мы с&nbsp;вами свяжемся. сообщение отправлено благодарим вас за отзыв!"
+        },
+        {
+          "page": "https://stom-azbuka.ru/akczii/",
+          "signal": "text:отзыв",
+          "snippet": "дальцова, дом 79 сообщение отправлено в ближайшее время мы с&nbsp;вами свяжемся. сообщение отправлено благодарим вас за отзыв!"
+        },
+        {
+          "page": "https://stom-azbuka.ru/akczii/23-fevralya",
+          "signal": "text:отзыв",
+          "snippet": "ечения зубов лучшие цены доступные цены без накруток и очень выгодные регулярные акции хорошая репутация подтвержденная отзывами пациентов, наградами и дипломами комфорт и сервис уютная атмосфера, качественный сервис и индивидуальный подход опыт"
+        },
+        {
+          "page": "https://stom-azbuka.ru/akczii/akcziya-30-skidka-dlya-zhenshhin-k-8-marta",
+          "signal": "text:отзыв",
+          "snippet": "ечения зубов лучшие цены доступные цены без накруток и очень выгодные регулярные акции хорошая репутация подтвержденная отзывами пациентов, наградами и дипломами комфорт и сервис уютная атмосфера, качественный сервис и индивидуальный подход опыт"
+        },
+        {
+          "page": "https://stom-azbuka.ru/akczii/akcziya-karies",
+          "signal": "text:отзыв",
+          "snippet": "ечения зубов лучшие цены доступные цены без накруток и очень выгодные регулярные акции хорошая репутация подтвержденная отзывами пациентов, наградами и дипломами комфорт и сервис уютная атмосфера, качественный сервис и индивидуальный подход опыт"
+        },
+        {
+          "page": "https://stom-azbuka.ru/akczii/akcziya-podarok-na-majskie",
+          "signal": "text:отзыв",
+          "snippet": "ечения зубов лучшие цены доступные цены без накруток и очень выгодные регулярные акции хорошая репутация подтвержденная отзывами пациентов, наградами и дипломами комфорт и сервис уютная атмосфера, качественный сервис и индивидуальный подход опыт"
+        },
+        {
+          "page": "https://stom-azbuka.ru/akczii/amazing-white",
+          "signal": "text:отзыв",
+          "snippet": "ечения зубов лучшие цены доступные цены без накруток и очень выгодные регулярные акции хорошая репутация подтвержденная отзывами пациентов, наградами и дипломами комфорт и сервис уютная атмосфера, качественный сервис и индивидуальный подход опыт"
+        },
+        {
+          "page": "https://stom-azbuka.ru/akczii/brekety",
+          "signal": "text:отзыв",
+          "snippet": "ечения зубов лучшие цены доступные цены без накруток и очень выгодные регулярные акции хорошая репутация подтвержденная отзывами пациентов, наградами и дипломами комфорт и сервис уютная атмосфера, качественный сервис и индивидуальный подход опыт"
+        },
+        {
+          "page": "https://stom-azbuka.ru/akczii/pod-kluch",
+          "signal": "text:отзыв",
+          "snippet": "ечения зубов лучшие цены доступные цены без накруток и очень выгодные регулярные акции хорошая репутация подтвержденная отзывами пациентов, наградами и дипломами комфорт и сервис уютная атмосфера, качественный сервис и индивидуальный подход опыт"
+        },
+        {
+          "page": "https://stom-azbuka.ru/akczii/privedi-druga",
+          "signal": "text:отзыв",
+          "snippet": "ечения зубов лучшие цены доступные цены без накруток и очень выгодные регулярные акции хорошая репутация подтвержденная отзывами пациентов, наградами и дипломами комфорт и сервис уютная атмосфера, качественный сервис и индивидуальный подход опыт"
+        },
+        {
+          "page": "https://stom-azbuka.ru/akczii/profchistka",
+          "signal": "text:отзыв",
+          "snippet": "ечения зубов лучшие цены доступные цены без накруток и очень выгодные регулярные акции хорошая репутация подтвержденная отзывами пациентов, наградами и дипломами комфорт и сервис уютная атмосфера, качественный сервис и индивидуальный подход опыт"
+        }
+      ],
       "service_pages_count": 3,
       "service_pages": [
         "https://stom-azbuka.ru/novosti/delikatnoe-otbelivanie",
@@ -1912,7 +2015,7 @@
             "page": "https://stom-azbuka.ru/",
             "type": "missing_space_after_punct",
             "match": ";в",
-            "snippet": "м Мобильный телефон Желаемая дата и&nbsp;время 09 Май, в 09:00 09:00 09:30 10:00 1"
+            "snippet": "м Мобильный телефон Желаемая дата и&nbsp;время 12 Май, в 09:00 09:00 09:30 10:00 1"
           },
           {
             "page": "https://stom-azbuka.ru/",
@@ -1960,7 +2063,7 @@
             "page": "https://stom-azbuka.ru/kontakti",
             "type": "missing_space_after_punct",
             "match": ";в",
-            "snippet": "м Мобильный телефон Желаемая дата и&nbsp;время 09 Май, в 09:00 09:00 09:30 10:00 1"
+            "snippet": "м Мобильный телефон Желаемая дата и&nbsp;время 12 Май, в 09:00 09:00 09:30 10:00 1"
           },
           {
             "page": "https://stom-azbuka.ru/kontakti",
@@ -2052,12 +2155,6 @@
           "final_url": "https://stom-azbuka.ru/akczii/kontakti"
         },
         {
-          "url": "https://stom-azbuka.ru/akczii/akczii/akcziya-podarok-na-majskie",
-          "status": 404,
-          "error": "HTTPError 404",
-          "final_url": "https://stom-azbuka.ru/akczii/akczii/akcziya-podarok-na-majskie"
-        },
-        {
           "url": "https://stom-azbuka.ru/akczii/akczii/profchistka",
           "status": 404,
           "error": "HTTPError 404",
@@ -2080,6 +2177,12 @@
           "status": 404,
           "error": "HTTPError 404",
           "final_url": "https://stom-azbuka.ru/akczii/akczii/privedi-druga"
+        },
+        {
+          "url": "https://stom-azbuka.ru/akczii/akczii/akcziya-podarok-na-majskie",
+          "status": 404,
+          "error": "HTTPError 404",
+          "final_url": "https://stom-azbuka.ru/akczii/akczii/akcziya-podarok-na-majskie"
         },
         {
           "url": "https://stom-azbuka.ru/akczii/akczii/23-fevralya",
@@ -2208,12 +2311,6 @@
           "final_url": "https://stom-azbuka.ru/akczii/assets/img/logo-mini.svg"
         },
         {
-          "url": "https://stom-azbuka.ru/akczii/assets/img/may1.png",
-          "status": 404,
-          "error": "HTTPError 404",
-          "final_url": "https://stom-azbuka.ru/akczii/assets/img/may1.png"
-        },
-        {
           "url": "https://stom-azbuka.ru/akczii/assets/img/88552c.jpg",
           "status": 404,
           "error": "HTTPError 404",
@@ -2236,6 +2333,12 @@
           "status": 404,
           "error": "HTTPError 404",
           "final_url": "https://stom-azbuka.ru/akczii/assets/img/654654.jpg"
+        },
+        {
+          "url": "https://stom-azbuka.ru/akczii/assets/img/may1.png",
+          "status": 404,
+          "error": "HTTPError 404",
+          "final_url": "https://stom-azbuka.ru/akczii/assets/img/may1.png"
         },
         {
           "url": "https://stom-azbuka.ru/akczii/assets/img/486184144.jpg",
@@ -2373,7 +2476,7 @@
       "https://stom-azbuka.ru/services/pedodontia": "sitemap-form",
       "https://stom-azbuka.ru/services/protezirovanie/": "sitemap-form",
       "https://stom-azbuka.ru/services/terapia/": "sitemap-form",
-      "https://stom-azbuka.ru/stoimost-uslug": "sitemap-form"
+      "https://stom-azbuka.ru/stoimost-uslug": "sitemap-price"
     },
     "fallback_used": {
       "contact": false,
@@ -2385,6 +2488,8 @@
   "verification": {
     "b2": true,
     "b3": true,
-    "b4": true
+    "b4": true,
+    "mode": "agent",
+    "mode_updated_at": "2026-05-11T17:21:14Z"
   }
 }

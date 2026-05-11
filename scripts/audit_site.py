@@ -90,6 +90,14 @@ PRIVACY_HINTS = [
     '152-fz',
 ]
 
+COOKIE_NOTICE_HINTS = [
+    'cookie',
+    'cookies',
+    'файл cookie',
+    'файлы cookie',
+    'куки',
+]
+
 SECURITY_HEADERS = [
     'strict-transport-security',
     'content-security-policy',
@@ -100,8 +108,11 @@ SECURITY_HEADERS = [
 
 PRICE_URL_HINTS = [
     'price', 'prices', 'prays', 'ceny', 'tseny', 'stoim', 'cost', 'uslugi', 'tarif',
+    'cena', 'pricing', 'stoimost', 'prices-list', 'price-list',
 ]
 DOCTOR_URL_HINTS = [
+    # Legacy list kept for backward compatibility in other helpers.
+    # Doctor metric itself should not depend on URL slug guessing.
     'doctor', 'doctors', 'vrach', 'vrachi', 'specialist', 'team', 'staff', 'personnel',
 ]
 MAP_TOKENS = [
@@ -131,6 +142,14 @@ REVIEW_TOKENS = [
     'яндекс карты',
     '2gis',
 ]
+REVIEW_STRONG_TOKENS = [
+    'prodoctorov',
+    'otzovik',
+    'napopravku',
+    'flamp',
+    'testimonial',
+    'review-widget',
+]
 SERVICE_KEYWORDS = [
     'implant',
     'имплан',
@@ -143,6 +162,27 @@ SERVICE_KEYWORDS = [
     'koronk',
     'коронк',
     'otbel',
+    'отбел',
+]
+PRICE_TEXT_HINTS = [
+    'цена',
+    'цены',
+    'стоимость',
+    'прайс',
+    'прайс-лист',
+    'прайс лист',
+]
+PRICE_SERVICE_HINTS = [
+    'услуг',
+    'лечение',
+    'прием',
+    'консультац',
+    'удалени',
+    'имплант',
+    'коронк',
+    'брекет',
+    'винир',
+    'чистк',
     'отбел',
 ]
 SPECIALTY_KEYWORDS = [
@@ -443,6 +483,40 @@ def extract_internal_links(base: str, html: str):
         abs_url = urljoin(base + '/', href)
         if urlparse(abs_url).netloc == urlparse(base).netloc:
             links.append({'url': abs_url, 'text': text})
+
+    # Handle JS/data-driven navigation often used by buttons/cards.
+    attr_patterns = [
+        r'(?is)\bdata-href\s*=\s*(?:"([^"]*)"|\'([^\']*)\'|([^\s>]+))',
+        r'(?is)\bdata-url\s*=\s*(?:"([^"]*)"|\'([^\']*)\'|([^\s>]+))',
+        r'(?is)\bdata-link\s*=\s*(?:"([^"]*)"|\'([^\']*)\'|([^\s>]+))',
+    ]
+    onclick_pat = re.compile(
+        r'(?is)\bonclick\s*=\s*(?:"([^"]*)"|\'([^\']*)\'|([^\s>]+))'
+    )
+    js_url_pat = re.compile(
+        r'(?is)(?:window|document)?\.?location(?:\.href)?\s*=\s*[\'"]([^\'"]+)[\'"]'
+    )
+
+    for m in re.finditer(r'(?is)<(button|div|span)\b([^>]*)>(.*?)</\1>', html):
+        attrs = m.group(2) or ''
+        text = strip_tags(m.group(3) or '')
+        raw_targets = []
+        for pat in attr_patterns:
+            mm = re.search(pat, attrs)
+            if mm:
+                raw_targets.append(clean_href_value(mm.group(1) or mm.group(2) or mm.group(3) or ''))
+        mo = onclick_pat.search(attrs)
+        if mo:
+            onclick_val = mo.group(1) or mo.group(2) or mo.group(3) or ''
+            mj = js_url_pat.search(onclick_val)
+            if mj:
+                raw_targets.append(clean_href_value(mj.group(1) or ''))
+        for href in raw_targets:
+            if not href or href.startswith('#') or href.startswith('javascript:'):
+                continue
+            abs_url = urljoin(base + '/', href)
+            if urlparse(abs_url).netloc == urlparse(base).netloc:
+                links.append({'url': abs_url, 'text': text})
     return links
 
 
@@ -927,6 +1001,74 @@ def has_any_token(value: str, tokens):
     return any(tok in low for tok in tokens)
 
 
+def snippet_around_token(text: str, token: str, radius: int = 120):
+    low = str(text or '').lower()
+    tok = str(token or '').lower()
+    if not low or not tok:
+        return ''
+    i = low.find(tok)
+    if i < 0:
+        return ''
+    left = max(0, i - radius)
+    right = min(len(low), i + len(tok) + radius)
+    return clean(low[left:right])
+
+
+def collect_reviews_evidence(url: str, html: str, text_low: str):
+    evidence = []
+    low = (html or '').lower()
+    for tok in REVIEW_STRONG_TOKENS:
+        if tok in low:
+            sn = snippet_around_token(low, tok)
+            evidence.append({'page': url, 'signal': f'strong:{tok}', 'snippet': sn or tok})
+    for tok in REVIEW_TOKENS:
+        if tok in text_low:
+            sn = snippet_around_token(text_low, tok)
+            # Prefer snippets that are not just one-word menu labels.
+            if len(sn) >= 24:
+                evidence.append({'page': url, 'signal': f'text:{tok}', 'snippet': sn})
+    uniq = []
+    seen = set()
+    for x in evidence:
+        k = (x.get('page'), x.get('signal'), x.get('snippet'))
+        if k in seen:
+            continue
+        seen.add(k)
+        uniq.append(x)
+    return uniq[:6]
+
+
+def has_price_url_hint(value: str):
+    return has_any_token(value, PRICE_URL_HINTS + PRICE_TEXT_HINTS)
+
+
+def has_public_price_signal(html: str):
+    if not html:
+        return False
+    text = strip_tags(
+        re.sub(r'(?is)<script\b.*?</script>|<style\b.*?</style>|<noscript\b.*?</noscript>', ' ', html)
+    )
+    lines = [clean(x) for x in re.split(r'[\n\r]+', text) if clean(x)]
+    money_re = re.compile(
+        r'(?i)(?<!\d)(?:\d{1,3}(?:[\s\u00a0]\d{3})+|\d{2,6})(?:[.,]\d{1,2})?\s*(?:₽|руб(?:\.|лей|ля|ль)?)'
+    )
+    phone_re = re.compile(r'(?:(?:\+7|8)[\s\-\(\)]*\d[\d\s\-\(\)]{8,}\d)')
+    year_re = re.compile(r'\b20\d{2}\b')
+
+    for line in lines:
+        low = line.lower()
+        if not money_re.search(low):
+            continue
+        if phone_re.search(low):
+            continue
+        # Ignore pure copyright/footer year lines.
+        if year_re.search(low) and not has_any_token(low, PRICE_TEXT_HINTS + PRICE_SERVICE_HINTS):
+            continue
+        if has_any_token(low, PRICE_TEXT_HINTS + PRICE_SERVICE_HINTS):
+            return True
+    return False
+
+
 def normalize_phone(value: str):
     digits = re.sub(r'\D+', '', str(value or ''))
     if len(digits) < 10:
@@ -998,6 +1140,7 @@ def detect_med_trust_signals(html_ok_pages, contact_urls, schema_types):
     service_pages = []
 
     reviews_found = False
+    reviews_evidence = []
     hours_found = False
     map_found = False
     address_any = False
@@ -1023,11 +1166,11 @@ def detect_med_trust_signals(html_ok_pages, contact_urls, schema_types):
         if (url in contact_set) or is_contact_hint(low_url):
             contact_pages.append(url)
 
-        if has_any_token(low_url, PRICE_URL_HINTS):
+        if has_price_url_hint(low_url):
             price_pages.append(url)
-
-        if has_any_token(low_url, DOCTOR_URL_HINTS):
-            doctor_pages.append(url)
+        elif has_public_price_signal(html):
+            # Prices can be shown on home/services pages without explicit /price slug.
+            price_pages.append(url)
 
         if has_any_token(low_url, SERVICE_KEYWORDS):
             service_pages.append(url)
@@ -1039,9 +1182,19 @@ def detect_med_trust_signals(html_ok_pages, contact_urls, schema_types):
                 SPECIALTY_KEYWORDS + ['наши врачи', 'врачи клиники', 'специалисты'],
             )
             doctors_content_found = bool(doctors_context and names_count >= 2)
+        # Do not rely on URL slug patterns for doctors pages; keep only semantic evidence.
+        names_count_now, _ = count_probable_person_names(text)
+        doctors_context_now = has_any_token(
+            text_low,
+            SPECIALTY_KEYWORDS + ['наши врачи', 'врачи клиники', 'специалисты'],
+        )
+        if doctors_context_now and names_count_now >= 2:
+            doctor_pages.append(url)
 
-        if not reviews_found and has_any_token(low + ' ' + text_low, REVIEW_TOKENS):
+        page_reviews = collect_reviews_evidence(url, html, text_low)
+        if page_reviews:
             reviews_found = True
+            reviews_evidence.extend(page_reviews)
         if not hours_found and has_any_token(text_low, HOURS_TOKENS):
             hours_found = True
         if not map_found and has_any_token(low, MAP_TOKENS):
@@ -1077,6 +1230,18 @@ def detect_med_trust_signals(html_ok_pages, contact_urls, schema_types):
     schema_medical = bool(schema_set & {'medicalorganization', 'medicalclinic', 'physician', 'dentist', 'hospital'})
     schema_any = bool(schema_set)
 
+    # Keep only first unique review evidence records for deterministic PoC.
+    dedup_reviews = []
+    seen_reviews = set()
+    for x in reviews_evidence:
+        key = (x.get('page'), x.get('signal'), x.get('snippet'))
+        if key in seen_reviews:
+            continue
+        seen_reviews.add(key)
+        dedup_reviews.append(x)
+        if len(dedup_reviews) >= 12:
+            break
+
     return {
         'contact_page_exists': bool(contact_pages),
         'contact_block_found': contact_block_found,
@@ -1090,6 +1255,7 @@ def detect_med_trust_signals(html_ok_pages, contact_urls, schema_types):
         'map_found': map_found,
         'hours_found': hours_found,
         'reviews_found': reviews_found,
+        'reviews_evidence': dedup_reviews,
         'service_pages_count': len(dedupe_keep_order(service_pages)),
         'service_pages': dedupe_keep_order(service_pages)[:20],
         'schema': {
@@ -1322,6 +1488,7 @@ def run_audit(base_url: str):
     contact_urls = set()
     booking_urls = set()
     legal_urls = set()
+    price_urls = set()
     source_map = {}
 
     for u in sitemap_urls:
@@ -1334,6 +1501,9 @@ def run_audit(base_url: str):
         if is_legal_hint(u):
             legal_urls.add(u)
             source_map[u] = source_map.get(u, 'sitemap-legal')
+        if has_price_url_hint(u):
+            price_urls.add(u)
+            source_map[u] = source_map.get(u, 'sitemap-price')
 
     # 3) discover from home navigation/internal links
     if home_html:
@@ -1348,6 +1518,9 @@ def run_audit(base_url: str):
             if is_legal_hint(combined):
                 legal_urls.add(link['url'])
                 source_map[link['url']] = source_map.get(link['url'], 'navigation-legal')
+            if has_price_url_hint(combined):
+                price_urls.add(link['url'])
+                source_map[link['url']] = source_map.get(link['url'], 'navigation-price')
 
     # 4) collect form pages from sitemap and detect booking candidates by content
     form_pages = set()
@@ -1400,7 +1573,14 @@ def run_audit(base_url: str):
 
     urls = []
     seen = set()
-    for u in [home_url] + sorted(contact_urls) + sorted(booking_urls) + sorted(legal_urls) + sorted(form_pages):
+    for u in [
+        home_url,
+        *sorted(contact_urls),
+        *sorted(booking_urls),
+        *sorted(legal_urls),
+        *sorted(price_urls),
+        *sorted(form_pages),
+    ]:
         if u not in seen:
             seen.add(u)
             urls.append(u)
@@ -1641,6 +1821,22 @@ def run_audit(base_url: str):
 
         h2 = re.sub(r'(?is)<script\b.*?</script>', ' ', html)
         h2 = re.sub(r'(?is)<style\b.*?</style>', ' ', h2)
+        visible_text = clean(strip_tags(h2)).lower()
+
+        if any(tok in visible_text for tok in COOKIE_NOTICE_HINTS):
+            snippet = ''
+            for tok in COOKIE_NOTICE_HINTS:
+                idx = visible_text.find(tok)
+                if idx >= 0:
+                    left = max(0, idx - 90)
+                    right = min(len(visible_text), idx + 180)
+                    snippet = clean(visible_text[left:right])
+                    break
+            privacy_links.append({
+                'page': url,
+                'href': '',
+                'text': (f'cookie notice: {snippet}' if snippet else 'cookie notice'),
+            })
 
         for tm in re.finditer(r'(?is)>([^<]+)<', h2):
             txt = clean(tm.group(1))
@@ -1766,7 +1962,19 @@ def main():
     parser = argparse.ArgumentParser(description='Run site screening audit and save JSON')
     parser.add_argument('site', help='Site URL, e.g. https://example.com')
     parser.add_argument('--out', help='Output JSON path', default=None)
+    parser.add_argument(
+        '--legacy-script-audit',
+        action='store_true',
+        help='Explicitly allow legacy script audit (disabled by default; agent pipeline is the source of truth).',
+    )
     args = parser.parse_args()
+
+    if not args.legacy_script_audit:
+        raise SystemExit(
+            "Blocked by policy: script audit is disabled by default.\n"
+            "Use agent validation pipeline for metric decisions.\n"
+            "If you intentionally need legacy script evidence collection, run with --legacy-script-audit."
+        )
 
     result = run_audit(args.site)
 
@@ -1776,6 +1984,15 @@ def main():
         out = f'data/audits/{domain}.audit.json'
 
     out_path = out if out.startswith('D:') or out.startswith('C:') else str((Path(__file__).resolve().parents[1] / out))
+    out_file = Path(out_path)
+    if out_file.exists():
+        try:
+            previous = json.loads(out_file.read_text(encoding='utf-8'))
+            # Preserve manual verification flags so block visibility does not reset on re-audit.
+            if isinstance(previous.get('verification'), dict):
+                result['verification'] = previous['verification']
+        except Exception:
+            pass
     Path(out_path).parent.mkdir(parents=True, exist_ok=True)
     with open(out_path, 'w', encoding='utf-8') as f:
         json.dump(result, f, ensure_ascii=False, indent=2)

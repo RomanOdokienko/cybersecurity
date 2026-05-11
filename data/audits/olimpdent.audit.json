@@ -44,46 +44,16 @@
       "error": "HTTPError 404"
     },
     {
-      "requested": "https://olimpdent.ru/agreement",
-      "status": 404,
-      "final_url": "https://olimpdent.ru/agreement",
-      "error": "HTTPError 404"
+      "requested": "https://olimpdent.ru/prajs/",
+      "status": 200,
+      "final_url": "https://olimpdent.ru/prajs/",
+      "error": null
     },
     {
-      "requested": "https://olimpdent.ru/personal-data",
-      "status": 404,
-      "final_url": "https://olimpdent.ru/personal-data",
-      "error": "HTTPError 404"
-    },
-    {
-      "requested": "https://olimpdent.ru/policy",
-      "status": 404,
-      "final_url": "https://olimpdent.ru/policy",
-      "error": "HTTPError 404"
-    },
-    {
-      "requested": "https://olimpdent.ru/politika",
-      "status": 404,
-      "final_url": "https://olimpdent.ru/politika",
-      "error": "HTTPError 404"
-    },
-    {
-      "requested": "https://olimpdent.ru/politika-konfidencialnosti",
-      "status": 404,
-      "final_url": "https://olimpdent.ru/politika-konfidencialnosti",
-      "error": "HTTPError 404"
-    },
-    {
-      "requested": "https://olimpdent.ru/privacy",
-      "status": 404,
-      "final_url": "https://olimpdent.ru/privacy",
-      "error": "HTTPError 404"
-    },
-    {
-      "requested": "https://olimpdent.ru/privacy-policy",
-      "status": 404,
-      "final_url": "https://olimpdent.ru/privacy-policy",
-      "error": "HTTPError 404"
+      "requested": "https://olimpdent.ru/uslugi/",
+      "status": 200,
+      "final_url": "https://olimpdent.ru/uslugi/",
+      "error": null
     }
   ],
   "forms": [
@@ -161,6 +131,171 @@
       "has_name_field": true,
       "has_textarea": false,
       "phone_required": true
+    },
+    {
+      "page": "https://olimpdent.ru/prajs/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/prajs/#wpcf7-f12893-p12951-o2\"",
+      "open_tag": "<form action=\"/prajs/#wpcf7-f12893-p12951-o2\" method=\"post\" class=\"wpcf7-form init\" novalidate=\"novalidate\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null,
+      "has_phone_field": true,
+      "has_name_field": true,
+      "has_textarea": false,
+      "phone_required": true
+    },
+    {
+      "page": "https://olimpdent.ru/prajs/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/prajs/#wpcf7-f12893-o1\"",
+      "open_tag": "<form action=\"/prajs/#wpcf7-f12893-o1\" method=\"post\" class=\"wpcf7-form init\" novalidate=\"novalidate\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null,
+      "has_phone_field": true,
+      "has_name_field": true,
+      "has_textarea": false,
+      "phone_required": true
+    },
+    {
+      "page": "https://olimpdent.ru/uslugi/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/uslugi/#wpcf7-f12893-p12678-o2\"",
+      "open_tag": "<form action=\"/uslugi/#wpcf7-f12893-p12678-o2\" method=\"post\" class=\"wpcf7-form init\" novalidate=\"novalidate\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null,
+      "has_phone_field": true,
+      "has_name_field": true,
+      "has_textarea": false,
+      "phone_required": true
+    },
+    {
+      "page": "https://olimpdent.ru/uslugi/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/uslugi/#wpcf7-f12893-p12678-o3\"",
+      "open_tag": "<form action=\"/uslugi/#wpcf7-f12893-p12678-o3\" method=\"post\" class=\"wpcf7-form init\" novalidate=\"novalidate\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null,
+      "has_phone_field": true,
+      "has_name_field": true,
+      "has_textarea": false,
+      "phone_required": true
+    },
+    {
+      "page": "https://olimpdent.ru/uslugi/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/uslugi/#wpcf7-f12893-p12678-o4\"",
+      "open_tag": "<form action=\"/uslugi/#wpcf7-f12893-p12678-o4\" method=\"post\" class=\"wpcf7-form init\" novalidate=\"novalidate\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null,
+      "has_phone_field": true,
+      "has_name_field": true,
+      "has_textarea": false,
+      "phone_required": true
+    },
+    {
+      "page": "https://olimpdent.ru/uslugi/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/uslugi/#wpcf7-f12893-p12678-o5\"",
+      "open_tag": "<form action=\"/uslugi/#wpcf7-f12893-p12678-o5\" method=\"post\" class=\"wpcf7-form init\" novalidate=\"novalidate\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null,
+      "has_phone_field": true,
+      "has_name_field": true,
+      "has_textarea": false,
+      "phone_required": true
+    },
+    {
+      "page": "https://olimpdent.ru/uslugi/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/uslugi/#wpcf7-f12893-p12678-o6\"",
+      "open_tag": "<form action=\"/uslugi/#wpcf7-f12893-p12678-o6\" method=\"post\" class=\"wpcf7-form init\" novalidate=\"novalidate\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null,
+      "has_phone_field": true,
+      "has_name_field": true,
+      "has_textarea": false,
+      "phone_required": true
+    },
+    {
+      "page": "https://olimpdent.ru/uslugi/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/uslugi/#wpcf7-f12893-p12678-o7\"",
+      "open_tag": "<form action=\"/uslugi/#wpcf7-f12893-p12678-o7\" method=\"post\" class=\"wpcf7-form init\" novalidate=\"novalidate\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null,
+      "has_phone_field": true,
+      "has_name_field": true,
+      "has_textarea": false,
+      "phone_required": true
+    },
+    {
+      "page": "https://olimpdent.ru/uslugi/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/uslugi/#wpcf7-f12893-p12678-o8\"",
+      "open_tag": "<form action=\"/uslugi/#wpcf7-f12893-p12678-o8\" method=\"post\" class=\"wpcf7-form init\" novalidate=\"novalidate\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null,
+      "has_phone_field": true,
+      "has_name_field": true,
+      "has_textarea": false,
+      "phone_required": true
+    },
+    {
+      "page": "https://olimpdent.ru/uslugi/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/uslugi/#wpcf7-f12893-p12678-o9\"",
+      "open_tag": "<form action=\"/uslugi/#wpcf7-f12893-p12678-o9\" method=\"post\" class=\"wpcf7-form init\" novalidate=\"novalidate\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null,
+      "has_phone_field": true,
+      "has_name_field": true,
+      "has_textarea": false,
+      "phone_required": true
+    },
+    {
+      "page": "https://olimpdent.ru/uslugi/",
+      "form_id": "wpcf7-form init",
+      "action_display": "action=\"/uslugi/#wpcf7-f12893-o1\"",
+      "open_tag": "<form action=\"/uslugi/#wpcf7-f12893-o1\" method=\"post\" class=\"wpcf7-form init\" novalidate=\"novalidate\">",
+      "has_checkbox": false,
+      "checked": null,
+      "has_policy_text": false,
+      "checkbox_poc": null,
+      "policy_poc": null,
+      "has_phone_field": true,
+      "has_name_field": true,
+      "has_textarea": false,
+      "phone_required": true
     }
   ],
   "emails": [
@@ -172,73 +307,121 @@
       "token": "facebook",
       "page": "https://olimpdent.ru/",
       "context": "href=\"https://www.facebook.com/olimpdent/\"",
-      "visibility": "С‚РѕР»СЊРєРѕ РІ РєРѕРґРµ"
+      "visibility": "только в коде"
     },
     {
       "token": "facebook.com",
       "page": "https://olimpdent.ru/",
       "context": "href=\"https://www.facebook.com/olimpdent/\"",
-      "visibility": "С‚РѕР»СЊРєРѕ РІ РєРѕРґРµ"
+      "visibility": "только в коде"
     },
     {
       "token": "instagram",
       "page": "https://olimpdent.ru/",
       "context": "href=\"https://www.instagram.com/olimpdent/\"",
-      "visibility": "С‚РѕР»СЊРєРѕ РІ РєРѕРґРµ"
+      "visibility": "только в коде"
     },
     {
       "token": "instagram.com",
       "page": "https://olimpdent.ru/",
       "context": "href=\"https://www.instagram.com/olimpdent/\"",
-      "visibility": "С‚РѕР»СЊРєРѕ РІ РєРѕРґРµ"
+      "visibility": "только в коде"
     },
     {
       "token": "facebook",
       "page": "https://olimpdent.ru/contact",
       "context": "href=\"https://www.facebook.com/olimpdent/\"",
-      "visibility": "С‚РѕР»СЊРєРѕ РІ РєРѕРґРµ"
+      "visibility": "только в коде"
     },
     {
       "token": "facebook.com",
       "page": "https://olimpdent.ru/contact",
       "context": "href=\"https://www.facebook.com/olimpdent/\"",
-      "visibility": "С‚РѕР»СЊРєРѕ РІ РєРѕРґРµ"
+      "visibility": "только в коде"
     },
     {
       "token": "instagram",
       "page": "https://olimpdent.ru/contact",
       "context": "href=\"https://www.instagram.com/olimpdent/\"",
-      "visibility": "С‚РѕР»СЊРєРѕ РІ РєРѕРґРµ"
+      "visibility": "только в коде"
     },
     {
       "token": "instagram.com",
       "page": "https://olimpdent.ru/contact",
       "context": "href=\"https://www.instagram.com/olimpdent/\"",
-      "visibility": "С‚РѕР»СЊРєРѕ РІ РєРѕРґРµ"
+      "visibility": "только в коде"
     },
     {
       "token": "facebook",
       "page": "https://olimpdent.ru/kontakty",
       "context": "href=\"https://www.facebook.com/olimpdent/\"",
-      "visibility": "С‚РѕР»СЊРєРѕ РІ РєРѕРґРµ"
+      "visibility": "только в коде"
     },
     {
       "token": "facebook.com",
       "page": "https://olimpdent.ru/kontakty",
       "context": "href=\"https://www.facebook.com/olimpdent/\"",
-      "visibility": "С‚РѕР»СЊРєРѕ РІ РєРѕРґРµ"
+      "visibility": "только в коде"
     },
     {
       "token": "instagram",
       "page": "https://olimpdent.ru/kontakty",
       "context": "href=\"https://www.instagram.com/olimpdent/\"",
-      "visibility": "С‚РѕР»СЊРєРѕ РІ РєРѕРґРµ"
+      "visibility": "только в коде"
     },
     {
       "token": "instagram.com",
       "page": "https://olimpdent.ru/kontakty",
       "context": "href=\"https://www.instagram.com/olimpdent/\"",
-      "visibility": "С‚РѕР»СЊРєРѕ РІ РєРѕРґРµ"
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://olimpdent.ru/prajs/",
+      "context": "href=\"https://www.facebook.com/olimpdent/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "https://olimpdent.ru/prajs/",
+      "context": "href=\"https://www.facebook.com/olimpdent/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://olimpdent.ru/prajs/",
+      "context": "href=\"https://www.instagram.com/olimpdent/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://olimpdent.ru/prajs/",
+      "context": "href=\"https://www.instagram.com/olimpdent/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook",
+      "page": "https://olimpdent.ru/uslugi/",
+      "context": "href=\"https://www.facebook.com/olimpdent/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "facebook.com",
+      "page": "https://olimpdent.ru/uslugi/",
+      "context": "href=\"https://www.facebook.com/olimpdent/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram",
+      "page": "https://olimpdent.ru/uslugi/",
+      "context": "href=\"https://www.instagram.com/olimpdent/\"",
+      "visibility": "только в коде"
+    },
+    {
+      "token": "instagram.com",
+      "page": "https://olimpdent.ru/uslugi/",
+      "context": "href=\"https://www.instagram.com/olimpdent/\"",
+      "visibility": "только в коде"
     }
   ],
   "cert_errors": [],
@@ -248,7 +431,7 @@
       "protocol": "TLSv1.3",
       "issuer_cn": "R13",
       "not_after": "Jul 31 12:39:49 2026 GMT",
-      "days_left": 86,
+      "days_left": 80,
       "error": null
     },
     "http_to_https": {
@@ -275,16 +458,16 @@
       "canonical_host": "olimpdent.ru"
     },
     "ttfb": {
-      "seconds": 0.408,
+      "seconds": 1.313,
       "source_url": "https://olimpdent.ru/",
       "status": 200,
       "error": null
     },
     "pagespeed": {
       "status": "ok",
-      "score": 36,
-      "lcp_seconds": 9.356,
-      "tool": "C:\\Program Files\\nodejs\\npx.CMD --yes lighthouse",
+      "score": 37,
+      "lcp_seconds": 9.6,
+      "tool": "pagespeed_api",
       "error": null
     },
     "analytics": {
@@ -296,6 +479,7 @@
     "engagement": {
       "whatsapp": true,
       "telegram": false,
+      "max_messenger": false,
       "chat_widget": false,
       "slot_booking_widget": false
     },
@@ -318,12 +502,16 @@
     },
     "med_trust": {
       "contact_page_exists": true,
+      "contact_block_found": true,
       "contact_pages": [
         "https://olimpdent.ru/contact/"
       ],
-      "price_public_found": false,
-      "price_pages": [],
+      "price_public_found": true,
+      "price_pages": [
+        "https://olimpdent.ru/uslugi/"
+      ],
       "doctors_page_exists": false,
+      "doctors_content_found": true,
       "doctor_pages": [],
       "address_found": true,
       "map_found": true,
@@ -339,9 +527,159 @@
         ]
       },
       "footer_year": {
-        "present": null,
-        "year": null,
-        "current_year": null
+        "present": true,
+        "year": 2020,
+        "current_year": false
+      },
+      "text_typos": {
+        "checked_pages": [
+          "https://olimpdent.ru/",
+          "https://olimpdent.ru/contact/",
+          "https://olimpdent.ru/kontakty/",
+          "https://olimpdent.ru/uslugi/",
+          "https://olimpdent.ru/prajs/"
+        ],
+        "error_count": 23,
+        "samples": [
+          {
+            "page": "https://olimpdent.ru/",
+            "type": "missing_space_after_punct",
+            "match": ";О",
+            "snippet": "ЕРШИНА ВАШЕЙ УЛЫБКИ! Стоматология &#8220;Олимп&#8221; Мы готовы предложить пациент"
+          },
+          {
+            "page": "https://olimpdent.ru/",
+            "type": "missing_space_after_punct",
+            "match": ".О",
+            "snippet": "ла в стоматологии «Олимп» делала гигиену.Очень приветливый администратор,приятная "
+          },
+          {
+            "page": "https://olimpdent.ru/",
+            "type": "missing_space_after_punct",
+            "match": ",п",
+            "snippet": " гигиену.Очень приветливый администратор,приятная атмосфера в клинике!Меня встрети"
+          },
+          {
+            "page": "https://olimpdent.ru/",
+            "type": "missing_space_after_punct",
+            "match": "!М",
+            "snippet": "министратор,приятная атмосфера в клинике!Меня встретила доктор, гигиену провела бе"
+          },
+          {
+            "page": "https://olimpdent.ru/",
+            "type": "missing_space_after_punct",
+            "match": ",х",
+            "snippet": "ла доктор, гигиену провела безболезненно,хотя до этого я очень не любила эту проце"
+          },
+          {
+            "page": "https://olimpdent.ru/",
+            "type": "missing_space_after_punct",
+            "match": ".П",
+            "snippet": "азала, чем нужно заниматься в дальнейшем.Приятно порадовали цены на лечение.Обязат"
+          },
+          {
+            "page": "https://olimpdent.ru/",
+            "type": "missing_space_after_punct",
+            "match": ".О",
+            "snippet": "ейшем.Приятно порадовали цены на лечение.Обязательно вернусь в эту клинику на лече"
+          },
+          {
+            "page": "https://olimpdent.ru/",
+            "type": "missing_space_after_punct",
+            "match": ".Р",
+            "snippet": "ательно вернусь в эту клинику на лечение.Рекомендую всем!Спасибо Вам огромное,докт"
+          },
+          {
+            "page": "https://olimpdent.ru/",
+            "type": "missing_space_after_punct",
+            "match": "!С",
+            "snippet": "в эту клинику на лечение.Рекомендую всем!Спасибо Вам огромное,доктор!!! Анна Была "
+          },
+          {
+            "page": "https://olimpdent.ru/",
+            "type": "missing_space_after_punct",
+            "match": ",д",
+            "snippet": "ние.Рекомендую всем!Спасибо Вам огромное,доктор!!! Анна Была на приеме у Анастаса "
+          },
+          {
+            "page": "https://olimpdent.ru/",
+            "type": "comma_glue",
+            "match": "р,п",
+            "snippet": "а гигиену.Очень приветливый администратор,приятная атмосфера в клинике!Меня встрети"
+          },
+          {
+            "page": "https://olimpdent.ru/",
+            "type": "comma_glue",
+            "match": "о,х",
+            "snippet": "ила доктор, гигиену провела безболезненно,хотя до этого я очень не любила эту проце"
+          },
+          {
+            "page": "https://olimpdent.ru/",
+            "type": "comma_glue",
+            "match": "е,д",
+            "snippet": "ение.Рекомендую всем!Спасибо Вам огромное,доктор!!! Анна Была на приеме у Анастаса "
+          },
+          {
+            "page": "https://olimpdent.ru/",
+            "type": "comma_glue",
+            "match": "ю,ч",
+            "snippet": "ологов- один бог знает! Но сейчас понимаю,что все зависит от доктора.Цены приемлемы"
+          },
+          {
+            "page": "https://olimpdent.ru/",
+            "type": "dot_glue",
+            "match": "у.О",
+            "snippet": "ыла в стоматологии «Олимп» делала гигиену.Очень приветливый администратор,приятная "
+          },
+          {
+            "page": "https://olimpdent.ru/",
+            "type": "dot_glue",
+            "match": "м.П",
+            "snippet": "казала, чем нужно заниматься в дальнейшем.Приятно порадовали цены на лечение.Обязат"
+          },
+          {
+            "page": "https://olimpdent.ru/",
+            "type": "dot_glue",
+            "match": "е.О",
+            "snippet": "нейшем.Приятно порадовали цены на лечение.Обязательно вернусь в эту клинику на лече"
+          },
+          {
+            "page": "https://olimpdent.ru/",
+            "type": "dot_glue",
+            "match": "е.Р",
+            "snippet": "зательно вернусь в эту клинику на лечение.Рекомендую всем!Спасибо Вам огромное,докт"
+          },
+          {
+            "page": "https://olimpdent.ru/",
+            "type": "dot_glue",
+            "match": "а.Н",
+            "snippet": " приятная обстановка, дружеская атмосфера.На сколько я боюсь стоматологов- один бог"
+          },
+          {
+            "page": "https://olimpdent.ru/",
+            "type": "dot_glue",
+            "match": "а.Ц",
+            "snippet": "сейчас понимаю,что все зависит от доктора.Цены приемлемые, очень порадовали. Записа"
+          },
+          {
+            "page": "https://olimpdent.ru/",
+            "type": "dot_glue",
+            "match": "t.r",
+            "snippet": "х Политика конфиденциальности © olimpdent.ru 2020 Записаться на прием Ваше имя (обя"
+          },
+          {
+            "page": "https://olimpdent.ru/contact/",
+            "type": "dot_glue",
+            "match": "t.r",
+            "snippet": "х Политика конфиденциальности © olimpdent.ru 2020 Записаться на прием Ваше имя (обя"
+          },
+          {
+            "page": "https://olimpdent.ru/prajs/",
+            "type": "comma_glue",
+            "match": "с,к",
+            "snippet": " 1 канала 950 Обработка 1 канала метапекс,колласепт 950 Латеральная конденсация гут"
+          }
+        ]
       }
     },
     "mixed_content": {
@@ -349,21 +687,14 @@
       "samples": []
     },
     "broken_internal_links": {
-      "checked": 14,
+      "checked": 22,
       "broken": 0,
       "samples": []
     },
     "broken_static_resources": {
-      "checked": 124,
-      "broken": 1,
-      "samples": [
-        {
-          "url": "https://olimpdent.ru/wp-content/cache/autoptimize/js/autoptimize_single_3aa3fbdedb74765b6feee792131b22e9.js?ver=1",
-          "status": null,
-          "error": "<urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>",
-          "final_url": "https://olimpdent.ru/wp-content/cache/autoptimize/js/autoptimize_single_3aa3fbdedb74765b6feee792131b22e9.js?ver=1"
-        }
-      ]
+      "checked": 136,
+      "broken": 0,
+      "samples": []
     },
     "security_headers": {
       "checked": [
@@ -397,29 +728,16 @@
       "https://olimpdent.ru/booking",
       "https://olimpdent.ru/zapis"
     ],
-    "legal_urls": [
-      "https://olimpdent.ru/agreement",
-      "https://olimpdent.ru/personal-data",
-      "https://olimpdent.ru/policy",
-      "https://olimpdent.ru/politika",
-      "https://olimpdent.ru/politika-konfidencialnosti",
-      "https://olimpdent.ru/privacy",
-      "https://olimpdent.ru/privacy-policy"
-    ],
+    "legal_urls": [],
     "sources": {
       "https://olimpdent.ru/": "",
-      "https://olimpdent.ru/agreement": "policy-fallback",
       "https://olimpdent.ru/appointment": "fallback",
       "https://olimpdent.ru/booking": "fallback",
       "https://olimpdent.ru/contact": "fallback",
       "https://olimpdent.ru/contacts": "fallback",
       "https://olimpdent.ru/kontakty": "fallback",
-      "https://olimpdent.ru/personal-data": "policy-fallback",
-      "https://olimpdent.ru/policy": "policy-fallback",
-      "https://olimpdent.ru/politika": "policy-fallback",
-      "https://olimpdent.ru/politika-konfidencialnosti": "policy-fallback",
-      "https://olimpdent.ru/privacy": "policy-fallback",
-      "https://olimpdent.ru/privacy-policy": "policy-fallback",
+      "https://olimpdent.ru/prajs/": "navigation-price",
+      "https://olimpdent.ru/uslugi/": "navigation-price",
       "https://olimpdent.ru/zapis": "fallback"
     },
     "fallback_used": {
@@ -430,8 +748,8 @@
     "sitemap_used_urls": 8
   },
   "verification": {
-    "b2": false,
+    "b2": true,
     "b3": true,
-    "b4": false
+    "b4": true
   }
 }

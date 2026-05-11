@@ -8,18 +8,22 @@
 - `sites/*.html` — детальные страницы по каждой клинике (PoC)
 - `data/audits/*.audit.json` — результаты проверок сайтов
 - `data/sites_manifest.json` — список клиник для дашборда
-- `scripts/audit_site.py` — запуск проверки сайта в JSON
+- `scripts/audit_site.py` — legacy-сбор evidence в JSON (по умолчанию заблокирован)
 - `scripts/build_dashboard.py` — сборка дашборда и деталей из JSON
+- `scripts/set_verification_mode.py` — проставление режима проверки (`agent`/`legacy_script`) в audit JSON
 - `scripts/dashboard_server.py` — локальный сервер для `dashboard.html` и сохранения комментариев в `data/comments.json`
 - `data/comments.json` — сохраненные пользовательские комментарии по сайтам (коммитятся в git)
 
 ## Добавить новый сайт
 
-1. Запустить аудит:
+1. Провести агентную проверку сайта и зафиксировать вердикты по метрикам с PoC.
 
 ```powershell
-python scripts/audit_site.py https://example.com --out data/audits/example.audit.json
+python scripts/audit_site.py https://example.com --out data/audits/example.audit.json --legacy-script-audit
 ```
+
+Примечание: `audit_site.py` — legacy-сбор evidence и заблокирован по умолчанию.  
+Финальные метрики определяются только агентом.
 
 2. Добавить запись в `data/sites_manifest.json`:
 
@@ -34,10 +38,22 @@ python scripts/audit_site.py https://example.com --out data/audits/example.audit
 }
 ```
 
-3. Пересобрать страницы:
+3. Обновить только нужную клинику:
 
 ```powershell
-python scripts/build_dashboard.py
+python scripts/build_dashboard.py --site-id example-com
+```
+
+4. Зафиксировать режим проверки (обязательно):
+
+```powershell
+python scripts/set_verification_mode.py --site-id example-com --mode agent --set-verified
+```
+
+Полный пересчет всех строк запрещен по умолчанию и требует явного флага:
+
+```powershell
+python scripts/build_dashboard.py --full-rebuild
 ```
 
 4. Открыть дашборд через сервер, если нужно сохранять комментарии в репозиторий:
@@ -59,12 +75,15 @@ python scripts/dashboard_server.py
 2. Финальный бинарный вердикт по метрикам выносит агент по методологии.
 3. Блок помечается как проверенный (`verification.b2` / `verification.b3` / `verification.b4`), только когда агент завершил проверку по этому блоку.
 4. Если по метрике нет достаточных доказательств, блок не считается верифицированным.
+5. Для каждой клиники должен быть выставлен `verification.mode`:
+- `agent` — агентная проверка (целевой режим);
+- `legacy_script` — исторический/скриптовый режим (допустим только как legacy).
 
 ## Режим перепроверки (обязательно)
 
 1. Перепроверка уже заведенных клиник выполняется только в агентском режиме (живой просмотр сайта + PoC), а не только по `sitemap`/эвристикам скрипта.
 2. Если скрипт и агент расходятся, в `data/audits/*.audit.json` фиксируется агентский вердикт с PoC на детальной странице `sites/*.html`.
-3. При возобновлении работы в новом чате этот режим не меняется: сначала агентская перепроверка, потом обновление audit JSON и пересборка `python scripts/build_dashboard.py`.
+3. При возобновлении работы в новом чате этот режим не меняется: сначала агентская перепроверка, потом обновление audit JSON и точечная пересборка `python scripts/build_dashboard.py --site-id <site-id>`.
 
 ## Политика ПДн: обязательное правило агентской проверки
 
