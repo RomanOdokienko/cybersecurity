@@ -227,8 +227,10 @@
         "https://www.ortodont-center.ru/clinics/ulitsa-1905-goda/",
         "https://www.ortodont-center.ru/clinics/volokolamskaya/"
       ],
-      "price_public_found": false,
-      "price_pages": [],
+      "price_public_found": true,
+      "price_pages": [
+        "https://www.ortodont-center.ru/price-list/"
+      ],
       "doctors_page_exists": false,
       "doctors_content_found": true,
       "doctor_pages": [],

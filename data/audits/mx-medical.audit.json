@@ -216,8 +216,10 @@
       "contact_pages": [
         "https://mx-medical.ru/contacts/"
       ],
-      "price_public_found": false,
-      "price_pages": [],
+      "price_public_found": true,
+      "price_pages": [
+        "https://mx-medical.ru/price/"
+      ],
       "doctors_page_exists": true,
       "doctors_content_found": true,
       "doctor_pages": [
@@ -229,7 +231,7 @@
       ],
       "address_found": true,
       "map_found": true,
-      "hours_found": false,
+      "hours_found": true,
       "reviews_found": true,
       "service_pages_count": 0,
       "service_pages": [],

@@ -2406,8 +2406,10 @@
       "contact_pages": [
         "https://senseclinic.ru/kontakty/"
       ],
-      "price_public_found": false,
-      "price_pages": [],
+      "price_public_found": true,
+      "price_pages": [
+        "https://senseclinic.ru/czeny/"
+      ],
       "doctors_page_exists": true,
       "doctors_content_found": true,
       "doctor_pages": [
