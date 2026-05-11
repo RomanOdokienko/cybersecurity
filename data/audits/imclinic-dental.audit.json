@@ -683,8 +683,10 @@
         "https://imclinic.dental/articles/kontaktnyy-karies-skrytaya-ugroza-dlya-zdorovya-zubov-/",
         "https://imclinic.dental/contacts/"
       ],
-      "price_public_found": false,
-      "price_pages": [],
+      "price_public_found": true,
+      "price_pages": [
+        "https://imclinic.dental/price/"
+      ],
       "doctors_page_exists": true,
       "doctors_content_found": true,
       "doctor_pages": [

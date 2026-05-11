@@ -40,14 +40,6 @@
     "result": "проверить"
   },
   {
-    "id": "medsi-ru",
-    "clinic": "МЕДСИ",
-    "site": "medsi.ru",
-    "audit_file": "data/audits/medsi.audit.json",
-    "contact_email": "info@medsigroup.ru",
-    "result": "проверить"
-  },
-  {
     "id": "imclinic-dental",
     "clinic": "IM Clinic Dental",
     "site": "imclinic.dental",

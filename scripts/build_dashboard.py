@@ -61,6 +61,10 @@ METRIKA_POLICY_TOKENS = {
     "ym(",
 }
 NON_EVIDENCE_DISCOVERY_SOURCES = {"fallback", "policy-fallback", "policy-hint"}
+NON_TEXT_ASSET_EXTENSIONS = {
+    ".jpg", ".jpeg", ".png", ".webp", ".gif", ".svg", ".ico", ".bmp", ".tiff", ".avif",
+    ".mp4", ".webm", ".mov", ".avi", ".mp3", ".wav", ".ogg", ".zip",
+}
 DKIM_SELECTOR_CANDIDATES = [
     "default",
     "selector1",
@@ -232,9 +236,14 @@ def collect_policy_evidence(audit):
         evidence.append({"kind": "anchor", "page": page, "href": href, "text": text, "source": page_src or "unknown"})
 
     # 2) Legal pages discovered from sitemap/navigation only (exclude policy fallback/hint).
+    # Skip obvious binary/media assets that cannot serve as readable policy documents.
     for u in (discovery.get("legal_urls", []) or []):
         url = str(u or "").strip()
         if not url:
+            continue
+        path = urlparse(url).path.lower()
+        suffix = Path(path).suffix.lower()
+        if suffix in NON_TEXT_ASSET_EXTENSIONS:
             continue
         src = str(source_map.get(url, "") or "").strip().lower()
         if src in NON_EVIDENCE_DISCOVERY_SOURCES:
@@ -249,6 +258,29 @@ def collect_policy_evidence(audit):
             continue
         seen.add(key)
         evidence.append({"kind": "legal-page", "page": url, "href": url, "text": "legal page", "source": src})
+
+    # 3) Inline policy notices captured on form pages.
+    for f in (audit.get("forms", []) or []):
+        if not f.get("has_policy_text"):
+            continue
+        page = str(f.get("page") or "").strip()
+        snippet = str(f.get("policy_poc") or "").strip()
+        if not page and not snippet:
+            continue
+        page_src = str(source_map.get(page, "") or "").strip().lower()
+        if page_src in NON_EVIDENCE_DISCOVERY_SOURCES:
+            continue
+        key = ("form-policy-text", page, snippet)
+        if key in seen:
+            continue
+        seen.add(key)
+        evidence.append({
+            "kind": "form-policy-text",
+            "page": page,
+            "href": str(f.get("action_display") or "").strip(),
+            "text": snippet[:240] if snippet else "policy text near form",
+            "source": page_src or "unknown",
+        })
 
     return evidence
 
@@ -273,6 +305,42 @@ def detect_metrika_policy_disclosure(audit):
         return True
     chunks = _collect_policy_text_chunks(audit)
     return _contains_any_token(chunks, METRIKA_POLICY_TOKENS)
+
+
+def build_metrika_policy_poc(audit, summary):
+    analytics = ((audit.get("tech") or {}).get("analytics") or {})
+    kinds = [str(x).lower() for x in (analytics.get("kinds") or [])]
+    has_yandex_metrika = "yandex_metrika" in kinds
+
+    policy_evidence = (summary.get("policy_evidence") or [])
+    policy_urls = []
+    seen = set()
+    for x in policy_evidence:
+        for key in ("href", "page"):
+            u = str(x.get(key) or "").strip()
+            if u and u not in seen:
+                seen.add(u)
+                policy_urls.append(u)
+
+    chunks = _collect_policy_text_chunks(audit)
+    matched_tokens = [t for t in sorted(METRIKA_POLICY_TOKENS) if any(t in c for c in chunks)]
+
+    lines = [
+        f"metrika_policy_disclosed: {summary.get('metrika_policy_disclosed')}",
+        "analytics.kinds: " + (", ".join(analytics.get("kinds", []) or []) if analytics.get("kinds") else "не найдены"),
+        f"has_yandex_metrika: {has_yandex_metrika}",
+        f"policy_evidence_count: {len(policy_evidence)}",
+        "checked_policy_urls: " + (", ".join(policy_urls[:6]) if policy_urls else "не найдены"),
+        "matched_tokens_in_policy_text: " + (", ".join(matched_tokens) if matched_tokens else "не найдены"),
+    ]
+
+    if has_yandex_metrika and not matched_tokens:
+        lines.append("Вывод: Метрика найдена на сайте, но явных упоминаний в policy-related текстах не найдено.")
+    elif has_yandex_metrika and matched_tokens:
+        lines.append("Вывод: Метрика найдена на сайте и есть явные упоминания в policy-related текстах.")
+    else:
+        lines.append("Вывод: Яндекс.Метрика на сайте не обнаружена, метрика автоматически ок.")
+    return lines
 
 
 def parse_email_domain(email: str):
@@ -959,6 +1027,9 @@ def compute_summary(item, audit):
     meta_status = "ок" if not forbidden else "проблема"
     policy_status = "ок" if policy_evidence else "проблема"
     cookie_notice_found = detect_cookie_notice(audit)
+    analytics = ((audit.get("tech") or {}).get("analytics") or {})
+    analytics_kinds = [str(x).lower() for x in (analytics.get("kinds") or [])]
+    has_yandex_metrika = "yandex_metrika" in analytics_kinds
     metrika_policy_disclosed = detect_metrika_policy_disclosure(audit)
 
     if availability_status == "проблема":
@@ -975,6 +1046,7 @@ def compute_summary(item, audit):
             "policy_evidence": [],
             "cookie_notice_found": None,
             "metrika_policy_disclosed": None,
+            "has_yandex_metrika": False,
             "result": "-",
             "bad_https_forms": [],
             "consent_buckets": {"текстом": [], "checked": [], "не найдено": [], "unchecked": []},
@@ -1009,6 +1081,7 @@ def compute_summary(item, audit):
         "policy_evidence": policy_evidence,
         "cookie_notice_found": cookie_notice_found,
         "metrika_policy_disclosed": metrika_policy_disclosed,
+        "has_yandex_metrika": has_yandex_metrika,
         "result": item.get("result", "проверить"),
         "bad_https_forms": bad_https_forms,
         "consent_buckets": consent_buckets,
@@ -1410,6 +1483,10 @@ def build_detail_page(item, audit, s):
         for x in policy_evidence[:40]:
             if str(x.get("kind")) == "legal-page":
                 policy_lines.append(f"legal-page | {x.get('page')} | source={x.get('source')}")
+            elif str(x.get("kind")) == "form-policy-text":
+                policy_lines.append(
+                    f"form-policy-text | {x.get('page')} | source={x.get('source')} | snippet={x.get('text')}"
+                )
             else:
                 policy_lines.append(
                     f"anchor | {x.get('page')} -> {x.get('href')} (текст: {x.get('text')}) | source={x.get('source')}"
@@ -1424,11 +1501,18 @@ def build_detail_page(item, audit, s):
     consent_counts = s.get("consent_counts", {}) or {}
     site_unavailable = bool(s.get("site_unavailable"))
     missing_checkbox = int(consent_counts.get("не найдено", 0)) > 0
+    text_only_consent = int(consent_counts.get("текстом", 0)) > 0
     prechecked = int(consent_counts.get("checked", 0)) > 0
+    explicit_consent_missing = missing_checkbox or text_only_consent
     no_checkbox_status = "-" if site_unavailable else ("проблема" if missing_checkbox else "ок")
-    prechecked_status = "-" if site_unavailable else ("проблема" if prechecked else "ок")
+    prechecked_status = "-" if site_unavailable else ("проблема" if (prechecked or explicit_consent_missing) else "ок")
     cookie_status = "-" if site_unavailable else ("ок" if bool(s.get("cookie_notice_found")) else "проблема")
-    third_party_policy_status = "-" if site_unavailable else ("ок" if bool(s.get("metrika_policy_disclosed")) else "проблема")
+    if site_unavailable:
+        third_party_policy_status = "-"
+    elif not bool(s.get("has_yandex_metrika")):
+        third_party_policy_status = "н/п"
+    else:
+        third_party_policy_status = "ок" if bool(s.get("metrika_policy_disclosed")) else "проблема"
 
     block1_lines = [
         metric_lines(
@@ -1447,9 +1531,18 @@ def build_detail_page(item, audit, s):
             prechecked_status,
             [
                 f"consent_prechecked_count: {consent_counts.get('checked', 0)}",
+                f"explicit_consent_missing_count: {int(consent_counts.get('не найдено', 0)) + int(consent_counts.get('текстом', 0))}",
+                f"consent_text_only_count: {consent_counts.get('текстом', 0)}",
+                f"consent_checkbox_missing_count: {consent_counts.get('не найдено', 0)}",
             ] + [
                 f"{f.get('page')} | {f.get('form_id')} | {f.get('action_display')}"
                 for f in (s.get("consent_buckets", {}).get("checked", []) or [])[:8]
+            ] + [
+                f"text-only | {f.get('page')} | {f.get('form_id')} | {f.get('action_display')}"
+                for f in (s.get("consent_buckets", {}).get("текстом", []) or [])[:8]
+            ] + [
+                f"missing-checkbox | {f.get('page')} | {f.get('form_id')} | {f.get('action_display')}"
+                for f in (s.get("consent_buckets", {}).get("не найдено", []) or [])[:8]
             ],
         ),
         metric_lines(
@@ -1478,10 +1571,7 @@ def build_detail_page(item, audit, s):
         metric_lines(
             "Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова",
             third_party_policy_status,
-            [
-                f"metrika_policy_disclosed: {s.get('metrika_policy_disclosed')}",
-                "Источник: analytics.kinds + policy-related тексты (privacy_links/legal_urls/policy_poc).",
-            ],
+            build_metrika_policy_poc(audit, s),
         ),
     ]
 
@@ -1643,16 +1733,23 @@ def step2_blocks_data(summary):
     b2 = summary.get("b2", {}) or {}
     b3 = summary.get("b3", {}) or {}
     missing_checkbox = int(consent_counts.get("не найдено", 0)) > 0
+    text_only_consent = int(consent_counts.get("текстом", 0)) > 0
     prechecked = int(consent_counts.get("checked", 0)) > 0
+    explicit_consent_missing = missing_checkbox or text_only_consent
     cookie_status = "-" if site_unavailable else ("ок" if bool(summary.get("cookie_notice_found")) else "проблема")
-    third_party_policy_status = "-" if site_unavailable else ("ок" if bool(summary.get("metrika_policy_disclosed")) else "проблема")
+    if site_unavailable:
+        third_party_policy_status = "-"
+    elif not bool(summary.get("has_yandex_metrika")):
+        third_party_policy_status = "н/п"
+    else:
+        third_party_policy_status = "ок" if bool(summary.get("metrika_policy_disclosed")) else "проблема"
     b4 = summary.get("b4", {}) or {}
     block2_default_status = "-" if site_unavailable else "проверить"
     block2_verified = bool(summary.get("block2_verified"))
     block3_verified = bool(summary.get("block3_verified"))
     block4_verified = bool(summary.get("block4_verified"))
     no_checkbox_status = "-" if site_unavailable else ("проблема" if missing_checkbox else "ок")
-    prechecked_status = "-" if site_unavailable else ("проблема" if prechecked else "ок")
+    prechecked_status = "-" if site_unavailable else ("проблема" if (prechecked or explicit_consent_missing) else "ок")
 
     b2_values = [
         b2.get("online_slots_status", block2_default_status),
@@ -1882,7 +1979,7 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
     <h4>1. Пациент не давал согласия на обработку данных</h4>
     <p><b>ок:</b> на всех формах найден маркер согласия (чекбокс или корректный текст согласия). <b>проблема:</b> есть формы без маркера согласия. Предустановленный чекбокс оценивается отдельно в п.2.</p>
     <h4>2. Согласие подставлено автоматически — это хуже чем его отсутствие</h4>
-    <p><b>ок:</b> нет предустановленных чекбоксов согласия. <b>проблема:</b> есть хотя бы один prechecked-чекбокс.</p>
+    <p><b>ок:</b> есть отдельное явное согласие до отправки формы (чекбокс/эквивалент) и нет предустановленных чекбоксов. <b>проблема:</b> есть хотя бы один prechecked-чекбокс ИЛИ нет отдельного явного согласия (только текст «нажимая кнопку…» или чекбокс отсутствует).</p>
     <h4>3. На сайте нет обязательного документа об обработке данных пациентов</h4>
     <p><b>ок:</b> найдена реальная ссылка/страница политики ПДн из навигации/контента сайта (с PoC URL/контекста). <b>проблема:</b> доказательство не найдено.</p>
     <h4>4. Имя и телефон пациента передаются в открытом виде — любой может перехватить</h4>
