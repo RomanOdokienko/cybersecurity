@@ -3303,6 +3303,8 @@
   "verification": {
     "b2": true,
     "b3": true,
-    "b4": true
+    "b4": true,
+    "mode": "agent",
+    "mode_updated_at": "2026-05-11T19:09:46Z"
   }
 }

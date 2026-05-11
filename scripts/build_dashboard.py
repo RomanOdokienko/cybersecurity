@@ -2,10 +2,15 @@
 import json
 import html
 import re
+from io import BytesIO
 from functools import lru_cache
 from pathlib import Path
 from urllib.parse import urlencode, urlparse, urljoin
 from urllib.request import Request, urlopen
+try:
+    from pypdf import PdfReader
+except Exception:
+    PdfReader = None
 
 ROOT = Path(r"D:\разработка\Кибербеза 2.0")
 MANIFEST = ROOT / "data" / "sites_manifest.json"
@@ -101,6 +106,16 @@ def site_host(value: str) -> str:
 def read_json(path: Path):
     with path.open("r", encoding="utf-8-sig") as f:
         return json.load(f)
+
+
+def read_text_best_effort(path: Path) -> str:
+    raw = path.read_bytes()
+    for enc in ("utf-8", "utf-8-sig", "cp1251"):
+        try:
+            return raw.decode(enc)
+        except UnicodeDecodeError:
+            continue
+    return raw.decode("latin-1", "ignore")
 
 
 def esc(value):
@@ -228,7 +243,17 @@ def classify_meta_status(forbidden_hits):
         "видно пользователю" in str(x.get("visibility", "") or "").lower()
         for x in forbidden_hits
     )
-    return "проблема" if has_visible_mentions else "проверить"
+    has_direct_forbidden_links = any(
+        bool(
+            re.search(
+                r'href\s*=\s*["\']https?://(?:www\.)?(?:instagram\.com|facebook\.com|fb\.com|threads\.net|meta\.com)\b',
+                str(x.get("context", "") or ""),
+                flags=re.IGNORECASE,
+            )
+        )
+        for x in forbidden_hits
+    )
+    return "проблема" if (has_visible_mentions or has_direct_forbidden_links) else "проверить"
 
 
 def _collect_policy_text_chunks(audit):
@@ -383,7 +408,11 @@ def collect_semantic_policy_urls(audit, policy_evidence=None):
         add_url(str(x.get("href") or ""), str(x.get("text") or ""))
         add_url(str(x.get("page") or ""), "")
 
+    source_map = discovery.get("sources", {}) or {}
     for u in (discovery.get("legal_urls", []) or []):
+        src = str(source_map.get(str(u or ""), "") or "").strip().lower()
+        if src in NON_EVIDENCE_DISCOVERY_SOURCES:
+            continue
         add_url(str(u or ""), "")
 
     for x in (policy_evidence or []):
@@ -413,19 +442,98 @@ def _fetch_url_html_lower(url: str) -> str:
         return ""
 
 
+def _html_to_visible_text_lower(html_low: str) -> str:
+    """Extract readable page text and drop script/style payload to avoid false positives."""
+    src = str(html_low or "")
+    if not src:
+        return ""
+    src = re.sub(r"<script\b[^>]*>.*?</script>", " ", src, flags=re.IGNORECASE | re.DOTALL)
+    src = re.sub(r"<style\b[^>]*>.*?</style>", " ", src, flags=re.IGNORECASE | re.DOTALL)
+    src = re.sub(r"<noscript\b[^>]*>.*?</noscript>", " ", src, flags=re.IGNORECASE | re.DOTALL)
+    src = re.sub(r"<[^>]+>", " ", src)
+    src = re.sub(r"\s+", " ", src)
+    return src.strip()
+
+
+def _is_probably_readable_text(text_low: str) -> bool:
+    txt = str(text_low or "").strip()
+    if not txt:
+        return False
+    words = re.findall(r"[a-zа-яё]{3,}", txt, flags=re.IGNORECASE)
+    # HTML policy pages can be short but still readable; keep PDF/image scans as unreadable.
+    return len(words) >= 12 or len(txt) >= 600
+
+
+@lru_cache(maxsize=1024)
+def _fetch_policy_visible_text_lower(url: str):
+    req = Request(url, headers={"user-agent": "Mozilla/5.0", "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"})
+    try:
+        with urlopen(req, timeout=8) as resp:
+            raw = resp.read()
+            ctype = str(resp.headers.get("Content-Type", "") if resp.headers else "").lower()
+    except Exception:
+        return "", False, False
+
+    is_pdf = (".pdf" in str(url or "").lower()) or ("application/pdf" in ctype)
+    if is_pdf:
+        if PdfReader is None:
+            return "", True, False
+        try:
+            reader = PdfReader(BytesIO(raw))
+            text = " ".join((p.extract_text() or "") for p in reader.pages).lower()
+            text = re.sub(r"\s+", " ", text).strip()
+            return text, True, _is_probably_readable_text(text)
+        except Exception:
+            return "", True, False
+
+    if "charset=" in ctype:
+        enc = ctype.split("charset=", 1)[1].split(";", 1)[0].strip()
+    else:
+        enc = "utf-8"
+    try:
+        html_text = raw.decode(enc, "ignore")
+    except Exception:
+        html_text = raw.decode("utf-8", "ignore")
+    visible_text = _html_to_visible_text_lower(html_text.lower())
+    return visible_text, False, _is_probably_readable_text(visible_text)
+
+
 def scan_policy_pages_for_metrika(audit, policy_evidence=None, max_urls: int = 3):
+    return scan_policy_pages_for_tokens(
+        audit,
+        tokens=METRIKA_POLICY_TOKENS,
+        policy_evidence=policy_evidence,
+        max_urls=max_urls,
+    )
+
+
+def scan_policy_pages_for_tokens(audit, tokens, policy_evidence=None, max_urls: int = 3):
     urls = collect_semantic_policy_urls(audit, policy_evidence=policy_evidence)
     checked = []
+    readable = []
+    unreadable = []
     matched = set()
     for u in urls[:max_urls]:
-        html_low = _fetch_url_html_lower(u)
-        if not html_low:
+        text_low, is_pdf, readable_text = _fetch_policy_visible_text_lower(u)
+        if not text_low and not is_pdf:
             continue
         checked.append(u)
-        for tok in METRIKA_POLICY_TOKENS:
-            if tok in html_low:
+        if readable_text:
+            readable.append(u)
+        else:
+            unreadable.append(u)
+        if not text_low:
+            continue
+        for tok in tokens:
+            if tok in text_low:
                 matched.add(tok)
-    return {"candidate_urls": urls, "checked_urls": checked, "matched_tokens": sorted(matched)}
+    return {
+        "candidate_urls": urls,
+        "checked_urls": checked,
+        "readable_urls": readable,
+        "unreadable_urls": unreadable,
+        "matched_tokens": sorted(matched),
+    }
 
 
 def detect_cookie_notice(audit):
@@ -445,6 +553,24 @@ def detect_cookie_notice(audit):
             continue
         html_text = str(p.get("html") or "").lower()
         if html_text and any(tok in html_text for tok in COOKIE_NOTICE_TOKENS):
+            return True
+
+    # 3) Fetch semantic policy URLs directly (agent-like fallback for dynamic pages).
+    policy_evidence = collect_policy_evidence(audit)
+    policy_scan = scan_policy_pages_for_tokens(
+        audit,
+        tokens=COOKIE_NOTICE_TOKENS,
+        policy_evidence=policy_evidence,
+        max_urls=5,
+    )
+    if policy_scan.get("matched_tokens"):
+        return True
+
+    # 4) Directly fetch homepage HTML as final fallback.
+    domain = str(audit.get("domain") or "").strip()
+    if domain:
+        home_low = _fetch_url_html_lower(site_url(domain))
+        if home_low and any(tok in home_low for tok in COOKIE_NOTICE_TOKENS):
             return True
     return False
 
@@ -480,10 +606,20 @@ def build_cookie_notice_poc(audit, summary):
                 )
             )
 
+    policy_evidence = collect_policy_evidence(audit)
+    policy_scan = scan_policy_pages_for_tokens(
+        audit,
+        tokens=COOKIE_NOTICE_TOKENS,
+        policy_evidence=policy_evidence,
+        max_urls=5,
+    )
+
     lines = [
         f"cookie_notice_found: {summary.get('cookie_notice_found')}",
         f"cookie_notice_hits_in_privacy_links: {len(cookie_priv_hits)}",
         f"cookie_notice_pages_matched: {len(matches)}",
+        "cookie_policy_urls_checked: " + (", ".join((policy_scan.get("checked_urls") or [])[:8]) if policy_scan.get("checked_urls") else "не найдены"),
+        "cookie_policy_tokens_matched: " + (", ".join(policy_scan.get("matched_tokens") or []) if policy_scan.get("matched_tokens") else "не найдены"),
     ]
     for page, txt in cookie_priv_hits[:8]:
         lines.append(f"{page} | {txt}")
@@ -504,11 +640,11 @@ def detect_metrika_policy_disclosure(audit):
 
     policy_evidence = collect_policy_evidence(audit)
     policy_scan = scan_policy_pages_for_metrika(audit, policy_evidence=policy_evidence)
-    if policy_scan.get("matched_tokens"):
-        return True
-
-    chunks = _collect_policy_text_chunks(audit)
-    return _contains_any_token(chunks, METRIKA_POLICY_TOKENS)
+    if policy_scan.get("checked_urls") and not policy_scan.get("readable_urls"):
+        return None
+    # Strict rule: for this metric, count only explicit mentions inside fetched policy page text.
+    # Do not trust snippets/anchors because they can include injected script fragments.
+    return bool(policy_scan.get("matched_tokens"))
 
 
 def build_metrika_policy_poc(audit, summary):
@@ -520,9 +656,7 @@ def build_metrika_policy_poc(audit, summary):
     policy_scan = scan_policy_pages_for_metrika(audit, policy_evidence=policy_evidence)
     policy_urls = policy_scan.get("checked_urls") or policy_scan.get("candidate_urls") or []
 
-    chunks = _collect_policy_text_chunks(audit)
-    matched_tokens = [t for t in sorted(METRIKA_POLICY_TOKENS) if any(t in c for c in chunks)]
-    matched_tokens = sorted(set(matched_tokens) | set(policy_scan.get("matched_tokens") or []))
+    matched_tokens = sorted(set(policy_scan.get("matched_tokens") or []))
 
     lines = [
         f"metrika_policy_disclosed: {summary.get('metrika_policy_disclosed')}",
@@ -530,13 +664,17 @@ def build_metrika_policy_poc(audit, summary):
         f"has_yandex_metrika: {has_yandex_metrika}",
         f"policy_evidence_count: {len(policy_evidence)}",
         "checked_policy_urls: " + (", ".join(policy_urls[:8]) if policy_urls else "не найдены"),
+        "readable_policy_urls: " + (", ".join((policy_scan.get("readable_urls") or [])[:8]) if policy_scan.get("readable_urls") else "не найдены"),
+        "unreadable_policy_urls: " + (", ".join((policy_scan.get("unreadable_urls") or [])[:8]) if policy_scan.get("unreadable_urls") else "не найдены"),
         "matched_tokens_in_policy_text: " + (", ".join(matched_tokens) if matched_tokens else "не найдены"),
     ]
 
-    if has_yandex_metrika and not matched_tokens:
-        lines.append("Вывод: Метрика найдена на сайте, но явных упоминаний в policy-related текстах не найдено.")
+    if has_yandex_metrika and summary.get("metrika_policy_disclosed") is None:
+        lines.append("Вывод: policy-URL найден, но текст политики не извлечен надежно (например, скан/PDF без текстового слоя). Статус: проверить.")
+    elif has_yandex_metrika and not matched_tokens:
+        lines.append("Вывод: Метрика найдена на сайте, но явных упоминаний в тексте политики не найдено.")
     elif has_yandex_metrika and matched_tokens:
-        lines.append("Вывод: Метрика найдена на сайте и есть явные упоминания в policy-related текстах.")
+        lines.append("Вывод: Метрика найдена на сайте и явно упомянута в тексте политики.")
     else:
         lines.append("Вывод: Яндекс.Метрика на сайте не обнаружена, метрика автоматически ок.")
     return lines
@@ -1740,8 +1878,18 @@ def build_detail_page(item, audit, s):
             1 for h in forbidden if "видно пользователю" in str(h.get("visibility", "") or "").lower()
         )
         code_only_count = len(forbidden) - visible_count
+        direct_link_count = sum(
+            1
+            for h in forbidden
+            if re.search(
+                r'href\s*=\s*["\']https?://(?:www\.)?(?:instagram\.com|facebook\.com|fb\.com|threads\.net|meta\.com)\b',
+                str(h.get("context", "") or ""),
+                flags=re.IGNORECASE,
+            )
+        )
         meta_lines.append(f"visible_mentions_count: {visible_count}")
         meta_lines.append(f"code_only_mentions_count: {code_only_count}")
+        meta_lines.append(f"direct_forbidden_links_count: {direct_link_count}")
         for h in forbidden[:80]:
             meta_lines.append(f"{h.get('token')} | {h.get('page')} | {h.get('visibility')} | {h.get('context')}")
     else:
@@ -1783,6 +1931,8 @@ def build_detail_page(item, audit, s):
         third_party_policy_status = "-"
     elif not bool(s.get("has_yandex_metrika")):
         third_party_policy_status = "н/п"
+    elif s.get("metrika_policy_disclosed") is None:
+        third_party_policy_status = "проверить"
     else:
         third_party_policy_status = "ок" if bool(s.get("metrika_policy_disclosed")) else "проблема"
 
@@ -2013,6 +2163,8 @@ def step2_blocks_data(summary):
         third_party_policy_status = "-"
     elif not bool(summary.get("has_yandex_metrika")):
         third_party_policy_status = "н/п"
+    elif summary.get("metrika_policy_disclosed") is None:
+        third_party_policy_status = "проверить"
     else:
         third_party_policy_status = "ок" if bool(summary.get("metrika_policy_disclosed")) else "проблема"
     b4 = summary.get("b4", {}) or {}
@@ -2259,7 +2411,7 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
     <h4>4. Имя и телефон пациента передаются в открытом виде — любой может перехватить</h4>
     <p><b>ок:</b> формы не отправляют данные на HTTP (используется HTTPS). <b>проблема:</b> найден хотя бы один HTTP action.</p>
     <h4>5. На сайте упоминается организация, признанная в России экстремистской</h4>
-    <p><b>ок:</b> упоминаний Meta/Instagram/Facebook/Threads не найдено. <b>проверить:</b> упоминания есть только в коде, без видимого текста для пользователя. <b>проблема:</b> найдено видимое пользователю упоминание.</p>
+    <p><b>ок:</b> упоминаний Meta/Instagram/Facebook/Threads не найдено. <b>проверить:</b> упоминания есть только в коде, без видимого текста и без прямых внешних ссылок. <b>проблема:</b> найдено видимое пользователю упоминание или прямая внешняя ссылка (например, href на instagram.com/facebook.com/threads.net/meta.com).</p>
     <h4>6. Сайт собирает данные пациентов без их уведомления</h4>
     <p><b>ок:</b> на реально открытых страницах найдены признаки уведомления о cookies/согласии (баннер/текст/ссылка на cookie-policy). <b>проблема:</b> признаки не найдены.</p>
     <h4>7. Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова</h4>
@@ -2490,7 +2642,7 @@ def main():
             page_path = ROOT / page_name
             if not page_path.exists():
                 continue
-            txt = page_path.read_text(encoding="utf-8")
+            txt = read_text_best_effort(page_path)
             changed = False
             for sid, row in updated_rows:
                 new_txt, found = replace_step2_row_in_html(txt, sid, row)

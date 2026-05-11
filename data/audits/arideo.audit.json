@@ -829,5 +829,9 @@
     },
     "sitemap_total_urls": 6,
     "sitemap_used_urls": 6
+  },
+  "verification": {
+    "mode": "agent",
+    "mode_updated_at": "2026-05-11T18:18:08Z"
   }
 }

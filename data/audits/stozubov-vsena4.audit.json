@@ -201,10 +201,14 @@
     "med_trust": {
       "contact_page_exists": false,
       "contact_pages": [],
-      "price_public_found": false,
-      "price_pages": [],
-      "doctors_page_exists": false,
-      "doctor_pages": [],
+      "price_public_found": true,
+      "price_pages": [
+        "https://stozubov-vsena4.ru/"
+      ],
+      "doctors_page_exists": true,
+      "doctor_pages": [
+        "https://stozubov-vsena4.ru/"
+      ],
       "address_found": true,
       "map_found": true,
       "hours_found": true,
@@ -222,7 +226,8 @@
         "present": null,
         "year": null,
         "current_year": null
-      }
+      },
+      "doctors_content_found": true
     },
     "mixed_content": {
       "count": 0,
@@ -288,6 +293,8 @@
   "verification": {
     "b2": true,
     "b3": true,
-    "b4": true
+    "b4": true,
+    "mode": "agent",
+    "mode_updated_at": "2026-05-11T19:05:31Z"
   }
 }
