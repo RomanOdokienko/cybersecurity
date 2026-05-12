@@ -158,13 +158,15 @@
       "contact_pages": [
         "https://amk-dental.clients.site#contacts"
       ],
-      "price_public_found": false,
-      "price_pages": [],
+      "price_public_found": true,
+      "price_pages": [
+        "https://amk-dental.clients.site/"
+      ],
       "doctors_page_exists": false,
       "doctor_pages": [],
       "address_found": true,
       "map_found": true,
-      "hours_found": false,
+      "hours_found": true,
       "reviews_found": true,
       "service_pages_count": 0,
       "service_pages": [],
@@ -174,10 +176,11 @@
         "types": []
       },
       "footer_year": {
-        "present": null,
+        "present": false,
         "year": null,
         "current_year": null
-      }
+      },
+      "doctors_content_found": false
     },
     "mixed_content": {
       "count": 0,
@@ -258,6 +261,6 @@
     "b3": true,
     "b4": true,
     "mode": "agent",
-    "mode_updated_at": "2026-05-11T20:13:24Z"
+    "mode_updated_at": "2026-05-12T07:04:06Z"
   }
 }
