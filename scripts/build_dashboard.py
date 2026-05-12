@@ -7,6 +7,7 @@ from functools import lru_cache
 from pathlib import Path
 from urllib.parse import urlencode, urlparse, urljoin
 from urllib.request import Request, urlopen
+from urllib.error import HTTPError
 try:
     from pypdf import PdfReader
 except Exception:
@@ -75,6 +76,11 @@ COOKIE_NOTICE_TOKENS = {
     "cookie policy",
     "политика cookie",
 }
+COOKIE_NOTICE_REGEX_PATTERNS = [
+    r"(?:мы|сайт)[^.\n]{0,80}(?:используем|применяем|собираем)[^.\n]{0,80}(?:cookie|куки)",
+    r"(?:cookie|куки)[^.\n]{0,120}(?:соглас|принять|accept|ok|настройк|разреш)",
+    r"(?:продолжая[^.\n]{0,120}(?:cookie|куки))|(?:(?:cookie|куки)[^.\n]{0,120}продолжая)",
+]
 METRIKA_POLICY_TOKENS = {
     "яндекс.метрик",
     "яндекс метрик",
@@ -102,6 +108,15 @@ NON_EVIDENCE_DISCOVERY_SOURCES = {"fallback", "policy-fallback", "policy-hint"}
 NON_TEXT_ASSET_EXTENSIONS = {
     ".jpg", ".jpeg", ".png", ".webp", ".gif", ".svg", ".ico", ".bmp", ".tiff", ".avif",
     ".mp4", ".webm", ".mov", ".avi", ".mp3", ".wav", ".ogg", ".zip",
+}
+POLICY_CONTENT_TOKENS = {
+    "персональн",
+    "обработк",
+    "субъект персональ",
+    "оператор персональ",
+    "152-фз",
+    "152 фз",
+    "федеральн",
 }
 DKIM_SELECTOR_CANDIDATES = [
     "default",
@@ -382,6 +397,16 @@ def _contains_any_token(chunks, tokens):
     return False
 
 
+def _has_cookie_notice_pattern(text_low: str) -> bool:
+    s = str(text_low or "").strip().lower()
+    if not s:
+        return False
+    for pat in COOKIE_NOTICE_REGEX_PATTERNS:
+        if re.search(pat, s, flags=re.IGNORECASE):
+            return True
+    return False
+
+
 def _contains_policy_hint(text: str) -> bool:
     low = str(text or "").strip().lower()
     return any(tok in low for tok in POLICY_URL_HINT_TOKENS)
@@ -439,6 +464,91 @@ def collect_semantic_policy_urls(audit, policy_evidence=None):
         add_url(str(x.get("page") or ""), "")
 
     return urls
+
+
+@lru_cache(maxsize=1024)
+def _probe_url_status(url: str):
+    req = Request(url, headers={"user-agent": "Mozilla/5.0", "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"})
+    try:
+        with urlopen(req, timeout=6) as resp:
+            return int(resp.getcode() or 0)
+    except HTTPError as e:
+        try:
+            return int(e.code or 0)
+        except Exception:
+            return 0
+    except Exception:
+        return 0
+
+
+def _extract_policy_doc_links(base_url: str, html_low: str):
+    out = []
+    seen = set()
+    for m in re.finditer(r'(?is)<a\b[^>]*href\s*=\s*(?:"([^"]*)"|\'([^\']*)\'|([^\s>]+))', str(html_low or "")):
+        href = str(m.group(1) or m.group(2) or m.group(3) or "").strip()
+        if not href:
+            continue
+        low = href.lower()
+        if any(low.endswith(ext) for ext in [".pdf", ".doc", ".docx"]):
+            abs_url = urljoin(base_url, href)
+            if abs_url not in seen:
+                seen.add(abs_url)
+                out.append(abs_url)
+    return out
+
+
+def evaluate_policy_document_presence(audit, policy_evidence=None, max_urls: int = 8):
+    scan = scan_policy_pages_for_tokens(
+        audit,
+        tokens=POLICY_CONTENT_TOKENS,
+        policy_evidence=policy_evidence,
+        max_urls=max_urls,
+    )
+    checked_urls = scan.get("checked_urls") or []
+    matched_tokens_union = set()
+    valid_urls = []
+    broken_doc_urls = []
+    per_url_signals = []
+
+    for u in checked_urls:
+        text_low, _, readable_text = _fetch_policy_visible_text_lower(u)
+        matched_tokens = sorted([tok for tok in POLICY_CONTENT_TOKENS if tok in str(text_low or "")])
+        matched_tokens_union.update(matched_tokens)
+        html_low = _fetch_url_html_lower(u)
+        doc_links = _extract_policy_doc_links(u, html_low)
+        doc_statuses = [{"url": du, "status": _probe_url_status(du)} for du in doc_links[:6]]
+        has_docs = bool(doc_statuses)
+        docs_ok = any((d.get("status") or 0) == 200 for d in doc_statuses)
+        docs_broken = has_docs and not docs_ok
+
+        strong_text = bool(readable_text and len(matched_tokens) >= 3)
+        url_valid = bool(docs_ok or (strong_text and not docs_broken))
+        if url_valid:
+            valid_urls.append(u)
+        if docs_broken:
+            broken_doc_urls.append(u)
+        per_url_signals.append({
+            "url": u,
+            "matched_tokens": matched_tokens,
+            "has_doc_links": has_docs,
+            "doc_links_ok": docs_ok,
+            "doc_links_broken": docs_broken,
+            "strong_text": strong_text,
+            "valid": url_valid,
+        })
+
+    present = bool(valid_urls)
+    return {
+        "present": present,
+        "checked_urls": checked_urls,
+        "readable_urls": scan.get("readable_urls") or [],
+        "unreadable_urls": scan.get("unreadable_urls") or [],
+        "matched_tokens": sorted(matched_tokens_union),
+        "candidate_urls": scan.get("candidate_urls") or [],
+        "valid_urls": valid_urls,
+        "broken_doc_urls": broken_doc_urls,
+        "per_url_signals": per_url_signals,
+    }
 
 
 @lru_cache(maxsize=1024)
@@ -561,35 +671,19 @@ def detect_cookie_notice(audit):
         if txt.startswith("cookie notice:"):
             return True
 
-    # 1) Policy-related signals (privacy links / legal urls / form snippets).
-    chunks = _collect_policy_text_chunks(audit)
-    if _contains_any_token(chunks, COOKIE_NOTICE_TOKENS):
-        return True
-
-    # 2) Direct page HTML signals (cookie banner text/class/id can be rendered outside policy docs).
+    # 1) Direct page HTML signals (cookie banner text can be rendered outside policy docs).
     for p in (audit.get("pages", []) or []):
         if p.get("status") != 200:
             continue
         html_text = str(p.get("html") or "").lower()
-        if html_text and any(tok in html_text for tok in COOKIE_NOTICE_TOKENS):
+        if _has_cookie_notice_pattern(html_text):
             return True
 
-    # 3) Fetch semantic policy URLs directly (agent-like fallback for dynamic pages).
-    policy_evidence = collect_policy_evidence(audit)
-    policy_scan = scan_policy_pages_for_tokens(
-        audit,
-        tokens=COOKIE_NOTICE_TOKENS,
-        policy_evidence=policy_evidence,
-        max_urls=5,
-    )
-    if policy_scan.get("matched_tokens"):
-        return True
-
-    # 4) Directly fetch homepage HTML as final fallback.
+    # 2) Directly fetch homepage HTML as fallback.
     domain = str(audit.get("domain") or "").strip()
     if domain:
         home_low = _fetch_url_html_lower(site_url(domain))
-        if home_low and any(tok in home_low for tok in COOKIE_NOTICE_TOKENS):
+        if _has_cookie_notice_pattern(home_low):
             return True
     return False
 
@@ -616,29 +710,19 @@ def build_cookie_notice_poc(audit, summary):
         html_text = str(p.get("html") or "").lower()
         if not html_text:
             continue
-        found = [tok for tok in COOKIE_NOTICE_TOKENS if tok in html_text]
-        if found:
+        if _has_cookie_notice_pattern(html_text):
             matches.append(
                 (
                     str(p.get("requested") or p.get("final_url") or "").strip(),
-                    sorted(set(found)),
+                    ["cookie-notice-regex"],
                 )
             )
-
-    policy_evidence = collect_policy_evidence(audit)
-    policy_scan = scan_policy_pages_for_tokens(
-        audit,
-        tokens=COOKIE_NOTICE_TOKENS,
-        policy_evidence=policy_evidence,
-        max_urls=5,
-    )
 
     lines = [
         f"cookie_notice_found: {summary.get('cookie_notice_found')}",
         f"cookie_notice_hits_in_privacy_links: {len(cookie_priv_hits)}",
         f"cookie_notice_pages_matched: {len(matches)}",
-        "cookie_policy_urls_checked: " + (", ".join((policy_scan.get("checked_urls") or [])[:8]) if policy_scan.get("checked_urls") else "не найдены"),
-        "cookie_policy_tokens_matched: " + (", ".join(policy_scan.get("matched_tokens") or []) if policy_scan.get("matched_tokens") else "не найдены"),
+        "cookie_detection_mode: explicit cookie-notice pattern (без учета policy-URL токенов)",
     ]
     for page, txt in cookie_priv_hits[:8]:
         lines.append(f"{page} | {txt}")
@@ -646,7 +730,7 @@ def build_cookie_notice_poc(audit, summary):
         lines.append(f"{url} | tokens: {', '.join(toks)}")
     if not matches and not cookie_priv_hits:
         lines.append("Совпадений по cookie-токенам не найдено.")
-    lines.append("Источник: policy-related evidence + pages.html (статус 200).")
+    lines.append("Источник: явные cookie-notice сигналы в тексте страниц/домашней страницы.")
     return lines
 
 
@@ -1388,6 +1472,31 @@ def block_verified(audit, block_id: str) -> bool:
     return value is True
 
 
+def _extract_form_action_value(form: dict) -> str:
+    action_display = str(form.get("action_display") or "").strip()
+    m = re.search(r'(?is)action\s*=\s*(?:"([^"]*)"|\'([^\']*)\'|([^\s>]+))', action_display)
+    if m:
+        return str(m.group(1) or m.group(2) or m.group(3) or "").strip()
+    open_tag = str(form.get("open_tag") or "").strip()
+    m2 = re.search(r'(?is)\baction\s*=\s*(?:"([^"]*)"|\'([^\']*)\'|([^\s>]+))', open_tag)
+    if m2:
+        return str(m2.group(1) or m2.group(2) or m2.group(3) or "").strip()
+    return ""
+
+
+def _is_insecure_form_transport(form: dict) -> bool:
+    page = str(form.get("page") or "").strip().lower()
+    action = _extract_form_action_value(form).lower()
+    if action.startswith("http://"):
+        return True
+    if action.startswith("https://"):
+        return False
+    # Relative or missing action on HTTP page means submission over HTTP transport.
+    if page.startswith("http://"):
+        return True
+    return False
+
+
 def compute_summary(item, audit):
     pages = audit.get("pages", [])
     discovery = audit.get("discovery", {})
@@ -1422,7 +1531,7 @@ def compute_summary(item, audit):
     else:
         cert_status = "ок" if not cert_errors else "проблема"
 
-    bad_https_forms = [f for f in forms if "http://" in str(f.get("action_display", "")).lower()]
+    bad_https_forms = [f for f in forms if _is_insecure_form_transport(f)]
     form_https_status = "ок" if not bad_https_forms else "проблема"
 
     consent_buckets = {"текстом": [], "checked": [], "не найдено": [], "unchecked": []}
@@ -1442,7 +1551,8 @@ def compute_summary(item, audit):
     spf_dmarc_poc = " | ".join(spf_dmarc_lines)
 
     meta_status = classify_meta_status(forbidden)
-    policy_status = "ок" if policy_evidence else "проблема"
+    policy_validation = evaluate_policy_document_presence(audit, policy_evidence=policy_evidence)
+    policy_status = "ок" if policy_validation.get("present") else "проблема"
     cookie_notice_found = detect_cookie_notice(audit)
     analytics = ((audit.get("tech") or {}).get("analytics") or {})
     analytics_kinds = [str(x).lower() for x in (analytics.get("kinds") or [])]
@@ -1462,6 +1572,7 @@ def compute_summary(item, audit):
             "meta_status": "-",
             "policy_status": "-",
             "policy_evidence": [],
+            "policy_validation": {"present": None, "checked_urls": [], "readable_urls": [], "unreadable_urls": [], "matched_tokens": [], "candidate_urls": []},
             "cookie_notice_found": None,
             "metrika_policy_disclosed": None,
             "has_yandex_metrika": False,
@@ -1498,6 +1609,7 @@ def compute_summary(item, audit):
         "meta_status": meta_status,
         "policy_status": policy_status,
         "policy_evidence": policy_evidence,
+        "policy_validation": policy_validation,
         "cookie_notice_found": cookie_notice_found,
         "metrika_policy_disclosed": metrika_policy_disclosed,
         "has_yandex_metrika": has_yandex_metrika,
@@ -1922,9 +2034,35 @@ def build_detail_page(item, audit, s):
         meta_lines.append("Совпадений по списку meta/instagram/facebook/threads не найдено.")
 
     policy_lines = []
+    policy_validation = s.get("policy_validation", {}) or {}
     if s.get("site_unavailable"):
         policy_lines.append("Не проверено: сайт недоступен.")
-    elif policy_evidence:
+    else:
+        policy_lines.append(f"policy_document_present: {policy_validation.get('present')}")
+        policy_lines.append(
+            "checked_policy_urls: "
+            + (", ".join((policy_validation.get("checked_urls") or [])[:10]) if policy_validation.get("checked_urls") else "не найдены")
+        )
+        policy_lines.append(
+            "readable_policy_urls: "
+            + (", ".join((policy_validation.get("readable_urls") or [])[:10]) if policy_validation.get("readable_urls") else "не найдены")
+        )
+        policy_lines.append(
+            "unreadable_policy_urls: "
+            + (", ".join((policy_validation.get("unreadable_urls") or [])[:10]) if policy_validation.get("unreadable_urls") else "не найдены")
+        )
+        policy_lines.append(
+            "matched_policy_tokens: "
+            + (", ".join((policy_validation.get("matched_tokens") or [])[:10]) if policy_validation.get("matched_tokens") else "не найдены")
+        )
+        policy_lines.append(
+            "valid_policy_urls: "
+            + (", ".join((policy_validation.get("valid_urls") or [])[:10]) if policy_validation.get("valid_urls") else "не найдены")
+        )
+        policy_lines.append(
+            "policy_urls_with_broken_doc_links: "
+            + (", ".join((policy_validation.get("broken_doc_urls") or [])[:10]) if policy_validation.get("broken_doc_urls") else "не найдены")
+        )
         policy_lines.append(f"policy_evidence_count: {len(policy_evidence)}")
         for x in policy_evidence[:40]:
             if str(x.get("kind")) == "legal-page":
@@ -1937,8 +2075,8 @@ def build_detail_page(item, audit, s):
                 policy_lines.append(
                     f"anchor | {x.get('page')} -> {x.get('href')} (текст: {x.get('text')}) | source={x.get('source')}"
                 )
-    else:
-        policy_lines.append("Ссылка на политику не найдена.")
+        if not policy_evidence:
+            policy_lines.append("Ссылка на политику не найдена.")
 
     availability_lines = [s["availability_poc"]]
     if found_bad:

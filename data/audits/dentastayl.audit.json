@@ -48,6 +48,36 @@
       "status": 200,
       "final_url": "http://dentastayl.ru/search",
       "error": null
+    },
+    {
+      "requested": "http://dentastayl.ru/o-vrache",
+      "status": 200,
+      "final_url": "http://dentastayl.ru/o-vrache",
+      "error": null
+    },
+    {
+      "requested": "http://dentastayl.ru/nashi-specialisty-1",
+      "status": 200,
+      "final_url": "http://dentastayl.ru/nashi-specialisty-1",
+      "error": null
+    },
+    {
+      "requested": "http://dentastayl.ru/nashi-specialisty",
+      "status": 200,
+      "final_url": "http://dentastayl.ru/nashi-specialisty",
+      "error": null
+    },
+    {
+      "requested": "http://dentastayl.ru/o-vrache-erishidi",
+      "status": 200,
+      "final_url": "http://dentastayl.ru/o-vrache-erishidi",
+      "error": null
+    },
+    {
+      "requested": "http://dentastayl.ru/o-vrache-aleksandrova",
+      "status": 200,
+      "final_url": "http://dentastayl.ru/o-vrache-aleksandrova",
+      "error": null
     }
   ],
   "forms": [
@@ -268,8 +298,14 @@
       "price_pages": [
         "http://dentastayl.ru/price"
       ],
-      "doctors_page_exists": false,
-      "doctor_pages": [],
+      "doctors_page_exists": true,
+      "doctor_pages": [
+        "http://dentastayl.ru/o-vrache",
+        "http://dentastayl.ru/nashi-specialisty-1",
+        "http://dentastayl.ru/nashi-specialisty",
+        "http://dentastayl.ru/o-vrache-erishidi",
+        "http://dentastayl.ru/o-vrache-aleksandrova"
+      ],
       "address_found": true,
       "map_found": true,
       "hours_found": true,
@@ -285,7 +321,8 @@
         "present": true,
         "year": 2026,
         "current_year": true
-      }
+      },
+      "doctors_content_found": false
     },
     "mixed_content": {
       "count": 0,
@@ -350,6 +387,11 @@
     "sources": {
       "http://dentastayl.ru/": "",
       "http://dentastayl.ru/contacts": "sitemap",
+      "http://dentastayl.ru/nashi-specialisty": "sitemap-doctor",
+      "http://dentastayl.ru/nashi-specialisty-1": "sitemap-doctor",
+      "http://dentastayl.ru/o-vrache": "sitemap-doctor",
+      "http://dentastayl.ru/o-vrache-aleksandrova": "sitemap-doctor",
+      "http://dentastayl.ru/o-vrache-erishidi": "sitemap-doctor",
       "http://dentastayl.ru/otzyvy": "sitemap-form",
       "http://dentastayl.ru/politika": "policy-hint",
       "http://dentastayl.ru/politika-konfidentsialnosti": "sitemap-legal",

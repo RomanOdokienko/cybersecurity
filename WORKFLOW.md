@@ -9,7 +9,6 @@
 - `sites/*.html` — детальные страницы по каждой клинике (PoC)
 - `data/audits/*.audit.json` — результаты проверок сайтов
 - `data/sites_manifest.json` — список клиник для дашборда
-- `scripts/audit_site.py` — legacy-скрипт (операционно не используется)
 - `scripts/build_dashboard.py` — сборка дашборда и деталей из JSON
 - `scripts/set_verification_mode.py` — проставление режима проверки (`agent`) в audit JSON
 - `scripts/dashboard_server.py` — локальный сервер для `dashboard.html` и сохранения комментариев в `data/comments.json`
@@ -19,7 +18,6 @@
 
 1. Провести агентную проверку сайта и зафиксировать вердикты по метрикам с PoC.
 Обновить `data/audits/<site>.audit.json` по результатам агентной проверки
-без запуска `audit_site.py`.
 
 2. Добавить запись в `data/sites_manifest.json`:
 
