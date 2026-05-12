@@ -843,11 +843,11 @@
     "format_version": "block-metric-status-tf-poc.v1",
     "blocks": [
       {
-        "block": "???? 1",
+        "block": "блок 1",
         "metrics": [
           {
-            "metric": "??????? ?? ????? ???????? ?? ????????? ??????",
-            "status": "??",
+            "metric": "Пациент не давал согласия на обработку данных",
+            "status": "ок",
             "t_f": true,
             "poc": [
               "forms_total: 15",
@@ -855,57 +855,38 @@
             ]
           },
           {
-            "metric": "???????? ??????????? ????????????? ? ??? ???? ??? ??? ??????????",
-            "status": "??",
-            "t_f": true,
-            "poc": [
-              "consent_prechecked_count: 0",
-              "explicit_consent_missing_count: 0",
-              "consent_text_only_count: 0",
-              "consent_checkbox_missing_count: 0"
-            ]
-          },
-          {
-            "metric": "?? ????? ??? ????????????? ????????? ?? ????????? ?????? ?????????",
-            "status": "ок",
-            "t_f": null,
-            "poc": [
-              "policy_document_present: True",
-              "checked_policy_urls: https://arideo.su/agreement/",
-              "readable_policy_urls: https://arideo.su/agreement/",
-              "matched_policy_tokens: 152-фз, обработк, персональн, федеральн"
-            ]
-          },
-          {
-            "metric": "??? ? ??????? ???????? ?????????? ? ???????? ???? ? ????? ????? ???????????",
-            "status": "ок",
-            "t_f": null,
-            "poc": [
-              "????????? ???????? ?? HTTP ?? ???????."
-            ]
-          },
-          {
-            "metric": "?? ????? ??????????? ???????????, ?????????? ? ?????? ??????????????",
+            "metric": "Согласие подставлено автоматически — это хуже чем его отсутствие",
             "status": "проблема",
-            "t_f": null,
+            "t_f": false,
             "poc": [
-              "visible_mentions_count: 0",
-              "code_only_mentions_count: 14",
-              "instagram | https://arideo.su/ | только в коде | href=\"https://www.instagram.com/tv/CYa_Ec0ouWN/?utm_medium=copy_link\"",
-              "instagram.com | https://arideo.su/ | только в коде | href=\"https://www.instagram.com/tv/CYa_Ec0ouWN/?utm_medium=copy_link\"",
-              "instagram | https://arideo.su/ | только в коде | href=\"https://www.instagram.com/reel/CXQiPifoTLj/\"",
-              "instagram.com | https://arideo.su/ | только в коде | href=\"https://www.instagram.com/reel/CXQiPifoTLj/\"",
-              "instagram | https://arideo.su/ | только в коде | href=\"https://www.instagram.com/p/CVyNzMZo0EF/\"",
-              "instagram.com | https://arideo.su/ | только в коде | href=\"https://www.instagram.com/p/CVyNzMZo0EF/\"",
-              "instagram | https://arideo.su/doctors/ | только в коде | href=\"https://www.instagram.com/tv/CYa_Ec0ouWN/?utm_medium=copy_link\"",
-              "instagram.com | https://arideo.su/doctors/ | только в коде | href=\"https://www.instagram.com/tv/CYa_Ec0ouWN/?utm_medium=copy_link\"",
-              "instagram | https://arideo.su/doctors/ | только в коде | href=\"https://www.instagram.com/reel/CXQiPifoTLj/\"",
-              "instagram.com | https://arideo.su/doctors/ | только в коде | href=\"https://www.instagram.com/reel/CXQiPifoTLj/\""
+              "forms_total: 15",
+              "consent_prechecked_count: 0",
+              "explicit_consent_missing_count: 15",
+              "consent_text_only_count: 15",
+              "consent_checkbox_missing_count: 15"
             ]
           },
           {
-            "metric": "???? ???????? ?????? ????????? ??? ?? ???????????",
-            "status": "????????",
+            "metric": "На сайте нет обязательного документа об обработке данных пациентов",
+            "status": "ок",
+            "t_f": true,
+            "poc": []
+          },
+          {
+            "metric": "Имя и телефон пациента передаются в открытом виде — любой может перехватить",
+            "status": "ок",
+            "t_f": true,
+            "poc": []
+          },
+          {
+            "metric": "На сайте упоминается организация, признанная в России экстремистской",
+            "status": "проблема",
+            "t_f": false,
+            "poc": []
+          },
+          {
+            "metric": "Сайт собирает данные пациентов без их уведомления",
+            "status": "проблема",
             "t_f": false,
             "poc": [
               "cookie_notice_found: False",
@@ -917,8 +898,8 @@
             ]
           },
           {
-            "metric": "??????.??????? ???????? ?????? ????? ????????? ? ? ???????? ?? ???? ?? ?????",
-            "status": "????????",
+            "metric": "Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова",
+            "status": "проблема",
             "t_f": false,
             "poc": [
               "metrika_policy_disclosed: False",
@@ -935,12 +916,12 @@
         ]
       },
       {
-        "block": "???? 2",
+        "block": "блок 2",
         "metrics": [
           {
             "metric": "Нет онлайн-записи со слотами",
             "status": "ок",
-            "t_f": null,
+            "t_f": true,
             "poc": [
               "slot_booking_widget: False",
               "booking_urls: https://arideo.su/",
@@ -950,7 +931,7 @@
           {
             "metric": "Сайт — цифровая визитка, не инструмент",
             "status": "ок",
-            "t_f": null,
+            "t_f": true,
             "poc": [
               "sitemap_total_urls: 6",
               "pages_count: 7"
@@ -959,7 +940,7 @@
           {
             "metric": "Вы не знаете кто приходит на сайт и почему уходит",
             "status": "ок",
-            "t_f": null,
+            "t_f": true,
             "poc": [
               "analytics.found: True",
               "analytics.kinds: google_analytics, yandex_metrika",
@@ -970,7 +951,7 @@
           {
             "metric": "Пациент не может написать первым",
             "status": "ок",
-            "t_f": null,
+            "t_f": true,
             "poc": [
               "whatsapp: True",
               "telegram: False",
@@ -992,7 +973,7 @@
           {
             "metric": "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
             "status": "проблема",
-            "t_f": null,
+            "t_f": false,
             "poc": [
               "schema.any: False",
               "schema.types: не найдены",
@@ -1002,12 +983,12 @@
         ]
       },
       {
-        "block": "???? 3",
+        "block": "блок 3",
         "metrics": [
           {
             "metric": "Страница врачей / специалистов",
             "status": "ок",
-            "t_f": null,
+            "t_f": true,
             "poc": [
               "doctors_content_found: True",
               "doctor_pages: https://arideo.su/doctors/, https://arideo.su/doctors/abanina-ekaterina/, https://arideo.su/doctors/nazarov-vladislav-aleksandrovich/, https://arideo.su/doctors/podvoyskaya-inna-petrovna/, https://arideo.su/doctors/suzdaltsev-sergey-sergeevich/"
@@ -1016,7 +997,7 @@
           {
             "metric": "Адрес и карта на сайте",
             "status": "ок",
-            "t_f": null,
+            "t_f": true,
             "poc": [
               "address_found: True",
               "map_found: True"
@@ -1025,7 +1006,7 @@
           {
             "metric": "Часы работы",
             "status": "проблема",
-            "t_f": null,
+            "t_f": false,
             "poc": [
               "hours_found: False"
             ]
@@ -1033,7 +1014,7 @@
           {
             "metric": "Отзывы пациентов на сайте",
             "status": "ок",
-            "t_f": null,
+            "t_f": true,
             "poc": [
               "reviews_found: True",
               "reviews_evidence: не найдены"
@@ -1042,7 +1023,7 @@
           {
             "metric": "Актуальность года в футере (если он вообще есть). Если его нет — ок",
             "status": "ок",
-            "t_f": null,
+            "t_f": true,
             "poc": [
               "footer_present: True",
               "current_year: True",
@@ -1052,7 +1033,7 @@
           {
             "metric": "Есть отдельная страница контактов",
             "status": "ок",
-            "t_f": null,
+            "t_f": true,
             "poc": [
               "contact_page_exists: True",
               "contact_block_found: True",
@@ -1062,7 +1043,7 @@
           {
             "metric": "Орфографические ошибки в тексте сайта",
             "status": "проблема",
-            "t_f": null,
+            "t_f": false,
             "poc": [
               "__H__:Сводка",
               "Всего ошибок: 19",
