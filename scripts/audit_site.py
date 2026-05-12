@@ -1969,12 +1969,11 @@ def main():
     )
     args = parser.parse_args()
 
-    if not args.legacy_script_audit:
-        raise SystemExit(
-            "Blocked by policy: script audit is disabled by default.\n"
-            "Use agent validation pipeline for metric decisions.\n"
-            "If you intentionally need legacy script evidence collection, run with --legacy-script-audit."
-        )
+    raise SystemExit(
+        "Blocked by policy: scripts/audit_site.py is disabled in this repository.\n"
+        "All current and new clinic checks must be performed in agent-only mode with PoC.\n"
+        "Do not use --legacy-script-audit for operational verification."
+    )
 
     result = run_audit(args.site)
 

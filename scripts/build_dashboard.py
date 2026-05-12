@@ -14,6 +14,24 @@ except Exception:
 
 ROOT = Path(r"D:\разработка\Кибербеза 2.0")
 MANIFEST = ROOT / "data" / "sites_manifest.json"
+AGENT_MODE_LOCK = ROOT / "AGENT_ONLY_MODE.lock"
+
+
+def ensure_agent_only_mode():
+    if not AGENT_MODE_LOCK.exists():
+        raise SystemExit(
+            "Blocked by policy: AGENT_ONLY_MODE.lock not found.\n"
+            "Repository is configured for agent-only verification."
+        )
+    try:
+        text = AGENT_MODE_LOCK.read_text(encoding="utf-8")
+    except Exception:
+        text = AGENT_MODE_LOCK.read_text(encoding="utf-8", errors="ignore")
+    if "mode=agent_only" not in str(text).lower():
+        raise SystemExit(
+            "Blocked by policy: invalid AGENT_ONLY_MODE.lock content.\n"
+            "Required marker: mode=agent_only"
+        )
 
 EXTERNAL_EMAIL_DOMAINS = {
     "gmail.com", "yandex.ru", "mail.ru", "bk.ru", "inbox.ru", "list.ru", "ya.ru"
@@ -146,6 +164,7 @@ def badge_class(label: str) -> str:
         "не слать": "bad",
         "агент": "ok",
         "скрипт": "warn",
+        "скрипт (устаревший)": "warn",
         "не указан": "na",
     }
     if label in mapping:
@@ -164,7 +183,7 @@ def verification_mode_info(audit):
     if raw in {"agent", "agentic", "агент", "agent_mode"}:
         return {"code": "agent", "label": "агент"}
     if raw in {"legacy_script", "script", "скрипт", "legacy"}:
-        return {"code": "legacy_script", "label": "скрипт"}
+        return {"code": "legacy_script", "label": "скрипт (устаревший)"}
     return {"code": "unknown", "label": "не указан"}
 
 
@@ -1331,10 +1350,14 @@ def block4_statuses(audit, site_unavailable):
     footer_year = med.get("footer_year", {}) or {}
     footer_present = footer_year.get("present")
     footer_current = footer_year.get("current_year")
-    if footer_present in {False, None}:
+    if footer_present is False:
         footer_year_status = "ок"
-    elif footer_current is True or footer_current is None:
+    elif footer_present is None:
+        footer_year_status = "проверить"
+    elif footer_current is True:
         footer_year_status = "ок"
+    elif footer_current is None:
+        footer_year_status = "проверить"
     else:
         footer_year_status = "проблема"
     text_typos = med.get("text_typos", {}) or {}
@@ -1358,6 +1381,9 @@ def block4_statuses(audit, site_unavailable):
 
 def block_verified(audit, block_id: str) -> bool:
     verification = audit.get("verification", {}) or {}
+    mode = str(verification.get("mode") or "").strip().lower()
+    if mode not in {"agent", "agentic", "агент", "agent_mode"}:
+        return False
     value = verification.get(block_id)
     return value is True
 
@@ -2313,9 +2339,10 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
     .card .n {{ font-size:24px; line-height:1; font-weight:800; }}
     .card .l {{ margin-top:3px; font-size:11px; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); font-weight:700; }}
     .n.ok{{color:var(--ok-fg)}} .n.warn{{color:var(--warn-fg)}} .n.bad{{color:var(--bad-fg)}} .n.na{{color:var(--na-fg)}} .n.total{{color:#111827}}
-    .table-wrap {{ margin-top:12px; background:#fff; border:1px solid var(--line); border-radius:12px; overflow-x:auto; }}
+    .table-wrap {{ margin-top:12px; background:#fff; border:1px solid var(--line); border-radius:12px; overflow:visible; }}
+    .table-scroll {{ overflow-x:auto; overflow-y:visible; border-radius:12px; }}
     table {{ width:100%; min-width:3200px; border-collapse:collapse; table-layout:fixed; }}
-    thead th {{ text-align:left; background:#fafbfe; border-bottom:1px solid var(--line); color:#576072; font-size:10px; letter-spacing:.01em; text-transform:none; font-weight:700; padding:9px 8px; white-space:normal; line-height:1.2; }}
+    thead th {{ position:sticky; top:0; z-index:5; text-align:left; background:#fafbfe; border-bottom:1px solid var(--line); color:#576072; font-size:10px; letter-spacing:.01em; text-transform:none; font-weight:700; padding:9px 8px; white-space:normal; line-height:1.2; }}
     tbody td {{ border-bottom:1px solid var(--line); padding:6px 8px; font-size:12px; vertical-align:top; line-height:1.2; }}
     tbody tr:last-child td {{ border-bottom:0; }}
     tr.clickable{{cursor:pointer}} tr.clickable:hover td{{background:#f7f9ff}}
@@ -2328,7 +2355,7 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
     .warn {{ background:var(--warn-bg); color:var(--warn-fg); border-color:#f0d889; }}
     .bad {{ background:var(--bad-bg); color:var(--bad-fg); border-color:#f7c4c8; }}
     .na {{ background:var(--na-bg); color:var(--na-fg); border-color:#dde2ea; }}
-    .id-col-head {{ width:52px; min-width:52px; position:sticky; left:0; z-index:4; box-shadow:1px 0 0 #e9edf6; text-align:center; }}
+    .id-col-head {{ width:52px; min-width:52px; position:sticky; left:0; z-index:7; box-shadow:1px 0 0 #e9edf6; text-align:center; }}
     .id-col {{ width:52px; min-width:52px; position:sticky; left:0; z-index:3; box-shadow:1px 0 0 #e9edf6; background:#fff; text-align:center; color:#6a7385; font-weight:700; font-size:11px; }}
     .clinic-col {{ background:#fff; width:220px; min-width:220px; position:sticky; left:52px; z-index:2; box-shadow:1px 0 0 #e9edf6; padding:8px 8px; }}
     .clinic-name {{ font-weight:500; font-size:14px; color:#1f2430; line-height:1.25; overflow-wrap:anywhere; }}
@@ -2346,7 +2373,7 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
     .metric-label {{ display:block; }}
     .is-hidden-col {{ display:none !important; }}
     .notes {{ margin-top:10px; background:#fff; border:1px solid var(--line); border-radius:10px; padding:10px 12px; font-size:12px; color:#4e5565; line-height:1.35; }}
-    .clinic-col-head {{ width:220px; min-width:220px; position:sticky; left:52px; z-index:3; box-shadow:1px 0 0 #e9edf6; }}
+    .clinic-col-head {{ width:220px; min-width:220px; position:sticky; left:52px; z-index:7; box-shadow:1px 0 0 #e9edf6; }}
     .metric-head-col {{ min-width:98px; font-size:9px; line-height:1.2; font-weight:600; }}
     .method-modal {{ position:fixed; inset:0; display:none; z-index:2000; }}
     .method-modal.is-open {{ display:block; }}
@@ -2362,6 +2389,9 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
     .method-modal-body ul {{ margin:0 0 8px 16px; padding:0; }}
     .method-modal-body li {{ margin:0 0 5px; }}
     .method-template {{ display:none; }}
+    .table-head-fixed {{ position:fixed; top:0; left:0; z-index:1600; display:none; pointer-events:auto; }}
+    .table-head-fixed table {{ border-collapse:collapse; table-layout:fixed; margin:0; }}
+    .table-head-fixed thead th {{ background:#fafbfe; }}
   </style>
 </head>
 <body>
@@ -2379,14 +2409,16 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
     </div>
 
     <div class=\"table-wrap\">
-      <table>
-        <thead>
-          {header_rows}
-        </thead>
-        <tbody>
-          {''.join(rows_step2)}
-        </tbody>
-      </table>
+      <div class=\"table-scroll\">
+        <table>
+          <thead>
+            {header_rows}
+          </thead>
+          <tbody>
+            {''.join(rows_step2)}
+          </tbody>
+        </table>
+      </div>
     </div>
 
     <div class=\"notes\">
@@ -2398,7 +2430,7 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
     <h4>Общие правила</h4>
     <ul>
       <li>Один агент = одна клиника = один прогон.</li>
-      <li>Проверка в браузере с рендерингом JS + анализ audit JSON.</li>
+      <li>Проверка выполняется агентом в браузере с рендерингом JS; в audit JSON фиксируются результаты и PoC.</li>
       <li>Статусы: <b>ок</b>, <b>проблема</b>, <b>проверить</b> (если покрытие недостаточно для надежного отрицательного вывода).</li>
       <li>Fallback-эвристики не используются: статус ставится только по фактически найденным сигналам (PoC).</li>
     </ul>
@@ -2454,7 +2486,7 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
     <h4>4. Отзывы пациентов на сайте</h4>
     <p><b>ок:</b> найден блок/виджет отзывов на сайте. <b>проблема:</b> не найдено.</p>
     <h4>5. Актуальность года в футере (если он вообще есть). Если его нет — ок</h4>
-    <p><b>ок:</b> футер отсутствует или в футере указан актуальный год. <b>проблема:</b> футер есть, но год неактуален.</p>
+    <p><b>ок:</b> футер отсутствует или в футере указан актуальный год. <b>проблема:</b> футер есть, но год неактуален. <b>проверить:</b> данные о футере заполнены не полностью.</p>
     <h4>6. Есть отдельная страница контактов</h4>
     <p><b>ок:</b> найдена отдельная страница контактов или контактный блок на главной. <b>проблема:</b> не найдено ни страницы, ни блока контактов.</p>
     <h4>7. Орфографические ошибки в тексте сайта</h4>
@@ -2563,6 +2595,54 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
     document.querySelectorAll('a.site-link').forEach(function(link){{
       link.addEventListener('click', function(e){{ e.stopPropagation(); }});
     }});
+
+    function initFixedHeader() {{
+      const scrollWrap = document.querySelector('.table-scroll');
+      if (!scrollWrap) return;
+      const table = scrollWrap.querySelector('table');
+      const thead = table ? table.querySelector('thead') : null;
+      if (!table || !thead) return;
+
+      const fixed = document.createElement('div');
+      fixed.className = 'table-head-fixed';
+      const fixedTable = document.createElement('table');
+      fixedTable.appendChild(thead.cloneNode(true));
+      fixed.appendChild(fixedTable);
+      document.body.appendChild(fixed);
+
+      function syncLayout() {{
+        const rect = scrollWrap.getBoundingClientRect();
+        const tableRect = table.getBoundingClientRect();
+        const headHeight = thead.getBoundingClientRect().height || 0;
+        const shouldShow = tableRect.top < 0 && tableRect.bottom > headHeight;
+        fixed.style.display = shouldShow ? 'block' : 'none';
+        if (!shouldShow) return;
+        fixed.style.left = Math.round(rect.left) + 'px';
+        fixed.style.width = Math.round(rect.width) + 'px';
+        fixed.style.overflow = 'hidden';
+        fixedTable.style.width = Math.round(table.getBoundingClientRect().width) + 'px';
+        fixedTable.style.transform = 'translateX(' + (-scrollWrap.scrollLeft) + 'px)';
+      }}
+
+      function refreshClone() {{
+        fixedTable.innerHTML = '';
+        fixedTable.appendChild(thead.cloneNode(true));
+        syncLayout();
+      }}
+
+      scrollWrap.addEventListener('scroll', syncLayout, {{ passive: true }});
+      window.addEventListener('scroll', syncLayout, {{ passive: true }});
+      window.addEventListener('resize', refreshClone);
+      document.addEventListener('click', function(e) {{
+        const t = e.target;
+        if (t && t.closest && t.closest('[data-block-toggle]')) {{
+          setTimeout(refreshClone, 0);
+        }}
+      }});
+      refreshClone();
+    }}
+
+    initFixedHeader();
   </script>
 </body>
 </html>
@@ -2602,6 +2682,7 @@ def replace_step2_row_in_html(html_text: str, site_id: str, new_row_html: str):
 
 
 def main():
+    ensure_agent_only_mode()
     args = parse_args()
     selected_site_ids = normalized_site_id_filter(args)
     selective_details = len(selected_site_ids) > 0
@@ -2722,9 +2803,10 @@ def main():
     .card .n {{ font-size:24px; line-height:1; font-weight:800; }}
     .card .l {{ margin-top:3px; font-size:11px; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); font-weight:700; }}
     .n.ok{{color:var(--ok-fg)}} .n.warn{{color:var(--warn-fg)}} .n.bad{{color:var(--bad-fg)}} .n.na{{color:var(--na-fg)}} .n.total{{color:#111827}}
-    .table-wrap {{ margin-top:12px; background:#fff; border:1px solid var(--line); border-radius:12px; overflow-x:hidden; }}
+    .table-wrap {{ margin-top:12px; background:#fff; border:1px solid var(--line); border-radius:12px; overflow:visible; }}
+    .table-scroll {{ overflow-x:auto; overflow-y:visible; border-radius:12px; }}
     table {{ width:100%; min-width:0; border-collapse:collapse; table-layout:fixed; }}
-    thead th {{ text-align:left; background:#fafbfe; border-bottom:1px solid var(--line); color:#576072; font-size:11px; letter-spacing:.04em; text-transform:uppercase; padding:10px 8px; white-space:normal; line-height:1.2; }}
+    thead th {{ position:sticky; top:0; z-index:5; text-align:left; background:#fafbfe; border-bottom:1px solid var(--line); color:#576072; font-size:11px; letter-spacing:.04em; text-transform:uppercase; padding:10px 8px; white-space:normal; line-height:1.2; }}
     thead th.availability-col {{ background:#ecf4ff; color:#214b86; border-left:2px solid #cfe1ff; border-right:2px solid #cfe1ff; }}
     tbody td {{ border-bottom:1px solid var(--line); padding:8px 8px; font-size:12px; vertical-align:top; line-height:1.25; }}
     tbody td.availability-col {{ background:#f5faff; border-left:2px solid #cfe1ff; border-right:2px solid #cfe1ff; font-weight:700; }}
@@ -2774,16 +2856,18 @@ def main():
     </div>
 
     <div class=\"table-wrap\">
-      <table>
-        <thead>
-          <tr>
-            <th>ID</th><th>Клиника</th><th>Сайт</th><th class=\"availability-col\">Доступность сайта</th><th>Сертификат</th><th>Форма: HTTPS</th><th>Согласие</th><th>SPF / DMARC</th><th>Meta / Instagram</th><th>Политика</th><th>Итог</th><th>Комментарий</th>
-          </tr>
-        </thead>
-        <tbody>
-          {''.join(rows)}
-        </tbody>
-      </table>
+      <div class=\"table-scroll\">
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th><th>Клиника</th><th>Сайт</th><th class=\"availability-col\">Доступность сайта</th><th>Сертификат</th><th>Форма: HTTPS</th><th>Согласие</th><th>SPF / DMARC</th><th>Meta / Instagram</th><th>Политика</th><th>Итог</th><th>Комментарий</th>
+            </tr>
+          </thead>
+          <tbody>
+            {''.join(rows)}
+          </tbody>
+        </table>
+      </div>
     </div>
 
     <div class=\"notes\">

@@ -1437,10 +1437,15 @@
       "contact_pages": [
         "https://stone-dent.ru/kontakty"
       ],
-      "price_public_found": false,
-      "price_pages": [],
-      "doctors_page_exists": false,
-      "doctor_pages": [],
+      "price_public_found": true,
+      "price_pages": [
+        "https://stone-dent.ru/informaciya-dlya-pacientov"
+      ],
+      "doctors_page_exists": true,
+      "doctor_pages": [
+        "https://stone-dent.ru/doktora"
+      ],
+      "doctors_content_found": true,
       "address_found": true,
       "map_found": true,
       "hours_found": true,
@@ -1575,6 +1580,6 @@
     "b3": true,
     "b4": true,
     "mode": "agent",
-    "mode_updated_at": "2026-05-11T20:02:35Z"
+    "mode_updated_at": "2026-05-12T05:06:25Z"
   }
 }

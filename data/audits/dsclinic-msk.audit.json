@@ -1272,7 +1272,7 @@
       ],
       "address_found": true,
       "map_found": true,
-      "hours_found": false,
+      "hours_found": true,
       "reviews_found": true,
       "service_pages_count": 4,
       "service_pages": [
@@ -1398,6 +1398,6 @@
     "b3": true,
     "b4": true,
     "mode": "agent",
-    "mode_updated_at": "2026-05-11T20:28:08Z"
+    "mode_updated_at": "2026-05-12T05:55:31Z"
   }
 }
