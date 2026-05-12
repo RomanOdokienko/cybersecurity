@@ -3293,6 +3293,9 @@
   },
   "verification": {
     "b2": false,
-    "b4": false
+    "b4": false,
+    "mode": "agent",
+    "mode_updated_at": "2026-05-12T12:26:22Z",
+    "b3": false
   }
 }

@@ -324,7 +324,9 @@
   },
   "verification": {
     "b2": false,
-    "b3": true,
-    "b4": false
+    "b3": false,
+    "b4": false,
+    "mode": "agent",
+    "mode_updated_at": "2026-05-12T12:19:23Z"
   }
 }

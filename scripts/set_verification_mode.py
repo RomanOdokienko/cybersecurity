@@ -32,10 +32,10 @@ def parse_site_ids(args):
 
 def parse_blocks(raw: str):
     vals = [x.strip() for x in str(raw or "").split(",") if x.strip()]
-    allowed = {"b2", "b3", "b4"}
+    allowed = {"b1", "b2", "b3"}
     bad = [x for x in vals if x not in allowed]
     if bad:
-        raise SystemExit(f"Unsupported blocks: {', '.join(bad)}. Allowed: b2,b3,b4")
+        raise SystemExit(f"Unsupported blocks: {', '.join(bad)}. Allowed: b1,b2,b3")
     return vals
 
 
@@ -71,7 +71,7 @@ def validate_block_payload(audit: dict, block_id: str):
     med = tech.get("med_trust") or {}
     discovery = audit.get("discovery") or {}
 
-    if block_id == "b4":
+    if block_id == "b3":
         required_bool_fields = [
             ("tech.med_trust.doctors_content_found", med.get("doctors_content_found")),
             ("tech.med_trust.address_found", med.get("address_found")),
@@ -108,16 +108,9 @@ def validate_block_payload(audit: dict, block_id: str):
         if not isinstance(sitemap_total, int):
             issues.append(f"discovery.sitemap_total_urls must be integer, got: {sitemap_total!r}")
 
-    elif block_id == "b3":
-        ssl_valid = get_in(tech, ["ssl", "valid"], default=None)
-        http_redirect = get_in(tech, ["http_to_https", "redirected_to_https"], default=None)
-        sec_present = get_in(tech, ["security_headers", "present"], default=None)
-        if not isinstance(ssl_valid, bool):
-            issues.append(f"tech.ssl.valid must be boolean, got: {ssl_valid!r}")
-        if not isinstance(http_redirect, bool):
-            issues.append(f"tech.http_to_https.redirected_to_https must be boolean, got: {http_redirect!r}")
-        if not isinstance(sec_present, list):
-            issues.append(f"tech.security_headers.present must be list, got: {sec_present!r}")
+    elif block_id == "b1":
+        # Block 1 has agent-reviewed semantic checks; no rigid payload gate here.
+        pass
 
     return issues
 
@@ -129,7 +122,7 @@ def main():
     p.add_argument("--site-ids", default="", help="comma-separated site ids")
     p.add_argument("--mode", choices=["agent"], required=True, help="verification mode (agent-only)")
     p.add_argument("--set-verified", action="store_true", help="also set verification.<block>=true")
-    p.add_argument("--blocks", default="b2,b3,b4", help="blocks for --set-verified (default: b2,b3,b4)")
+    p.add_argument("--blocks", default="b1,b2,b3", help="blocks for --set-verified (default: b1,b2,b3)")
     args = p.parse_args()
 
     site_ids = parse_site_ids(args)
@@ -172,6 +165,11 @@ def main():
         if args.set_verified:
             for b in blocks:
                 verification[b] = True
+            # Backward compatibility for legacy readers.
+            if "b2" in blocks:
+                verification["b2"] = True
+            if "b3" in blocks:
+                verification["b4"] = True
         audit["verification"] = verification
         write_json(audit_path, audit)
         updated += 1

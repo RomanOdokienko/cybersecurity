@@ -1468,7 +1468,17 @@ def block_verified(audit, block_id: str) -> bool:
     mode = str(verification.get("mode") or "").strip().lower()
     if mode not in {"agent", "agentic", "агент", "agent_mode"}:
         return False
+    # Prefer current block ids (b1/b2/b3). Read legacy ids for compatibility.
+    legacy_map = {
+        "b1": None,
+        "b2": "b2",
+        "b3": "b4",
+    }
     value = verification.get(block_id)
+    if value is not True:
+        legacy_id = legacy_map.get(block_id)
+        if legacy_id:
+            value = verification.get(legacy_id)
     return value is True
 
 
@@ -1589,9 +1599,9 @@ def compute_summary(item, audit):
             "b2": block2_statuses(audit, True),
             "b3": block3_statuses(audit, True, "-", "-", "-", "-"),
             "b4": block4_statuses(audit, True),
+            "block1_verified": block_verified(audit, "b1"),
             "block2_verified": block_verified(audit, "b2"),
             "block3_verified": block_verified(audit, "b3"),
-            "block4_verified": block_verified(audit, "b4"),
         }
 
     b2 = block2_statuses(audit, False)
@@ -1626,9 +1636,9 @@ def compute_summary(item, audit):
         "b2": b2,
         "b3": b3,
         "b4": b4,
+        "block1_verified": block_verified(audit, "b1"),
         "block2_verified": block_verified(audit, "b2"),
         "block3_verified": block_verified(audit, "b3"),
-        "block4_verified": block_verified(audit, "b4"),
     }
 
 
@@ -2173,7 +2183,7 @@ def build_detail_page(item, audit, s):
     )
     block4_lines = (
         block4_poc_lines(audit, s)
-        if s.get("block4_verified")
+        if s.get("block3_verified")
         else [metric_lines("Блок 3", "-", ["Блок 3 не верифицирован для этой клиники. Статусы блока скрыты ('-')."])]
     )
 
@@ -2182,7 +2192,7 @@ def build_detail_page(item, audit, s):
         details_section("Согласия (расширенная аналитика)", s.get("consent_status", "-"), consent_lines),
         details_section_grouped("Блок 1 — PoC / Findings", block1_status, block1_lines, "block-tone-b1"),
         details_section_grouped("Блок 2 — PoC / Findings", "ок" if s.get("block2_verified") else "-", block2_lines, "block-tone-b2"),
-        details_section_grouped("Блок 3 — PoC / Findings", "ок" if s.get("block4_verified") else "-", block4_lines, "block-tone-b4"),
+        details_section_grouped("Блок 3 — PoC / Findings", "ок" if s.get("block3_verified") else "-", block4_lines, "block-tone-b4"),
     ])
 
     return f"""<!doctype html>
@@ -2284,7 +2294,7 @@ def step2_block_schema():
             ],
         },
         {
-            "id": "b4",
+            "id": "b3",
             "title": "Блок 3",
             "metric_names": [
                 "Страница врачей / специалистов",
@@ -2335,7 +2345,6 @@ def step2_blocks_data(summary):
     block2_default_status = "-" if site_unavailable else "проверить"
     block2_verified = bool(summary.get("block2_verified"))
     block3_verified = bool(summary.get("block3_verified"))
-    block4_verified = bool(summary.get("block4_verified"))
     no_checkbox_status = "-" if site_unavailable else ("проблема" if missing_checkbox else "ок")
     prechecked_status = "-" if site_unavailable else ("проблема" if (prechecked or explicit_consent_missing) else "ок")
 
@@ -2379,7 +2388,7 @@ def step2_blocks_data(summary):
         b4.get("contacts_page_status", "-" if site_unavailable else "проблема"),
         b4.get("text_typos_status", "-" if site_unavailable else "проблема"),
     ]
-    if not block4_verified:
+    if not block3_verified:
         b4_values = ["-"] * len(b4_values)
 
     return {
@@ -2393,8 +2402,7 @@ def step2_blocks_data(summary):
             third_party_policy_status,
         ],
         "b2": b2_values,
-        "b3": b3_values,
-        "b4": b4_values,
+        "b3": b4_values,
     }
 
 def step2_header_rows(schema):
@@ -2608,7 +2616,7 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
     <h4>6. Schema.org Поддерживаемые схемы Schemaorg от Яндекса</h4>
     <p><b>ок:</b> найден хотя бы один поддерживаемый тип из whitelist (Organization/Medical*/LocalBusiness и др.). <b>проблема:</b> поддерживаемые типы не найдены.</p>
   </div>
-  <div class=\"method-template\" id=\"methodology-b4\">
+  <div class=\"method-template\" id=\"methodology-b3\">
     <h4>Общие правила</h4>
     <ul>
       <li>Один агент = одна клиника = один прогон.</li>
@@ -2647,7 +2655,7 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
     const BLOCK_TITLES = {{
       b1: 'Блок 1',
       b2: 'Блок 2',
-      b4: 'Блок 3',
+      b3: 'Блок 3',
     }};
 
     function setBlockCollapsed(blockId, collapsed) {{

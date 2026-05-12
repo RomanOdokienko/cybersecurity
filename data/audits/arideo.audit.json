@@ -835,5 +835,251 @@
     "mode_updated_at": "2026-05-12T07:07:31Z",
     "b2": true,
     "b4": true
+  },
+  "agent_structured": {
+    "clinic": "Аридео",
+    "site_id": "arideo-su",
+    "site": "arideo.su",
+    "format_version": "block-metric-status-tf-poc.v1",
+    "blocks": [
+      {
+        "block": "???? 1",
+        "metrics": [
+          {
+            "metric": "??????? ?? ????? ???????? ?? ????????? ??????",
+            "status": "??",
+            "t_f": true,
+            "poc": [
+              "forms_total: 15",
+              "consent_missing_count: 0"
+            ]
+          },
+          {
+            "metric": "???????? ??????????? ????????????? ? ??? ???? ??? ??? ??????????",
+            "status": "??",
+            "t_f": true,
+            "poc": [
+              "consent_prechecked_count: 0",
+              "explicit_consent_missing_count: 0",
+              "consent_text_only_count: 0",
+              "consent_checkbox_missing_count: 0"
+            ]
+          },
+          {
+            "metric": "?? ????? ??? ????????????? ????????? ?? ????????? ?????? ?????????",
+            "status": "ок",
+            "t_f": null,
+            "poc": [
+              "policy_document_present: True",
+              "checked_policy_urls: https://arideo.su/agreement/",
+              "readable_policy_urls: https://arideo.su/agreement/",
+              "matched_policy_tokens: 152-фз, обработк, персональн, федеральн"
+            ]
+          },
+          {
+            "metric": "??? ? ??????? ???????? ?????????? ? ???????? ???? ? ????? ????? ???????????",
+            "status": "ок",
+            "t_f": null,
+            "poc": [
+              "????????? ???????? ?? HTTP ?? ???????."
+            ]
+          },
+          {
+            "metric": "?? ????? ??????????? ???????????, ?????????? ? ?????? ??????????????",
+            "status": "проблема",
+            "t_f": null,
+            "poc": [
+              "visible_mentions_count: 0",
+              "code_only_mentions_count: 14",
+              "instagram | https://arideo.su/ | только в коде | href=\"https://www.instagram.com/tv/CYa_Ec0ouWN/?utm_medium=copy_link\"",
+              "instagram.com | https://arideo.su/ | только в коде | href=\"https://www.instagram.com/tv/CYa_Ec0ouWN/?utm_medium=copy_link\"",
+              "instagram | https://arideo.su/ | только в коде | href=\"https://www.instagram.com/reel/CXQiPifoTLj/\"",
+              "instagram.com | https://arideo.su/ | только в коде | href=\"https://www.instagram.com/reel/CXQiPifoTLj/\"",
+              "instagram | https://arideo.su/ | только в коде | href=\"https://www.instagram.com/p/CVyNzMZo0EF/\"",
+              "instagram.com | https://arideo.su/ | только в коде | href=\"https://www.instagram.com/p/CVyNzMZo0EF/\"",
+              "instagram | https://arideo.su/doctors/ | только в коде | href=\"https://www.instagram.com/tv/CYa_Ec0ouWN/?utm_medium=copy_link\"",
+              "instagram.com | https://arideo.su/doctors/ | только в коде | href=\"https://www.instagram.com/tv/CYa_Ec0ouWN/?utm_medium=copy_link\"",
+              "instagram | https://arideo.su/doctors/ | только в коде | href=\"https://www.instagram.com/reel/CXQiPifoTLj/\"",
+              "instagram.com | https://arideo.su/doctors/ | только в коде | href=\"https://www.instagram.com/reel/CXQiPifoTLj/\""
+            ]
+          },
+          {
+            "metric": "???? ???????? ?????? ????????? ??? ?? ???????????",
+            "status": "????????",
+            "t_f": false,
+            "poc": [
+              "cookie_notice_found: False",
+              "cookie_notice_hits_in_privacy_links: 0",
+              "cookie_notice_pages_matched: 0",
+              "cookie_detection_mode: explicit cookie-notice pattern (без учета policy-URL токенов)",
+              "Совпадений по cookie-токенам не найдено.",
+              "Источник: явные cookie-notice сигналы в тексте страниц/домашней страницы."
+            ]
+          },
+          {
+            "metric": "??????.??????? ???????? ?????? ????? ????????? ? ? ???????? ?? ???? ?? ?????",
+            "status": "????????",
+            "t_f": false,
+            "poc": [
+              "metrika_policy_disclosed: False",
+              "analytics.kinds: google_analytics, yandex_metrika",
+              "has_yandex_metrika: True",
+              "policy_evidence_count: 22",
+              "checked_policy_urls: https://arideo.su/agreement/",
+              "readable_policy_urls: https://arideo.su/agreement/",
+              "unreadable_policy_urls: не найдены",
+              "matched_tokens_in_policy_text: не найдены",
+              "Вывод: Метрика найдена на сайте, но явных упоминаний в тексте политики не найдено."
+            ]
+          }
+        ]
+      },
+      {
+        "block": "???? 2",
+        "metrics": [
+          {
+            "metric": "Нет онлайн-записи со слотами",
+            "status": "ок",
+            "t_f": null,
+            "poc": [
+              "slot_booking_widget: False",
+              "booking_urls: https://arideo.su/",
+              "booking_sources: home-booking-candidate"
+            ]
+          },
+          {
+            "metric": "Сайт — цифровая визитка, не инструмент",
+            "status": "ок",
+            "t_f": null,
+            "poc": [
+              "sitemap_total_urls: 6",
+              "pages_count: 7"
+            ]
+          },
+          {
+            "metric": "Вы не знаете кто приходит на сайт и почему уходит",
+            "status": "ок",
+            "t_f": null,
+            "poc": [
+              "analytics.found: True",
+              "analytics.kinds: google_analytics, yandex_metrika",
+              "analytics.goals_found: True",
+              "goal_markers: datalayer_event"
+            ]
+          },
+          {
+            "metric": "Пациент не может написать первым",
+            "status": "ок",
+            "t_f": null,
+            "poc": [
+              "whatsapp: True",
+              "telegram: False",
+              "max_messenger: True",
+              "chat_widget: False",
+              "message_form_found: False"
+            ]
+          },
+          {
+            "metric": "Прайс-лист доступен без регистрации",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "price_public_found: False",
+              "price_pages: не найдены",
+              "price_candidate_urls_checked: не найдены"
+            ]
+          },
+          {
+            "metric": "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
+            "status": "проблема",
+            "t_f": null,
+            "poc": [
+              "schema.any: False",
+              "schema.types: не найдены",
+              "schema.supported_hits: не найдены"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "???? 3",
+        "metrics": [
+          {
+            "metric": "Страница врачей / специалистов",
+            "status": "ок",
+            "t_f": null,
+            "poc": [
+              "doctors_content_found: True",
+              "doctor_pages: https://arideo.su/doctors/, https://arideo.su/doctors/abanina-ekaterina/, https://arideo.su/doctors/nazarov-vladislav-aleksandrovich/, https://arideo.su/doctors/podvoyskaya-inna-petrovna/, https://arideo.su/doctors/suzdaltsev-sergey-sergeevich/"
+            ]
+          },
+          {
+            "metric": "Адрес и карта на сайте",
+            "status": "ок",
+            "t_f": null,
+            "poc": [
+              "address_found: True",
+              "map_found: True"
+            ]
+          },
+          {
+            "metric": "Часы работы",
+            "status": "проблема",
+            "t_f": null,
+            "poc": [
+              "hours_found: False"
+            ]
+          },
+          {
+            "metric": "Отзывы пациентов на сайте",
+            "status": "ок",
+            "t_f": null,
+            "poc": [
+              "reviews_found: True",
+              "reviews_evidence: не найдены"
+            ]
+          },
+          {
+            "metric": "Актуальность года в футере (если он вообще есть). Если его нет — ок",
+            "status": "ок",
+            "t_f": null,
+            "poc": [
+              "footer_present: True",
+              "current_year: True",
+              "year_value: 2026"
+            ]
+          },
+          {
+            "metric": "Есть отдельная страница контактов",
+            "status": "ок",
+            "t_f": null,
+            "poc": [
+              "contact_page_exists: True",
+              "contact_block_found: True",
+              "contact_pages: https://arideo.su/contacts/"
+            ]
+          },
+          {
+            "metric": "Орфографические ошибки в тексте сайта",
+            "status": "проблема",
+            "t_f": null,
+            "poc": [
+              "__H__:Сводка",
+              "Всего ошибок: 19",
+              "Проверено страниц: 7",
+              "По типам: missing_space_after_punct: 10, dot_glue: 8, comma_glue: 1",
+              "__H__:Топ типы и примеры",
+              "__H__:missing_space_after_punct (10)",
+              "[missing_space_after_punct] ;П — 58 000 ₽ Восстановление всех зубов &quot;Под ключ&quot; по методу Allon 4 в Москве (https://arideo.su/)",
+              "[missing_space_after_punct] .П — апевт Образование ФГБОУ ВО «НИ МГУ им. Н.П. Огарёва» г. Саранск Место работы Стома (https://arideo.su/doctors/abanina-ekaterina/)",
+              "__H__:dot_glue (8)",
+              "[dot_glue] Н.П — рапевт Образование ФГБОУ ВО «НИ МГУ им. Н.П. Огарёва» г. Саранск Место работы Стома (https://arideo.su/doctors/abanina-ekaterina/)",
+              "[dot_glue] e.m — омощи керамических вкладок/накладок IPS e.max • Лечение кариеса и его осложнений •  (https://arideo.su/doctors/abanina-ekaterina/)",
+              "__H__:comma_glue (1)"
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
