@@ -3555,8 +3555,11 @@
       "price_pages": [
         "https://prof-dental.ru/price"
       ],
-      "doctors_page_exists": false,
-      "doctor_pages": [],
+      "doctors_page_exists": true,
+      "doctor_pages": [
+        "https://prof-dental.ru/personal",
+        "https://prof-dental.ru/bosulaev-aleksej-vladimirovich"
+      ],
       "address_found": true,
       "map_found": true,
       "hours_found": true,
@@ -3585,9 +3588,9 @@
         "types": []
       },
       "footer_year": {
-        "present": null,
-        "year": null,
-        "current_year": null
+        "present": true,
+        "year": 2025,
+        "current_year": false
       }
     },
     "mixed_content": {
@@ -3817,6 +3820,8 @@
   "verification": {
     "b2": true,
     "b3": true,
-    "b4": true
+    "b4": true,
+    "mode": "agent",
+    "mode_updated_at": "2026-05-12T07:17:04Z"
   }
 }

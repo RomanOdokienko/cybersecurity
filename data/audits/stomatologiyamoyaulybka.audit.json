@@ -1272,9 +1272,9 @@
         ]
       },
       "footer_year": {
-        "present": null,
-        "year": null,
-        "current_year": null
+        "present": true,
+        "year": 2026,
+        "current_year": true
       }
     },
     "mixed_content": {
@@ -1510,6 +1510,8 @@
   "verification": {
     "b2": true,
     "b3": true,
-    "b4": true
+    "b4": true,
+    "mode": "agent",
+    "mode_updated_at": "2026-05-12T07:22:14Z"
   }
 }
