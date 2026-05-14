@@ -168,9 +168,16 @@
         ]
       },
       "footer_year": {
-        "present": null,
+        "present": false,
         "year": null,
-        "current_year": null
+        "current_year": false
+      },
+      "doctors_content_found": true,
+      "contact_block_found": true,
+      "text_typos": {
+        "checked_pages": [
+          "https://pravstom.ru/"
+        ]
       }
     },
     "mixed_content": {
@@ -323,6 +330,235 @@
     "b3": true,
     "b4": true,
     "mode": "agent",
-    "mode_updated_at": "2026-05-12T06:58:29Z"
+    "mode_updated_at": "2026-05-14T13:09:11Z",
+    "b1": true
+  },
+  "agent_structured": {
+    "clinic": "ПравСтом",
+    "site_id": "pravstom-ru",
+    "site": "pravstom.ru",
+    "format_version": "block-metric-status-tf-poc.v1",
+    "blocks": [
+      {
+        "block": "Блок 1",
+        "metrics": [
+          {
+            "metric": "Пациент не давал согласия на обработку данных",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "forms_total: 0",
+              "consent_missing_count: 0"
+            ]
+          },
+          {
+            "metric": "Согласие подставлено автоматически — это хуже чем его отсутствие",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "consent_prechecked_count: 0",
+              "explicit_consent_missing_count: 0",
+              "consent_text_only_count: 0",
+              "consent_checkbox_missing_count: 0"
+            ]
+          },
+          {
+            "metric": "На сайте нет обязательного документа об обработке данных пациентов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "policy_evidence_count: 4",
+              "anchor | https://pravstom.ru/ -> /index.php?option=com_content&view=article&id=80 (текст: РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё) | source=unknown",
+              "anchor | https://pravstom.ru/kontakty -> /index.php?option=com_content&view=article&id=80 (текст: РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё) | source=navigation",
+              "anchor | https://pravstom.ru/doctors -> https://pravstom.ru/index.php?option=com_content&view=article&id=80 (текст: РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё) | source=navigation-legal",
+              "anchor | https://pravstom.ru/doctors -> /index.php?option=com_content&view=article&id=80 (текст: РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё) | source=navigation-legal"
+            ]
+          },
+          {
+            "metric": "Имя и телефон пациента передаются в открытом виде — любой может перехватить",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "Признаков передачи по HTTP не найдено."
+            ]
+          },
+          {
+            "metric": "На сайте упоминается организация, признанная в России экстремистской",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "Совпадений по списку meta/instagram/facebook/threads не найдено."
+            ]
+          },
+          {
+            "metric": "Сайт собирает данные пациентов без их уведомления",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "cookie_notice_found: False",
+              "cookie_notice_hits_in_privacy_links: 0",
+              "cookie_notice_pages_matched: 0",
+              "cookie_policy_urls_checked: не найдены",
+              "cookie_policy_tokens_matched: не найдены",
+              "Совпадений по cookie-токенам не найдено.",
+              "Источник: policy-related evidence + pages.html (статус 200)."
+            ]
+          },
+          {
+            "metric": "Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "metrika_policy_disclosed: False",
+              "analytics.kinds: google_analytics, yandex_metrika",
+              "has_yandex_metrika: True",
+              "policy_evidence_count: 4",
+              "checked_policy_urls: не найдены",
+              "readable_policy_urls: не найдены",
+              "unreadable_policy_urls: не найдены",
+              "matched_tokens_in_policy_text: не найдены",
+              "Вывод: Метрика найдена на сайте, но явных упоминаний в тексте политики не найдено."
+            ]
+          }
+        ]
+      },
+      {
+        "block": "Блок 2",
+        "metrics": [
+          {
+            "metric": "Нет онлайн-записи со слотами",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "slot_booking_widget: False",
+              "booking_urls: https://pravstom.ru/appointment, https://pravstom.ru/booking, https://pravstom.ru/zapis",
+              "booking_sources: fallback"
+            ]
+          },
+          {
+            "metric": "Сайт — цифровая визитка, не инструмент",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "sitemap_total_urls: 0",
+              "pages_count: 6"
+            ]
+          },
+          {
+            "metric": "Вы не знаете кто приходит на сайт и почему уходит",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "analytics.found: True",
+              "analytics.kinds: google_analytics, yandex_metrika",
+              "analytics.goals_found: True",
+              "goal_markers: google_event"
+            ]
+          },
+          {
+            "metric": "Пациент не может написать первым",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "whatsapp: True",
+              "telegram: True",
+              "max_messenger: False",
+              "chat_widget: False",
+              "message_form_found: False"
+            ]
+          },
+          {
+            "metric": "Прайс-лист доступен без регистрации",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "price_public_found: False",
+              "price_pages: не найдены",
+              "price_candidate_urls_checked: не найдены"
+            ]
+          },
+          {
+            "metric": "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "schema.any: True",
+              "schema.types: detected",
+              "schema.supported_hits: не найдены"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "Блок 3",
+        "metrics": [
+          {
+            "metric": "Страница врачей / специалистов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "doctors_content_found: None",
+              "doctor_pages: https://pravstom.ru/doctors"
+            ]
+          },
+          {
+            "metric": "Адрес и карта на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "address_found: True",
+              "map_found: True"
+            ]
+          },
+          {
+            "metric": "Часы работы",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "hours_found: False"
+            ]
+          },
+          {
+            "metric": "Отзывы пациентов на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "reviews_found: True",
+              "reviews_evidence: не найдены"
+            ]
+          },
+          {
+            "metric": "Актуальность года в футере (если он вообще есть). Если его нет — ок",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "footer_present: None",
+              "current_year: None",
+              "year_value: None"
+            ]
+          },
+          {
+            "metric": "Есть отдельная страница контактов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "contact_page_exists: True",
+              "contact_block_found: None",
+              "contact_pages: https://pravstom.ru/kontakty"
+            ]
+          },
+          {
+            "metric": "Орфографические ошибки в тексте сайта",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "Всего ошибок: None",
+              "Проверено страниц: 0",
+              "По типам: нет"
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
