@@ -32,9 +32,9 @@
       "error": null
     },
     {
-      "requested": "https://dr-knyazkin.ru/politika",
+      "requested": "https://dr-knyazkin.ru/politika/",
       "status": 200,
-      "final_url": "https://dr-knyazkin.ru/politika",
+      "final_url": "https://dr-knyazkin.ru/politika/",
       "error": null
     },
     {
@@ -868,22 +868,22 @@
   "privacy_links": [
     {
       "page": "https://dr-knyazkin.ru/",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Я соглашаюсь с политикой конфиденциальности"
     },
     {
       "page": "https://dr-knyazkin.ru/",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Я согласен на обработку данных"
     },
     {
       "page": "https://dr-knyazkin.ru/",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Я даю согласие на обработку данных"
     },
     {
       "page": "https://dr-knyazkin.ru/",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Политика безопасности"
     },
     {
@@ -893,7 +893,7 @@
     },
     {
       "page": "https://dr-knyazkin.ru/contacts",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Политика безопасности"
     },
     {
@@ -903,7 +903,7 @@
     },
     {
       "page": "https://dr-knyazkin.ru/doctors",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Политика безопасности"
     },
     {
@@ -913,7 +913,7 @@
     },
     {
       "page": "https://dr-knyazkin.ru/doctors#rec658111054",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Политика безопасности"
     },
     {
@@ -923,7 +923,7 @@
     },
     {
       "page": "https://dr-knyazkin.ru/info",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Политика безопасности"
     },
     {
@@ -932,23 +932,23 @@
       "text": "cookie notice: чистка диагностика хирургия и удаление контакты новости отзывы веб-сайт использует файлы cookie, чтобы обеспечить вам наилучший сервис принять информация для пациентов главная / информация правила внутреннего распорядка для потребителей услуг права и обязанности гражда"
     },
     {
-      "page": "https://dr-knyazkin.ru/politika",
-      "href": "https://dr-knyazkin.ru/politika",
+      "page": "https://dr-knyazkin.ru/politika/",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Политика безопасности"
     },
     {
-      "page": "https://dr-knyazkin.ru/politika",
+      "page": "https://dr-knyazkin.ru/politika/",
       "href": "",
       "text": "cookie notice: чистка диагностика хирургия и удаление контакты новости отзывы веб-сайт использует файлы cookie, чтобы обеспечить вам наилучший сервис принять политика безопасности политика ооо «клиника доктора князькина» в отношении обработки персональных данных цель обработки персон"
     },
     {
       "page": "https://dr-knyazkin.ru/a2-implantacionnaja-sistema",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Я согласен на обработку данных"
     },
     {
       "page": "https://dr-knyazkin.ru/a2-implantacionnaja-sistema",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Политика безопасности"
     },
     {
@@ -958,12 +958,12 @@
     },
     {
       "page": "https://dr-knyazkin.ru/action",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Я согласен на обработку данных"
     },
     {
       "page": "https://dr-knyazkin.ru/action",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Политика безопасности"
     },
     {
@@ -973,12 +973,12 @@
     },
     {
       "page": "https://dr-knyazkin.ru/ankilos-dental-implantation",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Я согласен на обработку данных"
     },
     {
       "page": "https://dr-knyazkin.ru/ankilos-dental-implantation",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Политика безопасности"
     },
     {
@@ -988,12 +988,12 @@
     },
     {
       "page": "https://dr-knyazkin.ru/braces",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Я согласен на обработку данных"
     },
     {
       "page": "https://dr-knyazkin.ru/braces",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Политика безопасности"
     },
     {
@@ -1003,12 +1003,12 @@
     },
     {
       "page": "https://dr-knyazkin.ru/denture",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Я согласен на обработку данных"
     },
     {
       "page": "https://dr-knyazkin.ru/denture",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Политика безопасности"
     },
     {
@@ -1018,12 +1018,12 @@
     },
     {
       "page": "https://dr-knyazkin.ru/diagnostika",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Я согласен на обработку данных"
     },
     {
       "page": "https://dr-knyazkin.ru/diagnostika",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Политика безопасности"
     },
     {
@@ -1033,7 +1033,7 @@
     },
     {
       "page": "https://dr-knyazkin.ru/feedback",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Политика безопасности"
     },
     {
@@ -1043,7 +1043,7 @@
     },
     {
       "page": "https://dr-knyazkin.ru/hirurgia",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Политика безопасности"
     },
     {
@@ -1053,12 +1053,12 @@
     },
     {
       "page": "https://dr-knyazkin.ru/hygiene",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Я согласен на обработку данных"
     },
     {
       "page": "https://dr-knyazkin.ru/hygiene",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Политика безопасности"
     },
     {
@@ -1068,12 +1068,12 @@
     },
     {
       "page": "https://dr-knyazkin.ru/implantation",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Я согласен на обработку данных"
     },
     {
       "page": "https://dr-knyazkin.ru/implantation",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Политика безопасности"
     },
     {
@@ -1083,12 +1083,12 @@
     },
     {
       "page": "https://dr-knyazkin.ru/osstem-dental-implantation",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Я согласен на обработку данных"
     },
     {
       "page": "https://dr-knyazkin.ru/osstem-dental-implantation",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Политика безопасности"
     },
     {
@@ -1098,7 +1098,7 @@
     },
     {
       "page": "https://dr-knyazkin.ru/our_works",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Политика безопасности"
     },
     {
@@ -1108,12 +1108,12 @@
     },
     {
       "page": "https://dr-knyazkin.ru/podarochnyi_sertifikat",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Я согласен на обработку данных"
     },
     {
       "page": "https://dr-knyazkin.ru/podarochnyi_sertifikat",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Политика безопасности"
     },
     {
@@ -1123,12 +1123,12 @@
     },
     {
       "page": "https://dr-knyazkin.ru/price",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Я согласен на обработку данных"
     },
     {
       "page": "https://dr-knyazkin.ru/price",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Политика безопасности"
     },
     {
@@ -1138,12 +1138,12 @@
     },
     {
       "page": "https://dr-knyazkin.ru/restoration",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Я согласен на обработку данных"
     },
     {
       "page": "https://dr-knyazkin.ru/restoration",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Политика безопасности"
     },
     {
@@ -1153,12 +1153,12 @@
     },
     {
       "page": "https://dr-knyazkin.ru/therapy",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Я согласен на обработку данных"
     },
     {
       "page": "https://dr-knyazkin.ru/therapy",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Политика безопасности"
     },
     {
@@ -1168,12 +1168,12 @@
     },
     {
       "page": "https://dr-knyazkin.ru/uslugi",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Я согласен на обработку данных"
     },
     {
       "page": "https://dr-knyazkin.ru/uslugi",
-      "href": "https://dr-knyazkin.ru/politika",
+      "href": "https://dr-knyazkin.ru/politika/",
       "text": "Политика безопасности"
     },
     {
@@ -1310,7 +1310,7 @@
           "https://dr-knyazkin.ru/info",
           "https://dr-knyazkin.ru/price",
           "https://dr-knyazkin.ru/uslugi",
-          "https://dr-knyazkin.ru/politika",
+          "https://dr-knyazkin.ru/politika/",
           "https://dr-knyazkin.ru/a2-implantacionnaja-sistema",
           "https://dr-knyazkin.ru/action"
         ],
@@ -1494,7 +1494,7 @@
       "https://dr-knyazkin.ru/doctors",
       "https://dr-knyazkin.ru/doctors#rec658111054",
       "https://dr-knyazkin.ru/info",
-      "https://dr-knyazkin.ru/politika"
+      "https://dr-knyazkin.ru/politika/"
     ],
     "sources": {
       "https://dr-knyazkin.ru/": "home-booking-candidate",
@@ -1515,7 +1515,7 @@
       "https://dr-knyazkin.ru/osstem-dental-implantation": "sitemap-form",
       "https://dr-knyazkin.ru/our_works": "sitemap-form",
       "https://dr-knyazkin.ru/podarochnyi_sertifikat": "sitemap-form",
-      "https://dr-knyazkin.ru/politika": "sitemap-legal",
+      "https://dr-knyazkin.ru/politika/": "sitemap-legal",
       "https://dr-knyazkin.ru/price": "sitemap-form",
       "https://dr-knyazkin.ru/restoration": "sitemap-form",
       "https://dr-knyazkin.ru/therapy": "sitemap-form",
@@ -1533,6 +1533,221 @@
     "b3": true,
     "b4": true,
     "mode": "agent",
-    "mode_updated_at": "2026-05-11T18:18:08Z"
+    "mode_updated_at": "2026-05-14T05:33:37Z",
+    "b1": true
+  },
+  "agent_structured": {
+    "clinic": "Стоматология Князькина",
+    "site_id": "dr-knyazkin-ru",
+    "site": "dr-knyazkin.ru",
+    "format_version": "block-metric-status-tf-poc.v1",
+    "blocks": [
+      {
+        "block": "блок 1",
+        "metrics": [
+          {
+            "metric": "Пациент не давал согласия на обработку данных",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "forms_total: 48",
+              "consent_missing_count: 44"
+            ]
+          },
+          {
+            "metric": "Согласие подставлено автоматически — это хуже чем его отсутствие",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "forms_total: 48",
+              "consent_prechecked_count: 0",
+              "explicit_consent_missing_count: 44",
+              "consent_text_only_count: 0",
+              "consent_checkbox_missing_count: 44"
+            ]
+          },
+          {
+            "metric": "На сайте нет обязательного документа об обработке данных пациентов",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "policy_document_present: True",
+              "checked_policy_urls: https://dr-knyazkin.ru/politika/"
+            ]
+          },
+          {
+            "metric": "Имя и телефон пациента передаются в открытом виде — любой может перехватить",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "bad_https_forms_count: 0"
+            ]
+          },
+          {
+            "metric": "На сайте упоминается организация, признанная в России экстремистской",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "forbidden_hits_count: 0"
+            ]
+          },
+          {
+            "metric": "Сайт собирает данные пациентов без их уведомления",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "cookie_notice_found: True",
+              "cookie_notice_hits_in_privacy_links: 23",
+              "cookie_notice_pages_matched: 0",
+              "cookie_detection_mode: explicit cookie-notice pattern (без учета policy-URL токенов)",
+              "https://dr-knyazkin.ru/ | cookie notice: чистка диагностика хирургия и удаление контакты новости отзывы веб-сайт использует файлы cookie, чтобы обеспечить вам наилучший сервис принять стоматология доктора князькина в москве лечение под микроскопо",
+              "https://dr-knyazkin.ru/contacts | cookie notice: чистка диагностика хирургия и удаление контакты новости отзывы веб-сайт использует файлы cookie, чтобы обеспечить вам наилучший сервис принять главная / контакты записаться на прием отправить я согласен на",
+              "https://dr-knyazkin.ru/doctors | cookie notice: чистка диагностика хирургия и удаление контакты новости отзывы веб-сайт использует файлы cookie, чтобы обеспечить вам наилучший сервис принять наши специалисты главная / наши специалисты наши специалисты к",
+              "https://dr-knyazkin.ru/doctors#rec658111054 | cookie notice: чистка диагностика хирургия и удаление контакты новости отзывы веб-сайт использует файлы cookie, чтобы обеспечить вам наилучший сервис принять наши специалисты главная / наши специалисты наши специалисты к"
+            ]
+          },
+          {
+            "metric": "Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "metrika_policy_disclosed: False",
+              "analytics.kinds: yandex_metrika",
+              "has_yandex_metrika: True",
+              "policy_evidence_count: 45",
+              "checked_policy_urls: https://dr-knyazkin.ru/politika/",
+              "readable_policy_urls: https://dr-knyazkin.ru/politika/",
+              "unreadable_policy_urls: не найдены",
+              "matched_tokens_in_policy_text: не найдены"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "блок 2",
+        "metrics": [
+          {
+            "metric": "Нет онлайн-записи со слотами",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "slot_booking_widget: False"
+            ]
+          },
+          {
+            "metric": "Сайт — цифровая визитка, не инструмент",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "sitemap_total_urls: 32",
+              "pages_count: 23"
+            ]
+          },
+          {
+            "metric": "Вы не знаете кто приходит на сайт и почему уходит",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "analytics.found: True",
+              "analytics.kinds: yandex_metrika"
+            ]
+          },
+          {
+            "metric": "Пациент не может написать первым",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "whatsapp: True",
+              "telegram: True"
+            ]
+          },
+          {
+            "metric": "Прайс-лист доступен без регистрации",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "price_public_found: True",
+              "price_pages: https://dr-knyazkin.ru/price, https://dr-knyazkin.ru/uslugi"
+            ]
+          },
+          {
+            "metric": "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "schema.any: True",
+              "schema.types: detected"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "блок 3",
+        "metrics": [
+          {
+            "metric": "Страница врачей / специалистов",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "doctors_content_found: True",
+              "doctor_pages: https://dr-knyazkin.ru/doctors, https://dr-knyazkin.ru/doctors#rec658111054"
+            ]
+          },
+          {
+            "metric": "Адрес и карта на сайте",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "address_found: True",
+              "map_found: True"
+            ]
+          },
+          {
+            "metric": "Часы работы",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "hours_found: True"
+            ]
+          },
+          {
+            "metric": "Отзывы пациентов на сайте",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "reviews_found: True"
+            ]
+          },
+          {
+            "metric": "Актуальность года в футере (если он вообще есть). Если его нет — ок",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "footer_present: True",
+              "current_year: False",
+              "year_value: 2023"
+            ]
+          },
+          {
+            "metric": "Есть отдельная страница контактов",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "contact_page_exists: True",
+              "contact_block_found: True"
+            ]
+          },
+          {
+            "metric": "Орфографические ошибки в тексте сайта",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "error_count: 21",
+              "checked_pages: 10"
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

@@ -2367,7 +2367,7 @@
         ]
       },
       "footer_year": {
-        "present": true,
+        "present": false,
         "year": null,
         "current_year": null
       },
@@ -2820,7 +2820,222 @@
     "b2": true,
     "b4": true,
     "mode": "agent",
-    "mode_updated_at": "2026-05-11T18:41:51Z",
-    "b3": true
+    "mode_updated_at": "2026-05-14T06:06:53Z",
+    "b3": true,
+    "b1": true
+  },
+  "agent_structured": {
+    "clinic": "KM Dental",
+    "site_id": "kmdental-ru",
+    "site": "kmdental.ru",
+    "format_version": "block-metric-status-tf-poc.v1",
+    "blocks": [
+      {
+        "block": "блок 1",
+        "metrics": [
+          {
+            "metric": "Пациент не давал согласия на обработку данных",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "forms_total: 77",
+              "consent_missing_count: 53"
+            ]
+          },
+          {
+            "metric": "Согласие подставлено автоматически — это хуже чем его отсутствие",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "forms_total: 77",
+              "consent_prechecked_count: 0",
+              "explicit_consent_missing_count: 53",
+              "consent_text_only_count: 0",
+              "consent_checkbox_missing_count: 53"
+            ]
+          },
+          {
+            "metric": "На сайте нет обязательного документа об обработке данных пациентов",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "policy_document_present: True",
+              "checked_policy_urls: https://kmdental.ru/corp/polozhenie, https://disk.yandex.ru/i/Zf4no7LdiyL43A, https://disk.yandex.ru/i/o892oAiPXUuLjQ, https://radix-p.ru/politika-konfidencialnosti"
+            ]
+          },
+          {
+            "metric": "Имя и телефон пациента передаются в открытом виде — любой может перехватить",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "bad_https_forms_count: 0"
+            ]
+          },
+          {
+            "metric": "На сайте упоминается организация, признанная в России экстремистской",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "forbidden_hits_count: 0"
+            ]
+          },
+          {
+            "metric": "Сайт собирает данные пациентов без их уведомления",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "cookie_notice_found: True",
+              "cookie_notice_hits_in_privacy_links: 40",
+              "cookie_notice_pages_matched: 0",
+              "cookie_detection_mode: explicit cookie-notice pattern (без учета policy-URL токенов)",
+              "https://kmdental.ru/ | cookie notice: й брекеты элайнеры налоговый вычет частые вопросы полезная информация мы используем файлы cookies для вашего удобства пользования сайтом и повышения качества рекомендаций. подробнее хорошо детская стоматол",
+              "https://kmdental.ru/contacts | cookie notice: й брекеты элайнеры налоговый вычет частые вопросы полезная информация мы используем файлы cookies для вашего удобства пользования сайтом и повышения качества рекомендаций. подробнее хорошо контакты км дент",
+              "https://kmdental.ru/contacts#location | cookie notice: й брекеты элайнеры налоговый вычет частые вопросы полезная информация мы используем файлы cookies для вашего удобства пользования сайтом и повышения качества рекомендаций. подробнее хорошо контакты км дент",
+              "https://kmdental.ru/aligners | cookie notice: й брекеты элайнеры налоговый вычет частые вопросы полезная информация мы используем файлы cookies для вашего удобства пользования сайтом и повышения качества рекомендаций. подробнее хорошо элайнеры в км де"
+            ]
+          },
+          {
+            "metric": "Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "metrika_policy_disclosed: False",
+              "analytics.kinds: yandex_metrika",
+              "has_yandex_metrika: True",
+              "policy_evidence_count: 111",
+              "checked_policy_urls: https://kmdental.ru/corp/polozhenie, https://disk.yandex.ru/i/Zf4no7LdiyL43A",
+              "readable_policy_urls: https://kmdental.ru/corp/polozhenie, https://disk.yandex.ru/i/Zf4no7LdiyL43A",
+              "unreadable_policy_urls: не найдены",
+              "matched_tokens_in_policy_text: не найдены"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "блок 2",
+        "metrics": [
+          {
+            "metric": "Нет онлайн-записи со слотами",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "slot_booking_widget: False"
+            ]
+          },
+          {
+            "metric": "Сайт — цифровая визитка, не инструмент",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "sitemap_total_urls: 53",
+              "pages_count: 53"
+            ]
+          },
+          {
+            "metric": "Вы не знаете кто приходит на сайт и почему уходит",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "analytics.found: True",
+              "analytics.kinds: yandex_metrika"
+            ]
+          },
+          {
+            "metric": "Пациент не может написать первым",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "whatsapp: True",
+              "telegram: True"
+            ]
+          },
+          {
+            "metric": "Прайс-лист доступен без регистрации",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "price_public_found: True",
+              "price_pages: https://kmdental.ru/prices"
+            ]
+          },
+          {
+            "metric": "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "schema.any: True",
+              "schema.types: dentist, hospital"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "блок 3",
+        "metrics": [
+          {
+            "metric": "Страница врачей / специалистов",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "doctors_content_found: True",
+              "doctor_pages: https://kmdental.ru/doctors, https://kmdental.ru/doctors/avdeenko, https://kmdental.ru/doctors/bindukova, https://kmdental.ru/doctors/bugunov, https://kmdental.ru/doctors/grigoryan, https://kmdental.ru/doctors/kulaev"
+            ]
+          },
+          {
+            "metric": "Адрес и карта на сайте",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "address_found: True",
+              "map_found: True"
+            ]
+          },
+          {
+            "metric": "Часы работы",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "hours_found: True"
+            ]
+          },
+          {
+            "metric": "Отзывы пациентов на сайте",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "reviews_found: True"
+            ]
+          },
+          {
+            "metric": "Актуальность года в футере (если он вообще есть). Если его нет — ок",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "footer_present: False",
+              "current_year: None",
+              "year_value: None"
+            ]
+          },
+          {
+            "metric": "Есть отдельная страница контактов",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "contact_page_exists: True",
+              "contact_block_found: True"
+            ]
+          },
+          {
+            "metric": "Орфографические ошибки в тексте сайта",
+            "status": "?????????",
+            "t_f": null,
+            "poc": [
+              "error_count: 22",
+              "checked_pages: 10"
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

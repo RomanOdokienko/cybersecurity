@@ -7188,7 +7188,7 @@
         ]
       },
       "footer_year": {
-        "present": true,
+        "present": false,
         "year": null,
         "current_year": null
       },
@@ -7696,6 +7696,8 @@
     "b2": true,
     "b4": true,
     "mode": "agent",
-    "mode_updated_at": "2026-05-11T17:34:25Z"
+    "mode_updated_at": "2026-05-14T06:00:41Z",
+    "b1": true,
+    "b3": true
   }
 }

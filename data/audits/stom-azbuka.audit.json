@@ -2490,6 +2490,224 @@
     "b3": true,
     "b4": true,
     "mode": "agent",
-    "mode_updated_at": "2026-05-11T17:21:14Z"
+    "mode_updated_at": "2026-05-14T06:09:02Z",
+    "b1": true
+  },
+  "agent_structured": {
+    "clinic": "Стом-Азбука",
+    "site_id": "stom-azbuka-ru",
+    "site": "stom-azbuka.ru",
+    "format_version": "block-metric-status-tf-poc.v1",
+    "blocks": [
+      {
+        "block": "блок 1",
+        "metrics": [
+          {
+            "metric": "Пациент не давал согласия на обработку данных",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "forms_total: 69",
+              "consent_missing_count: 0"
+            ]
+          },
+          {
+            "metric": "Согласие подставлено автоматически — это хуже чем его отсутствие",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "forms_total: 69",
+              "consent_prechecked_count: 0",
+              "explicit_consent_missing_count: 69",
+              "consent_text_only_count: 69",
+              "consent_checkbox_missing_count: 0"
+            ]
+          },
+          {
+            "metric": "На сайте нет обязательного документа об обработке данных пациентов",
+            "status": "ок",
+            "t_f": null,
+            "poc": [
+              "policy_document_present: True",
+              "checked_policy_urls: https://stom-azbuka.ru/polzovatelskoe-soglashenie, https://stom-azbuka.ru/dop-menyu-v-podvale/privacy-policy/",
+              "readable_policy_urls: https://stom-azbuka.ru/polzovatelskoe-soglashenie, https://stom-azbuka.ru/dop-menyu-v-podvale/privacy-policy/",
+              "matched_policy_tokens: 152-фз, обработк, персональн, федеральн"
+            ]
+          },
+          {
+            "metric": "Имя и телефон пациента передаются в открытом виде — любой может перехватить",
+            "status": "ок",
+            "t_f": null,
+            "poc": [
+              "bad_https_forms_count: 0"
+            ]
+          },
+          {
+            "metric": "На сайте упоминается организация, признанная в России экстремистской",
+            "status": "ок",
+            "t_f": null,
+            "poc": [
+              "forbidden_hits_count: 0"
+            ]
+          },
+          {
+            "metric": "Сайт собирает данные пациентов без их уведомления",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "cookie_notice_found: False",
+              "cookie_notice_hits_in_privacy_links: 0",
+              "cookie_notice_pages_matched: 0",
+              "cookie_detection_mode: explicit cookie-notice pattern (без учета policy-URL токенов)",
+              "Совпадений по cookie-токенам не найдено.",
+              "Источник: явные cookie-notice сигналы в тексте страниц/домашней страницы."
+            ]
+          },
+          {
+            "metric": "Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "metrika_policy_disclosed: False",
+              "analytics.kinds: yandex_metrika",
+              "has_yandex_metrika: True",
+              "policy_evidence_count: 157",
+              "checked_policy_urls: https://stom-azbuka.ru/polzovatelskoe-soglashenie, https://stom-azbuka.ru/dop-menyu-v-podvale/privacy-policy/",
+              "readable_policy_urls: https://stom-azbuka.ru/polzovatelskoe-soglashenie, https://stom-azbuka.ru/dop-menyu-v-podvale/privacy-policy/",
+              "unreadable_policy_urls: не найдены",
+              "matched_tokens_in_policy_text: не найдены",
+              "Вывод: Метрика найдена на сайте, но явных упоминаний в тексте политики не найдено."
+            ]
+          }
+        ]
+      },
+      {
+        "block": "блок 2",
+        "metrics": [
+          {
+            "metric": "Нет онлайн-записи со слотами",
+            "status": "ок",
+            "t_f": null,
+            "poc": [
+              "slot_booking_widget: False"
+            ]
+          },
+          {
+            "metric": "Сайт — цифровая визитка, не инструмент",
+            "status": "ок",
+            "t_f": null,
+            "poc": [
+              "sitemap_total_urls: 40",
+              "pages_count: 41"
+            ]
+          },
+          {
+            "metric": "Вы не знаете кто приходит на сайт и почему уходит",
+            "status": "ок",
+            "t_f": null,
+            "poc": [
+              "analytics.found: True",
+              "analytics.kinds: yandex_metrika"
+            ]
+          },
+          {
+            "metric": "Пациент не может написать первым",
+            "status": "ок",
+            "t_f": null,
+            "poc": [
+              "whatsapp: True",
+              "telegram: True",
+              "max_messenger: True",
+              "chat_widget: False"
+            ]
+          },
+          {
+            "metric": "Прайс-лист доступен без регистрации",
+            "status": "ок",
+            "t_f": null,
+            "poc": [
+              "price_public_found: True",
+              "price_pages: https://stom-azbuka.ru/stoimost-uslug"
+            ]
+          },
+          {
+            "metric": "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
+            "status": "проблема",
+            "t_f": null,
+            "poc": [
+              "schema.any: False",
+              "schema.types: не найдены"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "блок 3",
+        "metrics": [
+          {
+            "metric": "Страница врачей / специалистов",
+            "status": "ок",
+            "t_f": null,
+            "poc": [
+              "doctors_content_found: True",
+              "doctor_pages: https://stom-azbuka.ru/, https://stom-azbuka.ru/kontakti, https://stom-azbuka.ru/akczii/, https://stom-azbuka.ru/akczii/23-fevralya, https://stom-azbuka.ru/akczii/akcziya-30-skidka-dlya-zhenshhin-k-8-marta"
+            ]
+          },
+          {
+            "metric": "Адрес и карта на сайте",
+            "status": "ок",
+            "t_f": null,
+            "poc": [
+              "address_found: True",
+              "map_found: True"
+            ]
+          },
+          {
+            "metric": "Часы работы",
+            "status": "ок",
+            "t_f": null,
+            "poc": [
+              "hours_found: True"
+            ]
+          },
+          {
+            "metric": "Отзывы пациентов на сайте",
+            "status": "ок",
+            "t_f": null,
+            "poc": [
+              "reviews_found: True"
+            ]
+          },
+          {
+            "metric": "Актуальность года в футере (если он вообще есть). Если его нет — ок",
+            "status": "ок",
+            "t_f": null,
+            "poc": [
+              "footer_present: True",
+              "current_year: True",
+              "year_value: 2026"
+            ]
+          },
+          {
+            "metric": "Есть отдельная страница контактов",
+            "status": "ок",
+            "t_f": null,
+            "poc": [
+              "contact_page_exists: True",
+              "contact_block_found: True"
+            ]
+          },
+          {
+            "metric": "Орфографические ошибки в тексте сайта",
+            "status": "проблема",
+            "t_f": null,
+            "poc": [
+              "error_count: 19",
+              "checked_pages: 10"
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

@@ -9,6 +9,10 @@ from urllib.parse import urlencode, urlparse, urljoin
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError
 try:
+    import requests
+except Exception:
+    requests = None
+try:
     from pypdf import PdfReader
 except Exception:
     PdfReader = None
@@ -127,6 +131,16 @@ DKIM_SELECTOR_CANDIDATES = [
     "google",
     "dkim",
 ]
+
+HTTP_FETCH_HEADERS = {
+    "user-agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/136.0.0.0 Safari/537.36"
+    ),
+    "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+}
 
 
 def site_host(value: str) -> str:
@@ -424,10 +438,14 @@ def _normalize_candidate_url(domain: str, raw_url: str) -> str:
         return ""
     if u.startswith("http://") or u.startswith("https://"):
         return u
-    if not u.startswith("/"):
-        return ""
     base = f"https://{str(domain or '').strip().lstrip('/')}"
-    return urljoin(base if base.endswith("/") else base + "/", u)
+    base = base if base.endswith("/") else base + "/"
+    if u.startswith("/"):
+        return urljoin(base, u)
+    # Accept plain relative paths like "corp/polozhenie".
+    if re.match(r"^[a-zA-Z0-9._~!$&'()*+,;=:@%/-]+$", u):
+        return urljoin(base, u)
+    return ""
 
 
 def collect_semantic_policy_urls(audit, policy_evidence=None):
@@ -468,7 +486,13 @@ def collect_semantic_policy_urls(audit, policy_evidence=None):
 
 @lru_cache(maxsize=1024)
 def _probe_url_status(url: str):
-    req = Request(url, headers={"user-agent": "Mozilla/5.0", "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"})
+    if requests is not None:
+        try:
+            resp = requests.get(url, headers=HTTP_FETCH_HEADERS, timeout=6, allow_redirects=True)
+            return int(resp.status_code or 0)
+        except Exception:
+            pass
+    req = Request(url, headers=HTTP_FETCH_HEADERS)
     try:
         with urlopen(req, timeout=6) as resp:
             return int(resp.getcode() or 0)
@@ -479,6 +503,30 @@ def _probe_url_status(url: str):
             return 0
     except Exception:
         return 0
+
+
+def _fetch_url_content(url: str, timeout_sec: int = 8):
+    if requests is not None:
+        try:
+            resp = requests.get(url, headers=HTTP_FETCH_HEADERS, timeout=timeout_sec, allow_redirects=True)
+            return int(resp.status_code or 0), str(resp.headers.get("Content-Type", "")), bytes(resp.content or b"")
+        except Exception:
+            pass
+
+    req = Request(url, headers=HTTP_FETCH_HEADERS)
+    try:
+        with urlopen(req, timeout=timeout_sec) as resp:
+            raw = resp.read()
+            ctype = str(resp.headers.get("Content-Type", "") if resp.headers else "")
+            return int(resp.getcode() or 0), ctype, raw
+    except HTTPError as e:
+        try:
+            raw = e.read() if hasattr(e, "read") else b""
+        except Exception:
+            raw = b""
+        return int(getattr(e, "code", 0) or 0), str(getattr(e, "headers", {}).get("Content-Type", "") if getattr(e, "headers", None) else ""), raw
+    except Exception:
+        return 0, "", b""
 
 
 def _extract_policy_doc_links(base_url: str, html_low: str):
@@ -505,24 +553,36 @@ def evaluate_policy_document_presence(audit, policy_evidence=None, max_urls: int
         max_urls=max_urls,
     )
     checked_urls = scan.get("checked_urls") or []
+    modal_texts = scan.get("modal_texts") or {}
     matched_tokens_union = set()
     valid_urls = []
     broken_doc_urls = []
     per_url_signals = []
 
     for u in checked_urls:
-        text_low, _, readable_text = _fetch_policy_visible_text_lower(u)
-        matched_tokens = sorted([tok for tok in POLICY_CONTENT_TOKENS if tok in str(text_low or "")])
-        matched_tokens_union.update(matched_tokens)
-        html_low = _fetch_url_html_lower(u)
-        doc_links = _extract_policy_doc_links(u, html_low)
-        doc_statuses = [{"url": du, "status": _probe_url_status(du)} for du in doc_links[:6]]
-        has_docs = bool(doc_statuses)
-        docs_ok = any((d.get("status") or 0) == 200 for d in doc_statuses)
-        docs_broken = has_docs and not docs_ok
+        if str(u).startswith("modal:"):
+            text_low = str(modal_texts.get(u) or "")
+            matched_tokens = sorted([tok for tok in POLICY_CONTENT_TOKENS if tok in text_low])
+            matched_tokens_union.update(matched_tokens)
+            has_docs = False
+            docs_ok = False
+            docs_broken = False
+            policy_hint = any(tok in text_low for tok in ["политик", "конфиден", "персональ"])
+            strong_text = bool(_is_probably_readable_text(text_low) and policy_hint and len(matched_tokens) >= 1)
+            url_valid = bool(strong_text)
+        else:
+            text_low, _, readable_text = _fetch_policy_visible_text_lower(u)
+            matched_tokens = sorted([tok for tok in POLICY_CONTENT_TOKENS if tok in str(text_low or "")])
+            matched_tokens_union.update(matched_tokens)
+            html_low = _fetch_url_html_lower(u)
+            doc_links = _extract_policy_doc_links(u, html_low)
+            doc_statuses = [{"url": du, "status": _probe_url_status(du)} for du in doc_links[:6]]
+            has_docs = bool(doc_statuses)
+            docs_ok = any((d.get("status") or 0) == 200 for d in doc_statuses)
+            docs_broken = has_docs and not docs_ok
 
-        strong_text = bool(readable_text and len(matched_tokens) >= 3)
-        url_valid = bool(docs_ok or (strong_text and not docs_broken))
+            strong_text = bool(readable_text and len(matched_tokens) >= 3)
+            url_valid = bool(docs_ok or (strong_text and not docs_broken))
         if url_valid:
             valid_urls.append(u)
         if docs_broken:
@@ -553,22 +613,18 @@ def evaluate_policy_document_presence(audit, policy_evidence=None, max_urls: int
 
 @lru_cache(maxsize=1024)
 def _fetch_url_html_lower(url: str) -> str:
-    req = Request(url, headers={"user-agent": "Mozilla/5.0", "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"})
-    try:
-        with urlopen(req, timeout=6) as resp:
-            raw = resp.read()
-            ctype = str(resp.headers.get("Content-Type", "") if resp.headers else "")
-            if "charset=" in ctype.lower():
-                enc = ctype.lower().split("charset=", 1)[1].split(";", 1)[0].strip()
-            else:
-                enc = "utf-8"
-            try:
-                text = raw.decode(enc, "ignore")
-            except Exception:
-                text = raw.decode("utf-8", "ignore")
-            return text.lower()
-    except Exception:
+    status, ctype, raw = _fetch_url_content(url, timeout_sec=6)
+    if status < 200 or status >= 300 or not raw:
         return ""
+    if "charset=" in ctype.lower():
+        enc = ctype.lower().split("charset=", 1)[1].split(";", 1)[0].strip()
+    else:
+        enc = "utf-8"
+    try:
+        text = raw.decode(enc, "ignore")
+    except Exception:
+        text = raw.decode("utf-8", "ignore")
+    return text.lower()
 
 
 def _html_to_visible_text_lower(html_low: str) -> str:
@@ -595,12 +651,9 @@ def _is_probably_readable_text(text_low: str) -> bool:
 
 @lru_cache(maxsize=1024)
 def _fetch_policy_visible_text_lower(url: str):
-    req = Request(url, headers={"user-agent": "Mozilla/5.0", "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"})
-    try:
-        with urlopen(req, timeout=8) as resp:
-            raw = resp.read()
-            ctype = str(resp.headers.get("Content-Type", "") if resp.headers else "").lower()
-    except Exception:
+    status, ctype, raw = _fetch_url_content(url, timeout_sec=8)
+    ctype = str(ctype or "").lower()
+    if status < 200 or status >= 300 or not raw:
         return "", False, False
 
     is_pdf = (".pdf" in str(url or "").lower()) or ("application/pdf" in ctype)
@@ -636,6 +689,75 @@ def scan_policy_pages_for_metrika(audit, policy_evidence=None, max_urls: int = 3
     )
 
 
+def _extract_modal_targets_from_forms(audit):
+    domain = str(audit.get("domain") or "").strip()
+    out = []
+    seen = set()
+    for f in (audit.get("forms", []) or []):
+        page = str(f.get("page") or "").strip()
+        if not page:
+            continue
+        page_abs = _normalize_candidate_url(domain, page) or page
+        poc = str(f.get("policy_poc") or "")
+        if not poc:
+            continue
+        for m in re.finditer(r'(?is)data-bs-target\s*=\s*["\']#([^"\']+)["\']', poc):
+            modal_id = str(m.group(1) or "").strip().lower()
+            if not modal_id:
+                continue
+            key = (page_abs, modal_id)
+            if key in seen:
+                continue
+            seen.add(key)
+            out.append(key)
+    return out
+
+
+def _extract_modal_visible_text_lower(html_low: str, modal_id: str) -> str:
+    src = str(html_low or "")
+    mid = str(modal_id or "").strip()
+    if not src or not mid:
+        return ""
+    pat = re.compile(
+        rf'(?is)<[^>]+\bid\s*=\s*["\']{re.escape(mid)}["\'][^>]*>',
+        flags=re.IGNORECASE,
+    )
+    m = pat.search(src)
+    if not m:
+        return ""
+    # Approximate modal block window from opening tag.
+    chunk = src[m.start() : m.start() + 20000]
+    return _html_to_visible_text_lower(chunk)
+
+
+def _scan_policy_modals_for_tokens(audit, tokens):
+    checked = []
+    readable = []
+    unreadable = []
+    matched = set()
+    modal_text_by_ref = {}
+    for page_url, modal_id in _extract_modal_targets_from_forms(audit):
+        html_low = _fetch_url_html_lower(page_url)
+        modal_text = _extract_modal_visible_text_lower(html_low, modal_id)
+        ref = f"modal:{page_url}#{modal_id}"
+        checked.append(ref)
+        modal_text_by_ref[ref] = modal_text
+        if _is_probably_readable_text(modal_text):
+            readable.append(ref)
+        else:
+            unreadable.append(ref)
+        for tok in tokens:
+            if tok in modal_text:
+                matched.add(tok)
+    return {
+        "checked_refs": checked,
+        "readable_refs": readable,
+        "unreadable_refs": unreadable,
+        "matched_tokens": sorted(matched),
+        "texts": modal_text_by_ref,
+    }
+
+
 def scan_policy_pages_for_tokens(audit, tokens, policy_evidence=None, max_urls: int = 3):
     urls = collect_semantic_policy_urls(audit, policy_evidence=policy_evidence)
     checked = []
@@ -656,12 +778,27 @@ def scan_policy_pages_for_tokens(audit, tokens, policy_evidence=None, max_urls: 
         for tok in tokens:
             if tok in text_low:
                 matched.add(tok)
+
+    modal_scan = _scan_policy_modals_for_tokens(audit, tokens=tokens)
+    for ref in (modal_scan.get("checked_refs") or []):
+        if ref not in checked:
+            checked.append(ref)
+    for ref in (modal_scan.get("readable_refs") or []):
+        if ref not in readable:
+            readable.append(ref)
+    for ref in (modal_scan.get("unreadable_refs") or []):
+        if ref not in unreadable:
+            unreadable.append(ref)
+    for tok in (modal_scan.get("matched_tokens") or []):
+        matched.add(tok)
+
     return {
         "candidate_urls": urls,
         "checked_urls": checked,
         "readable_urls": readable,
         "unreadable_urls": unreadable,
         "matched_tokens": sorted(matched),
+        "modal_texts": modal_scan.get("texts") or {},
     }
 
 
