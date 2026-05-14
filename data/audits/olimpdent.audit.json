@@ -765,8 +765,8 @@
         "metrics": [
           {
             "metric": "Пациент не давал согласия на обработку данных",
-            "status": "ок",
-            "t_f": true,
+            "status": "проблема",
+            "t_f": null,
             "poc": [
               "forms_total: 16",
               "consent_missing_count: 16"
@@ -774,8 +774,8 @@
           },
           {
             "metric": "Согласие подставлено автоматически — это хуже чем его отсутствие",
-            "status": "ок",
-            "t_f": true,
+            "status": "проблема",
+            "t_f": null,
             "poc": [
               "forms_total: 16",
               "consent_prechecked_count: 0",
@@ -811,8 +811,8 @@
           },
           {
             "metric": "Сайт собирает данные пациентов без их уведомления",
-            "status": "проблема",
-            "t_f": false,
+            "status": "ок",
+            "t_f": null,
             "poc": [
               "cookie_notice_found: False",
               "cookie_notice_hits_in_privacy_links: 0",

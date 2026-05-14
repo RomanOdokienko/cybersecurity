@@ -2513,8 +2513,8 @@
           },
           {
             "metric": "Согласие подставлено автоматически — это хуже чем его отсутствие",
-            "status": "ок",
-            "t_f": true,
+            "status": "проблема",
+            "t_f": null,
             "poc": [
               "forms_total: 69",
               "consent_prechecked_count: 0",

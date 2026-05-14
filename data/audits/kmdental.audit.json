@@ -2835,8 +2835,8 @@
         "metrics": [
           {
             "metric": "Пациент не давал согласия на обработку данных",
-            "status": "ок",
-            "t_f": true,
+            "status": "проблема",
+            "t_f": null,
             "poc": [
               "forms_total: 77",
               "consent_missing_count: 53"
@@ -2844,8 +2844,8 @@
           },
           {
             "metric": "Согласие подставлено автоматически — это хуже чем его отсутствие",
-            "status": "ок",
-            "t_f": true,
+            "status": "проблема",
+            "t_f": null,
             "poc": [
               "forms_total: 77",
               "consent_prechecked_count: 0",

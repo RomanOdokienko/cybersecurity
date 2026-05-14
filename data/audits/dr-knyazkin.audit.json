@@ -1547,8 +1547,8 @@
         "metrics": [
           {
             "metric": "Пациент не давал согласия на обработку данных",
-            "status": "ок",
-            "t_f": true,
+            "status": "проблема",
+            "t_f": null,
             "poc": [
               "forms_total: 48",
               "consent_missing_count: 44"
