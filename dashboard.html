@@ -12871,98 +12871,38 @@
     initFixedHeader();
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-    // COMMENT_COLUMN_V1
+    // COMMENT_COLUMN_V2_STATIC
     (function(){
-      if (window.__commentsColumnInitDone) return;
-      window.__commentsColumnInitDone = true;
+      if (window.__commentsColumnStaticDone) return;
+      window.__commentsColumnStaticDone = true;
 
-      const COMMENT_KEY = 'clinic_audit_comments_v1';
-      const COMMENTS_API = '/api/comments';
+      const STATIC_COMMENTS = {};
 
-      function loadLocalComments(){
-        try { return JSON.parse(localStorage.getItem(COMMENT_KEY) || '{}') || {}; }
-        catch(_) { return {}; }
-      }
-      function saveLocalComments(comments){
-        try { localStorage.setItem(COMMENT_KEY, JSON.stringify(comments || {})); } catch(_) {}
-      }
-      async function loadApiComments(){
-        const resp = await fetch(COMMENTS_API, { cache:'no-store' });
-        if(!resp.ok) throw new Error('comments load failed');
-        const data = await resp.json();
-        return (data && typeof data === 'object') ? data : {};
-      }
-      async function saveApiComments(comments){
-        const resp = await fetch(COMMENTS_API, {
-          method:'POST',
-          headers:{ 'Content-Type':'application/json' },
-          body: JSON.stringify(comments || {})
-        });
-        if(!resp.ok) throw new Error('comments save failed');
-      }
-      function inferSiteIdFromRow(row){
+      function inferSiteIdFromRow(row) {
         const rid = row.id || '';
         if (rid.startsWith('row-step2-')) return rid.slice('row-step2-'.length);
         const href = row.getAttribute('data-href') || '';
         const m = href.match(/sites\/([^\/]+)\.html$/);
         return m ? m[1] : '';
       }
-      function ensureStyle(){
-        if (document.getElementById('comments-col-style-v1')) return;
+
+      function ensureStyle() {
+        if (document.getElementById('comments-col-style-v2')) return;
         const st = document.createElement('style');
-        st.id = 'comments-col-style-v1';
+        st.id = 'comments-col-style-v2';
         st.textContent = [
           '.comment-col-head{min-width:220px;width:220px;background:#fff;position:sticky;right:0;z-index:3;box-shadow:-1px 0 0 #e9edf6;}',
           '.comment-col{min-width:220px;width:220px;background:#fff;position:sticky;right:0;z-index:2;box-shadow:-1px 0 0 #e9edf6;}',
-          '.comment-input{width:100%;min-width:0;border:1px solid #d8deeb;border-radius:8px;padding:5px 7px;font-size:11px;color:#2b3343;background:#fff;}',
-          '.comment-input:focus{outline:none;border-color:#8db5ff;box-shadow:0 0 0 2px rgba(141,181,255,.22);}'
+          '.comment-text{font-size:11px;color:#2b3343;line-height:1.25;white-space:normal;word-break:break-word;}'
         ].join('');
         document.head.appendChild(st);
       }
-      function ensureColumn(){
-        const table = document.querySelector('table');
-        if (!table) return [];
 
+      function ensureColumn() {
+        const table = document.querySelector('table');
+        if (!table) return;
         const headRows = table.querySelectorAll('thead tr');
-        if (!headRows.length) return [];
+        if (!headRows.length) return;
 
         if (!table.querySelector('th.comment-col-head')) {
           const th = document.createElement('th');
@@ -12972,64 +12912,29 @@
           headRows[0].appendChild(th);
         }
 
-        const rows = Array.from(table.querySelectorAll('tbody tr'));
-        rows.forEach(function(row){
+        table.querySelectorAll('tbody tr').forEach(function(row) {
           if (row.querySelector('td.comment-col')) return;
           const td = document.createElement('td');
           td.className = 'comment-col';
-          const input = document.createElement('input');
-          input.className = 'comment-input';
-          input.type = 'text';
+          const div = document.createElement('div');
+          div.className = 'comment-text';
           const siteId = inferSiteIdFromRow(row);
-          input.setAttribute('data-site-id', siteId);
-          td.appendChild(input);
+          const txt = Object.prototype.hasOwnProperty.call(STATIC_COMMENTS, siteId) ? String(STATIC_COMMENTS[siteId] || '') : '';
+          div.textContent = txt;
+          if (txt) div.title = txt;
+          td.appendChild(div);
           row.appendChild(td);
-
-          ['click','mousedown','keydown','keyup','keypress'].forEach(function(evt){
-            input.addEventListener(evt, function(e){ e.stopPropagation(); });
-          });
-        });
-
-        return rows;
-      }
-
-      async function init(){
-        ensureStyle();
-        const rows = ensureColumn();
-        if (!rows.length) return;
-
-        let comments = loadLocalComments();
-        let apiEnabled = location.protocol.startsWith('http');
-        if (apiEnabled) {
-          try {
-            const apiComments = await loadApiComments();
-            comments = Object.assign({}, apiComments, comments);
-            saveLocalComments(comments);
-          } catch(_) {
-            apiEnabled = false;
-          }
-        }
-
-        document.querySelectorAll('.comment-input').forEach(function(input){
-          const siteId = input.getAttribute('data-site-id') || '';
-          if (siteId && Object.prototype.hasOwnProperty.call(comments, siteId)) {
-            input.value = comments[siteId] || '';
-          }
-          input.addEventListener('change', function(){
-            if (!siteId) return;
-            comments[siteId] = input.value || '';
-            saveLocalComments(comments);
-            if (apiEnabled) saveApiComments(comments).catch(function(){ apiEnabled = false; });
-          });
         });
       }
 
       if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', init);
+        document.addEventListener('DOMContentLoaded', function(){ ensureStyle(); ensureColumn(); });
       } else {
-        init();
+        ensureStyle();
+        ensureColumn();
       }
     })();
+
 </script>
 
 

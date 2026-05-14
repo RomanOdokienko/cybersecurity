@@ -19,6 +19,7 @@ except Exception:
 
 ROOT = Path(r"D:\разработка\Кибербеза 2.0")
 MANIFEST = ROOT / "data" / "sites_manifest.json"
+COMMENTS_FILE = ROOT / "data" / "comments.json"
 AGENT_MODE_LOCK = ROOT / "AGENT_ONLY_MODE.lock"
 
 
@@ -153,6 +154,23 @@ def site_host(value: str) -> str:
 def read_json(path: Path):
     with path.open("r", encoding="utf-8-sig") as f:
         return json.load(f)
+
+
+def read_comments_map(path: Path) -> dict[str, str]:
+    if not path.exists():
+        return {}
+    try:
+        data = read_json(path)
+    except Exception:
+        return {}
+    if not isinstance(data, dict):
+        return {}
+    out: dict[str, str] = {}
+    for k, v in data.items():
+        if not isinstance(k, str):
+            continue
+        out[k] = str(v) if v is not None else ""
+    return out
 
 
 def read_text_best_effort(path: Path) -> str:
@@ -1854,7 +1872,7 @@ def compute_summary(item, audit):
     }
 
 
-def row_html(row_num, site_id, clinic, site, s):
+def row_html(row_num, site_id, clinic, site, s, comment_text: str = ""):
     external = site_url(site)
     mode_label = (s.get("verification_mode") or {}).get("label", "не указан")
     return f"""
@@ -1870,7 +1888,7 @@ def row_html(row_num, site_id, clinic, site, s):
       <td><span class=\"badge {badge_class(s['meta_status'])}\">{esc(s['meta_status'])}</span></td>
       <td><span class=\"badge {badge_class(s['policy_status'])}\">{esc(s['policy_status'])}</span></td>
       <td><span class=\"badge {badge_class(s['result'])}\">{esc(s['result'])}</span></td>
-      <td><input class=\"comment-input\" data-site-id=\"{esc(site_id)}\" type=\"text\" /></td>
+      <td class=\"comment-col\"><div class=\"comment-text\" title=\"{esc(comment_text)}\">{esc(comment_text)}</div></td>
     </tr>
     """
 
@@ -2665,10 +2683,11 @@ def step2_header_rows(schema):
                 f'<span class="metric-label"{tooltip_attr}>{esc(metric_name)}</span>'
                 f'</th>'
             )
+    top.append('<th class="comment-col-head" rowspan="2">Комментарий</th>')
     return "<tr>" + "".join(top) + "</tr><tr>" + "".join(sub) + "</tr>"
 
 
-def row_html_step2(row_num, site_id, clinic, site, s, schema):
+def row_html_step2(row_num, site_id, clinic, site, s, schema, comment_text: str = ""):
     block_values = step2_blocks_data(s)
     external = site_url(site)
     mode_label = (s.get("verification_mode") or {}).get("label", "не указан")
@@ -2691,6 +2710,7 @@ def row_html_step2(row_num, site_id, clinic, site, s, schema):
         for metric_idx, status in enumerate(statuses):
             metric_edge = " group-edge" if block_idx > 0 and metric_idx == 0 else ""
             parts.append(f'<td class="metric-col {esc(bid)}{metric_edge}"><span class="badge {badge_class(status)}">{esc(status)}</span></td>')
+    parts.append(f'<td class="comment-col"><div class="comment-text" title="{esc(comment_text)}">{esc(comment_text)}</div></td>')
     parts.append("</tr>")
     return "".join(parts)
 
@@ -2776,6 +2796,9 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
     .table-head-fixed {{ position:fixed; top:0; left:0; z-index:1600; display:none; pointer-events:auto; }}
     .table-head-fixed table {{ border-collapse:collapse; table-layout:fixed; margin:0; }}
     .table-head-fixed thead th {{ background:#fafbfe; }}
+    .comment-col-head {{ min-width:220px; width:220px; }}
+    .comment-col {{ min-width:220px; width:220px; }}
+    .comment-text {{ font-size:11px; color:#2b3343; line-height:1.25; white-space:normal; word-break:break-word; }}
   </style>
 </head>
 <body>
@@ -3106,6 +3129,7 @@ def main():
         )
 
     manifest = read_json(MANIFEST)
+    comments_map = read_comments_map(COMMENTS_FILE)
     step2_schema = step2_block_schema()
 
     # Selective mode: update only chosen clinics (detail pages + their row in step2 dashboards).
@@ -3125,7 +3149,18 @@ def main():
             summary = compute_summary(item, audit)
             assert_agent_render_consistency(item, summary)
             details.append((item["id"], build_detail_page(item, audit, summary)))
-            updated_rows.append((item["id"], row_html_step2(idx, item["id"], item["clinic"], item["site"], summary, step2_schema)))
+            updated_rows.append((
+                item["id"],
+                row_html_step2(
+                    idx,
+                    item["id"],
+                    item["clinic"],
+                    item["site"],
+                    summary,
+                    step2_schema,
+                    comments_map.get(item["id"], ""),
+                ),
+            ))
 
         sites_dir = ROOT / "sites"
         sites_dir.mkdir(parents=True, exist_ok=True)
@@ -3186,8 +3221,9 @@ def main():
         item = entry["item"]
         audit = entry["audit"]
         summary = entry["summary"]
-        rows.append(row_html(idx, item["id"], item["clinic"], item["site"], summary))
-        rows_step2.append(row_html_step2(idx, item["id"], item["clinic"], item["site"], summary, step2_schema))
+        comment_text = comments_map.get(item["id"], "")
+        rows.append(row_html(idx, item["id"], item["clinic"], item["site"], summary, comment_text))
+        rows_step2.append(row_html_step2(idx, item["id"], item["clinic"], item["site"], summary, step2_schema, comment_text))
         details.append((item["id"], build_detail_page(item, audit, summary)))
 
     dashboard = f"""<!doctype html>
@@ -3233,8 +3269,8 @@ def main():
     .clinic {{ font-weight:700; font-size:11px; overflow-wrap:anywhere; }}
     .badge {{ display:inline-block; padding:3px 8px; border-radius:999px; border:1px solid transparent; font-size:11px; font-weight:700; line-height:1.2; white-space:nowrap; }}
     .consent-badge {{ font-size:10px; padding:3px 7px; white-space:normal; line-height:1.15; max-width:100%; }}
-    .comment-input {{ width:100%; min-width:0; border:1px solid #d8deeb; border-radius:8px; padding:5px 7px; font-size:11px; color:#2b3343; background:#fff; }}
-    .comment-input:focus {{ outline:none; border-color:#8db5ff; box-shadow:0 0 0 2px rgba(141,181,255,.22); }}
+    .comment-col {{ min-width:220px; width:220px; }}
+    .comment-text {{ font-size:11px; color:#2b3343; line-height:1.25; white-space:normal; word-break:break-word; }}
     .ok {{ background:var(--ok-bg); color:var(--ok-fg); border-color:#c8efd9; }}
     .warn {{ background:var(--warn-bg); color:var(--warn-fg); border-color:#f0d889; }}
     .bad {{ background:var(--bad-bg); color:var(--bad-fg); border-color:#f7c4c8; }}
@@ -3285,7 +3321,7 @@ def main():
     </div>
 
     <div class=\"notes\">
-      Для масштабирования на новые сайты: добавьте audit JSON в <code>data/audits</code>, запись в <code>data/sites_manifest.json</code>, затем запустите <code>python scripts/build_dashboard.py</code>. Для сохранения комментариев в репозиторий открывайте дашборд через <code>python scripts/dashboard_server.py</code>.
+      Для масштабирования на новые сайты: добавьте audit JSON в <code>data/audits</code>, запись в <code>data/sites_manifest.json</code>, затем запустите <code>python scripts/build_dashboard.py</code>. Комментарии берутся из <code>data/comments.json</code> (read-only в UI).
     </div>
   </div>
   <script>
@@ -3299,82 +3335,6 @@ def main():
     document.querySelectorAll('a.site-link').forEach(function(link){{
       link.addEventListener('click', function(e){{ e.stopPropagation(); }});
     }});
-    const COMMENT_KEY = 'clinic_audit_comments_v1';
-    const COMMENTS_API = '/api/comments';
-
-    function loadLocalComments() {{
-      try {{
-        const raw = localStorage.getItem(COMMENT_KEY);
-        return raw ? JSON.parse(raw) : {{}};
-      }} catch (e) {{
-        return {{}};
-      }}
-    }}
-
-    function saveLocalComments(comments) {{
-      try {{
-        localStorage.setItem(COMMENT_KEY, JSON.stringify(comments));
-      }} catch (e) {{}}
-    }}
-
-    async function loadApiComments() {{
-      const resp = await fetch(COMMENTS_API, {{ cache: 'no-store' }});
-      if(!resp.ok) throw new Error('comments load failed');
-      const data = await resp.json();
-      return data && typeof data === 'object' ? data : {{}};
-    }}
-
-    async function saveApiComments(comments) {{
-      const resp = await fetch(COMMENTS_API, {{
-        method: 'POST',
-        headers: {{ 'Content-Type': 'application/json' }},
-        body: JSON.stringify(comments),
-      }});
-      if(!resp.ok) throw new Error('comments save failed');
-    }}
-
-    (async function initComments(){{
-      const localComments = loadLocalComments();
-      let comments = Object.assign({{}}, localComments);
-      let apiEnabled = false;
-
-      if (window.location.protocol.startsWith('http')) {{
-        try {{
-          const apiComments = await loadApiComments();
-          comments = Object.assign({{}}, apiComments, localComments);
-          apiEnabled = true;
-        }} catch (e) {{
-          apiEnabled = false;
-        }}
-      }}
-
-      let saveTimer = null;
-      function scheduleApiSave() {{
-        if(!apiEnabled) return;
-        if(saveTimer) clearTimeout(saveTimer);
-        saveTimer = setTimeout(function(){{
-          saveApiComments(comments).catch(function(){{ apiEnabled = false; }});
-        }}, 350);
-      }}
-
-      document.querySelectorAll('.comment-input').forEach(function(input){{
-        const siteId = input.dataset.siteId || '';
-        if(siteId && comments[siteId]) input.value = comments[siteId];
-        ['click','mousedown','focus','keydown'].forEach(function(evt){{
-          input.addEventListener(evt, function(e){{ e.stopPropagation(); }});
-        }});
-        input.addEventListener('input', function(){{
-          if(!siteId) return;
-          comments[siteId] = input.value;
-          saveLocalComments(comments);
-          scheduleApiSave();
-        }});
-      }});
-
-      // Sync initial merged state into repository file when API is available.
-      saveLocalComments(comments);
-      scheduleApiSave();
-    }})();
   </script>
 </body>
 </html>
