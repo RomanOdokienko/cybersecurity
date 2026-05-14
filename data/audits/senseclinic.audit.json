@@ -2780,8 +2780,8 @@
         "metrics": [
           {
             "metric": "Пациент не давал согласия на обработку данных",
-            "status": "?????????",
-            "t_f": null,
+            "status": "ок",
+            "t_f": true,
             "poc": [
               "forms_total: 130",
               "consent_missing_count: 0"
@@ -2789,8 +2789,8 @@
           },
           {
             "metric": "Согласие подставлено автоматически — это хуже чем его отсутствие",
-            "status": "?????????",
-            "t_f": null,
+            "status": "проблема",
+            "t_f": false,
             "poc": [
               "forms_total: 130",
               "consent_prechecked_count: 0",
@@ -2801,8 +2801,8 @@
           },
           {
             "metric": "На сайте нет обязательного документа об обработке данных пациентов",
-            "status": "?????????",
-            "t_f": null,
+            "status": "ок",
+            "t_f": true,
             "poc": [
               "policy_document_present: True",
               "checked_policy_urls: https://senseclinic.ru/ps/, https://senseclinic.ru/policy/, https://senseclinic.ru/wp-content/uploads/2025/06/politika_ispolzovaniya_fajlov_cookies.pdf"
@@ -2810,24 +2810,24 @@
           },
           {
             "metric": "Имя и телефон пациента передаются в открытом виде — любой может перехватить",
-            "status": "?????????",
-            "t_f": null,
+            "status": "ок",
+            "t_f": true,
             "poc": [
               "bad_https_forms_count: 0"
             ]
           },
           {
             "metric": "На сайте упоминается организация, признанная в России экстремистской",
-            "status": "?????????",
-            "t_f": null,
+            "status": "ок",
+            "t_f": true,
             "poc": [
               "forbidden_hits_count: 0"
             ]
           },
           {
             "metric": "Сайт собирает данные пациентов без их уведомления",
-            "status": "?????????",
-            "t_f": null,
+            "status": "ок",
+            "t_f": true,
             "poc": [
               "cookie_notice_found: True",
               "cookie_notice_hits_in_privacy_links: 0",
@@ -2839,8 +2839,8 @@
           },
           {
             "metric": "Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова",
-            "status": "?????????",
-            "t_f": null,
+            "status": "проблема",
+            "t_f": false,
             "poc": [
               "metrika_policy_disclosed: False",
               "analytics.kinds: google_analytics, yandex_metrika",
@@ -2859,16 +2859,16 @@
         "metrics": [
           {
             "metric": "Нет онлайн-записи со слотами",
-            "status": "?????????",
-            "t_f": null,
+            "status": "ок",
+            "t_f": true,
             "poc": [
               "slot_booking_widget: False"
             ]
           },
           {
             "metric": "Сайт — цифровая визитка, не инструмент",
-            "status": "?????????",
-            "t_f": null,
+            "status": "ок",
+            "t_f": true,
             "poc": [
               "sitemap_total_urls: 7",
               "pages_count: 16"
@@ -2876,8 +2876,8 @@
           },
           {
             "metric": "Вы не знаете кто приходит на сайт и почему уходит",
-            "status": "?????????",
-            "t_f": null,
+            "status": "ок",
+            "t_f": true,
             "poc": [
               "analytics.found: True",
               "analytics.kinds: google_analytics, yandex_metrika"
@@ -2885,8 +2885,8 @@
           },
           {
             "metric": "Пациент не может написать первым",
-            "status": "?????????",
-            "t_f": null,
+            "status": "ок",
+            "t_f": true,
             "poc": [
               "whatsapp: True",
               "telegram: True"
@@ -2894,8 +2894,8 @@
           },
           {
             "metric": "Прайс-лист доступен без регистрации",
-            "status": "?????????",
-            "t_f": null,
+            "status": "ок",
+            "t_f": true,
             "poc": [
               "price_public_found: True",
               "price_pages: https://senseclinic.ru/czeny/"
@@ -2903,8 +2903,8 @@
           },
           {
             "metric": "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
-            "status": "?????????",
-            "t_f": null,
+            "status": "ок",
+            "t_f": true,
             "poc": [
               "schema.any: True",
               "schema.types: dentist, organization"
@@ -2917,8 +2917,8 @@
         "metrics": [
           {
             "metric": "Страница врачей / специалистов",
-            "status": "?????????",
-            "t_f": null,
+            "status": "ок",
+            "t_f": true,
             "poc": [
               "doctors_content_found: True",
               "doctor_pages: https://senseclinic.ru/doctors-cat-sitemap.xml, https://senseclinic.ru/doctors-sitemap.xml, https://senseclinic.ru/doctors/, https://senseclinic.ru/doctors/akaev-mihail-olegovich/, https://senseclinic.ru/doctors/anisimov-roman-sergeevich/, https://senseclinic.ru/doctors/fomina-darya-olegovna/"
@@ -2926,8 +2926,8 @@
           },
           {
             "metric": "Адрес и карта на сайте",
-            "status": "?????????",
-            "t_f": null,
+            "status": "ок",
+            "t_f": true,
             "poc": [
               "address_found: True",
               "map_found: True"
@@ -2935,24 +2935,24 @@
           },
           {
             "metric": "Часы работы",
-            "status": "?????????",
-            "t_f": null,
+            "status": "ок",
+            "t_f": true,
             "poc": [
               "hours_found: True"
             ]
           },
           {
             "metric": "Отзывы пациентов на сайте",
-            "status": "?????????",
-            "t_f": null,
+            "status": "ок",
+            "t_f": true,
             "poc": [
               "reviews_found: True"
             ]
           },
           {
             "metric": "Актуальность года в футере (если он вообще есть). Если его нет — ок",
-            "status": "?????????",
-            "t_f": null,
+            "status": "проблема",
+            "t_f": false,
             "poc": [
               "footer_present: True",
               "current_year: False",
@@ -2961,8 +2961,8 @@
           },
           {
             "metric": "Есть отдельная страница контактов",
-            "status": "?????????",
-            "t_f": null,
+            "status": "ок",
+            "t_f": true,
             "poc": [
               "contact_page_exists: True",
               "contact_block_found: True"
@@ -2970,8 +2970,8 @@
           },
           {
             "metric": "Орфографические ошибки в тексте сайта",
-            "status": "?????????",
-            "t_f": null,
+            "status": "проблема",
+            "t_f": false,
             "poc": [
               "error_count: 27",
               "checked_pages: 10"
