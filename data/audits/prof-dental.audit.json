@@ -3822,6 +3822,222 @@
     "b3": true,
     "b4": true,
     "mode": "agent",
-    "mode_updated_at": "2026-05-12T07:17:04Z"
+    "mode_updated_at": "2026-05-14T21:31:05Z",
+    "b1": true
+  },
+  "agent_structured": {
+    "clinic": "????-??????",
+    "site_id": "prof-dental-ru",
+    "site": "prof-dental.ru",
+    "format_version": "block-metric-status-tf-poc.v1",
+    "blocks": [
+      {
+        "block": "Блок 1",
+        "metrics": [
+          {
+            "metric": "Пациент не давал согласия на обработку данных",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "forms_total: 169",
+              "patient_like_forms: 88",
+              "consent_missing_count: 0",
+              "evidence: appointment forms contain explicit consent checkbox + text"
+            ]
+          },
+          {
+            "metric": "Согласие подставлено автоматически — это хуже чем его отсутствие",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "consent_prechecked_count: 0",
+              "explicit_consent_missing_count: 0",
+              "consent_text_only_count: 0",
+              "consent_checkbox_missing_count: 0"
+            ]
+          },
+          {
+            "metric": "На сайте нет обязательного документа об обработке данных пациентов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "policy_url: https://prof-dental.ru/privacy-policy",
+              "policy_page_status: 200",
+              "policy_content_tokens_present: True (personal-data/processing terms)"
+            ]
+          },
+          {
+            "metric": "Имя и телефон пациента передаются в открытом виде — любой может перехватить",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "site_scheme: https",
+              "patient_form_actions: relative same-origin on https pages",
+              "open_http_submission_found: False"
+            ]
+          },
+          {
+            "metric": "На сайте упоминается организация, признанная в России экстремистской",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "visible_or_direct_forbidden_links_found: 0",
+              "code_only_forbidden_mentions_found: 0"
+            ]
+          },
+          {
+            "metric": "Сайт собирает данные пациентов без их уведомления",
+            "status": "проблема",
+            "t_f": true,
+            "poc": [
+              "cookie_notice_found: False",
+              "cookie_notice_pages_matched: 0",
+              "has_analytics: yandex_metrika"
+            ]
+          },
+          {
+            "metric": "Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова",
+            "status": "проблема",
+            "t_f": true,
+            "poc": [
+              "has_yandex_metrika: True",
+              "policy_url_checked: https://prof-dental.ru/privacy-policy",
+              "policy_metrika_keyword_count: 0 (\"???????\" not found in policy text)"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "Блок 2",
+        "metrics": [
+          {
+            "metric": "Нет онлайн-записи со слотами",
+            "status": "проблема",
+            "t_f": true,
+            "poc": [
+              "slot_booking_widget_found: False",
+              "booking_links_found: 0",
+              "online_record_with_slots_detected: False"
+            ]
+          },
+          {
+            "metric": "Сайт — цифровая визитка, не инструмент",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "sitemap_total_urls: 81",
+              "pages_200_html: 81",
+              "threshold_for_ok: >=5 pages"
+            ]
+          },
+          {
+            "metric": "Вы не знаете кто приходит на сайт и почему уходит",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "analytics_detected: yandex_metrika",
+              "evidence_tokens: mc.yandex.ru / ym("
+            ]
+          },
+          {
+            "metric": "Пациент не может написать первым",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "first_message_channel_found: True",
+              "evidence_link: https://wa.me/79775422754?..."
+            ]
+          },
+          {
+            "metric": "Прайс-лист доступен без регистрации",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "price_public_found: True",
+              "price_page: https://prof-dental.ru/price",
+              "price_markers_found_on_public_pages: True"
+            ]
+          },
+          {
+            "metric": "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
+            "status": "проблема",
+            "t_f": true,
+            "poc": [
+              "schema_supported_types_found: False",
+              "detected_schema_types: none"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "Блок 3",
+        "metrics": [
+          {
+            "metric": "Страница врачей / специалистов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "doctor_pages_found: True",
+              "example_pages: /tadtaeva-diana-vadimovna, /bosulaev-aleksej-vladimirovich, /xanaev-david-borisovich"
+            ]
+          },
+          {
+            "metric": "Адрес и карта на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "address_map_found: True",
+              "evidence_pages: https://prof-dental.ru/contacts and main page address/map references"
+            ]
+          },
+          {
+            "metric": "Часы работы",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "hours_found: True",
+              "evidence_text: \"????????? ? 10:00 ?? 20:00\" on public pages"
+            ]
+          },
+          {
+            "metric": "Отзывы пациентов на сайте",
+            "status": "проблема",
+            "t_f": true,
+            "poc": [
+              "on_site_patient_reviews_found: False",
+              "review_section_detected: external review links only"
+            ]
+          },
+          {
+            "metric": "Актуальность года в футере (если он вообще есть). Если его нет — ок",
+            "status": "проблема",
+            "t_f": true,
+            "poc": [
+              "footer_present: True",
+              "footer_year_detected: 2025",
+              "current_required_year: 2026"
+            ]
+          },
+          {
+            "metric": "Есть отдельная страница контактов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "separate_contacts_page_found: True",
+              "contact_page: https://prof-dental.ru/contacts"
+            ]
+          },
+          {
+            "metric": "Орфографические ошибки в тексте сайта",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "spot_check_pages: main/about/service/contacts/price",
+              "critical_typos_detected: False"
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

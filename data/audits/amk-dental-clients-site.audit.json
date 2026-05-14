@@ -261,6 +261,223 @@
     "b3": true,
     "b4": true,
     "mode": "agent",
-    "mode_updated_at": "2026-05-12T07:04:06Z"
+    "mode_updated_at": "2026-05-14T20:41:30Z",
+    "b1": true
+  },
+  "agent_structured": {
+    "clinic": "AMK Dental",
+    "site_id": "amk-dental-clients-site",
+    "site": "amk-dental.clients.site",
+    "format_version": "block-metric-status-tf-poc.v1",
+    "blocks": [
+      {
+        "block": "Блок 1",
+        "metrics": [
+          {
+            "metric": "Пациент не давал согласия на обработку данных",
+            "status": "проверить",
+            "t_f": false,
+            "poc": [
+              "site_access_limited_by_smartcaptcha: True",
+              "entry_url: https://amk-dental.clients.site/showcaptcha?...",
+              "clinic_forms_accessible_without_captcha: False",
+              "verdict: cannot reliably evaluate patient consent forms without captcha pass"
+            ]
+          },
+          {
+            "metric": "Согласие подставлено автоматически — это хуже чем его отсутствие",
+            "status": "проверить",
+            "t_f": false,
+            "poc": [
+              "site_access_limited_by_smartcaptcha: True",
+              "consent_controls_observable: False",
+              "verdict: checkbox/text consent cannot be verified on blocked content"
+            ]
+          },
+          {
+            "metric": "На сайте нет обязательного документа об обработке данных пациентов",
+            "status": "проверить",
+            "t_f": false,
+            "poc": [
+              "privacy_links_in_saved_audit: 0",
+              "live_access: blocked_by_smartcaptcha",
+              "policy_document_observed: False",
+              "verdict: insufficient evidence for hard yes/no"
+            ]
+          },
+          {
+            "metric": "Имя и телефон пациента передаются в открытом виде — любой может перехватить",
+            "status": "проверить",
+            "t_f": false,
+            "poc": [
+              "public_clinic_forms_accessible: False",
+              "only_observed_form: smartcaptcha technical form",
+              "patient_name_phone_fields_in_accessible_form: False",
+              "verdict: transport for patient forms cannot be reliably assessed"
+            ]
+          },
+          {
+            "metric": "На сайте упоминается организация, признанная в России экстремистской",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "checked_accessible_pages: captcha entry + saved audit snapshot",
+              "direct_forbidden_links_found: 0",
+              "visible_forbidden_mentions_found: 0"
+            ]
+          },
+          {
+            "metric": "Сайт собирает данные пациентов без их уведомления",
+            "status": "проблема",
+            "t_f": true,
+            "poc": [
+              "analytics_detected: yandex_metrika",
+              "cookie_notice_on_accessible_entry: not found",
+              "entry_page: showcaptcha endpoint on clinic domain"
+            ]
+          },
+          {
+            "metric": "Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова",
+            "status": "проверить",
+            "t_f": false,
+            "poc": [
+              "has_yandex_metrika: True",
+              "policy_text_accessible_for_semantic_check: False",
+              "verdict: cannot prove disclosure/non-disclosure without policy access"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "Блок 2",
+        "metrics": [
+          {
+            "metric": "Нет онлайн-записи со слотами",
+            "status": "проверить",
+            "t_f": false,
+            "poc": [
+              "sitemap_urls_seen: 4",
+              "booking_pages_open_without_captcha: False",
+              "verdict: slot-booking check blocked by captcha"
+            ]
+          },
+          {
+            "metric": "Сайт — цифровая визитка, не инструмент",
+            "status": "проблема",
+            "t_f": true,
+            "poc": [
+              "sitemap_url_count: 4",
+              "threshold_for_ok: >=5",
+              "source: /sitemap.xml"
+            ]
+          },
+          {
+            "metric": "Вы не знаете кто приходит на сайт и почему уходит",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "analytics_detected: yandex_metrika",
+              "evidence_tokens: mc.yandex.ru or ym("
+            ]
+          },
+          {
+            "metric": "Пациент не может написать первым",
+            "status": "проверить",
+            "t_f": false,
+            "poc": [
+              "contact_channels_observable_without_captcha: False",
+              "message_form_accessible: unknown (blocked)"
+            ]
+          },
+          {
+            "metric": "Прайс-лист доступен без регистрации",
+            "status": "проверить",
+            "t_f": false,
+            "poc": [
+              "candidate_price_paths_from_sitemap: present",
+              "price_content_accessible_without_captcha: False",
+              "verdict: public price availability not reliably verifiable"
+            ]
+          },
+          {
+            "metric": "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
+            "status": "проверить",
+            "t_f": false,
+            "poc": [
+              "clinic_html_accessible_without_captcha: False",
+              "schema_extraction_on_real_pages: unavailable"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "Блок 3",
+        "metrics": [
+          {
+            "metric": "Страница врачей / специалистов",
+            "status": "проверить",
+            "t_f": false,
+            "poc": [
+              "candidate_urls_from_sitemap: /service/...",
+              "content_accessible_without_captcha: False"
+            ]
+          },
+          {
+            "metric": "Адрес и карта на сайте",
+            "status": "проверить",
+            "t_f": false,
+            "poc": [
+              "saved_legacy_signal_address_map: True",
+              "live_semantic_verification: blocked_by_captcha"
+            ]
+          },
+          {
+            "metric": "Часы работы",
+            "status": "проверить",
+            "t_f": false,
+            "poc": [
+              "saved_legacy_signal_hours: True",
+              "live_semantic_verification: blocked_by_captcha"
+            ]
+          },
+          {
+            "metric": "Отзывы пациентов на сайте",
+            "status": "проверить",
+            "t_f": false,
+            "poc": [
+              "saved_legacy_signal_reviews: True",
+              "live_semantic_verification: blocked_by_captcha"
+            ]
+          },
+          {
+            "metric": "Актуальность года в футере (если он вообще есть). Если его нет — ок",
+            "status": "проверить",
+            "t_f": false,
+            "poc": [
+              "footer_visibility_on_clinic_pages: not accessible",
+              "verdict: cannot reliably verify footer year"
+            ]
+          },
+          {
+            "metric": "Есть отдельная страница контактов",
+            "status": "проверить",
+            "t_f": false,
+            "poc": [
+              "saved_legacy_contact_page_exists: True",
+              "live_access_to_contact_page: blocked_by_captcha"
+            ]
+          },
+          {
+            "metric": "Орфографические ошибки в тексте сайта",
+            "status": "проверить",
+            "t_f": false,
+            "poc": [
+              "clinic_text_corpus_accessible: False",
+              "spellcheck_sample_size: insufficient"
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

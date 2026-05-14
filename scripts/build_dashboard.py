@@ -216,6 +216,78 @@ def verification_mode_info(audit):
     return {"code": "unknown", "label": "не указан"}
 
 
+def extract_agent_structured_step2(audit):
+    """Extract block statuses/PoC from agent_structured as source-of-truth for Step 2."""
+    payload = {
+        "available": False,
+        "errors": [],
+        "statuses": {"b1": [], "b2": [], "b3": []},
+        "lines": {"b1": [], "b2": [], "b3": []},
+    }
+    agent = audit.get("agent_structured")
+    if not isinstance(agent, dict):
+        payload["errors"].append("agent_structured: missing")
+        return payload
+
+    blocks = agent.get("blocks")
+    if not isinstance(blocks, list):
+        payload["errors"].append("agent_structured.blocks: invalid")
+        return payload
+
+    schema = step2_block_schema()
+    status_whitelist = {"ок", "проблема", "проверить", "н/п", "-", "частично", "рекомендация"}
+    status_aliases = {"ok": "ок"}
+
+    for block_idx, block_schema in enumerate(schema):
+        bid = block_schema["id"]
+        metrics_expected = block_schema["metric_names"]
+        if block_idx >= len(blocks) or not isinstance(blocks[block_idx], dict):
+            payload["errors"].append(f"agent_structured.blocks[{block_idx}]: missing")
+            continue
+
+        raw_metrics = blocks[block_idx].get("metrics")
+        if not isinstance(raw_metrics, list):
+            payload["errors"].append(f"agent_structured.blocks[{block_idx}].metrics: invalid")
+            continue
+
+        for metric_idx, expected_name in enumerate(metrics_expected):
+            if metric_idx >= len(raw_metrics) or not isinstance(raw_metrics[metric_idx], dict):
+                payload["errors"].append(
+                    f"agent_structured.blocks[{block_idx}].metrics[{metric_idx}]: missing"
+                )
+                continue
+            metric = raw_metrics[metric_idx]
+            metric_name = str(metric.get("metric") or "").strip() or expected_name
+            raw_status = str(metric.get("status") or "").strip()
+            status = status_aliases.get(raw_status.lower(), raw_status)
+            if status not in status_whitelist:
+                payload["errors"].append(
+                    f"agent_structured.blocks[{block_idx}].metrics[{metric_idx}].status invalid: {raw_status!r}"
+                )
+                status = "проверить"
+
+            poc = metric.get("poc")
+            if isinstance(poc, list) and poc:
+                evidence = [str(x) for x in poc[:40]]
+            else:
+                evidence = ["PoC не заполнен в agent_structured."]
+
+            payload["statuses"][bid].append(status)
+            payload["lines"][bid].append({
+                "name": metric_name,
+                "status": status,
+                "evidence": evidence,
+            })
+
+        if len(payload["statuses"][bid]) != len(metrics_expected):
+            payload["errors"].append(
+                f"agent_structured.{bid}: expected {len(metrics_expected)} metrics, got {len(payload['statuses'][bid])}"
+            )
+
+    payload["available"] = not payload["errors"]
+    return payload
+
+
 def source_label(source: str) -> str:
     mapping = {
         "": "основной URL",
@@ -1706,6 +1778,7 @@ def compute_summary(item, audit):
     has_yandex_metrika = "yandex_metrika" in analytics_kinds
     metrika_policy_disclosed = detect_metrika_policy_disclosure(audit)
     verification_mode = verification_mode_info(audit)
+    agent_structured = extract_agent_structured_step2(audit)
 
     if availability_status == "проблема":
         return {
@@ -1725,6 +1798,7 @@ def compute_summary(item, audit):
             "has_yandex_metrika": False,
             "result": "-",
             "verification_mode": verification_mode,
+            "agent_structured": agent_structured,
             "bad_https_forms": [],
             "consent_buckets": {"текстом": [], "checked": [], "не найдено": [], "unchecked": []},
             "consent_counts": {"текстом": 0, "checked": 0, "не найдено": 0, "unchecked": 0},
@@ -1762,6 +1836,7 @@ def compute_summary(item, audit):
         "has_yandex_metrika": has_yandex_metrika,
         "result": item.get("result", "проверить"),
         "verification_mode": verification_mode,
+        "agent_structured": agent_structured,
         "bad_https_forms": bad_https_forms,
         "consent_buckets": consent_buckets,
         "consent_counts": consent_counts,
@@ -2247,7 +2322,7 @@ def build_detail_page(item, audit, s):
     else:
         third_party_policy_status = "ок" if bool(s.get("metrika_policy_disclosed")) else "проблема"
 
-    block1_lines = [
+    block1_lines_legacy = [
         metric_lines(
             "Пациент не давал согласия на обработку данных",
             no_checkbox_status,
@@ -2305,6 +2380,12 @@ def build_detail_page(item, audit, s):
         ),
     ]
 
+    agent_structured = s.get("agent_structured") or {}
+    mode_code = (s.get("verification_mode") or {}).get("code")
+    use_agent_structured = mode_code == "agent" and bool(agent_structured.get("available"))
+
+    block1_lines = list((agent_structured.get("lines") or {}).get("b1") or []) if use_agent_structured else block1_lines_legacy
+
     block1_metric_statuses = [m.get("status", "-") for m in block1_lines]
     if any(st == "проблема" for st in block1_metric_statuses):
         block1_status = "проблема"
@@ -2313,13 +2394,15 @@ def build_detail_page(item, audit, s):
     else:
         block1_status = "ок"
 
+    block2_lines_source = list((agent_structured.get("lines") or {}).get("b2") or []) if use_agent_structured else block2_poc_lines(audit, s)
+    block4_lines_source = list((agent_structured.get("lines") or {}).get("b3") or []) if use_agent_structured else block4_poc_lines(audit, s)
     block2_lines = (
-        block2_poc_lines(audit, s)
+        block2_lines_source
         if s.get("block2_verified")
         else [metric_lines("Блок 2", "-", ["Блок 2 не верифицирован для этой клиники. Статусы блока скрыты ('-')."])]
     )
     block4_lines = (
-        block4_poc_lines(audit, s)
+        block4_lines_source
         if s.get("block3_verified")
         else [metric_lines("Блок 3", "-", ["Блок 3 не верифицирован для этой клиники. Статусы блока скрыты ('-')."])]
     )
@@ -2461,6 +2544,24 @@ def metric_tooltip(block_id: str, metric_idx: int, metric_name: str) -> str:
 
 
 def step2_blocks_data(summary):
+    mode_code = (summary.get("verification_mode") or {}).get("code")
+    agent_structured = summary.get("agent_structured") or {}
+    if mode_code == "agent" and agent_structured.get("available"):
+        statuses = agent_structured.get("statuses") or {}
+        block2_verified = bool(summary.get("block2_verified"))
+        block3_verified = bool(summary.get("block3_verified"))
+        b2_values = list(statuses.get("b2") or [])
+        b3_values = list(statuses.get("b3") or [])
+        if not block2_verified:
+            b2_values = ["-"] * len(step2_block_schema()[1]["metric_names"])
+        if not block3_verified:
+            b3_values = ["-"] * len(step2_block_schema()[2]["metric_names"])
+        return {
+            "b1": list(statuses.get("b1") or []),
+            "b2": b2_values,
+            "b3": b3_values,
+        }
+
     consent_counts = summary.get("consent_counts", {}) or {}
     site_unavailable = summary.get("site_unavailable", False)
     b2 = summary.get("b2", {}) or {}
@@ -2964,6 +3065,34 @@ def replace_step2_row_in_html(html_text: str, site_id: str, new_row_html: str):
     return pattern.sub(new_row_html, html_text, count=1), bool(pattern.search(html_text))
 
 
+def assert_agent_render_consistency(item, summary):
+    mode_code = (summary.get("verification_mode") or {}).get("code")
+    if mode_code != "agent":
+        return
+
+    agent_structured = summary.get("agent_structured") or {}
+    if not agent_structured.get("available"):
+        errors = "; ".join(agent_structured.get("errors") or []) or "unknown agent_structured error"
+        raise SystemExit(f"[{item.get('id')}] agent mode requires valid agent_structured: {errors}")
+
+    expected = agent_structured.get("statuses") or {}
+    rendered = step2_blocks_data(summary)
+    checks = [
+        ("b1", True),
+        ("b2", bool(summary.get("block2_verified"))),
+        ("b3", bool(summary.get("block3_verified"))),
+    ]
+    for bid, enabled in checks:
+        if not enabled:
+            continue
+        exp = list(expected.get(bid) or [])
+        got = list(rendered.get(bid) or [])
+        if got != exp:
+            raise SystemExit(
+                f"[{item.get('id')}] status mismatch for {bid}: rendered={got} expected(agent_structured)={exp}"
+            )
+
+
 def main():
     ensure_agent_only_mode()
     args = parse_args()
@@ -2994,6 +3123,7 @@ def main():
             idx, item = pair
             audit = read_json(ROOT / item["audit_file"])
             summary = compute_summary(item, audit)
+            assert_agent_render_consistency(item, summary)
             details.append((item["id"], build_detail_page(item, audit, summary)))
             updated_rows.append((item["id"], row_html_step2(idx, item["id"], item["clinic"], item["site"], summary, step2_schema)))
 
@@ -3040,6 +3170,7 @@ def main():
         audit_path = ROOT / item["audit_file"]
         audit = read_json(audit_path)
         summary = compute_summary(item, audit)
+        assert_agent_render_consistency(item, summary)
         counts[summary["result"]] = counts.get(summary["result"], 0) + 1
         if summary["availability_status"] == "проблема":
             unavailable += 1

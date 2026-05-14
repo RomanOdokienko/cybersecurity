@@ -1512,6 +1512,233 @@
     "b3": true,
     "b4": true,
     "mode": "agent",
-    "mode_updated_at": "2026-05-12T07:22:14Z"
+    "mode_updated_at": "2026-05-14T21:48:41Z"
+  },
+  "agent_structured": {
+    "clinic": "??? ??????",
+    "site_id": "stomatologiyamoyaulybka-msk-ru",
+    "site": "stomatologiyamoyaulybka.msk.ru",
+    "format_version": "block-metric-status-tf-poc.v1",
+    "blocks": [
+      {
+        "block": "блок 1",
+        "metrics": [
+          {
+            "metric": "Пациент не давал согласия на обработку данных",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "forms_total: 127",
+              "consent_checkbox_present_count: 121",
+              "evidence_url: https://stomatologiyamoyaulybka.msk.ru/",
+              "form_text_marker: consent checkbox present in form"
+            ]
+          },
+          {
+            "metric": "Согласие подставлено автоматически — это хуже чем его отсутствие",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "forms_total: 127",
+              "consent_prechecked_count: 121",
+              "explicit_consent_missing_count: 121",
+              "evidence_url: https://stomatologiyamoyaulybka.msk.ru/",
+              "checkbox_marker: input type=\"checkbox\" with checked attribute"
+            ]
+          },
+          {
+            "metric": "На сайте нет обязательного документа об обработке данных пациентов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "policy_url: https://stomatologiyamoyaulybka.msk.ru/politika-obrabotki-personalnyh-dannyh/",
+              "legal_url: https://stomatologiyamoyaulybka.msk.ru/pravovaya-informacziya/",
+              "policy_link_on_legal_page: /politika-obrabotki-personalnyh-dannyh/",
+              "policy_text_marker: policy title and 152-FZ section present"
+            ]
+          },
+          {
+            "metric": "Имя и телефон пациента передаются в открытом виде — любой может перехватить",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "site_scheme: https",
+              "evidence_url: https://stomatologiyamoyaulybka.msk.ru/",
+              "tls_present: true"
+            ]
+          },
+          {
+            "metric": "На сайте упоминается организация, признанная в России экстремистской",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "checked_pages: /, /about-us/, /kontakty/, /pravovaya-informacziya/, /politika-obrabotki-personalnyh-dannyh/",
+              "extremism_tokens_found: false",
+              "meta_instagram_direct_mentions_found: false"
+            ]
+          },
+          {
+            "metric": "Сайт собирает данные пациентов без их уведомления",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "cookie_notice_found: true",
+              "evidence_url: https://stomatologiyamoyaulybka.msk.ru/",
+              "cookie_notice_text_marker: \"?? ?????????? ????\"",
+              "cookie_accept_control: id=cn-accept-cookie"
+            ]
+          },
+          {
+            "metric": "Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "metrika_on_site: true (ym(64723201), mc.yandex.ru/watch/64723201)",
+              "policy_url: https://stomatologiyamoyaulybka.msk.ru/politika-obrabotki-personalnyh-dannyh/",
+              "policy_disclosure_found: contains \"?????? ???????\" in policy text"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "блок 2",
+        "metrics": [
+          {
+            "metric": "Нет онлайн-записи со слотами",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "checked_pages: /, /uslugi/, /ceny/, /vrachi/, /kontakty/",
+              "slot_booking_widget_found: false",
+              "external_slot_booking_link_found: false",
+              "current_entrypoint: modal form (#feedbackModal)"
+            ]
+          },
+          {
+            "metric": "Сайт — цифровая визитка, не инструмент",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "site_depth: 120 crawled pages",
+              "service_pages_present: true",
+              "functional_forms_present: true",
+              "content_sections: prices/doctors/reviews/articles"
+            ]
+          },
+          {
+            "metric": "Вы не знаете кто приходит на сайт и почему уходит",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "analytics_found: true",
+              "evidence_url: https://stomatologiyamoyaulybka.msk.ru/",
+              "metrika_counter: ym(64723201, init)"
+            ]
+          },
+          {
+            "metric": "Пациент не может написать первым",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "telegram_link: https://t.me/+79037703773",
+              "whatsapp_link: https://wa.me/+7(903)770-37-73",
+              "patient_can_message_first: true"
+            ]
+          },
+          {
+            "metric": "Прайс-лист доступен без регистрации",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "price_url: https://stomatologiyamoyaulybka.msk.ru/ceny/",
+              "auth_required: false",
+              "price_markers_found: currency symbol on page"
+            ]
+          },
+          {
+            "metric": "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "schema_org_found: true",
+              "evidence_url: https://stomatologiyamoyaulybka.msk.ru/",
+              "marker: \"@context\": \"https://schema.org\""
+            ]
+          }
+        ]
+      },
+      {
+        "block": "блок 3",
+        "metrics": [
+          {
+            "metric": "Страница врачей / специалистов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "doctors_page: https://stomatologiyamoyaulybka.msk.ru/vrachi/",
+              "doctor_cards_found: true",
+              "doctor_profile_pages_found: true (/doctors/*)"
+            ]
+          },
+          {
+            "metric": "Адрес и карта на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "contacts_page: https://stomatologiyamoyaulybka.msk.ru/kontakty/",
+              "address_text_found: Moscow, Udaltsova 5/1",
+              "map_links_found: yandex + google + 2gis"
+            ]
+          },
+          {
+            "metric": "Часы работы",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "evidence_url: https://stomatologiyamoyaulybka.msk.ru/kontakty/",
+              "hours_text_found: daily 10:00-22:00"
+            ]
+          },
+          {
+            "metric": "Отзывы пациентов на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "reviews_page: https://stomatologiyamoyaulybka.msk.ru/reviews/",
+              "reviews_category_page: https://stomatologiyamoyaulybka.msk.ru/category/reviews/",
+              "reviews_content_found: true"
+            ]
+          },
+          {
+            "metric": "Актуальность года в футере (если он вообще есть). Если его нет — ок",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "footer_present: true",
+              "footer_year_found: false",
+              "rule_applied: no year in footer => ok"
+            ]
+          },
+          {
+            "metric": "Есть отдельная страница контактов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "contact_page_url: https://stomatologiyamoyaulybka.msk.ru/kontakty/",
+              "contact_page_exists: true"
+            ]
+          },
+          {
+            "metric": "Орфографические ошибки в тексте сайта",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "checked_pages: /, /ceny/, /vrachi/, /reviews/, /kontakty/, /about-us/",
+              "critical_typos_found: false"
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
