@@ -1005,7 +1005,246 @@
     "b3": true,
     "b4": true,
     "mode": "agent",
-    "mode_updated_at": "2026-05-14T05:51:17Z",
+    "mode_updated_at": "2026-05-14T09:38:04Z",
     "b1": true
+  },
+  "agent_structured": {
+    "clinic": "IM Clinic Dental",
+    "site_id": "imclinic-dental",
+    "site": "imclinic.dental",
+    "format_version": "block-metric-status-tf-poc.v1",
+    "blocks": [
+      {
+        "block": "Блок 1",
+        "metrics": [
+          {
+            "metric": "Пациент не давал согласия на обработку данных",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "forms_total: 17",
+              "consent_missing_count: 0"
+            ]
+          },
+          {
+            "metric": "Согласие подставлено автоматически — это хуже чем его отсутствие",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "consent_prechecked_count: 0",
+              "explicit_consent_missing_count: 0",
+              "consent_text_only_count: 0",
+              "consent_checkbox_missing_count: 0"
+            ]
+          },
+          {
+            "metric": "На сайте нет обязательного документа об обработке данных пациентов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "policy_document_present: True",
+              "checked_policy_urls: https://imclinic.dental/doc/personal-dannie/",
+              "readable_policy_urls: https://imclinic.dental/doc/personal-dannie/",
+              "unreadable_policy_urls: не найдены",
+              "matched_policy_tokens: обработк, персональн, субъект персональ",
+              "valid_policy_urls: https://imclinic.dental/doc/personal-dannie/",
+              "policy_urls_with_broken_doc_links: не найдены",
+              "policy_evidence_count: 63",
+              "anchor | https://imclinic.dental/ -> /doc/personal-dannie/ (текст: Обработка персональных данных) | source=unknown",
+              "anchor | https://imclinic.dental/ -> /doc/personal-dannie/ (текст: политикой обработки персональных данных) | source=unknown",
+              "anchor | https://imclinic.dental/ -> /doc/personal-dannie/ (текст: Персональные данные) | source=unknown",
+              "anchor | https://imclinic.dental/articles/kontaktnyy-karies-skrytaya-ugroza-dlya-zdorovya-zubov-/ -> /doc/personal-dannie/ (текст: Обработка персональных данных) | source=navigation"
+            ]
+          },
+          {
+            "metric": "Имя и телефон пациента передаются в открытом виде — любой может перехватить",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "Пример action: action отсутствует"
+            ]
+          },
+          {
+            "metric": "На сайте упоминается организация, признанная в России экстремистской",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "Совпадений по списку meta/instagram/facebook/threads не найдено."
+            ]
+          },
+          {
+            "metric": "Сайт собирает данные пациентов без их уведомления",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "cookie_notice_found: True",
+              "cookie_notice_hits_in_privacy_links: 1",
+              "cookie_notice_pages_matched: 0",
+              "cookie_detection_mode: explicit cookie-notice pattern (без учета policy-URL токенов)",
+              "Источник: явные cookie-notice сигналы в тексте страниц/домашней страницы."
+            ]
+          },
+          {
+            "metric": "Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "metrika_policy_disclosed: False",
+              "analytics.kinds: yandex_metrika",
+              "has_yandex_metrika: True",
+              "policy_evidence_count: 63",
+              "checked_policy_urls: https://imclinic.dental/doc/personal-dannie/",
+              "readable_policy_urls: https://imclinic.dental/doc/personal-dannie/",
+              "unreadable_policy_urls: не найдены",
+              "matched_tokens_in_policy_text: не найдены",
+              "Вывод: Метрика найдена на сайте, но явных упоминаний в тексте политики не найдено."
+            ]
+          }
+        ]
+      },
+      {
+        "block": "Блок 2",
+        "metrics": [
+          {
+            "metric": "Нет онлайн-записи со слотами",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "slot_booking_widget: False",
+              "booking_urls: https://imclinic.dental/booking/, https://imclinic.dental/services/online-konsultacia/",
+              "booking_sources: navigation"
+            ]
+          },
+          {
+            "metric": "Сайт — цифровая визитка, не инструмент",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "sitemap_total_urls: 6",
+              "pages_count: 16"
+            ]
+          },
+          {
+            "metric": "Вы не знаете кто приходит на сайт и почему уходит",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "analytics.found: True",
+              "analytics.kinds: yandex_metrika",
+              "analytics.goals_found: False",
+              "goal_markers: не найдены"
+            ]
+          },
+          {
+            "metric": "Пациент не может написать первым",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "whatsapp: True",
+              "telegram: True",
+              "max_messenger: False",
+              "chat_widget: False",
+              "message_form_found: True"
+            ]
+          },
+          {
+            "metric": "Прайс-лист доступен без регистрации",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "price_public_found: True",
+              "price_pages: https://imclinic.dental/price/",
+              "price_candidate_urls_checked: не найдены"
+            ]
+          },
+          {
+            "metric": "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "schema.any: True",
+              "schema.types: medicalclinic, organization",
+              "schema.supported_hits: medicalclinic, organization"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "Блок 3",
+        "metrics": [
+          {
+            "metric": "Страница врачей / специалистов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "doctors_content_found: True",
+              "doctor_pages: https://imclinic.dental/doctors/, https://imclinic.dental/doctors/aleksandr-mamontov/, https://imclinic.dental/doctors/anna-yurova/, https://imclinic.dental/doctors/asmik-grigoryan/, https://imclinic.dental/doctors/ekaterina-chernyshevskaya/"
+            ]
+          },
+          {
+            "metric": "Адрес и карта на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "address_found: True",
+              "map_found: True"
+            ]
+          },
+          {
+            "metric": "Часы работы",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "hours_found: True"
+            ]
+          },
+          {
+            "metric": "Отзывы пациентов на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "reviews_found: True",
+              "reviews_evidence: не найдены"
+            ]
+          },
+          {
+            "metric": "Актуальность года в футере (если он вообще есть). Если его нет — ок",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "footer_present: True",
+              "current_year: True",
+              "year_value: 2026"
+            ]
+          },
+          {
+            "metric": "Есть отдельная страница контактов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "contact_page_exists: True",
+              "contact_block_found: True",
+              "contact_pages: https://imclinic.dental/articles/kontaktnyy-karies-skrytaya-ugroza-dlya-zdorovya-zubov-/, https://imclinic.dental/contacts/"
+            ]
+          },
+          {
+            "metric": "Орфографические ошибки в тексте сайта",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "Всего ошибок: 27",
+              "Проверено страниц: 10",
+              "По типам: missing_space_after_punct: 10, space_before_punct: 8, dot_glue: 8, comma_glue: 1",
+              "[missing_space_after_punct] ,о — вашей проблемы. Саша Современная клиника,очень приятно находиться, соотношение цен (https://imclinic.dental/)",
+              "[missing_space_after_punct] .В — ена установка виниров. Доктор Мамонтов А.В. ксюша м. Была на приеме у Марианны Дил (https://imclinic.dental/)",
+              "[space_before_punct] . — уринский проспект, 56 Наши работы Отзывы ... Услуги Лечение зубов Лечение кариеса (https://imclinic.dental/)",
+              "[space_before_punct] . — сии Отзывы Блог Документы Врачи Контакты ... Скопировать номер Написать на почту T (https://imclinic.dental/)",
+              "[dot_glue] А.В — чена установка виниров. Доктор Мамонтов А.В. ксюша м. Была на приеме у Марианны Дил (https://imclinic.dental/)",
+              "[dot_glue] н.т — юридический адрес: 119192, г. Москва, вн.тер.г. муниципальный округ Раменки, пр-кт (https://imclinic.dental/doc/information-subscribe/)"
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

@@ -7699,5 +7699,253 @@
     "mode_updated_at": "2026-05-14T06:00:41Z",
     "b1": true,
     "b3": true
+  },
+  "agent_structured": {
+    "clinic": "Dr. Blumkin",
+    "site_id": "drblumkin-ru",
+    "site": "drblumkin.ru",
+    "format_version": "block-metric-status-tf-poc.v1",
+    "blocks": [
+      {
+        "block": "Блок 1",
+        "metrics": [
+          {
+            "metric": "Пациент не давал согласия на обработку данных",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "forms_total: 445",
+              "consent_missing_count: 0"
+            ]
+          },
+          {
+            "metric": "Согласие подставлено автоматически — это хуже чем его отсутствие",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "consent_prechecked_count: 0",
+              "explicit_consent_missing_count: 0",
+              "consent_text_only_count: 0",
+              "consent_checkbox_missing_count: 0"
+            ]
+          },
+          {
+            "metric": "На сайте нет обязательного документа об обработке данных пациентов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "policy_document_present: True",
+              "checked_policy_urls: modal:https://drblumkin.ru/#policy, modal:https://drblumkin.ru/kontakty/#policy, modal:https://drblumkin.ru/ceny-na-lechenie/#policy, modal:https://drblumkin.ru/uslugi/#policy, modal:https://drblumkin.ru/uslugi/diagnostika/#policy, modal:https://drblumkin.ru/uslugi/diagnostika/rentgen-zubov/#policy, modal:https://drblumkin.ru/uslugi/diagnostika/snimok-zuba/#policy, modal:https://drblumkin.ru/uslugi/hirurgiya/#policy, modal:https://drblumkin.ru/uslugi/hirurgiya/implanty-zubov/implant-zuba/#policy, modal:https://drblumkin.ru/uslugi/hirurgiya/implanty-zubov/polnaya-implantaciya/#policy",
+              "readable_policy_urls: modal:https://drblumkin.ru/#policy, modal:https://drblumkin.ru/kontakty/#policy, modal:https://drblumkin.ru/ceny-na-lechenie/#policy, modal:https://drblumkin.ru/uslugi/#policy, modal:https://drblumkin.ru/uslugi/diagnostika/#policy, modal:https://drblumkin.ru/uslugi/diagnostika/rentgen-zubov/#policy, modal:https://drblumkin.ru/uslugi/diagnostika/snimok-zuba/#policy, modal:https://drblumkin.ru/uslugi/hirurgiya/#policy, modal:https://drblumkin.ru/uslugi/hirurgiya/implanty-zubov/implant-zuba/#policy, modal:https://drblumkin.ru/uslugi/hirurgiya/implanty-zubov/polnaya-implantaciya/#policy",
+              "unreadable_policy_urls: не найдены",
+              "matched_policy_tokens: персональн",
+              "valid_policy_urls: modal:https://drblumkin.ru/#policy, modal:https://drblumkin.ru/kontakty/#policy, modal:https://drblumkin.ru/ceny-na-lechenie/#policy, modal:https://drblumkin.ru/uslugi/#policy, modal:https://drblumkin.ru/uslugi/diagnostika/#policy, modal:https://drblumkin.ru/uslugi/diagnostika/rentgen-zubov/#policy, modal:https://drblumkin.ru/uslugi/diagnostika/snimok-zuba/#policy, modal:https://drblumkin.ru/uslugi/hirurgiya/#policy, modal:https://drblumkin.ru/uslugi/hirurgiya/implanty-zubov/implant-zuba/#policy, modal:https://drblumkin.ru/uslugi/hirurgiya/implanty-zubov/polnaya-implantaciya/#policy",
+              "policy_urls_with_broken_doc_links: не найдены",
+              "policy_evidence_count: 30",
+              "form-policy-text | https://drblumkin.ru/ | source=home-booking-candidate | snippet=m__checkbox-text\">Я принимаю условия <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >политики конфиденциальности</a></span> </label> </div> </form>",
+              "form-policy-text | https://drblumkin.ru/kontakty/ | source=navigation | snippet=m__checkbox-text\">Я принимаю условия <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >политики конфиденциальности</a></span> </label> </div> </form>",
+              "form-policy-text | https://drblumkin.ru/ceny-na-lechenie/ | source=navigation-price | snippet=m__checkbox-text\">Я принимаю условия <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >политики конфиденциальности</a></span> </label> </div> </form>",
+              "form-policy-text | https://drblumkin.ru/uslugi/ | source=navigation-price | snippet=m__checkbox-text\">Я принимаю условия <a data-bs-toggle=\"modal\" data-bs-target=\"#policy\" >политики конфиденциальности</a></span> </label> </div> </form>"
+            ]
+          },
+          {
+            "metric": "Имя и телефон пациента передаются в открытом виде — любой может перехватить",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "Пример action: action=\"#\"",
+              "Пример action: action=\"/thankyou/\""
+            ]
+          },
+          {
+            "metric": "На сайте упоминается организация, признанная в России экстремистской",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "Совпадений по списку meta/instagram/facebook/threads не найдено."
+            ]
+          },
+          {
+            "metric": "Сайт собирает данные пациентов без их уведомления",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "cookie_notice_found: True",
+              "cookie_notice_hits_in_privacy_links: 30",
+              "cookie_notice_pages_matched: 0",
+              "cookie_detection_mode: explicit cookie-notice pattern (без учета policy-URL токенов)",
+              "https://drblumkin.ru/ | cookie notice: ки себе на телефон я принимаю условия политики конфиденциальности --> мы используем файлы cookie пользуясь сайтом, вы принимаете политику куки , в том числе сервисы аналитики яндекс.метрика и calltouch при",
+              "https://drblumkin.ru/kontakty/ | cookie notice: ки себе на телефон я принимаю условия политики конфиденциальности --> мы используем файлы cookie пользуясь сайтом, вы принимаете политику куки , в том числе сервисы аналитики яндекс.метрика и calltouch при",
+              "https://drblumkin.ru/ceny-na-lechenie/ | cookie notice: ки себе на телефон я принимаю условия политики конфиденциальности --> мы используем файлы cookie пользуясь сайтом, вы принимаете политику куки , в том числе сервисы аналитики яндекс.метрика и calltouch при",
+              "https://drblumkin.ru/uslugi/ | cookie notice: ки себе на телефон я принимаю условия политики конфиденциальности --> мы используем файлы cookie пользуясь сайтом, вы принимаете политику куки , в том числе сервисы аналитики яндекс.метрика и calltouch при",
+              "https://drblumkin.ru/uslugi/diagnostika/ | cookie notice: ки себе на телефон я принимаю условия политики конфиденциальности --> мы используем файлы cookie пользуясь сайтом, вы принимаете политику куки , в том числе сервисы аналитики яндекс.метрика и calltouch при",
+              "https://drblumkin.ru/uslugi/diagnostika/rentgen-zubov/ | cookie notice: ки себе на телефон я принимаю условия политики конфиденциальности --> мы используем файлы cookie пользуясь сайтом, вы принимаете политику куки , в том числе сервисы аналитики яндекс.метрика и calltouch при",
+              "https://drblumkin.ru/uslugi/diagnostika/snimok-zuba/ | cookie notice: ки себе на телефон я принимаю условия политики конфиденциальности --> мы используем файлы cookie пользуясь сайтом, вы принимаете политику куки , в том числе сервисы аналитики яндекс.метрика и calltouch при",
+              "https://drblumkin.ru/uslugi/hirurgiya/ | cookie notice: ки себе на телефон я принимаю условия политики конфиденциальности --> мы используем файлы cookie пользуясь сайтом, вы принимаете политику куки , в том числе сервисы аналитики яндекс.метрика и calltouch при",
+              "Источник: явные cookie-notice сигналы в тексте страниц/домашней страницы."
+            ]
+          },
+          {
+            "metric": "Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "metrika_policy_disclosed: False",
+              "analytics.kinds: yandex_metrika",
+              "has_yandex_metrika: True",
+              "policy_evidence_count: 30",
+              "checked_policy_urls: modal:https://drblumkin.ru/#policy, modal:https://drblumkin.ru/kontakty/#policy, modal:https://drblumkin.ru/ceny-na-lechenie/#policy, modal:https://drblumkin.ru/uslugi/#policy, modal:https://drblumkin.ru/uslugi/diagnostika/#policy, modal:https://drblumkin.ru/uslugi/diagnostika/rentgen-zubov/#policy, modal:https://drblumkin.ru/uslugi/diagnostika/snimok-zuba/#policy, modal:https://drblumkin.ru/uslugi/hirurgiya/#policy",
+              "readable_policy_urls: modal:https://drblumkin.ru/#policy, modal:https://drblumkin.ru/kontakty/#policy, modal:https://drblumkin.ru/ceny-na-lechenie/#policy, modal:https://drblumkin.ru/uslugi/#policy, modal:https://drblumkin.ru/uslugi/diagnostika/#policy, modal:https://drblumkin.ru/uslugi/diagnostika/rentgen-zubov/#policy, modal:https://drblumkin.ru/uslugi/diagnostika/snimok-zuba/#policy, modal:https://drblumkin.ru/uslugi/hirurgiya/#policy",
+              "unreadable_policy_urls: не найдены",
+              "matched_tokens_in_policy_text: не найдены",
+              "Вывод: Метрика найдена на сайте, но явных упоминаний в тексте политики не найдено."
+            ]
+          }
+        ]
+      },
+      {
+        "block": "Блок 2",
+        "metrics": [
+          {
+            "metric": "Нет онлайн-записи со слотами",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "slot_booking_widget: False",
+              "booking_urls: https://drblumkin.ru/",
+              "booking_sources: home-booking-candidate"
+            ]
+          },
+          {
+            "metric": "Сайт — цифровая визитка, не инструмент",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "sitemap_total_urls: 1",
+              "pages_count: 35"
+            ]
+          },
+          {
+            "metric": "Вы не знаете кто приходит на сайт и почему уходит",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "analytics.found: True",
+              "analytics.kinds: yandex_metrika",
+              "analytics.goals_found: False",
+              "goal_markers: не найдены"
+            ]
+          },
+          {
+            "metric": "Пациент не может написать первым",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "whatsapp: True",
+              "telegram: True",
+              "max_messenger: False",
+              "chat_widget: False",
+              "message_form_found: True"
+            ]
+          },
+          {
+            "metric": "Прайс-лист доступен без регистрации",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "price_public_found: True",
+              "price_pages: https://drblumkin.ru/ceny-na-lechenie/, https://drblumkin.ru/uslugi/, https://drblumkin.ru/uslugi/diagnostika/, https://drblumkin.ru/uslugi/diagnostika/rentgen-zubov/, https://drblumkin.ru/uslugi/diagnostika/snimok-zuba/",
+              "price_candidate_urls_checked: https://drblumkin.ru/ceny-na-lechenie/, https://drblumkin.ru/uslugi/, https://drblumkin.ru/uslugi/diagnostika/, https://drblumkin.ru/uslugi/diagnostika/rentgen-zubov/, https://drblumkin.ru/uslugi/diagnostika/snimok-zuba/, https://drblumkin.ru/uslugi/hirurgiya/, https://drblumkin.ru/uslugi/hirurgiya/implanty-zubov/implant-zuba/, https://drblumkin.ru/uslugi/hirurgiya/implanty-zubov/polnaya-implantaciya/"
+            ]
+          },
+          {
+            "metric": "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "schema.any: True",
+              "schema.types: detected",
+              "schema.supported_hits: не найдены"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "Блок 3",
+        "metrics": [
+          {
+            "metric": "Страница врачей / специалистов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "doctors_content_found: True",
+              "doctor_pages: https://drblumkin.ru/wp-content/uploads/2023/02/prodoctorov1.webp, https://drblumkin.ru/wp-content/uploads/2023/02/prodoctorov2.webp, https://drblumkin.ru/wp-content/uploads/2023/02/prodoctorov3.webp, https://drblumkin.ru/wp-content/uploads/2023/02/prodoctorov4.webp, https://drblumkin.ru/vrachi/"
+            ]
+          },
+          {
+            "metric": "Адрес и карта на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "address_found: True",
+              "map_found: True"
+            ]
+          },
+          {
+            "metric": "Часы работы",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "hours_found: True"
+            ]
+          },
+          {
+            "metric": "Отзывы пациентов на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "reviews_found: True",
+              "reviews_evidence: не найдены"
+            ]
+          },
+          {
+            "metric": "Актуальность года в футере (если он вообще есть). Если его нет — ок",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "footer_present: False",
+              "current_year: None",
+              "year_value: None"
+            ]
+          },
+          {
+            "metric": "Есть отдельная страница контактов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "contact_page_exists: True",
+              "contact_block_found: True",
+              "contact_pages: https://drblumkin.ru/kontakty/"
+            ]
+          },
+          {
+            "metric": "Орфографические ошибки в тексте сайта",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "Всего ошибок: 40",
+              "Проверено страниц: 5",
+              "По типам: missing_space_after_punct: 10, space_before_punct: 8, comma_glue: 8, dot_glue: 8, missing_space_after_number_dot: 6",
+              "[missing_space_after_punct] .А — инической практике ортодонта» 3D smile Р.А. Фадеев 22-24 марта 2019 г. — «Современ (https://drblumkin.ru/)",
+              "[missing_space_after_punct] .Р — тического лечения. Основы диагностики» И.Р. Нуртдинов ORTHOART 12 апреля 2019 г. — (https://drblumkin.ru/)",
+              "[space_before_punct] : — нирование зуба Посмотреть цены До 16 мая : Консультация нескольких специалистов по (https://drblumkin.ru/)",
+              "[space_before_punct] : — отзывов и результатов лечения До 16 мая : Консультация нескольких специалистов по (https://drblumkin.ru/)",
+              "[comma_glue] N,F — вухчелюстной аппарат. Элайнеры(INVISALIGN,Flexi Lingner,3D Smale)). Несъемная аппар (https://drblumkin.ru/)",
+              "[comma_glue] а,P — гатурные, самолигирующиеся),аппарат Норда,Pendulum,Квадхеликс. Лечение аномалий раз (https://drblumkin.ru/)"
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
