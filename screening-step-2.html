@@ -12878,6 +12878,17 @@
 
       const STATIC_COMMENTS = {};
 
+      const LOCAL_COMMENTS_KEY = 'clinic_audit_comments_v1';
+      function loadLocalComments(){
+        try {
+          const raw = localStorage.getItem(LOCAL_COMMENTS_KEY);
+          const data = raw ? JSON.parse(raw) : {};
+          return (data && typeof data === 'object') ? data : {};
+        } catch (_) {
+          return {};
+        }
+      }
+
       function inferSiteIdFromRow(row) {
         const rid = row.id || '';
         if (rid.startsWith('row-step2-')) return rid.slice('row-step2-'.length);
@@ -12908,7 +12919,7 @@
           const th = document.createElement('th');
           th.className = 'comment-col-head';
           th.rowSpan = 2;
-          th.textContent = '???????????';
+          th.textContent = '\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439';
           headRows[0].appendChild(th);
         }
 
@@ -12919,7 +12930,9 @@
           const div = document.createElement('div');
           div.className = 'comment-text';
           const siteId = inferSiteIdFromRow(row);
-          const txt = Object.prototype.hasOwnProperty.call(STATIC_COMMENTS, siteId) ? String(STATIC_COMMENTS[siteId] || '') : '';
+          const local = loadLocalComments();
+          const merged = Object.assign({}, local, STATIC_COMMENTS);
+          const txt = Object.prototype.hasOwnProperty.call(merged, siteId) ? String(merged[siteId] || '') : '';
           div.textContent = txt;
           if (txt) div.title = txt;
           td.appendChild(div);
