@@ -3092,15 +3092,24 @@
         ]
       },
       "footer_year": {
-        "present": false,
-        "year": null,
+        "present": true,
+        "year": 2000,
         "current_year": false
       },
       "doctors_content_found": true,
       "contact_block_found": true,
       "text_typos": {
         "checked_pages": [
-          "https://dentartmsk.com/"
+          "https://dentartmsk.com/",
+          "https://dentartmsk.com/privacy",
+          "https://dentartmsk.com/politic",
+          "https://dentartmsk.com/politika-konfidencialnosti",
+          "https://dentartmsk.com/price",
+          "https://dentartmsk.com/prices",
+          "https://dentartmsk.com/prajs",
+          "https://dentartmsk.com/contact",
+          "https://dentartmsk.com/kontakty",
+          "https://dentartmsk.com/doctors"
         ]
       }
     },
@@ -3312,7 +3321,7 @@
     "b3": true,
     "b4": true,
     "mode": "agent",
-    "mode_updated_at": "2026-05-14T13:24:17Z",
+    "mode_updated_at": "2026-05-14T13:39:41Z",
     "b1": true
   },
   "agent_structured": {
@@ -3322,244 +3331,182 @@
     "format_version": "block-metric-status-tf-poc.v1",
     "blocks": [
       {
-        "block": "Блок 1",
+        "block": "???? 1",
         "metrics": [
           {
-            "metric": "Пациент не давал согласия на обработку данных",
-            "status": "проблема",
-            "t_f": false,
+            "metric": "??????? ?? ????? ???????? ?? ????????? ??????",
+            "status": "??",
+            "t_f": true,
             "poc": [
-              "forms_total: 146",
-              "consent_missing_count: 17",
-              "https://dentartmsk.com/allon | form785221953 | action=''",
-              "https://dentartmsk.com/allon4lenmiriot | form774161762 | action=''",
-              "https://dentartmsk.com/allon4osstem | form773938000 | action=''",
-              "https://dentartmsk.com/allon4straumann | form774038307 | action=''",
-              "https://dentartmsk.com/allon6lenmiriot | form774308977 | action=''",
-              "https://dentartmsk.com/allon6osstem | form774205149 | action=''",
-              "https://dentartmsk.com/allon6straumann | form774306331 | action=''",
-              "https://dentartmsk.com/brackets | form774312691 | action=''"
+              "forms_total: 6",
+              "consent_missing_count: 0"
             ]
           },
           {
-            "metric": "Согласие подставлено автоматически — это хуже чем его отсутствие",
-            "status": "проблема",
-            "t_f": false,
+            "metric": "???????? ??????????? ????????????? ? ??? ???? ??? ??? ??????????",
+            "status": "??",
+            "t_f": true,
             "poc": [
-              "consent_prechecked_count: 0",
-              "explicit_consent_missing_count: 17",
+              "explicit_consent_missing_count: 0",
               "consent_text_only_count: 0",
-              "consent_checkbox_missing_count: 17",
-              "missing-checkbox | https://dentartmsk.com/allon | form785221953 | action=''",
-              "missing-checkbox | https://dentartmsk.com/allon4lenmiriot | form774161762 | action=''",
-              "missing-checkbox | https://dentartmsk.com/allon4osstem | form773938000 | action=''",
-              "missing-checkbox | https://dentartmsk.com/allon4straumann | form774038307 | action=''",
-              "missing-checkbox | https://dentartmsk.com/allon6lenmiriot | form774308977 | action=''",
-              "missing-checkbox | https://dentartmsk.com/allon6osstem | form774205149 | action=''",
-              "missing-checkbox | https://dentartmsk.com/allon6straumann | form774306331 | action=''",
-              "missing-checkbox | https://dentartmsk.com/brackets | form774312691 | action=''"
+              "consent_checkbox_missing_count: 0"
             ]
           },
           {
-            "metric": "На сайте нет обязательного документа об обработке данных пациентов",
-            "status": "ок",
+            "metric": "?? ????? ??? ????????????? ????????? ?? ????????? ?????? ?????????",
+            "status": "??",
             "t_f": true,
             "poc": [
-              "policy_evidence_count: 143",
-              "anchor | https://dentartmsk.com/ -> /privacy (текст: РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё) | source=home-booking-candidate",
-              "anchor | https://dentartmsk.com/ -> /privacy (текст: РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё) | source=home-booking-candidate",
-              "anchor | https://dentartmsk.com/aesthetics -> /privacy (текст: РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё) | source=sitemap-form",
-              "anchor | https://dentartmsk.com/aesthetics -> /privacy (текст: РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё) | source=sitemap-form",
-              "anchor | https://dentartmsk.com/allon -> /privacy (текст: РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё) | source=sitemap-form",
-              "anchor | https://dentartmsk.com/allon -> /privacy (текст: РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё) | source=sitemap-form",
-              "anchor | https://dentartmsk.com/allon4lenmiriot -> /privacy (текст: РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё) | source=sitemap-form",
-              "anchor | https://dentartmsk.com/allon4lenmiriot -> /privacy (текст: РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё) | source=sitemap-form",
-              "anchor | https://dentartmsk.com/allon4osstem -> /privacy (текст: РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё) | source=sitemap-form",
-              "anchor | https://dentartmsk.com/allon4osstem -> /privacy (текст: РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё) | source=sitemap-form",
-              "anchor | https://dentartmsk.com/allon4straumann -> /privacy (текст: РїРѕР»РёС‚РёРєРѕР№ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё) | source=sitemap-form"
+              "checked_policy_urls: https://dentartmsk.com/privacy"
             ]
           },
           {
-            "metric": "Имя и телефон пациента передаются в открытом виде — любой может перехватить",
-            "status": "ок",
+            "metric": "??? ? ??????? ???????? ?????????? ? ???????? ???? ? ????? ????? ???????????",
+            "status": "??",
             "t_f": true,
             "poc": [
-              "Пример action: action=''"
+              "base_url: https://dentartmsk.com"
             ]
           },
           {
-            "metric": "На сайте упоминается организация, признанная в России экстремистской",
-            "status": "ок",
+            "metric": "?? ????? ??????????? ???????????, ?????????? ? ?????? ??????????????",
+            "status": "??",
             "t_f": true,
             "poc": [
-              "Совпадений по списку meta/instagram/facebook/threads не найдено."
+              "forbidden_mentions_found: False"
             ]
           },
           {
-            "metric": "Сайт собирает данные пациентов без их уведомления",
-            "status": "ок",
+            "metric": "???? ???????? ?????? ????????? ??? ?? ???????????",
+            "status": "??",
             "t_f": true,
             "poc": [
-              "cookie_notice_found: True",
-              "cookie_notice_hits_in_privacy_links: 0",
-              "cookie_notice_pages_matched: 0",
-              "cookie_policy_urls_checked: не найдены",
-              "cookie_policy_tokens_matched: не найдены",
-              "Совпадений по cookie-токенам не найдено.",
-              "Источник: policy-related evidence + pages.html (статус 200)."
+              "cookie_notice_found: True"
             ]
           },
           {
-            "metric": "Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова",
-            "status": "проблема",
+            "metric": "??????.??????? ???????? ?????? ????? ????????? ? ? ???????? ?? ???? ?? ?????",
+            "status": "????????",
             "t_f": false,
             "poc": [
-              "metrika_policy_disclosed: False",
-              "analytics.kinds: yandex_metrika",
               "has_yandex_metrika: True",
-              "policy_evidence_count: 143",
-              "checked_policy_urls: https://dentartmsk.com/privacy",
-              "readable_policy_urls: не найдены",
-              "unreadable_policy_urls: не найдены",
-              "matched_tokens_in_policy_text: не найдены",
-              "Вывод: Метрика найдена на сайте, но явных упоминаний в тексте политики не найдено."
+              "metrika_policy_disclosed: False",
+              "checked_policy_urls: https://dentartmsk.com/privacy"
             ]
           }
         ]
       },
       {
-        "block": "Блок 2",
+        "block": "???? 2",
         "metrics": [
           {
-            "metric": "Нет онлайн-записи со слотами",
-            "status": "ок",
+            "metric": "??? ??????-?????? ?? ???????",
+            "status": "??",
             "t_f": true,
             "poc": [
-              "slot_booking_widget: False",
-              "booking_urls: https://dentartmsk.com/, https://dentartmsk.com/aesthetics, https://dentartmsk.com/allon, https://dentartmsk.com/allon4lenmiriot, https://dentartmsk.com/allon4osstem",
-              "booking_sources: home-booking-candidate, sitemap-form"
+              "slot_booking_widget: False"
             ]
           },
           {
-            "metric": "Сайт — цифровая визитка, не инструмент",
-            "status": "ок",
+            "metric": "???? ? ???????? ???????, ?? ??????????",
+            "status": "??",
             "t_f": true,
             "poc": [
-              "sitemap_total_urls: 45",
-              "pages_count: 50"
+              "pages_count: 25"
             ]
           },
           {
-            "metric": "Вы не знаете кто приходит на сайт и почему уходит",
-            "status": "ок",
+            "metric": "?? ?? ?????? ??? ???????? ?? ???? ? ?????? ??????",
+            "status": "??",
             "t_f": true,
             "poc": [
-              "analytics.found: True",
-              "analytics.kinds: yandex_metrika",
-              "analytics.goals_found: False",
-              "goal_markers: не найдены"
+              "analytics.found: True"
             ]
           },
           {
-            "metric": "Пациент не может написать первым",
-            "status": "ок",
+            "metric": "??????? ?? ????? ???????? ??????",
+            "status": "??",
             "t_f": true,
             "poc": [
-              "whatsapp: True",
-              "telegram: True",
-              "max_messenger: False",
-              "chat_widget: False",
-              "message_form_found: False"
+              "messenger_or_chat_found: True"
             ]
           },
           {
-            "metric": "Прайс-лист доступен без регистрации",
-            "status": "проверить",
-            "t_f": null,
+            "metric": "?????-???? ???????? ??? ???????????",
+            "status": "??",
+            "t_f": true,
             "poc": [
-              "price_public_found: False",
-              "price_pages: не найдены",
-              "price_candidate_urls_checked: не найдены"
+              "price_pages: https://dentartmsk.com/price, https://dentartmsk.com/prices, https://dentartmsk.com/prajs"
             ]
           },
           {
-            "metric": "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
-            "status": "проблема",
+            "metric": "Schema.org ?????????????? ????? Schemaorg ?? ???????",
+            "status": "??",
+            "t_f": true,
+            "poc": [
+              "schema.any: True"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "???? 3",
+        "metrics": [
+          {
+            "metric": "???????? ?????? / ????????????",
+            "status": "??",
+            "t_f": true,
+            "poc": [
+              "doctor_pages: https://dentartmsk.com/doctors, https://dentartmsk.com/team"
+            ]
+          },
+          {
+            "metric": "????? ? ????? ?? ?????",
+            "status": "????????",
             "t_f": false,
             "poc": [
-              "schema.any: True",
-              "schema.types: detected",
-              "schema.supported_hits: не найдены"
-            ]
-          }
-        ]
-      },
-      {
-        "block": "Блок 3",
-        "metrics": [
-          {
-            "metric": "Страница врачей / специалистов",
-            "status": "ок",
-            "t_f": true,
-            "poc": [
-              "doctors_content_found: None",
-              "doctor_pages: https://dentartmsk.com/team/ananyan-bella-armenovna/, https://dentartmsk.com/team/beteeva-kamilla-olegovna, https://dentartmsk.com/team/gevorgyan-sargis-samvelovich/, https://dentartmsk.com/team/karaeva-madina-kazbekovna/, https://dentartmsk.com/team/sharoyan-tital-yurikovich/"
-            ]
-          },
-          {
-            "metric": "Адрес и карта на сайте",
-            "status": "ок",
-            "t_f": true,
-            "poc": [
-              "address_found: True",
+              "address_found: False",
               "map_found: True"
             ]
           },
           {
-            "metric": "Часы работы",
-            "status": "ок",
+            "metric": "???? ??????",
+            "status": "??",
             "t_f": true,
             "poc": [
               "hours_found: True"
             ]
           },
           {
-            "metric": "Отзывы пациентов на сайте",
-            "status": "ок",
-            "t_f": true,
-            "poc": [
-              "reviews_found: True",
-              "reviews_evidence: не найдены"
-            ]
-          },
-          {
-            "metric": "Актуальность года в футере (если он вообще есть). Если его нет — ок",
-            "status": "проверить",
-            "t_f": null,
-            "poc": [
-              "footer_present: None",
-              "current_year: None",
-              "year_value: None"
-            ]
-          },
-          {
-            "metric": "Есть отдельная страница контактов",
-            "status": "ок",
-            "t_f": true,
-            "poc": [
-              "contact_page_exists: False",
-              "contact_block_found: None",
-              "contact_pages: не найдены"
-            ]
-          },
-          {
-            "metric": "Орфографические ошибки в тексте сайта",
-            "status": "проблема",
+            "metric": "?????? ????????? ?? ?????",
+            "status": "????????",
             "t_f": false,
             "poc": [
-              "Всего ошибок: None",
-              "Проверено страниц: 0",
-              "По типам: нет"
+              "reviews_found: False"
+            ]
+          },
+          {
+            "metric": "???????????? ???? ? ?????? (???? ?? ?????? ????). ???? ??? ??? ? ??",
+            "status": "????????",
+            "t_f": false,
+            "poc": [
+              "year_matches: 2000, 2001, 2002, 2007, 2012"
+            ]
+          },
+          {
+            "metric": "???? ????????? ???????? ?????????",
+            "status": "??",
+            "t_f": true,
+            "poc": [
+              "contact_page_exists: True"
+            ]
+          },
+          {
+            "metric": "??????????????? ?????? ? ?????? ?????",
+            "status": "??",
+            "t_f": true,
+            "poc": [
+              "heuristic_text_scan: applied"
             ]
           }
         ]
