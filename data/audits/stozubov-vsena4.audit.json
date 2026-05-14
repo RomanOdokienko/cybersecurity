@@ -223,11 +223,17 @@
         ]
       },
       "footer_year": {
-        "present": null,
+        "present": false,
         "year": null,
-        "current_year": null
+        "current_year": false
       },
-      "doctors_content_found": true
+      "doctors_content_found": true,
+      "contact_block_found": true,
+      "text_typos": {
+        "checked_pages": [
+          "https://stozubov-vsena4.ru/"
+        ]
+      }
     },
     "mixed_content": {
       "count": 0,
@@ -295,6 +301,242 @@
     "b3": true,
     "b4": true,
     "mode": "agent",
-    "mode_updated_at": "2026-05-12T06:03:52Z"
+    "mode_updated_at": "2026-05-14T13:13:08Z",
+    "b1": true
+  },
+  "agent_structured": {
+    "clinic": "Сто Зубов",
+    "site_id": "stozubov-vsena4-ru",
+    "site": "stozubov-vsena4.ru",
+    "format_version": "block-metric-status-tf-poc.v1",
+    "blocks": [
+      {
+        "block": "Блок 1",
+        "metrics": [
+          {
+            "metric": "Пациент не давал согласия на обработку данных",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "forms_total: 3",
+              "consent_missing_count: 0"
+            ]
+          },
+          {
+            "metric": "Согласие подставлено автоматически — это хуже чем его отсутствие",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "consent_prechecked_count: 0",
+              "explicit_consent_missing_count: 3",
+              "consent_text_only_count: 3",
+              "consent_checkbox_missing_count: 0",
+              "text-only | https://stozubov-vsena4.ru/ | form1261981901 | action=''",
+              "text-only | https://stozubov-vsena4.ru/ | form1261985361 | action=''",
+              "text-only | https://stozubov-vsena4.ru/ | form1261931231 | action=''"
+            ]
+          },
+          {
+            "metric": "На сайте нет обязательного документа об обработке данных пациентов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "policy_evidence_count: 8",
+              "anchor | https://stozubov-vsena4.ru/ -> /politic (текст: РЅР° РѕР±СЂР°Р±РѕС‚РєСѓ РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…) | source=home-booking-candidate",
+              "anchor | https://stozubov-vsena4.ru/ -> /politic (текст: РЅР°&nbsp;РѕР±СЂР°Р±РѕС‚РєСѓ РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…) | source=home-booking-candidate",
+              "anchor | https://stozubov-vsena4.ru/ -> /politic (текст: РїРѕРґСЂРѕР±РЅРµРµ) | source=home-booking-candidate",
+              "anchor | https://stozubov-vsena4.ru/ -> /politic (текст: РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё) | source=home-booking-candidate",
+              "anchor | https://stozubov-vsena4.ru/politic -> /politic (текст: РџРѕР»РёС‚РёРєР° РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚Рё) | source=navigation-legal",
+              "anchor | https://stozubov-vsena4.ru/politic -> https://stozubov-vsena4.ru/politic (текст: https://stozubov-vsena4.ru/politic) | source=navigation-legal",
+              "legal-page | https://stozubov-vsena4.ru/politic | source=navigation-legal",
+              "form-policy-text | https://stozubov-vsena4.ru/ | source=home-booking-candidate | snippet=target=\"_blank\" rel=\"noreferrer noopener\" style=\"color: rgb(255, 94, 191);\">РЅР° РѕР±СЂР°Р±РѕС‚РєСѓ РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…</a> </div> </div> </div> </div> </div> <div class=\"t-quiz__result t-quiz__result_redirect t-quiz__scre"
+            ]
+          },
+          {
+            "metric": "Имя и телефон пациента передаются в открытом виде — любой может перехватить",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "Пример action: action=''"
+            ]
+          },
+          {
+            "metric": "На сайте упоминается организация, признанная в России экстремистской",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "Совпадений по списку meta/instagram/facebook/threads не найдено."
+            ]
+          },
+          {
+            "metric": "Сайт собирает данные пациентов без их уведомления",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "cookie_notice_found: True",
+              "cookie_notice_hits_in_privacy_links: 0",
+              "cookie_notice_pages_matched: 0",
+              "cookie_policy_urls_checked: не найдены",
+              "cookie_policy_tokens_matched: не найдены",
+              "Совпадений по cookie-токенам не найдено.",
+              "Источник: policy-related evidence + pages.html (статус 200)."
+            ]
+          },
+          {
+            "metric": "Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "metrika_policy_disclosed: False",
+              "analytics.kinds: yandex_metrika",
+              "has_yandex_metrika: True",
+              "policy_evidence_count: 8",
+              "checked_policy_urls: https://stozubov-vsena4.ru/politic",
+              "readable_policy_urls: не найдены",
+              "unreadable_policy_urls: не найдены",
+              "matched_tokens_in_policy_text: не найдены",
+              "Вывод: Метрика найдена на сайте, но явных упоминаний в тексте политики не найдено."
+            ]
+          }
+        ]
+      },
+      {
+        "block": "Блок 2",
+        "metrics": [
+          {
+            "metric": "Нет онлайн-записи со слотами",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "slot_booking_widget: False",
+              "booking_urls: https://stozubov-vsena4.ru/",
+              "booking_sources: home-booking-candidate"
+            ]
+          },
+          {
+            "metric": "Сайт — цифровая визитка, не инструмент",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "sitemap_total_urls: 1",
+              "pages_count: 5"
+            ]
+          },
+          {
+            "metric": "Вы не знаете кто приходит на сайт и почему уходит",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "analytics.found: True",
+              "analytics.kinds: yandex_metrika",
+              "analytics.goals_found: False",
+              "goal_markers: не найдены"
+            ]
+          },
+          {
+            "metric": "Пациент не может написать первым",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "whatsapp: True",
+              "telegram: False",
+              "max_messenger: False",
+              "chat_widget: False",
+              "message_form_found: False"
+            ]
+          },
+          {
+            "metric": "Прайс-лист доступен без регистрации",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "price_public_found: True",
+              "price_pages: https://stozubov-vsena4.ru/",
+              "price_candidate_urls_checked: не найдены"
+            ]
+          },
+          {
+            "metric": "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "schema.any: True",
+              "schema.types: detected",
+              "schema.supported_hits: не найдены"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "Блок 3",
+        "metrics": [
+          {
+            "metric": "Страница врачей / специалистов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "doctors_content_found: True",
+              "doctor_pages: https://stozubov-vsena4.ru/"
+            ]
+          },
+          {
+            "metric": "Адрес и карта на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "address_found: True",
+              "map_found: True"
+            ]
+          },
+          {
+            "metric": "Часы работы",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "hours_found: True"
+            ]
+          },
+          {
+            "metric": "Отзывы пациентов на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "reviews_found: True",
+              "reviews_evidence: не найдены"
+            ]
+          },
+          {
+            "metric": "Актуальность года в футере (если он вообще есть). Если его нет — ок",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "footer_present: None",
+              "current_year: None",
+              "year_value: None"
+            ]
+          },
+          {
+            "metric": "Есть отдельная страница контактов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "contact_page_exists: False",
+              "contact_block_found: None",
+              "contact_pages: не найдены"
+            ]
+          },
+          {
+            "metric": "Орфографические ошибки в тексте сайта",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "Всего ошибок: None",
+              "Проверено страниц: 0",
+              "По типам: нет"
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
