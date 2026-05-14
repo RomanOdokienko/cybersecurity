@@ -3292,10 +3292,238 @@
     }
   },
   "verification": {
-    "b2": false,
-    "b4": false,
+    "b2": true,
+    "b4": true,
     "mode": "agent",
-    "mode_updated_at": "2026-05-12T12:26:22Z",
-    "b3": false
+    "mode_updated_at": "2026-05-14T22:34:23Z",
+    "b3": true
+  },
+  "agent_structured": {
+    "clinic": "Apple Stom",
+    "site_id": "apple-stom-ru",
+    "site": "www.apple-stom.ru",
+    "format_version": "block-metric-status-tf-poc.v1",
+    "blocks": [
+      {
+        "block": "блок 1",
+        "metrics": [
+          {
+            "metric": "Пациент не давал согласия на обработку данных",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "forms_total: 35",
+              "consent_missing_count: 35",
+              "consent_checkbox_present_count: 0",
+              "evidence_url: https://www.apple-stom.ru/o-klinike",
+              "form_marker: name+phone fields present without explicit consent control"
+            ]
+          },
+          {
+            "metric": "Согласие подставлено автоматически — это хуже чем его отсутствие",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "forms_total: 35",
+              "consent_prechecked_count: 0",
+              "explicit_consent_missing_count: 35",
+              "consent_checkbox_missing_count: 35",
+              "evidence_url: https://www.apple-stom.ru/o-klinike"
+            ]
+          },
+          {
+            "metric": "На сайте нет обязательного документа об обработке данных пациентов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "legal_page_url: https://www.apple-stom.ru/o-klinike/yuridicheskaya-informatsiya",
+              "policy_pdf_url: https://www.apple-stom.ru/images/pdf/politika.pdf",
+              "consent_pdf_url: https://www.apple-stom.ru/images/pdf/soglasi.pdf",
+              "legal_page_link_text: ???????? ? ????????? ????????? ???????????? ??????"
+            ]
+          },
+          {
+            "metric": "Имя и телефон пациента передаются в открытом виде — любой может перехватить",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "site_scheme: https",
+              "evidence_url: https://www.apple-stom.ru/",
+              "http_form_action_found: false"
+            ]
+          },
+          {
+            "metric": "На сайте упоминается организация, признанная в России экстремистской",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "checked_pages: /, /o-klinike, /o-klinike/yuridicheskaya-informatsiya",
+              "direct_meta_instagram_links_found: false",
+              "visible_meta_instagram_mentions_found: false"
+            ]
+          },
+          {
+            "metric": "Сайт собирает данные пациентов без их уведомления",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "cookie_notice_found: true",
+              "evidence_url: https://www.apple-stom.ru/",
+              "cookie_widget_marker: yootheme.cookie.mode=notification"
+            ]
+          },
+          {
+            "metric": "Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "metrika_on_site: true (ym() + mc.yandex.ru)",
+              "policy_pdf_url: https://www.apple-stom.ru/images/pdf/politika.pdf",
+              "policy_disclosure_found: Yandex Metrika mentioned in policy PDF text"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "блок 2",
+        "metrics": [
+          {
+            "metric": "Нет онлайн-записи со слотами",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "checked_pages: /, /o-klinike, key service pages",
+              "slot_booking_widget_found: false",
+              "external_slot_booking_link_found: false",
+              "booking_entrypoint: only callback/contact forms and messengers"
+            ]
+          },
+          {
+            "metric": "Сайт — цифровая визитка, не инструмент",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "site_depth: 81 pages crawled",
+              "service_pages_present: true",
+              "doctors/legal/reviews sections present"
+            ]
+          },
+          {
+            "metric": "Вы не знаете кто приходит на сайт и почему уходит",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "analytics_found: true",
+              "evidence_url: https://www.apple-stom.ru/",
+              "metrika_marker: mc.yandex.ru + ym()"
+            ]
+          },
+          {
+            "metric": "Пациент не может написать первым",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "telegram_link: https://t.me/applestom",
+              "telegram_link_2: https://t.me/+79096377505",
+              "max_link: https://max.ru/...",
+              "patient_can_message_first: true"
+            ]
+          },
+          {
+            "metric": "Прайс-лист доступен без регистрации",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "price_pdf_url: https://www.apple-stom.ru/images/zahar/preiskurant-2026.02.24.pdf",
+              "price_access_without_auth: true",
+              "legal_page_url: https://www.apple-stom.ru/o-klinike/yuridicheskaya-informatsiya"
+            ]
+          },
+          {
+            "metric": "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "schema_org_found: true",
+              "evidence_url: https://www.apple-stom.ru/",
+              "marker: https://schema.org in JSON-LD"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "блок 3",
+        "metrics": [
+          {
+            "metric": "Страница врачей / специалистов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "doctors_section_url: https://www.apple-stom.ru/o-klinike#stomatologi",
+              "doctor_profile_pages_found: multiple /o-klinike/<doctor-slug> pages",
+              "doctors_content_found: true"
+            ]
+          },
+          {
+            "metric": "Адрес и карта на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "address_marker_1: ????????????? ?????., 10, ????. 2",
+              "address_marker_2: ??. ??????????, ??? 1, ????. 3",
+              "map_links_found: https://yandex.com/maps/-/CDuzM6kL ; https://yandex.com/maps/-/CHvQyAmb"
+            ]
+          },
+          {
+            "metric": "Часы работы",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "hours_text_found: Monday-Friday 09:00-21:00 and weekend schedule in footer/contact section",
+              "evidence_url: https://www.apple-stom.ru/"
+            ]
+          },
+          {
+            "metric": "Отзывы пациентов на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "reviews_anchor_url: https://www.apple-stom.ru/o-klinike#review",
+              "reviews_links_found: yandex reviews links present",
+              "reviews_content_signal: true"
+            ]
+          },
+          {
+            "metric": "Актуальность года в футере (если он вообще есть). Если его нет — ок",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "footer_present: true",
+              "footer_year_found: false",
+              "rule_applied: no year in footer => ok"
+            ]
+          },
+          {
+            "metric": "Есть отдельная страница контактов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "contact_block_url: https://www.apple-stom.ru/o-klinike#contact",
+              "contact_block_found: true",
+              "separate_contact_page_url: not required by current rule when contact block exists"
+            ]
+          },
+          {
+            "metric": "Орфографические ошибки в тексте сайта",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "checked_pages: /, /o-klinike, /lechenie-zubov/lechenie-kariesa, /ispravlenie-prikusa/metallicheskie-brekety",
+              "critical_typos_found: false"
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

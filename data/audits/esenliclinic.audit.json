@@ -137,7 +137,227 @@
     }
   },
   "verification": {
-    "b2": false,
-    "b4": false
+    "b2": true,
+    "b4": true,
+    "mode": "agent",
+    "mode_updated_at": "2026-05-14T23:27:27Z",
+    "b3": true
+  },
+  "agent_structured": {
+    "clinic": "Esenli Clinic",
+    "site_id": "esenliclinic-ru",
+    "site": "esenliclinic.ru",
+    "format_version": "block-metric-status-tf-poc.v1",
+    "blocks": [
+      {
+        "block": "блок 1",
+        "metrics": [
+          {
+            "metric": "Пациент не давал согласия на обработку данных",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "forms_rendered_in_html: 0",
+              "booking_anchor_found: #consultation",
+              "consent_verdict_requires_rendered_form: check"
+            ]
+          },
+          {
+            "metric": "Согласие подставлено автоматически — это хуже чем его отсутствие",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "forms_rendered_in_html: 0",
+              "prechecked_checkbox_detected: false",
+              "explicit_consent_control_not_observable_in_static_html"
+            ]
+          },
+          {
+            "metric": "На сайте нет обязательного документа об обработке данных пациентов",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "policy_link_found: /document",
+              "policy_url_access: 403",
+              "mandatory_document_readability: not confirmed"
+            ]
+          },
+          {
+            "metric": "Имя и телефон пациента передаются в открытом виде — любой может перехватить",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "name_phone_form_submission_observation: insufficient (no rendered form tags in static html)",
+              "site_scheme: https"
+            ]
+          },
+          {
+            "metric": "На сайте упоминается организация, признанная в России экстремистской",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "meta_instagram_direct_mentions_found: false",
+              "checked_page: https://esenliclinic.ru/"
+            ]
+          },
+          {
+            "metric": "Сайт собирает данные пациентов без их уведомления",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "cookie_notice_text_found: true",
+              "snippet: ????????? ?????? ????, ?? ????? ???????? ?? ????????????? ?????? cookie",
+              "evidence_url: https://esenliclinic.ru/"
+            ]
+          },
+          {
+            "metric": "Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "metrika_on_site: true",
+              "policy_link_found_but_unreadable: /document (403)",
+              "policy_disclosure_cannot_be_confirmed"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "блок 2",
+        "metrics": [
+          {
+            "metric": "Нет онлайн-записи со слотами",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "slot_booking_widget_found: false",
+              "external_slot_booking_link_found: false",
+              "online_booking_anchor_only: #consultation"
+            ]
+          },
+          {
+            "metric": "Сайт — цифровая визитка, не инструмент",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "site_pages_detected: 2",
+              "format: one-page + docs link",
+              "instrument_depth_limited"
+            ]
+          },
+          {
+            "metric": "Вы не знаете кто приходит на сайт и почему уходит",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "analytics_found: true",
+              "marker: yandex metrika code on main page"
+            ]
+          },
+          {
+            "metric": "Пациент не может написать первым",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "telegram_link: https://t.me/esenliclinic",
+              "whatsapp_link: https://wa.me/+79031038832?text=",
+              "max_link_present: true"
+            ]
+          },
+          {
+            "metric": "Прайс-лист доступен без регистрации",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "price_section_anchor_found: #price",
+              "price_access_without_auth: true",
+              "evidence_url: https://esenliclinic.ru/"
+            ]
+          },
+          {
+            "metric": "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "schema_org_found: true",
+              "evidence_url: https://esenliclinic.ru/"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "блок 3",
+        "metrics": [
+          {
+            "metric": "Страница врачей / специалистов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "team_section_anchor_found: #team",
+              "doctors_or_team_presence_signal: true",
+              "evidence_url: https://esenliclinic.ru/"
+            ]
+          },
+          {
+            "metric": "Адрес и карта на сайте",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "map_links_found: false",
+              "explicit_address_not_confirmed_from accessible pages",
+              "contact_url_checked: https://esenliclinic.ru/#contact"
+            ]
+          },
+          {
+            "metric": "Часы работы",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "hours_found: true",
+              "hours_text: ???????? ? 9:00 ?? 21:00",
+              "evidence_url: https://esenliclinic.ru/"
+            ]
+          },
+          {
+            "metric": "Отзывы пациентов на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "reviews_section_anchor_found: #otzyv",
+              "reviews_presence_signal: true",
+              "evidence_url: https://esenliclinic.ru/"
+            ]
+          },
+          {
+            "metric": "Актуальность года в футере (если он вообще есть). Если его нет — ок",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "footer_year_found: false",
+              "rule_applied: no footer year => ok"
+            ]
+          },
+          {
+            "metric": "Есть отдельная страница контактов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "contact_section_anchor_found: #contact",
+              "contact_block_presence_signal: true",
+              "evidence_url: https://esenliclinic.ru/"
+            ]
+          },
+          {
+            "metric": "Орфографические ошибки в тексте сайта",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "critical_typos_found: false",
+              "checked_page: https://esenliclinic.ru/"
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

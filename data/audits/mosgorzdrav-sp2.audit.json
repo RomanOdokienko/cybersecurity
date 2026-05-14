@@ -327,6 +327,289 @@
     "b3": false,
     "b4": false,
     "mode": "agent",
-    "mode_updated_at": "2026-05-12T12:19:23Z"
+    "mode_updated_at": "2026-05-14T22:23:44Z"
+  },
+  "agent_structured": {
+    "clinic": "??????????? ??2",
+    "site_id": "mosgorzdrav-ru-sp2",
+    "site": "mosgorzdrav.ru/sp2",
+    "format_version": "block-metric-status-tf-poc.v1",
+    "blocks": [
+      {
+        "block": "блок 1",
+        "metrics": [
+          {
+            "metric": "Пациент не давал согласия на обработку данных",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "agent_access: timed_out",
+              "evidence_url: https://mosgorzdrav.ru/sp2/",
+              "fallback_url: https://www.mosgorzdrav.ru/sp2/",
+              "requests_result: read timeout",
+              "iwr_result: operation timed out",
+              "recheck_required_when_site_accessible: true"
+            ]
+          },
+          {
+            "metric": "Согласие подставлено автоматически — это хуже чем его отсутствие",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "agent_access: timed_out",
+              "evidence_url: https://mosgorzdrav.ru/sp2/",
+              "fallback_url: https://www.mosgorzdrav.ru/sp2/",
+              "requests_result: read timeout",
+              "iwr_result: operation timed out",
+              "recheck_required_when_site_accessible: true"
+            ]
+          },
+          {
+            "metric": "На сайте нет обязательного документа об обработке данных пациентов",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "agent_access: timed_out",
+              "evidence_url: https://mosgorzdrav.ru/sp2/",
+              "fallback_url: https://www.mosgorzdrav.ru/sp2/",
+              "requests_result: read timeout",
+              "iwr_result: operation timed out",
+              "recheck_required_when_site_accessible: true"
+            ]
+          },
+          {
+            "metric": "Имя и телефон пациента передаются в открытом виде — любой может перехватить",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "agent_access: timed_out",
+              "evidence_url: https://mosgorzdrav.ru/sp2/",
+              "fallback_url: https://www.mosgorzdrav.ru/sp2/",
+              "requests_result: read timeout",
+              "iwr_result: operation timed out",
+              "recheck_required_when_site_accessible: true"
+            ]
+          },
+          {
+            "metric": "На сайте упоминается организация, признанная в России экстремистской",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "agent_access: timed_out",
+              "evidence_url: https://mosgorzdrav.ru/sp2/",
+              "fallback_url: https://www.mosgorzdrav.ru/sp2/",
+              "requests_result: read timeout",
+              "iwr_result: operation timed out",
+              "recheck_required_when_site_accessible: true"
+            ]
+          },
+          {
+            "metric": "Сайт собирает данные пациентов без их уведомления",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "agent_access: timed_out",
+              "evidence_url: https://mosgorzdrav.ru/sp2/",
+              "fallback_url: https://www.mosgorzdrav.ru/sp2/",
+              "requests_result: read timeout",
+              "iwr_result: operation timed out",
+              "recheck_required_when_site_accessible: true"
+            ]
+          },
+          {
+            "metric": "Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "agent_access: timed_out",
+              "evidence_url: https://mosgorzdrav.ru/sp2/",
+              "fallback_url: https://www.mosgorzdrav.ru/sp2/",
+              "requests_result: read timeout",
+              "iwr_result: operation timed out",
+              "recheck_required_when_site_accessible: true"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "блок 2",
+        "metrics": [
+          {
+            "metric": "Нет онлайн-записи со слотами",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "agent_access: timed_out",
+              "evidence_url: https://mosgorzdrav.ru/sp2/",
+              "fallback_url: https://www.mosgorzdrav.ru/sp2/",
+              "requests_result: read timeout",
+              "iwr_result: operation timed out",
+              "recheck_required_when_site_accessible: true"
+            ]
+          },
+          {
+            "metric": "Сайт — цифровая визитка, не инструмент",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "agent_access: timed_out",
+              "evidence_url: https://mosgorzdrav.ru/sp2/",
+              "fallback_url: https://www.mosgorzdrav.ru/sp2/",
+              "requests_result: read timeout",
+              "iwr_result: operation timed out",
+              "recheck_required_when_site_accessible: true"
+            ]
+          },
+          {
+            "metric": "Вы не знаете кто приходит на сайт и почему уходит",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "agent_access: timed_out",
+              "evidence_url: https://mosgorzdrav.ru/sp2/",
+              "fallback_url: https://www.mosgorzdrav.ru/sp2/",
+              "requests_result: read timeout",
+              "iwr_result: operation timed out",
+              "recheck_required_when_site_accessible: true"
+            ]
+          },
+          {
+            "metric": "Пациент не может написать первым",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "agent_access: timed_out",
+              "evidence_url: https://mosgorzdrav.ru/sp2/",
+              "fallback_url: https://www.mosgorzdrav.ru/sp2/",
+              "requests_result: read timeout",
+              "iwr_result: operation timed out",
+              "recheck_required_when_site_accessible: true"
+            ]
+          },
+          {
+            "metric": "Прайс-лист доступен без регистрации",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "agent_access: timed_out",
+              "evidence_url: https://mosgorzdrav.ru/sp2/",
+              "fallback_url: https://www.mosgorzdrav.ru/sp2/",
+              "requests_result: read timeout",
+              "iwr_result: operation timed out",
+              "recheck_required_when_site_accessible: true"
+            ]
+          },
+          {
+            "metric": "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "agent_access: timed_out",
+              "evidence_url: https://mosgorzdrav.ru/sp2/",
+              "fallback_url: https://www.mosgorzdrav.ru/sp2/",
+              "requests_result: read timeout",
+              "iwr_result: operation timed out",
+              "recheck_required_when_site_accessible: true"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "блок 3",
+        "metrics": [
+          {
+            "metric": "Страница врачей / специалистов",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "agent_access: timed_out",
+              "evidence_url: https://mosgorzdrav.ru/sp2/",
+              "fallback_url: https://www.mosgorzdrav.ru/sp2/",
+              "requests_result: read timeout",
+              "iwr_result: operation timed out",
+              "recheck_required_when_site_accessible: true"
+            ]
+          },
+          {
+            "metric": "Адрес и карта на сайте",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "agent_access: timed_out",
+              "evidence_url: https://mosgorzdrav.ru/sp2/",
+              "fallback_url: https://www.mosgorzdrav.ru/sp2/",
+              "requests_result: read timeout",
+              "iwr_result: operation timed out",
+              "recheck_required_when_site_accessible: true"
+            ]
+          },
+          {
+            "metric": "Часы работы",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "agent_access: timed_out",
+              "evidence_url: https://mosgorzdrav.ru/sp2/",
+              "fallback_url: https://www.mosgorzdrav.ru/sp2/",
+              "requests_result: read timeout",
+              "iwr_result: operation timed out",
+              "recheck_required_when_site_accessible: true"
+            ]
+          },
+          {
+            "metric": "Отзывы пациентов на сайте",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "agent_access: timed_out",
+              "evidence_url: https://mosgorzdrav.ru/sp2/",
+              "fallback_url: https://www.mosgorzdrav.ru/sp2/",
+              "requests_result: read timeout",
+              "iwr_result: operation timed out",
+              "recheck_required_when_site_accessible: true"
+            ]
+          },
+          {
+            "metric": "Актуальность года в футере (если он вообще есть). Если его нет — ок",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "agent_access: timed_out",
+              "evidence_url: https://mosgorzdrav.ru/sp2/",
+              "fallback_url: https://www.mosgorzdrav.ru/sp2/",
+              "requests_result: read timeout",
+              "iwr_result: operation timed out",
+              "recheck_required_when_site_accessible: true"
+            ]
+          },
+          {
+            "metric": "Есть отдельная страница контактов",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "agent_access: timed_out",
+              "evidence_url: https://mosgorzdrav.ru/sp2/",
+              "fallback_url: https://www.mosgorzdrav.ru/sp2/",
+              "requests_result: read timeout",
+              "iwr_result: operation timed out",
+              "recheck_required_when_site_accessible: true"
+            ]
+          },
+          {
+            "metric": "Орфографические ошибки в тексте сайта",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "agent_access: timed_out",
+              "evidence_url: https://mosgorzdrav.ru/sp2/",
+              "fallback_url: https://www.mosgorzdrav.ru/sp2/",
+              "requests_result: read timeout",
+              "iwr_result: operation timed out",
+              "recheck_required_when_site_accessible: true"
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
