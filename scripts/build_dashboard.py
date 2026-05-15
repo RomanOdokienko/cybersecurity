@@ -169,7 +169,17 @@ def read_comments_map(path: Path) -> dict[str, str]:
     for k, v in data.items():
         if not isinstance(k, str):
             continue
-        out[k] = str(v) if v is not None else ""
+        val = str(v) if v is not None else ""
+        # Guard against mojibake/lost Cyrillic caused by shell codepage issues.
+        if "�" in val:
+            raise SystemExit(
+                f"Broken UTF-8 in comments for site_id={k!r}: replacement character found."
+            )
+        if "?" in val and re.search(r"\?{3,}", val) and not re.search(r"[А-Яа-яЁё]", val):
+            raise SystemExit(
+                f"Suspicious comment encoding for site_id={k!r}: looks like lost Cyrillic (????...)."
+            )
+        out[k] = val
     return out
 
 
