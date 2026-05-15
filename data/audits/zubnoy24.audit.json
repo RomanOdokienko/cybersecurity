@@ -75,11 +75,11 @@
     }
   },
   "verification": {
-    "b2": true,
-    "b4": true,
+    "b2": false,
+    "b4": false,
     "mode": "agent",
-    "mode_updated_at": "2026-05-14T23:27:27Z",
-    "b3": true
+    "mode_updated_at": "2026-05-15T05:48:57Z",
+    "b3": false
   },
   "agent_structured": {
     "clinic": "?????? 24",
@@ -92,71 +92,79 @@
         "metrics": [
           {
             "metric": "Пациент не давал согласия на обработку данных",
-            "status": "ок",
-            "t_f": true,
+            "status": "-",
+            "t_f": null,
             "poc": [
-              "forms_total: 0",
-              "no_patient_forms_found: true",
-              "evidence_url: https://zubnoy24.ru/"
+              "site_state: parked_domain",
+              "evidence_url: https://zubnoy24.ru/",
+              "observed_banner: domain for sale (NIC.ru parking page)",
+              "content_audit_applicable: false"
             ]
           },
           {
             "metric": "Согласие подставлено автоматически — это хуже чем его отсутствие",
-            "status": "ок",
-            "t_f": true,
+            "status": "-",
+            "t_f": null,
             "poc": [
-              "forms_total: 0",
-              "consent_prechecked_count: 0",
-              "evidence_url: https://zubnoy24.ru/"
+              "site_state: parked_domain",
+              "evidence_url: https://zubnoy24.ru/",
+              "observed_banner: domain for sale (NIC.ru parking page)",
+              "content_audit_applicable: false"
             ]
           },
           {
             "metric": "На сайте нет обязательного документа об обработке данных пациентов",
-            "status": "проблема",
-            "t_f": false,
+            "status": "-",
+            "t_f": null,
             "poc": [
-              "policy_document_found: false",
-              "site_content_type: parked-domain",
-              "evidence_url: https://zubnoy24.ru/"
+              "site_state: parked_domain",
+              "evidence_url: https://zubnoy24.ru/",
+              "observed_banner: domain for sale (NIC.ru parking page)",
+              "content_audit_applicable: false"
             ]
           },
           {
             "metric": "Имя и телефон пациента передаются в открытом виде — любой может перехватить",
-            "status": "ок",
-            "t_f": true,
+            "status": "-",
+            "t_f": null,
             "poc": [
-              "forms_total: 0",
-              "name_phone_transmission_not_detected: true",
-              "evidence_url: https://zubnoy24.ru/"
+              "site_state: parked_domain",
+              "evidence_url: https://zubnoy24.ru/",
+              "observed_banner: domain for sale (NIC.ru parking page)",
+              "content_audit_applicable: false"
             ]
           },
           {
             "metric": "На сайте упоминается организация, признанная в России экстремистской",
-            "status": "ок",
-            "t_f": true,
+            "status": "-",
+            "t_f": null,
             "poc": [
-              "extremist_mentions_found: false",
-              "checked_page: https://zubnoy24.ru/"
+              "site_state: parked_domain",
+              "evidence_url: https://zubnoy24.ru/",
+              "observed_banner: domain for sale (NIC.ru parking page)",
+              "content_audit_applicable: false"
             ]
           },
           {
             "metric": "Сайт собирает данные пациентов без их уведомления",
-            "status": "проблема",
-            "t_f": false,
+            "status": "-",
+            "t_f": null,
             "poc": [
-              "metrika_on_page: true",
-              "cookie_notice_found: false",
-              "site_page_type: parked-domain"
+              "site_state: parked_domain",
+              "evidence_url: https://zubnoy24.ru/",
+              "observed_banner: domain for sale (NIC.ru parking page)",
+              "content_audit_applicable: false"
             ]
           },
           {
             "metric": "Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова",
-            "status": "проблема",
-            "t_f": false,
+            "status": "-",
+            "t_f": null,
             "poc": [
-              "metrika_on_site: true",
-              "policy_found: false",
-              "policy_disclosure_confirmed: false"
+              "site_state: parked_domain",
+              "evidence_url: https://zubnoy24.ru/",
+              "observed_banner: domain for sale (NIC.ru parking page)",
+              "content_audit_applicable: false"
             ]
           }
         ]
@@ -166,59 +174,68 @@
         "metrics": [
           {
             "metric": "Нет онлайн-записи со слотами",
-            "status": "проблема",
-            "t_f": false,
+            "status": "-",
+            "t_f": null,
             "poc": [
-              "online_booking_with_slots_found: false",
-              "booking_links_found: false",
-              "evidence_url: https://zubnoy24.ru/"
+              "site_state: parked_domain",
+              "evidence_url: https://zubnoy24.ru/",
+              "observed_banner: domain for sale (NIC.ru parking page)",
+              "content_audit_applicable: false"
             ]
           },
           {
             "metric": "Сайт — цифровая визитка, не инструмент",
-            "status": "проблема",
-            "t_f": false,
+            "status": "-",
+            "t_f": null,
             "poc": [
-              "pages_count: 1",
-              "site_type: parked-domain",
-              "instrumental_sections_found: false"
+              "site_state: parked_domain",
+              "evidence_url: https://zubnoy24.ru/",
+              "observed_banner: domain for sale (NIC.ru parking page)",
+              "content_audit_applicable: false"
             ]
           },
           {
             "metric": "Вы не знаете кто приходит на сайт и почему уходит",
-            "status": "ок",
-            "t_f": true,
+            "status": "-",
+            "t_f": null,
             "poc": [
-              "analytics_found: true",
-              "marker: yandex metrika script"
+              "site_state: parked_domain",
+              "evidence_url: https://zubnoy24.ru/",
+              "observed_banner: domain for sale (NIC.ru parking page)",
+              "content_audit_applicable: false"
             ]
           },
           {
             "metric": "Пациент не может написать первым",
-            "status": "проблема",
-            "t_f": false,
+            "status": "-",
+            "t_f": null,
             "poc": [
-              "messenger_or_chat_links_found: false",
-              "evidence_url: https://zubnoy24.ru/"
+              "site_state: parked_domain",
+              "evidence_url: https://zubnoy24.ru/",
+              "observed_banner: domain for sale (NIC.ru parking page)",
+              "content_audit_applicable: false"
             ]
           },
           {
             "metric": "Прайс-лист доступен без регистрации",
-            "status": "проблема",
-            "t_f": false,
+            "status": "-",
+            "t_f": null,
             "poc": [
-              "public_price_content_found: false",
-              "price_pages_found: false",
-              "evidence_url: https://zubnoy24.ru/"
+              "site_state: parked_domain",
+              "evidence_url: https://zubnoy24.ru/",
+              "observed_banner: domain for sale (NIC.ru parking page)",
+              "content_audit_applicable: false"
             ]
           },
           {
             "metric": "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
-            "status": "проблема",
-            "t_f": false,
+            "status": "-",
+            "t_f": null,
             "poc": [
-              "schema_org_found: false",
-              "evidence_url: https://zubnoy24.ru/"
+              "site_state: parked_domain",
+              "evidence_url: https://zubnoy24.ru/",
+              "observed_banner: domain for sale (NIC.ru parking page)",
+              "content_audit_applicable: false"
             ]
           }
         ]
@@ -228,66 +245,79 @@
         "metrics": [
           {
             "metric": "Страница врачей / специалистов",
-            "status": "проблема",
-            "t_f": false,
+            "status": "-",
+            "t_f": null,
             "poc": [
-              "doctors_content_found: false",
-              "doctor_pages_found: false",
-              "evidence_url: https://zubnoy24.ru/"
+              "site_state: parked_domain",
+              "evidence_url: https://zubnoy24.ru/",
+              "observed_banner: domain for sale (NIC.ru parking page)",
+              "content_audit_applicable: false"
             ]
           },
           {
             "metric": "Адрес и карта на сайте",
-            "status": "проблема",
-            "t_f": false,
+            "status": "-",
+            "t_f": null,
             "poc": [
-              "address_or_map_found: false",
-              "evidence_url: https://zubnoy24.ru/"
+              "site_state: parked_domain",
+              "evidence_url: https://zubnoy24.ru/",
+              "observed_banner: domain for sale (NIC.ru parking page)",
+              "content_audit_applicable: false"
             ]
           },
           {
             "metric": "Часы работы",
-            "status": "проблема",
-            "t_f": false,
+            "status": "-",
+            "t_f": null,
             "poc": [
-              "hours_found: false",
-              "evidence_url: https://zubnoy24.ru/"
+              "site_state: parked_domain",
+              "evidence_url: https://zubnoy24.ru/",
+              "observed_banner: domain for sale (NIC.ru parking page)",
+              "content_audit_applicable: false"
             ]
           },
           {
             "metric": "Отзывы пациентов на сайте",
-            "status": "проблема",
-            "t_f": false,
+            "status": "-",
+            "t_f": null,
             "poc": [
-              "reviews_found: false",
-              "evidence_url: https://zubnoy24.ru/"
+              "site_state: parked_domain",
+              "evidence_url: https://zubnoy24.ru/",
+              "observed_banner: domain for sale (NIC.ru parking page)",
+              "content_audit_applicable: false"
             ]
           },
           {
             "metric": "Актуальность года в футере (если он вообще есть). Если его нет — ок",
-            "status": "ок",
-            "t_f": true,
+            "status": "-",
+            "t_f": null,
             "poc": [
-              "footer_present: false_or_non-clinic",
-              "rule_applied: no footer year => ok"
+              "site_state: parked_domain",
+              "evidence_url: https://zubnoy24.ru/",
+              "observed_banner: domain for sale (NIC.ru parking page)",
+              "content_audit_applicable: false"
             ]
           },
           {
             "metric": "Есть отдельная страница контактов",
-            "status": "проблема",
-            "t_f": false,
+            "status": "-",
+            "t_f": null,
             "poc": [
-              "contact_page_or_block_found: false",
-              "evidence_url: https://zubnoy24.ru/"
+              "site_state: parked_domain",
+              "evidence_url: https://zubnoy24.ru/",
+              "observed_banner: domain for sale (NIC.ru parking page)",
+              "content_audit_applicable: false"
             ]
           },
           {
             "metric": "Орфографические ошибки в тексте сайта",
-            "status": "ок",
-            "t_f": true,
+            "status": "-",
+            "t_f": null,
             "poc": [
-              "critical_typos_found: false",
-              "content_type: parked-domain banner only"
+              "site_state: parked_domain",
+              "evidence_url: https://zubnoy24.ru/",
+              "observed_banner: domain for sale (NIC.ru parking page)",
+              "content_audit_applicable: false"
             ]
           }
         ]
