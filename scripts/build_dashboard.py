@@ -265,6 +265,15 @@ def extract_agent_structured_step2(audit):
     schema = step2_block_schema()
     status_whitelist = {"ок", "проблема", "проверить", "н/п", "-", "частично", "рекомендация"}
     status_aliases = {"ok": "ок"}
+    def looks_broken_cyrillic(text: str) -> bool:
+        if not text:
+            return False
+        if "�" in text:
+            return True
+        # Typical mojibake symptom from bad shell/codepage writes.
+        if re.search(r"\?{3,}", text) and not re.search(r"[А-Яа-яЁё]", text):
+            return True
+        return False
 
     for block_idx, block_schema in enumerate(schema):
         bid = block_schema["id"]
@@ -286,6 +295,11 @@ def extract_agent_structured_step2(audit):
                 continue
             metric = raw_metrics[metric_idx]
             metric_name = str(metric.get("metric") or "").strip() or expected_name
+            if looks_broken_cyrillic(metric_name):
+                payload["errors"].append(
+                    f"agent_structured.blocks[{block_idx}].metrics[{metric_idx}].metric invalid: broken encoding"
+                )
+                metric_name = expected_name
             raw_status = str(metric.get("status") or "").strip()
             status = status_aliases.get(raw_status.lower(), raw_status)
             if status not in status_whitelist:
