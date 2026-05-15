@@ -1434,12 +1434,15 @@
           },
           {
             "metric": "На сайте нет обязательного документа об обработке данных пациентов",
-            "status": "проблема",
+            "status": "ок",
             "t_f": true,
             "poc": [
-              "policy_link_found: https://dsclinic-msk.ru/privacy",
-              "policy_page_status: 403",
-              "policy_document_accessible: False"
+              "policy_page_url: https://dsclinic-msk.ru/privacy",
+              "policy_page_opened: True",
+              "policy_scan_images_found: 7",
+              "policy_scan_example_1: https://static.tildacdn.com/tild3438-6661-4165-a235-313136326239/DOC140_page-0001.jpg (200)",
+              "policy_scan_example_2: https://static.tildacdn.com/tild6363-3535-4761-b735-643561623063/DOC140_page-0007.jpg (200)",
+              "conclusion: обязательный документ ПДн опубликован как сканы на policy-странице"
             ]
           },
           {

@@ -659,6 +659,40 @@ def _extract_policy_doc_links(base_url: str, html_low: str):
     return out
 
 
+def _extract_policy_image_links(base_url: str, html_low: str):
+    out = []
+    seen = set()
+    src = str(html_low or "")
+    if not src:
+        return out
+
+    patterns = [
+        r'(?is)<img\b[^>]*\bsrc\s*=\s*(?:"([^"]*)"|\'([^\']*)\'|([^\s>]+))',
+        r'(?is)<img\b[^>]*\bdata-original\s*=\s*(?:"([^"]*)"|\'([^\']*)\'|([^\s>]+))',
+        r'(?is)<meta\b[^>]*\bitemprop\s*=\s*["\']image["\'][^>]*\bcontent\s*=\s*(?:"([^"]*)"|\'([^\']*)\'|([^\s>]+))',
+    ]
+    for pat in patterns:
+        for m in re.finditer(pat, src):
+            raw = str(m.group(1) or m.group(2) or m.group(3) or "").strip()
+            if not raw:
+                continue
+            abs_url = urljoin(base_url, raw)
+            if abs_url in seen:
+                continue
+            seen.add(abs_url)
+            out.append(abs_url)
+    return out
+
+
+def _looks_like_policy_scan_image(url: str) -> bool:
+    path = urlparse(str(url or "")).path.lower()
+    file_name = Path(path).name
+    return bool(
+        re.search(r"(doc\d+_page[-_]\d+|page[-_]?0{0,3}\d{1,4})", file_name)
+        or re.search(r"(polit|privacy|konfid|person|obrabot)", file_name)
+    )
+
+
 def evaluate_policy_document_presence(audit, policy_evidence=None, max_urls: int = 8):
     scan = scan_policy_pages_for_tokens(
         audit,
@@ -671,6 +705,7 @@ def evaluate_policy_document_presence(audit, policy_evidence=None, max_urls: int
     matched_tokens_union = set()
     valid_urls = []
     broken_doc_urls = []
+    scan_image_urls = []
     per_url_signals = []
 
     for u in checked_urls:
@@ -681,6 +716,9 @@ def evaluate_policy_document_presence(audit, policy_evidence=None, max_urls: int
             has_docs = False
             docs_ok = False
             docs_broken = False
+            has_scan_images = False
+            scan_images_ok = False
+            scan_images_ok_count = 0
             policy_hint = any(tok in text_low for tok in ["политик", "конфиден", "персональ"])
             strong_text = bool(_is_probably_readable_text(text_low) and policy_hint and len(matched_tokens) >= 1)
             url_valid = bool(strong_text)
@@ -694,11 +732,24 @@ def evaluate_policy_document_presence(audit, policy_evidence=None, max_urls: int
             has_docs = bool(doc_statuses)
             docs_ok = any((d.get("status") or 0) == 200 for d in doc_statuses)
             docs_broken = has_docs and not docs_ok
+            image_links = _extract_policy_image_links(u, html_low)
+            policy_like_images = [
+                iu for iu in image_links
+                if _looks_like_policy_scan_image(iu)
+                and any(iu.lower().endswith(ext) for ext in [".jpg", ".jpeg", ".png", ".webp"])
+            ]
+            image_statuses = [{"url": iu, "status": _probe_url_status(iu)} for iu in policy_like_images[:12]]
+            scan_images_ok_count = sum(1 for x in image_statuses if (x.get("status") or 0) == 200)
+            has_scan_images = bool(policy_like_images)
+            # Count policy page as valid if we can open at least two policy-like scan pages.
+            scan_images_ok = scan_images_ok_count >= 2
 
             strong_text = bool(readable_text and len(matched_tokens) >= 3)
-            url_valid = bool(docs_ok or (strong_text and not docs_broken))
+            url_valid = bool(docs_ok or scan_images_ok or (strong_text and not docs_broken))
         if url_valid:
             valid_urls.append(u)
+        if scan_images_ok:
+            scan_image_urls.append(u)
         if docs_broken:
             broken_doc_urls.append(u)
         per_url_signals.append({
@@ -707,6 +758,9 @@ def evaluate_policy_document_presence(audit, policy_evidence=None, max_urls: int
             "has_doc_links": has_docs,
             "doc_links_ok": docs_ok,
             "doc_links_broken": docs_broken,
+            "has_policy_scan_images": has_scan_images,
+            "policy_scan_images_ok": scan_images_ok,
+            "policy_scan_images_ok_count": scan_images_ok_count,
             "strong_text": strong_text,
             "valid": url_valid,
         })
@@ -721,6 +775,7 @@ def evaluate_policy_document_presence(audit, policy_evidence=None, max_urls: int
         "candidate_urls": scan.get("candidate_urls") or [],
         "valid_urls": valid_urls,
         "broken_doc_urls": broken_doc_urls,
+        "scan_image_urls": scan_image_urls,
         "per_url_signals": per_url_signals,
     }
 
@@ -2327,6 +2382,10 @@ def build_detail_page(item, audit, s):
             "policy_urls_with_broken_doc_links: "
             + (", ".join((policy_validation.get("broken_doc_urls") or [])[:10]) if policy_validation.get("broken_doc_urls") else "не найдены")
         )
+        policy_lines.append(
+            "policy_urls_with_scan_pages: "
+            + (", ".join((policy_validation.get("scan_image_urls") or [])[:10]) if policy_validation.get("scan_image_urls") else "не найдены")
+        )
         policy_lines.append(f"policy_evidence_count: {len(policy_evidence)}")
         for x in policy_evidence[:40]:
             if str(x.get("kind")) == "legal-page":
@@ -2870,7 +2929,7 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
     <h4>2. Согласие подставлено автоматически — это хуже чем его отсутствие</h4>
     <p><b>ок:</b> есть отдельное явное согласие до отправки формы (чекбокс/эквивалент) и нет предустановленных чекбоксов. <b>проблема:</b> есть хотя бы один prechecked-чекбокс ИЛИ нет отдельного явного согласия (только текст «нажимая кнопку…» или чекбокс отсутствует).</p>
     <h4>3. На сайте нет обязательного документа об обработке данных пациентов</h4>
-    <p><b>ок:</b> найдена реальная policy-страница/документ ПДн по ссылкам сайта (навигация/контент) с PoC URL и контекстом. <b>проблема:</b> такого доказательства нет. Технические псевдо-ссылки (например, action/data-href без реальной страницы) не засчитываются.</p>
+    <p><b>ок:</b> найдена реальная policy-страница/документ ПДн по ссылкам сайта (навигация/контент) с PoC URL и контекстом; также засчитывается случай, когда документ опубликован как сканы/изображения на policy-странице (и файлы реально открываются). <b>проблема:</b> такого доказательства нет. Технические псевдо-ссылки (например, action/data-href без реальной страницы) не засчитываются.</p>
     <h4>4. Имя и телефон пациента передаются в открытом виде — любой может перехватить</h4>
     <p><b>ок:</b> формы не отправляют данные на HTTP (используется HTTPS). <b>проблема:</b> найден хотя бы один HTTP action.</p>
     <h4>5. На сайте упоминается организация, признанная в России экстремистской</h4>
