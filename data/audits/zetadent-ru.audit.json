@@ -226,7 +226,265 @@
     "sitemap_used_urls": 3
   },
   "verification": {
-    "b2": false,
-    "b4": false
+    "b2": true,
+    "b4": true,
+    "mode": "agent",
+    "mode_updated_at": "2026-05-18T12:40:46Z",
+    "b1": true,
+    "b3": true
+  },
+  "tech": {
+    "analytics": {
+      "found": true,
+      "kinds": [
+        "yandex_metrika"
+      ]
+    },
+    "med_trust": {
+      "price_public_found": true,
+      "doctors_content_found": true,
+      "address_found": true,
+      "map_found": true,
+      "hours_found": true,
+      "reviews_found": true,
+      "contact_page_exists": true,
+      "contact_block_found": true,
+      "footer_year": {
+        "present": false,
+        "current_year": null,
+        "detected_year": null
+      },
+      "text_typos": {
+        "checked_pages": [
+          "https://zetadent.ru/",
+          "https://zetadent.ru/ceny/",
+          "https://zetadent.ru/kontakty/",
+          "https://zetadent.ru/otzyvy/",
+          "https://zetadent.ru/vrachi/"
+        ],
+        "issues": []
+      }
+    }
+  },
+  "agent_structured": {
+    "clinic": "ZetaDent",
+    "site_id": "zetadent-ru",
+    "site": "zetadent.ru",
+    "format_version": "block-metric-status-tf-poc.v1",
+    "blocks": [
+      {
+        "block": "Блок 1",
+        "metrics": [
+          {
+            "metric": "Пациент не давал согласия на обработку данных",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "forms_total: 7",
+              "consent_missing_count: 0",
+              "consent_checkbox_example: https://zetadent.ru/ (wpcf7 acceptance-1)"
+            ]
+          },
+          {
+            "metric": "Согласие подставлено автоматически — это хуже чем его отсутствие",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "forms_total: 7",
+              "consent_prechecked_count: 0",
+              "explicit_consent_missing_count: 0"
+            ]
+          },
+          {
+            "metric": "На сайте нет обязательного документа об обработке данных пациентов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "policy_url: https://zetadent.ru/politika-konfidentsialnosti/",
+              "policy_http_status: 200",
+              "policy_page_contains: \"Политика конфиденциальности персональных данных\""
+            ]
+          },
+          {
+            "metric": "Имя и телефон пациента передаются в открытом виде — любой может перехватить",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "site_scheme: https",
+              "form_action_sample: /#wpcf7-f8-p1126-o2 (HTTPS page)",
+              "http_form_posts_found: 0"
+            ]
+          },
+          {
+            "metric": "На сайте упоминается организация, признанная в России экстремистской",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "facebook_links_found: 0",
+              "instagram_links_found: 0",
+              "checked_pages: https://zetadent.ru/, /ceny/, /kontakty/, /otzyvy/, /vrachi/"
+            ]
+          },
+          {
+            "metric": "Сайт собирает данные пациентов без их уведомления",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "cookie_notice_found: true",
+              "evidence_page: https://zetadent.ru/",
+              "cookie_notice_text: \"Настоящий сайт использует файлы cookie...\""
+            ]
+          },
+          {
+            "metric": "Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "metrika_found: true (ym + mc.yandex.ru/watch/93948234)",
+              "policy_url_checked: https://zetadent.ru/politika-konfidentsialnosti/",
+              "policy_mentions_metrika: true (\"Яндекс.Метрика, Google Analytics\")"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "Блок 2",
+        "metrics": [
+          {
+            "metric": "Нет онлайн-записи со слотами",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "slot_booking_widget_found: false",
+              "external_booking_link_found: false",
+              "found_only_popup_form_trigger: .zapis (Popup Maker + Contact Form 7)"
+            ]
+          },
+          {
+            "metric": "Сайт — цифровая визитка, не инструмент",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "pages_crawled_semantic: 13",
+              "key_pages: /ceny/, /kontakty/, /otzyvy/, /vrachi/",
+              "conclusion: site_has_functional_depth"
+            ]
+          },
+          {
+            "metric": "Вы не знаете кто приходит на сайт и почему уходит",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "analytics_found: true",
+              "yandex_metrika_id: 93948234",
+              "counter_script: https://mc.yandex.ru/metrika/tag.js"
+            ]
+          },
+          {
+            "metric": "Пациент не может написать первым",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "contact_form_found: true",
+              "sample_page: https://zetadent.ru/kontakty/",
+              "fields_detected: name + phone + consent checkbox"
+            ]
+          },
+          {
+            "metric": "Прайс-лист доступен без регистрации",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "price_page: https://zetadent.ru/ceny/",
+              "public_access_http_status: 200",
+              "price_rows_detected: examples \"2000 руб.\", \"8000 руб.\", \"35000 руб.\""
+            ]
+          },
+          {
+            "metric": "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "schema_ld_json_found: true",
+              "types_found: WebPage, WebSite, Organization, BreadcrumbList",
+              "evidence_page: https://zetadent.ru/"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "Блок 3",
+        "metrics": [
+          {
+            "metric": "Страница врачей / специалистов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "doctors_page: https://zetadent.ru/vrachi/",
+              "additional_page: https://zetadent.ru/vrachi-gnatologi/",
+              "doctor_profile_examples: /vrachi/bushina-liliya-grachikovna/, /vrachi/zaharov-vadim-borisovich/"
+            ]
+          },
+          {
+            "metric": "Адрес и карта на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "contacts_page: https://zetadent.ru/kontakty/",
+              "address_found: \"Ломоносовский пр-т, 34\"",
+              "map_embed_found: api-maps.yandex.ru/services/constructor/..."
+            ]
+          },
+          {
+            "metric": "Часы работы",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "hours_page: https://zetadent.ru/kontakty/",
+              "hours_text: \"Пн-Пт 9:00 — 21:00; Сб и Вс 10:00 — 20:00\""
+            ]
+          },
+          {
+            "metric": "Отзывы пациентов на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "reviews_page: https://zetadent.ru/otzyvy/",
+              "reviews_heading_found: \"Отзывы\"",
+              "ratings_blocks_found: \"10+ Отзывов\", \"5+ Отзывов\", \"70+ Отзывов\""
+            ]
+          },
+          {
+            "metric": "Актуальность года в футере (если он вообще есть). Если его нет — ок",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "footer_present: true",
+              "footer_year_present: false",
+              "rule_applied: no footer year => ok"
+            ]
+          },
+          {
+            "metric": "Есть отдельная страница контактов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "contacts_page_url: https://zetadent.ru/kontakty/",
+              "contacts_page_http_status: 200"
+            ]
+          },
+          {
+            "metric": "Орфографические ошибки в тексте сайта",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "checked_pages: https://zetadent.ru/, /ceny/, /kontakty/, /otzyvy/, /vrachi/",
+              "critical_typos_found: 0",
+              "note: obvious user-facing typos not detected in sampled pages"
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

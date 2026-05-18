@@ -15,9 +15,9 @@
     },
     {
       "requested": "https://fantasy-smile.ru/contacts/feedback.php",
-      "status": 404,
+      "status": null,
       "final_url": "https://fantasy-smile.ru/contacts/feedback.php",
-      "error": "HTTPError 404"
+      "error": "HTTP Error 404: Not Found"
     },
     {
       "requested": "https://fantasy-smile.ru/contacts/index.php",
@@ -30,24 +30,6 @@
       "status": 200,
       "final_url": "https://fantasy-smile.ru/contacts/requisites.php",
       "error": null
-    },
-    {
-      "requested": "https://fantasy-smile.ru/appointment",
-      "status": 404,
-      "final_url": "https://fantasy-smile.ru/appointment",
-      "error": "HTTPError 404"
-    },
-    {
-      "requested": "https://fantasy-smile.ru/booking",
-      "status": 404,
-      "final_url": "https://fantasy-smile.ru/booking",
-      "error": "HTTPError 404"
-    },
-    {
-      "requested": "https://fantasy-smile.ru/zapis",
-      "status": 404,
-      "final_url": "https://fantasy-smile.ru/zapis",
-      "error": "HTTPError 404"
     },
     {
       "requested": "https://fantasy-smile.ru/doctors/",
@@ -122,15 +104,105 @@
       "error": null
     },
     {
-      "requested": "https://fantasy-smile.ru/law/",
+      "requested": "https://fantasy-smile.ru/privacy/",
+      "status": null,
+      "final_url": "https://fantasy-smile.ru/privacy/",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "requested": "https://fantasy-smile.ru/contacts/+74951479353",
+      "status": null,
+      "final_url": "https://fantasy-smile.ru/contacts/+74951479353",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "requested": "https://fantasy-smile.ru/doctors/+74951479353",
       "status": 200,
-      "final_url": "https://fantasy-smile.ru/law/",
+      "final_url": "https://fantasy-smile.ru/doctors/+74951479353/",
       "error": null
     },
     {
-      "requested": "https://fantasy-smile.ru/privacy/",
+      "requested": "https://fantasy-smile.ru/doctors/Bagomedov-ruslan-shamilevich/+74951479353",
+      "status": 200,
+      "final_url": "https://fantasy-smile.ru/doctors/Bagomedov-ruslan-shamilevich/+74951479353/",
+      "error": null
+    },
+    {
+      "requested": "https://fantasy-smile.ru/doctors/avalov-konstantin-aleksandrovich/+74951479353",
+      "status": 200,
+      "final_url": "https://fantasy-smile.ru/doctors/avalov-konstantin-aleksandrovich/+74951479353/",
+      "error": null
+    },
+    {
+      "requested": "https://fantasy-smile.ru/doctors/biryukbaev-timur-tlyutaevich/+74951479353",
+      "status": 200,
+      "final_url": "https://fantasy-smile.ru/doctors/biryukbaev-timur-tlyutaevich/+74951479353/",
+      "error": null
+    },
+    {
+      "requested": "https://fantasy-smile.ru/doctors/bokancha-polina-eduardovna/+74951479353",
+      "status": 200,
+      "final_url": "https://fantasy-smile.ru/doctors/bokancha-polina-eduardovna/+74951479353/",
+      "error": null
+    },
+    {
+      "requested": "https://fantasy-smile.ru/doctors/derkach-natalya-vladimirovna/+74951479353",
+      "status": 200,
+      "final_url": "https://fantasy-smile.ru/doctors/derkach-natalya-vladimirovna/+74951479353/",
+      "error": null
+    },
+    {
+      "requested": "https://fantasy-smile.ru/doctors/gamzaeva-tatyana-alladinovna/+74951479353",
+      "status": 200,
+      "final_url": "https://fantasy-smile.ru/doctors/gamzaeva-tatyana-alladinovna/+74951479353/",
+      "error": null
+    },
+    {
+      "requested": "https://fantasy-smile.ru/doctors/komarova-ekaterina-yurievna/+74951479353",
+      "status": 200,
+      "final_url": "https://fantasy-smile.ru/doctors/komarova-ekaterina-yurievna/+74951479353/",
+      "error": null
+    },
+    {
+      "requested": "https://fantasy-smile.ru/doctors/labinceva-radmila-alekseevna/+74951479353",
+      "status": 200,
+      "final_url": "https://fantasy-smile.ru/doctors/labinceva-radmila-alekseevna/+74951479353/",
+      "error": null
+    },
+    {
+      "requested": "https://fantasy-smile.ru/doctors/titova-tatyana-valerevna/+74951479353",
+      "status": 200,
+      "final_url": "https://fantasy-smile.ru/doctors/titova-tatyana-valerevna/+74951479353/",
+      "error": null
+    },
+    {
+      "requested": "https://fantasy-smile.ru/doctors/vladimirov-denis-petrovich/+74951479353",
+      "status": 200,
+      "final_url": "https://fantasy-smile.ru/doctors/vladimirov-denis-petrovich/+74951479353/",
+      "error": null
+    },
+    {
+      "requested": "https://fantasy-smile.ru/doctors/zholudeva-ekaterina-yurevna/+74951479353",
+      "status": 200,
+      "final_url": "https://fantasy-smile.ru/doctors/zholudeva-ekaterina-yurevna/+74951479353/",
+      "error": null
+    },
+    {
+      "requested": "https://fantasy-smile.ru/services/",
+      "status": 200,
+      "final_url": "https://fantasy-smile.ru/services/",
+      "error": null
+    },
+    {
+      "requested": "https://fantasy-smile.ru/reviews/",
       "status": 404,
-      "final_url": "https://fantasy-smile.ru/privacy/",
+      "final_url": "https://fantasy-smile.ru/reviews/",
+      "error": "HTTPError 404"
+    },
+    {
+      "requested": "https://fantasy-smile.ru/otzyvy/",
+      "status": 404,
+      "final_url": "https://fantasy-smile.ru/otzyvy/",
       "error": "HTTPError 404"
     }
   ],
@@ -143,768 +215,306 @@
       "text": "Политика конфиденциальности"
     },
     {
-      "page": "https://fantasy-smile.ru/contacts/",
-      "href": "/privacy/",
-      "text": "Политика конфиденциальности"
-    },
-    {
-      "page": "https://fantasy-smile.ru/contacts/index.php",
-      "href": "/privacy/",
-      "text": "Политика конфиденциальности"
-    },
-    {
-      "page": "https://fantasy-smile.ru/contacts/requisites.php",
-      "href": "/privacy/",
-      "text": "Политика конфиденциальности"
-    },
-    {
-      "page": "https://fantasy-smile.ru/doctors/",
-      "href": "/privacy/",
-      "text": "Политика конфиденциальности"
-    },
-    {
-      "page": "https://fantasy-smile.ru/doctors/Bagomedov-ruslan-shamilevich/",
-      "href": "/privacy/",
-      "text": "Политика конфиденциальности"
-    },
-    {
-      "page": "https://fantasy-smile.ru/doctors/avalov-konstantin-aleksandrovich/",
-      "href": "/privacy/",
-      "text": "Политика конфиденциальности"
-    },
-    {
-      "page": "https://fantasy-smile.ru/doctors/biryukbaev-timur-tlyutaevich/",
-      "href": "/privacy/",
-      "text": "Политика конфиденциальности"
-    },
-    {
-      "page": "https://fantasy-smile.ru/doctors/bokancha-polina-eduardovna/",
-      "href": "/privacy/",
-      "text": "Политика конфиденциальности"
-    },
-    {
-      "page": "https://fantasy-smile.ru/doctors/derkach-natalya-vladimirovna/",
-      "href": "/privacy/",
-      "text": "Политика конфиденциальности"
-    },
-    {
-      "page": "https://fantasy-smile.ru/doctors/gamzaeva-tatyana-alladinovna/",
-      "href": "/privacy/",
-      "text": "Политика конфиденциальности"
-    },
-    {
-      "page": "https://fantasy-smile.ru/doctors/komarova-ekaterina-yurievna/",
-      "href": "/privacy/",
-      "text": "Политика конфиденциальности"
-    },
-    {
-      "page": "https://fantasy-smile.ru/doctors/labinceva-radmila-alekseevna/",
-      "href": "/privacy/",
-      "text": "Политика конфиденциальности"
-    },
-    {
-      "page": "https://fantasy-smile.ru/doctors/titova-tatyana-valerevna/",
-      "href": "/privacy/",
-      "text": "Политика конфиденциальности"
-    },
-    {
-      "page": "https://fantasy-smile.ru/doctors/vladimirov-denis-petrovich/",
-      "href": "/privacy/",
-      "text": "Политика конфиденциальности"
-    },
-    {
-      "page": "https://fantasy-smile.ru/doctors/zholudeva-ekaterina-yurevna/",
-      "href": "/privacy/",
-      "text": "Политика конфиденциальности"
-    },
-    {
-      "page": "https://fantasy-smile.ru/law/",
+      "page": "https://fantasy-smile.ru/services/",
       "href": "/privacy/",
       "text": "Политика конфиденциальности"
     }
   ],
   "forbidden_hits": [
     {
-      "token": "instagram",
-      "page": "https://fantasy-smile.ru/",
-      "context": "href=\"https://www.instagram.com/dr_derkach/\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram.com",
-      "page": "https://fantasy-smile.ru/",
-      "context": "href=\"https://www.instagram.com/dr_derkach/\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook",
-      "page": "https://fantasy-smile.ru/",
-      "context": "href=\"https://www.facebook.com/Fsmile.clinic\"",
-      "visibility": "только в коде"
-    },
-    {
       "token": "facebook.com",
       "page": "https://fantasy-smile.ru/",
       "context": "href=\"https://www.facebook.com/Fsmile.clinic\"",
-      "visibility": "только в коде"
+      "visibility": "в коде страницы"
     },
     {
-      "token": "instagram",
+      "token": "instagram.com",
       "page": "https://fantasy-smile.ru/",
-      "context": "src=\"/bitrix/templates/ortodont/img/social/instagram.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook",
-      "page": "https://fantasy-smile.ru/",
-      "context": "src=\"/bitrix/templates/ortodont/img/social/facebook.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram",
-      "page": "https://fantasy-smile.ru/contacts/",
       "context": "href=\"https://www.instagram.com/dr_derkach/\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram.com",
-      "page": "https://fantasy-smile.ru/contacts/",
-      "context": "href=\"https://www.instagram.com/dr_derkach/\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook",
-      "page": "https://fantasy-smile.ru/contacts/",
-      "context": "href=\"https://www.facebook.com/Fsmile.clinic\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook.com",
-      "page": "https://fantasy-smile.ru/contacts/",
-      "context": "href=\"https://www.facebook.com/Fsmile.clinic\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram",
-      "page": "https://fantasy-smile.ru/contacts/",
-      "context": "src=\"/bitrix/templates/ortodont/img/social/instagram.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook",
-      "page": "https://fantasy-smile.ru/contacts/",
-      "context": "src=\"/bitrix/templates/ortodont/img/social/facebook.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram",
-      "page": "https://fantasy-smile.ru/contacts/index.php",
-      "context": "href=\"https://www.instagram.com/dr_derkach/\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram.com",
-      "page": "https://fantasy-smile.ru/contacts/index.php",
-      "context": "href=\"https://www.instagram.com/dr_derkach/\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook",
-      "page": "https://fantasy-smile.ru/contacts/index.php",
-      "context": "href=\"https://www.facebook.com/Fsmile.clinic\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook.com",
-      "page": "https://fantasy-smile.ru/contacts/index.php",
-      "context": "href=\"https://www.facebook.com/Fsmile.clinic\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram",
-      "page": "https://fantasy-smile.ru/contacts/index.php",
-      "context": "src=\"/bitrix/templates/ortodont/img/social/instagram.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook",
-      "page": "https://fantasy-smile.ru/contacts/index.php",
-      "context": "src=\"/bitrix/templates/ortodont/img/social/facebook.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram",
-      "page": "https://fantasy-smile.ru/contacts/requisites.php",
-      "context": "href=\"https://www.instagram.com/dr_derkach/\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram.com",
-      "page": "https://fantasy-smile.ru/contacts/requisites.php",
-      "context": "href=\"https://www.instagram.com/dr_derkach/\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook",
-      "page": "https://fantasy-smile.ru/contacts/requisites.php",
-      "context": "href=\"https://www.facebook.com/Fsmile.clinic\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook.com",
-      "page": "https://fantasy-smile.ru/contacts/requisites.php",
-      "context": "href=\"https://www.facebook.com/Fsmile.clinic\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram",
-      "page": "https://fantasy-smile.ru/contacts/requisites.php",
-      "context": "src=\"/bitrix/templates/ortodont/img/social/instagram.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook",
-      "page": "https://fantasy-smile.ru/contacts/requisites.php",
-      "context": "src=\"/bitrix/templates/ortodont/img/social/facebook.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram",
-      "page": "https://fantasy-smile.ru/doctors/",
-      "context": "href=\"https://www.instagram.com/dr_derkach/\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram.com",
-      "page": "https://fantasy-smile.ru/doctors/",
-      "context": "href=\"https://www.instagram.com/dr_derkach/\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook",
-      "page": "https://fantasy-smile.ru/doctors/",
-      "context": "href=\"https://www.facebook.com/Fsmile.clinic\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook.com",
-      "page": "https://fantasy-smile.ru/doctors/",
-      "context": "href=\"https://www.facebook.com/Fsmile.clinic\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram",
-      "page": "https://fantasy-smile.ru/doctors/",
-      "context": "src=\"/bitrix/templates/ortodont/img/social/instagram.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook",
-      "page": "https://fantasy-smile.ru/doctors/",
-      "context": "src=\"/bitrix/templates/ortodont/img/social/facebook.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram",
-      "page": "https://fantasy-smile.ru/doctors/Bagomedov-ruslan-shamilevich/",
-      "context": "href=\"https://www.instagram.com/dr_derkach/\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram.com",
-      "page": "https://fantasy-smile.ru/doctors/Bagomedov-ruslan-shamilevich/",
-      "context": "href=\"https://www.instagram.com/dr_derkach/\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook",
-      "page": "https://fantasy-smile.ru/doctors/Bagomedov-ruslan-shamilevich/",
-      "context": "href=\"https://www.facebook.com/Fsmile.clinic\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook.com",
-      "page": "https://fantasy-smile.ru/doctors/Bagomedov-ruslan-shamilevich/",
-      "context": "href=\"https://www.facebook.com/Fsmile.clinic\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram",
-      "page": "https://fantasy-smile.ru/doctors/Bagomedov-ruslan-shamilevich/",
-      "context": "src=\"/bitrix/templates/ortodont/img/social/instagram.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook",
-      "page": "https://fantasy-smile.ru/doctors/Bagomedov-ruslan-shamilevich/",
-      "context": "src=\"/bitrix/templates/ortodont/img/social/facebook.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram",
-      "page": "https://fantasy-smile.ru/doctors/avalov-konstantin-aleksandrovich/",
-      "context": "href=\"https://www.instagram.com/dr_derkach/\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram.com",
-      "page": "https://fantasy-smile.ru/doctors/avalov-konstantin-aleksandrovich/",
-      "context": "href=\"https://www.instagram.com/dr_derkach/\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook",
-      "page": "https://fantasy-smile.ru/doctors/avalov-konstantin-aleksandrovich/",
-      "context": "href=\"https://www.facebook.com/Fsmile.clinic\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook.com",
-      "page": "https://fantasy-smile.ru/doctors/avalov-konstantin-aleksandrovich/",
-      "context": "href=\"https://www.facebook.com/Fsmile.clinic\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram",
-      "page": "https://fantasy-smile.ru/doctors/avalov-konstantin-aleksandrovich/",
-      "context": "src=\"/bitrix/templates/ortodont/img/social/instagram.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook",
-      "page": "https://fantasy-smile.ru/doctors/avalov-konstantin-aleksandrovich/",
-      "context": "src=\"/bitrix/templates/ortodont/img/social/facebook.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram",
-      "page": "https://fantasy-smile.ru/doctors/biryukbaev-timur-tlyutaevich/",
-      "context": "href=\"https://www.instagram.com/dr_derkach/\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram.com",
-      "page": "https://fantasy-smile.ru/doctors/biryukbaev-timur-tlyutaevich/",
-      "context": "href=\"https://www.instagram.com/dr_derkach/\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook",
-      "page": "https://fantasy-smile.ru/doctors/biryukbaev-timur-tlyutaevich/",
-      "context": "href=\"https://www.facebook.com/Fsmile.clinic\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook.com",
-      "page": "https://fantasy-smile.ru/doctors/biryukbaev-timur-tlyutaevich/",
-      "context": "href=\"https://www.facebook.com/Fsmile.clinic\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram",
-      "page": "https://fantasy-smile.ru/doctors/biryukbaev-timur-tlyutaevich/",
-      "context": "src=\"/bitrix/templates/ortodont/img/social/instagram.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook",
-      "page": "https://fantasy-smile.ru/doctors/biryukbaev-timur-tlyutaevich/",
-      "context": "src=\"/bitrix/templates/ortodont/img/social/facebook.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram",
-      "page": "https://fantasy-smile.ru/doctors/bokancha-polina-eduardovna/",
-      "context": "href=\"https://www.instagram.com/dr_derkach/\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram.com",
-      "page": "https://fantasy-smile.ru/doctors/bokancha-polina-eduardovna/",
-      "context": "href=\"https://www.instagram.com/dr_derkach/\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook",
-      "page": "https://fantasy-smile.ru/doctors/bokancha-polina-eduardovna/",
-      "context": "href=\"https://www.facebook.com/Fsmile.clinic\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook.com",
-      "page": "https://fantasy-smile.ru/doctors/bokancha-polina-eduardovna/",
-      "context": "href=\"https://www.facebook.com/Fsmile.clinic\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram",
-      "page": "https://fantasy-smile.ru/doctors/bokancha-polina-eduardovna/",
-      "context": "src=\"/bitrix/templates/ortodont/img/social/instagram.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook",
-      "page": "https://fantasy-smile.ru/doctors/bokancha-polina-eduardovna/",
-      "context": "src=\"/bitrix/templates/ortodont/img/social/facebook.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram",
-      "page": "https://fantasy-smile.ru/doctors/derkach-natalya-vladimirovna/",
-      "context": "href=\"https://www.instagram.com/dr_derkach/\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram.com",
-      "page": "https://fantasy-smile.ru/doctors/derkach-natalya-vladimirovna/",
-      "context": "href=\"https://www.instagram.com/dr_derkach/\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook",
-      "page": "https://fantasy-smile.ru/doctors/derkach-natalya-vladimirovna/",
-      "context": "href=\"https://www.facebook.com/Fsmile.clinic\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook.com",
-      "page": "https://fantasy-smile.ru/doctors/derkach-natalya-vladimirovna/",
-      "context": "href=\"https://www.facebook.com/Fsmile.clinic\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram",
-      "page": "https://fantasy-smile.ru/doctors/derkach-natalya-vladimirovna/",
-      "context": "src=\"/bitrix/templates/ortodont/img/social/instagram.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook",
-      "page": "https://fantasy-smile.ru/doctors/derkach-natalya-vladimirovna/",
-      "context": "src=\"/bitrix/templates/ortodont/img/social/facebook.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram",
-      "page": "https://fantasy-smile.ru/doctors/gamzaeva-tatyana-alladinovna/",
-      "context": "href=\"https://www.instagram.com/dr_derkach/\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram.com",
-      "page": "https://fantasy-smile.ru/doctors/gamzaeva-tatyana-alladinovna/",
-      "context": "href=\"https://www.instagram.com/dr_derkach/\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook",
-      "page": "https://fantasy-smile.ru/doctors/gamzaeva-tatyana-alladinovna/",
-      "context": "href=\"https://www.facebook.com/Fsmile.clinic\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook.com",
-      "page": "https://fantasy-smile.ru/doctors/gamzaeva-tatyana-alladinovna/",
-      "context": "href=\"https://www.facebook.com/Fsmile.clinic\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram",
-      "page": "https://fantasy-smile.ru/doctors/gamzaeva-tatyana-alladinovna/",
-      "context": "src=\"/bitrix/templates/ortodont/img/social/instagram.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook",
-      "page": "https://fantasy-smile.ru/doctors/gamzaeva-tatyana-alladinovna/",
-      "context": "src=\"/bitrix/templates/ortodont/img/social/facebook.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram",
-      "page": "https://fantasy-smile.ru/doctors/komarova-ekaterina-yurievna/",
-      "context": "href=\"https://www.instagram.com/dr_derkach/\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram.com",
-      "page": "https://fantasy-smile.ru/doctors/komarova-ekaterina-yurievna/",
-      "context": "href=\"https://www.instagram.com/dr_derkach/\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook",
-      "page": "https://fantasy-smile.ru/doctors/komarova-ekaterina-yurievna/",
-      "context": "href=\"https://www.facebook.com/Fsmile.clinic\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook.com",
-      "page": "https://fantasy-smile.ru/doctors/komarova-ekaterina-yurievna/",
-      "context": "href=\"https://www.facebook.com/Fsmile.clinic\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram",
-      "page": "https://fantasy-smile.ru/doctors/komarova-ekaterina-yurievna/",
-      "context": "src=\"/bitrix/templates/ortodont/img/social/instagram.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook",
-      "page": "https://fantasy-smile.ru/doctors/komarova-ekaterina-yurievna/",
-      "context": "src=\"/bitrix/templates/ortodont/img/social/facebook.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram",
-      "page": "https://fantasy-smile.ru/doctors/labinceva-radmila-alekseevna/",
-      "context": "href=\"https://www.instagram.com/dr_derkach/\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram.com",
-      "page": "https://fantasy-smile.ru/doctors/labinceva-radmila-alekseevna/",
-      "context": "href=\"https://www.instagram.com/dr_derkach/\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook",
-      "page": "https://fantasy-smile.ru/doctors/labinceva-radmila-alekseevna/",
-      "context": "href=\"https://www.facebook.com/Fsmile.clinic\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook.com",
-      "page": "https://fantasy-smile.ru/doctors/labinceva-radmila-alekseevna/",
-      "context": "href=\"https://www.facebook.com/Fsmile.clinic\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram",
-      "page": "https://fantasy-smile.ru/doctors/labinceva-radmila-alekseevna/",
-      "context": "src=\"/bitrix/templates/ortodont/img/social/instagram.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook",
-      "page": "https://fantasy-smile.ru/doctors/labinceva-radmila-alekseevna/",
-      "context": "src=\"/bitrix/templates/ortodont/img/social/facebook.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram",
-      "page": "https://fantasy-smile.ru/doctors/titova-tatyana-valerevna/",
-      "context": "href=\"https://www.instagram.com/dr_derkach/\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram.com",
-      "page": "https://fantasy-smile.ru/doctors/titova-tatyana-valerevna/",
-      "context": "href=\"https://www.instagram.com/dr_derkach/\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook",
-      "page": "https://fantasy-smile.ru/doctors/titova-tatyana-valerevna/",
-      "context": "href=\"https://www.facebook.com/Fsmile.clinic\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook.com",
-      "page": "https://fantasy-smile.ru/doctors/titova-tatyana-valerevna/",
-      "context": "href=\"https://www.facebook.com/Fsmile.clinic\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram",
-      "page": "https://fantasy-smile.ru/doctors/titova-tatyana-valerevna/",
-      "context": "src=\"/bitrix/templates/ortodont/img/social/instagram.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook",
-      "page": "https://fantasy-smile.ru/doctors/titova-tatyana-valerevna/",
-      "context": "src=\"/bitrix/templates/ortodont/img/social/facebook.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "мета",
-      "page": "https://fantasy-smile.ru/doctors/vladimirov-denis-petrovich/",
-      "context": "Анализ снимков (КТ, ОПТГ, RVG), составле­ние планов лечения. Безметалловая керами­ка (виниры, вкладки), металлокерамика, конструкции на титане, оксиде циркония. Протезирование на имп­лантах: одиночных де­фектов, значительных включенных и со",
-      "visibility": "видно пользователю"
-    },
-    {
-      "token": "instagram",
-      "page": "https://fantasy-smile.ru/doctors/vladimirov-denis-petrovich/",
-      "context": "href=\"https://www.instagram.com/dr_derkach/\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram.com",
-      "page": "https://fantasy-smile.ru/doctors/vladimirov-denis-petrovich/",
-      "context": "href=\"https://www.instagram.com/dr_derkach/\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook",
-      "page": "https://fantasy-smile.ru/doctors/vladimirov-denis-petrovich/",
-      "context": "href=\"https://www.facebook.com/Fsmile.clinic\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook.com",
-      "page": "https://fantasy-smile.ru/doctors/vladimirov-denis-petrovich/",
-      "context": "href=\"https://www.facebook.com/Fsmile.clinic\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram",
-      "page": "https://fantasy-smile.ru/doctors/vladimirov-denis-petrovich/",
-      "context": "src=\"/bitrix/templates/ortodont/img/social/instagram.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook",
-      "page": "https://fantasy-smile.ru/doctors/vladimirov-denis-petrovich/",
-      "context": "src=\"/bitrix/templates/ortodont/img/social/facebook.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram",
-      "page": "https://fantasy-smile.ru/doctors/zholudeva-ekaterina-yurevna/",
-      "context": "href=\"https://www.instagram.com/dr_derkach/\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram.com",
-      "page": "https://fantasy-smile.ru/doctors/zholudeva-ekaterina-yurevna/",
-      "context": "href=\"https://www.instagram.com/dr_derkach/\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook",
-      "page": "https://fantasy-smile.ru/doctors/zholudeva-ekaterina-yurevna/",
-      "context": "href=\"https://www.facebook.com/Fsmile.clinic\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook.com",
-      "page": "https://fantasy-smile.ru/doctors/zholudeva-ekaterina-yurevna/",
-      "context": "href=\"https://www.facebook.com/Fsmile.clinic\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram",
-      "page": "https://fantasy-smile.ru/doctors/zholudeva-ekaterina-yurevna/",
-      "context": "src=\"/bitrix/templates/ortodont/img/social/instagram.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook",
-      "page": "https://fantasy-smile.ru/doctors/zholudeva-ekaterina-yurevna/",
-      "context": "src=\"/bitrix/templates/ortodont/img/social/facebook.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram",
-      "page": "https://fantasy-smile.ru/law/",
-      "context": "href=\"https://www.instagram.com/dr_derkach/\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram.com",
-      "page": "https://fantasy-smile.ru/law/",
-      "context": "href=\"https://www.instagram.com/dr_derkach/\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook",
-      "page": "https://fantasy-smile.ru/law/",
-      "context": "href=\"https://www.facebook.com/Fsmile.clinic\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook.com",
-      "page": "https://fantasy-smile.ru/law/",
-      "context": "href=\"https://www.facebook.com/Fsmile.clinic\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "instagram",
-      "page": "https://fantasy-smile.ru/law/",
-      "context": "src=\"/bitrix/templates/ortodont/img/social/instagram.svg\"",
-      "visibility": "только в коде"
-    },
-    {
-      "token": "facebook",
-      "page": "https://fantasy-smile.ru/law/",
-      "context": "src=\"/bitrix/templates/ortodont/img/social/facebook.svg\"",
-      "visibility": "только в коде"
+      "visibility": "в коде страницы"
     }
   ],
   "cert_errors": [],
   "discovery": {
     "contact_urls": [
       "https://fantasy-smile.ru/contacts/",
-      "https://fantasy-smile.ru/contacts/feedback.php",
-      "https://fantasy-smile.ru/contacts/index.php",
       "https://fantasy-smile.ru/contacts/requisites.php"
     ],
     "booking_urls": [
-      "https://fantasy-smile.ru/appointment",
-      "https://fantasy-smile.ru/booking",
-      "https://fantasy-smile.ru/zapis"
+      "https://fantasy-smile.ru/",
+      "https://fantasy-smile.ru/services/"
     ],
     "legal_urls": [
-      "https://fantasy-smile.ru/doctors/",
-      "https://fantasy-smile.ru/doctors/Bagomedov-ruslan-shamilevich/",
-      "https://fantasy-smile.ru/doctors/avalov-konstantin-aleksandrovich/",
-      "https://fantasy-smile.ru/doctors/biryukbaev-timur-tlyutaevich/",
-      "https://fantasy-smile.ru/doctors/bokancha-polina-eduardovna/",
-      "https://fantasy-smile.ru/doctors/derkach-natalya-vladimirovna/",
-      "https://fantasy-smile.ru/doctors/gamzaeva-tatyana-alladinovna/",
-      "https://fantasy-smile.ru/doctors/komarova-ekaterina-yurievna/",
-      "https://fantasy-smile.ru/doctors/labinceva-radmila-alekseevna/",
-      "https://fantasy-smile.ru/doctors/titova-tatyana-valerevna/",
-      "https://fantasy-smile.ru/doctors/vladimirov-denis-petrovich/",
-      "https://fantasy-smile.ru/doctors/zholudeva-ekaterina-yurevna/",
-      "https://fantasy-smile.ru/law/",
       "https://fantasy-smile.ru/privacy/"
     ],
     "sources": {
-      "https://fantasy-smile.ru/": "",
-      "https://fantasy-smile.ru/appointment": "fallback",
-      "https://fantasy-smile.ru/booking": "fallback",
+      "https://fantasy-smile.ru/": "home-booking-candidate",
+      "https://fantasy-smile.ru/services/": "navigation-price",
       "https://fantasy-smile.ru/contacts/": "navigation",
-      "https://fantasy-smile.ru/contacts/feedback.php": "navigation",
-      "https://fantasy-smile.ru/contacts/index.php": "navigation",
-      "https://fantasy-smile.ru/contacts/requisites.php": "navigation",
-      "https://fantasy-smile.ru/doctors/": "navigation-legal",
-      "https://fantasy-smile.ru/doctors/Bagomedov-ruslan-shamilevich/": "navigation-legal",
-      "https://fantasy-smile.ru/doctors/avalov-konstantin-aleksandrovich/": "navigation-legal",
-      "https://fantasy-smile.ru/doctors/biryukbaev-timur-tlyutaevich/": "navigation-legal",
-      "https://fantasy-smile.ru/doctors/bokancha-polina-eduardovna/": "navigation-legal",
-      "https://fantasy-smile.ru/doctors/derkach-natalya-vladimirovna/": "navigation-legal",
-      "https://fantasy-smile.ru/doctors/gamzaeva-tatyana-alladinovna/": "navigation-legal",
-      "https://fantasy-smile.ru/doctors/komarova-ekaterina-yurievna/": "navigation-legal",
-      "https://fantasy-smile.ru/doctors/labinceva-radmila-alekseevna/": "navigation-legal",
-      "https://fantasy-smile.ru/doctors/titova-tatyana-valerevna/": "navigation-legal",
-      "https://fantasy-smile.ru/doctors/vladimirov-denis-petrovich/": "navigation-legal",
-      "https://fantasy-smile.ru/doctors/zholudeva-ekaterina-yurevna/": "navigation-legal",
-      "https://fantasy-smile.ru/law/": "navigation-legal",
-      "https://fantasy-smile.ru/privacy/": "navigation-legal",
-      "https://fantasy-smile.ru/zapis": "fallback"
+      "https://fantasy-smile.ru/doctors/": "navigation",
+      "https://fantasy-smile.ru/privacy/": "navigation-legal"
     },
-    "fallback_used": {
-      "contact": false,
-      "booking": true
-    },
-    "sitemap_total_urls": 10,
-    "sitemap_used_urls": 10
+    "fallback_used": false,
+    "sitemap_total_urls": 10
   },
   "verification": {
-    "b2": false,
-    "b4": false
+    "b2": true,
+    "b4": true,
+    "mode": "agent",
+    "mode_updated_at": "2026-05-18T12:21:18Z",
+    "b1": true,
+    "b3": true
+  },
+  "tech": {
+    "analytics": {
+      "found": true,
+      "kinds": [
+        "yandex_metrika"
+      ]
+    },
+    "med_trust": {
+      "price_public_found": true,
+      "doctors_content_found": true,
+      "address_found": true,
+      "map_found": true,
+      "hours_found": true,
+      "reviews_found": true,
+      "contact_page_exists": true,
+      "contact_block_found": true,
+      "footer_year": {
+        "present": false,
+        "current_year": null,
+        "detected_year": null
+      },
+      "text_typos": {
+        "checked_pages": [
+          "https://fantasy-smile.ru/",
+          "https://fantasy-smile.ru/services/",
+          "https://fantasy-smile.ru/doctors/"
+        ],
+        "issues": [
+          "проффесионально",
+          "врачём"
+        ]
+      }
+    }
+  },
+  "agent_structured": {
+    "clinic": "Fantasy Smile",
+    "site_id": "fantasy-smile-ru",
+    "site": "fantasy-smile.ru",
+    "format_version": "block-metric-status-tf-poc.v1",
+    "blocks": [
+      {
+        "block": "блок 1",
+        "metrics": [
+          {
+            "metric": "Пациент не давал согласия на обработку данных",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "forms_total: 0 (inline HTML)",
+              "lead_forms_external: amoCRM widget (#modal-callback, id=1009780), Bitrix24 form (loader_58.js)",
+              "consent_visibility_in_rendered_external_forms: требует интерактивной ручной проверки"
+            ]
+          },
+          {
+            "metric": "Согласие подставлено автоматически — это хуже чем его отсутствие",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "forms_total: 0 (inline HTML)",
+              "external_form_scripts_found: forms.amocrm.ru, cdn-ru.bitrix24.ru",
+              "checkbox_state_in_external_form: недоступно в статическом HTML"
+            ]
+          },
+          {
+            "metric": "На сайте нет обязательного документа об обработке данных пациентов",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "policy_link_found: /privacy/ (footer/navigation)",
+              "policy_page_accessible: False",
+              "checked_policy_url: https://fantasy-smile.ru/privacy/ -> HTTP 404"
+            ]
+          },
+          {
+            "metric": "Имя и телефон пациента передаются в открытом виде — любой может перехватить",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "site_https: True",
+              "external_form_endpoints_over_https: forms.amocrm.ru, cdn-ru.bitrix24.ru, api.calltouch.ru",
+              "bad_https_forms_count: 0"
+            ]
+          },
+          {
+            "metric": "На сайте упоминается организация, признанная в России экстремистской",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "forbidden_hits_count: 2",
+              "evidence_page: https://fantasy-smile.ru/",
+              "evidence_context: href=\"https://www.facebook.com/Fsmile.clinic\", href=\"https://www.instagram.com/dr_derkach/\" (в коде страницы)"
+            ]
+          },
+          {
+            "metric": "Сайт собирает данные пациентов без их уведомления",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "cookie_notice_found: False",
+              "checked_pages: https://fantasy-smile.ru/, https://fantasy-smile.ru/services/, https://fantasy-smile.ru/contacts/",
+              "note: найдена только техническая библиотека js.cookie, явного пользовательского уведомления нет"
+            ]
+          },
+          {
+            "metric": "Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова",
+            "status": "н/п",
+            "t_f": null,
+            "poc": [
+              "has_yandex_metrika_signal: True (mc.yandex.ru / ym)",
+              "policy_page_found: False (https://fantasy-smile.ru/privacy/ -> 404)",
+              "conclusion: метрика неприменима до доступного читаемого документа политики"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "блок 2",
+        "metrics": [
+          {
+            "metric": "Нет онлайн-записи со слотами",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "online_booking_widget_found: True",
+              "evidence_page: https://fantasy-smile.ru/",
+              "widget: partner.i-stom.ru/partner/online-request/widget?partner_id=19 (кнопка \"Запись онлайн\")"
+            ]
+          },
+          {
+            "metric": "Сайт — цифровая визитка, не инструмент",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "sections_found: услуги и цены, врачи, контакты, кейсы, рейтинги/отзывы",
+              "evidence_pages: https://fantasy-smile.ru/, https://fantasy-smile.ru/services/, https://fantasy-smile.ru/doctors/"
+            ]
+          },
+          {
+            "metric": "Вы не знаете кто приходит на сайт и почему уходит",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "analytics.found: True",
+              "analytics.kinds: yandex_metrika",
+              "evidence_snippet: ym(85299271), ym(101814159)"
+            ]
+          },
+          {
+            "metric": "Пациент не может написать первым",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "whatsapp: True",
+              "telegram: True",
+              "evidence_links: https://wa.me/79152237600, https://t.me/fs_clinic"
+            ]
+          },
+          {
+            "metric": "Прайс-лист доступен без регистрации",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "price_public_found: True",
+              "price_page: https://fantasy-smile.ru/services/",
+              "evidence: service-card__price ... руб. без регистрации"
+            ]
+          },
+          {
+            "metric": "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "schema_supported_found: True",
+              "evidence: BreadcrumbList markup (itemtype=\"http://schema.org/BreadcrumbList\")"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "блок 3",
+        "metrics": [
+          {
+            "metric": "Страница врачей / специалистов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "doctors_content_found: True",
+              "evidence_page: https://fantasy-smile.ru/doctors/"
+            ]
+          },
+          {
+            "metric": "Адрес и карта на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "address_found: True",
+              "map_found: True",
+              "evidence_page: https://fantasy-smile.ru/contacts/"
+            ]
+          },
+          {
+            "metric": "Часы работы",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "hours_found: True",
+              "evidence_text: пн-сб: 10:00 - 20:00",
+              "evidence_page: https://fantasy-smile.ru/"
+            ]
+          },
+          {
+            "metric": "Отзывы пациентов на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "reviews_found: True",
+              "evidence_page: https://fantasy-smile.ru/",
+              "evidence_section: рейтинги/видео-отзывы/отзывы"
+            ]
+          },
+          {
+            "metric": "Актуальность года в футере (если он вообще есть). Если его нет — ок",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "footer_year_present: False",
+              "rule: если года в футере нет — метрика считается ок"
+            ]
+          },
+          {
+            "metric": "Есть отдельная страница контактов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "separate_contacts_page_found: True",
+              "contacts_page: https://fantasy-smile.ru/contacts/"
+            ]
+          },
+          {
+            "metric": "Орфографические ошибки в тексте сайта",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "typos_found: True",
+              "evidence_page: https://fantasy-smile.ru/services/",
+              "examples: \"проффесионально\", \"врачём\""
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

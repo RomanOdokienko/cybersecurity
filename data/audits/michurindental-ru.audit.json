@@ -108,7 +108,266 @@
     "sitemap_used_urls": 0
   },
   "verification": {
-    "b2": false,
-    "b4": false
+    "b2": true,
+    "b4": true,
+    "mode": "agent",
+    "mode_updated_at": "2026-05-18T12:52:31Z",
+    "b1": true,
+    "b3": true
+  },
+  "tech": {
+    "analytics": {
+      "found": true,
+      "kinds": [
+        "google_analytics",
+        "yandex_metrika"
+      ]
+    },
+    "med_trust": {
+      "price_public_found": true,
+      "doctors_content_found": true,
+      "address_found": true,
+      "map_found": true,
+      "hours_found": true,
+      "reviews_found": true,
+      "contact_page_exists": true,
+      "contact_block_found": true,
+      "footer_year": {
+        "present": true,
+        "current_year": true,
+        "detected_year": 2026
+      },
+      "text_typos": {
+        "checked_pages": [
+          "https://www.michurindental.ru/",
+          "https://www.michurindental.ru/price.html",
+          "https://www.michurindental.ru/doctors.html",
+          "https://www.michurindental.ru/contacts.html",
+          "https://www.michurindental.ru/politika-confidencialnosty.html"
+        ],
+        "issues": [
+          "маршуртное такси"
+        ]
+      }
+    }
+  },
+  "agent_structured": {
+    "clinic": "Michurin Dental",
+    "site_id": "michurindental-ru",
+    "site": "www.michurindental.ru",
+    "format_version": "block-metric-status-tf-poc.v1",
+    "blocks": [
+      {
+        "block": "Блок 1",
+        "metrics": [
+          {
+            "metric": "Пациент не давал согласия на обработку данных",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "forms_total: 0 (на проверенных страницах формы отправки не обнаружены)",
+              "consent_missing_count: 0"
+            ]
+          },
+          {
+            "metric": "Согласие подставлено автоматически — это хуже чем его отсутствие",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "forms_total: 0",
+              "consent_prechecked_count: 0",
+              "explicit_consent_missing_count: 0"
+            ]
+          },
+          {
+            "metric": "На сайте нет обязательного документа об обработке данных пациентов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "policy_url: https://www.michurindental.ru/politika-confidencialnosty.html",
+              "policy_http_status: 200",
+              "policy_title: Политика конфиденциальности / Политика в отношении обработки персональных данных"
+            ]
+          },
+          {
+            "metric": "Имя и телефон пациента передаются в открытом виде — любой может перехватить",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "site_scheme: https",
+              "http_form_posts_found: 0",
+              "checked_pages: home/price/doctors/contacts/policy"
+            ]
+          },
+          {
+            "metric": "На сайте упоминается организация, признанная в России экстремистской",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "facebook_links_found: 0",
+              "instagram_links_found: 0",
+              "checked_pages: https://www.michurindental.ru/, /price.html, /doctors.html, /contacts.html"
+            ]
+          },
+          {
+            "metric": "Сайт собирает данные пациентов без их уведомления",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "cookie_policy_link_found: true",
+              "cookie_policy_url: https://www.michurindental.ru/usloviya-ispolzovaniya-sajta-i-tehnologij-monitoringa-fajly-cookie.html",
+              "footer_notice_contains_cookie_reference: true"
+            ]
+          },
+          {
+            "metric": "Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "metrika_found: true (ym(23251525), mc.yandex.ru/watch/23251525)",
+              "policy_url_checked: https://www.michurindental.ru/politika-confidencialnosty.html",
+              "policy_mentions_metrika: true (\"Яндекс Метрика и Гугл Аналитика\")"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "Блок 2",
+        "metrics": [
+          {
+            "metric": "Нет онлайн-записи со слотами",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "slot_booking_widget_found: false",
+              "external_slot_booking_link_found: false",
+              "no_calendar_or_time_slot_ui_detected_on_checked_pages"
+            ]
+          },
+          {
+            "metric": "Сайт — цифровая визитка, не инструмент",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "pages_count_checked: 8",
+              "key_pages_found: /price.html, /doctors.html, /contacts.html, /politika-confidencialnosty.html",
+              "sitemap_total_urls: 700+"
+            ]
+          },
+          {
+            "metric": "Вы не знаете кто приходит на сайт и почему уходит",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "analytics_found: true",
+              "yandex_metrika_id: 23251525",
+              "google_analytics_id: UA-191766047-1"
+            ]
+          },
+          {
+            "metric": "Пациент не может написать первым",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "whatsapp_link_found: https://wa.me/79684019998",
+              "phone_link_found: tel:+79684019998",
+              "patient_can_initiate_contact: true"
+            ]
+          },
+          {
+            "metric": "Прайс-лист доступен без регистрации",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "price_page: https://www.michurindental.ru/price.html",
+              "public_access_http_status: 200",
+              "price_values_visible_without_auth: true"
+            ]
+          },
+          {
+            "metric": "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "schema_org_found: false",
+              "json_ld_found: false",
+              "checked_pages: home + contacts"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "Блок 3",
+        "metrics": [
+          {
+            "metric": "Страница врачей / специалистов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "doctors_page: https://www.michurindental.ru/doctors.html",
+              "navigation_link_found: true"
+            ]
+          },
+          {
+            "metric": "Адрес и карта на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "contacts_page: https://www.michurindental.ru/contacts.html",
+              "address_found: \"Москва, ул. Столетова, д.7\"",
+              "map_embed_found: api-maps.yandex.ru/services/constructor/..."
+            ]
+          },
+          {
+            "metric": "Часы работы",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "hours_page: https://www.michurindental.ru/contacts.html",
+              "hours_text: \"пн.-пт. с 9.00-21.00\""
+            ]
+          },
+          {
+            "metric": "Отзывы пациентов на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "yandex_reviews_widget_found: true",
+              "evidence_page: https://www.michurindental.ru/contacts.html",
+              "iframe: https://yandex.ru/sprav/widget/rating-badge/1178460727"
+            ]
+          },
+          {
+            "metric": "Актуальность года в футере (если он вообще есть). Если его нет — ок",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "footer_present: true",
+              "year_range_found: 2013-2026",
+              "current_year_included: true"
+            ]
+          },
+          {
+            "metric": "Есть отдельная страница контактов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "contacts_page_url: https://www.michurindental.ru/contacts.html",
+              "contacts_page_http_status: 200"
+            ]
+          },
+          {
+            "metric": "Орфографические ошибки в тексте сайта",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "evidence_page: https://www.michurindental.ru/contacts.html",
+              "typo_found: \"маршуртное такси\"",
+              "expected: \"маршрутное такси\""
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
