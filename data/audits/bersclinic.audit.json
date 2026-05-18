@@ -181,7 +181,236 @@
     }
   },
   "verification": {
-    "b2": false,
-    "b4": false
+    "mode": "agent",
+    "mode_updated_at": "2026-05-15T08:15:03Z",
+    "b1": true,
+    "b2": true,
+    "b3": true,
+    "b4": true
+  },
+  "agent_structured": {
+    "clinic": "Bers Clinic",
+    "site_id": "bersclinic-ru",
+    "site": "www.bersclinic.ru",
+    "format_version": "block-metric-status-tf-poc.v1",
+    "blocks": [
+      {
+        "block": "блок 1",
+        "metrics": [
+          {
+            "metric": "Пациент не давал согласия на обработку данных",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "forms_total: 1",
+              "consent_missing_count: 0",
+              "lead_form: SIMPLE_FORM_7 (home)",
+              "evidence: / has required consent checkbox before submit"
+            ]
+          },
+          {
+            "metric": "Согласие подставлено автоматически — это хуже чем его отсутствие",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "forms_total: 1",
+              "consent_prechecked_count: 1",
+              "explicit_consent_missing_count: 1",
+              "consent_text_only_count: 0",
+              "consent_checkbox_missing_count: 0",
+              "evidence: input#licenses_inline_7 has checked before submit"
+            ]
+          },
+          {
+            "metric": "На сайте нет обязательного документа об обработке данных пациентов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "policy_page_found: True",
+              "policy_url: https://www.bersclinic.ru/company/obrabotka-personalnyh-dannyh.php",
+              "additional_policy_url: https://www.bersclinic.ru/include/licenses_detail.php",
+              "required_document_accessible_for_user: True"
+            ]
+          },
+          {
+            "metric": "Имя и телефон пациента передаются в открытом виде — любой может перехватить",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "site_https: True",
+              "form_plain_http_action_found: False",
+              "lead_form_action: / (same HTTPS origin)"
+            ]
+          },
+          {
+            "metric": "На сайте упоминается организация, признанная в России экстремистской",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "extremist_org_mentions_found: True",
+              "evidence: direct link https://www.instagram.com/klinika_bers",
+              "source_pages: /, /contacts/"
+            ]
+          },
+          {
+            "metric": "Сайт собирает данные пациентов без их уведомления",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "cookie_notice_found: False",
+              "cookie_occurrence_context: technical scripts (jquery.cookie, document.cookie)",
+              "explicit_cookie_notification_for_user: not found on checked pages"
+            ]
+          },
+          {
+            "metric": "Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "has_yandex_metrika_signal: True (mc.yandex.ru/metrika/tag.js)",
+              "policy_checked_urls: /company/obrabotka-personalnyh-dannyh.php, /include/licenses_detail.php",
+              "policy_mentions_yandex_metrika_in_text: False",
+              "metrika_found_only_in_page_code: True"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "блок 2",
+        "metrics": [
+          {
+            "metric": "Нет онлайн-записи со слотами",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "slot_booking_widget_found: False",
+              "booking_buttons_found: \"Запись онлайн\" opens callback/modal form",
+              "datetimepicker_present: True (preferred date input, no slot availability grid)"
+            ]
+          },
+          {
+            "metric": "Сайт — цифровая визитка, не инструмент",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "site_pages_many: True",
+              "services_page: https://www.bersclinic.ru/services/",
+              "doctors_page: https://www.bersclinic.ru/company/staff/",
+              "prices_page: https://www.bersclinic.ru/price/"
+            ]
+          },
+          {
+            "metric": "Вы не знаете кто приходит на сайт и почему уходит",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "analytics_found: True",
+              "signal: yandex metrika counter (ym, mc.yandex.ru/watch/98424538)",
+              "traffic_analytics_capability_present: True"
+            ]
+          },
+          {
+            "metric": "Пациент не может написать первым",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "patient_can_contact_first_via_form: True",
+              "messengers_found: https://wa.me/79287794444, https://t.me/clinicabers",
+              "contact_email_found: mailto:info@bersclinic.ru"
+            ]
+          },
+          {
+            "metric": "Прайс-лист доступен без регистрации",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "price_public_found: True",
+              "price_page: https://www.bersclinic.ru/price/",
+              "registration_required: False"
+            ]
+          },
+          {
+            "metric": "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "schema_any: True",
+              "schema_types_found: BreadcrumbList, Organization",
+              "supported_schema_present: True"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "блок 3",
+        "metrics": [
+          {
+            "metric": "Страница врачей / специалистов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "doctors_content_found: True",
+              "doctor_pages: https://www.bersclinic.ru/company/staff/, https://www.bersclinic.ru/company/staff/vrachi-stomatologi/aslanova-zinyat-mameddzhafarovna/"
+            ]
+          },
+          {
+            "metric": "Адрес и карта на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "address_found: Москва, ул. Космонавтов 18; 1-й Очаковский переулок 1",
+              "map_section_found: True (Yandex map placemarks on contacts page)"
+            ]
+          },
+          {
+            "metric": "Часы работы",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "hours_found: True",
+              "evidence: \"Пн. – Вс.: с 9:00 до 21:00\" and \"Ежедневно: 09:30 - 20:30\" on contacts"
+            ]
+          },
+          {
+            "metric": "Отзывы пациентов на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "reviews_content_found: True",
+              "reviews_page: https://www.bersclinic.ru/company/reviews/",
+              "reviews_widget_signal: myreviews.dev widget on home page"
+            ]
+          },
+          {
+            "metric": "Актуальность года в футере (если он вообще есть). Если его нет — ок",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "footer_year_found: 2026",
+              "current_year_expected: 2026",
+              "footer_year_correct: True"
+            ]
+          },
+          {
+            "metric": "Есть отдельная страница контактов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "contacts_page_found: True",
+              "contacts_page_url: https://www.bersclinic.ru/contacts/"
+            ]
+          },
+          {
+            "metric": "Орфографические ошибки в тексте сайта",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "manual_spot_check_completed: home, contacts, prices, policy, doctors, reviews",
+              "critical_typos_found: False"
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

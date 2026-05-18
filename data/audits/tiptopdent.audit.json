@@ -6792,7 +6792,234 @@
     }
   },
   "verification": {
-    "b2": false,
-    "b4": false
+    "mode": "agent",
+    "mode_updated_at": "2026-05-15T07:59:26Z",
+    "b1": true,
+    "b2": true,
+    "b3": true,
+    "b4": true
+  },
+  "agent_structured": {
+    "clinic": "TipTopDent",
+    "site_id": "tiptopdent-ru",
+    "site": "www.tiptopdent.ru",
+    "format_version": "block-metric-status-tf-poc.v1",
+    "blocks": [
+      {
+        "block": "блок 1",
+        "metrics": [
+          {
+            "metric": "Пациент не давал согласия на обработку данных",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "forms_total: 5 (sampled key pages)",
+              "consent_missing_count: 0",
+              "consent_text_present_in_forms: True",
+              "sample_pages: https://www.tiptopdent.ru/, https://tiptopdent.ru/price, https://tiptopdent.ru/contacts, https://tiptopdent.ru/team, https://tiptopdent.ru/privacy"
+            ]
+          },
+          {
+            "metric": "Согласие подставлено автоматически — это хуже чем его отсутствие",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "forms_total: 5 (sampled key pages)",
+              "consent_prechecked_count: 5",
+              "explicit_consent_missing_count: 5",
+              "consent_text_only_count: 0",
+              "consent_checkbox_missing_count: 0"
+            ]
+          },
+          {
+            "metric": "На сайте нет обязательного документа об обработке данных пациентов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "policy_page_url: https://tiptopdent.ru/privacy",
+              "policy_title_found: Политика конфиденциальности",
+              "policy_text_mentions_personal_data_processing: True"
+            ]
+          },
+          {
+            "metric": "Имя и телефон пациента передаются в открытом виде — любой может перехватить",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "site_https: True",
+              "plain_http_form_action_found: False",
+              "forms_submit_over_https_origin: True"
+            ]
+          },
+          {
+            "metric": "На сайте упоминается организация, признанная в России экстремистской",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "direct_link_found: https://www.instagram.com/p/BiE0zGIhaTU/",
+              "link_visibility: user-visible profile/review link on site",
+              "classification: direct external mention"
+            ]
+          },
+          {
+            "metric": "Сайт собирает данные пациентов без их уведомления",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "cookie_notice_found: False",
+              "cookie_token_context: technical attributes/scripts only (e.g., data-tilda-cookie, document.cookie)",
+              "explicit_user_cookie_banner_or_notice: not found"
+            ]
+          },
+          {
+            "metric": "Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "metrika_found_on_site: True (mc.yandex.ru/metrika/tag.js, ym(...))",
+              "policy_checked_url: https://tiptopdent.ru/privacy",
+              "metrika_mentions_in_policy_text: not found (tokens: яндекс, metrika, yandex)"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "блок 2",
+        "metrics": [
+          {
+            "metric": "Нет онлайн-записи со слотами",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "slot_booking_widget_found: False",
+              "only_callback_form_found: True (name/phone + clinic selection)",
+              "calendar_with_time_slots: not found"
+            ]
+          },
+          {
+            "metric": "Сайт — цифровая визитка, не инструмент",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "multi-page_service_site: True",
+              "core_pages: /team, /price, /contacts, /blog, /about",
+              "lead_forms_and_patient_routes_present: True"
+            ]
+          },
+          {
+            "metric": "Вы не знаете кто приходит на сайт и почему уходит",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "analytics_found: True",
+              "signals: mc.yandex.ru/metrika/tag.js, ym(...)",
+              "web_analytics_capability_present: True"
+            ]
+          },
+          {
+            "metric": "Пациент не может написать первым",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "telegram_links_found: https://t.me/tiptopdent",
+              "whatsapp_links_found: https://wa.me/79855757305 (and other clinics)",
+              "patient_can_message_first: True"
+            ]
+          },
+          {
+            "metric": "Прайс-лист доступен без регистрации",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "price_page_public: https://tiptopdent.ru/price",
+              "price_values_visible_without_auth: True",
+              "registration_required: False"
+            ]
+          },
+          {
+            "metric": "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "schema_jsonld_found: False",
+              "supported_schema_types_found: none",
+              "schema_markers_without_valid_supported_payload: present in code only"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "блок 3",
+        "metrics": [
+          {
+            "metric": "Страница врачей / специалистов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "doctors_page_found: https://tiptopdent.ru/team",
+              "doctor_cards_found: True",
+              "doctor_profile_pages_found: https://tiptopdent.ru/team/tatoyan, https://tiptopdent.ru/team/nikolaevsky"
+            ]
+          },
+          {
+            "metric": "Адрес и карта на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "separate_contacts_page: https://tiptopdent.ru/contacts",
+              "addresses_found: multiple clinic addresses",
+              "map/directions_content_found: \"Адреса клиник, режим работы и схемы проезда\""
+            ]
+          },
+          {
+            "metric": "Часы работы",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "hours_found: True",
+              "evidence: \"Режим работы c 09:00 до 21:00\" on contacts page"
+            ]
+          },
+          {
+            "metric": "Отзывы пациентов на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "reviews_page_found: /5656656 (Отзывы) and external review source links",
+              "reviews_content_present: True"
+            ]
+          },
+          {
+            "metric": "Актуальность года в футере (если он вообще есть). Если его нет — ок",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "footer_present: True",
+              "year_value_detected: 2022",
+              "current_year_expected: 2026"
+            ]
+          },
+          {
+            "metric": "Есть отдельная страница контактов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "separate_contacts_page_found: True",
+              "contacts_url: https://tiptopdent.ru/contacts"
+            ]
+          },
+          {
+            "metric": "Орфографические ошибки в тексте сайта",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "spelling_issues_found: True",
+              "example_1: \"парадонтолог\" (вместо \"пародонтолог\") on team page",
+              "example_2: \"Политика конфиденциаль-ности\" (перенос/разрыв слова) on privacy page"
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

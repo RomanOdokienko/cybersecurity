@@ -3165,14 +3165,27 @@ def build_mailing_page(manifest):
         site = str(item.get("site") or "")
         email = str(item.get("contact_email") or "").strip() or "—"
         inn = str(item.get("inn") or "").strip() or "—"
-        report_link = f"sites/{site_id}.html"
+        poc_link = f"sites/{site_id}.html"
+        demo_link = str(item.get("report_demo") or item.get("report_demo_url") or "").strip()
+        full_link = str(item.get("report_full") or item.get("report_full_url") or "").strip()
         external = site_url(site)
+        poc_cell = f"<a class=\"report-link\" href=\"{esc(poc_link)}\" target=\"_blank\" rel=\"noopener noreferrer\">открыть</a>"
+        demo_cell = (
+            f"<a class=\"report-link\" href=\"{esc(demo_link)}\" target=\"_blank\" rel=\"noopener noreferrer\">открыть</a>"
+            if demo_link else "—"
+        )
+        full_cell = (
+            f"<a class=\"report-link\" href=\"{esc(full_link)}\" target=\"_blank\" rel=\"noopener noreferrer\">открыть</a>"
+            if full_link else "—"
+        )
         rows.append(
             "<tr>"
             f"<td>{idx}</td>"
             f"<td>{esc(clinic)}</td>"
             f"<td><a class=\"site-link\" href=\"{esc(external)}\" target=\"_blank\" rel=\"noopener noreferrer\">{esc(site)}</a></td>"
-            f"<td><a class=\"report-link\" href=\"{esc(report_link)}\" target=\"_blank\" rel=\"noopener noreferrer\">открыть</a></td>"
+            f"<td>{poc_cell}</td>"
+            f"<td>{demo_cell}</td>"
+            f"<td>{full_cell}</td>"
             f"<td>{esc(email)}</td>"
             f"<td>{esc(inn)}</td>"
             "</tr>"
@@ -3200,7 +3213,7 @@ def build_mailing_page(manifest):
     .meta-link:hover {{ color:#24324f; border-bottom-color:#24324f; }}
     .table-wrap {{ margin-top:12px; background:#fff; border:1px solid var(--line); border-radius:12px; overflow:hidden; }}
     .table-scroll {{ overflow:auto; }}
-    table {{ width:100%; min-width:980px; border-collapse:collapse; }}
+    table {{ width:100%; min-width:1260px; border-collapse:collapse; }}
     thead th {{ position:sticky; top:0; z-index:5; background:#fafbfe; border-bottom:1px solid var(--line); color:#576072; font-size:11px; letter-spacing:.04em; text-transform:uppercase; padding:10px 8px; text-align:left; }}
     tbody td {{ border-bottom:1px solid var(--line); padding:8px; font-size:13px; vertical-align:top; line-height:1.3; }}
     tbody tr:last-child td {{ border-bottom:0; }}
@@ -3224,7 +3237,9 @@ def build_mailing_page(manifest):
               <th>ID</th>
               <th>Клиника</th>
               <th>Сайт клиники</th>
-              <th>Отчёт</th>
+              <th>PoC</th>
+              <th>Отчёт demo</th>
+              <th>Отчёт полный</th>
               <th>Email клиники</th>
               <th>ИНН</th>
             </tr>

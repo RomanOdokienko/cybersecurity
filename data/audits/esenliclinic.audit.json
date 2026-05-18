@@ -154,41 +154,46 @@
         "metrics": [
           {
             "metric": "Пациент не давал согласия на обработку данных",
-            "status": "проверить",
-            "t_f": null,
+            "status": "ок",
+            "t_f": true,
             "poc": [
-              "forms_rendered_in_html: 0",
-              "booking_anchor_found: #consultation",
-              "consent_verdict_requires_rendered_form: check"
+              "evidence_url: https://esenliclinic.ru/",
+              "form_signal: на странице есть обязательный consent-control (checkbox) в конфиге формы",
+              "consent_text_link: ссылка на политику /policy рядом с согласием",
+              "conclusion: явный маркер согласия присутствует"
             ]
           },
           {
             "metric": "Согласие подставлено автоматически — это хуже чем его отсутствие",
-            "status": "проверить",
-            "t_f": null,
+            "status": "ок",
+            "t_f": true,
             "poc": [
-              "forms_rendered_in_html: 0",
+              "evidence_url: https://esenliclinic.ru/",
+              "consent_control_type: checkbox (обязательное поле формы)",
               "prechecked_checkbox_detected: false",
-              "explicit_consent_control_not_observable_in_static_html"
+              "conclusion: отдельное явное согласие есть, автоподстановки не обнаружено"
             ]
           },
           {
             "metric": "На сайте нет обязательного документа об обработке данных пациентов",
-            "status": "проверить",
-            "t_f": null,
+            "status": "ок",
+            "t_f": true,
             "poc": [
-              "policy_link_found: /document",
-              "policy_url_access: 403",
-              "mandatory_document_readability: not confirmed"
+              "policy_hub_url: https://esenliclinic.ru/document",
+              "mandatory_policy_url: https://esenliclinic.ru/policy (HTTP 200)",
+              "additional_consent_doc: https://esenliclinic.ru/personal-data",
+              "conclusion: обязательный документ об обработке ПДн на сайте доступен"
             ]
           },
           {
             "metric": "Имя и телефон пациента передаются в открытом виде — любой может перехватить",
-            "status": "проверить",
-            "t_f": null,
+            "status": "ок",
+            "t_f": true,
             "poc": [
-              "name_phone_form_submission_observation: insufficient (no rendered form tags in static html)",
-              "site_scheme: https"
+              "site_scheme: HTTPS",
+              "evidence_url: https://esenliclinic.ru/",
+              "insecure_http_form_action_found: false",
+              "conclusion: передача формы в открытом HTTP не подтверждена"
             ]
           },
           {
@@ -212,12 +217,13 @@
           },
           {
             "metric": "Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова",
-            "status": "проверить",
-            "t_f": null,
+            "status": "проблема",
+            "t_f": true,
             "poc": [
-              "metrika_on_site: true",
-              "policy_link_found_but_unreadable: /document (403)",
-              "policy_disclosure_cannot_be_confirmed"
+              "metrika_on_site: true (ym()/mc.yandex.ru обнаружены в коде сайта)",
+              "policy_checked_url: https://esenliclinic.ru/policy",
+              "policy_text_result: явного упоминания Яндекс.Метрики не найдено",
+              "conclusion: Метрика используется, но в политике об этом нет прямого указания"
             ]
           }
         ]

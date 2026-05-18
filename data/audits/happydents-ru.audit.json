@@ -126,6 +126,18 @@
       "status": 200,
       "final_url": "https://happydents.ru/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/",
       "error": null
+    },
+    {
+      "requested": "https://happydents.ru/reviews/",
+      "status": 200,
+      "final_url": "https://happydents.ru/reviews/",
+      "error": null
+    },
+    {
+      "requested": "https://happydents.ru/ceny/",
+      "status": 200,
+      "final_url": "https://happydents.ru/ceny/",
+      "error": null
     }
   ],
   "forms": [
@@ -326,6 +338,17 @@
       "has_policy_text": true,
       "checkbox_poc": null,
       "policy_poc": "p class=\"form-p-text\"> Нажимая на кнопку <i>«Записаться на консультацию» вы даете согласие на <a href=\"/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf\" title=\"Политика обработки персональных данных\" target=\"_blank\""
+    },
+    {
+      "page": "https://happydents.ru/reviews/",
+      "form_id": "questionForm",
+      "action_display": "action=\"\"",
+      "open_tag": "<form action=\"\" method=\"post\" enctype=\"multipart/form-data\" class=\"form-rew\" id=\"questionForm\">",
+      "has_checkbox": true,
+      "checked": true,
+      "has_policy_text": true,
+      "checkbox_poc": "<input type=\"checkbox\" name=\"privacy\" required checked=\"checked\">",
+      "policy_poc": "Я соглашаюсь на обработку персональных данных и с политикой конфиденциальности"
     }
   ],
   "emails": [
@@ -1032,10 +1055,270 @@
     "fallback_used": {
       "contact": false,
       "booking": false
-    }
+    },
+    "sitemap_total_urls": 23
   },
   "verification": {
-    "b2": false,
-    "b4": false
+    "b2": true,
+    "b4": true,
+    "mode": "agent",
+    "mode_updated_at": "2026-05-18T12:04:09Z",
+    "b1": true,
+    "b3": true
+  },
+  "agent_structured": {
+    "clinic": "HappyDents",
+    "site_id": "happydents-ru",
+    "site": "happydents.ru",
+    "format_version": "block-metric-status-tf-poc.v1",
+    "blocks": [
+      {
+        "block": "блок 1",
+        "metrics": [
+          {
+            "metric": "Пациент не давал согласия на обработку данных",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "forms_total: 19 (sampled key pages)",
+              "consent_missing_count: 0",
+              "sample_pages: https://happydents.ru/, https://happydents.ru/contacts/, https://happydents.ru/online-consult/, https://happydents.ru/doctors/, https://happydents.ru/reviews/"
+            ]
+          },
+          {
+            "metric": "Согласие подставлено автоматически — это хуже чем его отсутствие",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "forms_total: 19 (sampled key pages)",
+              "consent_prechecked_count: 1",
+              "explicit_consent_missing_count: 19",
+              "consent_text_only_count: 18",
+              "consent_checkbox_missing_count: 18",
+              "evidence_page: https://happydents.ru/reviews/",
+              "evidence_checkbox: <input type=\"checkbox\" name=\"privacy\" required checked=\"checked\">"
+            ]
+          },
+          {
+            "metric": "На сайте нет обязательного документа об обработке данных пациентов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "policy_document_present: True",
+              "checked_policy_urls: https://happydents.ru/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/, https://happydents.ru/yuridicheskaya-informatsiya/doc/Политика%20обработки%20персональных%20данных.pdf",
+              "policy_evidence_text: Политика конфиденциальности / Согласие на обработку персональных данных"
+            ]
+          },
+          {
+            "metric": "Имя и телефон пациента передаются в открытом виде — любой может перехватить",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "bad_https_forms_count: 0",
+              "sample_form_pages_https: https://happydents.ru/, https://happydents.ru/reviews/, https://happydents.ru/online-consult/"
+            ]
+          },
+          {
+            "metric": "На сайте упоминается организация, признанная в России экстремистской",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "forbidden_hits_count: 74",
+              "evidence_url: https://happydents.ru/",
+              "evidence_context: href=\"https://www.facebook.com/happydents.ru/\"; href=\"https://www.instagram.com/happy_dents/\""
+            ]
+          },
+          {
+            "metric": "Сайт собирает данные пациентов без их уведомления",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "cookie_notice_found: False",
+              "cookie_notice_pages_matched: 0",
+              "policy_cookie_clause_present: True",
+              "checked_pages: https://happydents.ru/, https://happydents.ru/contacts/, https://happydents.ru/reviews/"
+            ]
+          },
+          {
+            "metric": "Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "has_yandex_metrika: True",
+              "metrika_policy_disclosed: False",
+              "checked_policy_urls: https://happydents.ru/yuridicheskaya-informatsiya/politika-obrabotki-personalnyh-dannyh/",
+              "matched_tokens_in_policy_text: не найдены",
+              "metrika_script_evidence: https://mc.yandex.ru/metrika/tag.js"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "блок 2",
+        "metrics": [
+          {
+            "metric": "Нет онлайн-записи со слотами",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "online_booking_links_with_slots_found: False",
+              "booking_widget_with_slots_found: False",
+              "checked_pages: https://happydents.ru/, https://happydents.ru/online-consult/, https://happydents.ru/contacts/",
+              "patient_path: callback/consult request without slot picker"
+            ]
+          },
+          {
+            "metric": "Сайт — цифровая визитка, не инструмент",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "site_sections_found: услуги, врачи, цены, отзывы, контакты, юридическая информация",
+              "evidence_pages: https://happydents.ru/doctors/, https://happydents.ru/ceny/, https://happydents.ru/reviews/"
+            ]
+          },
+          {
+            "metric": "Вы не знаете кто приходит на сайт и почему уходит",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "analytics.found: True",
+              "analytics.kinds: yandex_metrika",
+              "evidence_page: https://happydents.ru/"
+            ]
+          },
+          {
+            "metric": "Пациент не может написать первым",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "telegram: True",
+              "whatsapp: False",
+              "evidence_link: //t.me/+74997500909 (https://happydents.ru/)"
+            ]
+          },
+          {
+            "metric": "Прайс-лист доступен без регистрации",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "price_public_found: True",
+              "price_pages: https://happydents.ru/ceny/",
+              "evidence: prices listed with RUB values without login/registration wall"
+            ]
+          },
+          {
+            "metric": "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "schema_supported_found: True",
+              "evidence_pages: https://happydents.ru/, https://happydents.ru/contacts/, https://happydents.ru/doctors/"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "блок 3",
+        "metrics": [
+          {
+            "metric": "Страница врачей / специалистов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "doctors_content_found: True",
+              "evidence_page: https://happydents.ru/doctors/"
+            ]
+          },
+          {
+            "metric": "Адрес и карта на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "address_and_map_found: True",
+              "evidence_page: https://happydents.ru/contacts/"
+            ]
+          },
+          {
+            "metric": "Часы работы",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "working_hours_found: True",
+              "evidence_text: Пн-Сб: 9:00 - 19:00",
+              "evidence_page: https://happydents.ru/"
+            ]
+          },
+          {
+            "metric": "Отзывы пациентов на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "reviews_found: True",
+              "evidence_page: https://happydents.ru/reviews/"
+            ]
+          },
+          {
+            "metric": "Актуальность года в футере (если он вообще есть). Если его нет — ок",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "footer_year_present: True",
+              "footer_year_detected: 2026",
+              "current_year: 2026",
+              "evidence_page: https://happydents.ru/"
+            ]
+          },
+          {
+            "metric": "Есть отдельная страница контактов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "separate_contacts_page_found: True",
+              "contacts_page: https://happydents.ru/contacts/"
+            ]
+          },
+          {
+            "metric": "Орфографические ошибки в тексте сайта",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "obvious_typos_found: False",
+              "checked_pages: https://happydents.ru/, https://happydents.ru/about/, https://happydents.ru/reviews/"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "tech": {
+    "med_trust": {
+      "price_public_found": true,
+      "doctors_content_found": true,
+      "address_found": true,
+      "map_found": true,
+      "hours_found": true,
+      "reviews_found": true,
+      "contact_page_exists": true,
+      "contact_block_found": true,
+      "footer_year": {
+        "present": true,
+        "current_year": true,
+        "detected_year": "2026"
+      },
+      "text_typos": {
+        "checked_pages": [
+          "https://happydents.ru/",
+          "https://happydents.ru/about/",
+          "https://happydents.ru/reviews/"
+        ],
+        "issues": []
+      }
+    },
+    "analytics": {
+      "found": true,
+      "kinds": [
+        "yandex_metrika"
+      ]
+    }
   }
 }

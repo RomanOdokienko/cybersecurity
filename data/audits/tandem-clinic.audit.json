@@ -177,7 +177,234 @@
     }
   },
   "verification": {
-    "b2": false,
-    "b4": false
+    "mode": "agent",
+    "mode_updated_at": "2026-05-15T08:27:53Z",
+    "b1": true,
+    "b2": true,
+    "b3": true,
+    "b4": true
+  },
+  "agent_structured": {
+    "clinic": "Тандем Клиник",
+    "site_id": "tandem-clinic-ru",
+    "site": "tandem-clinic.ru",
+    "format_version": "block-metric-status-tf-poc.v1",
+    "blocks": [
+      {
+        "block": "блок 1",
+        "metrics": [
+          {
+            "metric": "Пациент не давал согласия на обработку данных",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "lead_forms_total: 6",
+              "consent_missing_count: 0",
+              "all lead forms contain consent text and required consent checkbox"
+            ]
+          },
+          {
+            "metric": "Согласие подставлено автоматически — это хуже чем его отсутствие",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "lead_forms_total: 6",
+              "consent_prechecked_count: 6",
+              "explicit_consent_missing_count: 6",
+              "consent_text_only_count: 0",
+              "consent_checkbox_missing_count: 0",
+              "evidence: consent checkbox has checked by default before submit"
+            ]
+          },
+          {
+            "metric": "На сайте нет обязательного документа об обработке данных пациентов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "policy_page_found: True",
+              "policy_url: https://tandem-clinic.ru/pravovaya-informatsiya/soglasie-na-obrabotku-personalnyh-dannyh/",
+              "required_document_accessible_for_user: True"
+            ]
+          },
+          {
+            "metric": "Имя и телефон пациента передаются в открытом виде — любой может перехватить",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "site_https: True",
+              "form_plain_http_action_found: False",
+              "checked_forms_submit_over_https_origin: True"
+            ]
+          },
+          {
+            "metric": "На сайте упоминается организация, признанная в России экстремистской",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "extremist_org_mentions_found: False",
+              "checked_tokens: instagram.com, facebook.com, Meta Platforms"
+            ]
+          },
+          {
+            "metric": "Сайт собирает данные пациентов без их уведомления",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "cookie_notice_found: True",
+              "cookie_banner: #cookieModal with consent text and accept button",
+              "cookie_notice_text_present: \"Используя наш сайт... согласие на обработку файлов cookie\""
+            ]
+          },
+          {
+            "metric": "Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "has_yandex_metrika_signal: True (mc.yandex.ru/metrika/tag.js, ym(20881225))",
+              "policy_checked_url: /pravovaya-informatsiya/soglasie-na-obrabotku-personalnyh-dannyh/",
+              "policy_mentions_yandex_metrika_in_text: False",
+              "metrika_found_in_code_only: True"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "блок 2",
+        "metrics": [
+          {
+            "metric": "Нет онлайн-записи со слотами",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "slot_booking_widget_found: False",
+              "datetime_local_field_found: True (preferred date/time input, no slot grid)",
+              "online_calendar_with_available_slots: not found"
+            ]
+          },
+          {
+            "metric": "Сайт — цифровая визитка, не инструмент",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "site_pages_many: True",
+              "price_page: https://tandem-clinic.ru/prays/",
+              "doctors_page: https://tandem-clinic.ru/vrachi/",
+              "contacts_page: https://tandem-clinic.ru/kontakty/"
+            ]
+          },
+          {
+            "metric": "Вы не знаете кто приходит на сайт и почему уходит",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "analytics_found: True",
+              "signal: Yandex Metrika ym(20881225)",
+              "traffic_analytics_capability_present: True"
+            ]
+          },
+          {
+            "metric": "Пациент не может написать первым",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "lead_forms_found: True",
+              "messengers_found: https://wa.me/+79852334454, https://t.me/tandem_dental_clinic",
+              "patient_can_contact_first_via_form_or_messenger: True"
+            ]
+          },
+          {
+            "metric": "Прайс-лист доступен без регистрации",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "price_public_found: True",
+              "price_page: https://tandem-clinic.ru/prays/",
+              "registration_required: False"
+            ]
+          },
+          {
+            "metric": "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "schema_any: True",
+              "jsonld_found: True",
+              "supported_schema_present: True"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "блок 3",
+        "metrics": [
+          {
+            "metric": "Страница врачей / специалистов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "doctors_content_found: True",
+              "doctor_pages: https://tandem-clinic.ru/vrachi/, https://tandem-clinic.ru/vrachi/sedrakyan-mariam-ashotovna/"
+            ]
+          },
+          {
+            "metric": "Адрес и карта на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "address_found: Москва, ул. Нежинская, д. 8, корп. 4",
+              "map_section_found: True (interactive map on /kontakty/)"
+            ]
+          },
+          {
+            "metric": "Часы работы",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "working_hours_found: False",
+              "hours_in_checked_pages: not found on home/contacts/price/doctors/policy",
+              "recommendation: publish explicit schedule on contacts page"
+            ]
+          },
+          {
+            "metric": "Отзывы пациентов на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "reviews_content_found: True",
+              "reviews_section: home page review slider with dated entries",
+              "review_write_link: yandex profile review link present"
+            ]
+          },
+          {
+            "metric": "Актуальность года в футере (если он вообще есть). Если его нет — ок",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "footer_year_found: False",
+              "rule: if year is absent then metric is ok"
+            ]
+          },
+          {
+            "metric": "Есть отдельная страница контактов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "contacts_page_found: True",
+              "contacts_page_url: https://tandem-clinic.ru/kontakty/"
+            ]
+          },
+          {
+            "metric": "Орфографические ошибки в тексте сайта",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "manual_spot_check_completed: home, contacts, doctors, price, policy",
+              "ugc_reviews_present: True (contain user-generated typos)",
+              "strict typo verdict requires editorial filtering of UGC"
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

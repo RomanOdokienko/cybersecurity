@@ -8,45 +8,39 @@
       "error": null
     },
     {
-      "requested": "https://interdent.obiz.ru/contact",
-      "status": 404,
-      "final_url": "https://interdent.obiz.ru/contact",
-      "error": "HTTPError 404"
-    },
-    {
-      "requested": "https://interdent.obiz.ru/contacts",
-      "status": 404,
-      "final_url": "https://interdent.obiz.ru/contacts",
-      "error": "HTTPError 404"
-    },
-    {
-      "requested": "https://interdent.obiz.ru/kontakty",
-      "status": 404,
-      "final_url": "https://interdent.obiz.ru/kontakty",
-      "error": "HTTPError 404"
-    },
-    {
-      "requested": "https://interdent.obiz.ru/appointment",
-      "status": 404,
-      "final_url": "https://interdent.obiz.ru/appointment",
-      "error": "HTTPError 404"
-    },
-    {
-      "requested": "https://interdent.obiz.ru/booking",
-      "status": 404,
-      "final_url": "https://interdent.obiz.ru/booking",
-      "error": "HTTPError 404"
-    },
-    {
-      "requested": "https://interdent.obiz.ru/zapis",
-      "status": 404,
-      "final_url": "https://interdent.obiz.ru/zapis",
-      "error": "HTTPError 404"
-    },
-    {
       "requested": "https://interdent.obiz.ru/policy/",
       "status": 200,
       "final_url": "https://interdent.obiz.ru/policy/",
+      "error": null
+    },
+    {
+      "requested": "https://interdent.obiz.ru/personal_data_processing/#reviews",
+      "status": 200,
+      "final_url": "https://interdent.obiz.ru/personal_data_processing/#reviews",
+      "error": null
+    },
+    {
+      "requested": "https://interdent.obiz.ru/stomatologiya_interdent_na_ulitse_artamonova/",
+      "status": 200,
+      "final_url": "https://interdent.obiz.ru/stomatologiya_interdent_na_ulitse_artamonova/",
+      "error": null
+    },
+    {
+      "requested": "https://interdent.obiz.ru/stomatologiya_interdent_v_ochakovo-matveevskom/",
+      "status": 200,
+      "final_url": "https://interdent.obiz.ru/stomatologiya_interdent_v_ochakovo-matveevskom/",
+      "error": null
+    },
+    {
+      "requested": "https://interdent.obiz.ru/stomatologiya_interdent_na_ulitse_artamonova/price/",
+      "status": 200,
+      "final_url": "https://interdent.obiz.ru/stomatologiya_interdent_na_ulitse_artamonova/price/",
+      "error": null
+    },
+    {
+      "requested": "https://interdent.obiz.ru/stomatologiya_interdent_v_ochakovo-matveevskom/price/",
+      "status": 200,
+      "final_url": "https://interdent.obiz.ru/stomatologiya_interdent_v_ochakovo-matveevskom/price/",
       "error": null
     }
   ],
@@ -59,49 +53,320 @@
       "text": "Политика обработки данных"
     },
     {
-      "page": "https://interdent.obiz.ru/policy/",
-      "href": "https://interdent.obiz.ru/policy/",
-      "text": "policy path"
-    },
-    {
-      "page": "https://interdent.obiz.ru/policy/",
+      "page": "https://interdent.obiz.ru/stomatologiya_interdent_na_ulitse_artamonova/",
       "href": "/policy/",
       "text": "Политика обработки данных"
+    },
+    {
+      "page": "https://interdent.obiz.ru/stomatologiya_interdent_na_ulitse_artamonova/",
+      "href": "/personal_data_processing/#reviews",
+      "text": "Согласие на обработку персональных данных"
+    },
+    {
+      "page": "https://interdent.obiz.ru/stomatologiya_interdent_v_ochakovo-matveevskom/",
+      "href": "/policy/",
+      "text": "Политика обработки данных"
+    },
+    {
+      "page": "https://interdent.obiz.ru/stomatologiya_interdent_v_ochakovo-matveevskom/",
+      "href": "/personal_data_processing/#reviews",
+      "text": "Согласие на обработку персональных данных"
     }
   ],
   "forbidden_hits": [],
   "cert_errors": [],
   "discovery": {
     "contact_urls": [
-      "https://interdent.obiz.ru/contact",
-      "https://interdent.obiz.ru/contacts",
-      "https://interdent.obiz.ru/kontakty"
+      "https://interdent.obiz.ru/stomatologiya_interdent_na_ulitse_artamonova/#contacts",
+      "https://interdent.obiz.ru/stomatologiya_interdent_v_ochakovo-matveevskom/#contacts"
     ],
-    "booking_urls": [
-      "https://interdent.obiz.ru/appointment",
-      "https://interdent.obiz.ru/booking",
-      "https://interdent.obiz.ru/zapis"
-    ],
+    "booking_urls": [],
     "legal_urls": [
-      "https://interdent.obiz.ru/policy/"
+      "https://interdent.obiz.ru/policy/",
+      "https://interdent.obiz.ru/personal_data_processing/#reviews"
     ],
     "sources": {
-      "https://interdent.obiz.ru/": "",
-      "https://interdent.obiz.ru/appointment": "fallback",
-      "https://interdent.obiz.ru/booking": "fallback",
-      "https://interdent.obiz.ru/contact": "fallback",
-      "https://interdent.obiz.ru/contacts": "fallback",
-      "https://interdent.obiz.ru/kontakty": "fallback",
+      "https://interdent.obiz.ru/stomatologiya_interdent_na_ulitse_artamonova/": "navigation",
+      "https://interdent.obiz.ru/stomatologiya_interdent_v_ochakovo-matveevskom/": "navigation",
+      "https://interdent.obiz.ru/stomatologiya_interdent_na_ulitse_artamonova/price/": "navigation",
+      "https://interdent.obiz.ru/stomatologiya_interdent_v_ochakovo-matveevskom/price/": "navigation",
       "https://interdent.obiz.ru/policy/": "navigation-legal",
-      "https://interdent.obiz.ru/zapis": "fallback"
+      "https://interdent.obiz.ru/personal_data_processing/#reviews": "navigation-legal",
+      "https://interdent.obiz.ru/stomatologiya_interdent_na_ulitse_artamonova/#specialists": "navigation",
+      "https://interdent.obiz.ru/stomatologiya_interdent_v_ochakovo-matveevskom/#specialists": "navigation",
+      "https://interdent.obiz.ru/stomatologiya_interdent_na_ulitse_artamonova/#reviews": "navigation",
+      "https://interdent.obiz.ru/stomatologiya_interdent_v_ochakovo-matveevskom/#reviews": "navigation",
+      "https://interdent.obiz.ru/stomatologiya_interdent_na_ulitse_artamonova/#contacts": "navigation",
+      "https://interdent.obiz.ru/stomatologiya_interdent_v_ochakovo-matveevskom/#contacts": "navigation"
     },
     "fallback_used": {
-      "contact": true,
-      "booking": true
-    }
+      "contact": false,
+      "booking": false
+    },
+    "sitemap_total_urls": 0,
+    "sitemap_used_urls": 0
   },
   "verification": {
-    "b2": false,
-    "b4": false
+    "mode": "agent",
+    "mode_updated_at": "2026-05-15T08:39:49Z",
+    "b1": true,
+    "b2": true,
+    "b3": true,
+    "b4": true
+  },
+  "agent_structured": {
+    "clinic": "Interdent",
+    "site_id": "interdent-obiz-ru",
+    "site": "interdent.obiz.ru",
+    "format_version": "block-metric-status-tf-poc.v1",
+    "blocks": [
+      {
+        "block": "блок 1",
+        "metrics": [
+          {
+            "metric": "Пациент не давал согласия на обработку данных",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "forms_total: 0",
+              "consent_missing_count: 0",
+              "lead forms with patient name+phone not found in checked pages"
+            ]
+          },
+          {
+            "metric": "Согласие подставлено автоматически — это хуже чем его отсутствие",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "forms_total: 0",
+              "consent_prechecked_count: 0",
+              "explicit_consent_missing_count: 0",
+              "consent_text_only_count: 0",
+              "consent_checkbox_missing_count: 0"
+            ]
+          },
+          {
+            "metric": "На сайте нет обязательного документа об обработке данных пациентов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "policy_page_found: True",
+              "policy_url: https://interdent.obiz.ru/policy/",
+              "consent_page_found: True (https://interdent.obiz.ru/personal_data_processing/#reviews)",
+              "required_document_accessible_for_user: True"
+            ]
+          },
+          {
+            "metric": "Имя и телефон пациента передаются в открытом виде — любой может перехватить",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "site_https: True",
+              "form_plain_http_action_found: False",
+              "checked_pages_use_https: True"
+            ]
+          },
+          {
+            "metric": "На сайте упоминается организация, признанная в России экстремистской",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "extremist_org_mentions_found: False",
+              "checked_tokens: instagram.com, facebook.com, Meta Platforms"
+            ]
+          },
+          {
+            "metric": "Сайт собирает данные пациентов без их уведомления",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "cookie_notice_found: False",
+              "explicit cookie banner/consent modal on checked public pages: not found",
+              "cookie mention exists only inside legal text pages"
+            ]
+          },
+          {
+            "metric": "Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "has_yandex_metrika_signal: True (mc.yandex.ru/metrika/tag.js, counter 24487664)",
+              "policy_checked_url: https://interdent.obiz.ru/policy/",
+              "policy_mentions_yandex_metrika_in_text: True",
+              "poc_quote: \"...веб-сервиса аналитики Яндекс Метрика\""
+            ]
+          }
+        ]
+      },
+      {
+        "block": "блок 2",
+        "metrics": [
+          {
+            "metric": "Нет онлайн-записи со слотами",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "slot_booking_widget_found: False",
+              "separate online booking page with slots: not found",
+              "available contact flow: phone/messengers"
+            ]
+          },
+          {
+            "metric": "Сайт — цифровая визитка, не инструмент",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "site_pages_checked: home + 2 clinic pages + 2 price pages + policy + consent",
+              "content_sections_present: prices, specialists, reviews, contacts, legal documents"
+            ]
+          },
+          {
+            "metric": "Вы не знаете кто приходит на сайт и почему уходит",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "analytics_found: True",
+              "signal: Yandex Metrika (counter 24487664)"
+            ]
+          },
+          {
+            "metric": "Пациент не может написать первым",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "messenger_links_found: https://t.me/Interdent_art, https://wa.me/79859709423, https://max.ru/u/f9LHodD0cOLRcuX6o7eP1sp1oNdMoMFI84TiUH1mqnvp7CjCg09Sd2dpuWA",
+              "patient_can_write_first: True"
+            ]
+          },
+          {
+            "metric": "Прайс-лист доступен без регистрации",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "price_public_found: True",
+              "price_pages: https://interdent.obiz.ru/stomatologiya_interdent_na_ulitse_artamonova/price/, https://interdent.obiz.ru/stomatologiya_interdent_v_ochakovo-matveevskom/price/",
+              "examples: \"1650 руб.\", \"10 000 руб.\"",
+              "registration_required: False"
+            ]
+          },
+          {
+            "metric": "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "schema_any: True",
+              "jsonld_found: True",
+              "supported_schema_type: Dentist (schema.org)"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "блок 3",
+        "metrics": [
+          {
+            "metric": "Страница врачей / специалистов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "doctors_content_found: True",
+              "specialists_sections: https://interdent.obiz.ru/stomatologiya_interdent_na_ulitse_artamonova/#specialists, https://interdent.obiz.ru/stomatologiya_interdent_v_ochakovo-matveevskom/#specialists",
+              "doctor_cards_present_with_names: True"
+            ]
+          },
+          {
+            "metric": "Адрес и карта на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "address_found: True (Москва, улица Артамонова, 16к1; Веерная улица, 1к2)",
+              "map_found: True (contacts-section-map + links to Yandex/Google maps)"
+            ]
+          },
+          {
+            "metric": "Часы работы",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "working_hours_found: True",
+              "poc: \"Пн-вс: 10:00—20:00\"",
+              "openingHours meta: \"Mo-Su 10:00-20:00\""
+            ]
+          },
+          {
+            "metric": "Отзывы пациентов на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "reviews_content_found: True",
+              "reviews_sections: #reviews on both clinic pages",
+              "review_examples_with_dates_present: True"
+            ]
+          },
+          {
+            "metric": "Актуальность года в футере (если он вообще есть). Если его нет — ок",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "footer_year_found: False",
+              "rule_applied: if footer year absent => ок"
+            ]
+          },
+          {
+            "metric": "Есть отдельная страница контактов",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "separate_contacts_page_found: False",
+              "contacts available only as page sections: #contacts"
+            ]
+          },
+          {
+            "metric": "Орфографические ошибки в тексте сайта",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "manual_spot_check_completed: home, clinic pages, prices, policy, consent",
+              "ugc_reviews_present: True",
+              "strict typo verdict requires editorial filtering of UGC text"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "tech": {
+    "analytics": {
+      "found": true,
+      "kinds": [
+        "yandex_metrika"
+      ],
+      "goals_found": false,
+      "goal_markers": []
+    },
+    "med_trust": {
+      "price_public_found": true,
+      "doctors_content_found": true,
+      "address_found": true,
+      "map_found": true,
+      "hours_found": true,
+      "reviews_found": true,
+      "contact_page_exists": false,
+      "contact_block_found": true,
+      "footer_year": {
+        "present": false,
+        "year": null,
+        "current_year": false
+      },
+      "text_typos": {
+        "checked_pages": [
+          "https://interdent.obiz.ru/",
+          "https://interdent.obiz.ru/stomatologiya_interdent_na_ulitse_artamonova/",
+          "https://interdent.obiz.ru/stomatologiya_interdent_v_ochakovo-matveevskom/",
+          "https://interdent.obiz.ru/stomatologiya_interdent_na_ulitse_artamonova/price/",
+          "https://interdent.obiz.ru/policy/"
+        ]
+      }
+    }
   }
 }

@@ -111,7 +111,235 @@
     }
   },
   "verification": {
-    "b2": false,
-    "b4": false
+    "mode": "agent",
+    "mode_updated_at": "2026-05-15T08:24:05Z",
+    "b1": true,
+    "b2": true,
+    "b3": true,
+    "b4": true
+  },
+  "agent_structured": {
+    "clinic": "Stomatik MSK",
+    "site_id": "stomatikmsk-ru",
+    "site": "stomatikmsk.ru",
+    "format_version": "block-metric-status-tf-poc.v1",
+    "blocks": [
+      {
+        "block": "блок 1",
+        "metrics": [
+          {
+            "metric": "Пациент не давал согласия на обработку данных",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "forms_total: 4",
+              "consent_missing_count: 1",
+              "form_without_consent_text: #formReviews (name + review text)",
+              "forms_with_consent_text: 3 (text near submit only)"
+            ]
+          },
+          {
+            "metric": "Согласие подставлено автоматически — это хуже чем его отсутствие",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "forms_total: 4",
+              "consent_prechecked_count: 0",
+              "explicit_consent_missing_count: 4",
+              "consent_text_only_count: 3",
+              "consent_checkbox_missing_count: 4",
+              "evidence: no explicit consent checkbox before submit on checked forms"
+            ]
+          },
+          {
+            "metric": "На сайте нет обязательного документа об обработке данных пациентов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "policy_page_found: True",
+              "policy_access_type: modal #politics from visible links \"Политика конфиденциальности\"",
+              "required_document_accessible_for_user: True"
+            ]
+          },
+          {
+            "metric": "Имя и телефон пациента передаются в открытом виде — любой может перехватить",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "site_https: True",
+              "form_plain_http_action_found: False",
+              "checked_forms_submit_over_https_origin: True"
+            ]
+          },
+          {
+            "metric": "На сайте упоминается организация, признанная в России экстремистской",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "extremist_org_mentions_found: False",
+              "checked_tokens: instagram.com, facebook.com, Meta Platforms"
+            ]
+          },
+          {
+            "metric": "Сайт собирает данные пациентов без их уведомления",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "cookie_notice_found: False",
+              "cookie_processing_disclosed_in_policy: True (modal text)",
+              "explicit_cookie_notification_banner_or_notice_on_page: not found"
+            ]
+          },
+          {
+            "metric": "Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова",
+            "status": "н/п",
+            "t_f": null,
+            "poc": [
+              "has_yandex_metrika_signal: False",
+              "yandex_signals_found: yandex-verification meta, yandex map iframe (not Metrika counter)",
+              "conclusion: metric not applicable without Metrika collection signal"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "блок 2",
+        "metrics": [
+          {
+            "metric": "Нет онлайн-записи со слотами",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "slot_booking_widget_found: False",
+              "only_callback_forms_found: True",
+              "online_calendar_with_slots: not found"
+            ]
+          },
+          {
+            "metric": "Сайт — цифровая визитка, не инструмент",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "single_page_site_detected: True",
+              "navigation_links_mostly_internal_anchors: #services, #price, #reviews, #contacts",
+              "deep_workflow_tools_not_found: True"
+            ]
+          },
+          {
+            "metric": "Вы не знаете кто приходит на сайт и почему уходит",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "analytics_found: False",
+              "metrika_counter_found: False",
+              "ga_gtm_found: False"
+            ]
+          },
+          {
+            "metric": "Пациент не может написать первым",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "lead_forms_found: True",
+              "patient_can_contact_first_via_form: True",
+              "contact_channels: form + email + phone + VK"
+            ]
+          },
+          {
+            "metric": "Прайс-лист доступен без регистрации",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "price_public_found: True",
+              "price_section: #price on homepage",
+              "registration_required: False"
+            ]
+          },
+          {
+            "metric": "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "schema_any: False",
+              "jsonld_found: False",
+              "microdata_itemtype_found: False"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "блок 3",
+        "metrics": [
+          {
+            "metric": "Страница врачей / специалистов",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "doctors_content_found: limited mentions only",
+              "dedicated_doctors_page_found: False",
+              "doctor_profile_pages_found: False"
+            ]
+          },
+          {
+            "metric": "Адрес и карта на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "address_found: Москва, ул. Матвеевская, д. 7",
+              "map_found: yandex map widget iframe present"
+            ]
+          },
+          {
+            "metric": "Часы работы",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "hours_found: True",
+              "evidence: \"Пн-Сб: 9:00–20:00, Вс: выходной\" in contacts footer block"
+            ]
+          },
+          {
+            "metric": "Отзывы пациентов на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "reviews_content_found: True",
+              "reviews_section: #reviews with dated review slider entries",
+              "review_submission_form_found: #formReviews"
+            ]
+          },
+          {
+            "metric": "Актуальность года в футере (если он вообще есть). Если его нет — ок",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "footer_year_found: 2021",
+              "current_year_expected: 2026",
+              "footer_year_correct: False"
+            ]
+          },
+          {
+            "metric": "Есть отдельная страница контактов",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "contacts_page_found: False",
+              "contacts_are_on_same_page_section: #contacts",
+              "separate_contact_url_not_found: /contact, /contacts, /kontakty returned 404"
+            ]
+          },
+          {
+            "metric": "Орфографические ошибки в тексте сайта",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "manual_spot_check_completed: home sections + policy modal + contacts footer",
+              "ugc_reviews_present: True (may contain author typos)",
+              "requires_manual_editorial_review_for_strict typo verdict"
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

@@ -2138,13 +2138,13 @@
           },
           {
             "metric": "На сайте нет обязательного документа об обработке данных пациентов",
-            "status": "проверить",
-            "t_f": null,
+            "status": "ок",
+            "t_f": true,
             "poc": [
-              "policy_link_found_in_forms: /consent ; /approval-opd",
-              "policy_target_access_result: 403 for agent request",
-              "evidence_url: https://belayatochka.ru/",
-              "manual_recheck_in_browser_required: true"
+              "policy_page_url: https://belayatochka.ru/consent",
+              "policy_page_accessible: true (HTTP 200)",
+              "secondary_policy_url: https://belayatochka.ru/approval-opd (HTTP 200)",
+              "evidence: публичный документ обработки ПДн доступен по прямым ссылкам сайта"
             ]
           },
           {
@@ -2179,13 +2179,13 @@
           },
           {
             "metric": "Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова",
-            "status": "проверить",
-            "t_f": null,
+            "status": "ок",
+            "t_f": true,
             "poc": [
-              "metrika_on_site: true (ym()/mc.yandex.ru)",
-              "policy_link_found_but_not_readable: /consent -> 403",
-              "cannot_confirm_policy_disclosure: true",
-              "manual_policy_check_required: true"
+              "metrika_on_site: true (ym()/mc.yandex.ru в HTML сайта)",
+              "policy_url_checked: https://belayatochka.ru/consent",
+              "policy_text_match: \"(Яндекс Метрика, UISCOM)\"",
+              "conclusion: Яндекс.Метрика в политике упомянута"
             ]
           }
         ]

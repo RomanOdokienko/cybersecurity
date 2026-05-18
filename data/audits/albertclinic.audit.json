@@ -646,7 +646,232 @@
     }
   },
   "verification": {
-    "b2": false,
-    "b4": false
+    "mode": "agent",
+    "mode_updated_at": "2026-05-15T07:29:32Z",
+    "b1": true,
+    "b2": true,
+    "b3": true,
+    "b4": true
+  },
+  "agent_structured": {
+    "clinic": "Albert Clinic",
+    "site_id": "albertclinic-ru",
+    "site": "albertclinic.ru",
+    "format_version": "block-metric-status-tf-poc.v1",
+    "blocks": [
+      {
+        "block": "блок 1",
+        "metrics": [
+          {
+            "metric": "Пациент не давал согласия на обработку данных",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "forms_total: 2",
+              "consent_missing_count: 0",
+              "source_pages: https://albertclinic.ru/, https://albertclinic.ru/docum"
+            ]
+          },
+          {
+            "metric": "Согласие подставлено автоматически — это хуже чем его отсутствие",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "forms_total: 2",
+              "consent_prechecked_count: 2",
+              "explicit_consent_missing_count: 2",
+              "consent_text_only_count: 0",
+              "consent_checkbox_missing_count: 0",
+              "evidence: checkbox is prechecked before submit on forms"
+            ]
+          },
+          {
+            "metric": "На сайте нет обязательного документа об обработке данных пациентов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "policy_url_found: https://albertclinic.ru/polite",
+              "policy_accessible_in_browser: True",
+              "policy_title_found: Политика в отношении обработки персональных данных"
+            ]
+          },
+          {
+            "metric": "Имя и телефон пациента передаются в открытом виде — любой может перехватить",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "site_https: True",
+              "forms_with_plain_http_action: 0",
+              "sample_form_action: action=\"\" (same-origin HTTPS)"
+            ]
+          },
+          {
+            "metric": "На сайте упоминается организация, признанная в России экстремистской",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "token_in_code_found: facebook.com",
+              "context: social-links script branch contains facebook.com",
+              "classification: mention in site code is treated as issue"
+            ]
+          },
+          {
+            "metric": "Сайт собирает данные пациентов без их уведомления",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "cookie_notice_found: True",
+              "cookie_notice_text_found_on_home: True",
+              "cookie_notice_text: содержит \"обработки cookie-файлов\""
+            ]
+          },
+          {
+            "metric": "Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "metrika_detected_on_site: True (cookie banner text includes \"Яндекс.Метрика\")",
+              "policy_url_checked: https://albertclinic.ru/polite",
+              "policy_main_text_contains_yandex_or_metrika: False",
+              "note: mention exists in global cookie banner, not in policy body (lines 34-140)"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "блок 2",
+        "metrics": [
+          {
+            "metric": "Нет онлайн-записи со слотами",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "slot_booking_widget: False",
+              "separate_booking_engine_link: not found",
+              "found_only_callback_forms: True (\"Желаемые время и дата приема\")"
+            ]
+          },
+          {
+            "metric": "Сайт — цифровая визитка, не инструмент",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "core_pages_found: /, /price, /vrachi, /docum, /polite",
+              "lead_forms_found: True",
+              "doctors_page_found: True"
+            ]
+          },
+          {
+            "metric": "Вы не знаете кто приходит на сайт и почему уходит",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "analytics_signal_found: cookie banner mentions \"Яндекс.Метрика\"",
+              "analytics_script_token_in_raw_html: not reliably visible (likely loaded conditionally)"
+            ]
+          },
+          {
+            "metric": "Пациент не может написать первым",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "whatsapp_links_found: https://wa.me/+74997497777, https://wa.me/+79199992111",
+              "patient_can_message_first: True"
+            ]
+          },
+          {
+            "metric": "Прайс-лист доступен без регистрации",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "price_public_found: True",
+              "price_page: https://albertclinic.ru/price",
+              "registration_required: False"
+            ]
+          },
+          {
+            "metric": "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "schema_any: False",
+              "jsonld_found: False",
+              "supported_schema_types_found: none"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "блок 3",
+        "metrics": [
+          {
+            "metric": "Страница врачей / специалистов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "doctors_content_found: True",
+              "doctor_pages: https://albertclinic.ru/vrachi"
+            ]
+          },
+          {
+            "metric": "Адрес и карта на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "address_found: True (Москва, ул. Большая Очаковская, дом 1)",
+              "map_found: True (Яндекс Карты link on home page)"
+            ]
+          },
+          {
+            "metric": "Часы работы",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "hours_found: True",
+              "evidence: https://albertclinic.ru/docum line 81 (режим работы регистратуры)"
+            ]
+          },
+          {
+            "metric": "Отзывы пациентов на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "reviews_found: True",
+              "evidence: navigation includes \"ОТЗЫВЫ\" and review section on home"
+            ]
+          },
+          {
+            "metric": "Актуальность года в футере (если он вообще есть). Если его нет — ок",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "footer_present: True",
+              "year_in_footer_found: False",
+              "rule: if year is absent, status is ok"
+            ]
+          },
+          {
+            "metric": "Есть отдельная страница контактов",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "contact_page_exists: False",
+              "found_contact_anchor_only: https://albertclinic.ru/#contacts",
+              "separate_contact_url_not_found: True"
+            ]
+          },
+          {
+            "metric": "Орфографические ошибки в тексте сайта",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "spelling_issues_found: True",
+              "example_1: \"Есть детский детский прием\" (duplicate word)",
+              "example_2: \"кЛИЕНТАМ\" (incorrect casing in footer menu)"
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
