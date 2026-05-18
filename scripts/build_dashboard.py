@@ -2485,7 +2485,13 @@ def build_detail_page(item, audit, s):
     mode_code = (s.get("verification_mode") or {}).get("code")
     use_agent_structured = mode_code == "agent" and bool(agent_structured.get("available"))
 
-    block1_lines = list((agent_structured.get("lines") or {}).get("b1") or []) if use_agent_structured else block1_lines_legacy
+    block1_verified = bool(s.get("block1_verified"))
+    block1_lines_source = list((agent_structured.get("lines") or {}).get("b1") or []) if use_agent_structured else block1_lines_legacy
+    block1_lines = (
+        block1_lines_source
+        if block1_verified
+        else [metric_lines("Блок 1", "-", ["Блок 1 не верифицирован для этой клиники. Статусы блока скрыты ('-')."])]
+    )
 
     block1_metric_statuses = [m.get("status", "-") for m in block1_lines]
     if any(st == "проблема" for st in block1_metric_statuses):
@@ -2649,16 +2655,20 @@ def step2_blocks_data(summary):
     agent_structured = summary.get("agent_structured") or {}
     if mode_code == "agent" and agent_structured.get("available"):
         statuses = agent_structured.get("statuses") or {}
+        block1_verified = bool(summary.get("block1_verified"))
         block2_verified = bool(summary.get("block2_verified"))
         block3_verified = bool(summary.get("block3_verified"))
+        b1_values = list(statuses.get("b1") or [])
         b2_values = list(statuses.get("b2") or [])
         b3_values = list(statuses.get("b3") or [])
+        if not block1_verified:
+            b1_values = ["-"] * len(step2_block_schema()[0]["metric_names"])
         if not block2_verified:
             b2_values = ["-"] * len(step2_block_schema()[1]["metric_names"])
         if not block3_verified:
             b3_values = ["-"] * len(step2_block_schema()[2]["metric_names"])
         return {
-            "b1": list(statuses.get("b1") or []),
+            "b1": b1_values,
             "b2": b2_values,
             "b3": b3_values,
         }
@@ -2682,6 +2692,7 @@ def step2_blocks_data(summary):
         third_party_policy_status = "ок" if bool(summary.get("metrika_policy_disclosed")) else "проблема"
     b4 = summary.get("b4", {}) or {}
     block2_default_status = "-" if site_unavailable else "проверить"
+    block1_verified = bool(summary.get("block1_verified"))
     block2_verified = bool(summary.get("block2_verified"))
     block3_verified = bool(summary.get("block3_verified"))
     no_checkbox_status = "-" if site_unavailable else ("проблема" if missing_checkbox else "ок")
@@ -2730,8 +2741,7 @@ def step2_blocks_data(summary):
     if not block3_verified:
         b4_values = ["-"] * len(b4_values)
 
-    return {
-        "b1": [
+    b1_values = [
             no_checkbox_status,
             prechecked_status,
             summary["policy_status"],
@@ -2739,7 +2749,12 @@ def step2_blocks_data(summary):
             summary["meta_status"],
             cookie_status,
             third_party_policy_status,
-        ],
+        ]
+    if not block1_verified:
+        b1_values = ["-"] * len(b1_values)
+
+    return {
+        "b1": b1_values,
         "b2": b2_values,
         "b3": b4_values,
     }
@@ -2888,7 +2903,7 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
   <div class=\"wrap\">
     <h1>Скрининг клиник шаг 2</h1>
     <div class=\"sub\">Слева клиники, далее вертикальные блоки метрик по каждой клинике</div>
-    <div class=\"meta\"><a class=\"meta-link\" href=\"final-report-blocks.html\">Блоки финального отчёта →</a></div>
+    <div class=\"meta\"><a class=\"meta-link\" href=\"mailing.html\">Таблица для рассылки →</a> &nbsp;·&nbsp; <a class=\"meta-link\" href=\"final-report-blocks.html\">Блоки финального отчёта →</a></div>
 
     <div class=\"cards\">
       <div class=\"card\"><div class=\"n ok\">{counts.get('слать', 0)}</div><div class=\"l\">Слать</div></div>
@@ -3140,6 +3155,92 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
 
 
 
+
+
+def build_mailing_page(manifest):
+    rows = []
+    for idx, item in enumerate(manifest, 1):
+        site_id = str(item.get("id") or "")
+        clinic = str(item.get("clinic") or "")
+        site = str(item.get("site") or "")
+        email = str(item.get("contact_email") or "").strip() or "—"
+        inn = str(item.get("inn") or "").strip() or "—"
+        report_link = f"sites/{site_id}.html"
+        external = site_url(site)
+        rows.append(
+            "<tr>"
+            f"<td>{idx}</td>"
+            f"<td>{esc(clinic)}</td>"
+            f"<td><a class=\"site-link\" href=\"{esc(external)}\" target=\"_blank\" rel=\"noopener noreferrer\">{esc(site)}</a></td>"
+            f"<td><a class=\"report-link\" href=\"{esc(report_link)}\" target=\"_blank\" rel=\"noopener noreferrer\">открыть</a></td>"
+            f"<td>{esc(email)}</td>"
+            f"<td>{esc(inn)}</td>"
+            "</tr>"
+        )
+
+    return f"""<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Рассылка — клиники</title>
+  <style>
+    :root {{
+      --line:#e6e8ef; --text:#1f2430; --muted:#707887;
+      --ok-bg:#e8f8ef; --ok-fg:#1d9e58;
+      --na-bg:#f0f2f6; --na-fg:#6c7280;
+    }}
+    * {{ box-sizing:border-box; }}
+    body {{ margin:0; font-family:Segoe UI,Arial,sans-serif; background:linear-gradient(180deg,#f8f9fc 0%,#f3f5fa 100%); color:var(--text); }}
+    .wrap {{ max-width:calc(100vw - 24px); margin:14px auto; padding:0 12px 16px; }}
+    h1 {{ margin:0; font-size:34px; letter-spacing:-0.02em; }}
+    .sub {{ margin-top:8px; color:var(--muted); font-size:15px; }}
+    .meta {{ margin-top:10px; font-size:13px; color:#7f8695; }}
+    .meta-link {{ color:#455066; border-bottom:1px dotted #9aa6bd; text-decoration:none; }}
+    .meta-link:hover {{ color:#24324f; border-bottom-color:#24324f; }}
+    .table-wrap {{ margin-top:12px; background:#fff; border:1px solid var(--line); border-radius:12px; overflow:hidden; }}
+    .table-scroll {{ overflow:auto; }}
+    table {{ width:100%; min-width:980px; border-collapse:collapse; }}
+    thead th {{ position:sticky; top:0; z-index:5; background:#fafbfe; border-bottom:1px solid var(--line); color:#576072; font-size:11px; letter-spacing:.04em; text-transform:uppercase; padding:10px 8px; text-align:left; }}
+    tbody td {{ border-bottom:1px solid var(--line); padding:8px; font-size:13px; vertical-align:top; line-height:1.3; }}
+    tbody tr:last-child td {{ border-bottom:0; }}
+    .site-link,.report-link {{ color:#455066; text-decoration:none; border-bottom:1px dotted #9aa6bd; }}
+    .site-link:hover,.report-link:hover {{ color:#24324f; border-bottom-color:#24324f; }}
+    .badge {{ display:inline-block; padding:3px 8px; border-radius:999px; border:1px solid transparent; font-size:11px; font-weight:700; line-height:1.2; }}
+    .ok {{ background:var(--ok-bg); color:var(--ok-fg); border-color:#c8efd9; }}
+    .na {{ background:var(--na-bg); color:var(--na-fg); border-color:#dde2ea; }}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Таблица для рассылки</h1>
+    <div class="sub">Простой список клиник для подготовки email-драфтов. Пока без фильтрации.</div>
+    <div class="meta"><a class="meta-link" href="screening-step-2.html">Скрининг клиник шаг 2 →</a></div>
+    <div class="table-wrap">
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Клиника</th>
+              <th>Сайт клиники</th>
+              <th>Отчёт</th>
+              <th>Email клиники</th>
+              <th>ИНН</th>
+            </tr>
+          </thead>
+          <tbody>
+            {''.join(rows)}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+"""
+
+
 def parse_args():
     parser = argparse.ArgumentParser(description="Build screening dashboards and detail pages")
     parser.add_argument("--site-id", dest="site_ids_single", action="append", default=[], help="Build details only for this site id (repeatable)")
@@ -3184,7 +3285,7 @@ def assert_agent_render_consistency(item, summary):
     expected = agent_structured.get("statuses") or {}
     rendered = step2_blocks_data(summary)
     checks = [
-        ("b1", True),
+        ("b1", bool(summary.get("block1_verified"))),
         ("b2", bool(summary.get("block2_verified"))),
         ("b3", bool(summary.get("block3_verified"))),
     ]
@@ -3263,6 +3364,7 @@ def main():
                     changed = True
             if changed:
                 page_path.write_text(txt, encoding="utf-8")
+        (ROOT / "mailing.html").write_text(build_mailing_page(manifest), encoding="utf-8")
 
         print("Generated:")
         for site_id, _ in details:
@@ -3270,6 +3372,7 @@ def main():
         print("Patched rows in:")
         for page_name in ["dashboard.html", "screening-step-2.html", "audit-blocks.html"]:
             print(ROOT / page_name)
+        print(ROOT / "mailing.html")
         print(f"Detail pages updated: {len(details)} selected")
         if missing_ids:
             print("Unknown site ids:", ", ".join(sorted(missing_ids)))
@@ -3435,6 +3538,7 @@ def main():
     (ROOT / "dashboard.html").write_text(screening_step_2, encoding="utf-8")
     (ROOT / "screening-step-2.html").write_text(screening_step_2, encoding="utf-8")
     (ROOT / "audit-blocks.html").write_text(screening_step_2, encoding="utf-8")
+    (ROOT / "mailing.html").write_text(build_mailing_page(manifest), encoding="utf-8")
 
     sites_dir = ROOT / "sites"
     sites_dir.mkdir(parents=True, exist_ok=True)
@@ -3445,6 +3549,7 @@ def main():
     print(ROOT / "dashboard.html")
     print(ROOT / "screening-step-2.html")
     print(ROOT / "audit-blocks.html")
+    print(ROOT / "mailing.html")
     for site_id, _ in details:
         print(sites_dir / f"{site_id}.html")
 

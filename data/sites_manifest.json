@@ -5,7 +5,8 @@
     "site": "dr-knyazkin.ru",
     "audit_file": "data/audits/dr-knyazkin.audit.json",
     "contact_email": "drknyazkin@yandex.ru",
-    "result": "проверить"
+    "result": "проверить",
+    "inn": "7728546158"
   },
   {
     "id": "arideo-su",
@@ -13,7 +14,8 @@
     "site": "arideo.su",
     "audit_file": "data/audits/arideo.audit.json",
     "contact_email": "arideo@bk.ru",
-    "result": "слать"
+    "result": "слать",
+    "inn": "7729634329"
   },
   {
     "id": "mx-medical-ru",
@@ -21,7 +23,8 @@
     "site": "mx-medical.ru",
     "audit_file": "data/audits/mx-medical.audit.json",
     "contact_email": "info@mx-medical.ru",
-    "result": "проверить"
+    "result": "проверить",
+    "inn": "9729294588"
   },
   {
     "id": "senseclinic-ru",
@@ -29,7 +32,8 @@
     "site": "senseclinic.ru",
     "audit_file": "data/audits/senseclinic.audit.json",
     "contact_email": "info@senseclinic.ru",
-    "result": "проверить"
+    "result": "проверить",
+    "inn": "7736255730"
   },
   {
     "id": "ortodont-center-ru",
@@ -37,7 +41,8 @@
     "site": "www.ortodont-center.ru",
     "audit_file": "data/audits/ortodont-center.audit.json",
     "contact_email": "mail@ortodont-center.ru",
-    "result": "проверить"
+    "result": "проверить",
+    "inn": "7733737768"
   },
   {
     "id": "imclinic-dental",
