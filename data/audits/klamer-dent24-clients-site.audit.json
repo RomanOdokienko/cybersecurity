@@ -336,12 +336,10 @@
           },
           {
             "metric": "Орфографические ошибки в тексте сайта",
-            "status": "проверить",
+            "status": "-",
             "t_f": null,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 23",
-              "sheet_raw_value: не проверялось"
+              "https://klamer-dent24.clients.site/ открывает captcha/antibot, основной текст сайта недоступен для проверки орфографии"
             ]
           }
         ]

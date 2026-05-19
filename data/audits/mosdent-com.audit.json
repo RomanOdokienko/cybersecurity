@@ -344,12 +344,11 @@
           },
           {
             "metric": "Орфографические ошибки в тексте сайта",
-            "status": "проверить",
-            "t_f": null,
+            "status": "проблема",
+            "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 23",
-              "sheet_raw_value: не проверялось"
+              "https://mosdent.com/: найдено 'врачем'",
+              "ожидаемо: врачом"
             ]
           }
         ]

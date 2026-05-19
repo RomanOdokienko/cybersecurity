@@ -457,12 +457,11 @@
           },
           {
             "metric": "Орфографические ошибки в тексте сайта",
-            "status": "проверить",
-            "t_f": null,
+            "status": "ок",
+            "t_f": true,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 23",
-              "sheet_raw_value: не проверялось"
+              "живой просмотр: https://www.dentalfantasy.ru/clinics/cheremushki/",
+              "явных орфографических ошибок в доступном тексте не выявлено"
             ]
           }
         ]
