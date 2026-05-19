@@ -2842,9 +2842,11 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
     .card .l {{ margin-top:3px; font-size:11px; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); font-weight:700; }}
     .n.ok{{color:var(--ok-fg)}} .n.warn{{color:var(--warn-fg)}} .n.bad{{color:var(--bad-fg)}} .n.na{{color:var(--na-fg)}} .n.total{{color:#111827}}
     .table-wrap {{ margin-top:12px; background:#fff; border:1px solid var(--line); border-radius:12px; overflow:visible; }}
-    .table-scroll {{ overflow-x:auto; overflow-y:visible; border-radius:12px; }}
+    .table-scroll {{ overflow:auto; max-height:calc(100vh - 210px); border-radius:12px; --head-row1-h:42px; }}
     table {{ width:100%; min-width:3200px; border-collapse:collapse; table-layout:fixed; }}
-    thead th {{ position:sticky; top:0; z-index:5; text-align:left; background:#fafbfe; border-bottom:1px solid var(--line); color:#576072; font-size:10px; letter-spacing:.01em; text-transform:none; font-weight:700; padding:9px 8px; white-space:normal; line-height:1.2; }}
+    thead th {{ position:sticky; z-index:5; text-align:left; background:#fafbfe; border-bottom:1px solid var(--line); color:#576072; font-size:10px; letter-spacing:.01em; text-transform:none; font-weight:700; padding:9px 8px; white-space:normal; line-height:1.2; }}
+    thead tr:first-child th {{ top:0; z-index:9; }}
+    thead tr:nth-child(2) th {{ top:var(--head-row1-h); z-index:8; }}
     tbody td {{ border-bottom:1px solid var(--line); padding:6px 8px; font-size:12px; vertical-align:top; line-height:1.2; }}
     tbody tr:last-child td {{ border-bottom:0; }}
     tr.clickable{{cursor:pointer}} tr.clickable:hover td{{background:#f7f9ff}}
@@ -2891,9 +2893,9 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
     .method-modal-body ul {{ margin:0 0 8px 16px; padding:0; }}
     .method-modal-body li {{ margin:0 0 5px; }}
     .method-template {{ display:none; }}
-    .table-head-fixed {{ position:fixed; top:0; left:0; z-index:1600; display:none; pointer-events:auto; }}
+    .table-head-fixed {{ position:fixed; top:0; left:0; z-index:1600; display:none; pointer-events:none; overflow:hidden; }}
     .table-head-fixed table {{ border-collapse:collapse; table-layout:fixed; margin:0; }}
-    .table-head-fixed thead th {{ background:#fafbfe; }}
+    .table-head-fixed thead th {{ background:#fafbfe; position:static !important; top:auto !important; left:auto !important; right:auto !important; z-index:auto !important; box-shadow:none !important; }}
     .comment-col-head {{ min-width:220px; width:220px; }}
     .comment-col {{ min-width:220px; width:220px; }}
     .comment-text {{ font-size:11px; color:#2b3343; line-height:1.25; white-space:normal; word-break:break-word; }}
@@ -3102,50 +3104,28 @@ def build_screening_step2(rows_step2, counts, unavailable, total, header_rows, b
     }});
 
     function initFixedHeader() {{
-      const scrollWrap = document.querySelector('.table-scroll');
-      if (!scrollWrap) return;
-      const table = scrollWrap.querySelector('table');
-      const thead = table ? table.querySelector('thead') : null;
-      if (!table || !thead) return;
-
-      const fixed = document.createElement('div');
-      fixed.className = 'table-head-fixed';
-      const fixedTable = document.createElement('table');
-      fixedTable.appendChild(thead.cloneNode(true));
-      fixed.appendChild(fixedTable);
-      document.body.appendChild(fixed);
-
-      function syncLayout() {{
-        const rect = scrollWrap.getBoundingClientRect();
-        const tableRect = table.getBoundingClientRect();
-        const headHeight = thead.getBoundingClientRect().height || 0;
-        const shouldShow = tableRect.top < 0 && tableRect.bottom > headHeight;
-        fixed.style.display = shouldShow ? 'block' : 'none';
-        if (!shouldShow) return;
-        fixed.style.left = Math.round(rect.left) + 'px';
-        fixed.style.width = Math.round(rect.width) + 'px';
-        fixed.style.overflow = 'hidden';
-        fixedTable.style.width = Math.round(table.getBoundingClientRect().width) + 'px';
-        fixedTable.style.transform = 'translateX(' + (-scrollWrap.scrollLeft) + 'px)';
-      }}
-
-      function refreshClone() {{
-        fixedTable.innerHTML = '';
-        fixedTable.appendChild(thead.cloneNode(true));
-        syncLayout();
-      }}
-
-      scrollWrap.addEventListener('scroll', syncLayout, {{ passive: true }});
-      window.addEventListener('scroll', syncLayout, {{ passive: true }});
-      window.addEventListener('resize', refreshClone);
-      document.addEventListener('click', function(e) {{
-        const t = e.target;
-        if (t && t.closest && t.closest('[data-block-toggle]')) {{
-          setTimeout(refreshClone, 0);
-        }}
-      }});
-      refreshClone();
+      // Disabled: use native sticky header in a single scroll container.
+      // Clone-based fixed header caused horizontal desync on complex multi-row head.
+      return;
     }}
+
+    function syncStickyHeaderOffsets() {{
+      const table = document.querySelector('.table-scroll table');
+      const headRows = table ? table.querySelectorAll('thead tr') : null;
+      if (!headRows || headRows.length < 2) return;
+      const h = Math.ceil(headRows[0].getBoundingClientRect().height || 42);
+      const wrap = document.querySelector('.table-scroll');
+      if (wrap) wrap.style.setProperty('--head-row1-h', h + 'px');
+    }}
+
+    window.addEventListener('resize', syncStickyHeaderOffsets, {{ passive: true }});
+    document.addEventListener('click', function(e) {{
+      const t = e.target;
+      if (t && t.closest && t.closest('[data-block-toggle]')) {{
+        setTimeout(syncStickyHeaderOffsets, 0);
+      }}
+    }});
+    syncStickyHeaderOffsets();
 
     initFixedHeader();
   </script>

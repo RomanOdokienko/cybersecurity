@@ -16912,10 +16912,9 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "forms_total: 235",
-              "consent_missing_count: 0",
-              "consent_text_only_count: 44",
-              "evidence_pages: https://www.impl.ru/, https://www.impl.ru/specialists/, https://www.impl.ru/contacts/"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 3",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -16923,12 +16922,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "forms_total: 235",
-              "consent_prechecked_count: 0",
-              "explicit_consent_missing_count: 44",
-              "consent_text_only_count: 44",
-              "consent_checkbox_missing_count: 44",
-              "sample_form_action: /form/reception/ (text consent in form, no explicit checkbox)"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 4",
+              "sheet_raw_value: проблема"
             ]
           },
           {
@@ -16936,9 +16932,9 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "policy_document_present: True",
-              "checked_policy_urls: https://www.impl.ru/agreement/, https://www.impl.ru/information-for-patients/",
-              "readable_policy_urls: https://www.impl.ru/agreement/, https://www.impl.ru/information-for-patients/"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 5",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -16946,17 +16942,19 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "bad_https_forms_count: 0",
-              "sample_action: /form/reception/ (relative action on HTTPS pages)"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 6",
+              "sheet_raw_value: ok"
             ]
           },
           {
             "metric": "На сайте упоминается организация, признанная в России экстремистской",
-            "status": "проблема",
-            "t_f": false,
+            "status": "-",
+            "t_f": null,
             "poc": [
-              "forbidden_hits_count: 655",
-              "sample_hits: instagram.com/impl_ru, facebook.com/tr?id=693345340845343"
+              "из Google Sheet gid=0",
+              "sheet_col_index: -",
+              "sheet_raw_value: -"
             ]
           },
           {
@@ -16964,9 +16962,9 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "cookie_notice_found: True",
-              "cookie_notice_pages_matched: 44",
-              "sample_cookie_page: https://www.impl.ru/"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 7",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -16974,12 +16972,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "metrika_policy_disclosed: False",
-              "has_yandex_metrika: True",
-              "analytics.kinds: yandex_metrika",
-              "checked_policy_urls: https://www.impl.ru/agreement/, https://www.impl.ru/information-for-patients/",
-              "matched_metrika_tokens_in_policy_text: none",
-              "note: policy text contains Yandex Dzen mention, but no Yandex.Metrika disclosure"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 8",
+              "sheet_raw_value: проблема"
             ]
           }
         ]
@@ -16992,9 +16987,9 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "slot_booking_widget: True",
-              "slot_evidence: calendar_wrapper + input name=\"date\" in online record form",
-              "evidence_page: https://www.impl.ru/"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 10",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -17002,8 +16997,9 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "pages_count: 44",
-              "sitemap_total_urls: 446"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 11",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -17011,22 +17007,19 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "analytics.found: True",
-              "analytics.kinds: yandex_metrika",
-              "metrika_counter_id: 24588914"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 12",
+              "sheet_raw_value: ok"
             ]
           },
           {
             "metric": "Пациент не может написать первым",
-            "status": "ок",
-            "t_f": true,
+            "status": "-",
+            "t_f": null,
             "poc": [
-              "whatsapp: True",
-              "telegram: False",
-              "max_messenger: False",
-              "chat_widget: False",
-              "message_form_found: True",
-              "messenger_evidence: https://wa.me/79671329045"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 13",
+              "sheet_raw_value: -"
             ]
           },
           {
@@ -17034,18 +17027,19 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "price_public_found: True",
-              "price_pages: https://www.impl.ru/price/"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 14",
+              "sheet_raw_value: ok"
             ]
           },
           {
             "metric": "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
-            "status": "ок",
-            "t_f": true,
+            "status": "проверить",
+            "t_f": null,
             "poc": [
-              "schema.any: True",
-              "schema.types: BreadcrumbList, Country, Dentist, ListItem, MedicalSpecialty, PostalAddress, Thing",
-              "schema.supported_hits: Dentist, MedicalSpecialty"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 15",
+              "sheet_raw_value: не проверялось"
             ]
           }
         ]
@@ -17058,9 +17052,9 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "doctors_content_found: True",
-              "evidence_page: https://www.impl.ru/specialists/",
-              "doctor_pages_sample: https://www.impl.ru/specialists/zhukov/, https://www.impl.ru/specialists/yurina-svetlana/"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 17",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -17068,9 +17062,9 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "address_found: True",
-              "map_found: True",
-              "evidence_page: https://www.impl.ru/contacts/"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 18",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -17078,9 +17072,9 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "hours_found: True",
-              "hours_sample: ?????: 9:00?20:30, ??: 9:00?20:00, ??: 10:00?20:00",
-              "evidence_page: https://www.impl.ru/contacts/"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 19",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -17088,18 +17082,19 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "reviews_found: True",
-              "reviews_pages: https://www.impl.ru/reviews/, https://www.impl.ru/"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 20",
+              "sheet_raw_value: ok"
             ]
           },
           {
             "metric": "Актуальность года в футере (если он вообще есть). Если его нет — ок",
-            "status": "ок",
-            "t_f": true,
+            "status": "проверить",
+            "t_f": null,
             "poc": [
-              "footer_present: True",
-              "current_year: True",
-              "year_value: 2026"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 21",
+              "sheet_raw_value: "
             ]
           },
           {
@@ -17107,9 +17102,9 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "contact_page_exists: True",
-              "contact_block_found: True",
-              "contact_pages: https://www.impl.ru/contacts/"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 22",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -17117,8 +17112,9 @@
             "status": "проверить",
             "t_f": null,
             "poc": [
-              "manual_typo_review_required: True",
-              "automated_spellcheck_not_run: True"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 23",
+              "sheet_raw_value: не проверялось"
             ]
           }
         ]

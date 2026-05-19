@@ -162,21 +162,22 @@
         "metrics": [
           {
             "metric": "Пациент не давал согласия на обработку данных",
-            "status": "ок",
-            "t_f": true,
+            "status": "проверить",
+            "t_f": null,
             "poc": [
-              "forms_total: 0 (на проверенных страницах формы отправки не обнаружены)",
-              "consent_missing_count: 0"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 3",
+              "sheet_raw_value: отсутствует"
             ]
           },
           {
             "metric": "Согласие подставлено автоматически — это хуже чем его отсутствие",
-            "status": "ок",
-            "t_f": true,
+            "status": "-",
+            "t_f": null,
             "poc": [
-              "forms_total: 0",
-              "consent_prechecked_count: 0",
-              "explicit_consent_missing_count: 0"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 4",
+              "sheet_raw_value: -"
             ]
           },
           {
@@ -184,9 +185,9 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "policy_url: https://www.michurindental.ru/politika-confidencialnosty.html",
-              "policy_http_status: 200",
-              "policy_title: Политика конфиденциальности / Политика в отношении обработки персональных данных"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 5",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -194,29 +195,29 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "site_scheme: https",
-              "http_form_posts_found: 0",
-              "checked_pages: home/price/doctors/contacts/policy"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 6",
+              "sheet_raw_value: ok"
             ]
           },
           {
             "metric": "На сайте упоминается организация, признанная в России экстремистской",
-            "status": "ок",
-            "t_f": true,
+            "status": "-",
+            "t_f": null,
             "poc": [
-              "facebook_links_found: 0",
-              "instagram_links_found: 0",
-              "checked_pages: https://www.michurindental.ru/, /price.html, /doctors.html, /contacts.html"
+              "из Google Sheet gid=0",
+              "sheet_col_index: -",
+              "sheet_raw_value: -"
             ]
           },
           {
             "metric": "Сайт собирает данные пациентов без их уведомления",
-            "status": "ок",
-            "t_f": true,
+            "status": "проблема",
+            "t_f": false,
             "poc": [
-              "cookie_policy_link_found: true",
-              "cookie_policy_url: https://www.michurindental.ru/usloviya-ispolzovaniya-sajta-i-tehnologij-monitoringa-fajly-cookie.html",
-              "footer_notice_contains_cookie_reference: true"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 7",
+              "sheet_raw_value: проблема"
             ]
           },
           {
@@ -224,9 +225,9 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "metrika_found: true (ym(23251525), mc.yandex.ru/watch/23251525)",
-              "policy_url_checked: https://www.michurindental.ru/politika-confidencialnosty.html",
-              "policy_mentions_metrika: true (\"Яндекс Метрика и Гугл Аналитика\")"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 8",
+              "sheet_raw_value: ok"
             ]
           }
         ]
@@ -236,12 +237,12 @@
         "metrics": [
           {
             "metric": "Нет онлайн-записи со слотами",
-            "status": "проблема",
-            "t_f": false,
+            "status": "ок",
+            "t_f": true,
             "poc": [
-              "slot_booking_widget_found: false",
-              "external_slot_booking_link_found: false",
-              "no_calendar_or_time_slot_ui_detected_on_checked_pages"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 10",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -249,9 +250,9 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "pages_count_checked: 8",
-              "key_pages_found: /price.html, /doctors.html, /contacts.html, /politika-confidencialnosty.html",
-              "sitemap_total_urls: 700+"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 11",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -259,19 +260,19 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "analytics_found: true",
-              "yandex_metrika_id: 23251525",
-              "google_analytics_id: UA-191766047-1"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 12",
+              "sheet_raw_value: ok"
             ]
           },
           {
             "metric": "Пациент не может написать первым",
-            "status": "ок",
-            "t_f": true,
+            "status": "-",
+            "t_f": null,
             "poc": [
-              "whatsapp_link_found: https://wa.me/79684019998",
-              "phone_link_found: tel:+79684019998",
-              "patient_can_initiate_contact: true"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 13",
+              "sheet_raw_value: -"
             ]
           },
           {
@@ -279,19 +280,19 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "price_page: https://www.michurindental.ru/price.html",
-              "public_access_http_status: 200",
-              "price_values_visible_without_auth: true"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 14",
+              "sheet_raw_value: ok"
             ]
           },
           {
             "metric": "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
-            "status": "проблема",
-            "t_f": false,
+            "status": "проверить",
+            "t_f": null,
             "poc": [
-              "schema_org_found: false",
-              "json_ld_found: false",
-              "checked_pages: home + contacts"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 15",
+              "sheet_raw_value: не проверялось"
             ]
           }
         ]
@@ -304,8 +305,9 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "doctors_page: https://www.michurindental.ru/doctors.html",
-              "navigation_link_found: true"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 17",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -313,9 +315,9 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "contacts_page: https://www.michurindental.ru/contacts.html",
-              "address_found: \"Москва, ул. Столетова, д.7\"",
-              "map_embed_found: api-maps.yandex.ru/services/constructor/..."
+              "из Google Sheet gid=0",
+              "sheet_col_index: 18",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -323,18 +325,19 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "hours_page: https://www.michurindental.ru/contacts.html",
-              "hours_text: \"пн.-пт. с 9.00-21.00\""
+              "из Google Sheet gid=0",
+              "sheet_col_index: 19",
+              "sheet_raw_value: ok"
             ]
           },
           {
             "metric": "Отзывы пациентов на сайте",
-            "status": "ок",
-            "t_f": true,
+            "status": "проблема",
+            "t_f": false,
             "poc": [
-              "yandex_reviews_widget_found: true",
-              "evidence_page: https://www.michurindental.ru/contacts.html",
-              "iframe: https://yandex.ru/sprav/widget/rating-badge/1178460727"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 20",
+              "sheet_raw_value: отсутствуют"
             ]
           },
           {
@@ -342,9 +345,9 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "footer_present: true",
-              "year_range_found: 2013-2026",
-              "current_year_included: true"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 21",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -352,18 +355,19 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "contacts_page_url: https://www.michurindental.ru/contacts.html",
-              "contacts_page_http_status: 200"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 22",
+              "sheet_raw_value: ok"
             ]
           },
           {
             "metric": "Орфографические ошибки в тексте сайта",
-            "status": "проблема",
-            "t_f": false,
+            "status": "проверить",
+            "t_f": null,
             "poc": [
-              "evidence_page: https://www.michurindental.ru/contacts.html",
-              "typo_found: \"маршуртное такси\"",
-              "expected: \"маршрутное такси\""
+              "из Google Sheet gid=0",
+              "sheet_col_index: 23",
+              "sheet_raw_value: не проверялось"
             ]
           }
         ]

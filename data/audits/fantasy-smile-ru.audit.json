@@ -310,22 +310,22 @@
         "metrics": [
           {
             "metric": "Пациент не давал согласия на обработку данных",
-            "status": "проверить",
-            "t_f": null,
+            "status": "ок",
+            "t_f": true,
             "poc": [
-              "forms_total: 0 (inline HTML)",
-              "lead_forms_external: amoCRM widget (#modal-callback, id=1009780), Bitrix24 form (loader_58.js)",
-              "consent_visibility_in_rendered_external_forms: требует интерактивной ручной проверки"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 3",
+              "sheet_raw_value: ok"
             ]
           },
           {
             "metric": "Согласие подставлено автоматически — это хуже чем его отсутствие",
-            "status": "проверить",
-            "t_f": null,
+            "status": "ок",
+            "t_f": true,
             "poc": [
-              "forms_total: 0 (inline HTML)",
-              "external_form_scripts_found: forms.amocrm.ru, cdn-ru.bitrix24.ru",
-              "checkbox_state_in_external_form: недоступно в статическом HTML"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 4",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -333,9 +333,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "policy_link_found: /privacy/ (footer/navigation)",
-              "policy_page_accessible: False",
-              "checked_policy_url: https://fantasy-smile.ru/privacy/ -> HTTP 404"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 5",
+              "sheet_raw_value: проблема"
             ]
           },
           {
@@ -343,19 +343,19 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "site_https: True",
-              "external_form_endpoints_over_https: forms.amocrm.ru, cdn-ru.bitrix24.ru, api.calltouch.ru",
-              "bad_https_forms_count: 0"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 6",
+              "sheet_raw_value: ok"
             ]
           },
           {
             "metric": "На сайте упоминается организация, признанная в России экстремистской",
-            "status": "проблема",
-            "t_f": false,
+            "status": "-",
+            "t_f": null,
             "poc": [
-              "forbidden_hits_count: 2",
-              "evidence_page: https://fantasy-smile.ru/",
-              "evidence_context: href=\"https://www.facebook.com/Fsmile.clinic\", href=\"https://www.instagram.com/dr_derkach/\" (в коде страницы)"
+              "из Google Sheet gid=0",
+              "sheet_col_index: -",
+              "sheet_raw_value: -"
             ]
           },
           {
@@ -363,19 +363,19 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "cookie_notice_found: False",
-              "checked_pages: https://fantasy-smile.ru/, https://fantasy-smile.ru/services/, https://fantasy-smile.ru/contacts/",
-              "note: найдена только техническая библиотека js.cookie, явного пользовательского уведомления нет"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 7",
+              "sheet_raw_value: проблема"
             ]
           },
           {
             "metric": "Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова",
-            "status": "н/п",
-            "t_f": null,
+            "status": "проблема",
+            "t_f": false,
             "poc": [
-              "has_yandex_metrika_signal: True (mc.yandex.ru / ym)",
-              "policy_page_found: False (https://fantasy-smile.ru/privacy/ -> 404)",
-              "conclusion: метрика неприменима до доступного читаемого документа политики"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 8",
+              "sheet_raw_value: проблема"
             ]
           }
         ]
@@ -385,12 +385,12 @@
         "metrics": [
           {
             "metric": "Нет онлайн-записи со слотами",
-            "status": "ок",
-            "t_f": true,
+            "status": "проверить",
+            "t_f": null,
             "poc": [
-              "online_booking_widget_found: True",
-              "evidence_page: https://fantasy-smile.ru/",
-              "widget: partner.i-stom.ru/partner/online-request/widget?partner_id=19 (кнопка \"Запись онлайн\")"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 10",
+              "sheet_raw_value: отсутствует"
             ]
           },
           {
@@ -398,8 +398,9 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "sections_found: услуги и цены, врачи, контакты, кейсы, рейтинги/отзывы",
-              "evidence_pages: https://fantasy-smile.ru/, https://fantasy-smile.ru/services/, https://fantasy-smile.ru/doctors/"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 11",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -407,19 +408,19 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "analytics.found: True",
-              "analytics.kinds: yandex_metrika",
-              "evidence_snippet: ym(85299271), ym(101814159)"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 12",
+              "sheet_raw_value: ok"
             ]
           },
           {
             "metric": "Пациент не может написать первым",
-            "status": "ок",
-            "t_f": true,
+            "status": "-",
+            "t_f": null,
             "poc": [
-              "whatsapp: True",
-              "telegram: True",
-              "evidence_links: https://wa.me/79152237600, https://t.me/fs_clinic"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 13",
+              "sheet_raw_value: -"
             ]
           },
           {
@@ -427,18 +428,19 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "price_public_found: True",
-              "price_page: https://fantasy-smile.ru/services/",
-              "evidence: service-card__price ... руб. без регистрации"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 14",
+              "sheet_raw_value: ok"
             ]
           },
           {
             "metric": "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
-            "status": "ок",
-            "t_f": true,
+            "status": "проверить",
+            "t_f": null,
             "poc": [
-              "schema_supported_found: True",
-              "evidence: BreadcrumbList markup (itemtype=\"http://schema.org/BreadcrumbList\")"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 15",
+              "sheet_raw_value: не проверялось"
             ]
           }
         ]
@@ -451,8 +453,9 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "doctors_content_found: True",
-              "evidence_page: https://fantasy-smile.ru/doctors/"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 17",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -460,9 +463,9 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "address_found: True",
-              "map_found: True",
-              "evidence_page: https://fantasy-smile.ru/contacts/"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 18",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -470,9 +473,9 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "hours_found: True",
-              "evidence_text: пн-сб: 10:00 - 20:00",
-              "evidence_page: https://fantasy-smile.ru/"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 19",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -480,18 +483,19 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "reviews_found: True",
-              "evidence_page: https://fantasy-smile.ru/",
-              "evidence_section: рейтинги/видео-отзывы/отзывы"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 20",
+              "sheet_raw_value: ok"
             ]
           },
           {
             "metric": "Актуальность года в футере (если он вообще есть). Если его нет — ок",
-            "status": "ок",
-            "t_f": true,
+            "status": "проверить",
+            "t_f": null,
             "poc": [
-              "footer_year_present: False",
-              "rule: если года в футере нет — метрика считается ок"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 21",
+              "sheet_raw_value: не указан"
             ]
           },
           {
@@ -499,18 +503,19 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "separate_contacts_page_found: True",
-              "contacts_page: https://fantasy-smile.ru/contacts/"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 22",
+              "sheet_raw_value: ok"
             ]
           },
           {
             "metric": "Орфографические ошибки в тексте сайта",
-            "status": "проблема",
-            "t_f": false,
+            "status": "проверить",
+            "t_f": null,
             "poc": [
-              "typos_found: True",
-              "evidence_page: https://fantasy-smile.ru/services/",
-              "examples: \"проффесионально\", \"врачём\""
+              "из Google Sheet gid=0",
+              "sheet_col_index: 23",
+              "sheet_raw_value: не проверялось"
             ]
           }
         ]

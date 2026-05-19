@@ -280,9 +280,9 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "forms_total: 7",
-              "consent_missing_count: 0",
-              "consent_checkbox_example: https://zetadent.ru/ (wpcf7 acceptance-1)"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 3",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -290,9 +290,9 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "forms_total: 7",
-              "consent_prechecked_count: 0",
-              "explicit_consent_missing_count: 0"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 4",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -300,9 +300,9 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "policy_url: https://zetadent.ru/politika-konfidentsialnosti/",
-              "policy_http_status: 200",
-              "policy_page_contains: \"Политика конфиденциальности персональных данных\""
+              "из Google Sheet gid=0",
+              "sheet_col_index: 5",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -310,19 +310,19 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "site_scheme: https",
-              "form_action_sample: /#wpcf7-f8-p1126-o2 (HTTPS page)",
-              "http_form_posts_found: 0"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 6",
+              "sheet_raw_value: ok"
             ]
           },
           {
             "metric": "На сайте упоминается организация, признанная в России экстремистской",
-            "status": "ок",
-            "t_f": true,
+            "status": "-",
+            "t_f": null,
             "poc": [
-              "facebook_links_found: 0",
-              "instagram_links_found: 0",
-              "checked_pages: https://zetadent.ru/, /ceny/, /kontakty/, /otzyvy/, /vrachi/"
+              "из Google Sheet gid=0",
+              "sheet_col_index: -",
+              "sheet_raw_value: -"
             ]
           },
           {
@@ -330,9 +330,9 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "cookie_notice_found: true",
-              "evidence_page: https://zetadent.ru/",
-              "cookie_notice_text: \"Настоящий сайт использует файлы cookie...\""
+              "из Google Sheet gid=0",
+              "sheet_col_index: 7",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -340,9 +340,9 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "metrika_found: true (ym + mc.yandex.ru/watch/93948234)",
-              "policy_url_checked: https://zetadent.ru/politika-konfidentsialnosti/",
-              "policy_mentions_metrika: true (\"Яндекс.Метрика, Google Analytics\")"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 8",
+              "sheet_raw_value: ok"
             ]
           }
         ]
@@ -352,12 +352,12 @@
         "metrics": [
           {
             "metric": "Нет онлайн-записи со слотами",
-            "status": "проблема",
-            "t_f": false,
+            "status": "проверить",
+            "t_f": null,
             "poc": [
-              "slot_booking_widget_found: false",
-              "external_booking_link_found: false",
-              "found_only_popup_form_trigger: .zapis (Popup Maker + Contact Form 7)"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 10",
+              "sheet_raw_value: отсутствует"
             ]
           },
           {
@@ -365,9 +365,9 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "pages_crawled_semantic: 13",
-              "key_pages: /ceny/, /kontakty/, /otzyvy/, /vrachi/",
-              "conclusion: site_has_functional_depth"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 11",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -375,19 +375,19 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "analytics_found: true",
-              "yandex_metrika_id: 93948234",
-              "counter_script: https://mc.yandex.ru/metrika/tag.js"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 12",
+              "sheet_raw_value: ok"
             ]
           },
           {
             "metric": "Пациент не может написать первым",
-            "status": "ок",
-            "t_f": true,
+            "status": "-",
+            "t_f": null,
             "poc": [
-              "contact_form_found: true",
-              "sample_page: https://zetadent.ru/kontakty/",
-              "fields_detected: name + phone + consent checkbox"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 13",
+              "sheet_raw_value: -"
             ]
           },
           {
@@ -395,19 +395,19 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "price_page: https://zetadent.ru/ceny/",
-              "public_access_http_status: 200",
-              "price_rows_detected: examples \"2000 руб.\", \"8000 руб.\", \"35000 руб.\""
+              "из Google Sheet gid=0",
+              "sheet_col_index: 14",
+              "sheet_raw_value: ok"
             ]
           },
           {
             "metric": "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
-            "status": "ок",
-            "t_f": true,
+            "status": "проверить",
+            "t_f": null,
             "poc": [
-              "schema_ld_json_found: true",
-              "types_found: WebPage, WebSite, Organization, BreadcrumbList",
-              "evidence_page: https://zetadent.ru/"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 15",
+              "sheet_raw_value: не проверялось"
             ]
           }
         ]
@@ -420,9 +420,9 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "doctors_page: https://zetadent.ru/vrachi/",
-              "additional_page: https://zetadent.ru/vrachi-gnatologi/",
-              "doctor_profile_examples: /vrachi/bushina-liliya-grachikovna/, /vrachi/zaharov-vadim-borisovich/"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 17",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -430,9 +430,9 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "contacts_page: https://zetadent.ru/kontakty/",
-              "address_found: \"Ломоносовский пр-т, 34\"",
-              "map_embed_found: api-maps.yandex.ru/services/constructor/..."
+              "из Google Sheet gid=0",
+              "sheet_col_index: 18",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -440,8 +440,9 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "hours_page: https://zetadent.ru/kontakty/",
-              "hours_text: \"Пн-Пт 9:00 — 21:00; Сб и Вс 10:00 — 20:00\""
+              "из Google Sheet gid=0",
+              "sheet_col_index: 19",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -449,19 +450,19 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "reviews_page: https://zetadent.ru/otzyvy/",
-              "reviews_heading_found: \"Отзывы\"",
-              "ratings_blocks_found: \"10+ Отзывов\", \"5+ Отзывов\", \"70+ Отзывов\""
+              "из Google Sheet gid=0",
+              "sheet_col_index: 20",
+              "sheet_raw_value: ok"
             ]
           },
           {
             "metric": "Актуальность года в футере (если он вообще есть). Если его нет — ок",
-            "status": "ок",
-            "t_f": true,
+            "status": "проверить",
+            "t_f": null,
             "poc": [
-              "footer_present: true",
-              "footer_year_present: false",
-              "rule_applied: no footer year => ok"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 21",
+              "sheet_raw_value: не указан"
             ]
           },
           {
@@ -469,18 +470,19 @@
             "status": "ок",
             "t_f": true,
             "poc": [
-              "contacts_page_url: https://zetadent.ru/kontakty/",
-              "contacts_page_http_status: 200"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 22",
+              "sheet_raw_value: ok"
             ]
           },
           {
             "metric": "Орфографические ошибки в тексте сайта",
-            "status": "ок",
-            "t_f": true,
+            "status": "проверить",
+            "t_f": null,
             "poc": [
-              "checked_pages: https://zetadent.ru/, /ceny/, /kontakty/, /otzyvy/, /vrachi/",
-              "critical_typos_found: 0",
-              "note: obvious user-facing typos not detected in sampled pages"
+              "из Google Sheet gid=0",
+              "sheet_col_index: 23",
+              "sheet_raw_value: не проверялось"
             ]
           }
         ]

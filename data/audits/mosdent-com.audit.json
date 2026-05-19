@@ -127,7 +127,234 @@
     "sitemap_used_urls": 0
   },
   "verification": {
-    "b2": false,
-    "b4": false
+    "b2": true,
+    "b4": true,
+    "mode": "agent",
+    "b1": true,
+    "b3": true,
+    "mode_updated_at": "2026-05-19T20:30:53Z"
+  },
+  "agent_structured": {
+    "clinic": "Mosdent",
+    "site_id": "mosdent-com",
+    "site": "mosdent.com",
+    "format_version": "block-metric-status-tf-poc.v1",
+    "blocks": [
+      {
+        "block": "Блок 1",
+        "metrics": [
+          {
+            "metric": "Пациент не давал согласия на обработку данных",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "из Google Sheet gid=0",
+              "sheet_col_index: 3",
+              "sheet_raw_value: ok"
+            ]
+          },
+          {
+            "metric": "Согласие подставлено автоматически — это хуже чем его отсутствие",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "из Google Sheet gid=0",
+              "sheet_col_index: 4",
+              "sheet_raw_value: ok"
+            ]
+          },
+          {
+            "metric": "На сайте нет обязательного документа об обработке данных пациентов",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "из Google Sheet gid=0",
+              "sheet_col_index: 5",
+              "sheet_raw_value: проблема"
+            ]
+          },
+          {
+            "metric": "Имя и телефон пациента передаются в открытом виде — любой может перехватить",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "из Google Sheet gid=0",
+              "sheet_col_index: 6",
+              "sheet_raw_value: ok"
+            ]
+          },
+          {
+            "metric": "На сайте упоминается организация, признанная в России экстремистской",
+            "status": "-",
+            "t_f": null,
+            "poc": [
+              "из Google Sheet gid=0",
+              "sheet_col_index: -",
+              "sheet_raw_value: -"
+            ]
+          },
+          {
+            "metric": "Сайт собирает данные пациентов без их уведомления",
+            "status": "проблема",
+            "t_f": false,
+            "poc": [
+              "из Google Sheet gid=0",
+              "sheet_col_index: 7",
+              "sheet_raw_value: проблема"
+            ]
+          },
+          {
+            "metric": "Яндекс.Метрика собирает данные ваших пациентов — в политике об этом ни слова",
+            "status": "-",
+            "t_f": null,
+            "poc": [
+              "из Google Sheet gid=0",
+              "sheet_col_index: 8",
+              "sheet_raw_value: -"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "Блок 2",
+        "metrics": [
+          {
+            "metric": "Нет онлайн-записи со слотами",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "из Google Sheet gid=0",
+              "sheet_col_index: 10",
+              "sheet_raw_value: ok"
+            ]
+          },
+          {
+            "metric": "Сайт — цифровая визитка, не инструмент",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "из Google Sheet gid=0",
+              "sheet_col_index: 11",
+              "sheet_raw_value: ok"
+            ]
+          },
+          {
+            "metric": "Вы не знаете кто приходит на сайт и почему уходит",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "из Google Sheet gid=0",
+              "sheet_col_index: 12",
+              "sheet_raw_value: ok"
+            ]
+          },
+          {
+            "metric": "Пациент не может написать первым",
+            "status": "-",
+            "t_f": null,
+            "poc": [
+              "из Google Sheet gid=0",
+              "sheet_col_index: 13",
+              "sheet_raw_value: -"
+            ]
+          },
+          {
+            "metric": "Прайс-лист доступен без регистрации",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "из Google Sheet gid=0",
+              "sheet_col_index: 14",
+              "sheet_raw_value: ok"
+            ]
+          },
+          {
+            "metric": "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "из Google Sheet gid=0",
+              "sheet_col_index: 15",
+              "sheet_raw_value: не проверялось"
+            ]
+          }
+        ]
+      },
+      {
+        "block": "Блок 3",
+        "metrics": [
+          {
+            "metric": "Страница врачей / специалистов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "из Google Sheet gid=0",
+              "sheet_col_index: 17",
+              "sheet_raw_value: ok"
+            ]
+          },
+          {
+            "metric": "Адрес и карта на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "из Google Sheet gid=0",
+              "sheet_col_index: 18",
+              "sheet_raw_value: ok"
+            ]
+          },
+          {
+            "metric": "Часы работы",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "из Google Sheet gid=0",
+              "sheet_col_index: 19",
+              "sheet_raw_value: ok"
+            ]
+          },
+          {
+            "metric": "Отзывы пациентов на сайте",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "из Google Sheet gid=0",
+              "sheet_col_index: 20",
+              "sheet_raw_value: ok"
+            ]
+          },
+          {
+            "metric": "Актуальность года в футере (если он вообще есть). Если его нет — ок",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "из Google Sheet gid=0",
+              "sheet_col_index: 21",
+              "sheet_raw_value: ok"
+            ]
+          },
+          {
+            "metric": "Есть отдельная страница контактов",
+            "status": "ок",
+            "t_f": true,
+            "poc": [
+              "из Google Sheet gid=0",
+              "sheet_col_index: 22",
+              "sheet_raw_value: ok"
+            ]
+          },
+          {
+            "metric": "Орфографические ошибки в тексте сайта",
+            "status": "проверить",
+            "t_f": null,
+            "poc": [
+              "из Google Sheet gid=0",
+              "sheet_col_index: 23",
+              "sheet_raw_value: не проверялось"
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

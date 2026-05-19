@@ -166,7 +166,8 @@
             "t_f": true,
             "poc": [
               "из Google Sheet gid=0",
-              "sheet_col_index: 4"
+              "sheet_col_index: 3",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -175,7 +176,8 @@
             "t_f": true,
             "poc": [
               "из Google Sheet gid=0",
-              "sheet_col_index: 5"
+              "sheet_col_index: 4",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -184,25 +186,28 @@
             "t_f": true,
             "poc": [
               "из Google Sheet gid=0",
-              "sheet_col_index: 6"
+              "sheet_col_index: 5",
+              "sheet_raw_value: ok"
             ]
           },
           {
             "metric": "Имя и телефон пациента передаются в открытом виде — любой может перехватить",
-            "status": "проверить",
-            "t_f": null,
+            "status": "ок",
+            "t_f": true,
             "poc": [
               "из Google Sheet gid=0",
-              "sheet_col_index: -"
+              "sheet_col_index: 6",
+              "sheet_raw_value: ok"
             ]
           },
           {
             "metric": "На сайте упоминается организация, признанная в России экстремистской",
-            "status": "проверить",
+            "status": "-",
             "t_f": null,
             "poc": [
               "из Google Sheet gid=0",
-              "sheet_col_index: -"
+              "sheet_col_index: -",
+              "sheet_raw_value: -"
             ]
           },
           {
@@ -211,7 +216,8 @@
             "t_f": true,
             "poc": [
               "из Google Sheet gid=0",
-              "sheet_col_index: 3"
+              "sheet_col_index: 7",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -220,7 +226,8 @@
             "t_f": true,
             "poc": [
               "из Google Sheet gid=0",
-              "sheet_col_index: 7"
+              "sheet_col_index: 8",
+              "sheet_raw_value: ok"
             ]
           }
         ]
@@ -230,11 +237,12 @@
         "metrics": [
           {
             "metric": "Нет онлайн-записи со слотами",
-            "status": "проверить",
-            "t_f": null,
+            "status": "проблема",
+            "t_f": false,
             "poc": [
               "из Google Sheet gid=0",
-              "sheet_col_index: 9"
+              "sheet_col_index: 10",
+              "sheet_raw_value: проблема"
             ]
           },
           {
@@ -243,7 +251,8 @@
             "t_f": true,
             "poc": [
               "из Google Sheet gid=0",
-              "sheet_col_index: 10"
+              "sheet_col_index: 11",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -252,16 +261,18 @@
             "t_f": true,
             "poc": [
               "из Google Sheet gid=0",
-              "sheet_col_index: 11"
+              "sheet_col_index: 12",
+              "sheet_raw_value: ok"
             ]
           },
           {
             "metric": "Пациент не может написать первым",
-            "status": "проверить",
+            "status": "-",
             "t_f": null,
             "poc": [
               "из Google Sheet gid=0",
-              "sheet_col_index: -"
+              "sheet_col_index: 13",
+              "sheet_raw_value: -"
             ]
           },
           {
@@ -270,7 +281,8 @@
             "t_f": true,
             "poc": [
               "из Google Sheet gid=0",
-              "sheet_col_index: 12"
+              "sheet_col_index: 14",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -279,7 +291,8 @@
             "t_f": null,
             "poc": [
               "из Google Sheet gid=0",
-              "sheet_col_index: 13"
+              "sheet_col_index: 15",
+              "sheet_raw_value: не проверялось"
             ]
           }
         ]
@@ -293,7 +306,8 @@
             "t_f": true,
             "poc": [
               "из Google Sheet gid=0",
-              "sheet_col_index: 15"
+              "sheet_col_index: 17",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -302,7 +316,8 @@
             "t_f": true,
             "poc": [
               "из Google Sheet gid=0",
-              "sheet_col_index: 16"
+              "sheet_col_index: 18",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -311,7 +326,8 @@
             "t_f": true,
             "poc": [
               "из Google Sheet gid=0",
-              "sheet_col_index: 17"
+              "sheet_col_index: 19",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -320,7 +336,8 @@
             "t_f": true,
             "poc": [
               "из Google Sheet gid=0",
-              "sheet_col_index: 18"
+              "sheet_col_index: 20",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -329,7 +346,8 @@
             "t_f": true,
             "poc": [
               "из Google Sheet gid=0",
-              "sheet_col_index: 19"
+              "sheet_col_index: 21",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -338,7 +356,8 @@
             "t_f": true,
             "poc": [
               "из Google Sheet gid=0",
-              "sheet_col_index: 20"
+              "sheet_col_index: 22",
+              "sheet_raw_value: ok"
             ]
           },
           {
@@ -347,7 +366,8 @@
             "t_f": null,
             "poc": [
               "из Google Sheet gid=0",
-              "sheet_col_index: 21"
+              "sheet_col_index: 23",
+              "sheet_raw_value: не проверялось"
             ]
           }
         ]
