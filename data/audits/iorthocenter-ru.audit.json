@@ -3299,12 +3299,11 @@
           },
           {
             "metric": "На сайте упоминается организация, признанная в России экстремистской",
-            "status": "-",
-            "t_f": null,
+            "status": "ок",
+            "t_f": true,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: -",
-              "sheet_raw_value: -"
+              "живой обход: https://iorthocenter.ru/, https://iorthocenter.ru/privacy-policy/",
+              "совпадений по упоминаниям и прямым social-link не найдено"
             ]
           },
           {

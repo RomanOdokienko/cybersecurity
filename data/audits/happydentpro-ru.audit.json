@@ -147,12 +147,11 @@
           },
           {
             "metric": "На сайте упоминается организация, признанная в России экстремистской",
-            "status": "-",
-            "t_f": null,
+            "status": "ок",
+            "t_f": true,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: -",
-              "sheet_raw_value: -"
+              "живой обход: https://happydentpro.ru/",
+              "совпадений по упоминаниям и прямым social-link не найдено"
             ]
           },
           {

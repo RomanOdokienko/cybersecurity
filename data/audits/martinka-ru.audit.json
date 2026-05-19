@@ -12952,12 +12952,11 @@
           },
           {
             "metric": "На сайте упоминается организация, признанная в России экстремистской",
-            "status": "-",
-            "t_f": null,
+            "status": "проблема",
+            "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: -",
-              "sheet_raw_value: -"
+              "https://martinka.ru/: найдена прямая ссылка на соцсеть (https://www.facebook.com/doctormartin1993/)",
+              "по методологии метрики это фиксируется как проблема"
             ]
           },
           {

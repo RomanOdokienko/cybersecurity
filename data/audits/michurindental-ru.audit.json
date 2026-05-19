@@ -202,12 +202,11 @@
           },
           {
             "metric": "На сайте упоминается организация, признанная в России экстремистской",
-            "status": "-",
-            "t_f": null,
+            "status": "ок",
+            "t_f": true,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: -",
-              "sheet_raw_value: -"
+              "живой обход: https://www.michurindental.ru/, https://www.michurindental.ru/contacts.html",
+              "совпадений по упоминаниям и прямым social-link не найдено"
             ]
           },
           {

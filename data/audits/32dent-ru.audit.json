@@ -515,12 +515,11 @@
           },
           {
             "metric": "На сайте упоминается организация, признанная в России экстремистской",
-            "status": "-",
-            "t_f": null,
+            "status": "ок",
+            "t_f": true,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: -",
-              "sheet_raw_value: -"
+              "живой обход: https://www.32dent.ru/, https://www.32dent.ru:443/contacts.html",
+              "совпадений по упоминаниям и прямым social-link не найдено"
             ]
           },
           {

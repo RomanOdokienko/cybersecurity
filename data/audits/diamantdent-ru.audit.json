@@ -8310,12 +8310,11 @@
           },
           {
             "metric": "На сайте упоминается организация, признанная в России экстремистской",
-            "status": "-",
-            "t_f": null,
+            "status": "ок",
+            "t_f": true,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: -",
-              "sheet_raw_value: -"
+              "живой обход: https://www.diamantdent.ru/, https://www.diamantdent.ru/kontakty/, https://www.diamantdent.ru/o-klinike/, https://www.diamantdent.ru/privacy-policy/",
+              "совпадений по экстремистским упоминаниям и social-link (instagram.com/facebook.com) не найдено"
             ]
           },
           {
