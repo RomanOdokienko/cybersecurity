@@ -351,12 +351,10 @@
           },
           {
             "metric": "Орфографические ошибки в тексте сайта",
-            "status": "проверить",
+            "status": "-",
             "t_f": null,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 23",
-              "sheet_raw_value: не проверялось"
+              "https://stom-reaviz.ru/ возвращает HTTP 403, текст для проверки орфографии недоступен"
             ]
           }
         ]
