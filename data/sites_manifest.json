@@ -290,7 +290,10 @@
     "site": "recstom.ru",
     "audit_file": "data/audits/recstom-ru.audit.json",
     "contact_email": "info@recstom.ru",
-    "result": "проверить"
+    "result": "проверить",
+    "report_demo": "https://reactortech.ru/demo/recstom-ru-b9a88f5ac0e8/",
+    "report_full": "https://reactortech.ru/demo/recstom-ru-b9a88f5ac0e8-full/",
+    "inn": "7728859383"
   },
   {
     "id": "ruttamed-ru",
@@ -338,7 +341,10 @@
     "site": "feelclinic.ru",
     "audit_file": "data/audits/feelclinic-ru.audit.json",
     "contact_email": "feelclinic@yandex.ru",
-    "result": "проверить"
+    "result": "проверить",
+    "report_demo": "https://reactortech.ru/demo/feelclinic-ru-d33c34542903/",
+    "report_full": "https://reactortech.ru/demo/feelclinic-ru-d33c34542903-full/",
+    "inn": "не найдено"
   },
   {
     "id": "gic-dent-ru",
@@ -402,7 +408,10 @@
     "site": "fantasy-smile.ru",
     "audit_file": "data/audits/fantasy-smile-ru.audit.json",
     "contact_email": "",
-    "result": "проверить"
+    "result": "проверить",
+    "report_demo": "https://reactortech.ru/demo/fantasy-smile-ru-5c924042daf1/",
+    "report_full": "https://reactortech.ru/demo/fantasy-smile-ru-5c924042daf1-full/",
+    "inn": "не найдено"
   },
   {
     "id": "zetadent-ru",
@@ -442,7 +451,10 @@
     "site": "dantistoff.ru",
     "audit_file": "data/audits/dantistoff-ru.audit.json",
     "contact_email": "info@dantistoff.ru",
-    "result": "проверить"
+    "result": "проверить",
+    "report_demo": "https://reactortech.ru/demo/dantistoff-ru-2467a7bf013c/",
+    "report_full": "https://reactortech.ru/demo/dantistoff-ru-2467a7bf013c-full/",
+    "inn": "не найдено"
   },
   {
     "id": "michurinskiy-prezi-dent-ru",
@@ -450,7 +462,10 @@
     "site": "michurinskiy.prezi-dent.ru",
     "audit_file": "data/audits/michurinskiy-prezi-dent-ru.audit.json",
     "contact_email": "michurinsky@prezident.ru",
-    "result": "проверить"
+    "result": "проверить",
+    "report_demo": "https://reactortech.ru/demo/michurinskiy-prezi-dent-ru-abbd80f6c788/",
+    "report_full": "https://reactortech.ru/demo/michurinskiy-prezi-dent-ru-abbd80f6c788-full/",
+    "inn": "не найдено"
   },
   {
     "id": "diamantdent-ru",
@@ -474,7 +489,10 @@
     "site": "mela-clinic.ru",
     "audit_file": "data/audits/mela-clinic-ru.audit.json",
     "contact_email": "melastom@yandex.ru",
-    "result": "проверить"
+    "result": "проверить",
+    "report_demo": "https://reactortech.ru/demo/mela-clinic-ru-8a6f41a6fdf7/",
+    "report_full": "https://reactortech.ru/demo/mela-clinic-ru-8a6f41a6fdf7-full/",
+    "inn": "9729320774"
   },
   {
     "id": "dentalpearl-ru",
@@ -489,8 +507,11 @@
     "clinic": "IMPL",
     "site": "impl.ru",
     "audit_file": "data/audits/impl-ru.audit.json",
-    "contact_email": "impl@mail.ru",
-    "result": "проверить"
+    "contact_email": "ces@impl.ru",
+    "result": "проверить",
+    "report_demo": "https://reactortech.ru/demo/impl-ru-7c70c03492d5/",
+    "report_full": "https://reactortech.ru/demo/impl-ru-7c70c03492d5-full/",
+    "inn": "не найдено"
   },
   {
     "id": "doctorlevin-ru",
@@ -498,15 +519,21 @@
     "site": "doctorlevin.ru",
     "audit_file": "data/audits/doctorlevin-ru.audit.json",
     "contact_email": "mail@doctorlevin.ru",
-    "result": "проверить"
+    "result": "проверить",
+    "report_demo": "https://reactortech.ru/demo/doctorlevin-ru-14a5d82d5e07/",
+    "report_full": "https://reactortech.ru/demo/doctorlevin-ru-14a5d82d5e07-full/",
+    "inn": "9729312050"
   },
   {
     "id": "pogosova-rf",
     "clinic": "Погосова",
     "site": "погосова.рф",
     "audit_file": "data/audits/pogosova-rf.audit.json",
-    "contact_email": "",
-    "result": "проверить"
+    "contact_email": "pogosovarf@mail.ru",
+    "result": "проверить",
+    "report_demo": "https://reactortech.ru/demo/pogosova-rf-c95e645d78a8/",
+    "report_full": "https://reactortech.ru/demo/pogosova-rf-c95e645d78a8-full/",
+    "inn": "7736667156"
   },
   {
     "id": "aomeduslugi-ru",
@@ -522,7 +549,10 @@
     "site": "stom1.su",
     "audit_file": "data/audits/stom1-su.audit.json",
     "contact_email": "info@capital-dent.ru",
-    "result": "проверить"
+    "result": "проверить",
+    "report_demo": "https://reactortech.ru/demo/stom1-su-9f84c4ee652f/",
+    "report_full": "https://reactortech.ru/demo/stom1-su-9f84c4ee652f-full/",
+    "inn": "не найдено"
   },
   {
     "id": "vivadent-moscow",
@@ -538,7 +568,10 @@
     "site": "lizadent.ru/prices",
     "audit_file": "data/audits/lizadent-ru-prices.audit.json",
     "contact_email": "lizadent@bk.ru",
-    "result": "проверить"
+    "result": "проверить",
+    "report_demo": "https://reactortech.ru/demo/lizadent-ru-prices-1295db2efb51/",
+    "report_full": "https://reactortech.ru/demo/lizadent-ru-prices-1295db2efb51-full/",
+    "inn": "7736341080"
   },
   {
     "id": "aspect-clinic-ru",
@@ -554,7 +587,10 @@
     "site": "stepman.ru",
     "audit_file": "data/audits/stepman-ru.audit.json",
     "contact_email": "stepman.ru@yandex.ru",
-    "result": "проверить"
+    "result": "проверить",
+    "report_demo": "https://reactortech.ru/demo/stepman-ru-3752b3f92d66/",
+    "report_full": "https://reactortech.ru/demo/stepman-ru-3752b3f92d66-full/",
+    "inn": "не найдено"
   },
   {
     "id": "iorthocenter-ru",
@@ -578,15 +614,21 @@
     "site": "www.i-profi.ru",
     "audit_file": "data/audits/i-profi-ru.audit.json",
     "contact_email": "info@i-profi.ru",
-    "result": "проверить"
+    "result": "проверить",
+    "report_demo": "https://reactortech.ru/demo/i-profi-ru-6d9d696e870b/",
+    "report_full": "https://reactortech.ru/demo/i-profi-ru-6d9d696e870b-full/",
+    "inn": "не найдено"
   },
   {
     "id": "kavitron-clinic-ru",
     "clinic": "Kavitron Clinic",
     "site": "kavitron-clinic.ru",
     "audit_file": "data/audits/kavitron-clinic-ru.audit.json",
-    "contact_email": "vavilova@kavitron-clinic.com",
-    "result": "проверить"
+    "contact_email": "6511717@mail.ru",
+    "result": "проверить",
+    "report_demo": "https://reactortech.ru/demo/kavitron-clinic-ru-eaa3f0b8a619/",
+    "report_full": "https://reactortech.ru/demo/kavitron-clinic-ru-eaa3f0b8a619-full/",
+    "inn": "не найдено"
   },
   {
     "id": "happydentpro-ru",
@@ -602,23 +644,32 @@
     "site": "ibic.clinic",
     "audit_file": "data/audits/ibic-clinic.audit.json",
     "contact_email": "ibragimov.clinic@yandex.ru",
-    "result": "проверить"
+    "result": "проверить",
+    "report_demo": "https://reactortech.ru/demo/ibic-clinic-dffd77724692/",
+    "report_full": "https://reactortech.ru/demo/ibic-clinic-dffd77724692-full/",
+    "inn": "не найдено"
   },
   {
     "id": "dentalfantasy-ru-clinics-cheremushki",
     "clinic": "Dental Fantasy Черемушки",
     "site": "www.dentalfantasy.ru/clinics/cheremushki/",
     "audit_file": "data/audits/dentalfantasy-ru-clinics-cheremushki.audit.json",
-    "contact_email": "brya@dentalfantasy.ru",
-    "result": "проверить"
+    "contact_email": "call@fantasyclinic.ru",
+    "result": "проверить",
+    "report_demo": "https://reactortech.ru/demo/dentalfantasy-ru-clinics-cheremushki-9a9a932d039e/",
+    "report_full": "https://reactortech.ru/demo/dentalfantasy-ru-clinics-cheremushki-9a9a932d039e-full/",
+    "inn": "7716652715"
   },
   {
     "id": "akademiya-stomatologii-rf",
     "clinic": "Академия Стоматологии",
     "site": "академия-стоматологии.рф",
     "audit_file": "data/audits/akademiya-stomatologii-rf.audit.json",
-    "contact_email": "",
-    "result": "проверить"
+    "contact_email": "info@stom-ak.ru",
+    "result": "проверить",
+    "report_demo": "https://reactortech.ru/demo/akademiya-stomatologii-rf-37c467ffe040/",
+    "report_full": "https://reactortech.ru/demo/akademiya-stomatologii-rf-37c467ffe040-full/",
+    "inn": "7728293429"
   },
   {
     "id": "art-dentale-com",
@@ -626,7 +677,10 @@
     "site": "art-dentale.com",
     "audit_file": "data/audits/art-dentale-com.audit.json",
     "contact_email": "art-dentale@yandex.ru",
-    "result": "проверить"
+    "result": "проверить",
+    "report_demo": "https://reactortech.ru/demo/art-dentale-com-664dfa7e960b/",
+    "report_full": "https://reactortech.ru/demo/art-dentale-com-664dfa7e960b-full/",
+    "inn": "7728376788"
   },
   {
     "id": "dentaklad-ru",
@@ -642,7 +696,10 @@
     "site": "mosdent.com",
     "audit_file": "data/audits/mosdent-com.audit.json",
     "contact_email": "",
-    "result": "проверить"
+    "result": "проверить",
+    "report_demo": "https://reactortech.ru/demo/mosdent-com-03f2c21aa836/",
+    "report_full": "https://reactortech.ru/demo/mosdent-com-03f2c21aa836-full/",
+    "inn": "не найдено"
   },
   {
     "id": "klamer-dent24-clients-site",
@@ -657,8 +714,11 @@
     "clinic": "АльфаКлиник",
     "site": "alfaklinik.ru/skidki.htm",
     "audit_file": "data/audits/alfaklinik-ru-skidki-htm.audit.json",
-    "contact_email": "info@alfaklinik.ru",
-    "result": "проверить"
+    "contact_email": "info@alfaclinic.ru",
+    "result": "проверить",
+    "report_demo": "https://reactortech.ru/demo/alfaklinik-ru-skidki-htm-88073730fe49/",
+    "report_full": "https://reactortech.ru/demo/alfaklinik-ru-skidki-htm-88073730fe49-full/",
+    "inn": "не найдено"
   },
   {
     "id": "taplink-cc-stomus",
@@ -674,7 +734,10 @@
     "site": "martinka.ru",
     "audit_file": "data/audits/martinka-ru.audit.json",
     "contact_email": "martinka@dr-martin.ru",
-    "result": "проверить"
+    "result": "проверить",
+    "report_demo": "https://reactortech.ru/demo/martinka-ru-d7cc417e73f0/",
+    "report_full": "https://reactortech.ru/demo/martinka-ru-d7cc417e73f0-full/",
+    "inn": "не найдено"
   },
   {
     "id": "delficlinic-ru",
@@ -697,8 +760,11 @@
     "clinic": "Vimontale",
     "site": "vimontale.ru",
     "audit_file": "data/audits/vimontale-ru.audit.json",
-    "contact_email": "stom@ipm03.ru",
-    "result": "проверить"
+    "contact_email": "medcentr2010@bk.ru",
+    "result": "проверить",
+    "report_demo": "https://reactortech.ru/demo/vimontale-ru-745934b89845/",
+    "report_full": "https://reactortech.ru/demo/vimontale-ru-745934b89845-full/",
+    "inn": "не найдено"
   },
   {
     "id": "32dent-ru",
@@ -714,7 +780,10 @@
     "site": "elisan-expert.ru",
     "audit_file": "data/audits/elisan-expert-ru.audit.json",
     "contact_email": "mail@eli-san.ru",
-    "result": "проверить"
+    "result": "проверить",
+    "report_demo": "https://reactortech.ru/demo/elisan-expert-ru-5fd05d9a5eeb/",
+    "report_full": "https://reactortech.ru/demo/elisan-expert-ru-5fd05d9a5eeb-full/",
+    "inn": "7727165696"
   },
   {
     "id": "krutov-clinic-ru",
