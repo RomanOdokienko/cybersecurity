@@ -145,9 +145,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 3",
-              "sheet_raw_value: проблема"
+              "forms_total_scanned: 0 (на 14 проверенных страницах формы не обнаружены)",
+              "checked_pages_sample: https://alfaklinik.ru/skidki.htm, https://alfaklinik.ru/",
+              "status_kept_from_source: проблема"
             ]
           },
           {
@@ -165,9 +165,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 5",
-              "sheet_raw_value: проблема"
+              "policy_links_found: none (в 14 проверенных страницах)",
+              "checked_pages_include: /, /sitemap.htm, /stomatology.htm, /implantacija.htm",
+              "status_kept_from_source: проблема"
             ]
           },
           {
@@ -194,9 +194,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 7",
-              "sheet_raw_value: проблема"
+              "analytics_scripts_detected_on_checked_pages: true (14/14)",
+              "cookie_notice_found: false (явный баннер не обнаружен)",
+              "status_kept_from_source: проблема"
             ]
           },
           {
@@ -219,9 +219,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 10",
-              "sheet_raw_value: проблема"
+              "checked_pages: 14",
+              "slot_booking_widget_not_confirmed_on_checked_pages",
+              "status_kept_from_source: проблема"
             ]
           },
           {
@@ -259,9 +259,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 14",
-              "sheet_raw_value: проблема"
+              "prices_pages_detected: true (например /skidki.htm, /stomatology.htm)",
+              "status_kept_from_source: проблема",
+              "note: в живом проходе ценовые страницы доступны без авторизации"
             ]
           },
           {
@@ -284,9 +284,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 17",
-              "sheet_raw_value: проблема"
+              "doctor_related_pages_detected: true (например /stomatology.htm)",
+              "status_kept_from_source: проблема",
+              "requires_methodology_review: true"
             ]
           },
           {
@@ -294,9 +294,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 18",
-              "sheet_raw_value: проблема"
+              "map/address_autocheck_not_confirmed_in_current_pass",
+              "checked_pages: /, /stomatology.htm, /contact* (не обнаружено в первых 14 URL)",
+              "status_kept_from_source: проблема"
             ]
           },
           {
@@ -314,9 +314,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 20",
-              "sheet_raw_value: проблема"
+              "reviews_mentions_detected: true (например /protezirovanie.htm, /parodontologija.htm)",
+              "status_kept_from_source: проблема",
+              "requires_methodology_review: true"
             ]
           },
           {

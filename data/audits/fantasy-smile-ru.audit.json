@@ -333,9 +333,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 5",
-              "sheet_raw_value: проблема"
+              "live: на главной странице найден линк «Политика конфиденциальности» -> https://fantasy-smile.ru/privacy/",
+              "live: при переходе по https://fantasy-smile.ru/privacy/ сервер возвращает HTTP 404 (документ как доступная политика отсутствует)",
+              "по проверенным страницам (главная/контакты/услуги) другой рабочий URL политики ПДн не найден"
             ]
           },
           {
@@ -353,8 +353,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "https://fantasy-smile.ru/: найдена прямая ссылка на соцсеть (https://www.instagram.com/dr_derkach/)",
-              "по методологии метрики это фиксируется как проблема"
+              "live: на https://fantasy-smile.ru/ найдена ссылка на Instagram: https://www.instagram.com/dr_derkach/",
+              "live: на https://fantasy-smile.ru/ найдена ссылка на Facebook: https://www.facebook.com/Fsmile.clinic",
+              "аналогичные ссылки присутствуют и на внутренних страницах сайта (контакты/услуги)"
             ]
           },
           {
@@ -362,9 +363,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 7",
-              "sheet_raw_value: проблема"
+              "live: на страницах https://fantasy-smile.ru/ и https://fantasy-smile.ru/contacts/ присутствует подключение аналитики Яндекс.Метрики (скриптовые маркеры ym()/mc.yandex.ru)",
+              "live: явного пользовательского cookie/PD-уведомления в видимом тексте проверенных страниц не обнаружено",
+              "дополнительно: ссылка на политику ведет на 404 (https://fantasy-smile.ru/privacy/)"
             ]
           },
           {
@@ -372,9 +373,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 8",
-              "sheet_raw_value: проблема"
+              "live: на https://fantasy-smile.ru/ и https://fantasy-smile.ru/contacts/ обнаружены маркеры Яндекс.Метрики (ym()/mc.yandex.ru)",
+              "live: ссылка на политику https://fantasy-smile.ru/privacy/ возвращает 404, рабочий текст политики для проверки упоминания Метрики не найден",
+              "следствие: для пользователя отсутствует доступный текст политики, где можно проверить/найти раскрытие про Яндекс.Метрику"
             ]
           }
         ]
@@ -512,9 +513,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "расширенный обход: 80 страниц домена fantasy-smile.ru",
-              "найдено \"Проффесионально\" — 9 вхождений (https://fantasy-smile.ru/, /services/, /services/index.php?ID=4)",
-              "найдено \"врачём\" — 3 вхождения (https://fantasy-smile.ru/, /services/, /services/index.php?ID=4)"
+              "расширенный обход: 80 страниц сайта fantasy-smile.ru",
+              "найдено: «Проффесионально» -> «Профессионально» (9 вхождений; страницы: https://fantasy-smile.ru/, https://fantasy-smile.ru/services/, https://fantasy-smile.ru/services/index.php?ID=4)",
+              "найдено: «врачём» -> «врачом» (3 вхождения; страницы: https://fantasy-smile.ru/, https://fantasy-smile.ru/services/, https://fantasy-smile.ru/services/index.php?ID=4)"
             ]
           }
         ]

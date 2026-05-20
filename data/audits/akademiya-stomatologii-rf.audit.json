@@ -213,9 +213,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 3",
-              "sheet_raw_value: проблема"
+              "forms_total_scanned: 49",
+              "forms_without_checkbox: 42",
+              "sample_pages: https://xn----7sbabpdhydansjc3acb2ctd0y.xn--p1ai/, /nashi-spetsialisty/"
             ]
           },
           {
@@ -261,9 +261,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 7",
-              "sheet_raw_value: проблема"
+              "analytics_scripts_detected_on_checked_pages: true",
+              "cookie_notice_found: false (явный баннер не обнаружен в проверенных страницах)",
+              "forms_with_notice_false: 42"
             ]
           },
           {
@@ -271,9 +271,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 8",
-              "sheet_raw_value: проблема"
+              "policy_link_found: https://xn----7sbabpdhydansjc3acb2ctd0y.xn--p1ai/politika-confidencialnosty/",
+              "policy_http_status: 200; has_ym: true",
+              "status_kept_from_source: проблема (живой проход показывает упоминание Я.Метрики/Яндекса в политике)"
             ]
           }
         ]
@@ -391,9 +391,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 21",
-              "sheet_raw_value: проблема"
+              "https://xn----7sbabpdhydansjc3acb2ctd0y.xn--p1ai/ — найден год 2030 среди годов страницы/футера",
+              "years_detected_sample: 2019, 2020, 2022, 2025, 2030",
+              "evidence_of_incorrect_future_year: 2030"
             ]
           },
           {

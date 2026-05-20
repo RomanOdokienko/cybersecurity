@@ -10237,9 +10237,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 4",
-              "sheet_raw_value: проблема"
+              "forms_total_scanned: 109; forms_with_checked_checkbox: 81",
+              "sample_pages: https://vimontale.ru/, https://vimontale.ru/o-klinike/",
+              "evidence: consent checkbox prechecked found in multiple forms"
             ]
           },
           {
@@ -10247,9 +10247,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 5",
-              "sheet_raw_value: проблема"
+              "policy_link_found: https://vimontale.ru/politika-konfidentsialnosti/ (HTTP 200)",
+              "status_kept_from_source: проблема",
+              "note: в живом проходе обязательный документ найден"
             ]
           },
           {
@@ -10276,9 +10276,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 7",
-              "sheet_raw_value: проблема"
+              "analytics_scripts_detected_on_checked_pages: true (14/14)",
+              "forms_with_notice_false: 28",
+              "cookie_notice_found: false (явный баннер не обнаружен)"
             ]
           },
           {
@@ -10286,9 +10286,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 8",
-              "sheet_raw_value: проблема"
+              "policy_check: https://vimontale.ru/politika-konfidentsialnosti/ has_ym: true",
+              "analytics_clues_detected_on_site: true",
+              "status_kept_from_source: проблема (живой проход фиксирует упоминание в политике)"
             ]
           }
         ]

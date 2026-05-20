@@ -168,9 +168,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 5",
-              "sheet_raw_value: проблема"
+              "policy_link_found: https://mosdent.com/privacy-policy (HTTP 404)",
+              "working_policy_page_not_confirmed_in_checked_pages",
+              "status_kept_from_source: проблема"
             ]
           },
           {
@@ -197,9 +197,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 7",
-              "sheet_raw_value: проблема"
+              "analytics_scripts_detected_on_checked_pages: true",
+              "cookie_notice_found: false (в проверенных страницах)",
+              "forms_total_scanned: 8"
             ]
           },
           {
@@ -347,8 +347,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "расширенный обход: 50 страниц (24 HTML-страниц)",
-              "'врачем' -> врачом (вхождений: 6; страницы: https://mosdent.com/)"
+              "checked_pages: /, /services, /uslugi/* (14 страниц)",
+              "manual_spelling_confirmation_required: true",
+              "status_kept_from_source: проблема"
             ]
           }
         ]

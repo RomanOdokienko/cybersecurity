@@ -389,9 +389,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 4",
-              "sheet_raw_value: проблема"
+              "live: на https://lizadent.ru/prices и https://lizadent.ru/ в формах согласия чекбокс отмечен заранее (checked=1)",
+              "текст формы: «Согласие на обработку персональных данных ...» присутствует, но чекбокс предустановлен до действия пользователя",
+              "это соответствует критерию prechecked-consent"
             ]
           },
           {
@@ -419,8 +419,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "https://lizadent.ru/prices: найдена прямая ссылка на соцсеть (https://instagram.com/lizadent.ru?igshid=YzcxN2Q2NzY0OA==)",
-              "по методологии метрики это фиксируется как проблема"
+              "live: на странице https://lizadent.ru/prices найдена ссылка на Instagram: https://instagram.com/lizadent.ru?igshid=YzcxN2Q2NzY0OA==",
+              "live: ссылки на Instagram также присутствуют на других страницах домена (главная/контакты/карточки врачей)",
+              "по действующей методике проекта это фиксируется как проблема"
             ]
           },
           {
@@ -438,9 +439,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 8",
-              "sheet_raw_value: проблема"
+              "live: политика доступна по адресу https://lizadent.ru/privacy/ (HTTP 200)",
+              "live: в тексте политики есть упоминания про cookie/аналитические файлы и «метрики», но явного упоминания «Яндекс.Метрика» не обнаружено",
+              "live: на проверенных страницах сайта (https://lizadent.ru/, /prices) не найдено явных маркеров подключения Яндекс.Метрики (ym()/mc.yandex.ru); статус оставлен как в источнике и требует методологической сверки"
             ]
           }
         ]

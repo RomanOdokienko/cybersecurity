@@ -364,9 +364,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 4",
-              "sheet_raw_value: проблема"
+              "https://ibic.clinic/ — найдены формы с checkbox согласия в состоянии checked",
+              "https://ibic.clinic/contacts/ — найдены формы с checkbox согласия в состоянии checked",
+              "forms_total_scanned: 28"
             ]
           },
           {
@@ -428,9 +428,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 10",
-              "sheet_raw_value: проблема"
+              "checked_pages: /, /contacts/, /prices/, /doctors/, /reviews/",
+              "dedicated_slot_booking_widget_not_confirmed_on_checked_pages",
+              "status_kept_from_source: проблема"
             ]
           },
           {
@@ -448,9 +448,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 12",
-              "sheet_raw_value: проблема"
+              "metrika_pages_found: none",
+              "analytics_counters_detected: none (в проверенных страницах)",
+              "checked_pages_count: 10"
             ]
           },
           {
@@ -533,9 +533,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 21",
-              "sheet_raw_value: проблема"
+              "https://ibic.clinic/ — встречаются годы: 2023, 2024, 2025, 2026, 2030",
+              "https://ibic.clinic/policy/ — встречаются годы: 2004, 2025, 2026, 2030",
+              "evidence_of_incorrect_future_year: 2030"
             ]
           },
           {

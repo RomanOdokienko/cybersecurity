@@ -1144,9 +1144,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 4",
-              "sheet_raw_value: проблема"
+              "checked_pages: https://art-dentale.com/, /services, /contacts",
+              "forms_total_scanned: 10; forms_with_checked_checkbox: 0",
+              "status_kept_from_source: проблема (в живом проходе предустановленный checkbox не обнаружен)"
             ]
           },
           {
@@ -1154,9 +1154,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 5",
-              "sheet_raw_value: проблема"
+              "policy_links_found: https://art-dentale.com/privasy (403), https://art-dentale.com/privacy (200)",
+              "document_access_issue_detected_on_one_of_policy_urls: true",
+              "status_kept_from_source: проблема"
             ]
           },
           {
@@ -1174,8 +1174,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "https://art-dentale.com/: найдена прямая ссылка на соцсеть (https://www.facebook.com/ArtDentale/)",
-              "по методологии метрики это фиксируется как проблема"
+              "html_source_mentions_found: instagram/facebook/meta",
+              "sample_pages: https://art-dentale.com/, https://art-dentale.com/contacts",
+              "evidence_scope: source_code_links"
             ]
           },
           {
@@ -1183,9 +1184,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 7",
-              "sheet_raw_value: проблема"
+              "analytics_scripts_detected: https://art-dentale.com/, /contacts, /privacy",
+              "cookie_notice_found: false (в проверенных страницах)",
+              "forms_with_notice_false: 10"
             ]
           },
           {
@@ -1303,9 +1304,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 20",
-              "sheet_raw_value: проблема"
+              "reviews_mentions_detected_on_checked_pages: true",
+              "sample_pages: https://art-dentale.com/, https://art-dentale.com/contacts",
+              "status_kept_from_source: проблема"
             ]
           },
           {
@@ -1313,9 +1314,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 21",
-              "sheet_raw_value: проблема"
+              "years_detected_include_future_values: 2027, 2033, 2035, 2079",
+              "sample_page: https://art-dentale.com/contacts",
+              "evidence_of_incorrect_future_years: true"
             ]
           },
           {

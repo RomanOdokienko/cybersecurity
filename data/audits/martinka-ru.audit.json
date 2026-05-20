@@ -12925,9 +12925,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 4",
-              "sheet_raw_value: проблема"
+              "forms_total_scanned: 85; forms_with_checked_checkbox: 69",
+              "sample_pages: https://martinka.ru/, https://martinka.ru/doctors/, https://martinka.ru/prices/",
+              "evidence: consent checkbox prechecked found in multiple forms"
             ]
           },
           {
@@ -12955,8 +12955,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "https://martinka.ru/: найдена прямая ссылка на соцсеть (https://www.facebook.com/doctormartin1993/)",
-              "по методологии метрики это фиксируется как проблема"
+              "html_source_mentions_found: instagram/facebook/meta",
+              "sample_pages: https://martinka.ru/, https://martinka.ru/about/",
+              "evidence_scope: source_code_links"
             ]
           },
           {
@@ -12974,9 +12975,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 8",
-              "sheet_raw_value: проблема"
+              "policy_links_found: https://martinka.ru/Information-Privacy-Policy.php, https://martinka.ru/User-Agreement.php",
+              "policy_checks: status 200; has_ym: true",
+              "status_kept_from_source: проблема (живой проход фиксирует упоминание Я.Метрики/Яндекса в документах)"
             ]
           }
         ]
@@ -12989,9 +12990,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 10",
-              "sheet_raw_value: проблема"
+              "checked_pages: 14",
+              "slot_related_clue_found: https://martinka.ru/terapiya/lechenie-glubokogo-kariesa/",
+              "status_kept_from_source: проблема (подтверждение полноценных слотов требует ручной проверки виджета)"
             ]
           },
           {
@@ -13114,8 +13115,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "расширенный обход: 50 страниц (47 HTML-страниц)",
-              "'ортодонтичеcкого' -> кириллица без латинских символов (вхождений: 1; страницы: https://martinka.ru/ortodontiya/brekety/brekety-win-vin/)"
+              "checked_pages: /, /action/, /article/, /doctors/, /prices/ (14 страниц)",
+              "manual_spelling_confirmation_required: true",
+              "status_kept_from_source: проблема"
             ]
           }
         ]

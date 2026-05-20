@@ -16312,9 +16312,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 4",
-              "sheet_raw_value: проблема"
+              "https://kavitron-clinic.ru/ — в формах есть предустановленный checkbox согласия (checked)",
+              "forms_total_scanned: 31",
+              "sample_checked_forms: /, /kontakty/"
             ]
           },
           {
@@ -16351,9 +16351,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 7",
-              "sheet_raw_value: проблема"
+              "analytics_scripts_detected: https://kavitron-clinic.ru/, https://kavitron-clinic.ru/otzyvy/",
+              "cookie_notice_found: false (явный баннер/уведомление не обнаружен в проверенных страницах)",
+              "forms_with_notice_false_detected: true"
             ]
           },
           {
@@ -16361,9 +16361,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 8",
-              "sheet_raw_value: проблема"
+              "metrika_or_analytics_clues: https://kavitron-clinic.ru/, https://kavitron-clinic.ru/otzyvy/",
+              "policy_links_found: none",
+              "conclusion: проверка упоминания Я.Метрики в политике невозможна (политика не найдена на проверенных страницах)"
             ]
           }
         ]
@@ -16481,9 +16481,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 21",
-              "sheet_raw_value: проблема"
+              "https://kavitron-clinic.ru/ — в футере/странице встречаются годы: 2023, 2024, 2025, 2040, 2041",
+              "https://kavitron-clinic.ru/otzyvy/ — встречаются годы: 2021, 2024, 2025, 2040, 2041",
+              "evidence_of_incorrect_future_years: 2040, 2041"
             ]
           },
           {

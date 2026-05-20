@@ -258,9 +258,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 4",
-              "sheet_raw_value: проблема"
+              "forms_total_scanned: 10; forms_with_checked_checkbox: 0; forms_without_checkbox: 10",
+              "sample_pages: https://elisan-expert.ru/, https://elisan-expert.ru/policy",
+              "status_kept_from_source: проблема (в живом проходе предустановленный checkbox не подтвержден)"
             ]
           },
           {
@@ -307,9 +307,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 8",
-              "sheet_raw_value: проблема"
+              "policy_link_found: https://elisan-expert.ru/policy (HTTP 200)",
+              "policy_contains_ym_or_yandex_mentions: true",
+              "status_kept_from_source: проблема (живой проход фиксирует упоминание в политике)"
             ]
           }
         ]
@@ -427,9 +427,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 21",
-              "sheet_raw_value: проблема"
+              "checked_pages: https://elisan-expert.ru/, /policy",
+              "footer_year_autocheck_requires_manual_confirmation",
+              "status_kept_from_source: проблема"
             ]
           },
           {

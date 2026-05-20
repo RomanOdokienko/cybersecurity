@@ -1443,9 +1443,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 3",
-              "sheet_raw_value: проблема"
+              "live: на http://www.i-profi.ru/contacts/ и http://www.i-profi.ru/reception/ формы отправки данных (ФИО/телефон/e-mail) без чекбокса согласия (checkbox=0)",
+              "live: рядом с кнопкой отправки не найдено явного текста согласия/ссылки на политику в контексте формы",
+              "по методике это фиксируется как отсутствие явного согласия перед передачей ПДн"
             ]
           },
           {
@@ -1473,9 +1473,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 6",
-              "sheet_raw_value: проблема"
+              "live: основной рабочий доступ к сайту идет по HTTP: http://www.i-profi.ru/ (HTTPS открытие даёт SSL certificate verify failed / self-signed)",
+              "live: формы с персональными данными доступны по HTTP-страницам (например, /contacts/ и /reception/)",
+              "передача данных по HTTP не защищена TLS и подпадает под риск перехвата"
             ]
           },
           {
@@ -1491,9 +1491,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 7",
-              "sheet_raw_value: проблема"
+              "live: на страницах http://www.i-profi.ru/, /contacts/, /prices/ присутствуют маркеры Яндекс.Метрики (ym()/mc.yandex.ru)",
+              "live: формы сбора персональных данных обнаружены, но отдельного понятного уведомления о веб-аналитике для пользователя рядом с формами не зафиксировано",
+              "PoC фиксирует сочетание: трекинг + сбор ПДн без явного уведомления о счетчике"
             ]
           },
           {
@@ -1501,9 +1501,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 8",
-              "sheet_raw_value: проблема"
+              "live: политика доступна в файле http://www.i-profi.ru/files/privacy-policy.docx (HTTP 200)",
+              "live: в тексте policy DOCX не найдено упоминаний «Яндекс»/«Метрика»/\"metrika\" (поиск по document.xml: 0 вхождений)",
+              "live: при этом маркеры Метрики есть на страницах сайта (http://www.i-profi.ru/, /contacts/, /prices/)"
             ]
           }
         ]
