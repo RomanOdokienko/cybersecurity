@@ -1007,9 +1007,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 4",
-              "sheet_raw_value: проблема"
+              "forms_total_scanned: 6; forms_with_checked_checkbox: 0; forms_without_checkbox: 6",
+              "forms_with_notice_false: 6",
+              "status_preserved_from_source: проблема (live-проверка не подтвердила prechecked-checkbox, требуется методологическая сверка)"
             ]
           },
           {
@@ -1055,9 +1055,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 8",
-              "sheet_raw_value: проблема"
+              "policy_link: https://feelclinic.ru/privacy (HTTP 403)",
+              "site_metrika_clues_detected_on_checked_pages: true",
+              "из-за недоступности policy URL для чтения проверить упоминание в тексте политики не удалось"
             ]
           }
         ]
@@ -1117,12 +1117,12 @@
           },
           {
             "metric": "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
-            "status": "проверить",
-            "t_f": null,
+            "status": "проблема",
+            "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 15",
-              "sheet_raw_value: "
+              "checked_pages: https://feelclinic.ru/, /contacts, /doctors, /licensii-uridicheskaya-informacia",
+              "found_only_itemtype: http://schema.org/ImageObject; json-ld blocks: 0",
+              "поддерживаемые полезные Schema.org-схемы (Organization/MedicalClinic/FAQ/Review) не подтверждены"
             ]
           }
         ]
@@ -1192,12 +1192,12 @@
           },
           {
             "metric": "Орфографические ошибки в тексте сайта",
-            "status": "проверить",
-            "t_f": null,
+            "status": "ok",
+            "t_f": true,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 23",
-              "sheet_raw_value: "
+              "checked_pages: https://feelclinic.ru/, /doctors, /contacts, /lechenie-kariesa",
+              "явные орфографические ошибки в видимом тексте не обнаружены",
+              "manual_review_scope: основные публичные страницы"
             ]
           }
         ]

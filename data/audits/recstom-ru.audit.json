@@ -506,9 +506,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 4",
-              "sheet_raw_value: проблема"
+              "forms_total_scanned: 21; forms_with_checked_checkbox: 0",
+              "forms_without_checkbox: 1; forms_with_notice_false: 1",
+              "status_preserved_from_source: проблема (live-проверка не подтвердила prechecked-checkbox, требуется методологическая сверка)"
             ]
           },
           {
@@ -523,12 +523,12 @@
           },
           {
             "metric": "Имя и телефон пациента передаются в открытом виде — любой может перехватить",
-            "status": "проверить",
-            "t_f": null,
+            "status": "ok",
+            "t_f": true,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 6",
-              "sheet_raw_value: "
+              "checked_pages: https://recstom.ru/, https://recstom.ru/price/, https://recstom.ru/doctors/",
+              "site_protocol: https; http_form_actions_found: 0",
+              "перехват данных из-за HTTP-форм в проверенных страницах не подтвержден"
             ]
           },
           {
@@ -554,9 +554,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 8",
-              "sheet_raw_value: проблема"
+              "policy_link: https://recstom.ru/privacy/ (HTTP 200)",
+              "policy_has_yandex_or_metrika_mentions: true; site_metrika_clue: true",
+              "status_preserved_from_source: проблема (live-проверка показывает упоминание в политике, нужна сверка статуса)"
             ]
           }
         ]
@@ -569,9 +569,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 10",
-              "sheet_raw_value: проблема"
+              "checked_pages: главная, цены, врачи, отзывы, about (20 страниц)",
+              "direct_booking_slot_links_found: 0 (booking/yclients/slot/calendar)",
+              "в проверенных страницах явный интерфейс онлайн-записи со слотами не обнаружен"
             ]
           },
           {
@@ -596,12 +596,12 @@
           },
           {
             "metric": "Пациент не может написать первым",
-            "status": "-",
-            "t_f": null,
+            "status": "ok",
+            "t_f": true,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 13",
-              "sheet_raw_value: -"
+              "found_direct_messenger_link: https://t.me/RecstomInfo (на главной странице)",
+              "patient_can_initiate_contact: true",
+              "статус изменен с \"-\" на \"ok\" по live-проверке"
             ]
           },
           {
@@ -616,12 +616,12 @@
           },
           {
             "metric": "Schema.org Поддерживаемые схемы Schemaorg от Яндекса",
-            "status": "проверить",
-            "t_f": null,
+            "status": "проблема",
+            "t_f": false,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 15",
-              "sheet_raw_value: не проверялось"
+              "checked_pages: 20 (главная, услуги, врачи, цены, отзывы и др.)",
+              "application/ld+json: not found; schema.org itemtype: not found",
+              "поддерживаемые Schema.org-разметки в проверенных страницах не подтверждены"
             ]
           }
         ]
@@ -691,12 +691,12 @@
           },
           {
             "metric": "Орфографические ошибки в тексте сайта",
-            "status": "проверить",
-            "t_f": null,
+            "status": "ok",
+            "t_f": true,
             "poc": [
-              "из Google Sheet gid=0",
-              "sheet_col_index: 23",
-              "sheet_raw_value: не проверялось"
+              "checked_pages: https://recstom.ru/, https://recstom.ru/about/, https://recstom.ru/price/, https://recstom.ru/doctors/",
+              "явные орфографические ошибки в видимом тексте не обнаружены",
+              "manual_review_scope: основные публичные страницы"
             ]
           }
         ]
