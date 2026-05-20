@@ -2462,7 +2462,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "https://dantistoff.ru/: найдено \"Рассчет стоимости по снимку\" (корректно: \"Расчет\")"
+              "расширенный обход: 70 страниц (67 HTML-страниц)",
+              "'Рассчет' -> расчет (вхождений: 135; страницы: https://dantistoff.ru/, https://dantistoff.ru/about/, https://dantistoff.ru/about/job/)",
+              "'рассчет' -> расчет (вхождений: 1; страницы: https://dantistoff.ru/pacientam/rasschet-po-snimku/)"
             ]
           }
         ]

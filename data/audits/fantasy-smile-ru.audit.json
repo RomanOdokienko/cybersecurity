@@ -512,8 +512,9 @@
             "status": "проблема",
             "t_f": false,
             "poc": [
-              "https://fantasy-smile.ru/: найдено \"Проффесионально\" (должно быть \"Профессионально\")",
-              "https://fantasy-smile.ru/: найдено \"врачём\" (должно быть \"врачом\")"
+              "расширенный обход: 80 страниц домена fantasy-smile.ru",
+              "найдено \"Проффесионально\" — 9 вхождений (https://fantasy-smile.ru/, /services/, /services/index.php?ID=4)",
+              "найдено \"врачём\" — 3 вхождения (https://fantasy-smile.ru/, /services/, /services/index.php?ID=4)"
             ]
           }
         ]
