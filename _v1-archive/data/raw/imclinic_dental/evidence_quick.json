@@ -1,0 +1,205 @@
+﻿{
+    "site_id":  "imclinic_dental",
+    "domain":  "imclinic.dental",
+    "audit_timestamp_utc":  "2026-04-15T23:34:15.3137107Z",
+    "transport":  {
+                      "mixed_content_count":  0,
+                      "http_home_status":  301,
+                      "tls":  {
+                                  "valid_now":  true,
+                                  "days_to_expiry":  76,
+                                  "signature_algorithm":  "sha256RSA",
+                                  "issuer":  "CN=R13, O=Let\u0027s Encrypt, C=US",
+                                  "not_after":  "2026-07-01T08:10:32.0000000Z"
+                              },
+                      "redirect_location":  "https://imclinic.dental/",
+                      "https_home_status":  403,
+                      "redirect_to_https":  true,
+                      "hsts":  null
+                  },
+    "file_checks":  [
+                        {
+                            "path":  "/.env",
+                            "status":  405,
+                            "final_url":  "https://imclinic.dental/.env"
+                        },
+                        {
+                            "path":  "/.git/config",
+                            "status":  405,
+                            "final_url":  "https://imclinic.dental/.git/config"
+                        },
+                        {
+                            "path":  "/wp-config.php",
+                            "status":  403,
+                            "final_url":  "https://imclinic.dental/wp-config.php"
+                        },
+                        {
+                            "path":  "/backup.sql",
+                            "status":  405,
+                            "final_url":  "https://imclinic.dental/backup.sql"
+                        },
+                        {
+                            "path":  "/phpinfo.php",
+                            "status":  404,
+                            "final_url":  "https://imclinic.dental/phpinfo.php"
+                        },
+                        {
+                            "path":  "/uploads/",
+                            "status":  404,
+                            "final_url":  "https://imclinic.dental/uploads/"
+                        }
+                    ],
+    "admin_checks":  {
+                         "wp_version":  null,
+                         "bitrix_admin_status":  200,
+                         "wp_admin_status":  404
+                     },
+    "header_checks":  {
+                          "x_powered_by":  null,
+                          "server":  "nginx-reuseport/1.21.1",
+                          "missing":  [
+                                          "Strict-Transport-Security",
+                                          "Content-Security-Policy",
+                                          "X-Frame-Options",
+                                          "X-Content-Type-Options",
+                                          "Referrer-Policy",
+                                          "Permissions-Policy"
+                                      ]
+                      },
+    "form_checks":  {
+                        "forms_method_unknown":  0,
+                        "page_checks":  [
+                                            {
+                                                "path":  "/",
+                                                "status":  403,
+                                                "body_length":  170054,
+                                                "error":  null,
+                                                "final_url":  "https://imclinic.dental/"
+                                            },
+                                            {
+                                                "path":  "/contacts",
+                                                "status":  403,
+                                                "body_length":  107905,
+                                                "error":  null,
+                                                "final_url":  "https://imclinic.dental/contacts"
+                                            },
+                                            {
+                                                "path":  "/contact",
+                                                "status":  403,
+                                                "body_length":  92551,
+                                                "error":  null,
+                                                "final_url":  "https://imclinic.dental/contact"
+                                            },
+                                            {
+                                                "path":  "/zapis",
+                                                "status":  403,
+                                                "body_length":  92549,
+                                                "error":  null,
+                                                "final_url":  "https://imclinic.dental/zapis"
+                                            },
+                                            {
+                                                "path":  "/appointment",
+                                                "status":  403,
+                                                "body_length":  92555,
+                                                "error":  null,
+                                                "final_url":  "https://imclinic.dental/appointment"
+                                            },
+                                            {
+                                                "path":  "/feedback",
+                                                "status":  403,
+                                                "body_length":  92552,
+                                                "error":  null,
+                                                "final_url":  "https://imclinic.dental/feedback"
+                                            },
+                                            {
+                                                "path":  "/callback",
+                                                "status":  403,
+                                                "body_length":  92552,
+                                                "error":  null,
+                                                "final_url":  "https://imclinic.dental/callback"
+                                            },
+                                            {
+                                                "path":  "/online",
+                                                "status":  403,
+                                                "body_length":  92550,
+                                                "error":  null,
+                                                "final_url":  "https://imclinic.dental/online"
+                                            }
+                                        ],
+                        "forms_count_non_relevant":  0,
+                        "forms_count_total_detected":  0,
+                        "forms_non_post":  0,
+                        "pages_accessible":  0,
+                        "has_honeypot":  false,
+                        "pages_sampled":  8,
+                        "forms_count":  0,
+                        "pages_blocked":  8,
+                        "forms_with_policy_marker":  0,
+                        "forms_with_any_required_checkbox":  0,
+                        "has_privacy":  false,
+                        "forms_insecure_action":  0,
+                        "has_captcha":  false,
+                        "policy_checks":  [
+                                              {
+                                                  "url":  "https://imclinic.dental/document_politics.php",
+                                                  "status":  404,
+                                                  "final_url":  "https://imclinic.dental/document_politics.php"
+                                              },
+                                              {
+                                                  "url":  "https://imclinic.dental/politika",
+                                                  "status":  404,
+                                                  "final_url":  "https://imclinic.dental/politika"
+                                              },
+                                              {
+                                                  "url":  "https://imclinic.dental/politika-konfidentsialnosti",
+                                                  "status":  404,
+                                                  "final_url":  "https://imclinic.dental/politika-konfidentsialnosti"
+                                              },
+                                              {
+                                                  "url":  "https://imclinic.dental/privacy",
+                                                  "status":  404,
+                                                  "final_url":  "https://imclinic.dental/privacy"
+                                              },
+                                              {
+                                                  "url":  "https://imclinic.dental/privacy-policy",
+                                                  "status":  404,
+                                                  "final_url":  "https://imclinic.dental/privacy-policy"
+                                              },
+                                              {
+                                                  "url":  "https://imclinic.dental/policy",
+                                                  "status":  404,
+                                                  "final_url":  "https://imclinic.dental/policy"
+                                              },
+                                              {
+                                                  "url":  "https://imclinic.dental/personal-data",
+                                                  "status":  404,
+                                                  "final_url":  "https://imclinic.dental/personal-data"
+                                              },
+                                              {
+                                                  "url":  "https://imclinic.dental/privacy-policy/",
+                                                  "status":  404,
+                                                  "final_url":  "https://imclinic.dental/privacy-policy/"
+                                              }
+                                          ],
+                        "forms_with_required_consent":  0,
+                        "has_cookie_notice":  false
+                    },
+    "dns_checks":  {
+                       "dmarc":  "v=DMARC1; p=none; aspf=r; sp=none",
+                       "dkim_default":  {
+
+                                        },
+                       "spf":  "v=spf1 include:_spf.mail.ru include:beget.com ~all"
+                   },
+    "script_checks":  {
+                          "outdated_jquery":  [
+
+                                              ],
+                          "external_no_sri":  2,
+                          "external_domains":  [
+                                                   "cdn.callibri.ru",
+                                                   "prodoctorov.ru"
+                                               ],
+                          "external_total":  2
+                      }
+}

@@ -1,0 +1,171 @@
+﻿<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Дашборд аудита клиник</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="wrap">
+    <header class="top">
+      <h1>Дашборд аудита клиник</h1>
+      <div class="controls">
+        <label for="actionFilter">Очередь:</label>
+        <select id="actionFilter">
+          <option value="all">все</option>
+          <option value="offer_now">оффер сейчас</option>
+          <option value="agent_review">ручная проверка</option>
+          <option value="no_offer_now">без оффера сейчас</option>
+        </select>
+        <label for="siteSelect">Сайт:</label>
+        <select id="siteSelect"></select>
+      </div>
+    </header>
+
+    <section class="site-focus">
+      <span class="site-focus-label">Текущий сайт:</span>
+      <span id="siteFocusValue" class="site-focus-value">-</span>
+    </section>
+
+    <section class="summary">
+      <div class="card card-site">
+        <div class="label">Проверяем сайт</div>
+        <div id="domainValue" class="value">-</div>
+      </div>
+      <div class="card card-score">
+        <div class="label">Общий score</div>
+        <div id="scoreValue" class="value score-value">-</div>
+      </div>
+      <div class="card">
+        <div class="label">Уровень риска</div>
+        <div id="riskValue" class="value">-</div>
+      </div>
+      <div class="card">
+        <div class="label">Дата аудита</div>
+        <div id="timeValue" class="value">-</div>
+      </div>
+      <div class="card">
+        <div class="label">Следующее действие</div>
+        <div id="actionValue" class="value">-</div>
+        <div id="actionHint" class="hint">-</div>
+      </div>
+      <div class="card">
+        <div class="label">Скрининг 152‑ФЗ</div>
+        <div id="law152Value" class="value">-</div>
+        <div id="law152Hint" class="hint">-</div>
+      </div>
+    </section>
+
+    <section class="table-wrap">
+      <div class="section-head">
+        <h2>Проверка 152‑ФЗ (отдельный блок)</h2>
+      </div>
+      <div class="law152-legend">
+        <span class="legend-chip"><span class="status-pill status-fail">провалено</span> есть явные разрывы</span>
+        <span class="legend-chip"><span class="status-pill status-review_required">нужна проверка</span> сигнал неоднозначный</span>
+        <span class="legend-chip"><span class="status-pill status-pass">пройдено</span> quick-критерии выполнены</span>
+        <span class="legend-chip legend-chip-accent"><span class="status-pill status-not_observable">не наблюдается</span> quick-данные ограничены, нужна ручная/агентная проверка</span>
+      </div>
+      <div id="law152Attention" class="law152-attention" hidden></div>
+      <div class="detail-card">
+        <h3>Критерии fail/pass по 152‑ФЗ</h3>
+        <ul id="law152Explain" class="detail-list"></ul>
+        <div class="subtable-wrap">
+          <table class="mini-table">
+            <thead>
+              <tr>
+                <th>Критерий</th>
+                <th>Статус</th>
+                <th>Значение</th>
+                <th>Доказательство</th>
+              </tr>
+            </thead>
+            <tbody id="law152CriteriaBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="table-wrap">
+      <div class="section-head">
+        <h2>Материалы и full‑данные по сайту</h2>
+        <div class="section-meta">Объединяет quick-дашборд с уже подготовленными отчетами.</div>
+      </div>
+      <div class="materials-grid">
+        <div class="detail-card">
+          <h3>Готовые документы</h3>
+          <ul id="reportLinks" class="links-list"></ul>
+        </div>
+        <div class="detail-card">
+          <h3>Full‑маркеры (если есть)</h3>
+          <div id="fullMarkersMeta" class="hint">-</div>
+          <div class="subtable-wrap">
+            <table class="mini-table">
+              <thead>
+                <tr>
+                  <th>Маркер</th>
+                  <th>Статус</th>
+                  <th>Score</th>
+                  <th>Ключевые факты</th>
+                </tr>
+              </thead>
+              <tbody id="fullMarkersBody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="table-wrap">
+      <div class="section-head">
+        <h2>Статусы блоков проверки</h2>
+        <div class="inline-legend">
+          <span class="legend-chip"><span class="status-pill status-critical">критично</span></span>
+          <span class="legend-chip"><span class="status-pill status-warning">предупреждение</span></span>
+          <span class="legend-chip"><span class="status-pill status-review_required">нужна проверка</span></span>
+          <span class="legend-chip"><span class="status-pill status-ok">ок</span></span>
+          <span class="legend-chip"><span class="status-pill status-not_tested">не проверено</span></span>
+          <span class="legend-chip"><span class="status-pill status-error">ошибка</span></span>
+        </div>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Приоритет</th>
+            <th>Блок</th>
+            <th>Статус</th>
+            <th>Score</th>
+            <th>Уверенность</th>
+            <th>Доказательства</th>
+            <th>Комментарий для оффера</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+    </section>
+
+    <section class="table-wrap table-wrap-secondary">
+      <div class="section-head">
+        <h2>Очередь лидов</h2>
+        <div class="section-meta">Вторичный навигационный блок, для переключения между сайтами.</div>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Домен</th>
+            <th>Score</th>
+            <th>Риск</th>
+            <th>Следующее действие</th>
+            <th>Статус 152</th>
+            <th>Критичные / На проверку</th>
+            <th>Обновлено</th>
+          </tr>
+        </thead>
+        <tbody id="queueBody"></tbody>
+      </table>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

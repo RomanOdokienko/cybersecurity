@@ -1,0 +1,210 @@
+﻿{
+    "site_id":  "dr-knyazkin_ru",
+    "domain":  "dr-knyazkin.ru",
+    "audit_timestamp_utc":  "2026-04-15T23:33:17.1107132Z",
+    "transport":  {
+                      "mixed_content_count":  0,
+                      "http_home_status":  301,
+                      "tls":  {
+                                  "valid_now":  true,
+                                  "days_to_expiry":  36,
+                                  "signature_algorithm":  "sha256RSA",
+                                  "issuer":  "CN=R13, O=Let\u0027s Encrypt, C=US",
+                                  "not_after":  "2026-05-22T22:49:50.0000000Z"
+                              },
+                      "redirect_location":  "https://dr-knyazkin.ru/",
+                      "https_home_status":  200,
+                      "redirect_to_https":  true,
+                      "hsts":  null
+                  },
+    "file_checks":  [
+                        {
+                            "path":  "/.env",
+                            "status":  429,
+                            "final_url":  "https://dr-knyazkin.ru/.env"
+                        },
+                        {
+                            "path":  "/.git/config",
+                            "status":  429,
+                            "final_url":  "https://dr-knyazkin.ru/.git/config"
+                        },
+                        {
+                            "path":  "/wp-config.php",
+                            "status":  403,
+                            "final_url":  "https://dr-knyazkin.ru/wp-config.php"
+                        },
+                        {
+                            "path":  "/backup.sql",
+                            "status":  403,
+                            "final_url":  "https://dr-knyazkin.ru/backup.sql"
+                        },
+                        {
+                            "path":  "/phpinfo.php",
+                            "status":  404,
+                            "final_url":  "https://dr-knyazkin.ru/phpinfo.php"
+                        },
+                        {
+                            "path":  "/uploads/",
+                            "status":  404,
+                            "final_url":  "https://dr-knyazkin.ru/uploads/"
+                        }
+                    ],
+    "admin_checks":  {
+                         "wp_version":  null,
+                         "bitrix_admin_status":  404,
+                         "wp_admin_status":  429
+                     },
+    "header_checks":  {
+                          "x_powered_by":  null,
+                          "server":  "ddos-guard",
+                          "missing":  [
+                                          "Strict-Transport-Security",
+                                          "Content-Security-Policy",
+                                          "X-Content-Type-Options",
+                                          "Referrer-Policy",
+                                          "Permissions-Policy"
+                                      ]
+                      },
+    "form_checks":  {
+                        "forms_method_unknown":  0,
+                        "page_checks":  [
+                                            {
+                                                "path":  "/",
+                                                "status":  200,
+                                                "body_length":  375142,
+                                                "error":  null,
+                                                "final_url":  "https://dr-knyazkin.ru/"
+                                            },
+                                            {
+                                                "path":  "/contacts",
+                                                "status":  200,
+                                                "body_length":  91437,
+                                                "error":  null,
+                                                "final_url":  "https://dr-knyazkin.ru/contacts"
+                                            },
+                                            {
+                                                "path":  "/contact",
+                                                "status":  403,
+                                                "body_length":  54215,
+                                                "error":  null,
+                                                "final_url":  "https://dr-knyazkin.ru/contact"
+                                            },
+                                            {
+                                                "path":  "/zapis",
+                                                "status":  403,
+                                                "body_length":  54215,
+                                                "error":  null,
+                                                "final_url":  "https://dr-knyazkin.ru/zapis"
+                                            },
+                                            {
+                                                "path":  "/appointment",
+                                                "status":  403,
+                                                "body_length":  54215,
+                                                "error":  null,
+                                                "final_url":  "https://dr-knyazkin.ru/appointment"
+                                            },
+                                            {
+                                                "path":  "/feedback",
+                                                "status":  200,
+                                                "body_length":  116484,
+                                                "error":  null,
+                                                "final_url":  "https://dr-knyazkin.ru/feedback"
+                                            },
+                                            {
+                                                "path":  "/callback",
+                                                "status":  403,
+                                                "body_length":  54215,
+                                                "error":  null,
+                                                "final_url":  "https://dr-knyazkin.ru/callback"
+                                            },
+                                            {
+                                                "path":  "/online",
+                                                "status":  403,
+                                                "body_length":  54215,
+                                                "error":  null,
+                                                "final_url":  "https://dr-knyazkin.ru/online"
+                                            }
+                                        ],
+                        "forms_count_non_relevant":  0,
+                        "forms_count_total_detected":  9,
+                        "forms_non_post":  0,
+                        "pages_accessible":  3,
+                        "has_honeypot":  false,
+                        "pages_sampled":  8,
+                        "forms_count":  9,
+                        "pages_blocked":  5,
+                        "forms_with_policy_marker":  9,
+                        "forms_with_any_required_checkbox":  4,
+                        "has_privacy":  true,
+                        "forms_insecure_action":  0,
+                        "has_captcha":  false,
+                        "policy_checks":  [
+                                              {
+                                                  "url":  "https://dr-knyazkin.ru/document_politics.php",
+                                                  "status":  404,
+                                                  "final_url":  "https://dr-knyazkin.ru/document_politics.php"
+                                              },
+                                              {
+                                                  "url":  "https://dr-knyazkin.ru/personal-data",
+                                                  "status":  404,
+                                                  "final_url":  "https://dr-knyazkin.ru/personal-data"
+                                              },
+                                              {
+                                                  "url":  "https://dr-knyazkin.ru/policy",
+                                                  "status":  404,
+                                                  "final_url":  "https://dr-knyazkin.ru/policy"
+                                              },
+                                              {
+                                                  "url":  "https://dr-knyazkin.ru/politika",
+                                                  "status":  200,
+                                                  "final_url":  "https://dr-knyazkin.ru/politika"
+                                              },
+                                              {
+                                                  "url":  "https://dr-knyazkin.ru/politika-konfidentsialnosti",
+                                                  "status":  404,
+                                                  "final_url":  "https://dr-knyazkin.ru/politika-konfidentsialnosti"
+                                              },
+                                              {
+                                                  "url":  "https://dr-knyazkin.ru/privacy",
+                                                  "status":  404,
+                                                  "final_url":  "https://dr-knyazkin.ru/privacy"
+                                              },
+                                              {
+                                                  "url":  "https://dr-knyazkin.ru/privacy-policy",
+                                                  "status":  404,
+                                                  "final_url":  "https://dr-knyazkin.ru/privacy-policy"
+                                              },
+                                              {
+                                                  "url":  "https://dr-knyazkin.ru/privacy-policy/",
+                                                  "status":  404,
+                                                  "final_url":  "https://dr-knyazkin.ru/privacy-policy/"
+                                              }
+                                          ],
+                        "forms_with_required_consent":  4,
+                        "has_cookie_notice":  true
+                    },
+    "dns_checks":  {
+                       "dmarc":  {
+
+                                 },
+                       "dkim_default":  {
+
+                                        },
+                       "spf":  {
+
+                               }
+                   },
+    "script_checks":  {
+                          "outdated_jquery":  [
+                                                  "1.10.2"
+                                              ],
+                          "external_no_sri":  25,
+                          "external_domains":  [
+                                                   "lidrekon.ru",
+                                                   "neo.tildacdn.com",
+                                                   "prodoctorov.ru",
+                                                   "static.tildacdn.com"
+                                               ],
+                          "external_total":  25
+                      }
+}

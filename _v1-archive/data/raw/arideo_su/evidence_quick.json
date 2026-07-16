@@ -1,0 +1,210 @@
+﻿{
+    "site_id":  "arideo_su",
+    "domain":  "arideo.su",
+    "audit_timestamp_utc":  "2026-04-15T23:31:50.8264681Z",
+    "transport":  {
+                      "mixed_content_count":  0,
+                      "http_home_status":  301,
+                      "tls":  {
+                                  "valid_now":  true,
+                                  "days_to_expiry":  73,
+                                  "signature_algorithm":  "sha256RSA",
+                                  "issuer":  "CN=R13, O=Let\u0027s Encrypt, C=US",
+                                  "not_after":  "2026-06-27T23:46:54.0000000Z"
+                              },
+                      "redirect_location":  "https://arideo.su:443/",
+                      "https_home_status":  200,
+                      "redirect_to_https":  true,
+                      "hsts":  "max-age=31536000;"
+                  },
+    "file_checks":  [
+                        {
+                            "path":  "/.env",
+                            "status":  404,
+                            "final_url":  "https://arideo.su/.env"
+                        },
+                        {
+                            "path":  "/.git/config",
+                            "status":  403,
+                            "final_url":  "https://arideo.su/.git/config"
+                        },
+                        {
+                            "path":  "/wp-config.php",
+                            "status":  404,
+                            "final_url":  "https://arideo.su/wp-config.php"
+                        },
+                        {
+                            "path":  "/backup.sql",
+                            "status":  404,
+                            "final_url":  "https://arideo.su/backup.sql"
+                        },
+                        {
+                            "path":  "/phpinfo.php",
+                            "status":  404,
+                            "final_url":  "https://arideo.su/phpinfo.php"
+                        },
+                        {
+                            "path":  "/uploads/",
+                            "status":  404,
+                            "final_url":  "https://arideo.su/uploads/"
+                        }
+                    ],
+    "admin_checks":  {
+                         "wp_version":  null,
+                         "bitrix_admin_status":  200,
+                         "wp_admin_status":  404
+                     },
+    "header_checks":  {
+                          "x_powered_by":  null,
+                          "server":  "nginx/1.18.0 (Ubuntu)",
+                          "missing":  [
+                                          "Content-Security-Policy",
+                                          "X-Frame-Options",
+                                          "X-Content-Type-Options",
+                                          "Referrer-Policy",
+                                          "Permissions-Policy"
+                                      ]
+                      },
+    "form_checks":  {
+                        "forms_method_unknown":  6,
+                        "page_checks":  [
+                                            {
+                                                "path":  "/",
+                                                "status":  200,
+                                                "body_length":  98822,
+                                                "error":  null,
+                                                "final_url":  "https://arideo.su/"
+                                            },
+                                            {
+                                                "path":  "/contacts",
+                                                "status":  200,
+                                                "body_length":  44460,
+                                                "error":  null,
+                                                "final_url":  "https://arideo.su/contacts"
+                                            },
+                                            {
+                                                "path":  "/contact",
+                                                "status":  404,
+                                                "body_length":  40643,
+                                                "error":  null,
+                                                "final_url":  "https://arideo.su/contact"
+                                            },
+                                            {
+                                                "path":  "/zapis",
+                                                "status":  404,
+                                                "body_length":  40643,
+                                                "error":  null,
+                                                "final_url":  "https://arideo.su/zapis"
+                                            },
+                                            {
+                                                "path":  "/appointment",
+                                                "status":  404,
+                                                "body_length":  40643,
+                                                "error":  null,
+                                                "final_url":  "https://arideo.su/appointment"
+                                            },
+                                            {
+                                                "path":  "/feedback",
+                                                "status":  404,
+                                                "body_length":  40643,
+                                                "error":  null,
+                                                "final_url":  "https://arideo.su/feedback"
+                                            },
+                                            {
+                                                "path":  "/callback",
+                                                "status":  404,
+                                                "body_length":  40643,
+                                                "error":  null,
+                                                "final_url":  "https://arideo.su/callback"
+                                            },
+                                            {
+                                                "path":  "/online",
+                                                "status":  404,
+                                                "body_length":  40643,
+                                                "error":  null,
+                                                "final_url":  "https://arideo.su/online"
+                                            }
+                                        ],
+                        "forms_count_non_relevant":  0,
+                        "forms_count_total_detected":  6,
+                        "forms_non_post":  0,
+                        "pages_accessible":  2,
+                        "has_honeypot":  false,
+                        "pages_sampled":  8,
+                        "forms_count":  6,
+                        "pages_blocked":  0,
+                        "forms_with_policy_marker":  6,
+                        "forms_with_any_required_checkbox":  0,
+                        "has_privacy":  true,
+                        "forms_insecure_action":  0,
+                        "has_captcha":  true,
+                        "policy_checks":  [
+                                              {
+                                                  "url":  "https://arideo.su/agreement/",
+                                                  "status":  200,
+                                                  "final_url":  "https://arideo.su/agreement/"
+                                              },
+                                              {
+                                                  "url":  "https://arideo.su/document_politics.php",
+                                                  "status":  404,
+                                                  "final_url":  "https://arideo.su/document_politics.php"
+                                              },
+                                              {
+                                                  "url":  "https://arideo.su/personal-data",
+                                                  "status":  404,
+                                                  "final_url":  "https://arideo.su/personal-data"
+                                              },
+                                              {
+                                                  "url":  "https://arideo.su/policy",
+                                                  "status":  404,
+                                                  "final_url":  "https://arideo.su/policy"
+                                              },
+                                              {
+                                                  "url":  "https://arideo.su/politika",
+                                                  "status":  404,
+                                                  "final_url":  "https://arideo.su/politika"
+                                              },
+                                              {
+                                                  "url":  "https://arideo.su/politika-konfidentsialnosti",
+                                                  "status":  404,
+                                                  "final_url":  "https://arideo.su/politika-konfidentsialnosti"
+                                              },
+                                              {
+                                                  "url":  "https://arideo.su/privacy",
+                                                  "status":  404,
+                                                  "final_url":  "https://arideo.su/privacy"
+                                              },
+                                              {
+                                                  "url":  "https://arideo.su/privacy-policy",
+                                                  "status":  404,
+                                                  "final_url":  "https://arideo.su/privacy-policy"
+                                              }
+                                          ],
+                        "forms_with_required_consent":  0,
+                        "has_cookie_notice":  false
+                    },
+    "dns_checks":  {
+                       "dmarc":  {
+
+                                 },
+                       "dkim_default":  {
+
+                                        },
+                       "spf":  "v=spf1 redirect=_spf.yandex.net"
+                   },
+    "script_checks":  {
+                          "outdated_jquery":  [
+
+                                              ],
+                          "external_no_sri":  7,
+                          "external_domains":  [
+                                                   "api-maps.yandex.ru",
+                                                   "cdn.jsdelivr.net",
+                                                   "code.jquery.com",
+                                                   "rawgit.com",
+                                                   "www.google.com",
+                                                   "www.googletagmanager.com"
+                                               ],
+                          "external_total":  7
+                      }
+}

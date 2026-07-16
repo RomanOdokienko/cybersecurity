@@ -1,0 +1,4 @@
+﻿"site_id","domain","status","owner","notes","created_utc"
+"demo_example","example-clinic.test","pending","","seed row for format","2026-04-15T00:00:00Z"
+"dr-knyazkin_ru","dr-knyazkin.ru","audited_quick","","","2026-04-15T11:39:59.7931545Z"
+mx-medical_ru,mx-medical.ru,pending,,,2026-04-15T15:06:50.4910125Z

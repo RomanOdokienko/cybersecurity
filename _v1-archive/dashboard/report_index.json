@@ -1,0 +1,165 @@
+﻿{
+    "arideo.su":  {
+                      "domain":  "arideo.su",
+                      "site_id":  "arideo_su",
+                      "links":  [
+
+                                ],
+                      "full_markers":  null,
+                      "full_audit_timestamp":  null
+                  },
+    "drblumkin.ru":  {
+                         "domain":  "drblumkin.ru",
+                         "site_id":  "drblumkin_ru",
+                         "links":  [
+
+                                   ],
+                         "full_markers":  null,
+                         "full_audit_timestamp":  null
+                     },
+    "dr-knyazkin.ru":  {
+                           "domain":  "dr-knyazkin.ru",
+                           "site_id":  "dr-knyazkin_ru",
+                           "links":  [
+                                         {
+                                             "label":  "152-ФЗ подробный отчет (HTML)",
+                                             "path":  "../outputs/full/dr-knyazkin_152fz_detailed_2026-04-15.html",
+                                             "kind":  "html"
+                                         },
+                                         {
+                                             "label":  "152-ФЗ подробный отчет (MD)",
+                                             "path":  "../outputs/full/dr-knyazkin_152fz_detailed_2026-04-15.md",
+                                             "kind":  "md"
+                                         },
+                                         {
+                                             "label":  "Матрица критериев (HTML)",
+                                             "path":  "../outputs/offer/dr-knyazkin_criteria_matrix_2026-04-15.html",
+                                             "kind":  "html"
+                                         },
+                                         {
+                                             "label":  "Матрица критериев (PDF)",
+                                             "path":  "../outputs/offer/dr-knyazkin_criteria_matrix_2026-04-15.pdf",
+                                             "kind":  "pdf"
+                                         },
+                                         {
+                                             "label":  "Продажный one-pager (HTML)",
+                                             "path":  "../outputs/offer/dr-knyazkin_sales_offer_2026-04-15.html",
+                                             "kind":  "html"
+                                         },
+                                         {
+                                             "label":  "Продажный one-pager (MD)",
+                                             "path":  "../outputs/offer/dr-knyazkin_sales_offer_2026-04-15.md",
+                                             "kind":  "md"
+                                         },
+                                         {
+                                             "label":  "Продажный one-pager (PDF)",
+                                             "path":  "../outputs/offer/dr-knyazkin_sales_offer_2026-04-15.pdf",
+                                             "kind":  "pdf"
+                                         }
+                                     ],
+                           "full_markers":  {
+                                                "compliance_152fz":  {
+                                                                         "score":  25,
+                                                                         "status":  "ok",
+                                                                         "findings":  [
+                                                                                          "No explicit 152-FZ/personal-data markers detected."
+                                                                                      ],
+                                                                         "policy_urls":  "https://dr-knyazkin.ru/politika",
+                                                                         "form_pages":  "https://dr-knyazkin.ru"
+                                                                     },
+                                                "site_quality":  {
+                                                                     "score":  20,
+                                                                     "status":  "ok",
+                                                                     "findings":  [
+                                                                                      "robots.txt is missing or inaccessible."
+                                                                                  ],
+                                                                     "robots_status":  403,
+                                                                     "sitemap_status":  200,
+                                                                     "soft404_status":  403,
+                                                                     "soft404_likely":  false
+                                                                 }
+                                            },
+                           "full_audit_timestamp":  "2026-04-15T13:07:22.7078248Z"
+                       },
+    "imclinic.dental":  {
+                            "domain":  "imclinic.dental",
+                            "site_id":  "imclinic_dental",
+                            "links":  [
+
+                                      ],
+                            "full_markers":  null,
+                            "full_audit_timestamp":  null
+                        },
+    "kmdental.ru":  {
+                        "domain":  "kmdental.ru",
+                        "site_id":  "kmdental_ru",
+                        "links":  [
+
+                                  ],
+                        "full_markers":  null,
+                        "full_audit_timestamp":  null
+                    },
+    "medsi.ru":  {
+                     "domain":  "medsi.ru",
+                     "site_id":  "medsi_ru",
+                     "links":  [
+
+                               ],
+                     "full_markers":  null,
+                     "full_audit_timestamp":  null
+                 },
+    "mx-medical.ru":  {
+                          "domain":  "mx-medical.ru",
+                          "site_id":  "mx-medical_ru",
+                          "links":  [
+
+                                    ],
+                          "full_markers":  null,
+                          "full_audit_timestamp":  null
+                      },
+    "olimpdent.ru":  {
+                         "domain":  "olimpdent.ru",
+                         "site_id":  "olimpdent_ru",
+                         "links":  [
+
+                                   ],
+                         "full_markers":  null,
+                         "full_audit_timestamp":  null
+                     },
+    "senseclinic.ru":  {
+                           "domain":  "senseclinic.ru",
+                           "site_id":  "senseclinic_ru",
+                           "links":  [
+
+                                     ],
+                           "full_markers":  null,
+                           "full_audit_timestamp":  null
+                       },
+    "stom-azbuka.ru":  {
+                           "domain":  "stom-azbuka.ru",
+                           "site_id":  "stom-azbuka_ru",
+                           "links":  [
+
+                                     ],
+                           "full_markers":  null,
+                           "full_audit_timestamp":  null
+                       },
+    "vk.link":  {
+                    "domain":  "vk.link",
+                    "site_id":  "vk_link",
+                    "links":  [
+
+                              ],
+                    "full_markers":  null,
+                    "full_audit_timestamp":  null
+                },
+    "www.ortodont-center.ru":  {
+                                   "domain":  "www.ortodont-center.ru",
+                                   "site_id":  "www_ortodont-center_ru",
+                                   "links":  [
+
+                                             ],
+                                   "full_markers":  null,
+                                   "full_audit_timestamp":  null
+                               }
+}

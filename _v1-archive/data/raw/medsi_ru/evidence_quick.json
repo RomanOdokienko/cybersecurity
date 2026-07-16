@@ -1,0 +1,203 @@
+﻿{
+    "site_id":  "medsi_ru",
+    "domain":  "medsi.ru",
+    "audit_timestamp_utc":  "2026-04-16T00:07:50.2962097Z",
+    "transport":  {
+                      "mixed_content_count":  2,
+                      "http_home_status":  302,
+                      "tls":  {
+                                  "valid_now":  true,
+                                  "days_to_expiry":  169,
+                                  "signature_algorithm":  "sha256RSA",
+                                  "issuer":  "CN=GlobalSign GCC R3 DV TLS CA 2020, O=GlobalSign nv-sa, C=BE",
+                                  "not_after":  "2026-10-02T21:32:42.0000000Z"
+                              },
+                      "redirect_location":  "https://medsi.ru/",
+                      "https_home_status":  200,
+                      "redirect_to_https":  true,
+                      "hsts":  "max-age=31536000; includeSubDomains"
+                  },
+    "file_checks":  [
+                        {
+                            "path":  "/.env",
+                            "status":  404,
+                            "final_url":  "https://medsi.ru/.env"
+                        },
+                        {
+                            "path":  "/.git/config",
+                            "status":  200,
+                            "final_url":  "https://medsi.ru/.git/config"
+                        },
+                        {
+                            "path":  "/wp-config.php",
+                            "status":  404,
+                            "final_url":  "https://medsi.ru/wp-config.php"
+                        },
+                        {
+                            "path":  "/backup.sql",
+                            "status":  404,
+                            "final_url":  "https://medsi.ru/backup.sql"
+                        },
+                        {
+                            "path":  "/phpinfo.php",
+                            "status":  404,
+                            "final_url":  "https://medsi.ru/phpinfo.php"
+                        },
+                        {
+                            "path":  "/uploads/",
+                            "status":  404,
+                            "final_url":  "https://medsi.ru/uploads/"
+                        }
+                    ],
+    "admin_checks":  {
+                         "wp_version":  null,
+                         "bitrix_admin_status":  403,
+                         "wp_admin_status":  404
+                     },
+    "header_checks":  {
+                          "x_powered_by":  null,
+                          "server":  null,
+                          "missing":  [
+                                          "Content-Security-Policy",
+                                          "Referrer-Policy",
+                                          "Permissions-Policy"
+                                      ]
+                      },
+    "form_checks":  {
+                        "forms_method_unknown":  0,
+                        "page_checks":  [
+                                            {
+                                                "path":  "/",
+                                                "status":  200,
+                                                "body_length":  276271,
+                                                "error":  null,
+                                                "final_url":  "https://medsi.ru/"
+                                            },
+                                            {
+                                                "path":  "/contacts",
+                                                "status":  404,
+                                                "body_length":  238462,
+                                                "error":  null,
+                                                "final_url":  "https://medsi.ru/contacts"
+                                            },
+                                            {
+                                                "path":  "/contact",
+                                                "status":  404,
+                                                "body_length":  238461,
+                                                "error":  null,
+                                                "final_url":  "https://medsi.ru/contact"
+                                            },
+                                            {
+                                                "path":  "/zapis",
+                                                "status":  404,
+                                                "body_length":  238459,
+                                                "error":  null,
+                                                "final_url":  "https://medsi.ru/zapis"
+                                            },
+                                            {
+                                                "path":  "/appointment",
+                                                "status":  404,
+                                                "body_length":  238465,
+                                                "error":  null,
+                                                "final_url":  "https://medsi.ru/appointment"
+                                            },
+                                            {
+                                                "path":  "/feedback",
+                                                "status":  404,
+                                                "body_length":  238462,
+                                                "error":  null,
+                                                "final_url":  "https://medsi.ru/feedback"
+                                            },
+                                            {
+                                                "path":  "/callback",
+                                                "status":  404,
+                                                "body_length":  238462,
+                                                "error":  null,
+                                                "final_url":  "https://medsi.ru/callback"
+                                            },
+                                            {
+                                                "path":  "/online",
+                                                "status":  404,
+                                                "body_length":  238460,
+                                                "error":  null,
+                                                "final_url":  "https://medsi.ru/online"
+                                            }
+                                        ],
+                        "forms_count_non_relevant":  2,
+                        "forms_count_total_detected":  2,
+                        "forms_non_post":  0,
+                        "pages_accessible":  1,
+                        "has_honeypot":  false,
+                        "pages_sampled":  8,
+                        "forms_count":  0,
+                        "pages_blocked":  0,
+                        "forms_with_policy_marker":  0,
+                        "forms_with_any_required_checkbox":  0,
+                        "has_privacy":  true,
+                        "forms_insecure_action":  0,
+                        "has_captcha":  true,
+                        "policy_checks":  [
+                                              {
+                                                  "url":  "https://medsi.ru/document.php?element=104166116",
+                                                  "status":  200,
+                                                  "final_url":  "https://medsi.ru/document.php?element=104166116"
+                                              },
+                                              {
+                                                  "url":  "https://medsi.ru/document.php?element=11431",
+                                                  "status":  200,
+                                                  "final_url":  "https://medsi.ru/document.php?element=11431"
+                                              },
+                                              {
+                                                  "url":  "https://medsi.ru/document_politics.php",
+                                                  "status":  200,
+                                                  "final_url":  "https://medsi.ru/document_politics.php"
+                                              },
+                                              {
+                                                  "url":  "https://medsi.ru/personal-data",
+                                                  "status":  404,
+                                                  "final_url":  "https://medsi.ru/personal-data"
+                                              },
+                                              {
+                                                  "url":  "https://medsi.ru/policy",
+                                                  "status":  404,
+                                                  "final_url":  "https://medsi.ru/policy"
+                                              },
+                                              {
+                                                  "url":  "https://medsi.ru/politika",
+                                                  "status":  404,
+                                                  "final_url":  "https://medsi.ru/politika"
+                                              },
+                                              {
+                                                  "url":  "https://medsi.ru/politika-konfidentsialnosti",
+                                                  "status":  404,
+                                                  "final_url":  "https://medsi.ru/politika-konfidentsialnosti"
+                                              },
+                                              {
+                                                  "url":  "https://medsi.ru/privacy",
+                                                  "status":  404,
+                                                  "final_url":  "https://medsi.ru/privacy"
+                                              }
+                                          ],
+                        "forms_with_required_consent":  0,
+                        "has_cookie_notice":  true
+                    },
+    "dns_checks":  {
+                       "dmarc":  "v=DMARC1; p=none; rua=mailto:dmarcreport@medsigroup.ru; ruf=mailto:dmarcfail@medsigroup.ru; adkim=r; aspf=r; rf=afrf; fo=s",
+                       "dkim_default":  {
+
+                                        },
+                       "spf":  "v=spf1 ip4:212.109.215.240 +a +mx -all"
+                   },
+    "script_checks":  {
+                          "outdated_jquery":  [
+                                                  "2.2.2"
+                                              ],
+                          "external_no_sri":  3,
+                          "external_domains":  [
+                                                   "app.comagic.ru",
+                                                   "custom.comagic.ru",
+                                                   "smartcaptcha.yandexcloud.net"
+                                               ],
+                          "external_total":  3
+                      }
+}

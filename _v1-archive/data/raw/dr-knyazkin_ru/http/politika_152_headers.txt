@@ -1,0 +1,13 @@
+HTTP/1.1 403 Forbidden
+Server: ddos-guard
+Connection: keep-alive
+Keep-Alive: timeout=60
+Set-Cookie: __ddg8_=Neyb0hudJkmpGGLt; Domain=.dr-knyazkin.ru; Path=/; Expires=Wed, 15-Apr-2026 15:08:04 GMT
+Set-Cookie: __ddg10_=1776264484; Domain=.dr-knyazkin.ru; Path=/; Expires=Wed, 15-Apr-2026 15:08:04 GMT
+Set-Cookie: __ddg9_=163.5.229.246; Domain=.dr-knyazkin.ru; Path=/; Expires=Wed, 15-Apr-2026 15:08:04 GMT
+date: Wed, 15 Apr 2026 14:48:04 GMT
+content-type: text/html
+content-length: 146
+x-tilda-server: 28
+x-tilda-imprint: e5b06056-eedf-4cd6-bb31-761d0390be5b
+

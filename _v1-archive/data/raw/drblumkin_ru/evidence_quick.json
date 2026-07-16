@@ -1,0 +1,209 @@
+﻿{
+    "site_id":  "drblumkin_ru",
+    "domain":  "drblumkin.ru",
+    "audit_timestamp_utc":  "2026-04-15T23:32:29.4844208Z",
+    "transport":  {
+                      "mixed_content_count":  1,
+                      "http_home_status":  301,
+                      "tls":  {
+                                  "valid_now":  true,
+                                  "days_to_expiry":  54,
+                                  "signature_algorithm":  "sha256RSA",
+                                  "issuer":  "CN=R13, O=Let\u0027s Encrypt, C=US",
+                                  "not_after":  "2026-06-09T06:55:43.0000000Z"
+                              },
+                      "redirect_location":  "https://drblumkin.ru/",
+                      "https_home_status":  200,
+                      "redirect_to_https":  true,
+                      "hsts":  null
+                  },
+    "file_checks":  [
+                        {
+                            "path":  "/.env",
+                            "status":  403,
+                            "final_url":  "https://drblumkin.ru/.env"
+                        },
+                        {
+                            "path":  "/.git/config",
+                            "status":  403,
+                            "final_url":  "https://drblumkin.ru/.git/config"
+                        },
+                        {
+                            "path":  "/wp-config.php",
+                            "status":  200,
+                            "final_url":  "https://drblumkin.ru/wp-config.php"
+                        },
+                        {
+                            "path":  "/backup.sql",
+                            "status":  404,
+                            "final_url":  "https://drblumkin.ru/backup.sql"
+                        },
+                        {
+                            "path":  "/phpinfo.php",
+                            "status":  404,
+                            "final_url":  "https://drblumkin.ru/phpinfo.php"
+                        },
+                        {
+                            "path":  "/uploads/",
+                            "status":  404,
+                            "final_url":  "https://drblumkin.ru/uploads/"
+                        }
+                    ],
+    "admin_checks":  {
+                         "wp_version":  null,
+                         "bitrix_admin_status":  404,
+                         "wp_admin_status":  302
+                     },
+    "header_checks":  {
+                          "x_powered_by":  null,
+                          "server":  "nginx/1.28.3",
+                          "missing":  [
+                                          "Strict-Transport-Security",
+                                          "Content-Security-Policy",
+                                          "X-Frame-Options",
+                                          "X-Content-Type-Options",
+                                          "Referrer-Policy",
+                                          "Permissions-Policy"
+                                      ]
+                      },
+    "form_checks":  {
+                        "forms_method_unknown":  0,
+                        "page_checks":  [
+                                            {
+                                                "path":  "/",
+                                                "status":  200,
+                                                "body_length":  195193,
+                                                "error":  null,
+                                                "final_url":  "https://drblumkin.ru/"
+                                            },
+                                            {
+                                                "path":  "/contacts",
+                                                "status":  404,
+                                                "body_length":  131267,
+                                                "error":  null,
+                                                "final_url":  "https://drblumkin.ru/contacts"
+                                            },
+                                            {
+                                                "path":  "/contact",
+                                                "status":  404,
+                                                "body_length":  131267,
+                                                "error":  null,
+                                                "final_url":  "https://drblumkin.ru/contact"
+                                            },
+                                            {
+                                                "path":  "/zapis",
+                                                "status":  404,
+                                                "body_length":  131267,
+                                                "error":  null,
+                                                "final_url":  "https://drblumkin.ru/zapis"
+                                            },
+                                            {
+                                                "path":  "/appointment",
+                                                "status":  404,
+                                                "body_length":  131267,
+                                                "error":  null,
+                                                "final_url":  "https://drblumkin.ru/appointment"
+                                            },
+                                            {
+                                                "path":  "/feedback",
+                                                "status":  404,
+                                                "body_length":  131267,
+                                                "error":  null,
+                                                "final_url":  "https://drblumkin.ru/feedback"
+                                            },
+                                            {
+                                                "path":  "/callback",
+                                                "status":  404,
+                                                "body_length":  131267,
+                                                "error":  null,
+                                                "final_url":  "https://drblumkin.ru/callback"
+                                            },
+                                            {
+                                                "path":  "/online",
+                                                "status":  404,
+                                                "body_length":  131267,
+                                                "error":  null,
+                                                "final_url":  "https://drblumkin.ru/online"
+                                            }
+                                        ],
+                        "forms_count_non_relevant":  2,
+                        "forms_count_total_detected":  15,
+                        "forms_non_post":  0,
+                        "pages_accessible":  1,
+                        "has_honeypot":  false,
+                        "pages_sampled":  8,
+                        "forms_count":  13,
+                        "pages_blocked":  0,
+                        "forms_with_policy_marker":  13,
+                        "forms_with_any_required_checkbox":  0,
+                        "has_privacy":  true,
+                        "forms_insecure_action":  0,
+                        "has_captcha":  false,
+                        "policy_checks":  [
+                                              {
+                                                  "url":  "https://drblumkin.ru/document_politics.php",
+                                                  "status":  404,
+                                                  "final_url":  "https://drblumkin.ru/document_politics.php"
+                                              },
+                                              {
+                                                  "url":  "https://drblumkin.ru/politika",
+                                                  "status":  404,
+                                                  "final_url":  "https://drblumkin.ru/politika"
+                                              },
+                                              {
+                                                  "url":  "https://drblumkin.ru/politika-konfidentsialnosti",
+                                                  "status":  404,
+                                                  "final_url":  "https://drblumkin.ru/politika-konfidentsialnosti"
+                                              },
+                                              {
+                                                  "url":  "https://drblumkin.ru/privacy",
+                                                  "status":  404,
+                                                  "final_url":  "https://drblumkin.ru/privacy"
+                                              },
+                                              {
+                                                  "url":  "https://drblumkin.ru/privacy-policy",
+                                                  "status":  404,
+                                                  "final_url":  "https://drblumkin.ru/privacy-policy"
+                                              },
+                                              {
+                                                  "url":  "https://drblumkin.ru/policy",
+                                                  "status":  404,
+                                                  "final_url":  "https://drblumkin.ru/policy"
+                                              },
+                                              {
+                                                  "url":  "https://drblumkin.ru/personal-data",
+                                                  "status":  404,
+                                                  "final_url":  "https://drblumkin.ru/personal-data"
+                                              },
+                                              {
+                                                  "url":  "https://drblumkin.ru/privacy-policy/",
+                                                  "status":  404,
+                                                  "final_url":  "https://drblumkin.ru/privacy-policy/"
+                                              }
+                                          ],
+                        "forms_with_required_consent":  0,
+                        "has_cookie_notice":  false
+                    },
+    "dns_checks":  {
+                       "dmarc":  {
+
+                                 },
+                       "dkim_default":  {
+
+                                        },
+                       "spf":  "v=spf1 include:_spf.timeweb.ru ~all"
+                   },
+    "script_checks":  {
+                          "outdated_jquery":  [
+                                                  "1.4.1"
+                                              ],
+                          "external_no_sri":  4,
+                          "external_domains":  [
+                                                   "api-maps.yandex.ru",
+                                                   "cdn.jsdelivr.net",
+                                                   "code.jquery.com",
+                                                   "html5shiv.googlecode.com"
+                                               ],
+                          "external_total":  4
+                      }
+}

@@ -1,0 +1,209 @@
+﻿{
+    "site_id":  "www_ortodont-center_ru",
+    "domain":  "www.ortodont-center.ru",
+    "audit_timestamp_utc":  "2026-04-15T23:35:05.0293908Z",
+    "transport":  {
+                      "mixed_content_count":  0,
+                      "http_home_status":  301,
+                      "tls":  {
+                                  "valid_now":  true,
+                                  "days_to_expiry":  17,
+                                  "signature_algorithm":  "sha256RSA",
+                                  "issuer":  "CN=R13, O=Let\u0027s Encrypt, C=US",
+                                  "not_after":  "2026-05-03T14:53:06.0000000Z"
+                              },
+                      "redirect_location":  "https://www.ortodont-center.ru/",
+                      "https_home_status":  200,
+                      "redirect_to_https":  true,
+                      "hsts":  null
+                  },
+    "file_checks":  [
+                        {
+                            "path":  "/.env",
+                            "status":  403,
+                            "final_url":  "https://www.ortodont-center.ru/.env"
+                        },
+                        {
+                            "path":  "/.git/config",
+                            "status":  403,
+                            "final_url":  "https://www.ortodont-center.ru/.git/config"
+                        },
+                        {
+                            "path":  "/wp-config.php",
+                            "status":  404,
+                            "final_url":  "https://www.ortodont-center.ru/wp-config.php"
+                        },
+                        {
+                            "path":  "/backup.sql",
+                            "status":  404,
+                            "final_url":  "https://www.ortodont-center.ru/backup.sql"
+                        },
+                        {
+                            "path":  "/phpinfo.php",
+                            "status":  404,
+                            "final_url":  "https://www.ortodont-center.ru/phpinfo.php"
+                        },
+                        {
+                            "path":  "/uploads/",
+                            "status":  404,
+                            "final_url":  "https://www.ortodont-center.ru/uploads/"
+                        }
+                    ],
+    "admin_checks":  {
+                         "wp_version":  null,
+                         "bitrix_admin_status":  200,
+                         "wp_admin_status":  404
+                     },
+    "header_checks":  {
+                          "x_powered_by":  null,
+                          "server":  "nginx/1.28.3",
+                          "missing":  [
+                                          "Strict-Transport-Security",
+                                          "Content-Security-Policy",
+                                          "X-Frame-Options",
+                                          "X-Content-Type-Options",
+                                          "Referrer-Policy",
+                                          "Permissions-Policy"
+                                      ]
+                      },
+    "form_checks":  {
+                        "forms_method_unknown":  0,
+                        "page_checks":  [
+                                            {
+                                                "path":  "/",
+                                                "status":  200,
+                                                "body_length":  275669,
+                                                "error":  null,
+                                                "final_url":  "https://www.ortodont-center.ru/"
+                                            },
+                                            {
+                                                "path":  "/contacts",
+                                                "status":  200,
+                                                "body_length":  183129,
+                                                "error":  null,
+                                                "final_url":  "https://www.ortodont-center.ru/contacts"
+                                            },
+                                            {
+                                                "path":  "/contact",
+                                                "status":  404,
+                                                "body_length":  154080,
+                                                "error":  null,
+                                                "final_url":  "https://www.ortodont-center.ru/contact"
+                                            },
+                                            {
+                                                "path":  "/zapis",
+                                                "status":  404,
+                                                "body_length":  154080,
+                                                "error":  null,
+                                                "final_url":  "https://www.ortodont-center.ru/zapis"
+                                            },
+                                            {
+                                                "path":  "/appointment",
+                                                "status":  200,
+                                                "body_length":  173094,
+                                                "error":  null,
+                                                "final_url":  "https://www.ortodont-center.ru/appointment"
+                                            },
+                                            {
+                                                "path":  "/feedback",
+                                                "status":  200,
+                                                "body_length":  155954,
+                                                "error":  null,
+                                                "final_url":  "https://www.ortodont-center.ru/feedback"
+                                            },
+                                            {
+                                                "path":  "/callback",
+                                                "status":  404,
+                                                "body_length":  154080,
+                                                "error":  null,
+                                                "final_url":  "https://www.ortodont-center.ru/callback"
+                                            },
+                                            {
+                                                "path":  "/online",
+                                                "status":  404,
+                                                "body_length":  154080,
+                                                "error":  null,
+                                                "final_url":  "https://www.ortodont-center.ru/online"
+                                            }
+                                        ],
+                        "forms_count_non_relevant":  17,
+                        "forms_count_total_detected":  18,
+                        "forms_non_post":  0,
+                        "pages_accessible":  4,
+                        "has_honeypot":  false,
+                        "pages_sampled":  8,
+                        "forms_count":  1,
+                        "pages_blocked":  0,
+                        "forms_with_policy_marker":  1,
+                        "forms_with_any_required_checkbox":  1,
+                        "has_privacy":  true,
+                        "forms_insecure_action":  0,
+                        "has_captcha":  false,
+                        "policy_checks":  [
+                                              {
+                                                  "url":  "https://www.ortodont-center.ru/about/processing-data/",
+                                                  "status":  200,
+                                                  "final_url":  "https://www.ortodont-center.ru/about/processing-data/"
+                                              },
+                                              {
+                                                  "url":  "https://www.ortodont-center.ru/document_politics.php",
+                                                  "status":  404,
+                                                  "final_url":  "https://www.ortodont-center.ru/document_politics.php"
+                                              },
+                                              {
+                                                  "url":  "https://www.ortodont-center.ru/personal-data",
+                                                  "status":  404,
+                                                  "final_url":  "https://www.ortodont-center.ru/personal-data"
+                                              },
+                                              {
+                                                  "url":  "https://www.ortodont-center.ru/policy",
+                                                  "status":  404,
+                                                  "final_url":  "https://www.ortodont-center.ru/policy"
+                                              },
+                                              {
+                                                  "url":  "https://www.ortodont-center.ru/politika",
+                                                  "status":  404,
+                                                  "final_url":  "https://www.ortodont-center.ru/politika"
+                                              },
+                                              {
+                                                  "url":  "https://www.ortodont-center.ru/politika-konfidentsialnosti",
+                                                  "status":  404,
+                                                  "final_url":  "https://www.ortodont-center.ru/politika-konfidentsialnosti"
+                                              },
+                                              {
+                                                  "url":  "https://www.ortodont-center.ru/privacy",
+                                                  "status":  404,
+                                                  "final_url":  "https://www.ortodont-center.ru/privacy"
+                                              },
+                                              {
+                                                  "url":  "https://www.ortodont-center.ru/privacy-policy",
+                                                  "status":  404,
+                                                  "final_url":  "https://www.ortodont-center.ru/privacy-policy"
+                                              }
+                                          ],
+                        "forms_with_required_consent":  1,
+                        "has_cookie_notice":  true
+                    },
+    "dns_checks":  {
+                       "dmarc":  {
+
+                                 },
+                       "dkim_default":  {
+
+                                        },
+                       "spf":  {
+
+                               }
+                   },
+    "script_checks":  {
+                          "outdated_jquery":  [
+
+                                              ],
+                          "external_no_sri":  2,
+                          "external_domains":  [
+                                                   "app.comagic.ru",
+                                                   "i.ctnsnet.com"
+                                               ],
+                          "external_total":  2
+                      }
+}

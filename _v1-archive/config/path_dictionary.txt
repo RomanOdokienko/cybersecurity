@@ -1,0 +1,17 @@
+/.env
+/.env.local
+/.env.production
+/.git/config
+/.git/HEAD
+/wp-config.php
+/config.php
+/configuration.php
+/backup.zip
+/backup.sql
+/site.tar.gz
+/dump.sql
+/phpinfo.php
+/info.php
+/uploads/
+/images/
+/files/

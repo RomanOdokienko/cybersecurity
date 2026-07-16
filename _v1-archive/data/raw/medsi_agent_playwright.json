@@ -1,0 +1,162 @@
+[
+  {
+    "url": "https://medsi.ru/",
+    "status": 200,
+    "forms_before": [
+      {
+        "idx": 0,
+        "method": "GET(default)",
+        "action": "",
+        "hasPersonalFields": false,
+        "hasConsentCheckbox": false,
+        "hasPolicyLinkInside": false,
+        "formText": "Найти"
+      },
+      {
+        "idx": 1,
+        "method": "GET(default)",
+        "action": "",
+        "hasPersonalFields": false,
+        "hasConsentCheckbox": false,
+        "hasPolicyLinkInside": false,
+        "formText": ""
+      }
+    ],
+    "forms_after_clicks": [
+      {
+        "idx": 0,
+        "method": "GET(default)",
+        "action": "",
+        "hasPersonalFields": false,
+        "hasConsentCheckbox": false,
+        "hasPolicyLinkInside": false,
+        "formText": "Найти"
+      },
+      {
+        "idx": 1,
+        "method": "GET(default)",
+        "action": "",
+        "hasPersonalFields": false,
+        "hasConsentCheckbox": false,
+        "hasPolicyLinkInside": false,
+        "formText": ""
+      }
+    ],
+    "click_attempts": [
+      "text=/записат/i",
+      "a:has-text(\"Записаться\")"
+    ],
+    "policy_links": [
+      {
+        "text": "Политика в отношении обработки персональных данных",
+        "href": "https://medsi.ru/document.php?element=11431"
+      },
+      {
+        "text": "политикой использования куки-файлов",
+        "href": "https://medsi.ru/document.php?element=104166116"
+      },
+      {
+        "text": "Политикой обработки персональных данных",
+        "href": "https://medsi.ru/document_politics.php"
+      }
+    ],
+    "errors": [
+      "click text=/обратн/i: locator.click: Timeout 4000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('text=/обратн/i').first()\u001b[22m\n\u001b[2m    - locator resolved to <"
+    ]
+  },
+  {
+    "url": "https://medsi.ru/press-centr/contacts/",
+    "status": 200,
+    "forms_before": [
+      {
+        "idx": 0,
+        "method": "GET(default)",
+        "action": "",
+        "hasPersonalFields": false,
+        "hasConsentCheckbox": false,
+        "hasPolicyLinkInside": false,
+        "formText": "Найти"
+      }
+    ],
+    "forms_after_clicks": [
+      {
+        "idx": 0,
+        "method": "GET(default)",
+        "action": "",
+        "hasPersonalFields": false,
+        "hasConsentCheckbox": false,
+        "hasPolicyLinkInside": false,
+        "formText": "Найти"
+      }
+    ],
+    "click_attempts": [
+      "text=/записат/i",
+      "a:has-text(\"Записаться\")"
+    ],
+    "policy_links": [
+      {
+        "text": "Политика в отношении обработки персональных данных",
+        "href": "https://medsi.ru/document.php?element=11431"
+      },
+      {
+        "text": "политикой использования куки-файлов",
+        "href": "https://medsi.ru/document.php?element=104166116"
+      },
+      {
+        "text": "Политикой обработки персональных данных",
+        "href": "https://medsi.ru/document_politics.php"
+      }
+    ],
+    "errors": [
+      "click text=/обратн/i: locator.click: Timeout 4000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('text=/обратн/i').first()\u001b[22m\n\u001b[2m    - locator resolved to <"
+    ]
+  },
+  {
+    "url": "https://medsi.ru/onko/about/feedback/",
+    "status": 200,
+    "forms_before": [
+      {
+        "idx": 0,
+        "method": "GET(default)",
+        "action": "",
+        "hasPersonalFields": false,
+        "hasConsentCheckbox": false,
+        "hasPolicyLinkInside": false,
+        "formText": ""
+      }
+    ],
+    "forms_after_clicks": [
+      {
+        "idx": 0,
+        "method": "GET(default)",
+        "action": "",
+        "hasPersonalFields": false,
+        "hasConsentCheckbox": false,
+        "hasPolicyLinkInside": false,
+        "formText": ""
+      }
+    ],
+    "click_attempts": [
+      "text=/консультац/i"
+    ],
+    "policy_links": [
+      {
+        "text": "Согласие на обработку персональных данных",
+        "href": "https://medsi.ru/document.php?filename=74568"
+      },
+      {
+        "text": "Политика обработки персональных данных",
+        "href": "https://medsi.ru/document.php?filename=19535"
+      },
+      {
+        "text": "политикой использования куки-файлов",
+        "href": "https://medsi.ru/document.php?element=104165506"
+      },
+      {
+        "text": "Политикой обработки персональных данных",
+        "href": "https://medsi.ru/document_politics.php"
+      }
+    ],
+    "errors": []
+  }
+]

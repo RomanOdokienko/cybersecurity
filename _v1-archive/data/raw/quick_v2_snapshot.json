@@ -1,0 +1,62 @@
+﻿[
+    {
+        "domain":  "arideo.su",
+        "score_v2":  25.4,
+        "risk_v2":  "low",
+        "law152_v2":  "review_required",
+        "forms_relevant":  6,
+        "forms_total_detected":  6,
+        "policy_ok":  "1/8",
+        "next_action_v2":  "offer_now"
+    },
+    {
+        "domain":  "dr-knyazkin.ru",
+        "score_v2":  27.5,
+        "risk_v2":  "low",
+        "law152_v2":  "review_required",
+        "forms_relevant":  8,
+        "forms_total_detected":  8,
+        "policy_ok":  "1/8",
+        "next_action_v2":  "offer_now"
+    },
+    {
+        "domain":  "medsi.ru",
+        "score_v2":  23.9,
+        "risk_v2":  "low",
+        "law152_v2":  "review_required",
+        "forms_relevant":  0,
+        "forms_total_detected":  2,
+        "policy_ok":  "3/8",
+        "next_action_v2":  "agent_review"
+    },
+    {
+        "domain":  "mx-medical.ru",
+        "score_v2":  21.9,
+        "risk_v2":  "low",
+        "law152_v2":  "review_required",
+        "forms_relevant":  1,
+        "forms_total_detected":  1,
+        "policy_ok":  "0/8",
+        "next_action_v2":  "agent_review"
+    },
+    {
+        "domain":  "senseclinic.ru",
+        "score_v2":  29.5,
+        "risk_v2":  "low",
+        "law152_v2":  "review_required",
+        "forms_relevant":  11,
+        "forms_total_detected":  11,
+        "policy_ok":  "2/8",
+        "next_action_v2":  "no_offer_now"
+    },
+    {
+        "domain":  "www.ortodont-center.ru",
+        "score_v2":  25.6,
+        "risk_v2":  "low",
+        "law152_v2":  "pass",
+        "forms_relevant":  1,
+        "forms_total_detected":  18,
+        "policy_ok":  "1/8",
+        "next_action_v2":  "offer_now"
+    }
+]

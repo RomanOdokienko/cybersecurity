@@ -1,0 +1,171 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local/schemas/site_audit.schema.json",
+  "title": "SiteAuditResult",
+  "type": "object",
+  "required": [
+    "site_id",
+    "domain",
+    "audit_timestamp_utc",
+    "overall_score",
+    "risk_band",
+    "blocks"
+  ],
+  "properties": {
+    "site_id": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "string"
+    },
+    "audit_timestamp_utc": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "overall_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "risk_band": {
+      "type": "string",
+      "enum": [
+        "critical",
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "free_offer_summary": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "triage": {
+      "type": "object",
+      "properties": {
+        "next_action": {
+          "type": "string",
+          "enum": [
+            "offer_now",
+            "agent_review",
+            "no_offer_now"
+          ]
+        },
+        "reason": {
+          "type": "string"
+        },
+        "critical_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "review_required_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "not_tested_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "error_count": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": true
+    },
+    "compliance_152": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "pass",
+            "fail",
+            "review_required",
+            "not_observable"
+          ]
+        },
+        "confidence": {
+          "type": "string",
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "blocks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "priority",
+          "score",
+          "status",
+          "offer_reason"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "priority": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "score": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "ok",
+              "warning",
+              "critical",
+              "review_required",
+              "error",
+              "not_tested"
+            ]
+          },
+          "confidence": {
+            "type": "string",
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          },
+          "evidence_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "free_offer_visible": {
+            "type": "boolean"
+          },
+          "offer_reason": {
+            "type": "string"
+          },
+          "findings_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "key_finding": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,204 @@
+﻿{
+    "site_id":  "vk_link",
+    "domain":  "vk.link",
+    "audit_timestamp_utc":  "2026-04-16T00:08:34.5044899Z",
+    "transport":  {
+                      "mixed_content_count":  0,
+                      "http_home_status":  301,
+                      "tls":  {
+                                  "valid_now":  true,
+                                  "days_to_expiry":  321,
+                                  "signature_algorithm":  "sha256RSA",
+                                  "issuer":  "CN=GlobalSign RSA OV SSL CA 2018, O=GlobalSign nv-sa, C=BE",
+                                  "not_after":  "2027-03-03T16:45:44.0000000Z"
+                              },
+                      "redirect_location":  "https://vk.link/",
+                      "https_home_status":  418,
+                      "redirect_to_https":  true,
+                      "hsts":  null
+                  },
+    "file_checks":  [
+                        {
+                            "path":  "/.env",
+                            "status":  418,
+                            "final_url":  "https://vk.link/.env"
+                        },
+                        {
+                            "path":  "/.git/config",
+                            "status":  418,
+                            "final_url":  "https://vk.link/.git/config"
+                        },
+                        {
+                            "path":  "/wp-config.php",
+                            "status":  418,
+                            "final_url":  "https://vk.link/wp-config.php"
+                        },
+                        {
+                            "path":  "/backup.sql",
+                            "status":  418,
+                            "final_url":  "https://vk.link/backup.sql"
+                        },
+                        {
+                            "path":  "/phpinfo.php",
+                            "status":  418,
+                            "final_url":  "https://vk.link/phpinfo.php"
+                        },
+                        {
+                            "path":  "/uploads/",
+                            "status":  418,
+                            "final_url":  "https://vk.link/uploads/"
+                        }
+                    ],
+    "admin_checks":  {
+                         "wp_version":  null,
+                         "bitrix_admin_status":  418,
+                         "wp_admin_status":  418
+                     },
+    "header_checks":  {
+                          "x_powered_by":  null,
+                          "server":  "kittenx",
+                          "missing":  [
+                                          "Strict-Transport-Security",
+                                          "Content-Security-Policy",
+                                          "X-Frame-Options",
+                                          "X-Content-Type-Options",
+                                          "Referrer-Policy",
+                                          "Permissions-Policy"
+                                      ]
+                      },
+    "form_checks":  {
+                        "forms_method_unknown":  0,
+                        "page_checks":  [
+                                            {
+                                                "path":  "/",
+                                                "status":  418,
+                                                "body_length":  5254,
+                                                "error":  null,
+                                                "final_url":  "https://vk.link/"
+                                            },
+                                            {
+                                                "path":  "/contacts",
+                                                "status":  418,
+                                                "body_length":  232272,
+                                                "error":  null,
+                                                "final_url":  "https://vk.link/contacts"
+                                            },
+                                            {
+                                                "path":  "/contact",
+                                                "status":  418,
+                                                "body_length":  185698,
+                                                "error":  null,
+                                                "final_url":  "https://vk.link/contact"
+                                            },
+                                            {
+                                                "path":  "/zapis",
+                                                "status":  418,
+                                                "body_length":  205117,
+                                                "error":  null,
+                                                "final_url":  "https://vk.link/zapis"
+                                            },
+                                            {
+                                                "path":  "/appointment",
+                                                "status":  418,
+                                                "body_length":  186380,
+                                                "error":  null,
+                                                "final_url":  "https://vk.link/appointment"
+                                            },
+                                            {
+                                                "path":  "/feedback",
+                                                "status":  418,
+                                                "body_length":  278504,
+                                                "error":  null,
+                                                "final_url":  "https://vk.link/feedback"
+                                            },
+                                            {
+                                                "path":  "/callback",
+                                                "status":  418,
+                                                "body_length":  226231,
+                                                "error":  null,
+                                                "final_url":  "https://vk.link/callback"
+                                            },
+                                            {
+                                                "path":  "/online",
+                                                "status":  418,
+                                                "body_length":  475,
+                                                "error":  null,
+                                                "final_url":  "https://vk.link/online"
+                                            }
+                                        ],
+                        "forms_count_non_relevant":  0,
+                        "forms_count_total_detected":  0,
+                        "forms_non_post":  0,
+                        "pages_accessible":  0,
+                        "has_honeypot":  false,
+                        "pages_sampled":  8,
+                        "forms_count":  0,
+                        "pages_blocked":  0,
+                        "forms_with_policy_marker":  0,
+                        "forms_with_any_required_checkbox":  0,
+                        "has_privacy":  false,
+                        "forms_insecure_action":  0,
+                        "has_captcha":  false,
+                        "policy_checks":  [
+                                              {
+                                                  "url":  "https://vk.link/document_politics.php",
+                                                  "status":  418,
+                                                  "final_url":  "https://vk.link/document_politics.php"
+                                              },
+                                              {
+                                                  "url":  "https://vk.link/politika",
+                                                  "status":  418,
+                                                  "final_url":  "https://vk.link/politika"
+                                              },
+                                              {
+                                                  "url":  "https://vk.link/politika-konfidentsialnosti",
+                                                  "status":  418,
+                                                  "final_url":  "https://vk.link/politika-konfidentsialnosti"
+                                              },
+                                              {
+                                                  "url":  "https://vk.link/privacy",
+                                                  "status":  418,
+                                                  "final_url":  "https://vk.link/privacy"
+                                              },
+                                              {
+                                                  "url":  "https://vk.link/privacy-policy",
+                                                  "status":  418,
+                                                  "final_url":  "https://vk.link/privacy-policy"
+                                              },
+                                              {
+                                                  "url":  "https://vk.link/policy",
+                                                  "status":  418,
+                                                  "final_url":  "https://vk.link/policy"
+                                              },
+                                              {
+                                                  "url":  "https://vk.link/personal-data",
+                                                  "status":  418,
+                                                  "final_url":  "https://vk.link/personal-data"
+                                              },
+                                              {
+                                                  "url":  "https://vk.link/privacy-policy/",
+                                                  "status":  418,
+                                                  "final_url":  "https://vk.link/privacy-policy/"
+                                              }
+                                          ],
+                        "forms_with_required_consent":  0,
+                        "has_cookie_notice":  false
+                    },
+    "dns_checks":  {
+                       "dmarc":  {
+
+                                 },
+                       "dkim_default":  {
+
+                                        },
+                       "spf":  "v=spf1 -all"
+                   },
+    "script_checks":  {
+                          "outdated_jquery":  [
+
+                                              ],
+                          "external_no_sri":  7,
+                          "external_domains":  "st.vk.com",
+                          "external_total":  7
+                      }
+}

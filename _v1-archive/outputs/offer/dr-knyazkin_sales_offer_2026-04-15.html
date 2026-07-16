@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Экспресс-аудит dr-knyazkin.ru — 15.04.2026</title>
+  <style>
+    :root {
+      --bg: #0f131a;
+      --card: #151b24;
+      --line: #273244;
+      --txt: #e7edf7;
+      --muted: #9fb0c8;
+      --p1: #ff6b6b;
+      --p2: #f7b267;
+      --ok: #62c370;
+    }
+    body {
+      margin: 0;
+      background: radial-gradient(circle at top right, #1c2533 0%, var(--bg) 60%);
+      color: var(--txt);
+      font: 16px/1.45 "Segoe UI", Arial, sans-serif;
+    }
+    .wrap {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 28px 18px 42px;
+    }
+    h1, h2, h3 { margin: 0 0 10px; }
+    h1 { font-size: 30px; }
+    h2 { font-size: 22px; margin-top: 24px; }
+    h3 { font-size: 18px; margin-top: 18px; }
+    .meta { color: var(--muted); margin-bottom: 14px; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 14px 16px;
+      margin: 12px 0;
+    }
+    .tag {
+      display: inline-block;
+      border-radius: 999px;
+      padding: 3px 10px;
+      font-size: 12px;
+      font-weight: 700;
+      margin-right: 8px;
+    }
+    .p1 { background: rgba(255, 107, 107, .2); color: var(--p1); }
+    .p2 { background: rgba(247, 178, 103, .2); color: var(--p2); }
+    .ok { background: rgba(98, 195, 112, .2); color: var(--ok); }
+    ul { margin: 8px 0 0 20px; }
+    li { margin: 4px 0; }
+    .muted { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Экспресс-аудит безопасности dr-knyazkin.ru</h1>
+    <div class="meta">Дата: 15 апреля 2026 • Формат: пассивный аудит публичных данных</div>
+
+    <div class="card">
+      <h2>Итог для руководителя</h2>
+      <p>Критичного инцидента не выявлено, но обнаружены 4 сильные зоны для апсейла: email-защита домена, security headers, supply-chain фронтенда, комплаенс формы/политики.</p>
+    </div>
+
+    <h2>Приоритетные проблемы</h2>
+
+    <div class="card">
+      <span class="tag p1">P1</span><strong>Email-защита домена не настроена</strong>
+      <ul>
+        <li><strong>Факт:</strong> не найдены SPF/DMARC/DKIM (и MTA-STS/TLS-RPT).</li>
+        <li><strong>Риск:</strong> подмена писем от имени клиники, фишинг, репутационные потери.</li>
+        <li><strong>Действие:</strong> SPF + DMARC + DKIM, затем MTA-STS/TLS-RPT.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <span class="tag p1">P1</span><strong>Неполный baseline security headers</strong>
+      <ul>
+        <li><strong>Факт:</strong> отсутствуют HSTS, CSP, XCTO, Referrer-Policy, Permissions-Policy.</li>
+        <li><strong>Риск:</strong> повышенная поверхность атак и слабый baseline hardening.</li>
+        <li><strong>Действие:</strong> внедрить стандартный набор заголовков, затем ужесточить CSP.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <span class="tag p1">P1</span><strong>Supply-chain риск фронтенда</strong>
+      <ul>
+        <li><strong>Факт:</strong> 25 внешних скриптов без SRI, найден jQuery 1.10.2.</li>
+        <li><strong>Риск:</strong> риск компрометации через сторонние JS-зависимости.</li>
+        <li><strong>Действие:</strong> обновить jQuery, включить SRI, сократить внешние зависимости.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <span class="tag p2">P2</span><strong>Комплаенс формы/политики</strong>
+      <ul>
+        <li><strong>Факт:</strong> на формах есть ссылка на <code>/politika</code>, но URL политики в публичной проверке отвечает 403.</li>
+        <li><strong>Риск:</strong> юридические вопросы по прозрачности обработки ПДн.</li>
+        <li><strong>Действие:</strong> обеспечить публичную доступность политики и явную связку с формами.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <span class="tag p2">P2</span><strong>Поведение www-хоста</strong>
+      <ul>
+        <li><strong>Факт:</strong> <code>https://www.dr-knyazkin.ru/</code> отдавал 403, при этом <code>http://www...</code> ведёт 301 на канонический хост.</li>
+        <li><strong>Риск:</strong> непредсказуемость для части пользователей/ботов/мониторингов.</li>
+        <li><strong>Действие:</strong> унифицировать www/non-www сценарий.</li>
+      </ul>
+    </div>
+
+    <h2>Что уже в норме</h2>
+    <div class="card">
+      <span class="tag ok">OK</span><strong>Рабочая база есть</strong>
+      <ul>
+        <li>TLS-сертификат валиден.</li>
+        <li>HTTP → HTTPS редирект на основном хосте настроен.</li>
+        <li>Mixed content на главной не найден.</li>
+        <li><code>robots.txt</code> и <code>sitemap.xml</code> доступны.</li>
+      </ul>
+    </div>
+
+    <h2>Предложение на демо</h2>
+    <div class="card">
+      <ul>
+        <li>План фиксов на 14/30 дней с приоритетом по бизнес-риску.</li>
+        <li>Быстрые победы без тяжёлого рефакторинга.</li>
+        <li>Переход к целевому baseline безопасности для клиники.</li>
+      </ul>
+      <p class="muted">Ограничение: часть URL под антибот-защитой (403/429), поэтому часть проверок требует валидации на демо с доступом к инфраструктуре.</p>
+    </div>
+  </div>
+</body>
+</html>

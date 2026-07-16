@@ -1,0 +1,127 @@
+﻿{
+    "site_id":  "dr-knyazkin_ru",
+    "domain":  "dr-knyazkin.ru",
+    "audit_timestamp_utc":  "2026-04-15T13:07:22.7078248Z",
+    "mode":  "full",
+    "crawl_pages_tested":  24,
+    "overall_score":  33.5,
+    "overall_risk_band":  "low",
+    "full_plus_score":  31.3,
+    "full_plus_risk_band":  "low",
+    "free_offer_summary":  [
+                               "SSL + redirects: HTTP-\u003eHTTPS redirect is not strict.",
+                               "Security headers: Missing security headers: Strict-Transport-Security, Content-Security-Policy, X-Content-Type-Options, Referrer-Policy, Permissions-Policy."
+                           ],
+    "blocks":  [
+                   {
+                       "id":  "ssl_redirects",
+                       "name":  "SSL + redirects",
+                       "priority":  1,
+                       "score":  40,
+                       "status":  "warning",
+                       "free_offer_visible":  true,
+                       "offer_reason":  "Visible immediately and easy to explain.",
+                       "findings_count":  2,
+                       "key_finding":  "HTTP-\u003eHTTPS redirect is not strict."
+                   },
+                   {
+                       "id":  "file_leaks",
+                       "name":  "File leaks",
+                       "priority":  2,
+                       "score":  0,
+                       "status":  "ok",
+                       "free_offer_visible":  true,
+                       "offer_reason":  "Strong urgency when exposure is proven.",
+                       "findings_count":  0,
+                       "key_finding":  "No sensitive file exposure in tested dictionary."
+                   },
+                   {
+                       "id":  "open_admin",
+                       "name":  "Open admin and CMS exposure",
+                       "priority":  3,
+                       "score":  0,
+                       "status":  "ok",
+                       "free_offer_visible":  true,
+                       "offer_reason":  "Easy to demonstrate to non-technical owner.",
+                       "findings_count":  1,
+                       "key_finding":  "CMS fingerprint: tilda."
+                   },
+                   {
+                       "id":  "security_headers",
+                       "name":  "Security headers",
+                       "priority":  4,
+                       "score":  70,
+                       "status":  "critical",
+                       "free_offer_visible":  true,
+                       "offer_reason":  "Can be benchmarked with a clear technical grade.",
+                       "findings_count":  2,
+                       "key_finding":  "Missing security headers: Strict-Transport-Security, Content-Security-Policy, X-Content-Type-Options, Referrer-Policy, Permissions-Policy."
+                   },
+                   {
+                       "id":  "forms_patient_data",
+                       "name":  "Forms and patient data",
+                       "priority":  5,
+                       "score":  15,
+                       "status":  "ok",
+                       "free_offer_visible":  true,
+                       "offer_reason":  "Direct legal and trust-risk narrative.",
+                       "findings_count":  1,
+                       "key_finding":  "No CAPTCHA/honeypot markers detected on crawled form pages."
+                   },
+                   {
+                       "id":  "dns_email_protection",
+                       "name":  "DNS and email protection",
+                       "priority":  6,
+                       "score":  80,
+                       "status":  "critical",
+                       "free_offer_visible":  false,
+                       "offer_reason":  "Strong infrastructure credibility for demo.",
+                       "findings_count":  5,
+                       "key_finding":  "SPF record missing."
+                   },
+                   {
+                       "id":  "third_party_scripts",
+                       "name":  "Third-party scripts",
+                       "priority":  7,
+                       "score":  90,
+                       "status":  "critical",
+                       "free_offer_visible":  false,
+                       "offer_reason":  "Advanced supply-chain risk layer.",
+                       "findings_count":  2,
+                       "key_finding":  "External scripts without SRI: 47/47."
+                   },
+                   {
+                       "id":  "reputation_osint",
+                       "name":  "Reputation and OSINT",
+                       "priority":  8,
+                       "score":  0,
+                       "status":  "not_tested",
+                       "free_offer_visible":  false,
+                       "offer_reason":  "External trust context.",
+                       "findings_count":  2,
+                       "key_finding":  "Archive check failed: Invalid JSON primitive: ."
+                   }
+               ],
+    "extra_full_markers":  {
+                               "compliance_152fz":  {
+                                                        "score":  25,
+                                                        "status":  "ok",
+                                                        "findings":  [
+                                                                         "No explicit 152-FZ/personal-data markers detected."
+                                                                     ],
+                                                        "policy_urls":  "https://dr-knyazkin.ru/politika",
+                                                        "form_pages":  "https://dr-knyazkin.ru"
+                                                    },
+                               "site_quality":  {
+                                                    "score":  20,
+                                                    "status":  "ok",
+                                                    "findings":  [
+                                                                     "robots.txt is missing or inaccessible."
+                                                                 ],
+                                                    "robots_status":  403,
+                                                    "sitemap_status":  200,
+                                                    "soft404_status":  403,
+                                                    "soft404_likely":  false
+                                                }
+                           }
+}

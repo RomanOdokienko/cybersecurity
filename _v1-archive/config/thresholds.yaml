@@ -1,0 +1,31 @@
+version: "1.0"
+
+risk_bands:
+  - min: 80
+    max: 100
+    label: "critical"
+  - min: 60
+    max: 79
+    label: "high"
+  - min: 35
+    max: 59
+    label: "medium"
+  - min: 0
+    max: 34
+    label: "low"
+
+severity_weights:
+  critical: 10
+  high: 7
+  medium: 4
+  low: 2
+
+confidence_weights:
+  high: 1.0
+  medium: 0.7
+  low: 0.4
+
+exposure_weights:
+  public_direct: 1.0
+  conditional: 0.7
+  historical_only: 0.5

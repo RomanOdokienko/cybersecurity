@@ -1,0 +1,225 @@
+﻿<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Критериальная матрица аудита — dr-knyazkin.ru</title>
+  <style>
+    :root {
+      --bg: #0b1020;
+      --panel: #111933;
+      --line: #233155;
+      --text: #e7ecfb;
+      --muted: #9db0dd;
+      --ok: #22c55e;
+      --issue: #ef4444;
+      --inc: #f59e0b;
+      --nc: #64748b;
+      --accent: #60a5fa;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: radial-gradient(circle at 10% 0%, #172446 0%, var(--bg) 48%);
+      color: var(--text);
+    }
+    .wrap { max-width: 1320px; margin: 0 auto; padding: 24px; }
+    .top {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(160px, 1fr));
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px;
+    }
+    .k { color: var(--muted); font-size: 12px; margin-bottom: 6px; }
+    .v { font-size: 22px; font-weight: 700; }
+    h1 { font-size: 26px; margin: 0 0 8px; }
+    .subtitle { color: var(--muted); margin-bottom: 16px; }
+    .legend { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 14px; }
+    .badge {
+      border-radius: 999px;
+      padding: 4px 10px;
+      font-size: 12px;
+      border: 1px solid var(--line);
+      background: #0f1730;
+      color: var(--text);
+    }
+    .ok { color: var(--ok); }
+    .issue { color: var(--issue); }
+    .inc { color: var(--inc); }
+    .nc { color: var(--nc); }
+    .table-wrap {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      overflow: auto;
+    }
+    table { width: 100%; border-collapse: collapse; min-width: 1180px; }
+    th, td {
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      padding: 10px 12px;
+      vertical-align: top;
+      font-size: 14px;
+    }
+    th { color: #c7d5f7; font-weight: 700; position: sticky; top: 0; background: #121c39; }
+    tr:hover td { background: #0f1832; }
+    .num { width: 48px; color: var(--muted); }
+    .block { width: 220px; }
+    .checked { width: 110px; font-weight: 600; }
+    .status { width: 130px; font-weight: 700; text-transform: uppercase; font-size: 12px; }
+    .crit { width: 310px; }
+    .evidence { color: #c3d1f2; }
+    .tag {
+      display: inline-block;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      padding: 2px 8px;
+      font-size: 11px;
+      margin-left: 6px;
+      color: var(--accent);
+    }
+    .small { color: var(--muted); font-size: 12px; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Матрица проверки сайта по 52 критериям</h1>
+    <div class="subtitle">Домен: <b>dr-knyazkin.ru</b> · Аудит: 2026-04-15 · Режим: quick + ручная валидация (пассивно)</div>
+
+    <div class="top">
+      <div class="card"><div class="k">Всего критериев</div><div class="v" id="total">52</div></div>
+      <div class="card"><div class="k">Проверено</div><div class="v" id="checked">-</div></div>
+      <div class="card"><div class="k">Issue</div><div class="v issue" id="issues">-</div></div>
+      <div class="card"><div class="k">Inconclusive</div><div class="v inc" id="inconclusive">-</div></div>
+      <div class="card"><div class="k">Not checked</div><div class="v nc" id="notchecked">-</div></div>
+    </div>
+
+    <div class="legend">
+      <span class="badge">✅ проверено</span>
+      <span class="badge">⬜ не проверено</span>
+      <span class="badge ok">OK</span>
+      <span class="badge issue">ISSUE</span>
+      <span class="badge inc">INCONCLUSIVE</span>
+      <span class="badge nc">NOT_CHECKED</span>
+      <span class="badge">Core / Extended</span>
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th class="num">#</th>
+            <th class="block">Блок</th>
+            <th class="crit">Критерий</th>
+            <th class="checked">Проверено</th>
+            <th class="status">Статус</th>
+            <th>Доказательство / комментарий</th>
+          </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+
+    <div class="small">Примечание: часть endpoint'ов отвечает нестабильно из-за антибот/WAF, такие пункты помечены как <b>INCONCLUSIVE</b>.</div>
+  </div>
+
+  <script>
+    const data = [
+      {id:1, block:'1) SSL + redirects', crit:'TLS сертификат валиден', checked:true, status:'ok', tier:'Core', ev:'valid_now=true (evidence_quick.transport.tls)'},
+      {id:2, block:'1) SSL + redirects', crit:'Срок сертификата (days_to_expiry)', checked:true, status:'ok', tier:'Core', ev:'days_to_expiry=37'},
+      {id:3, block:'1) SSL + redirects', crit:'HTTP -> HTTPS редирект (apex)', checked:true, status:'ok', tier:'Core', ev:'redirect_to_https=true; http_home_status=301 (quick)'},
+      {id:4, block:'1) SSL + redirects', crit:'HSTS присутствует', checked:true, status:'issue', tier:'Core', ev:'hsts=null; header missing'},
+      {id:5, block:'1) SSL + redirects', crit:'Mixed content на публичной странице', checked:true, status:'ok', tier:'Core', ev:'mixed_content_count=0'},
+      {id:6, block:'1) SSL + redirects', crit:'SAN покрывает apex + www', checked:false, status:'not_checked', tier:'Extended', ev:'SAN из сертификата в quick не разобран'},
+      {id:7, block:'1) SSL + redirects', crit:'Канонизация www/non-www', checked:true, status:'issue', tier:'Extended', ev:'https://www.dr-knyazkin.ru/ возвращает 403 (ручная проверка)'},
+      {id:8, block:'1) SSL + redirects', crit:'Длина цепочки редиректов <= 2', checked:true, status:'inconclusive', tier:'Extended', ev:'для apex 1 редирект; часть запросов блокируется антиботом'},
+
+      {id:9, block:'2) File leaks', crit:'Статусы чувствительных путей', checked:true, status:'inconclusive', tier:'Core', ev:'/.env и /.git/config дают 429; часть путей 403/404'},
+      {id:10, block:'2) File leaks', crit:'Индикатор directory listing', checked:true, status:'ok', tier:'Core', ev:'явного Index of не зафиксировано'},
+      {id:11, block:'2) File leaks', crit:'Публичность .git', checked:true, status:'inconclusive', tier:'Extended', ev:'/.git/config -> 429 (нет подтвержденного чтения)'},
+      {id:12, block:'2) File leaks', crit:'Утечка config/secret файлов', checked:true, status:'inconclusive', tier:'Extended', ev:'/wp-config.php -> 403'},
+      {id:13, block:'2) File leaks', crit:'Утечка backup/dump', checked:true, status:'inconclusive', tier:'Extended', ev:'/backup.sql -> 403'},
+      {id:14, block:'2) File leaks', crit:'Debug-страницы (phpinfo/info)', checked:true, status:'inconclusive', tier:'Extended', ev:'/phpinfo.php -> 403'},
+
+      {id:15, block:'3) Open admin / CMS', crit:'CMS fingerprint (публичный)', checked:true, status:'ok', tier:'Core', ev:'в quick блоке нет сильного сигнала экспозиции'},
+      {id:16, block:'3) Open admin / CMS', crit:'Admin endpoint exposure', checked:true, status:'ok', tier:'Core', ev:'wp-admin/wp-login отвечают 429 (rate limit/WAF)'},
+      {id:17, block:'3) Open admin / CMS', crit:'Public version leakage', checked:true, status:'ok', tier:'Core', ev:'wp_version=null в quick'},
+      {id:18, block:'3) Open admin / CMS', crit:'Login endpoint exposure (расширенно)', checked:true, status:'inconclusive', tier:'Extended', ev:'/wp-login.php существует, но ограничен 429'},
+      {id:19, block:'3) Open admin / CMS', crit:'Служебные/API endpoint экспозиции', checked:false, status:'not_checked', tier:'Extended', ev:'в quick не покрывается'},
+      {id:20, block:'3) Open admin / CMS', crit:'Пассивные признаки hardening', checked:true, status:'ok', tier:'Extended', ev:'server=ddos-guard, множественные 403/429 на чувствительных точках'},
+
+      {id:21, block:'4) Security headers', crit:'Content-Security-Policy', checked:true, status:'issue', tier:'Core', ev:'missing в header_checks.missing'},
+      {id:22, block:'4) Security headers', crit:'X-Frame-Options', checked:true, status:'ok', tier:'Core', ev:'x-frame-options: SAMEORIGIN'},
+      {id:23, block:'4) Security headers', crit:'X-Content-Type-Options', checked:true, status:'issue', tier:'Core', ev:'missing'},
+      {id:24, block:'4) Security headers', crit:'Referrer-Policy', checked:true, status:'issue', tier:'Core', ev:'missing'},
+      {id:25, block:'4) Security headers', crit:'Permissions-Policy', checked:true, status:'issue', tier:'Core', ev:'missing'},
+      {id:26, block:'4) Security headers', crit:'Server disclosure', checked:true, status:'issue', tier:'Core', ev:'server header discloses ddos-guard'},
+      {id:27, block:'4) Security headers', crit:'X-Powered-By disclosure', checked:true, status:'ok', tier:'Core', ev:'x_powered_by=null'},
+      {id:28, block:'4) Security headers', crit:'COOP header', checked:true, status:'issue', tier:'Core', ev:'не обнаружен в ответе'},
+      {id:29, block:'4) Security headers', crit:'CORP header', checked:true, status:'issue', tier:'Extended', ev:'не обнаружен в ответе'},
+      {id:30, block:'4) Security headers', crit:'COEP header', checked:true, status:'issue', tier:'Extended', ev:'не обнаружен в ответе'},
+
+      {id:31, block:'5) Forms / 152-ФЗ screening', crit:'HTTPS action у форм', checked:true, status:'ok', tier:'Core', ev:'явной отправки в http не выявлено в quick'},
+      {id:32, block:'5) Forms / 152-ФЗ screening', crit:'Ссылка на политику рядом с формой', checked:true, status:'issue', tier:'Core', ev:'form_checks.has_privacy=false'},
+      {id:33, block:'5) Forms / 152-ФЗ screening', crit:'CAPTCHA или honeypot', checked:true, status:'issue', tier:'Core', ev:'has_captcha=false; has_honeypot=false'},
+      {id:34, block:'5) Forms / 152-ФЗ screening', crit:'Cookie banner присутствует', checked:true, status:'ok', tier:'Core', ev:'has_cookie_notice=true'},
+      {id:35, block:'5) Forms / 152-ФЗ screening', crit:'Явный consent checkbox перед отправкой', checked:false, status:'not_checked', tier:'Extended', ev:'в quick не выделяется отдельным флагом'},
+      {id:36, block:'5) Forms / 152-ФЗ screening', crit:'Текст согласия на обработку ПДн', checked:false, status:'not_checked', tier:'Extended', ev:'требуется целевая ручная валидация по формам'},
+      {id:37, block:'5) Forms / 152-ФЗ screening', crit:'Доступность страницы политики', checked:true, status:'inconclusive', tier:'Extended', ev:'поведение /politika нестабильно (403/иногда доступно)'},
+      {id:38, block:'5) Forms / 152-ФЗ screening', crit:'POST для чувствительных форм', checked:false, status:'not_checked', tier:'Extended', ev:'в quick не покрывается'},
+
+      {id:39, block:'6) DNS / email protection', crit:'SPF presence/policy', checked:true, status:'issue', tier:'Core', ev:'SPF TXT не обнаружен (quick dns_checks.spf empty)'},
+      {id:40, block:'6) DNS / email protection', crit:'DMARC presence/policy', checked:true, status:'issue', tier:'Core', ev:'DMARC TXT не обнаружен'},
+      {id:41, block:'6) DNS / email protection', crit:'DKIM selector presence', checked:true, status:'issue', tier:'Core', ev:'DKIM (default) не обнаружен'},
+      {id:42, block:'6) DNS / email protection', crit:'MTA-STS presence', checked:true, status:'issue', tier:'Core', ev:'MTA-STS не обнаружен'},
+      {id:43, block:'6) DNS / email protection', crit:'TLS-RPT presence', checked:true, status:'issue', tier:'Core', ev:'TLS-RPT не обнаружен'},
+      {id:44, block:'6) DNS / email protection', crit:'SPF strictness (~all/-all)', checked:false, status:'not_checked', tier:'Extended', ev:'не применимо без базовой SPF записи'},
+      {id:45, block:'6) DNS / email protection', crit:'DMARC strictness (p/quarantine/reject)', checked:false, status:'not_checked', tier:'Extended', ev:'не применимо без базовой DMARC записи'},
+
+      {id:46, block:'7) Third-party scripts', crit:'Инвентаризация внешних JS доменов', checked:true, status:'ok', tier:'Core', ev:'external_domains=4; external_total=25'},
+      {id:47, block:'7) Third-party scripts', crit:'Outdated JS library indicator', checked:true, status:'issue', tier:'Core', ev:'outdated_jquery: 1.10.2'},
+      {id:48, block:'7) Third-party scripts', crit:'SRI coverage внешних скриптов', checked:true, status:'issue', tier:'Core', ev:'external_no_sri=25/25'},
+      {id:49, block:'7) Third-party scripts', crit:'Риск-классы third-party скриптов', checked:false, status:'not_checked', tier:'Extended', ev:'классификация доменов не выполнена в quick'},
+
+      {id:50, block:'8) Reputation / OSINT', crit:'Safe Browsing статус', checked:false, status:'not_checked', tier:'Core', ev:'API не настроен в quick профиле'},
+      {id:51, block:'8) Reputation / OSINT', crit:'VirusTotal summary', checked:false, status:'not_checked', tier:'Core', ev:'API не настроен в quick профиле'},
+      {id:52, block:'8) Reputation / OSINT', crit:'Archive snapshot signals', checked:false, status:'not_checked', tier:'Core', ev:'в текущем quick прогонах не валидировано'}
+    ];
+
+    const tbody = document.getElementById('rows');
+    const statusClass = s => ({ok:'ok', issue:'issue', inconclusive:'inc', not_checked:'nc'})[s] || 'nc';
+    const statusLabel = s => ({ok:'OK', issue:'Issue', inconclusive:'Inconclusive', not_checked:'Not checked'})[s] || s;
+
+    for (const r of data) {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td class="num">${r.id}</td>
+        <td class="block">${r.block}<span class="tag">${r.tier}</span></td>
+        <td class="crit">${r.crit}</td>
+        <td class="checked">${r.checked ? '✅ Да' : '⬜ Нет'}</td>
+        <td class="status ${statusClass(r.status)}">${statusLabel(r.status)}</td>
+        <td class="evidence">${r.ev}</td>
+      `;
+      tbody.appendChild(tr);
+    }
+
+    const checked = data.filter(x => x.checked).length;
+    const issues = data.filter(x => x.status === 'issue').length;
+    const inconclusive = data.filter(x => x.status === 'inconclusive').length;
+    const notChecked = data.filter(x => x.status === 'not_checked').length;
+
+    document.getElementById('total').textContent = data.length;
+    document.getElementById('checked').textContent = `${checked}/${data.length}`;
+    document.getElementById('issues').textContent = issues;
+    document.getElementById('inconclusive').textContent = inconclusive;
+    document.getElementById('notchecked').textContent = notChecked;
+  </script>
+</body>
+</html>

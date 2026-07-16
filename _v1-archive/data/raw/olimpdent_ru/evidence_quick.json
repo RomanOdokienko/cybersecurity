@@ -1,0 +1,203 @@
+﻿{
+    "site_id":  "olimpdent_ru",
+    "domain":  "olimpdent.ru",
+    "audit_timestamp_utc":  "2026-04-15T23:51:17.7295127Z",
+    "transport":  {
+                      "mixed_content_count":  0,
+                      "http_home_status":  0,
+                      "tls":  {
+                                  "valid_now":  false,
+                                  "error":  "Exception calling \"AuthenticateAsClient\" with \"1\" argument(s): \"Authentication failed because the remote party has closed the transport stream.\""
+                              },
+                      "redirect_location":  null,
+                      "https_home_status":  0,
+                      "redirect_to_https":  false,
+                      "hsts":  null
+                  },
+    "file_checks":  [
+                        {
+                            "path":  "/.env",
+                            "status":  0,
+                            "final_url":  "https://olimpdent.ru/.env"
+                        },
+                        {
+                            "path":  "/.git/config",
+                            "status":  0,
+                            "final_url":  "https://olimpdent.ru/.git/config"
+                        },
+                        {
+                            "path":  "/wp-config.php",
+                            "status":  0,
+                            "final_url":  "https://olimpdent.ru/wp-config.php"
+                        },
+                        {
+                            "path":  "/backup.sql",
+                            "status":  0,
+                            "final_url":  "https://olimpdent.ru/backup.sql"
+                        },
+                        {
+                            "path":  "/phpinfo.php",
+                            "status":  0,
+                            "final_url":  "https://olimpdent.ru/phpinfo.php"
+                        },
+                        {
+                            "path":  "/uploads/",
+                            "status":  0,
+                            "final_url":  "https://olimpdent.ru/uploads/"
+                        }
+                    ],
+    "admin_checks":  {
+                         "wp_version":  null,
+                         "bitrix_admin_status":  0,
+                         "wp_admin_status":  0
+                     },
+    "header_checks":  {
+                          "x_powered_by":  null,
+                          "server":  null,
+                          "missing":  [
+                                          "Strict-Transport-Security",
+                                          "Content-Security-Policy",
+                                          "X-Frame-Options",
+                                          "X-Content-Type-Options",
+                                          "Referrer-Policy",
+                                          "Permissions-Policy"
+                                      ]
+                      },
+    "form_checks":  {
+                        "forms_method_unknown":  0,
+                        "page_checks":  [
+                                            {
+                                                "path":  "/",
+                                                "status":  0,
+                                                "body_length":  0,
+                                                "error":  "curl_get_failed",
+                                                "final_url":  "https://olimpdent.ru/"
+                                            },
+                                            {
+                                                "path":  "/contacts",
+                                                "status":  0,
+                                                "body_length":  0,
+                                                "error":  "curl_get_failed",
+                                                "final_url":  "https://olimpdent.ru/contacts"
+                                            },
+                                            {
+                                                "path":  "/contact",
+                                                "status":  0,
+                                                "body_length":  0,
+                                                "error":  "curl_get_failed",
+                                                "final_url":  "https://olimpdent.ru/contact"
+                                            },
+                                            {
+                                                "path":  "/zapis",
+                                                "status":  0,
+                                                "body_length":  0,
+                                                "error":  "curl_get_failed",
+                                                "final_url":  "https://olimpdent.ru/zapis"
+                                            },
+                                            {
+                                                "path":  "/appointment",
+                                                "status":  0,
+                                                "body_length":  0,
+                                                "error":  "curl_get_failed",
+                                                "final_url":  "https://olimpdent.ru/appointment"
+                                            },
+                                            {
+                                                "path":  "/feedback",
+                                                "status":  0,
+                                                "body_length":  0,
+                                                "error":  "curl_get_failed",
+                                                "final_url":  "https://olimpdent.ru/feedback"
+                                            },
+                                            {
+                                                "path":  "/callback",
+                                                "status":  0,
+                                                "body_length":  0,
+                                                "error":  "curl_get_failed",
+                                                "final_url":  "https://olimpdent.ru/callback"
+                                            },
+                                            {
+                                                "path":  "/online",
+                                                "status":  0,
+                                                "body_length":  0,
+                                                "error":  "curl_get_failed",
+                                                "final_url":  "https://olimpdent.ru/online"
+                                            }
+                                        ],
+                        "forms_count_non_relevant":  0,
+                        "forms_count_total_detected":  0,
+                        "forms_non_post":  0,
+                        "pages_accessible":  0,
+                        "has_honeypot":  false,
+                        "pages_sampled":  8,
+                        "forms_count":  0,
+                        "pages_blocked":  0,
+                        "forms_with_policy_marker":  0,
+                        "forms_with_any_required_checkbox":  0,
+                        "has_privacy":  false,
+                        "forms_insecure_action":  0,
+                        "has_captcha":  false,
+                        "policy_checks":  [
+                                              {
+                                                  "url":  "https://olimpdent.ru/document_politics.php",
+                                                  "status":  0,
+                                                  "final_url":  "https://olimpdent.ru/document_politics.php"
+                                              },
+                                              {
+                                                  "url":  "https://olimpdent.ru/politika",
+                                                  "status":  0,
+                                                  "final_url":  "https://olimpdent.ru/politika"
+                                              },
+                                              {
+                                                  "url":  "https://olimpdent.ru/politika-konfidentsialnosti",
+                                                  "status":  0,
+                                                  "final_url":  "https://olimpdent.ru/politika-konfidentsialnosti"
+                                              },
+                                              {
+                                                  "url":  "https://olimpdent.ru/privacy",
+                                                  "status":  0,
+                                                  "final_url":  "https://olimpdent.ru/privacy"
+                                              },
+                                              {
+                                                  "url":  "https://olimpdent.ru/privacy-policy",
+                                                  "status":  0,
+                                                  "final_url":  "https://olimpdent.ru/privacy-policy"
+                                              },
+                                              {
+                                                  "url":  "https://olimpdent.ru/policy",
+                                                  "status":  0,
+                                                  "final_url":  "https://olimpdent.ru/policy"
+                                              },
+                                              {
+                                                  "url":  "https://olimpdent.ru/personal-data",
+                                                  "status":  0,
+                                                  "final_url":  "https://olimpdent.ru/personal-data"
+                                              },
+                                              {
+                                                  "url":  "https://olimpdent.ru/privacy-policy/",
+                                                  "status":  0,
+                                                  "final_url":  "https://olimpdent.ru/privacy-policy/"
+                                              }
+                                          ],
+                        "forms_with_required_consent":  0,
+                        "has_cookie_notice":  false
+                    },
+    "dns_checks":  {
+                       "dmarc":  {
+
+                                 },
+                       "dkim_default":  {
+
+                                        },
+                       "spf":  "v=spf1 +a +mx include:_spf.fastmail.gr -all"
+                   },
+    "script_checks":  {
+                          "outdated_jquery":  [
+
+                                              ],
+                          "external_no_sri":  0,
+                          "external_domains":  {
+
+                                               },
+                          "external_total":  0
+                      }
+}

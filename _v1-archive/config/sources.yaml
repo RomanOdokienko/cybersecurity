@@ -1,0 +1,36 @@
+version: "1.0"
+
+http:
+  timeout_seconds: 20
+  max_redirects: 5
+  user_agent: "ClinicAuditBot/1.0 (passive-audit)"
+
+dns:
+  resolver_mode: "system_default"
+
+osint:
+  crtsh:
+    enabled: true
+    requires_api_key: false
+  urlscan:
+    enabled: false
+    requires_api_key: true
+    env_key: "URLSCAN_API_KEY"
+  virustotal:
+    enabled: false
+    requires_api_key: true
+    env_key: "VT_API_KEY"
+  google_safe_browsing:
+    enabled: false
+    requires_api_key: true
+    env_key: "GSB_API_KEY"
+  shodan:
+    enabled: false
+    requires_api_key: true
+    env_key: "SHODAN_API_KEY"
+
+archives:
+  wayback:
+    enabled: true
+  commoncrawl:
+    enabled: true

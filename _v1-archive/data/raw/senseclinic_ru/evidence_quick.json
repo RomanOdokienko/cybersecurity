@@ -1,0 +1,203 @@
+﻿{
+    "site_id":  "senseclinic_ru",
+    "domain":  "senseclinic.ru",
+    "audit_timestamp_utc":  "2026-04-15T23:31:50.9160142Z",
+    "transport":  {
+                      "mixed_content_count":  3,
+                      "http_home_status":  301,
+                      "tls":  {
+                                  "valid_now":  true,
+                                  "days_to_expiry":  43,
+                                  "signature_algorithm":  "sha256RSA",
+                                  "issuer":  "CN=R12, O=Let\u0027s Encrypt, C=US",
+                                  "not_after":  "2026-05-29T05:47:18.0000000Z"
+                              },
+                      "redirect_location":  "https://senseclinic.ru/",
+                      "https_home_status":  200,
+                      "redirect_to_https":  true,
+                      "hsts":  null
+                  },
+    "file_checks":  [
+                        {
+                            "path":  "/.env",
+                            "status":  405,
+                            "final_url":  "https://senseclinic.ru/.env"
+                        },
+                        {
+                            "path":  "/.git/config",
+                            "status":  405,
+                            "final_url":  "https://senseclinic.ru/.git/config"
+                        },
+                        {
+                            "path":  "/wp-config.php",
+                            "status":  200,
+                            "final_url":  "https://senseclinic.ru/wp-config.php"
+                        },
+                        {
+                            "path":  "/backup.sql",
+                            "status":  405,
+                            "final_url":  "https://senseclinic.ru/backup.sql"
+                        },
+                        {
+                            "path":  "/phpinfo.php",
+                            "status":  404,
+                            "final_url":  "https://senseclinic.ru/phpinfo.php"
+                        },
+                        {
+                            "path":  "/uploads/",
+                            "status":  404,
+                            "final_url":  "https://senseclinic.ru/uploads/"
+                        }
+                    ],
+    "admin_checks":  {
+                         "wp_version":  null,
+                         "bitrix_admin_status":  404,
+                         "wp_admin_status":  200
+                     },
+    "header_checks":  {
+                          "x_powered_by":  null,
+                          "server":  "nginx-reuseport/1.21.1",
+                          "missing":  [
+                                          "Strict-Transport-Security",
+                                          "Content-Security-Policy"
+                                      ]
+                      },
+    "form_checks":  {
+                        "forms_method_unknown":  10,
+                        "page_checks":  [
+                                            {
+                                                "path":  "/",
+                                                "status":  200,
+                                                "body_length":  251876,
+                                                "error":  null,
+                                                "final_url":  "https://senseclinic.ru/"
+                                            },
+                                            {
+                                                "path":  "/contacts",
+                                                "status":  404,
+                                                "body_length":  126240,
+                                                "error":  null,
+                                                "final_url":  "https://senseclinic.ru/contacts"
+                                            },
+                                            {
+                                                "path":  "/contact",
+                                                "status":  404,
+                                                "body_length":  126230,
+                                                "error":  null,
+                                                "final_url":  "https://senseclinic.ru/contact"
+                                            },
+                                            {
+                                                "path":  "/zapis",
+                                                "status":  404,
+                                                "body_length":  126210,
+                                                "error":  null,
+                                                "final_url":  "https://senseclinic.ru/zapis"
+                                            },
+                                            {
+                                                "path":  "/appointment",
+                                                "status":  404,
+                                                "body_length":  126270,
+                                                "error":  null,
+                                                "final_url":  "https://senseclinic.ru/appointment"
+                                            },
+                                            {
+                                                "path":  "/feedback",
+                                                "status":  404,
+                                                "body_length":  126240,
+                                                "error":  null,
+                                                "final_url":  "https://senseclinic.ru/feedback"
+                                            },
+                                            {
+                                                "path":  "/callback",
+                                                "status":  404,
+                                                "body_length":  126240,
+                                                "error":  null,
+                                                "final_url":  "https://senseclinic.ru/callback"
+                                            },
+                                            {
+                                                "path":  "/online",
+                                                "status":  404,
+                                                "body_length":  126220,
+                                                "error":  null,
+                                                "final_url":  "https://senseclinic.ru/online"
+                                            }
+                                        ],
+                        "forms_count_non_relevant":  0,
+                        "forms_count_total_detected":  11,
+                        "forms_non_post":  0,
+                        "pages_accessible":  1,
+                        "has_honeypot":  false,
+                        "pages_sampled":  8,
+                        "forms_count":  11,
+                        "pages_blocked":  0,
+                        "forms_with_policy_marker":  11,
+                        "forms_with_any_required_checkbox":  11,
+                        "has_privacy":  true,
+                        "forms_insecure_action":  0,
+                        "has_captcha":  false,
+                        "policy_checks":  [
+                                              {
+                                                  "url":  "https://senseclinic.ru/document_politics.php",
+                                                  "status":  404,
+                                                  "final_url":  "https://senseclinic.ru/document_politics.php"
+                                              },
+                                              {
+                                                  "url":  "https://senseclinic.ru/personal-data",
+                                                  "status":  404,
+                                                  "final_url":  "https://senseclinic.ru/personal-data"
+                                              },
+                                              {
+                                                  "url":  "https://senseclinic.ru/policy",
+                                                  "status":  200,
+                                                  "final_url":  "https://senseclinic.ru/policy"
+                                              },
+                                              {
+                                                  "url":  "https://senseclinic.ru/policy/",
+                                                  "status":  200,
+                                                  "final_url":  "https://senseclinic.ru/policy/"
+                                              },
+                                              {
+                                                  "url":  "https://senseclinic.ru/politika",
+                                                  "status":  404,
+                                                  "final_url":  "https://senseclinic.ru/politika"
+                                              },
+                                              {
+                                                  "url":  "https://senseclinic.ru/politika-konfidentsialnosti",
+                                                  "status":  404,
+                                                  "final_url":  "https://senseclinic.ru/politika-konfidentsialnosti"
+                                              },
+                                              {
+                                                  "url":  "https://senseclinic.ru/privacy",
+                                                  "status":  404,
+                                                  "final_url":  "https://senseclinic.ru/privacy"
+                                              },
+                                              {
+                                                  "url":  "https://senseclinic.ru/privacy-policy",
+                                                  "status":  404,
+                                                  "final_url":  "https://senseclinic.ru/privacy-policy"
+                                              }
+                                          ],
+                        "forms_with_required_consent":  11,
+                        "has_cookie_notice":  true
+                    },
+    "dns_checks":  {
+                       "dmarc":  {
+
+                                 },
+                       "dkim_default":  {
+
+                                        },
+                       "spf":  "v=spf1 redirect=beget.com"
+                   },
+    "script_checks":  {
+                          "outdated_jquery":  [
+
+                                              ],
+                          "external_no_sri":  2,
+                          "external_domains":  [
+                                                   "api-maps.yandex.ru",
+                                                   "www.googletagmanager.com"
+                                               ],
+                          "external_total":  2
+                      }
+}

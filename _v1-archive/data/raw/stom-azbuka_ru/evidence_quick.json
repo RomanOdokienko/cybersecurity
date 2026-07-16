@@ -1,0 +1,206 @@
+﻿{
+    "site_id":  "stom-azbuka_ru",
+    "domain":  "stom-azbuka.ru",
+    "audit_timestamp_utc":  "2026-04-15T23:32:50.5635533Z",
+    "transport":  {
+                      "mixed_content_count":  0,
+                      "http_home_status":  200,
+                      "tls":  {
+                                  "valid_now":  true,
+                                  "days_to_expiry":  70,
+                                  "signature_algorithm":  "sha256RSA",
+                                  "issuer":  "CN=R12, O=Let\u0027s Encrypt, C=US",
+                                  "not_after":  "2026-06-25T09:23:46.0000000Z"
+                              },
+                      "redirect_location":  null,
+                      "https_home_status":  200,
+                      "redirect_to_https":  false,
+                      "hsts":  null
+                  },
+    "file_checks":  [
+                        {
+                            "path":  "/.env",
+                            "status":  403,
+                            "final_url":  "https://stom-azbuka.ru/.env"
+                        },
+                        {
+                            "path":  "/.git/config",
+                            "status":  403,
+                            "final_url":  "https://stom-azbuka.ru/.git/config"
+                        },
+                        {
+                            "path":  "/wp-config.php",
+                            "status":  404,
+                            "final_url":  "https://stom-azbuka.ru/wp-config.php"
+                        },
+                        {
+                            "path":  "/backup.sql",
+                            "status":  404,
+                            "final_url":  "https://stom-azbuka.ru/backup.sql"
+                        },
+                        {
+                            "path":  "/phpinfo.php",
+                            "status":  404,
+                            "final_url":  "https://stom-azbuka.ru/phpinfo.php"
+                        },
+                        {
+                            "path":  "/uploads/",
+                            "status":  404,
+                            "final_url":  "https://stom-azbuka.ru/uploads/"
+                        }
+                    ],
+    "admin_checks":  {
+                         "wp_version":  null,
+                         "bitrix_admin_status":  404,
+                         "wp_admin_status":  404
+                     },
+    "header_checks":  {
+                          "x_powered_by":  "PHP/8.0.30",
+                          "server":  "nginx/1.27.4",
+                          "missing":  [
+                                          "Strict-Transport-Security",
+                                          "Content-Security-Policy",
+                                          "X-Frame-Options",
+                                          "X-Content-Type-Options",
+                                          "Referrer-Policy",
+                                          "Permissions-Policy"
+                                      ]
+                      },
+    "form_checks":  {
+                        "forms_method_unknown":  0,
+                        "page_checks":  [
+                                            {
+                                                "path":  "/",
+                                                "status":  200,
+                                                "body_length":  29180,
+                                                "error":  null,
+                                                "final_url":  "https://stom-azbuka.ru/"
+                                            },
+                                            {
+                                                "path":  "/contacts",
+                                                "status":  404,
+                                                "body_length":  29180,
+                                                "error":  null,
+                                                "final_url":  "https://stom-azbuka.ru/contacts"
+                                            },
+                                            {
+                                                "path":  "/contact",
+                                                "status":  404,
+                                                "body_length":  29180,
+                                                "error":  null,
+                                                "final_url":  "https://stom-azbuka.ru/contact"
+                                            },
+                                            {
+                                                "path":  "/zapis",
+                                                "status":  404,
+                                                "body_length":  29180,
+                                                "error":  null,
+                                                "final_url":  "https://stom-azbuka.ru/zapis"
+                                            },
+                                            {
+                                                "path":  "/appointment",
+                                                "status":  404,
+                                                "body_length":  29180,
+                                                "error":  null,
+                                                "final_url":  "https://stom-azbuka.ru/appointment"
+                                            },
+                                            {
+                                                "path":  "/feedback",
+                                                "status":  404,
+                                                "body_length":  29180,
+                                                "error":  null,
+                                                "final_url":  "https://stom-azbuka.ru/feedback"
+                                            },
+                                            {
+                                                "path":  "/callback",
+                                                "status":  404,
+                                                "body_length":  29180,
+                                                "error":  null,
+                                                "final_url":  "https://stom-azbuka.ru/callback"
+                                            },
+                                            {
+                                                "path":  "/online",
+                                                "status":  404,
+                                                "body_length":  29180,
+                                                "error":  null,
+                                                "final_url":  "https://stom-azbuka.ru/online"
+                                            }
+                                        ],
+                        "forms_count_non_relevant":  0,
+                        "forms_count_total_detected":  1,
+                        "forms_non_post":  0,
+                        "pages_accessible":  1,
+                        "has_honeypot":  false,
+                        "pages_sampled":  8,
+                        "forms_count":  1,
+                        "pages_blocked":  0,
+                        "forms_with_policy_marker":  1,
+                        "forms_with_any_required_checkbox":  0,
+                        "has_privacy":  true,
+                        "forms_insecure_action":  0,
+                        "has_captcha":  false,
+                        "policy_checks":  [
+                                              {
+                                                  "url":  "https://stom-azbuka.ru/document_politics.php",
+                                                  "status":  404,
+                                                  "final_url":  "https://stom-azbuka.ru/document_politics.php"
+                                              },
+                                              {
+                                                  "url":  "https://stom-azbuka.ru/personal/",
+                                                  "status":  200,
+                                                  "final_url":  "https://stom-azbuka.ru/personal/"
+                                              },
+                                              {
+                                                  "url":  "https://stom-azbuka.ru/personal/abas",
+                                                  "status":  200,
+                                                  "final_url":  "https://stom-azbuka.ru/personal/abas"
+                                              },
+                                              {
+                                                  "url":  "https://stom-azbuka.ru/personal/abdulvagabov",
+                                                  "status":  200,
+                                                  "final_url":  "https://stom-azbuka.ru/personal/abdulvagabov"
+                                              },
+                                              {
+                                                  "url":  "https://stom-azbuka.ru/personal/bajteryakov",
+                                                  "status":  200,
+                                                  "final_url":  "https://stom-azbuka.ru/personal/bajteryakov"
+                                              },
+                                              {
+                                                  "url":  "https://stom-azbuka.ru/personal/baragunova",
+                                                  "status":  200,
+                                                  "final_url":  "https://stom-azbuka.ru/personal/baragunova"
+                                              },
+                                              {
+                                                  "url":  "https://stom-azbuka.ru/personal/ivankov",
+                                                  "status":  200,
+                                                  "final_url":  "https://stom-azbuka.ru/personal/ivankov"
+                                              },
+                                              {
+                                                  "url":  "https://stom-azbuka.ru/personal/lianidis",
+                                                  "status":  200,
+                                                  "final_url":  "https://stom-azbuka.ru/personal/lianidis"
+                                              }
+                                          ],
+                        "forms_with_required_consent":  0,
+                        "has_cookie_notice":  false
+                    },
+    "dns_checks":  {
+                       "dmarc":  {
+
+                                 },
+                       "dkim_default":  {
+
+                                        },
+                       "spf":  {
+
+                               }
+                   },
+    "script_checks":  {
+                          "outdated_jquery":  [
+                                                  "1.8.3"
+                                              ],
+                          "external_no_sri":  1,
+                          "external_domains":  "ajax.googleapis.com",
+                          "external_total":  1
+                      }
+}

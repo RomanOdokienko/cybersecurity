@@ -1,0 +1,2312 @@
+﻿[
+    {
+        "site_id":  "vk_link",
+        "domain":  "vk.link",
+        "audit_timestamp_utc":  "2026-04-16T00:08:34.5044899Z",
+        "overall_score":  18.5,
+        "risk_band":  "low",
+        "free_offer_summary":  [
+                                   "Security headers: Missing: Strict-Transport-Security, Content-Security-Policy, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy."
+                               ],
+        "triage":  {
+                       "next_action":  "no_offer_now",
+                       "reason":  "No strong confirmed issues in quick run.",
+                       "critical_count":  0,
+                       "review_required_count":  0,
+                       "not_tested_count":  2,
+                       "error_count":  0
+                   },
+        "compliance_152":  {
+                               "status":  "not_observable",
+                               "confidence":  "low",
+                               "forms_total":  0,
+                               "forms_total_detected":  0,
+                               "forms_non_relevant":  0,
+                               "forms_with_required_consent":  0,
+                               "forms_with_any_required_checkbox":  0,
+                               "forms_with_policy_marker":  0,
+                               "forms_insecure_action":  0,
+                               "forms_non_post":  0,
+                               "forms_method_unknown":  0,
+                               "policy_candidates_checked":  8,
+                               "policy_candidates_ok":  0,
+                               "pages_sampled":  8,
+                               "pages_accessible":  0,
+                               "criteria":  [
+                                                {
+                                                    "id":  "pages_accessible",
+                                                    "title":  "Coverage of pages for screening",
+                                                    "status":  "not_observable",
+                                                    "value":  "0/8",
+                                                    "evidence":  "/ -\u003e 418; /contacts -\u003e 418; /contact -\u003e 418; /zapis -\u003e 418; /appointment -\u003e 418; /feedback -\u003e 418"
+                                                },
+                                                {
+                                                    "id":  "forms_detected",
+                                                    "title":  "Forms detected",
+                                                    "status":  "not_observable",
+                                                    "value":  "0 relevant / 0 total",
+                                                    "evidence":  "forms_relevant=0; forms_total=0; forms_non_relevant=0"
+                                                },
+                                                {
+                                                    "id":  "required_consent_checkbox",
+                                                    "title":  "Required consent checkbox on forms",
+                                                    "status":  "not_observable",
+                                                    "value":  "0/0",
+                                                    "evidence":  "forms_with_required_consent=0; forms_with_any_required_checkbox=0; forms_relevant=0"
+                                                },
+                                                {
+                                                    "id":  "policy_marker_near_form",
+                                                    "title":  "Policy marker near form",
+                                                    "status":  "not_observable",
+                                                    "value":  "0/0",
+                                                    "evidence":  "forms_with_policy_marker=0; forms_total=0"
+                                                },
+                                                {
+                                                    "id":  "secure_form_action",
+                                                    "title":  "Secure form action (no HTTP)",
+                                                    "status":  "not_observable",
+                                                    "value":  "0 insecure",
+                                                    "evidence":  "forms_insecure_action=0"
+                                                },
+                                                {
+                                                    "id":  "post_method",
+                                                    "title":  "Form POST method",
+                                                    "status":  "not_observable",
+                                                    "value":  "0 non_post; 0 unknown",
+                                                    "evidence":  "forms_non_post=0; forms_method_unknown=0; forms_relevant=0"
+                                                },
+                                                {
+                                                    "id":  "policy_page_reachable",
+                                                    "title":  "Policy page reachable",
+                                                    "status":  "fail",
+                                                    "value":  "0/8",
+                                                    "evidence":  "https://vk.link/document_politics.php -\u003e 418; https://vk.link/politika -\u003e 418; https://vk.link/politika-konfidentsialnosti -\u003e 418; https://vk.link/privacy -\u003e 418"
+                                                }
+                                            ]
+                           },
+        "blocks":  [
+                       {
+                           "id":  "ssl_redirects",
+                           "name":  "SSL + redirects",
+                           "priority":  1,
+                           "score":  15,
+                           "status":  "ok",
+                           "confidence":  "high",
+                           "evidence_count":  5,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Visible immediately and easy to explain.",
+                           "findings_count":  1,
+                           "key_finding":  "HSTS is missing."
+                       },
+                       {
+                           "id":  "file_leaks",
+                           "name":  "File leaks",
+                           "priority":  2,
+                           "score":  0,
+                           "status":  "ok",
+                           "confidence":  "high",
+                           "evidence_count":  6,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Strong urgency when exposure is present.",
+                           "findings_count":  0,
+                           "key_finding":  "No sensitive file exposure in quick dictionary."
+                       },
+                       {
+                           "id":  "open_admin",
+                           "name":  "Open admin and CMS exposure",
+                           "priority":  3,
+                           "score":  0,
+                           "status":  "ok",
+                           "confidence":  "high",
+                           "evidence_count":  3,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Clear and understandable for non-technical owner.",
+                           "findings_count":  0,
+                           "key_finding":  "No strong admin/CMS exposure signal."
+                       },
+                       {
+                           "id":  "security_headers",
+                           "name":  "Security headers",
+                           "priority":  4,
+                           "score":  60,
+                           "status":  "warning",
+                           "confidence":  "high",
+                           "evidence_count":  8,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Easy to benchmark with clear grade logic.",
+                           "findings_count":  2,
+                           "key_finding":  "Missing: Strict-Transport-Security, Content-Security-Policy, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy."
+                       },
+                       {
+                           "id":  "forms_patient_data",
+                           "name":  "Forms and patient data",
+                           "priority":  5,
+                           "score":  0,
+                           "status":  "not_tested",
+                           "confidence":  "low",
+                           "evidence_count":  16,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Direct legal/trust risk narrative.",
+                           "findings_count":  1,
+                           "key_finding":  "Form pages are not accessible in quick mode."
+                       },
+                       {
+                           "id":  "dns_email_protection",
+                           "name":  "DNS and email protection",
+                           "priority":  6,
+                           "score":  45,
+                           "status":  "warning",
+                           "confidence":  "medium",
+                           "evidence_count":  3,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Strong technical depth for demo.",
+                           "findings_count":  2,
+                           "key_finding":  "DMARC is missing."
+                       },
+                       {
+                           "id":  "third_party_scripts",
+                           "name":  "Third-party scripts",
+                           "priority":  7,
+                           "score":  44,
+                           "status":  "warning",
+                           "confidence":  "high",
+                           "evidence_count":  7,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Good advanced layer for upsell.",
+                           "findings_count":  1,
+                           "key_finding":  "External scripts without SRI: 7/7."
+                       },
+                       {
+                           "id":  "reputation_osint",
+                           "name":  "Reputation and OSINT",
+                           "priority":  8,
+                           "score":  0,
+                           "status":  "not_tested",
+                           "confidence":  "low",
+                           "evidence_count":  0,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Adds external trust context.",
+                           "findings_count":  1,
+                           "key_finding":  "Reputation APIs are not configured in quick mode."
+                       }
+                   ]
+    },
+    {
+        "site_id":  "medsi_ru",
+        "domain":  "medsi.ru",
+        "audit_timestamp_utc":  "2026-04-16T00:07:50.2962097Z",
+        "overall_score":  22,
+        "risk_band":  "low",
+        "free_offer_summary":  [
+                                   "File leaks: Sensitive files exposed: /.git/config.",
+                                   "Security headers: Missing: Content-Security-Policy, Referrer-Policy, Permissions-Policy."
+                               ],
+        "triage":  {
+                       "next_action":  "agent_review",
+                       "reason":  "Some blocks require manual validation.",
+                       "critical_count":  0,
+                       "review_required_count":  1,
+                       "not_tested_count":  1,
+                       "error_count":  0
+                   },
+        "compliance_152":  {
+                               "status":  "review_required",
+                               "confidence":  "medium",
+                               "forms_total":  0,
+                               "forms_total_detected":  2,
+                               "forms_non_relevant":  2,
+                               "forms_with_required_consent":  0,
+                               "forms_with_any_required_checkbox":  0,
+                               "forms_with_policy_marker":  0,
+                               "forms_insecure_action":  0,
+                               "forms_non_post":  0,
+                               "forms_method_unknown":  0,
+                               "policy_candidates_checked":  8,
+                               "policy_candidates_ok":  3,
+                               "pages_sampled":  8,
+                               "pages_accessible":  1,
+                               "criteria":  [
+                                                {
+                                                    "id":  "pages_accessible",
+                                                    "title":  "Coverage of pages for screening",
+                                                    "status":  "review_required",
+                                                    "value":  "1/8",
+                                                    "evidence":  "/ -\u003e 200; /contacts -\u003e 404; /contact -\u003e 404; /zapis -\u003e 404; /appointment -\u003e 404; /feedback -\u003e 404"
+                                                },
+                                                {
+                                                    "id":  "forms_detected",
+                                                    "title":  "Forms detected",
+                                                    "status":  "review_required",
+                                                    "value":  "0 relevant / 2 total",
+                                                    "evidence":  "forms_relevant=0; forms_total=2; forms_non_relevant=2"
+                                                },
+                                                {
+                                                    "id":  "required_consent_checkbox",
+                                                    "title":  "Required consent checkbox on forms",
+                                                    "status":  "not_observable",
+                                                    "value":  "0/0",
+                                                    "evidence":  "forms_with_required_consent=0; forms_with_any_required_checkbox=0; forms_relevant=0"
+                                                },
+                                                {
+                                                    "id":  "policy_marker_near_form",
+                                                    "title":  "Policy marker near form",
+                                                    "status":  "not_observable",
+                                                    "value":  "0/0",
+                                                    "evidence":  "forms_with_policy_marker=0; forms_total=0"
+                                                },
+                                                {
+                                                    "id":  "secure_form_action",
+                                                    "title":  "Secure form action (no HTTP)",
+                                                    "status":  "not_observable",
+                                                    "value":  "0 insecure",
+                                                    "evidence":  "forms_insecure_action=0"
+                                                },
+                                                {
+                                                    "id":  "post_method",
+                                                    "title":  "Form POST method",
+                                                    "status":  "not_observable",
+                                                    "value":  "0 non_post; 0 unknown",
+                                                    "evidence":  "forms_non_post=0; forms_method_unknown=0; forms_relevant=0"
+                                                },
+                                                {
+                                                    "id":  "policy_page_reachable",
+                                                    "title":  "Policy page reachable",
+                                                    "status":  "pass",
+                                                    "value":  "3/8",
+                                                    "evidence":  "https://medsi.ru/document.php?element=104166116 -\u003e 200; https://medsi.ru/document.php?element=11431 -\u003e 200; https://medsi.ru/document_politics.php -\u003e 200; https://medsi.ru/personal-data -\u003e 404"
+                                                }
+                                            ]
+                           },
+        "blocks":  [
+                       {
+                           "id":  "ssl_redirects",
+                           "name":  "SSL + redirects",
+                           "priority":  1,
+                           "score":  15,
+                           "status":  "ok",
+                           "confidence":  "high",
+                           "evidence_count":  5,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Visible immediately and easy to explain.",
+                           "findings_count":  1,
+                           "key_finding":  "Mixed content detected (2)."
+                       },
+                       {
+                           "id":  "file_leaks",
+                           "name":  "File leaks",
+                           "priority":  2,
+                           "score":  60,
+                           "status":  "warning",
+                           "confidence":  "high",
+                           "evidence_count":  6,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Strong urgency when exposure is present.",
+                           "findings_count":  1,
+                           "key_finding":  "Sensitive files exposed: /.git/config."
+                       },
+                       {
+                           "id":  "open_admin",
+                           "name":  "Open admin and CMS exposure",
+                           "priority":  3,
+                           "score":  0,
+                           "status":  "ok",
+                           "confidence":  "high",
+                           "evidence_count":  3,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Clear and understandable for non-technical owner.",
+                           "findings_count":  0,
+                           "key_finding":  "No strong admin/CMS exposure signal."
+                       },
+                       {
+                           "id":  "security_headers",
+                           "name":  "Security headers",
+                           "priority":  4,
+                           "score":  20,
+                           "status":  "warning",
+                           "confidence":  "high",
+                           "evidence_count":  8,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Easy to benchmark with clear grade logic.",
+                           "findings_count":  1,
+                           "key_finding":  "Missing: Content-Security-Policy, Referrer-Policy, Permissions-Policy."
+                       },
+                       {
+                           "id":  "forms_patient_data",
+                           "name":  "Forms and patient data",
+                           "priority":  5,
+                           "score":  0,
+                           "status":  "review_required",
+                           "confidence":  "medium",
+                           "evidence_count":  16,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Direct legal/trust risk narrative.",
+                           "findings_count":  1,
+                           "key_finding":  "Only utility/non-personal forms were found on sampled pages (2 total, 0 relevant)."
+                       },
+                       {
+                           "id":  "dns_email_protection",
+                           "name":  "DNS and email protection",
+                           "priority":  6,
+                           "score":  30,
+                           "status":  "ok",
+                           "confidence":  "medium",
+                           "evidence_count":  3,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Strong technical depth for demo.",
+                           "findings_count":  2,
+                           "key_finding":  "DMARC policy is p=none."
+                       },
+                       {
+                           "id":  "third_party_scripts",
+                           "name":  "Third-party scripts",
+                           "priority":  7,
+                           "score":  51,
+                           "status":  "warning",
+                           "confidence":  "high",
+                           "evidence_count":  3,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Good advanced layer for upsell.",
+                           "findings_count":  2,
+                           "key_finding":  "External scripts without SRI: 3/3."
+                       },
+                       {
+                           "id":  "reputation_osint",
+                           "name":  "Reputation and OSINT",
+                           "priority":  8,
+                           "score":  0,
+                           "status":  "not_tested",
+                           "confidence":  "low",
+                           "evidence_count":  0,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Adds external trust context.",
+                           "findings_count":  1,
+                           "key_finding":  "Reputation APIs are not configured in quick mode."
+                       }
+                   ]
+    },
+    {
+        "site_id":  "olimpdent_ru",
+        "domain":  "olimpdent.ru",
+        "audit_timestamp_utc":  "2026-04-15T23:51:17.7295127Z",
+        "overall_score":  25.4,
+        "risk_band":  "low",
+        "free_offer_summary":  [
+
+                               ],
+        "triage":  {
+                       "next_action":  "agent_review",
+                       "reason":  "Some blocks require manual validation.",
+                       "critical_count":  0,
+                       "review_required_count":  2,
+                       "not_tested_count":  2,
+                       "error_count":  3
+                   },
+        "compliance_152":  {
+                               "status":  "not_observable",
+                               "confidence":  "low",
+                               "forms_total":  0,
+                               "forms_total_detected":  0,
+                               "forms_non_relevant":  0,
+                               "forms_with_required_consent":  0,
+                               "forms_with_any_required_checkbox":  0,
+                               "forms_with_policy_marker":  0,
+                               "forms_insecure_action":  0,
+                               "forms_non_post":  0,
+                               "forms_method_unknown":  0,
+                               "policy_candidates_checked":  8,
+                               "policy_candidates_ok":  0,
+                               "pages_sampled":  8,
+                               "pages_accessible":  0,
+                               "criteria":  [
+                                                {
+                                                    "id":  "pages_accessible",
+                                                    "title":  "Coverage of pages for screening",
+                                                    "status":  "not_observable",
+                                                    "value":  "0/8",
+                                                    "evidence":  "/ -\u003e 0; /contacts -\u003e 0; /contact -\u003e 0; /zapis -\u003e 0; /appointment -\u003e 0; /feedback -\u003e 0"
+                                                },
+                                                {
+                                                    "id":  "forms_detected",
+                                                    "title":  "Forms detected",
+                                                    "status":  "not_observable",
+                                                    "value":  "0 relevant / 0 total",
+                                                    "evidence":  "forms_relevant=0; forms_total=0; forms_non_relevant=0"
+                                                },
+                                                {
+                                                    "id":  "required_consent_checkbox",
+                                                    "title":  "Required consent checkbox on forms",
+                                                    "status":  "not_observable",
+                                                    "value":  "0/0",
+                                                    "evidence":  "forms_with_required_consent=0; forms_with_any_required_checkbox=0; forms_relevant=0"
+                                                },
+                                                {
+                                                    "id":  "policy_marker_near_form",
+                                                    "title":  "Policy marker near form",
+                                                    "status":  "not_observable",
+                                                    "value":  "0/0",
+                                                    "evidence":  "forms_with_policy_marker=0; forms_total=0"
+                                                },
+                                                {
+                                                    "id":  "secure_form_action",
+                                                    "title":  "Secure form action (no HTTP)",
+                                                    "status":  "not_observable",
+                                                    "value":  "0 insecure",
+                                                    "evidence":  "forms_insecure_action=0"
+                                                },
+                                                {
+                                                    "id":  "post_method",
+                                                    "title":  "Form POST method",
+                                                    "status":  "not_observable",
+                                                    "value":  "0 non_post; 0 unknown",
+                                                    "evidence":  "forms_non_post=0; forms_method_unknown=0; forms_relevant=0"
+                                                },
+                                                {
+                                                    "id":  "policy_page_reachable",
+                                                    "title":  "Policy page reachable",
+                                                    "status":  "fail",
+                                                    "value":  "0/8",
+                                                    "evidence":  "https://olimpdent.ru/document_politics.php -\u003e 0; https://olimpdent.ru/politika -\u003e 0; https://olimpdent.ru/politika-konfidentsialnosti -\u003e 0; https://olimpdent.ru/privacy -\u003e 0"
+                                                }
+                                            ]
+                           },
+        "blocks":  [
+                       {
+                           "id":  "ssl_redirects",
+                           "name":  "SSL + redirects",
+                           "priority":  1,
+                           "score":  85,
+                           "status":  "error",
+                           "confidence":  "low",
+                           "evidence_count":  5,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Visible immediately and easy to explain.",
+                           "findings_count":  3,
+                           "key_finding":  "Certificate is invalid or not retrievable."
+                       },
+                       {
+                           "id":  "file_leaks",
+                           "name":  "File leaks",
+                           "priority":  2,
+                           "score":  0,
+                           "status":  "review_required",
+                           "confidence":  "medium",
+                           "evidence_count":  6,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Strong urgency when exposure is present.",
+                           "findings_count":  1,
+                           "key_finding":  "Some sensitive paths are blocked/rate-limited; manual validation recommended."
+                       },
+                       {
+                           "id":  "open_admin",
+                           "name":  "Open admin and CMS exposure",
+                           "priority":  3,
+                           "score":  0,
+                           "status":  "review_required",
+                           "confidence":  "medium",
+                           "evidence_count":  3,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Clear and understandable for non-technical owner.",
+                           "findings_count":  1,
+                           "key_finding":  "Admin endpoints are partially blocked; exposure needs manual validation."
+                       },
+                       {
+                           "id":  "security_headers",
+                           "name":  "Security headers",
+                           "priority":  4,
+                           "score":  66,
+                           "status":  "error",
+                           "confidence":  "low",
+                           "evidence_count":  8,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Easy to benchmark with clear grade logic.",
+                           "findings_count":  2,
+                           "key_finding":  "Missing: Strict-Transport-Security, Content-Security-Policy, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy."
+                       },
+                       {
+                           "id":  "forms_patient_data",
+                           "name":  "Forms and patient data",
+                           "priority":  5,
+                           "score":  0,
+                           "status":  "not_tested",
+                           "confidence":  "low",
+                           "evidence_count":  16,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Direct legal/trust risk narrative.",
+                           "findings_count":  1,
+                           "key_finding":  "Form pages are not accessible in quick mode."
+                       },
+                       {
+                           "id":  "dns_email_protection",
+                           "name":  "DNS and email protection",
+                           "priority":  6,
+                           "score":  45,
+                           "status":  "warning",
+                           "confidence":  "medium",
+                           "evidence_count":  3,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Strong technical depth for demo.",
+                           "findings_count":  2,
+                           "key_finding":  "DMARC is missing."
+                       },
+                       {
+                           "id":  "third_party_scripts",
+                           "name":  "Third-party scripts",
+                           "priority":  7,
+                           "score":  0,
+                           "status":  "error",
+                           "confidence":  "low",
+                           "evidence_count":  1,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Good advanced layer for upsell.",
+                           "findings_count":  0,
+                           "key_finding":  "No major script-chain issues in quick scan."
+                       },
+                       {
+                           "id":  "reputation_osint",
+                           "name":  "Reputation and OSINT",
+                           "priority":  8,
+                           "score":  0,
+                           "status":  "not_tested",
+                           "confidence":  "low",
+                           "evidence_count":  0,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Adds external trust context.",
+                           "findings_count":  1,
+                           "key_finding":  "Reputation APIs are not configured in quick mode."
+                       }
+                   ]
+    },
+    {
+        "site_id":  "kmdental_ru",
+        "domain":  "kmdental.ru",
+        "audit_timestamp_utc":  "2026-04-15T23:47:07.8682780Z",
+        "overall_score":  31.3,
+        "risk_band":  "low",
+        "free_offer_summary":  [
+                                   "SSL + redirects: HTTP-\u003eHTTPS redirect is not strict.",
+                                   "Security headers: Missing: Strict-Transport-Security, Content-Security-Policy, X-Content-Type-Options, Referrer-Policy, Permissions-Policy."
+                               ],
+        "triage":  {
+                       "next_action":  "offer_now",
+                       "reason":  "Critical confirmed findings exist.",
+                       "critical_count":  2,
+                       "review_required_count":  2,
+                       "not_tested_count":  1,
+                       "error_count":  0
+                   },
+        "compliance_152":  {
+                               "status":  "review_required",
+                               "confidence":  "high",
+                               "forms_total":  2,
+                               "forms_total_detected":  2,
+                               "forms_non_relevant":  0,
+                               "forms_with_required_consent":  0,
+                               "forms_with_any_required_checkbox":  0,
+                               "forms_with_policy_marker":  2,
+                               "forms_insecure_action":  0,
+                               "forms_non_post":  0,
+                               "forms_method_unknown":  0,
+                               "policy_candidates_checked":  8,
+                               "policy_candidates_ok":  1,
+                               "pages_sampled":  8,
+                               "pages_accessible":  2,
+                               "criteria":  [
+                                                {
+                                                    "id":  "pages_accessible",
+                                                    "title":  "Coverage of pages for screening",
+                                                    "status":  "pass",
+                                                    "value":  "2/8",
+                                                    "evidence":  "/ -\u003e 200; /contacts -\u003e 200; /contact -\u003e 403; /zapis -\u003e 404; /appointment -\u003e 404; /feedback -\u003e 403"
+                                                },
+                                                {
+                                                    "id":  "forms_detected",
+                                                    "title":  "Forms detected",
+                                                    "status":  "pass",
+                                                    "value":  "2 relevant / 2 total",
+                                                    "evidence":  "forms_relevant=2; forms_total=2; forms_non_relevant=0"
+                                                },
+                                                {
+                                                    "id":  "required_consent_checkbox",
+                                                    "title":  "Required consent checkbox on forms",
+                                                    "status":  "fail",
+                                                    "value":  "0/2",
+                                                    "evidence":  "forms_with_required_consent=0; forms_with_any_required_checkbox=0; forms_relevant=2"
+                                                },
+                                                {
+                                                    "id":  "policy_marker_near_form",
+                                                    "title":  "Policy marker near form",
+                                                    "status":  "pass",
+                                                    "value":  "2/2",
+                                                    "evidence":  "forms_with_policy_marker=2; forms_total=2"
+                                                },
+                                                {
+                                                    "id":  "secure_form_action",
+                                                    "title":  "Secure form action (no HTTP)",
+                                                    "status":  "pass",
+                                                    "value":  "0 insecure",
+                                                    "evidence":  "forms_insecure_action=0"
+                                                },
+                                                {
+                                                    "id":  "post_method",
+                                                    "title":  "Form POST method",
+                                                    "status":  "pass",
+                                                    "value":  "0 non_post; 0 unknown",
+                                                    "evidence":  "forms_non_post=0; forms_method_unknown=0; forms_relevant=2"
+                                                },
+                                                {
+                                                    "id":  "policy_page_reachable",
+                                                    "title":  "Policy page reachable",
+                                                    "status":  "pass",
+                                                    "value":  "1/8",
+                                                    "evidence":  "https://kmdental.ru/corp/polozhenie -\u003e 200; https://kmdental.ru/document_politics.php -\u003e 404; https://kmdental.ru/personal-data -\u003e 404; https://kmdental.ru/policy -\u003e 404"
+                                                }
+                                            ]
+                           },
+        "blocks":  [
+                       {
+                           "id":  "ssl_redirects",
+                           "name":  "SSL + redirects",
+                           "priority":  1,
+                           "score":  40,
+                           "status":  "warning",
+                           "confidence":  "high",
+                           "evidence_count":  5,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Visible immediately and easy to explain.",
+                           "findings_count":  2,
+                           "key_finding":  "HTTP-\u003eHTTPS redirect is not strict."
+                       },
+                       {
+                           "id":  "file_leaks",
+                           "name":  "File leaks",
+                           "priority":  2,
+                           "score":  0,
+                           "status":  "review_required",
+                           "confidence":  "medium",
+                           "evidence_count":  6,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Strong urgency when exposure is present.",
+                           "findings_count":  1,
+                           "key_finding":  "Some sensitive paths are blocked/rate-limited; manual validation recommended."
+                       },
+                       {
+                           "id":  "open_admin",
+                           "name":  "Open admin and CMS exposure",
+                           "priority":  3,
+                           "score":  0,
+                           "status":  "review_required",
+                           "confidence":  "medium",
+                           "evidence_count":  3,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Clear and understandable for non-technical owner.",
+                           "findings_count":  1,
+                           "key_finding":  "Admin endpoints are partially blocked; exposure needs manual validation."
+                       },
+                       {
+                           "id":  "security_headers",
+                           "name":  "Security headers",
+                           "priority":  4,
+                           "score":  58,
+                           "status":  "warning",
+                           "confidence":  "high",
+                           "evidence_count":  8,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Easy to benchmark with clear grade logic.",
+                           "findings_count":  3,
+                           "key_finding":  "Missing: Strict-Transport-Security, Content-Security-Policy, X-Content-Type-Options, Referrer-Policy, Permissions-Policy."
+                       },
+                       {
+                           "id":  "forms_patient_data",
+                           "name":  "Forms and patient data",
+                           "priority":  5,
+                           "score":  25,
+                           "status":  "ok",
+                           "confidence":  "high",
+                           "evidence_count":  18,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Direct legal/trust risk narrative.",
+                           "findings_count":  2,
+                           "key_finding":  "Required consent checkbox is inconsistent (0/2)."
+                       },
+                       {
+                           "id":  "dns_email_protection",
+                           "name":  "DNS and email protection",
+                           "priority":  6,
+                           "score":  70,
+                           "status":  "critical",
+                           "confidence":  "medium",
+                           "evidence_count":  3,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Strong technical depth for demo.",
+                           "findings_count":  3,
+                           "key_finding":  "SPF is missing."
+                       },
+                       {
+                           "id":  "third_party_scripts",
+                           "name":  "Third-party scripts",
+                           "priority":  7,
+                           "score":  80,
+                           "status":  "critical",
+                           "confidence":  "high",
+                           "evidence_count":  29,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Good advanced layer for upsell.",
+                           "findings_count":  2,
+                           "key_finding":  "External scripts without SRI: 29/29."
+                       },
+                       {
+                           "id":  "reputation_osint",
+                           "name":  "Reputation and OSINT",
+                           "priority":  8,
+                           "score":  0,
+                           "status":  "not_tested",
+                           "confidence":  "low",
+                           "evidence_count":  0,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Adds external trust context.",
+                           "findings_count":  1,
+                           "key_finding":  "Reputation APIs are not configured in quick mode."
+                       }
+                   ]
+    },
+    {
+        "site_id":  "mx-medical_ru",
+        "domain":  "mx-medical.ru",
+        "audit_timestamp_utc":  "2026-04-15T23:47:07.8652803Z",
+        "overall_score":  23.8,
+        "risk_band":  "low",
+        "free_offer_summary":  [
+                                   "Security headers: Missing: Strict-Transport-Security, Content-Security-Policy, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy."
+                               ],
+        "triage":  {
+                       "next_action":  "no_offer_now",
+                       "reason":  "No strong confirmed issues in quick run.",
+                       "critical_count":  0,
+                       "review_required_count":  0,
+                       "not_tested_count":  1,
+                       "error_count":  0
+                   },
+        "compliance_152":  {
+                               "status":  "review_required",
+                               "confidence":  "high",
+                               "forms_total":  1,
+                               "forms_total_detected":  1,
+                               "forms_non_relevant":  0,
+                               "forms_with_required_consent":  1,
+                               "forms_with_any_required_checkbox":  1,
+                               "forms_with_policy_marker":  1,
+                               "forms_insecure_action":  0,
+                               "forms_non_post":  0,
+                               "forms_method_unknown":  1,
+                               "policy_candidates_checked":  8,
+                               "policy_candidates_ok":  0,
+                               "pages_sampled":  8,
+                               "pages_accessible":  3,
+                               "criteria":  [
+                                                {
+                                                    "id":  "pages_accessible",
+                                                    "title":  "Coverage of pages for screening",
+                                                    "status":  "pass",
+                                                    "value":  "3/8",
+                                                    "evidence":  "/ -\u003e 200; /contacts -\u003e 200; /contact -\u003e 404; /zapis -\u003e 200; /appointment -\u003e 404; /feedback -\u003e 404"
+                                                },
+                                                {
+                                                    "id":  "forms_detected",
+                                                    "title":  "Forms detected",
+                                                    "status":  "pass",
+                                                    "value":  "1 relevant / 1 total",
+                                                    "evidence":  "forms_relevant=1; forms_total=1; forms_non_relevant=0"
+                                                },
+                                                {
+                                                    "id":  "required_consent_checkbox",
+                                                    "title":  "Required consent checkbox on forms",
+                                                    "status":  "pass",
+                                                    "value":  "1/1",
+                                                    "evidence":  "forms_with_required_consent=1; forms_with_any_required_checkbox=1; forms_relevant=1"
+                                                },
+                                                {
+                                                    "id":  "policy_marker_near_form",
+                                                    "title":  "Policy marker near form",
+                                                    "status":  "pass",
+                                                    "value":  "1/1",
+                                                    "evidence":  "forms_with_policy_marker=1; forms_total=1"
+                                                },
+                                                {
+                                                    "id":  "secure_form_action",
+                                                    "title":  "Secure form action (no HTTP)",
+                                                    "status":  "pass",
+                                                    "value":  "0 insecure",
+                                                    "evidence":  "forms_insecure_action=0"
+                                                },
+                                                {
+                                                    "id":  "post_method",
+                                                    "title":  "Form POST method",
+                                                    "status":  "review_required",
+                                                    "value":  "0 non_post; 1 unknown",
+                                                    "evidence":  "forms_non_post=0; forms_method_unknown=1; forms_relevant=1"
+                                                },
+                                                {
+                                                    "id":  "policy_page_reachable",
+                                                    "title":  "Policy page reachable",
+                                                    "status":  "fail",
+                                                    "value":  "0/8",
+                                                    "evidence":  "https://mx-medical.ru/document_politics.php -\u003e 404; https://mx-medical.ru/personal-data -\u003e 404; https://mx-medical.ru/policy -\u003e 404; https://mx-medical.ru/politika -\u003e 404"
+                                                }
+                                            ]
+                           },
+        "blocks":  [
+                       {
+                           "id":  "ssl_redirects",
+                           "name":  "SSL + redirects",
+                           "priority":  1,
+                           "score":  15,
+                           "status":  "ok",
+                           "confidence":  "high",
+                           "evidence_count":  5,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Visible immediately and easy to explain.",
+                           "findings_count":  1,
+                           "key_finding":  "HSTS is missing."
+                       },
+                       {
+                           "id":  "file_leaks",
+                           "name":  "File leaks",
+                           "priority":  2,
+                           "score":  0,
+                           "status":  "ok",
+                           "confidence":  "high",
+                           "evidence_count":  6,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Strong urgency when exposure is present.",
+                           "findings_count":  0,
+                           "key_finding":  "No sensitive file exposure in quick dictionary."
+                       },
+                       {
+                           "id":  "open_admin",
+                           "name":  "Open admin and CMS exposure",
+                           "priority":  3,
+                           "score":  30,
+                           "status":  "ok",
+                           "confidence":  "high",
+                           "evidence_count":  3,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Clear and understandable for non-technical owner.",
+                           "findings_count":  1,
+                           "key_finding":  "/bitrix/admin/ returned 200."
+                       },
+                       {
+                           "id":  "security_headers",
+                           "name":  "Security headers",
+                           "priority":  4,
+                           "score":  68,
+                           "status":  "warning",
+                           "confidence":  "high",
+                           "evidence_count":  8,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Easy to benchmark with clear grade logic.",
+                           "findings_count":  3,
+                           "key_finding":  "Missing: Strict-Transport-Security, Content-Security-Policy, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy."
+                       },
+                       {
+                           "id":  "forms_patient_data",
+                           "name":  "Forms and patient data",
+                           "priority":  5,
+                           "score":  17,
+                           "status":  "ok",
+                           "confidence":  "high",
+                           "evidence_count":  17,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Direct legal/trust risk narrative.",
+                           "findings_count":  2,
+                           "key_finding":  "Forms without explicit method attribute: 1."
+                       },
+                       {
+                           "id":  "dns_email_protection",
+                           "name":  "DNS and email protection",
+                           "priority":  6,
+                           "score":  45,
+                           "status":  "warning",
+                           "confidence":  "medium",
+                           "evidence_count":  3,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Strong technical depth for demo.",
+                           "findings_count":  2,
+                           "key_finding":  "DMARC is missing."
+                       },
+                       {
+                           "id":  "third_party_scripts",
+                           "name":  "Third-party scripts",
+                           "priority":  7,
+                           "score":  21,
+                           "status":  "ok",
+                           "confidence":  "high",
+                           "evidence_count":  3,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Good advanced layer for upsell.",
+                           "findings_count":  1,
+                           "key_finding":  "External scripts without SRI: 3/3."
+                       },
+                       {
+                           "id":  "reputation_osint",
+                           "name":  "Reputation and OSINT",
+                           "priority":  8,
+                           "score":  0,
+                           "status":  "not_tested",
+                           "confidence":  "low",
+                           "evidence_count":  0,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Adds external trust context.",
+                           "findings_count":  1,
+                           "key_finding":  "Reputation APIs are not configured in quick mode."
+                       }
+                   ]
+    },
+    {
+        "site_id":  "www_ortodont-center_ru",
+        "domain":  "www.ortodont-center.ru",
+        "audit_timestamp_utc":  "2026-04-15T23:35:05.0293908Z",
+        "overall_score":  23.2,
+        "risk_band":  "low",
+        "free_offer_summary":  [
+                                   "Security headers: Missing: Strict-Transport-Security, Content-Security-Policy, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy."
+                               ],
+        "triage":  {
+                       "next_action":  "offer_now",
+                       "reason":  "Critical confirmed findings exist.",
+                       "critical_count":  1,
+                       "review_required_count":  0,
+                       "not_tested_count":  1,
+                       "error_count":  0
+                   },
+        "compliance_152":  {
+                               "status":  "pass",
+                               "confidence":  "high",
+                               "forms_total":  1,
+                               "forms_total_detected":  18,
+                               "forms_non_relevant":  17,
+                               "forms_with_required_consent":  1,
+                               "forms_with_any_required_checkbox":  1,
+                               "forms_with_policy_marker":  1,
+                               "forms_insecure_action":  0,
+                               "forms_non_post":  0,
+                               "forms_method_unknown":  0,
+                               "policy_candidates_checked":  8,
+                               "policy_candidates_ok":  1,
+                               "pages_sampled":  8,
+                               "pages_accessible":  4,
+                               "criteria":  [
+                                                {
+                                                    "id":  "pages_accessible",
+                                                    "title":  "Coverage of pages for screening",
+                                                    "status":  "pass",
+                                                    "value":  "4/8",
+                                                    "evidence":  "/ -\u003e 200; /contacts -\u003e 200; /contact -\u003e 404; /zapis -\u003e 404; /appointment -\u003e 200; /feedback -\u003e 200"
+                                                },
+                                                {
+                                                    "id":  "forms_detected",
+                                                    "title":  "Forms detected",
+                                                    "status":  "pass",
+                                                    "value":  "1 relevant / 18 total",
+                                                    "evidence":  "forms_relevant=1; forms_total=18; forms_non_relevant=17"
+                                                },
+                                                {
+                                                    "id":  "required_consent_checkbox",
+                                                    "title":  "Required consent checkbox on forms",
+                                                    "status":  "pass",
+                                                    "value":  "1/1",
+                                                    "evidence":  "forms_with_required_consent=1; forms_with_any_required_checkbox=1; forms_relevant=1"
+                                                },
+                                                {
+                                                    "id":  "policy_marker_near_form",
+                                                    "title":  "Policy marker near form",
+                                                    "status":  "pass",
+                                                    "value":  "1/1",
+                                                    "evidence":  "forms_with_policy_marker=1; forms_total=1"
+                                                },
+                                                {
+                                                    "id":  "secure_form_action",
+                                                    "title":  "Secure form action (no HTTP)",
+                                                    "status":  "pass",
+                                                    "value":  "0 insecure",
+                                                    "evidence":  "forms_insecure_action=0"
+                                                },
+                                                {
+                                                    "id":  "post_method",
+                                                    "title":  "Form POST method",
+                                                    "status":  "pass",
+                                                    "value":  "0 non_post; 0 unknown",
+                                                    "evidence":  "forms_non_post=0; forms_method_unknown=0; forms_relevant=1"
+                                                },
+                                                {
+                                                    "id":  "policy_page_reachable",
+                                                    "title":  "Policy page reachable",
+                                                    "status":  "pass",
+                                                    "value":  "1/8",
+                                                    "evidence":  "https://www.ortodont-center.ru/about/processing-data/ -\u003e 200; https://www.ortodont-center.ru/document_politics.php -\u003e 404; https://www.ortodont-center.ru/personal-data -\u003e 404; https://www.ortodont-center.ru/policy -\u003e 404"
+                                                }
+                                            ]
+                           },
+        "blocks":  [
+                       {
+                           "id":  "ssl_redirects",
+                           "name":  "SSL + redirects",
+                           "priority":  1,
+                           "score":  15,
+                           "status":  "ok",
+                           "confidence":  "high",
+                           "evidence_count":  5,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Visible immediately and easy to explain.",
+                           "findings_count":  1,
+                           "key_finding":  "HSTS is missing."
+                       },
+                       {
+                           "id":  "file_leaks",
+                           "name":  "File leaks",
+                           "priority":  2,
+                           "score":  0,
+                           "status":  "ok",
+                           "confidence":  "high",
+                           "evidence_count":  6,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Strong urgency when exposure is present.",
+                           "findings_count":  0,
+                           "key_finding":  "No sensitive file exposure in quick dictionary."
+                       },
+                       {
+                           "id":  "open_admin",
+                           "name":  "Open admin and CMS exposure",
+                           "priority":  3,
+                           "score":  30,
+                           "status":  "ok",
+                           "confidence":  "high",
+                           "evidence_count":  3,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Clear and understandable for non-technical owner.",
+                           "findings_count":  1,
+                           "key_finding":  "/bitrix/admin/ returned 200."
+                       },
+                       {
+                           "id":  "security_headers",
+                           "name":  "Security headers",
+                           "priority":  4,
+                           "score":  60,
+                           "status":  "warning",
+                           "confidence":  "high",
+                           "evidence_count":  8,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Easy to benchmark with clear grade logic.",
+                           "findings_count":  2,
+                           "key_finding":  "Missing: Strict-Transport-Security, Content-Security-Policy, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy."
+                       },
+                       {
+                           "id":  "forms_patient_data",
+                           "name":  "Forms and patient data",
+                           "priority":  5,
+                           "score":  5,
+                           "status":  "ok",
+                           "confidence":  "high",
+                           "evidence_count":  17,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Direct legal/trust risk narrative.",
+                           "findings_count":  1,
+                           "key_finding":  "CAPTCHA/honeypot not detected."
+                       },
+                       {
+                           "id":  "dns_email_protection",
+                           "name":  "DNS and email protection",
+                           "priority":  6,
+                           "score":  70,
+                           "status":  "critical",
+                           "confidence":  "medium",
+                           "evidence_count":  3,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Strong technical depth for demo.",
+                           "findings_count":  3,
+                           "key_finding":  "SPF is missing."
+                       },
+                       {
+                           "id":  "third_party_scripts",
+                           "name":  "Third-party scripts",
+                           "priority":  7,
+                           "score":  14,
+                           "status":  "ok",
+                           "confidence":  "high",
+                           "evidence_count":  2,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Good advanced layer for upsell.",
+                           "findings_count":  1,
+                           "key_finding":  "External scripts without SRI: 2/2."
+                       },
+                       {
+                           "id":  "reputation_osint",
+                           "name":  "Reputation and OSINT",
+                           "priority":  8,
+                           "score":  0,
+                           "status":  "not_tested",
+                           "confidence":  "low",
+                           "evidence_count":  0,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Adds external trust context.",
+                           "findings_count":  1,
+                           "key_finding":  "Reputation APIs are not configured in quick mode."
+                       }
+                   ]
+    },
+    {
+        "site_id":  "imclinic_dental",
+        "domain":  "imclinic.dental",
+        "audit_timestamp_utc":  "2026-04-15T23:34:15.3137107Z",
+        "overall_score":  19.5,
+        "risk_band":  "low",
+        "free_offer_summary":  [
+                                   "Security headers: Missing: Strict-Transport-Security, Content-Security-Policy, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy."
+                               ],
+        "triage":  {
+                       "next_action":  "agent_review",
+                       "reason":  "Some blocks require manual validation.",
+                       "critical_count":  0,
+                       "review_required_count":  1,
+                       "not_tested_count":  1,
+                       "error_count":  0
+                   },
+        "compliance_152":  {
+                               "status":  "review_required",
+                               "confidence":  "low",
+                               "forms_total":  0,
+                               "forms_total_detected":  0,
+                               "forms_non_relevant":  0,
+                               "forms_with_required_consent":  0,
+                               "forms_with_any_required_checkbox":  0,
+                               "forms_with_policy_marker":  0,
+                               "forms_insecure_action":  0,
+                               "forms_non_post":  0,
+                               "forms_method_unknown":  0,
+                               "policy_candidates_checked":  8,
+                               "policy_candidates_ok":  0,
+                               "pages_sampled":  8,
+                               "pages_accessible":  0,
+                               "criteria":  [
+                                                {
+                                                    "id":  "pages_accessible",
+                                                    "title":  "Coverage of pages for screening",
+                                                    "status":  "review_required",
+                                                    "value":  "0/8",
+                                                    "evidence":  "/ -\u003e 403; /contacts -\u003e 403; /contact -\u003e 403; /zapis -\u003e 403; /appointment -\u003e 403; /feedback -\u003e 403"
+                                                },
+                                                {
+                                                    "id":  "forms_detected",
+                                                    "title":  "Forms detected",
+                                                    "status":  "not_observable",
+                                                    "value":  "0 relevant / 0 total",
+                                                    "evidence":  "forms_relevant=0; forms_total=0; forms_non_relevant=0"
+                                                },
+                                                {
+                                                    "id":  "required_consent_checkbox",
+                                                    "title":  "Required consent checkbox on forms",
+                                                    "status":  "not_observable",
+                                                    "value":  "0/0",
+                                                    "evidence":  "forms_with_required_consent=0; forms_with_any_required_checkbox=0; forms_relevant=0"
+                                                },
+                                                {
+                                                    "id":  "policy_marker_near_form",
+                                                    "title":  "Policy marker near form",
+                                                    "status":  "not_observable",
+                                                    "value":  "0/0",
+                                                    "evidence":  "forms_with_policy_marker=0; forms_total=0"
+                                                },
+                                                {
+                                                    "id":  "secure_form_action",
+                                                    "title":  "Secure form action (no HTTP)",
+                                                    "status":  "not_observable",
+                                                    "value":  "0 insecure",
+                                                    "evidence":  "forms_insecure_action=0"
+                                                },
+                                                {
+                                                    "id":  "post_method",
+                                                    "title":  "Form POST method",
+                                                    "status":  "not_observable",
+                                                    "value":  "0 non_post; 0 unknown",
+                                                    "evidence":  "forms_non_post=0; forms_method_unknown=0; forms_relevant=0"
+                                                },
+                                                {
+                                                    "id":  "policy_page_reachable",
+                                                    "title":  "Policy page reachable",
+                                                    "status":  "review_required",
+                                                    "value":  "0/8",
+                                                    "evidence":  "https://imclinic.dental/document_politics.php -\u003e 404; https://imclinic.dental/politika -\u003e 404; https://imclinic.dental/politika-konfidentsialnosti -\u003e 404; https://imclinic.dental/privacy -\u003e 404"
+                                                }
+                                            ]
+                           },
+        "blocks":  [
+                       {
+                           "id":  "ssl_redirects",
+                           "name":  "SSL + redirects",
+                           "priority":  1,
+                           "score":  15,
+                           "status":  "ok",
+                           "confidence":  "high",
+                           "evidence_count":  5,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Visible immediately and easy to explain.",
+                           "findings_count":  1,
+                           "key_finding":  "HSTS is missing."
+                       },
+                       {
+                           "id":  "file_leaks",
+                           "name":  "File leaks",
+                           "priority":  2,
+                           "score":  0,
+                           "status":  "ok",
+                           "confidence":  "high",
+                           "evidence_count":  6,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Strong urgency when exposure is present.",
+                           "findings_count":  0,
+                           "key_finding":  "No sensitive file exposure in quick dictionary."
+                       },
+                       {
+                           "id":  "open_admin",
+                           "name":  "Open admin and CMS exposure",
+                           "priority":  3,
+                           "score":  30,
+                           "status":  "ok",
+                           "confidence":  "high",
+                           "evidence_count":  3,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Clear and understandable for non-technical owner.",
+                           "findings_count":  1,
+                           "key_finding":  "/bitrix/admin/ returned 200."
+                       },
+                       {
+                           "id":  "security_headers",
+                           "name":  "Security headers",
+                           "priority":  4,
+                           "score":  60,
+                           "status":  "warning",
+                           "confidence":  "high",
+                           "evidence_count":  8,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Easy to benchmark with clear grade logic.",
+                           "findings_count":  2,
+                           "key_finding":  "Missing: Strict-Transport-Security, Content-Security-Policy, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy."
+                       },
+                       {
+                           "id":  "forms_patient_data",
+                           "name":  "Forms and patient data",
+                           "priority":  5,
+                           "score":  0,
+                           "status":  "review_required",
+                           "confidence":  "low",
+                           "evidence_count":  16,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Direct legal/trust risk narrative.",
+                           "findings_count":  1,
+                           "key_finding":  "Form pages are not accessible in quick mode."
+                       },
+                       {
+                           "id":  "dns_email_protection",
+                           "name":  "DNS and email protection",
+                           "priority":  6,
+                           "score":  40,
+                           "status":  "warning",
+                           "confidence":  "medium",
+                           "evidence_count":  3,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Strong technical depth for demo.",
+                           "findings_count":  3,
+                           "key_finding":  "SPF is softfail (~all)."
+                       },
+                       {
+                           "id":  "third_party_scripts",
+                           "name":  "Third-party scripts",
+                           "priority":  7,
+                           "score":  14,
+                           "status":  "ok",
+                           "confidence":  "high",
+                           "evidence_count":  2,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Good advanced layer for upsell.",
+                           "findings_count":  1,
+                           "key_finding":  "External scripts without SRI: 2/2."
+                       },
+                       {
+                           "id":  "reputation_osint",
+                           "name":  "Reputation and OSINT",
+                           "priority":  8,
+                           "score":  0,
+                           "status":  "not_tested",
+                           "confidence":  "low",
+                           "evidence_count":  0,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Adds external trust context.",
+                           "findings_count":  1,
+                           "key_finding":  "Reputation APIs are not configured in quick mode."
+                       }
+                   ]
+    },
+    {
+        "site_id":  "dr-knyazkin_ru",
+        "domain":  "dr-knyazkin.ru",
+        "audit_timestamp_utc":  "2026-04-15T23:33:17.1107132Z",
+        "overall_score":  24.8,
+        "risk_band":  "low",
+        "free_offer_summary":  [
+                                   "Security headers: Missing: Strict-Transport-Security, Content-Security-Policy, X-Content-Type-Options, Referrer-Policy, Permissions-Policy."
+                               ],
+        "triage":  {
+                       "next_action":  "offer_now",
+                       "reason":  "Critical confirmed findings exist.",
+                       "critical_count":  2,
+                       "review_required_count":  2,
+                       "not_tested_count":  1,
+                       "error_count":  0
+                   },
+        "compliance_152":  {
+                               "status":  "review_required",
+                               "confidence":  "high",
+                               "forms_total":  9,
+                               "forms_total_detected":  9,
+                               "forms_non_relevant":  0,
+                               "forms_with_required_consent":  4,
+                               "forms_with_any_required_checkbox":  4,
+                               "forms_with_policy_marker":  9,
+                               "forms_insecure_action":  0,
+                               "forms_non_post":  0,
+                               "forms_method_unknown":  0,
+                               "policy_candidates_checked":  8,
+                               "policy_candidates_ok":  1,
+                               "pages_sampled":  8,
+                               "pages_accessible":  3,
+                               "criteria":  [
+                                                {
+                                                    "id":  "pages_accessible",
+                                                    "title":  "Coverage of pages for screening",
+                                                    "status":  "pass",
+                                                    "value":  "3/8",
+                                                    "evidence":  "/ -\u003e 200; /contacts -\u003e 200; /contact -\u003e 403; /zapis -\u003e 403; /appointment -\u003e 403; /feedback -\u003e 200"
+                                                },
+                                                {
+                                                    "id":  "forms_detected",
+                                                    "title":  "Forms detected",
+                                                    "status":  "pass",
+                                                    "value":  "9 relevant / 9 total",
+                                                    "evidence":  "forms_relevant=9; forms_total=9; forms_non_relevant=0"
+                                                },
+                                                {
+                                                    "id":  "required_consent_checkbox",
+                                                    "title":  "Required consent checkbox on forms",
+                                                    "status":  "review_required",
+                                                    "value":  "4/9",
+                                                    "evidence":  "forms_with_required_consent=4; forms_with_any_required_checkbox=4; forms_relevant=9"
+                                                },
+                                                {
+                                                    "id":  "policy_marker_near_form",
+                                                    "title":  "Policy marker near form",
+                                                    "status":  "pass",
+                                                    "value":  "9/9",
+                                                    "evidence":  "forms_with_policy_marker=9; forms_total=9"
+                                                },
+                                                {
+                                                    "id":  "secure_form_action",
+                                                    "title":  "Secure form action (no HTTP)",
+                                                    "status":  "pass",
+                                                    "value":  "0 insecure",
+                                                    "evidence":  "forms_insecure_action=0"
+                                                },
+                                                {
+                                                    "id":  "post_method",
+                                                    "title":  "Form POST method",
+                                                    "status":  "pass",
+                                                    "value":  "0 non_post; 0 unknown",
+                                                    "evidence":  "forms_non_post=0; forms_method_unknown=0; forms_relevant=9"
+                                                },
+                                                {
+                                                    "id":  "policy_page_reachable",
+                                                    "title":  "Policy page reachable",
+                                                    "status":  "pass",
+                                                    "value":  "1/8",
+                                                    "evidence":  "https://dr-knyazkin.ru/document_politics.php -\u003e 404; https://dr-knyazkin.ru/personal-data -\u003e 404; https://dr-knyazkin.ru/policy -\u003e 404; https://dr-knyazkin.ru/politika -\u003e 200"
+                                                }
+                                            ]
+                           },
+        "blocks":  [
+                       {
+                           "id":  "ssl_redirects",
+                           "name":  "SSL + redirects",
+                           "priority":  1,
+                           "score":  15,
+                           "status":  "ok",
+                           "confidence":  "high",
+                           "evidence_count":  5,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Visible immediately and easy to explain.",
+                           "findings_count":  1,
+                           "key_finding":  "HSTS is missing."
+                       },
+                       {
+                           "id":  "file_leaks",
+                           "name":  "File leaks",
+                           "priority":  2,
+                           "score":  0,
+                           "status":  "review_required",
+                           "confidence":  "medium",
+                           "evidence_count":  6,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Strong urgency when exposure is present.",
+                           "findings_count":  1,
+                           "key_finding":  "Some sensitive paths are blocked/rate-limited; manual validation recommended."
+                       },
+                       {
+                           "id":  "open_admin",
+                           "name":  "Open admin and CMS exposure",
+                           "priority":  3,
+                           "score":  0,
+                           "status":  "review_required",
+                           "confidence":  "medium",
+                           "evidence_count":  3,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Clear and understandable for non-technical owner.",
+                           "findings_count":  1,
+                           "key_finding":  "Admin endpoints are partially blocked; exposure needs manual validation."
+                       },
+                       {
+                           "id":  "security_headers",
+                           "name":  "Security headers",
+                           "priority":  4,
+                           "score":  48,
+                           "status":  "warning",
+                           "confidence":  "high",
+                           "evidence_count":  8,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Easy to benchmark with clear grade logic.",
+                           "findings_count":  2,
+                           "key_finding":  "Missing: Strict-Transport-Security, Content-Security-Policy, X-Content-Type-Options, Referrer-Policy, Permissions-Policy."
+                       },
+                       {
+                           "id":  "forms_patient_data",
+                           "name":  "Forms and patient data",
+                           "priority":  5,
+                           "score":  13,
+                           "status":  "ok",
+                           "confidence":  "high",
+                           "evidence_count":  25,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Direct legal/trust risk narrative.",
+                           "findings_count":  2,
+                           "key_finding":  "Required consent checkbox is inconsistent (4/9)."
+                       },
+                       {
+                           "id":  "dns_email_protection",
+                           "name":  "DNS and email protection",
+                           "priority":  6,
+                           "score":  70,
+                           "status":  "critical",
+                           "confidence":  "medium",
+                           "evidence_count":  3,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Strong technical depth for demo.",
+                           "findings_count":  3,
+                           "key_finding":  "SPF is missing."
+                       },
+                       {
+                           "id":  "third_party_scripts",
+                           "name":  "Third-party scripts",
+                           "priority":  7,
+                           "score":  80,
+                           "status":  "critical",
+                           "confidence":  "high",
+                           "evidence_count":  25,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Good advanced layer for upsell.",
+                           "findings_count":  2,
+                           "key_finding":  "External scripts without SRI: 25/25."
+                       },
+                       {
+                           "id":  "reputation_osint",
+                           "name":  "Reputation and OSINT",
+                           "priority":  8,
+                           "score":  0,
+                           "status":  "not_tested",
+                           "confidence":  "low",
+                           "evidence_count":  0,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Adds external trust context.",
+                           "findings_count":  1,
+                           "key_finding":  "Reputation APIs are not configured in quick mode."
+                       }
+                   ]
+    },
+    {
+        "site_id":  "stom-azbuka_ru",
+        "domain":  "stom-azbuka.ru",
+        "audit_timestamp_utc":  "2026-04-15T23:32:50.5635533Z",
+        "overall_score":  29.7,
+        "risk_band":  "low",
+        "free_offer_summary":  [
+                                   "SSL + redirects: HTTP-\u003eHTTPS redirect is not strict.",
+                                   "Security headers: Missing: Strict-Transport-Security, Content-Security-Policy, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy."
+                               ],
+        "triage":  {
+                       "next_action":  "offer_now",
+                       "reason":  "Critical confirmed findings exist.",
+                       "critical_count":  2,
+                       "review_required_count":  0,
+                       "not_tested_count":  1,
+                       "error_count":  0
+                   },
+        "compliance_152":  {
+                               "status":  "review_required",
+                               "confidence":  "medium",
+                               "forms_total":  1,
+                               "forms_total_detected":  1,
+                               "forms_non_relevant":  0,
+                               "forms_with_required_consent":  0,
+                               "forms_with_any_required_checkbox":  0,
+                               "forms_with_policy_marker":  1,
+                               "forms_insecure_action":  0,
+                               "forms_non_post":  0,
+                               "forms_method_unknown":  0,
+                               "policy_candidates_checked":  8,
+                               "policy_candidates_ok":  7,
+                               "pages_sampled":  8,
+                               "pages_accessible":  1,
+                               "criteria":  [
+                                                {
+                                                    "id":  "pages_accessible",
+                                                    "title":  "Coverage of pages for screening",
+                                                    "status":  "review_required",
+                                                    "value":  "1/8",
+                                                    "evidence":  "/ -\u003e 200; /contacts -\u003e 404; /contact -\u003e 404; /zapis -\u003e 404; /appointment -\u003e 404; /feedback -\u003e 404"
+                                                },
+                                                {
+                                                    "id":  "forms_detected",
+                                                    "title":  "Forms detected",
+                                                    "status":  "pass",
+                                                    "value":  "1 relevant / 1 total",
+                                                    "evidence":  "forms_relevant=1; forms_total=1; forms_non_relevant=0"
+                                                },
+                                                {
+                                                    "id":  "required_consent_checkbox",
+                                                    "title":  "Required consent checkbox on forms",
+                                                    "status":  "fail",
+                                                    "value":  "0/1",
+                                                    "evidence":  "forms_with_required_consent=0; forms_with_any_required_checkbox=0; forms_relevant=1"
+                                                },
+                                                {
+                                                    "id":  "policy_marker_near_form",
+                                                    "title":  "Policy marker near form",
+                                                    "status":  "pass",
+                                                    "value":  "1/1",
+                                                    "evidence":  "forms_with_policy_marker=1; forms_total=1"
+                                                },
+                                                {
+                                                    "id":  "secure_form_action",
+                                                    "title":  "Secure form action (no HTTP)",
+                                                    "status":  "pass",
+                                                    "value":  "0 insecure",
+                                                    "evidence":  "forms_insecure_action=0"
+                                                },
+                                                {
+                                                    "id":  "post_method",
+                                                    "title":  "Form POST method",
+                                                    "status":  "pass",
+                                                    "value":  "0 non_post; 0 unknown",
+                                                    "evidence":  "forms_non_post=0; forms_method_unknown=0; forms_relevant=1"
+                                                },
+                                                {
+                                                    "id":  "policy_page_reachable",
+                                                    "title":  "Policy page reachable",
+                                                    "status":  "pass",
+                                                    "value":  "7/8",
+                                                    "evidence":  "https://stom-azbuka.ru/document_politics.php -\u003e 404; https://stom-azbuka.ru/personal/ -\u003e 200; https://stom-azbuka.ru/personal/abas -\u003e 200; https://stom-azbuka.ru/personal/abdulvagabov -\u003e 200"
+                                                }
+                                            ]
+                           },
+        "blocks":  [
+                       {
+                           "id":  "ssl_redirects",
+                           "name":  "SSL + redirects",
+                           "priority":  1,
+                           "score":  40,
+                           "status":  "warning",
+                           "confidence":  "high",
+                           "evidence_count":  5,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Visible immediately and easy to explain.",
+                           "findings_count":  2,
+                           "key_finding":  "HTTP-\u003eHTTPS redirect is not strict."
+                       },
+                       {
+                           "id":  "file_leaks",
+                           "name":  "File leaks",
+                           "priority":  2,
+                           "score":  0,
+                           "status":  "ok",
+                           "confidence":  "high",
+                           "evidence_count":  6,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Strong urgency when exposure is present.",
+                           "findings_count":  0,
+                           "key_finding":  "No sensitive file exposure in quick dictionary."
+                       },
+                       {
+                           "id":  "open_admin",
+                           "name":  "Open admin and CMS exposure",
+                           "priority":  3,
+                           "score":  0,
+                           "status":  "ok",
+                           "confidence":  "high",
+                           "evidence_count":  3,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Clear and understandable for non-technical owner.",
+                           "findings_count":  0,
+                           "key_finding":  "No strong admin/CMS exposure signal."
+                       },
+                       {
+                           "id":  "security_headers",
+                           "name":  "Security headers",
+                           "priority":  4,
+                           "score":  78,
+                           "status":  "critical",
+                           "confidence":  "high",
+                           "evidence_count":  8,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Easy to benchmark with clear grade logic.",
+                           "findings_count":  4,
+                           "key_finding":  "Missing: Strict-Transport-Security, Content-Security-Policy, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy."
+                       },
+                       {
+                           "id":  "forms_patient_data",
+                           "name":  "Forms and patient data",
+                           "priority":  5,
+                           "score":  28,
+                           "status":  "ok",
+                           "confidence":  "medium",
+                           "evidence_count":  17,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Direct legal/trust risk narrative.",
+                           "findings_count":  3,
+                           "key_finding":  "Required consent checkbox is inconsistent (0/1)."
+                       },
+                       {
+                           "id":  "dns_email_protection",
+                           "name":  "DNS and email protection",
+                           "priority":  6,
+                           "score":  70,
+                           "status":  "critical",
+                           "confidence":  "medium",
+                           "evidence_count":  3,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Strong technical depth for demo.",
+                           "findings_count":  3,
+                           "key_finding":  "SPF is missing."
+                       },
+                       {
+                           "id":  "third_party_scripts",
+                           "name":  "Third-party scripts",
+                           "priority":  7,
+                           "score":  37,
+                           "status":  "warning",
+                           "confidence":  "high",
+                           "evidence_count":  1,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Good advanced layer for upsell.",
+                           "findings_count":  2,
+                           "key_finding":  "External scripts without SRI: 1/1."
+                       },
+                       {
+                           "id":  "reputation_osint",
+                           "name":  "Reputation and OSINT",
+                           "priority":  8,
+                           "score":  0,
+                           "status":  "not_tested",
+                           "confidence":  "low",
+                           "evidence_count":  0,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Adds external trust context.",
+                           "findings_count":  1,
+                           "key_finding":  "Reputation APIs are not configured in quick mode."
+                       }
+                   ]
+    },
+    {
+        "site_id":  "drblumkin_ru",
+        "domain":  "drblumkin.ru",
+        "audit_timestamp_utc":  "2026-04-15T23:32:29.4844208Z",
+        "overall_score":  37.2,
+        "risk_band":  "medium",
+        "free_offer_summary":  [
+                                   "File leaks: Sensitive files exposed: /wp-config.php.",
+                                   "Security headers: Missing: Strict-Transport-Security, Content-Security-Policy, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy.",
+                                   "Forms and patient data: Required consent checkbox is inconsistent (0/13)."
+                               ],
+        "triage":  {
+                       "next_action":  "offer_now",
+                       "reason":  "Multiple medium signals in quick run.",
+                       "critical_count":  0,
+                       "review_required_count":  0,
+                       "not_tested_count":  1,
+                       "error_count":  0
+                   },
+        "compliance_152":  {
+                               "status":  "fail",
+                               "confidence":  "medium",
+                               "forms_total":  13,
+                               "forms_total_detected":  15,
+                               "forms_non_relevant":  2,
+                               "forms_with_required_consent":  0,
+                               "forms_with_any_required_checkbox":  0,
+                               "forms_with_policy_marker":  13,
+                               "forms_insecure_action":  0,
+                               "forms_non_post":  0,
+                               "forms_method_unknown":  0,
+                               "policy_candidates_checked":  8,
+                               "policy_candidates_ok":  0,
+                               "pages_sampled":  8,
+                               "pages_accessible":  1,
+                               "criteria":  [
+                                                {
+                                                    "id":  "pages_accessible",
+                                                    "title":  "Coverage of pages for screening",
+                                                    "status":  "review_required",
+                                                    "value":  "1/8",
+                                                    "evidence":  "/ -\u003e 200; /contacts -\u003e 404; /contact -\u003e 404; /zapis -\u003e 404; /appointment -\u003e 404; /feedback -\u003e 404"
+                                                },
+                                                {
+                                                    "id":  "forms_detected",
+                                                    "title":  "Forms detected",
+                                                    "status":  "pass",
+                                                    "value":  "13 relevant / 15 total",
+                                                    "evidence":  "forms_relevant=13; forms_total=15; forms_non_relevant=2"
+                                                },
+                                                {
+                                                    "id":  "required_consent_checkbox",
+                                                    "title":  "Required consent checkbox on forms",
+                                                    "status":  "fail",
+                                                    "value":  "0/13",
+                                                    "evidence":  "forms_with_required_consent=0; forms_with_any_required_checkbox=0; forms_relevant=13"
+                                                },
+                                                {
+                                                    "id":  "policy_marker_near_form",
+                                                    "title":  "Policy marker near form",
+                                                    "status":  "pass",
+                                                    "value":  "13/13",
+                                                    "evidence":  "forms_with_policy_marker=13; forms_total=13"
+                                                },
+                                                {
+                                                    "id":  "secure_form_action",
+                                                    "title":  "Secure form action (no HTTP)",
+                                                    "status":  "pass",
+                                                    "value":  "0 insecure",
+                                                    "evidence":  "forms_insecure_action=0"
+                                                },
+                                                {
+                                                    "id":  "post_method",
+                                                    "title":  "Form POST method",
+                                                    "status":  "pass",
+                                                    "value":  "0 non_post; 0 unknown",
+                                                    "evidence":  "forms_non_post=0; forms_method_unknown=0; forms_relevant=13"
+                                                },
+                                                {
+                                                    "id":  "policy_page_reachable",
+                                                    "title":  "Policy page reachable",
+                                                    "status":  "fail",
+                                                    "value":  "0/8",
+                                                    "evidence":  "https://drblumkin.ru/document_politics.php -\u003e 404; https://drblumkin.ru/politika -\u003e 404; https://drblumkin.ru/politika-konfidentsialnosti -\u003e 404; https://drblumkin.ru/privacy -\u003e 404"
+                                                }
+                                            ]
+                           },
+        "blocks":  [
+                       {
+                           "id":  "ssl_redirects",
+                           "name":  "SSL + redirects",
+                           "priority":  1,
+                           "score":  30,
+                           "status":  "ok",
+                           "confidence":  "high",
+                           "evidence_count":  5,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Visible immediately and easy to explain.",
+                           "findings_count":  2,
+                           "key_finding":  "HSTS is missing."
+                       },
+                       {
+                           "id":  "file_leaks",
+                           "name":  "File leaks",
+                           "priority":  2,
+                           "score":  60,
+                           "status":  "warning",
+                           "confidence":  "high",
+                           "evidence_count":  6,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Strong urgency when exposure is present.",
+                           "findings_count":  1,
+                           "key_finding":  "Sensitive files exposed: /wp-config.php."
+                       },
+                       {
+                           "id":  "open_admin",
+                           "name":  "Open admin and CMS exposure",
+                           "priority":  3,
+                           "score":  0,
+                           "status":  "ok",
+                           "confidence":  "high",
+                           "evidence_count":  3,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Clear and understandable for non-technical owner.",
+                           "findings_count":  0,
+                           "key_finding":  "No strong admin/CMS exposure signal."
+                       },
+                       {
+                           "id":  "security_headers",
+                           "name":  "Security headers",
+                           "priority":  4,
+                           "score":  60,
+                           "status":  "warning",
+                           "confidence":  "high",
+                           "evidence_count":  8,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Easy to benchmark with clear grade logic.",
+                           "findings_count":  2,
+                           "key_finding":  "Missing: Strict-Transport-Security, Content-Security-Policy, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy."
+                       },
+                       {
+                           "id":  "forms_patient_data",
+                           "name":  "Forms and patient data",
+                           "priority":  5,
+                           "score":  40,
+                           "status":  "warning",
+                           "confidence":  "medium",
+                           "evidence_count":  29,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Direct legal/trust risk narrative.",
+                           "findings_count":  4,
+                           "key_finding":  "Required consent checkbox is inconsistent (0/13)."
+                       },
+                       {
+                           "id":  "dns_email_protection",
+                           "name":  "DNS and email protection",
+                           "priority":  6,
+                           "score":  55,
+                           "status":  "warning",
+                           "confidence":  "medium",
+                           "evidence_count":  3,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Strong technical depth for demo.",
+                           "findings_count":  3,
+                           "key_finding":  "SPF is softfail (~all)."
+                       },
+                       {
+                           "id":  "third_party_scripts",
+                           "name":  "Third-party scripts",
+                           "priority":  7,
+                           "score":  58,
+                           "status":  "warning",
+                           "confidence":  "high",
+                           "evidence_count":  4,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Good advanced layer for upsell.",
+                           "findings_count":  2,
+                           "key_finding":  "External scripts without SRI: 4/4."
+                       },
+                       {
+                           "id":  "reputation_osint",
+                           "name":  "Reputation and OSINT",
+                           "priority":  8,
+                           "score":  0,
+                           "status":  "not_tested",
+                           "confidence":  "low",
+                           "evidence_count":  0,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Adds external trust context.",
+                           "findings_count":  1,
+                           "key_finding":  "Reputation APIs are not configured in quick mode."
+                       }
+                   ]
+    },
+    {
+        "site_id":  "senseclinic_ru",
+        "domain":  "senseclinic.ru",
+        "audit_timestamp_utc":  "2026-04-15T23:31:50.9160142Z",
+        "overall_score":  28.7,
+        "risk_band":  "low",
+        "free_offer_summary":  [
+                                   "File leaks: Sensitive files exposed: /wp-config.php.",
+                                   "Security headers: Missing: Strict-Transport-Security, Content-Security-Policy."
+                               ],
+        "triage":  {
+                       "next_action":  "no_offer_now",
+                       "reason":  "No strong confirmed issues in quick run.",
+                       "critical_count":  0,
+                       "review_required_count":  0,
+                       "not_tested_count":  1,
+                       "error_count":  0
+                   },
+        "compliance_152":  {
+                               "status":  "review_required",
+                               "confidence":  "medium",
+                               "forms_total":  11,
+                               "forms_total_detected":  11,
+                               "forms_non_relevant":  0,
+                               "forms_with_required_consent":  11,
+                               "forms_with_any_required_checkbox":  11,
+                               "forms_with_policy_marker":  11,
+                               "forms_insecure_action":  0,
+                               "forms_non_post":  0,
+                               "forms_method_unknown":  10,
+                               "policy_candidates_checked":  8,
+                               "policy_candidates_ok":  2,
+                               "pages_sampled":  8,
+                               "pages_accessible":  1,
+                               "criteria":  [
+                                                {
+                                                    "id":  "pages_accessible",
+                                                    "title":  "Coverage of pages for screening",
+                                                    "status":  "review_required",
+                                                    "value":  "1/8",
+                                                    "evidence":  "/ -\u003e 200; /contacts -\u003e 404; /contact -\u003e 404; /zapis -\u003e 404; /appointment -\u003e 404; /feedback -\u003e 404"
+                                                },
+                                                {
+                                                    "id":  "forms_detected",
+                                                    "title":  "Forms detected",
+                                                    "status":  "pass",
+                                                    "value":  "11 relevant / 11 total",
+                                                    "evidence":  "forms_relevant=11; forms_total=11; forms_non_relevant=0"
+                                                },
+                                                {
+                                                    "id":  "required_consent_checkbox",
+                                                    "title":  "Required consent checkbox on forms",
+                                                    "status":  "pass",
+                                                    "value":  "11/11",
+                                                    "evidence":  "forms_with_required_consent=11; forms_with_any_required_checkbox=11; forms_relevant=11"
+                                                },
+                                                {
+                                                    "id":  "policy_marker_near_form",
+                                                    "title":  "Policy marker near form",
+                                                    "status":  "pass",
+                                                    "value":  "11/11",
+                                                    "evidence":  "forms_with_policy_marker=11; forms_total=11"
+                                                },
+                                                {
+                                                    "id":  "secure_form_action",
+                                                    "title":  "Secure form action (no HTTP)",
+                                                    "status":  "pass",
+                                                    "value":  "0 insecure",
+                                                    "evidence":  "forms_insecure_action=0"
+                                                },
+                                                {
+                                                    "id":  "post_method",
+                                                    "title":  "Form POST method",
+                                                    "status":  "review_required",
+                                                    "value":  "0 non_post; 10 unknown",
+                                                    "evidence":  "forms_non_post=0; forms_method_unknown=10; forms_relevant=11"
+                                                },
+                                                {
+                                                    "id":  "policy_page_reachable",
+                                                    "title":  "Policy page reachable",
+                                                    "status":  "pass",
+                                                    "value":  "2/8",
+                                                    "evidence":  "https://senseclinic.ru/document_politics.php -\u003e 404; https://senseclinic.ru/personal-data -\u003e 404; https://senseclinic.ru/policy -\u003e 200; https://senseclinic.ru/policy/ -\u003e 200"
+                                                }
+                                            ]
+                           },
+        "blocks":  [
+                       {
+                           "id":  "ssl_redirects",
+                           "name":  "SSL + redirects",
+                           "priority":  1,
+                           "score":  30,
+                           "status":  "ok",
+                           "confidence":  "high",
+                           "evidence_count":  5,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Visible immediately and easy to explain.",
+                           "findings_count":  2,
+                           "key_finding":  "HSTS is missing."
+                       },
+                       {
+                           "id":  "file_leaks",
+                           "name":  "File leaks",
+                           "priority":  2,
+                           "score":  60,
+                           "status":  "warning",
+                           "confidence":  "high",
+                           "evidence_count":  6,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Strong urgency when exposure is present.",
+                           "findings_count":  1,
+                           "key_finding":  "Sensitive files exposed: /wp-config.php."
+                       },
+                       {
+                           "id":  "open_admin",
+                           "name":  "Open admin and CMS exposure",
+                           "priority":  3,
+                           "score":  30,
+                           "status":  "ok",
+                           "confidence":  "high",
+                           "evidence_count":  3,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Clear and understandable for non-technical owner.",
+                           "findings_count":  1,
+                           "key_finding":  "/wp-admin/ returned 200."
+                       },
+                       {
+                           "id":  "security_headers",
+                           "name":  "Security headers",
+                           "priority":  4,
+                           "score":  28,
+                           "status":  "warning",
+                           "confidence":  "high",
+                           "evidence_count":  8,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Easy to benchmark with clear grade logic.",
+                           "findings_count":  2,
+                           "key_finding":  "Missing: Strict-Transport-Security, Content-Security-Policy."
+                       },
+                       {
+                           "id":  "forms_patient_data",
+                           "name":  "Forms and patient data",
+                           "priority":  5,
+                           "score":  10,
+                           "status":  "ok",
+                           "confidence":  "medium",
+                           "evidence_count":  27,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Direct legal/trust risk narrative.",
+                           "findings_count":  2,
+                           "key_finding":  "Forms without explicit method attribute: 10."
+                       },
+                       {
+                           "id":  "dns_email_protection",
+                           "name":  "DNS and email protection",
+                           "priority":  6,
+                           "score":  45,
+                           "status":  "warning",
+                           "confidence":  "medium",
+                           "evidence_count":  3,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Strong technical depth for demo.",
+                           "findings_count":  2,
+                           "key_finding":  "DMARC is missing."
+                       },
+                       {
+                           "id":  "third_party_scripts",
+                           "name":  "Third-party scripts",
+                           "priority":  7,
+                           "score":  14,
+                           "status":  "ok",
+                           "confidence":  "high",
+                           "evidence_count":  2,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Good advanced layer for upsell.",
+                           "findings_count":  1,
+                           "key_finding":  "External scripts without SRI: 2/2."
+                       },
+                       {
+                           "id":  "reputation_osint",
+                           "name":  "Reputation and OSINT",
+                           "priority":  8,
+                           "score":  0,
+                           "status":  "not_tested",
+                           "confidence":  "low",
+                           "evidence_count":  0,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Adds external trust context.",
+                           "findings_count":  1,
+                           "key_finding":  "Reputation APIs are not configured in quick mode."
+                       }
+                   ]
+    },
+    {
+        "site_id":  "arideo_su",
+        "domain":  "arideo.su",
+        "audit_timestamp_utc":  "2026-04-15T23:31:50.8264681Z",
+        "overall_score":  22.7,
+        "risk_band":  "low",
+        "free_offer_summary":  [
+                                   "Security headers: Missing: Content-Security-Policy, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy."
+                               ],
+        "triage":  {
+                       "next_action":  "no_offer_now",
+                       "reason":  "No strong confirmed issues in quick run.",
+                       "critical_count":  0,
+                       "review_required_count":  0,
+                       "not_tested_count":  1,
+                       "error_count":  0
+                   },
+        "compliance_152":  {
+                               "status":  "review_required",
+                               "confidence":  "high",
+                               "forms_total":  6,
+                               "forms_total_detected":  6,
+                               "forms_non_relevant":  0,
+                               "forms_with_required_consent":  0,
+                               "forms_with_any_required_checkbox":  0,
+                               "forms_with_policy_marker":  6,
+                               "forms_insecure_action":  0,
+                               "forms_non_post":  0,
+                               "forms_method_unknown":  6,
+                               "policy_candidates_checked":  8,
+                               "policy_candidates_ok":  1,
+                               "pages_sampled":  8,
+                               "pages_accessible":  2,
+                               "criteria":  [
+                                                {
+                                                    "id":  "pages_accessible",
+                                                    "title":  "Coverage of pages for screening",
+                                                    "status":  "pass",
+                                                    "value":  "2/8",
+                                                    "evidence":  "/ -\u003e 200; /contacts -\u003e 200; /contact -\u003e 404; /zapis -\u003e 404; /appointment -\u003e 404; /feedback -\u003e 404"
+                                                },
+                                                {
+                                                    "id":  "forms_detected",
+                                                    "title":  "Forms detected",
+                                                    "status":  "pass",
+                                                    "value":  "6 relevant / 6 total",
+                                                    "evidence":  "forms_relevant=6; forms_total=6; forms_non_relevant=0"
+                                                },
+                                                {
+                                                    "id":  "required_consent_checkbox",
+                                                    "title":  "Required consent checkbox on forms",
+                                                    "status":  "fail",
+                                                    "value":  "0/6",
+                                                    "evidence":  "forms_with_required_consent=0; forms_with_any_required_checkbox=0; forms_relevant=6"
+                                                },
+                                                {
+                                                    "id":  "policy_marker_near_form",
+                                                    "title":  "Policy marker near form",
+                                                    "status":  "pass",
+                                                    "value":  "6/6",
+                                                    "evidence":  "forms_with_policy_marker=6; forms_total=6"
+                                                },
+                                                {
+                                                    "id":  "secure_form_action",
+                                                    "title":  "Secure form action (no HTTP)",
+                                                    "status":  "pass",
+                                                    "value":  "0 insecure",
+                                                    "evidence":  "forms_insecure_action=0"
+                                                },
+                                                {
+                                                    "id":  "post_method",
+                                                    "title":  "Form POST method",
+                                                    "status":  "review_required",
+                                                    "value":  "0 non_post; 6 unknown",
+                                                    "evidence":  "forms_non_post=0; forms_method_unknown=6; forms_relevant=6"
+                                                },
+                                                {
+                                                    "id":  "policy_page_reachable",
+                                                    "title":  "Policy page reachable",
+                                                    "status":  "pass",
+                                                    "value":  "1/8",
+                                                    "evidence":  "https://arideo.su/agreement/ -\u003e 200; https://arideo.su/document_politics.php -\u003e 404; https://arideo.su/personal-data -\u003e 404; https://arideo.su/policy -\u003e 404"
+                                                }
+                                            ]
+                           },
+        "blocks":  [
+                       {
+                           "id":  "ssl_redirects",
+                           "name":  "SSL + redirects",
+                           "priority":  1,
+                           "score":  0,
+                           "status":  "ok",
+                           "confidence":  "high",
+                           "evidence_count":  5,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Visible immediately and easy to explain.",
+                           "findings_count":  0,
+                           "key_finding":  "No major SSL issue detected."
+                       },
+                       {
+                           "id":  "file_leaks",
+                           "name":  "File leaks",
+                           "priority":  2,
+                           "score":  0,
+                           "status":  "ok",
+                           "confidence":  "high",
+                           "evidence_count":  6,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Strong urgency when exposure is present.",
+                           "findings_count":  0,
+                           "key_finding":  "No sensitive file exposure in quick dictionary."
+                       },
+                       {
+                           "id":  "open_admin",
+                           "name":  "Open admin and CMS exposure",
+                           "priority":  3,
+                           "score":  30,
+                           "status":  "ok",
+                           "confidence":  "high",
+                           "evidence_count":  3,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Clear and understandable for non-technical owner.",
+                           "findings_count":  1,
+                           "key_finding":  "/bitrix/admin/ returned 200."
+                       },
+                       {
+                           "id":  "security_headers",
+                           "name":  "Security headers",
+                           "priority":  4,
+                           "score":  48,
+                           "status":  "warning",
+                           "confidence":  "high",
+                           "evidence_count":  8,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Easy to benchmark with clear grade logic.",
+                           "findings_count":  2,
+                           "key_finding":  "Missing: Content-Security-Policy, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy."
+                       },
+                       {
+                           "id":  "forms_patient_data",
+                           "name":  "Forms and patient data",
+                           "priority":  5,
+                           "score":  28,
+                           "status":  "ok",
+                           "confidence":  "high",
+                           "evidence_count":  22,
+                           "free_offer_visible":  true,
+                           "offer_reason":  "Direct legal/trust risk narrative.",
+                           "findings_count":  3,
+                           "key_finding":  "Required consent checkbox is inconsistent (0/6)."
+                       },
+                       {
+                           "id":  "dns_email_protection",
+                           "name":  "DNS and email protection",
+                           "priority":  6,
+                           "score":  45,
+                           "status":  "warning",
+                           "confidence":  "medium",
+                           "evidence_count":  3,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Strong technical depth for demo.",
+                           "findings_count":  2,
+                           "key_finding":  "DMARC is missing."
+                       },
+                       {
+                           "id":  "third_party_scripts",
+                           "name":  "Third-party scripts",
+                           "priority":  7,
+                           "score":  44,
+                           "status":  "warning",
+                           "confidence":  "high",
+                           "evidence_count":  7,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Good advanced layer for upsell.",
+                           "findings_count":  1,
+                           "key_finding":  "External scripts without SRI: 7/7."
+                       },
+                       {
+                           "id":  "reputation_osint",
+                           "name":  "Reputation and OSINT",
+                           "priority":  8,
+                           "score":  0,
+                           "status":  "not_tested",
+                           "confidence":  "low",
+                           "evidence_count":  0,
+                           "free_offer_visible":  false,
+                           "offer_reason":  "Adds external trust context.",
+                           "findings_count":  1,
+                           "key_finding":  "Reputation APIs are not configured in quick mode."
+                       }
+                   ]
+    }
+]

@@ -1,0 +1,212 @@
+﻿<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>152-ФЗ screening — dr-knyazkin.ru — 2026-04-15</title>
+  <style>
+    :root {
+      --bg: #0b1220;
+      --panel: #111a2e;
+      --line: #223252;
+      --text: #e6eefc;
+      --muted: #a8b8db;
+      --ok: #22c55e;
+      --warn: #f59e0b;
+      --fail: #ef4444;
+      --inc: #f59e0b;
+      --nc: #64748b;
+      --accent: #60a5fa;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: radial-gradient(circle at top left, #1a2850 0%, var(--bg) 45%);
+      color: var(--text);
+      font-family: "Segoe UI", Arial, sans-serif;
+      line-height: 1.45;
+    }
+    .wrap { max-width: 1180px; margin: 0 auto; padding: 24px; }
+    h1 { margin: 0 0 8px; font-size: 30px; }
+    h2 { margin: 24px 0 10px; font-size: 22px; }
+    h3 { margin: 18px 0 8px; font-size: 18px; }
+    .muted { color: var(--muted); }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(150px, 1fr));
+      gap: 12px;
+      margin: 16px 0;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px;
+    }
+    .k { font-size: 12px; color: var(--muted); margin-bottom: 6px; }
+    .v { font-size: 22px; font-weight: 700; }
+    .v.ok { color: var(--ok); }
+    .v.warn { color: var(--warn); }
+    .v.fail { color: var(--fail); }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 14px;
+      margin: 12px 0;
+    }
+    ul, ol { margin: 8px 0 0 20px; }
+    li { margin: 4px 0; }
+    code {
+      background: #0d1527;
+      border: 1px solid #1f2d49;
+      border-radius: 6px;
+      padding: 2px 6px;
+      color: #cfe2ff;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 900px;
+    }
+    th, td {
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      padding: 10px;
+      vertical-align: top;
+      font-size: 14px;
+    }
+    th {
+      color: #c9d9fb;
+      background: #121d35;
+      position: sticky;
+      top: 0;
+    }
+    .tbl-wrap {
+      overflow: auto;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: var(--panel);
+    }
+    .tag {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+      border: 1px solid var(--line);
+      background: #0f1830;
+    }
+    .pass { color: var(--ok); }
+    .partial { color: var(--warn); }
+    .fail { color: var(--fail); }
+    .inc { color: var(--inc); }
+    .nc { color: var(--nc); }
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Детальный 152‑ФЗ screening: <span style="color:#8fb6ff;">dr-knyazkin.ru</span></h1>
+    <div class="muted">Дата проверки: 2026-04-15 · Режим: пассивный аудит публичных данных</div>
+
+    <div class="grid">
+      <div class="card"><div class="k">Web-visible score</div><div class="v warn">48/100</div></div>
+      <div class="card"><div class="k">Риск</div><div class="v warn">medium-high</div></div>
+      <div class="card"><div class="k">Форм с обязательным consent</div><div class="v">4 / 7</div></div>
+      <div class="card"><div class="k">Ключевой gap</div><div class="v fail">consent-модель</div></div>
+    </div>
+
+    <div class="panel">
+      <strong>Важно:</strong> это технический compliance-screening по публичным артефактам сайта, а не юридическое заключение.
+    </div>
+
+    <h2>Ключевые факты</h2>
+    <div class="panel">
+      <ul>
+        <li>На главной обнаружено 7 web-форм, отправка через <code>POST</code>.</li>
+        <li>Обязательный consent checkbox обнаружен в 4 из 7 форм.</li>
+        <li>В 3 из 7 форм обязательный checkbox в пределах формы не найден.</li>
+        <li>Есть ссылки на <code>https://dr-knyazkin.ru/politika</code> и тексты согласия.</li>
+        <li>Политика на <code>/politika</code> содержит цели, категории субъектов и категорий ПДн, правовые основания.</li>
+        <li>Есть cookie-баннер и кнопка «Принять».</li>
+        <li>Подключена Яндекс.Метрика (<code>mc.yandex.ru/metrika/tag.js</code>), блокировка до consent требует ручной browser-проверки.</li>
+      </ul>
+    </div>
+
+    <h2>Матрица соответствия (152‑ФЗ)</h2>
+    <div class="tbl-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Критерий</th>
+            <th>Норма</th>
+            <th>Факт</th>
+            <th>Статус</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Политика обработки ПДн опубликована</td><td>152‑ФЗ ст. 18.1</td><td>Страница <code>/politika</code> доступна, содержит policy-текст</td><td><span class="tag pass">PASS</span></td></tr>
+          <tr><td>2</td><td>Указан оператор</td><td>152‑ФЗ ст. 18.1</td><td>ООО «Клиника Доктора Князькина»</td><td><span class="tag pass">PASS</span></td></tr>
+          <tr><td>3</td><td>Контакт для обращений субъектов по ПДн</td><td>152‑ФЗ ст. 14, 18.1</td><td>Явного выделенного канала/процедуры не видно</td><td><span class="tag fail">FAIL</span></td></tr>
+          <tr><td>4</td><td>Цели обработки описаны</td><td>152‑ФЗ ст. 5, 18.1</td><td>Цели перечислены</td><td><span class="tag pass">PASS</span></td></tr>
+          <tr><td>5</td><td>Категории субъектов описаны</td><td>152‑ФЗ ст. 18.1</td><td>Пациенты/работники/контрагенты</td><td><span class="tag pass">PASS</span></td></tr>
+          <tr><td>6</td><td>Категории ПДн описаны</td><td>152‑ФЗ ст. 18.1</td><td>Перечни ПДн указаны</td><td><span class="tag pass">PASS</span></td></tr>
+          <tr><td>7</td><td>Правовые основания перечислены</td><td>152‑ФЗ ст. 6, 10, 18.1</td><td>Указаны 152‑ФЗ, 323‑ФЗ и др.</td><td><span class="tag pass">PASS</span></td></tr>
+          <tr><td>8</td><td>Сроки хранения/обработки</td><td>152‑ФЗ ст. 5</td><td>Явно не найдены</td><td><span class="tag fail">FAIL</span></td></tr>
+          <tr><td>9</td><td>Порядок уничтожения/обезличивания</td><td>152‑ФЗ ст. 5, 21</td><td>Явно не найден</td><td><span class="tag fail">FAIL</span></td></tr>
+          <tr><td>10</td><td>Права субъекта + порядок реализации</td><td>152‑ФЗ ст. 14</td><td>Явного раздела не видно</td><td><span class="tag fail">FAIL</span></td></tr>
+          <tr><td>11</td><td>Порядок отзыва согласия</td><td>152‑ФЗ ст. 9</td><td>Явной процедуры не видно</td><td><span class="tag fail">FAIL</span></td></tr>
+          <tr><td>12</td><td>Третьи лица/обработчики по поручению</td><td>152‑ФЗ ст. 6, 9</td><td>Явно не описаны</td><td><span class="tag fail">FAIL</span></td></tr>
+          <tr><td>13</td><td>Трансграничная передача (если применяется)</td><td>152‑ФЗ ст. 12</td><td>Явного раздела не видно</td><td><span class="tag fail">FAIL</span></td></tr>
+          <tr><td>14</td><td>Локализация ПДн граждан РФ</td><td>152‑ФЗ ст. 18 ч.5</td><td>Явной формулировки нет</td><td><span class="tag fail">FAIL</span></td></tr>
+          <tr><td>15</td><td>Меры защиты ПДн на policy-уровне</td><td>152‑ФЗ ст. 19, 18.1</td><td>Явного раздела нет</td><td><span class="tag fail">FAIL</span></td></tr>
+          <tr><td>16</td><td>Версия/дата актуализации policy</td><td>Практика контроля</td><td>Явной даты версии не найдено</td><td><span class="tag fail">FAIL</span></td></tr>
+          <tr><td>17</td><td>Все формы с ПДн имеют обязательный consent checkbox</td><td>152‑ФЗ ст. 9</td><td>4/7 форм с required checkbox, 3/7 без</td><td><span class="tag fail">FAIL</span></td></tr>
+          <tr><td>18</td><td>Согласие оформлено отдельно от иных документов</td><td>152‑ФЗ ст. 9 (ред. 24.06.2025)</td><td>Отдельный развёрнутый consent-текст не подтвержден</td><td><span class="tag fail">FAIL</span></td></tr>
+          <tr><td>19</td><td>Ссылка на policy рядом с формами</td><td>152‑ФЗ ст. 18.1, 9</td><td>Есть минимум на ключевых формах</td><td><span class="tag partial">PARTIAL</span></td></tr>
+          <tr><td>20</td><td>Минимизация собираемых полей</td><td>152‑ФЗ ст. 5</td><td>В web-формах в основном имя+телефон</td><td><span class="tag pass">PASS</span></td></tr>
+          <tr><td>21</td><td>Передача форм по защищенному каналу</td><td>152‑ФЗ ст. 19</td><td>HTTPS + POST</td><td><span class="tag pass">PASS</span></td></tr>
+          <tr><td>22</td><td>Cookie-уведомление</td><td>privacy practice</td><td>Баннер присутствует</td><td><span class="tag pass">PASS</span></td></tr>
+          <tr><td>23</td><td>Аналитика блокируется до согласия</td><td>privacy best-practice</td><td>Нужен ручной browser test</td><td><span class="tag inc">INCONCLUSIVE</span></td></tr>
+          <tr><td>24</td><td>Уведомление РКН / запись в реестре операторов</td><td>152‑ФЗ ст. 22</td><td>Из внешнего аудита не подтверждено</td><td><span class="tag nc">NOT_CHECKED</span></td></tr>
+          <tr><td>25</td><td>Ответственное лицо по ПДн</td><td>152‑ФЗ ст. 22.1</td><td>Публично не подтверждено</td><td><span class="tag nc">NOT_CHECKED</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>P1 приоритеты</h2>
+    <div class="panel">
+      <ol>
+        <li>Унифицировать формы: обязательный consent checkbox на всех 7/7 форм.</li>
+        <li>Вынести отдельный документ «Согласие на обработку ПДн» и привязать к каждой форме.</li>
+        <li>Доработать policy: права субъекта, отзыв, сроки хранения, уничтожение, передача/поручение, локализация.</li>
+      </ol>
+    </div>
+
+    <h2>План действий</h2>
+    <div class="panel">
+      <ul>
+        <li><b>0-3 дня:</b> все формы привести к единому consent-паттерну.</li>
+        <li><b>3-7 дней:</b> обновить структуру policy до полного минимального стандарта.</li>
+        <li><b>7-14 дней:</b> закрыть governance-часть (ст.22/22.1, журнал доказательств consent).</li>
+      </ul>
+    </div>
+
+    <h2>Источники</h2>
+    <div class="panel">
+      <ul>
+        <li>Снимок главной: <code>data/raw/dr-knyazkin_ru/http/home_152.html</code></li>
+        <li>Разбор главной: <code>data/raw/dr-knyazkin_ru/http/home_152_pretty.txt</code></li>
+        <li>Политика: <a href="https://dr-knyazkin.ru/politika">https://dr-knyazkin.ru/politika</a></li>
+        <li>152‑ФЗ (КонсультантПлюс): <a href="https://www.consultant.ru/document/cons_doc_LAW_61801/">структура закона</a></li>
+        <li>Ст. 9 (согласие): <a href="https://www.consultant.ru/document/cons_doc_LAW_61801/6c94959bc017ac80140621762d2ac59f6006b08c/">ссылка</a></li>
+        <li>Ст. 10 (спецкатегории): <a href="https://www.consultant.ru/document/cons_doc_LAW_61801/26edb2934b899bf9c74c3a8f7e574651c6565e6d/">ссылка</a></li>
+        <li>Ст. 19 (меры защиты): <a href="https://www.consultant.ru/document/cons_doc_LAW_61801/ca9e5658710519f09ab2fdb8196fcb3eb024a051/">ссылка</a></li>
+        <li>Ст. 22.1 (ответственное лицо): <a href="https://www.consultant.ru/document/cons_doc_LAW_61801/ac39e94238689d353ef880365b6b400140aa1d2d/">ссылка</a></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

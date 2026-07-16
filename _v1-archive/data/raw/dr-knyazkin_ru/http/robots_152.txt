@@ -1,0 +1,26 @@
+﻿User-Agent: *
+Disallow: /page16314182.html
+Disallow: /hutieva
+Disallow: /page38762435.html
+Disallow: /mapsitehtml
+Disallow: /page16219336.html
+Disallow: /header
+Disallow: /page16228467.html
+Disallow: /page20156176.html
+Disallow: /error
+Disallow: /page16244367.html
+Disallow: /thanks
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow: /tilda/cart*
+Disallow: /tilda/product*
+Disallow: /tilda/event*
+Disallow:
+
+
+Sitemap: https://dr-knyazkin.ru/sitemap.xml
+Sitemap: https://dr-knyazkin.ru/sitemap-store.xml
+Sitemap: https://dr-knyazkin.ru/sitemap-feeds.xml

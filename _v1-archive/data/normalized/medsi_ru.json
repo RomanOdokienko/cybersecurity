@@ -1,0 +1,193 @@
+﻿{
+    "site_id":  "medsi_ru",
+    "domain":  "medsi.ru",
+    "audit_timestamp_utc":  "2026-04-16T00:07:50.2962097Z",
+    "overall_score":  22,
+    "risk_band":  "low",
+    "free_offer_summary":  [
+                               "File leaks: Sensitive files exposed: /.git/config.",
+                               "Security headers: Missing: Content-Security-Policy, Referrer-Policy, Permissions-Policy."
+                           ],
+    "triage":  {
+                   "next_action":  "agent_review",
+                   "reason":  "Some blocks require manual validation.",
+                   "critical_count":  0,
+                   "review_required_count":  1,
+                   "not_tested_count":  1,
+                   "error_count":  0
+               },
+    "compliance_152":  {
+                           "status":  "review_required",
+                           "confidence":  "medium",
+                           "forms_total":  0,
+                           "forms_total_detected":  2,
+                           "forms_non_relevant":  2,
+                           "forms_with_required_consent":  0,
+                           "forms_with_any_required_checkbox":  0,
+                           "forms_with_policy_marker":  0,
+                           "forms_insecure_action":  0,
+                           "forms_non_post":  0,
+                           "forms_method_unknown":  0,
+                           "policy_candidates_checked":  8,
+                           "policy_candidates_ok":  3,
+                           "pages_sampled":  8,
+                           "pages_accessible":  1,
+                           "criteria":  [
+                                            {
+                                                "id":  "pages_accessible",
+                                                "title":  "Coverage of pages for screening",
+                                                "status":  "review_required",
+                                                "value":  "1/8",
+                                                "evidence":  "/ -\u003e 200; /contacts -\u003e 404; /contact -\u003e 404; /zapis -\u003e 404; /appointment -\u003e 404; /feedback -\u003e 404"
+                                            },
+                                            {
+                                                "id":  "forms_detected",
+                                                "title":  "Forms detected",
+                                                "status":  "review_required",
+                                                "value":  "0 relevant / 2 total",
+                                                "evidence":  "forms_relevant=0; forms_total=2; forms_non_relevant=2"
+                                            },
+                                            {
+                                                "id":  "required_consent_checkbox",
+                                                "title":  "Required consent checkbox on forms",
+                                                "status":  "not_observable",
+                                                "value":  "0/0",
+                                                "evidence":  "forms_with_required_consent=0; forms_with_any_required_checkbox=0; forms_relevant=0"
+                                            },
+                                            {
+                                                "id":  "policy_marker_near_form",
+                                                "title":  "Policy marker near form",
+                                                "status":  "not_observable",
+                                                "value":  "0/0",
+                                                "evidence":  "forms_with_policy_marker=0; forms_total=0"
+                                            },
+                                            {
+                                                "id":  "secure_form_action",
+                                                "title":  "Secure form action (no HTTP)",
+                                                "status":  "not_observable",
+                                                "value":  "0 insecure",
+                                                "evidence":  "forms_insecure_action=0"
+                                            },
+                                            {
+                                                "id":  "post_method",
+                                                "title":  "Form POST method",
+                                                "status":  "not_observable",
+                                                "value":  "0 non_post; 0 unknown",
+                                                "evidence":  "forms_non_post=0; forms_method_unknown=0; forms_relevant=0"
+                                            },
+                                            {
+                                                "id":  "policy_page_reachable",
+                                                "title":  "Policy page reachable",
+                                                "status":  "pass",
+                                                "value":  "3/8",
+                                                "evidence":  "https://medsi.ru/document.php?element=104166116 -\u003e 200; https://medsi.ru/document.php?element=11431 -\u003e 200; https://medsi.ru/document_politics.php -\u003e 200; https://medsi.ru/personal-data -\u003e 404"
+                                            }
+                                        ]
+                       },
+    "blocks":  [
+                   {
+                       "id":  "ssl_redirects",
+                       "name":  "SSL + redirects",
+                       "priority":  1,
+                       "score":  15,
+                       "status":  "ok",
+                       "confidence":  "high",
+                       "evidence_count":  5,
+                       "free_offer_visible":  true,
+                       "offer_reason":  "Visible immediately and easy to explain.",
+                       "findings_count":  1,
+                       "key_finding":  "Mixed content detected (2)."
+                   },
+                   {
+                       "id":  "file_leaks",
+                       "name":  "File leaks",
+                       "priority":  2,
+                       "score":  60,
+                       "status":  "warning",
+                       "confidence":  "high",
+                       "evidence_count":  6,
+                       "free_offer_visible":  true,
+                       "offer_reason":  "Strong urgency when exposure is present.",
+                       "findings_count":  1,
+                       "key_finding":  "Sensitive files exposed: /.git/config."
+                   },
+                   {
+                       "id":  "open_admin",
+                       "name":  "Open admin and CMS exposure",
+                       "priority":  3,
+                       "score":  0,
+                       "status":  "ok",
+                       "confidence":  "high",
+                       "evidence_count":  3,
+                       "free_offer_visible":  true,
+                       "offer_reason":  "Clear and understandable for non-technical owner.",
+                       "findings_count":  0,
+                       "key_finding":  "No strong admin/CMS exposure signal."
+                   },
+                   {
+                       "id":  "security_headers",
+                       "name":  "Security headers",
+                       "priority":  4,
+                       "score":  20,
+                       "status":  "warning",
+                       "confidence":  "high",
+                       "evidence_count":  8,
+                       "free_offer_visible":  true,
+                       "offer_reason":  "Easy to benchmark with clear grade logic.",
+                       "findings_count":  1,
+                       "key_finding":  "Missing: Content-Security-Policy, Referrer-Policy, Permissions-Policy."
+                   },
+                   {
+                       "id":  "forms_patient_data",
+                       "name":  "Forms and patient data",
+                       "priority":  5,
+                       "score":  0,
+                       "status":  "review_required",
+                       "confidence":  "medium",
+                       "evidence_count":  16,
+                       "free_offer_visible":  true,
+                       "offer_reason":  "Direct legal/trust risk narrative.",
+                       "findings_count":  1,
+                       "key_finding":  "Only utility/non-personal forms were found on sampled pages (2 total, 0 relevant)."
+                   },
+                   {
+                       "id":  "dns_email_protection",
+                       "name":  "DNS and email protection",
+                       "priority":  6,
+                       "score":  30,
+                       "status":  "ok",
+                       "confidence":  "medium",
+                       "evidence_count":  3,
+                       "free_offer_visible":  false,
+                       "offer_reason":  "Strong technical depth for demo.",
+                       "findings_count":  2,
+                       "key_finding":  "DMARC policy is p=none."
+                   },
+                   {
+                       "id":  "third_party_scripts",
+                       "name":  "Third-party scripts",
+                       "priority":  7,
+                       "score":  51,
+                       "status":  "warning",
+                       "confidence":  "high",
+                       "evidence_count":  3,
+                       "free_offer_visible":  false,
+                       "offer_reason":  "Good advanced layer for upsell.",
+                       "findings_count":  2,
+                       "key_finding":  "External scripts without SRI: 3/3."
+                   },
+                   {
+                       "id":  "reputation_osint",
+                       "name":  "Reputation and OSINT",
+                       "priority":  8,
+                       "score":  0,
+                       "status":  "not_tested",
+                       "confidence":  "low",
+                       "evidence_count":  0,
+                       "free_offer_visible":  false,
+                       "offer_reason":  "Adds external trust context.",
+                       "findings_count":  1,
+                       "key_finding":  "Reputation APIs are not configured in quick mode."
+                   }
+               ]
+}

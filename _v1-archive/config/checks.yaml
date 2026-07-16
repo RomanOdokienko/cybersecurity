@@ -1,0 +1,85 @@
+version: "1.0"
+execution_mode: "single_site"
+profile: "passive_public_data_only"
+
+blocks:
+  - id: "ssl_redirects"
+    name: "SSL + redirects"
+    priority: 1
+    free_offer_default: true
+    checks:
+      - id: "tls_cert_valid"
+      - id: "tls_cert_expiry_days"
+      - id: "http_to_https_redirect"
+      - id: "hsts_presence"
+      - id: "mixed_content_public_page"
+
+  - id: "file_leaks"
+    name: "File leaks"
+    priority: 2
+    free_offer_default: true
+    checks:
+      - id: "sensitive_path_status"
+      - id: "directory_listing_indicator"
+
+  - id: "open_admin"
+    name: "Open admin and CMS exposure"
+    priority: 3
+    free_offer_default: true
+    checks:
+      - id: "cms_fingerprint_public"
+      - id: "admin_endpoint_exposure"
+      - id: "public_version_leakage"
+
+  - id: "security_headers"
+    name: "Security headers"
+    priority: 4
+    free_offer_default: true
+    checks:
+      - id: "hsts_header"
+      - id: "csp_header"
+      - id: "x_frame_options"
+      - id: "x_content_type_options"
+      - id: "referrer_policy"
+      - id: "permissions_policy"
+      - id: "server_header_disclosure"
+      - id: "x_powered_by_disclosure"
+
+  - id: "forms_patient_data"
+    name: "Forms and patient data"
+    priority: 5
+    free_offer_default: true
+    checks:
+      - id: "form_action_https"
+      - id: "privacy_policy_near_form"
+      - id: "captcha_or_honeypot"
+      - id: "cookie_banner_present"
+
+  - id: "dns_email_protection"
+    name: "DNS and email protection"
+    priority: 6
+    free_offer_default: false
+    checks:
+      - id: "spf_presence_and_policy"
+      - id: "dmarc_presence_and_policy"
+      - id: "dkim_selector_presence"
+      - id: "mta_sts_presence"
+      - id: "tls_rpt_presence"
+
+  - id: "third_party_scripts"
+    name: "Third-party scripts"
+    priority: 7
+    free_offer_default: false
+    checks:
+      - id: "external_script_domain_inventory"
+      - id: "outdated_js_library_indicator"
+      - id: "sri_integrity_coverage"
+
+  - id: "reputation_osint"
+    name: "Reputation and OSINT"
+    priority: 8
+    free_offer_default: false
+    checks:
+      - id: "safe_browsing_status"
+      - id: "virustotal_summary"
+      - id: "archive_snapshot_signals"
